@@ -1,6 +1,6 @@
 # IRI Fall 2026 | Complex-construct preprocessing (Week 1)
 
-**Status (2026-10-28):** T01–T03 drafts aligned to the actual `4-week workflow.xlsx` calendar. T04 local Git repository and reproducible metadata-only environment implemented. **No model or biological data processing has been run.**
+**Status (2026-10-28):** T01–T03 drafts aligned to the actual `4-week workflow.xlsx` calendar. T04 reproducible metadata-only environment and private GitHub repository implemented. **No model or biological data processing has been run.**
 
 ## Research question
 
@@ -15,9 +15,9 @@ The IRI proposal frames this as an approximately **80-hour integration/evaluatio
 | T01 | Write MVP question, scope, and acceptance criteria | [T01 scope and acceptance](docs/week1/T01_scope_and_acceptance.md) | Draft awaiting agreement |
 | T02 | Set public-data and safety rules | [T02 governance checklist](docs/week1/T02_data_governance.md) | Draft awaiting approval |
 | T03 | Define construct archetypes and normalized output schema | [T03 schema](docs/week1/T03_archetypes_and_schema.md), [three fictional examples](data/examples/) | Draft awaiting pilot review |
-| T04 | Create repository and reproducible environment | [T04 setup](docs/week1/T04_repository_setup.md), config, smoke test and unit tests | Done locally; not hosted |
+| T04 | Create repository and reproducible environment | [T04 setup](docs/week1/T04_repository_setup.md), config, smoke test and unit tests | Done; hosted privately with passing CI |
 
-[Week 1 status and evidence](docs/week1/STATUS.md) | [Source bibliography](docs/references.md)
+[Four-week workflow with progress notes](planning/4-week-workflow.xlsx)
 
 ## Reproducible quick start (Python 3.10+, no packages to download)
 
@@ -32,14 +32,14 @@ The smoke check reads `config/default.json`, validates a **fictional metadata-on
 ## Project layout
 
 - `docs/week1/` — exact-calendar T01–T04 drafts and task status.
-- `docs/background/` — earlier literature review and evaluation ideas, **supplementary**, not the official T02/T03 deliverables.
+- `planning/4-week-workflow.xlsx` — four-week planning workbook, including dated notes for T01–T28 and current task statuses.
 - `config/default.json` — checked-in defaults; no secrets or per-machine credentials.
 - `data/manifests/` — fictional example inventory in CSV format, with provenance/review gate columns.
 - `data/examples/` — three schematic examples of the normalized output schema, with no biological sequences.
 - `src/iri_constructs/` — standard-library metadata and configuration validators.
 - `scripts/smoke_test.py` and `tests/` — local and CI checks.
-- `.github/workflows/ci.yml` — Python tests on push and pull request if a GitHub remote is later used.
+- `.github/workflows/ci.yml` — Python tests on push and pull request; latest verified run passed.
 
 ## Boundaries and limitations
 
-Only approved public benign records may be used for the future benchmark. Do not commit sequences, restricted or customer data, or secrets. Protein- and DNA-specific interfaces must be confirmed in later T05; labels and coordinates may be unknown. T04 is local Git only—there is no connected GitHub remote. Early schema examples are fictional and establish structure, not biological correctness or model performance.
+Only approved public benign records may be used for the future benchmark. Do not commit sequences, restricted or customer data, or secrets. Protein- and DNA-specific interfaces must be confirmed in later T05; labels and coordinates may be unknown. T04 is hosted in a private GitHub repository with a passing CI run. Early schema examples are fictional and establish structure, not biological correctness or model performance.
