@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.1",
+  "construct": {
+    "construct_id": "fictional-multi-002",
+    "source": "fictional_schematic",
+    "source_url": "https://example.invalid/iri/fictional-multi-002",
+    "accession": "NOT_REAL",
+    "accession_version": "0",
+    "sequence_length_nt": 4800,
+    "topology": "circular",
+    "primary_archetype": "multi_cds",
+    "secondary_archetypes": [
+      "tagged_fusion"
+    ],
+    "annotation_status": "known",
+    "license_note": "Fictional illustration: no external source license applicable",
+    "review_note": "Hypothetical metadata; not a real construct or ground truth"
+  },
+  "features": [
+    {
+      "feature_id": "fictional-multi-002-f01",
+      "construct_id": "fictional-multi-002",
+      "feature_label": "CDS",
+      "display_name": "fictional benign reporter A with annotated tag",
+      "location": {
+        "start0": 300,
+        "end0": 1500,
+        "strand": 1
+      },
+      "annotation_source": "fictional annotation supplied for schema example",
+      "annotation_status": "known"
+    },
+    {
+      "feature_id": "fictional-multi-002-f02",
+      "construct_id": "fictional-multi-002",
+      "feature_label": "tag",
+      "display_name": "hypothetical affinity tag region (part of reporter A CDS)",
+      "location": {
+        "start0": 1370,
+        "end0": 1490,
+        "strand": 1
+      },
+      "annotation_source": "fictional annotation supplied for schema example",
+      "annotation_status": "known"
+    },
+    {
+      "feature_id": "fictional-multi-002-f03",
+      "construct_id": "fictional-multi-002",
+      "feature_label": "CDS",
+      "display_name": "fictional benign reporter B",
+      "location": {
+        "start0": 1800,
+        "end0": 3000,
+        "strand": 1
+      },
+      "annotation_source": "fictional annotation supplied for schema example",
+      "annotation_status": "known"
+    }
+  ],
+  "units": [
+    {
+      "unit_id": "fictional-multi-002-u01",
+      "construct_id": "fictional-multi-002",
+      "feature_ids": [
+        "fictional-multi-002-f01",
+        "fictional-multi-002-f02"
+      ],
+      "source_segments": [
+        {
+          "start0": 300,
+          "end0": 1500,
+          "strand": 1
+        }
+      ],
+      "molecule_type": "protein",
+      "model_input_status": "pending_model_selection",
+      "representation_note": "Preserve tag overlap as an annotation; no novel protein assembled."
+    },
+    {
+      "unit_id": "fictional-multi-002-u02",
+      "construct_id": "fictional-multi-002",
+      "feature_ids": [
+        "fictional-multi-002-f03"
+      ],
+      "source_segments": [
+        {
+          "start0": 1800,
+          "end0": 3000,
+          "strand": 1
+        }
+      ],
+      "molecule_type": "protein",
+      "model_input_status": "pending_model_selection",
+      "representation_note": "Second existing coding annotation; no sequence supplied."
+    }
+  ]
+}
