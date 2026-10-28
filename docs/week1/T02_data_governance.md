@@ -1,6 +1,8 @@
 # T02 | Public-data and safety rules
 
-**Week:** 1  |  **Budget:** 1 hour  |  **Status:** Draft policy / checklist for review  |  **Prerequisite:** T01  |  **Calendar source:** `Weekly To-Dos!A6:K6`.
+**Week:** 1  |  **Budget:** 1 hour  |  **Status:** Approved — finalized policy v1.0 (2026-10-28)  |  **Prerequisite:** T01  |  **Calendar source:** `Weekly To-Dos!A6:K6`.
+
+**Approval record:** User approved the written governance policy on 2026-10-28. This version is the current baseline for source selection, provenance, license and biosafety review. Future amendments should be versioned and documented; this approval does **not** approve any specific sequence, accession, dataset, source license, or release. The checklist below remains unchecked because each entry must be applied independently to each future candidate record in T06/T08.
 
 ## Purpose and permissible data
 
@@ -46,6 +48,6 @@ Use **only public, benign synthetic construct records** for an evaluation of ann
 5. For duplicates and shared backbone records, track linkage and avoid presenting highly overlapping entries as independent observations.
 6. Freeze reviewed manifest version and label policy before downstream evaluation; save change history and reasons for rejected cases.
 
-**T02 done when:** A reviewer approves these rules and the manifest fields, and the same checklist is applied to every candidate in T06/T08. No real accession, legal permission, or biological classification has yet been verified here.
+**T02 policy milestone — done (2026-10-28):** The written rules and manifest fields have been approved as v1.0. **Operational application remains pending:** T06/T08 must apply every applicable check to each proposed record before any candidate enters a scored dataset. No real accession, source permission, biological classification, or record-level inclusion decision has been verified here.
 
 **Source basis:** IRI proposal, p. 2 (public Addgene/NCBI examples; no proprietary/customer data); four-week workflow `Overview`, `Weekly To-Dos` T02/T06/T08 and `MVP Criteria` SCOPE-01. The papers provided with the project discuss screening research; they are not a license to obtain or publish their restricted datasets.

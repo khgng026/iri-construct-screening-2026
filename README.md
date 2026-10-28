@@ -1,6 +1,6 @@
 # IRI Fall 2026 | Complex-construct preprocessing (Week 1)
 
-**Status (2026-10-28):** T01–T03 drafts aligned to the actual `4-week workflow.xlsx` calendar. T04 reproducible metadata-only environment and private GitHub repository implemented. **No model or biological data processing has been run.**
+**Status (2026-10-28):** T01 and T03 remain drafts aligned to the actual `4-week workflow.xlsx` calendar; T02 data-governance policy v1.0 is approved. T04 reproducible metadata-only environment and private GitHub repository implemented. **No model or biological data processing has been run.**
 
 ## Research question
 
@@ -13,7 +13,7 @@ The IRI proposal frames this as an approximately **80-hour integration/evaluatio
 | ID | Calendar task | Artifact | Status |
 | --- | --- | --- | --- |
 | T01 | Write MVP question, scope, and acceptance criteria | [T01 scope and acceptance](docs/week1/T01_scope_and_acceptance.md) | Draft awaiting agreement |
-| T02 | Set public-data and safety rules | [T02 governance checklist](docs/week1/T02_data_governance.md) | Draft awaiting approval |
+| T02 | Set public-data and safety rules | [T02 governance checklist](docs/week1/T02_data_governance.md) | Approved (policy v1.0, 2026-10-28); record-by-record reviews pending T06/T08 |
 | T03 | Define construct archetypes and normalized output schema | [T03 schema](docs/week1/T03_archetypes_and_schema.md), [three fictional examples](data/examples/) | Draft awaiting pilot review |
 | T04 | Create repository and reproducible environment | [T04 setup](docs/week1/T04_repository_setup.md), config, smoke test and unit tests | Done; hosted privately with passing CI |
 
@@ -42,4 +42,4 @@ The smoke check reads `config/default.json`, validates a **fictional metadata-on
 
 ## Boundaries and limitations
 
-Only approved public benign records may be used for the future benchmark. Do not commit sequences, restricted or customer data, or secrets. Protein- and DNA-specific interfaces must be confirmed in later T05; labels and coordinates may be unknown. T04 is hosted in a private GitHub repository with a passing CI run. Early schema examples are fictional and establish structure, not biological correctness or model performance.
+The T02 public-data and safety policy is approved; approval of individual records, permissions, and dataset releases remains future work. Only approved public benign records may be used for the future benchmark. Do not commit sequences, restricted or customer data, or secrets. Protein- and DNA-specific interfaces must be confirmed in later T05; labels and coordinates may be unknown. T04 is hosted in a private GitHub repository with a passing CI run. Early schema examples are fictional and establish structure, not biological correctness or model performance.
