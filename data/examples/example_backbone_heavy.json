@@ -1,0 +1,106 @@
+{
+  "schema_version": "0.1",
+  "construct": {
+    "construct_id": "fictional-backbone-003",
+    "source": "fictional_schematic",
+    "source_url": "https://example.invalid/iri/fictional-backbone-003",
+    "accession": "NOT_REAL",
+    "accession_version": "0",
+    "sequence_length_nt": 6000,
+    "topology": "circular",
+    "primary_archetype": "backbone_heavy",
+    "secondary_archetypes": [],
+    "annotation_status": "known",
+    "license_note": "Fictional illustration: no external source license applicable",
+    "review_note": "Hypothetical metadata; not a real construct or ground truth"
+  },
+  "features": [
+    {
+      "feature_id": "fictional-backbone-003-f01",
+      "construct_id": "fictional-backbone-003",
+      "feature_label": "selection_marker",
+      "display_name": "hypothetical routine selection cassette",
+      "location": {
+        "start0": 1000,
+        "end0": 1800,
+        "strand": 1
+      },
+      "annotation_source": "fictional annotation supplied for schema example",
+      "annotation_status": "known"
+    },
+    {
+      "feature_id": "fictional-backbone-003-f02",
+      "construct_id": "fictional-backbone-003",
+      "feature_label": "backbone",
+      "display_name": "generic vector backbone",
+      "location": {
+        "start0": 2000,
+        "end0": 5500,
+        "strand": 1
+      },
+      "annotation_source": "fictional annotation supplied for schema example",
+      "annotation_status": "known"
+    },
+    {
+      "feature_id": "fictional-backbone-003-f03",
+      "construct_id": "fictional-backbone-003",
+      "feature_label": "promoter",
+      "display_name": null,
+      "location": {
+        "start0": null,
+        "end0": null,
+        "strand": null
+      },
+      "annotation_source": "fictional annotation supplied for schema example",
+      "annotation_status": "unknown",
+      "ambiguity_note": "Source feature label provided but coordinates are absent."
+    }
+  ],
+  "units": [
+    {
+      "unit_id": "fictional-backbone-003-u01",
+      "construct_id": "fictional-backbone-003",
+      "feature_ids": [
+        "fictional-backbone-003-f01"
+      ],
+      "source_segments": [
+        {
+          "start0": 1000,
+          "end0": 1800,
+          "strand": 1
+        }
+      ],
+      "molecule_type": "protein",
+      "model_input_status": "pending_model_selection",
+      "representation_note": "Protein-compatible only if verified as coding and supported by model."
+    },
+    {
+      "unit_id": "fictional-backbone-003-u02",
+      "construct_id": "fictional-backbone-003",
+      "feature_ids": [
+        "fictional-backbone-003-f02"
+      ],
+      "source_segments": [
+        {
+          "start0": 2000,
+          "end0": 5500,
+          "strand": 1
+        }
+      ],
+      "molecule_type": "metadata_only",
+      "model_input_status": "unsupported",
+      "representation_note": "Backbone is not a protein sequence for protein-only models."
+    },
+    {
+      "unit_id": "fictional-backbone-003-u03",
+      "construct_id": "fictional-backbone-003",
+      "feature_ids": [
+        "fictional-backbone-003-f03"
+      ],
+      "source_segments": [],
+      "molecule_type": "metadata_only",
+      "model_input_status": "needs_review",
+      "representation_note": "Unknown promoter coordinates; preserve annotation without extraction."
+    }
+  ]
+}
