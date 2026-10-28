@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+
+# Local secrets, files, and working datasets
+.env
+.env.*
+!.env.example
+*.fasta
+*.fa
+*.fna
+*.fastq
+*.fq
+*.gb
+*.gbk
+*.genbank
+*.gff
+*.gff3
+*.bam
+*.sam
+*.pkl
+*.parquet
+*.sqlite
+*.db
+/data/raw/
+/data/processed/
+/data/exports/
+/results/*
+!/results/README.md
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
