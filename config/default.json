@@ -1,0 +1,6 @@
+{
+  "project": "iri-constructs",
+  "manifest": "data/manifests/example_benign_manifest.csv",
+  "log_level": "INFO",
+  "schema_examples": "data/examples"
+}
