@@ -1,0 +1,2 @@
+record_id,source,source_url,accession,accession_version,archetype,sequence_length_nt,feature_count,annotation_status,review_status,licensing_status,safety_review,retrieved_on,checksum_sha256,notes
+example-001,placeholder,https://example.org/record/example-001,NOT_REAL,1,single_cds,1000,2,pending,pending,pending,pending,2026-10-28,,Abstract metadata example only; not a real construct
