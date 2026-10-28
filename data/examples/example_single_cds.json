@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1",
+  "construct": {
+    "construct_id": "fictional-single-001",
+    "source": "fictional_schematic",
+    "source_url": "https://example.invalid/iri/fictional-single-001",
+    "accession": "NOT_REAL",
+    "accession_version": "0",
+    "sequence_length_nt": 2200,
+    "topology": "circular",
+    "primary_archetype": "single_cds",
+    "secondary_archetypes": [],
+    "annotation_status": "known",
+    "license_note": "Fictional illustration: no external source license applicable",
+    "review_note": "Hypothetical metadata; not a real construct or ground truth"
+  },
+  "features": [
+    {
+      "feature_id": "fictional-single-001-f01",
+      "construct_id": "fictional-single-001",
+      "feature_label": "CDS",
+      "display_name": "hypothetical benign fluorescent reporter",
+      "location": {
+        "start0": 200,
+        "end0": 1100,
+        "strand": 1
+      },
+      "annotation_source": "fictional annotation supplied for schema example",
+      "annotation_status": "known"
+    }
+  ],
+  "units": [
+    {
+      "unit_id": "fictional-single-001-u01",
+      "construct_id": "fictional-single-001",
+      "feature_ids": [
+        "fictional-single-001-f01"
+      ],
+      "source_segments": [
+        {
+          "start0": 200,
+          "end0": 1100,
+          "strand": 1
+        }
+      ],
+      "molecule_type": "protein",
+      "model_input_status": "pending_model_selection",
+      "representation_note": "Translate only if source and chosen model support this coding feature; no sequence provided."
+    }
+  ]
+}
