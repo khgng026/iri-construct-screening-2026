@@ -1,0 +1,41 @@
+{
+  "design_version": "t05-fixed-v1",
+  "queries": [
+    {
+      "id": "clean_gfp",
+      "components": [
+        "P42212"
+      ],
+      "target": "P42212",
+      "artificial": false
+    },
+    {
+      "id": "gfp_pgk",
+      "components": [
+        "P42212",
+        "P00560"
+      ],
+      "target": "P42212",
+      "artificial": true
+    },
+    {
+      "id": "pgk_gfp",
+      "components": [
+        "P00560",
+        "P42212"
+      ],
+      "target": "P42212",
+      "artificial": true
+    },
+    {
+      "id": "gfp_pgk_adh",
+      "components": [
+        "P42212",
+        "P00560",
+        "P00330"
+      ],
+      "target": "P42212",
+      "artificial": true
+    }
+  ]
+}
