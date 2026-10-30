@@ -1,6 +1,6 @@
 # IRI Fall 2026 | Complex-construct preprocessing (Week 1)
 
-**Local T05 update (2026-10-29):** the independent benign ESM-2 8M experiment now runs end to end. See the [observed report](docs/week1/T05_report.md), [rerun instructions](docs/week1/T05_rerun.md), and [design fixed before inference](docs/week1/T05_design.md). This local branch was imported from a Safari source ZIP at upstream commit `685df3d451aada1b5bd13cd347c0144c0dd274c5`; it is not a full clone of upstream history. No push or pull request has been made. The original T04 status below is historical.
+**Local T05 update (2026-10-29):** the independent benign ESM-2 8M experiment now runs end to end. See the [observed report](docs/week1/T05_report.md), [rerun instructions](docs/week1/T05_rerun.md), and [design fixed before inference](docs/week1/T05_design.md). GitHub access through VS Code is now working. This local branch contains all 27 upstream commits through `685df3d451aada1b5bd13cd347c0144c0dd274c5`, followed by our T05 changes. No push or pull request has been made. The original T04 status below is historical.
 
 **Status (2026-10-28):** T01 and T03 remain drafts aligned to the actual `4-week workflow.xlsx` calendar; T02 data-governance policy v1.0 is approved. T04 reproducible metadata-only environment and private GitHub repository implemented. **No model or biological data processing has been run.**
 

@@ -69,25 +69,30 @@ contains no sequences. Timing includes model setup, checks and output operations
 inside `run`, but excludes downloads and the CLI's initial Python/Torch imports;
 model load and forward timings are recorded separately.
 
-## Git: what happened locally
+## Git: current local setup
 
-Terminal could not authenticate a normal private-repository `git clone`. Safari
-downloaded the source ZIP; its unchanged files became local baseline `imported-main`
-(commit `2969374`). The upstream snapshot was
-`685df3d451aada1b5bd13cd347c0144c0dd274c5`. No repository `AGENTS.md` was present.
-The earlier `meeting-starter/` folder was left untouched.
+VS Code successfully cloned the private repository using the existing `csmaxxer`
+GitHub account on 2026-10-29. All **27 upstream commits** are now present in this
+same working folder. Our three T05 commits were replayed onto the authentic
+upstream history without changing their file contents. No data or results moved.
 
-- **Clone:** normally copies files plus Git history. This ZIP-based copy has local history only.
-- **Branch:** `rudra/t05-esm2-benign-pilot` is our separate line of changes.
-- **Commit:** a local checkpoint. `2562106` fixed the design before inference.
+- **Clone:** copies files plus Git history. The initial Safari ZIP workaround has now been replaced with the complete upstream history.
+- **Branch:** `rudra/t05-esm2-benign-pilot` contains our T05 changes; `main` matches `origin/main`.
+- **Commit:** a local checkpoint. The replayed T05 checkpoints are `ef4fd9f`, `89f11ec`, and `376382f`; a later documentation commit records this Git migration.
 - **Pull request:** an online request to review/merge a branch. None was created.
 
-`git status`, `git log --oneline`, and `git diff imported-main..HEAD` let you inspect
-the changes. No remote is configured, and nothing was pushed, merged or sent.
-Do not push this imported branch as if it shared upstream history. For a future PR,
-first obtain an authenticated clone and apply the exported local patch
-`results/t05/t05-changes.patch` on a branch based on upstream. Data/weights/results
-are intentionally absent from that patch and need separate local preparation.
+`origin` points to `https://github.com/khgng026/iri-construct-screening-2026.git`.
+VS Code supplies GitHub authentication for its Git operations. Standalone shell
+sessions may still need their own authentication setup. Nothing has been pushed,
+merged or sent; this branch has no remote tracking branch yet.
+
+Inspect with `git status`, `git log --oneline`, and `git diff origin/main..HEAD`.
+The earlier imported history is retained on `snapshot/t05-esm2-benign-pilot` and
+`imported-main`, plus a verified bundle at
+`../github-clone/t05-local-history.bundle`. Historical experiment outputs correctly
+retain their original commit IDs (including `9416138`); these are still available
+through the snapshot branch. The old `results/t05/t05-changes.patch` is retained as
+an export from the original snapshot; a current patch is `t05-changes-current.patch`.
 
 The original `scripts/t05_model_probe.py` is preserved as received. Use the new
 `t05_experiment.py` entry point for pinned, checked and reproducible T05 runs.
