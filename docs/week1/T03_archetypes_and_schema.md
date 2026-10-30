@@ -65,3 +65,7 @@ All three examples can be checked with `python -m unittest discover -s tests -v`
 T03 is ready for T06/T10/T11/T12 when the archetypes and schema are reviewed. T05 must decide the model interface before any example is labeled truly `ready`. T10/11 must preserve raw GenBank feature semantics; FASTA-only inputs typically lack feature labels and should receive `unknown` unless a separate approved annotation source exists. Additional annotation keys may be added after a Week 2 pilot, with a documented version bump and migration.
 
 **Source basis:** IRI proposal, pp. 1–2 (mixed constructs and four archetypes); four-week workbook `Weekly To-Dos` T03, T10–T12 and `MVP Criteria` MVP-02/03/04.
+
+## Local T05 extension: v0.2 sequence references
+
+The original v0.1 examples remain unchanged and valid. See [T05 sequence-reference extension](T05_sequence_refs.md) for the small v0.2 addition: local storage references, hashes and explicit protein-coordinate units. The protein-only artificial examples do not invent nucleotide coordinates or imply that a DNA parser has been implemented.
