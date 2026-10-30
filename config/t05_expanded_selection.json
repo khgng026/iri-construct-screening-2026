@@ -1,0 +1,203 @@
+{
+  "version": "t05-composition-selection-v1",
+  "taxon_id": 559292,
+  "groups": {
+    "histone_H3": [
+      "HHT1",
+      "HHT2"
+    ],
+    "histone_H4": [
+      "HHF1",
+      "HHF2"
+    ],
+    "histone_H2A": [
+      "HTA1",
+      "HTA2"
+    ],
+    "histone_H2B": [
+      "HTB1",
+      "HTB2"
+    ],
+    "cytochrome_c": [
+      "CYC1",
+      "CYC7"
+    ],
+    "thioredoxin": [
+      "TRX1",
+      "TRX2",
+      "TRX3"
+    ],
+    "glutaredoxin": [
+      "GRX1",
+      "GRX2",
+      "GRX3",
+      "GRX4",
+      "GRX5"
+    ],
+    "peroxiredoxin": [
+      "TSA1",
+      "TSA2",
+      "AHP1",
+      "PRX1",
+      "DOT5"
+    ],
+    "superoxide_dismutase_function": [
+      "SOD1",
+      "SOD2"
+    ],
+    "enolase": [
+      "ENO1",
+      "ENO2"
+    ],
+    "GAPDH": [
+      "TDH1",
+      "TDH2",
+      "TDH3"
+    ],
+    "PGK": [
+      "PGK1"
+    ],
+    "TPI": [
+      "TPI1"
+    ],
+    "PGI": [
+      "PGI1"
+    ],
+    "aldolase": [
+      "FBA1"
+    ],
+    "phosphoglycerate_mutase": [
+      "GPM1",
+      "GPM2",
+      "GPM3"
+    ],
+    "hexokinase": [
+      "HXK1",
+      "HXK2",
+      "GLK1"
+    ],
+    "pyruvate_kinase": [
+      "CDC19",
+      "PYK2"
+    ],
+    "alcohol_dehydrogenase_function": [
+      "ADH1",
+      "ADH2",
+      "ADH3",
+      "ADH4",
+      "ADH5",
+      "ADH6",
+      "ADH7"
+    ],
+    "Hsp70_superfamily": [
+      "SSA1",
+      "SSA2",
+      "SSA3",
+      "SSA4",
+      "SSB1",
+      "SSB2",
+      "SSE1",
+      "SSE2",
+      "KAR2"
+    ],
+    "small_heat_shock_function": [
+      "HSP12",
+      "HSP26",
+      "HSP42"
+    ],
+    "chaperonin_function": [
+      "HSP60",
+      "HSP10"
+    ],
+    "cyclophilin": [
+      "CPR1",
+      "CPR2",
+      "CPR3",
+      "CPR4",
+      "CPR5",
+      "CPR6",
+      "CPR7",
+      "CPR8"
+    ],
+    "FKBP": [
+      "FPR1",
+      "FPR2",
+      "FPR3",
+      "FPR4"
+    ],
+    "proteasome_core_superfamily": [
+      "PRE1",
+      "PRE2",
+      "PRE3",
+      "PRE4",
+      "PRE5",
+      "PRE6",
+      "PRE7",
+      "PRE8",
+      "PRE9",
+      "PRE10",
+      "PUP1",
+      "PUP2",
+      "PUP3",
+      "SCL1"
+    ],
+    "ribosomal_L12": [
+      "RPL12A",
+      "RPL12B"
+    ],
+    "ribosomal_L22": [
+      "RPL22A",
+      "RPL22B"
+    ],
+    "ribosomal_L23": [
+      "RPL23A",
+      "RPL23B"
+    ],
+    "ribosomal_S26": [
+      "RPS26A",
+      "RPS26B"
+    ],
+    "ribosomal_S28": [
+      "RPS28A",
+      "RPS28B"
+    ],
+    "ribosomal_S30": [
+      "RPS30A",
+      "RPS30B"
+    ],
+    "ribosomal_L36": [
+      "RPL36A",
+      "RPL36B"
+    ],
+    "ribosomal_S18": [
+      "RPS18A",
+      "RPS18B"
+    ],
+    "ATP_synthase_alpha_beta": [
+      "ATP1",
+      "ATP2"
+    ]
+  },
+  "group_note": "Literature/annotation names, not identity-threshold clusters; function groups can include nonhomologous proteins. Quantitative global sequence comparisons reported separately.",
+  "target_genes": [
+    "RPS28A",
+    "TRX1",
+    "CYC1",
+    "HHT1",
+    "SOD1",
+    "CPR1",
+    "TSA1",
+    "PRE1",
+    "TPI1",
+    "TDH3",
+    "ADH1",
+    "PGK1",
+    "ENO1",
+    "HXK2",
+    "HSP60",
+    "SSA1"
+  ],
+  "max_residues": 1022,
+  "pair_rule": "all unordered target pairs within cap; both orders",
+  "selection_basis": "Ordinary cellular functions; related isozymes/paralogs deliberately represented; targets span natural lengths and functions; no retrieval scores inspected."
+}
