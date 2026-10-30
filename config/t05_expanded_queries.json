@@ -1,0 +1,3369 @@
+{
+  "version": "t05-composition-queries-v1",
+  "targets": [
+    "Q3E7X9",
+    "P22217",
+    "P00044",
+    "P61830",
+    "P00445",
+    "P14832",
+    "P34760",
+    "P22141",
+    "P00942",
+    "P00359",
+    "P00330",
+    "P00560",
+    "P00924",
+    "P04807",
+    "P19882",
+    "P10591"
+  ],
+  "pairs": [
+    {
+      "pair_id": "P00044__P00330",
+      "components": [
+        "P00044",
+        "P00330"
+      ],
+      "length_aa": 457,
+      "smaller_fraction": 0.23851203501094093
+    },
+    {
+      "pair_id": "P00044__P00359",
+      "components": [
+        "P00044",
+        "P00359"
+      ],
+      "length_aa": 441,
+      "smaller_fraction": 0.2471655328798186
+    },
+    {
+      "pair_id": "P00044__P00445",
+      "components": [
+        "P00044",
+        "P00445"
+      ],
+      "length_aa": 263,
+      "smaller_fraction": 0.4144486692015209
+    },
+    {
+      "pair_id": "P00044__P00560",
+      "components": [
+        "P00044",
+        "P00560"
+      ],
+      "length_aa": 525,
+      "smaller_fraction": 0.20761904761904762
+    },
+    {
+      "pair_id": "P00044__P00924",
+      "components": [
+        "P00044",
+        "P00924"
+      ],
+      "length_aa": 546,
+      "smaller_fraction": 0.19963369963369965
+    },
+    {
+      "pair_id": "P00044__P00942",
+      "components": [
+        "P00044",
+        "P00942"
+      ],
+      "length_aa": 357,
+      "smaller_fraction": 0.30532212885154064
+    },
+    {
+      "pair_id": "P00044__P04807",
+      "components": [
+        "P00044",
+        "P04807"
+      ],
+      "length_aa": 595,
+      "smaller_fraction": 0.18319327731092436
+    },
+    {
+      "pair_id": "P00044__P10591",
+      "components": [
+        "P00044",
+        "P10591"
+      ],
+      "length_aa": 751,
+      "smaller_fraction": 0.14513981358189082
+    },
+    {
+      "pair_id": "P00044__P14832",
+      "components": [
+        "P00044",
+        "P14832"
+      ],
+      "length_aa": 271,
+      "smaller_fraction": 0.4022140221402214
+    },
+    {
+      "pair_id": "P00044__P19882",
+      "components": [
+        "P00044",
+        "P19882"
+      ],
+      "length_aa": 681,
+      "smaller_fraction": 0.16005873715124816
+    },
+    {
+      "pair_id": "P00044__P22141",
+      "components": [
+        "P00044",
+        "P22141"
+      ],
+      "length_aa": 307,
+      "smaller_fraction": 0.3550488599348534
+    },
+    {
+      "pair_id": "P00044__P22217",
+      "components": [
+        "P00044",
+        "P22217"
+      ],
+      "length_aa": 212,
+      "smaller_fraction": 0.4858490566037736
+    },
+    {
+      "pair_id": "P00044__P34760",
+      "components": [
+        "P00044",
+        "P34760"
+      ],
+      "length_aa": 305,
+      "smaller_fraction": 0.35737704918032787
+    },
+    {
+      "pair_id": "P00044__P61830",
+      "components": [
+        "P00044",
+        "P61830"
+      ],
+      "length_aa": 245,
+      "smaller_fraction": 0.4448979591836735
+    },
+    {
+      "pair_id": "P00044__Q3E7X9",
+      "components": [
+        "P00044",
+        "Q3E7X9"
+      ],
+      "length_aa": 176,
+      "smaller_fraction": 0.3806818181818182
+    },
+    {
+      "pair_id": "P00330__P00359",
+      "components": [
+        "P00330",
+        "P00359"
+      ],
+      "length_aa": 680,
+      "smaller_fraction": 0.48823529411764705
+    },
+    {
+      "pair_id": "P00330__P00445",
+      "components": [
+        "P00330",
+        "P00445"
+      ],
+      "length_aa": 502,
+      "smaller_fraction": 0.30677290836653387
+    },
+    {
+      "pair_id": "P00330__P00560",
+      "components": [
+        "P00330",
+        "P00560"
+      ],
+      "length_aa": 764,
+      "smaller_fraction": 0.45549738219895286
+    },
+    {
+      "pair_id": "P00330__P00924",
+      "components": [
+        "P00330",
+        "P00924"
+      ],
+      "length_aa": 785,
+      "smaller_fraction": 0.44331210191082804
+    },
+    {
+      "pair_id": "P00330__P00942",
+      "components": [
+        "P00330",
+        "P00942"
+      ],
+      "length_aa": 596,
+      "smaller_fraction": 0.4161073825503356
+    },
+    {
+      "pair_id": "P00330__P04807",
+      "components": [
+        "P00330",
+        "P04807"
+      ],
+      "length_aa": 834,
+      "smaller_fraction": 0.4172661870503597
+    },
+    {
+      "pair_id": "P00330__P10591",
+      "components": [
+        "P00330",
+        "P10591"
+      ],
+      "length_aa": 990,
+      "smaller_fraction": 0.3515151515151515
+    },
+    {
+      "pair_id": "P00330__P14832",
+      "components": [
+        "P00330",
+        "P14832"
+      ],
+      "length_aa": 510,
+      "smaller_fraction": 0.3176470588235294
+    },
+    {
+      "pair_id": "P00330__P19882",
+      "components": [
+        "P00330",
+        "P19882"
+      ],
+      "length_aa": 920,
+      "smaller_fraction": 0.3782608695652174
+    },
+    {
+      "pair_id": "P00330__P22141",
+      "components": [
+        "P00330",
+        "P22141"
+      ],
+      "length_aa": 546,
+      "smaller_fraction": 0.3626373626373626
+    },
+    {
+      "pair_id": "P00330__P22217",
+      "components": [
+        "P00330",
+        "P22217"
+      ],
+      "length_aa": 451,
+      "smaller_fraction": 0.22838137472283815
+    },
+    {
+      "pair_id": "P00330__P34760",
+      "components": [
+        "P00330",
+        "P34760"
+      ],
+      "length_aa": 544,
+      "smaller_fraction": 0.3602941176470588
+    },
+    {
+      "pair_id": "P00330__P61830",
+      "components": [
+        "P00330",
+        "P61830"
+      ],
+      "length_aa": 484,
+      "smaller_fraction": 0.2809917355371901
+    },
+    {
+      "pair_id": "P00330__Q3E7X9",
+      "components": [
+        "P00330",
+        "Q3E7X9"
+      ],
+      "length_aa": 415,
+      "smaller_fraction": 0.1614457831325301
+    },
+    {
+      "pair_id": "P00359__P00445",
+      "components": [
+        "P00359",
+        "P00445"
+      ],
+      "length_aa": 486,
+      "smaller_fraction": 0.3168724279835391
+    },
+    {
+      "pair_id": "P00359__P00560",
+      "components": [
+        "P00359",
+        "P00560"
+      ],
+      "length_aa": 748,
+      "smaller_fraction": 0.44385026737967914
+    },
+    {
+      "pair_id": "P00359__P00924",
+      "components": [
+        "P00359",
+        "P00924"
+      ],
+      "length_aa": 769,
+      "smaller_fraction": 0.4317295188556567
+    },
+    {
+      "pair_id": "P00359__P00942",
+      "components": [
+        "P00359",
+        "P00942"
+      ],
+      "length_aa": 580,
+      "smaller_fraction": 0.42758620689655175
+    },
+    {
+      "pair_id": "P00359__P04807",
+      "components": [
+        "P00359",
+        "P04807"
+      ],
+      "length_aa": 818,
+      "smaller_fraction": 0.4058679706601467
+    },
+    {
+      "pair_id": "P00359__P10591",
+      "components": [
+        "P00359",
+        "P10591"
+      ],
+      "length_aa": 974,
+      "smaller_fraction": 0.3408624229979466
+    },
+    {
+      "pair_id": "P00359__P14832",
+      "components": [
+        "P00359",
+        "P14832"
+      ],
+      "length_aa": 494,
+      "smaller_fraction": 0.32793522267206476
+    },
+    {
+      "pair_id": "P00359__P19882",
+      "components": [
+        "P00359",
+        "P19882"
+      ],
+      "length_aa": 904,
+      "smaller_fraction": 0.3672566371681416
+    },
+    {
+      "pair_id": "P00359__P22141",
+      "components": [
+        "P00359",
+        "P22141"
+      ],
+      "length_aa": 530,
+      "smaller_fraction": 0.37358490566037733
+    },
+    {
+      "pair_id": "P00359__P22217",
+      "components": [
+        "P00359",
+        "P22217"
+      ],
+      "length_aa": 435,
+      "smaller_fraction": 0.2367816091954023
+    },
+    {
+      "pair_id": "P00359__P34760",
+      "components": [
+        "P00359",
+        "P34760"
+      ],
+      "length_aa": 528,
+      "smaller_fraction": 0.3712121212121212
+    },
+    {
+      "pair_id": "P00359__P61830",
+      "components": [
+        "P00359",
+        "P61830"
+      ],
+      "length_aa": 468,
+      "smaller_fraction": 0.2905982905982906
+    },
+    {
+      "pair_id": "P00359__Q3E7X9",
+      "components": [
+        "P00359",
+        "Q3E7X9"
+      ],
+      "length_aa": 399,
+      "smaller_fraction": 0.16791979949874686
+    },
+    {
+      "pair_id": "P00445__P00560",
+      "components": [
+        "P00445",
+        "P00560"
+      ],
+      "length_aa": 570,
+      "smaller_fraction": 0.27017543859649124
+    },
+    {
+      "pair_id": "P00445__P00924",
+      "components": [
+        "P00445",
+        "P00924"
+      ],
+      "length_aa": 591,
+      "smaller_fraction": 0.26057529610829105
+    },
+    {
+      "pair_id": "P00445__P00942",
+      "components": [
+        "P00445",
+        "P00942"
+      ],
+      "length_aa": 402,
+      "smaller_fraction": 0.38308457711442784
+    },
+    {
+      "pair_id": "P00445__P04807",
+      "components": [
+        "P00445",
+        "P04807"
+      ],
+      "length_aa": 640,
+      "smaller_fraction": 0.240625
+    },
+    {
+      "pair_id": "P00445__P10591",
+      "components": [
+        "P00445",
+        "P10591"
+      ],
+      "length_aa": 796,
+      "smaller_fraction": 0.1934673366834171
+    },
+    {
+      "pair_id": "P00445__P14832",
+      "components": [
+        "P00445",
+        "P14832"
+      ],
+      "length_aa": 316,
+      "smaller_fraction": 0.4873417721518987
+    },
+    {
+      "pair_id": "P00445__P19882",
+      "components": [
+        "P00445",
+        "P19882"
+      ],
+      "length_aa": 726,
+      "smaller_fraction": 0.21212121212121213
+    },
+    {
+      "pair_id": "P00445__P22141",
+      "components": [
+        "P00445",
+        "P22141"
+      ],
+      "length_aa": 352,
+      "smaller_fraction": 0.4375
+    },
+    {
+      "pair_id": "P00445__P22217",
+      "components": [
+        "P00445",
+        "P22217"
+      ],
+      "length_aa": 257,
+      "smaller_fraction": 0.40077821011673154
+    },
+    {
+      "pair_id": "P00445__P34760",
+      "components": [
+        "P00445",
+        "P34760"
+      ],
+      "length_aa": 350,
+      "smaller_fraction": 0.44
+    },
+    {
+      "pair_id": "P00445__P61830",
+      "components": [
+        "P00445",
+        "P61830"
+      ],
+      "length_aa": 290,
+      "smaller_fraction": 0.4689655172413793
+    },
+    {
+      "pair_id": "P00445__Q3E7X9",
+      "components": [
+        "P00445",
+        "Q3E7X9"
+      ],
+      "length_aa": 221,
+      "smaller_fraction": 0.3031674208144796
+    },
+    {
+      "pair_id": "P00560__P00924",
+      "components": [
+        "P00560",
+        "P00924"
+      ],
+      "length_aa": 853,
+      "smaller_fraction": 0.4876905041031653
+    },
+    {
+      "pair_id": "P00560__P00942",
+      "components": [
+        "P00560",
+        "P00942"
+      ],
+      "length_aa": 664,
+      "smaller_fraction": 0.37349397590361444
+    },
+    {
+      "pair_id": "P00560__P04807",
+      "components": [
+        "P00560",
+        "P04807"
+      ],
+      "length_aa": 902,
+      "smaller_fraction": 0.4611973392461197
+    },
+    {
+      "pair_id": "P00560__P14832",
+      "components": [
+        "P00560",
+        "P14832"
+      ],
+      "length_aa": 578,
+      "smaller_fraction": 0.28027681660899656
+    },
+    {
+      "pair_id": "P00560__P19882",
+      "components": [
+        "P00560",
+        "P19882"
+      ],
+      "length_aa": 988,
+      "smaller_fraction": 0.42105263157894735
+    },
+    {
+      "pair_id": "P00560__P22141",
+      "components": [
+        "P00560",
+        "P22141"
+      ],
+      "length_aa": 614,
+      "smaller_fraction": 0.32247557003257327
+    },
+    {
+      "pair_id": "P00560__P22217",
+      "components": [
+        "P00560",
+        "P22217"
+      ],
+      "length_aa": 519,
+      "smaller_fraction": 0.19845857418111754
+    },
+    {
+      "pair_id": "P00560__P34760",
+      "components": [
+        "P00560",
+        "P34760"
+      ],
+      "length_aa": 612,
+      "smaller_fraction": 0.3202614379084967
+    },
+    {
+      "pair_id": "P00560__P61830",
+      "components": [
+        "P00560",
+        "P61830"
+      ],
+      "length_aa": 552,
+      "smaller_fraction": 0.2463768115942029
+    },
+    {
+      "pair_id": "P00560__Q3E7X9",
+      "components": [
+        "P00560",
+        "Q3E7X9"
+      ],
+      "length_aa": 483,
+      "smaller_fraction": 0.13871635610766045
+    },
+    {
+      "pair_id": "P00924__P00942",
+      "components": [
+        "P00924",
+        "P00942"
+      ],
+      "length_aa": 685,
+      "smaller_fraction": 0.362043795620438
+    },
+    {
+      "pair_id": "P00924__P04807",
+      "components": [
+        "P00924",
+        "P04807"
+      ],
+      "length_aa": 923,
+      "smaller_fraction": 0.4734561213434453
+    },
+    {
+      "pair_id": "P00924__P14832",
+      "components": [
+        "P00924",
+        "P14832"
+      ],
+      "length_aa": 599,
+      "smaller_fraction": 0.2704507512520868
+    },
+    {
+      "pair_id": "P00924__P19882",
+      "components": [
+        "P00924",
+        "P19882"
+      ],
+      "length_aa": 1009,
+      "smaller_fraction": 0.43310208126858274
+    },
+    {
+      "pair_id": "P00924__P22141",
+      "components": [
+        "P00924",
+        "P22141"
+      ],
+      "length_aa": 635,
+      "smaller_fraction": 0.31181102362204727
+    },
+    {
+      "pair_id": "P00924__P22217",
+      "components": [
+        "P00924",
+        "P22217"
+      ],
+      "length_aa": 540,
+      "smaller_fraction": 0.19074074074074074
+    },
+    {
+      "pair_id": "P00924__P34760",
+      "components": [
+        "P00924",
+        "P34760"
+      ],
+      "length_aa": 633,
+      "smaller_fraction": 0.30963665086887837
+    },
+    {
+      "pair_id": "P00924__P61830",
+      "components": [
+        "P00924",
+        "P61830"
+      ],
+      "length_aa": 573,
+      "smaller_fraction": 0.23734729493891799
+    },
+    {
+      "pair_id": "P00924__Q3E7X9",
+      "components": [
+        "P00924",
+        "Q3E7X9"
+      ],
+      "length_aa": 504,
+      "smaller_fraction": 0.13293650793650794
+    },
+    {
+      "pair_id": "P00942__P04807",
+      "components": [
+        "P00942",
+        "P04807"
+      ],
+      "length_aa": 734,
+      "smaller_fraction": 0.33787465940054495
+    },
+    {
+      "pair_id": "P00942__P10591",
+      "components": [
+        "P00942",
+        "P10591"
+      ],
+      "length_aa": 890,
+      "smaller_fraction": 0.2786516853932584
+    },
+    {
+      "pair_id": "P00942__P14832",
+      "components": [
+        "P00942",
+        "P14832"
+      ],
+      "length_aa": 410,
+      "smaller_fraction": 0.3951219512195122
+    },
+    {
+      "pair_id": "P00942__P19882",
+      "components": [
+        "P00942",
+        "P19882"
+      ],
+      "length_aa": 820,
+      "smaller_fraction": 0.3024390243902439
+    },
+    {
+      "pair_id": "P00942__P22141",
+      "components": [
+        "P00942",
+        "P22141"
+      ],
+      "length_aa": 446,
+      "smaller_fraction": 0.4439461883408072
+    },
+    {
+      "pair_id": "P00942__P22217",
+      "components": [
+        "P00942",
+        "P22217"
+      ],
+      "length_aa": 351,
+      "smaller_fraction": 0.2934472934472934
+    },
+    {
+      "pair_id": "P00942__P34760",
+      "components": [
+        "P00942",
+        "P34760"
+      ],
+      "length_aa": 444,
+      "smaller_fraction": 0.44144144144144143
+    },
+    {
+      "pair_id": "P00942__P61830",
+      "components": [
+        "P00942",
+        "P61830"
+      ],
+      "length_aa": 384,
+      "smaller_fraction": 0.3541666666666667
+    },
+    {
+      "pair_id": "P00942__Q3E7X9",
+      "components": [
+        "P00942",
+        "Q3E7X9"
+      ],
+      "length_aa": 315,
+      "smaller_fraction": 0.2126984126984127
+    },
+    {
+      "pair_id": "P04807__P14832",
+      "components": [
+        "P04807",
+        "P14832"
+      ],
+      "length_aa": 648,
+      "smaller_fraction": 0.25
+    },
+    {
+      "pair_id": "P04807__P22141",
+      "components": [
+        "P04807",
+        "P22141"
+      ],
+      "length_aa": 684,
+      "smaller_fraction": 0.2894736842105263
+    },
+    {
+      "pair_id": "P04807__P22217",
+      "components": [
+        "P04807",
+        "P22217"
+      ],
+      "length_aa": 589,
+      "smaller_fraction": 0.17487266553480477
+    },
+    {
+      "pair_id": "P04807__P34760",
+      "components": [
+        "P04807",
+        "P34760"
+      ],
+      "length_aa": 682,
+      "smaller_fraction": 0.2873900293255132
+    },
+    {
+      "pair_id": "P04807__P61830",
+      "components": [
+        "P04807",
+        "P61830"
+      ],
+      "length_aa": 622,
+      "smaller_fraction": 0.21864951768488747
+    },
+    {
+      "pair_id": "P04807__Q3E7X9",
+      "components": [
+        "P04807",
+        "Q3E7X9"
+      ],
+      "length_aa": 553,
+      "smaller_fraction": 0.12115732368896925
+    },
+    {
+      "pair_id": "P10591__P14832",
+      "components": [
+        "P10591",
+        "P14832"
+      ],
+      "length_aa": 804,
+      "smaller_fraction": 0.20149253731343283
+    },
+    {
+      "pair_id": "P10591__P22141",
+      "components": [
+        "P10591",
+        "P22141"
+      ],
+      "length_aa": 840,
+      "smaller_fraction": 0.2357142857142857
+    },
+    {
+      "pair_id": "P10591__P22217",
+      "components": [
+        "P10591",
+        "P22217"
+      ],
+      "length_aa": 745,
+      "smaller_fraction": 0.138255033557047
+    },
+    {
+      "pair_id": "P10591__P34760",
+      "components": [
+        "P10591",
+        "P34760"
+      ],
+      "length_aa": 838,
+      "smaller_fraction": 0.23389021479713604
+    },
+    {
+      "pair_id": "P10591__P61830",
+      "components": [
+        "P10591",
+        "P61830"
+      ],
+      "length_aa": 778,
+      "smaller_fraction": 0.17480719794344474
+    },
+    {
+      "pair_id": "P10591__Q3E7X9",
+      "components": [
+        "P10591",
+        "Q3E7X9"
+      ],
+      "length_aa": 709,
+      "smaller_fraction": 0.09449929478138223
+    },
+    {
+      "pair_id": "P14832__P19882",
+      "components": [
+        "P14832",
+        "P19882"
+      ],
+      "length_aa": 734,
+      "smaller_fraction": 0.22070844686648503
+    },
+    {
+      "pair_id": "P14832__P22141",
+      "components": [
+        "P14832",
+        "P22141"
+      ],
+      "length_aa": 360,
+      "smaller_fraction": 0.45
+    },
+    {
+      "pair_id": "P14832__P22217",
+      "components": [
+        "P14832",
+        "P22217"
+      ],
+      "length_aa": 265,
+      "smaller_fraction": 0.3886792452830189
+    },
+    {
+      "pair_id": "P14832__P34760",
+      "components": [
+        "P14832",
+        "P34760"
+      ],
+      "length_aa": 358,
+      "smaller_fraction": 0.45251396648044695
+    },
+    {
+      "pair_id": "P14832__P61830",
+      "components": [
+        "P14832",
+        "P61830"
+      ],
+      "length_aa": 298,
+      "smaller_fraction": 0.4563758389261745
+    },
+    {
+      "pair_id": "P14832__Q3E7X9",
+      "components": [
+        "P14832",
+        "Q3E7X9"
+      ],
+      "length_aa": 229,
+      "smaller_fraction": 0.2925764192139738
+    },
+    {
+      "pair_id": "P19882__P22141",
+      "components": [
+        "P19882",
+        "P22141"
+      ],
+      "length_aa": 770,
+      "smaller_fraction": 0.2571428571428571
+    },
+    {
+      "pair_id": "P19882__P22217",
+      "components": [
+        "P19882",
+        "P22217"
+      ],
+      "length_aa": 675,
+      "smaller_fraction": 0.15259259259259259
+    },
+    {
+      "pair_id": "P19882__P34760",
+      "components": [
+        "P19882",
+        "P34760"
+      ],
+      "length_aa": 768,
+      "smaller_fraction": 0.2552083333333333
+    },
+    {
+      "pair_id": "P19882__P61830",
+      "components": [
+        "P19882",
+        "P61830"
+      ],
+      "length_aa": 708,
+      "smaller_fraction": 0.192090395480226
+    },
+    {
+      "pair_id": "P19882__Q3E7X9",
+      "components": [
+        "P19882",
+        "Q3E7X9"
+      ],
+      "length_aa": 639,
+      "smaller_fraction": 0.10485133020344288
+    },
+    {
+      "pair_id": "P22141__P22217",
+      "components": [
+        "P22141",
+        "P22217"
+      ],
+      "length_aa": 301,
+      "smaller_fraction": 0.34219269102990035
+    },
+    {
+      "pair_id": "P22141__P34760",
+      "components": [
+        "P22141",
+        "P34760"
+      ],
+      "length_aa": 394,
+      "smaller_fraction": 0.49746192893401014
+    },
+    {
+      "pair_id": "P22141__P61830",
+      "components": [
+        "P22141",
+        "P61830"
+      ],
+      "length_aa": 334,
+      "smaller_fraction": 0.40718562874251496
+    },
+    {
+      "pair_id": "P22141__Q3E7X9",
+      "components": [
+        "P22141",
+        "Q3E7X9"
+      ],
+      "length_aa": 265,
+      "smaller_fraction": 0.2528301886792453
+    },
+    {
+      "pair_id": "P22217__P34760",
+      "components": [
+        "P22217",
+        "P34760"
+      ],
+      "length_aa": 299,
+      "smaller_fraction": 0.34448160535117056
+    },
+    {
+      "pair_id": "P22217__P61830",
+      "components": [
+        "P22217",
+        "P61830"
+      ],
+      "length_aa": 239,
+      "smaller_fraction": 0.4309623430962343
+    },
+    {
+      "pair_id": "P22217__Q3E7X9",
+      "components": [
+        "P22217",
+        "Q3E7X9"
+      ],
+      "length_aa": 170,
+      "smaller_fraction": 0.3941176470588235
+    },
+    {
+      "pair_id": "P34760__P61830",
+      "components": [
+        "P34760",
+        "P61830"
+      ],
+      "length_aa": 332,
+      "smaller_fraction": 0.40963855421686746
+    },
+    {
+      "pair_id": "P34760__Q3E7X9",
+      "components": [
+        "P34760",
+        "Q3E7X9"
+      ],
+      "length_aa": 263,
+      "smaller_fraction": 0.25475285171102663
+    },
+    {
+      "pair_id": "P61830__Q3E7X9",
+      "components": [
+        "P61830",
+        "Q3E7X9"
+      ],
+      "length_aa": 203,
+      "smaller_fraction": 0.33004926108374383
+    }
+  ],
+  "excluded_pairs": [
+    {
+      "pair_id": "P00560__P10591",
+      "components": [
+        "P00560",
+        "P10591"
+      ],
+      "length_aa": 1058,
+      "smaller_fraction": 0.3931947069943289,
+      "reason": "combined length exceeds 1022; no truncation"
+    },
+    {
+      "pair_id": "P00924__P10591",
+      "components": [
+        "P00924",
+        "P10591"
+      ],
+      "length_aa": 1079,
+      "smaller_fraction": 0.40500463392029656,
+      "reason": "combined length exceeds 1022; no truncation"
+    },
+    {
+      "pair_id": "P04807__P10591",
+      "components": [
+        "P04807",
+        "P10591"
+      ],
+      "length_aa": 1128,
+      "smaller_fraction": 0.4308510638297872,
+      "reason": "combined length exceeds 1022; no truncation"
+    },
+    {
+      "pair_id": "P04807__P19882",
+      "components": [
+        "P04807",
+        "P19882"
+      ],
+      "length_aa": 1058,
+      "smaller_fraction": 0.45935727788279773,
+      "reason": "combined length exceeds 1022; no truncation"
+    },
+    {
+      "pair_id": "P10591__P19882",
+      "components": [
+        "P10591",
+        "P19882"
+      ],
+      "length_aa": 1214,
+      "smaller_fraction": 0.471169686985173,
+      "reason": "combined length exceeds 1022; no truncation"
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "clean_Q3E7X9",
+      "components": [
+        "Q3E7X9"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P22217",
+      "components": [
+        "P22217"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P00044",
+      "components": [
+        "P00044"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P61830",
+      "components": [
+        "P61830"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P00445",
+      "components": [
+        "P00445"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P14832",
+      "components": [
+        "P14832"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P34760",
+      "components": [
+        "P34760"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P22141",
+      "components": [
+        "P22141"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P00942",
+      "components": [
+        "P00942"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P00359",
+      "components": [
+        "P00359"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P00330",
+      "components": [
+        "P00330"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P00560",
+      "components": [
+        "P00560"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P00924",
+      "components": [
+        "P00924"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P04807",
+      "components": [
+        "P04807"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P19882",
+      "components": [
+        "P19882"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "clean_P10591",
+      "components": [
+        "P10591"
+      ],
+      "pair_id": null,
+      "artificial": false
+    },
+    {
+      "query_id": "join_P00044__P00330",
+      "pair_id": "P00044__P00330",
+      "components": [
+        "P00044",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P00044",
+      "pair_id": "P00044__P00330",
+      "components": [
+        "P00330",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P00359",
+      "pair_id": "P00044__P00359",
+      "components": [
+        "P00044",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P00044",
+      "pair_id": "P00044__P00359",
+      "components": [
+        "P00359",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P00445",
+      "pair_id": "P00044__P00445",
+      "components": [
+        "P00044",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P00044",
+      "pair_id": "P00044__P00445",
+      "components": [
+        "P00445",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P00560",
+      "pair_id": "P00044__P00560",
+      "components": [
+        "P00044",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P00044",
+      "pair_id": "P00044__P00560",
+      "components": [
+        "P00560",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P00924",
+      "pair_id": "P00044__P00924",
+      "components": [
+        "P00044",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P00044",
+      "pair_id": "P00044__P00924",
+      "components": [
+        "P00924",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P00942",
+      "pair_id": "P00044__P00942",
+      "components": [
+        "P00044",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P00044",
+      "pair_id": "P00044__P00942",
+      "components": [
+        "P00942",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P04807",
+      "pair_id": "P00044__P04807",
+      "components": [
+        "P00044",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P00044",
+      "pair_id": "P00044__P04807",
+      "components": [
+        "P04807",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P10591",
+      "pair_id": "P00044__P10591",
+      "components": [
+        "P00044",
+        "P10591"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P10591__P00044",
+      "pair_id": "P00044__P10591",
+      "components": [
+        "P10591",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P14832",
+      "pair_id": "P00044__P14832",
+      "components": [
+        "P00044",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P00044",
+      "pair_id": "P00044__P14832",
+      "components": [
+        "P14832",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P19882",
+      "pair_id": "P00044__P19882",
+      "components": [
+        "P00044",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P00044",
+      "pair_id": "P00044__P19882",
+      "components": [
+        "P19882",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P22141",
+      "pair_id": "P00044__P22141",
+      "components": [
+        "P00044",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P00044",
+      "pair_id": "P00044__P22141",
+      "components": [
+        "P22141",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P22217",
+      "pair_id": "P00044__P22217",
+      "components": [
+        "P00044",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P00044",
+      "pair_id": "P00044__P22217",
+      "components": [
+        "P22217",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P34760",
+      "pair_id": "P00044__P34760",
+      "components": [
+        "P00044",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P00044",
+      "pair_id": "P00044__P34760",
+      "components": [
+        "P34760",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__P61830",
+      "pair_id": "P00044__P61830",
+      "components": [
+        "P00044",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P00044",
+      "pair_id": "P00044__P61830",
+      "components": [
+        "P61830",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00044__Q3E7X9",
+      "pair_id": "P00044__Q3E7X9",
+      "components": [
+        "P00044",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P00044",
+      "pair_id": "P00044__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P00044"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P00359",
+      "pair_id": "P00330__P00359",
+      "components": [
+        "P00330",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P00330",
+      "pair_id": "P00330__P00359",
+      "components": [
+        "P00359",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P00445",
+      "pair_id": "P00330__P00445",
+      "components": [
+        "P00330",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P00330",
+      "pair_id": "P00330__P00445",
+      "components": [
+        "P00445",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P00560",
+      "pair_id": "P00330__P00560",
+      "components": [
+        "P00330",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P00330",
+      "pair_id": "P00330__P00560",
+      "components": [
+        "P00560",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P00924",
+      "pair_id": "P00330__P00924",
+      "components": [
+        "P00330",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P00330",
+      "pair_id": "P00330__P00924",
+      "components": [
+        "P00924",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P00942",
+      "pair_id": "P00330__P00942",
+      "components": [
+        "P00330",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P00330",
+      "pair_id": "P00330__P00942",
+      "components": [
+        "P00942",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P04807",
+      "pair_id": "P00330__P04807",
+      "components": [
+        "P00330",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P00330",
+      "pair_id": "P00330__P04807",
+      "components": [
+        "P04807",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P10591",
+      "pair_id": "P00330__P10591",
+      "components": [
+        "P00330",
+        "P10591"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P10591__P00330",
+      "pair_id": "P00330__P10591",
+      "components": [
+        "P10591",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P14832",
+      "pair_id": "P00330__P14832",
+      "components": [
+        "P00330",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P00330",
+      "pair_id": "P00330__P14832",
+      "components": [
+        "P14832",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P19882",
+      "pair_id": "P00330__P19882",
+      "components": [
+        "P00330",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P00330",
+      "pair_id": "P00330__P19882",
+      "components": [
+        "P19882",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P22141",
+      "pair_id": "P00330__P22141",
+      "components": [
+        "P00330",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P00330",
+      "pair_id": "P00330__P22141",
+      "components": [
+        "P22141",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P22217",
+      "pair_id": "P00330__P22217",
+      "components": [
+        "P00330",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P00330",
+      "pair_id": "P00330__P22217",
+      "components": [
+        "P22217",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P34760",
+      "pair_id": "P00330__P34760",
+      "components": [
+        "P00330",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P00330",
+      "pair_id": "P00330__P34760",
+      "components": [
+        "P34760",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__P61830",
+      "pair_id": "P00330__P61830",
+      "components": [
+        "P00330",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P00330",
+      "pair_id": "P00330__P61830",
+      "components": [
+        "P61830",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00330__Q3E7X9",
+      "pair_id": "P00330__Q3E7X9",
+      "components": [
+        "P00330",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P00330",
+      "pair_id": "P00330__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P00330"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P00445",
+      "pair_id": "P00359__P00445",
+      "components": [
+        "P00359",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P00359",
+      "pair_id": "P00359__P00445",
+      "components": [
+        "P00445",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P00560",
+      "pair_id": "P00359__P00560",
+      "components": [
+        "P00359",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P00359",
+      "pair_id": "P00359__P00560",
+      "components": [
+        "P00560",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P00924",
+      "pair_id": "P00359__P00924",
+      "components": [
+        "P00359",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P00359",
+      "pair_id": "P00359__P00924",
+      "components": [
+        "P00924",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P00942",
+      "pair_id": "P00359__P00942",
+      "components": [
+        "P00359",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P00359",
+      "pair_id": "P00359__P00942",
+      "components": [
+        "P00942",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P04807",
+      "pair_id": "P00359__P04807",
+      "components": [
+        "P00359",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P00359",
+      "pair_id": "P00359__P04807",
+      "components": [
+        "P04807",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P10591",
+      "pair_id": "P00359__P10591",
+      "components": [
+        "P00359",
+        "P10591"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P10591__P00359",
+      "pair_id": "P00359__P10591",
+      "components": [
+        "P10591",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P14832",
+      "pair_id": "P00359__P14832",
+      "components": [
+        "P00359",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P00359",
+      "pair_id": "P00359__P14832",
+      "components": [
+        "P14832",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P19882",
+      "pair_id": "P00359__P19882",
+      "components": [
+        "P00359",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P00359",
+      "pair_id": "P00359__P19882",
+      "components": [
+        "P19882",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P22141",
+      "pair_id": "P00359__P22141",
+      "components": [
+        "P00359",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P00359",
+      "pair_id": "P00359__P22141",
+      "components": [
+        "P22141",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P22217",
+      "pair_id": "P00359__P22217",
+      "components": [
+        "P00359",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P00359",
+      "pair_id": "P00359__P22217",
+      "components": [
+        "P22217",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P34760",
+      "pair_id": "P00359__P34760",
+      "components": [
+        "P00359",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P00359",
+      "pair_id": "P00359__P34760",
+      "components": [
+        "P34760",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__P61830",
+      "pair_id": "P00359__P61830",
+      "components": [
+        "P00359",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P00359",
+      "pair_id": "P00359__P61830",
+      "components": [
+        "P61830",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00359__Q3E7X9",
+      "pair_id": "P00359__Q3E7X9",
+      "components": [
+        "P00359",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P00359",
+      "pair_id": "P00359__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P00359"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P00560",
+      "pair_id": "P00445__P00560",
+      "components": [
+        "P00445",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P00445",
+      "pair_id": "P00445__P00560",
+      "components": [
+        "P00560",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P00924",
+      "pair_id": "P00445__P00924",
+      "components": [
+        "P00445",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P00445",
+      "pair_id": "P00445__P00924",
+      "components": [
+        "P00924",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P00942",
+      "pair_id": "P00445__P00942",
+      "components": [
+        "P00445",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P00445",
+      "pair_id": "P00445__P00942",
+      "components": [
+        "P00942",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P04807",
+      "pair_id": "P00445__P04807",
+      "components": [
+        "P00445",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P00445",
+      "pair_id": "P00445__P04807",
+      "components": [
+        "P04807",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P10591",
+      "pair_id": "P00445__P10591",
+      "components": [
+        "P00445",
+        "P10591"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P10591__P00445",
+      "pair_id": "P00445__P10591",
+      "components": [
+        "P10591",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P14832",
+      "pair_id": "P00445__P14832",
+      "components": [
+        "P00445",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P00445",
+      "pair_id": "P00445__P14832",
+      "components": [
+        "P14832",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P19882",
+      "pair_id": "P00445__P19882",
+      "components": [
+        "P00445",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P00445",
+      "pair_id": "P00445__P19882",
+      "components": [
+        "P19882",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P22141",
+      "pair_id": "P00445__P22141",
+      "components": [
+        "P00445",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P00445",
+      "pair_id": "P00445__P22141",
+      "components": [
+        "P22141",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P22217",
+      "pair_id": "P00445__P22217",
+      "components": [
+        "P00445",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P00445",
+      "pair_id": "P00445__P22217",
+      "components": [
+        "P22217",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P34760",
+      "pair_id": "P00445__P34760",
+      "components": [
+        "P00445",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P00445",
+      "pair_id": "P00445__P34760",
+      "components": [
+        "P34760",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__P61830",
+      "pair_id": "P00445__P61830",
+      "components": [
+        "P00445",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P00445",
+      "pair_id": "P00445__P61830",
+      "components": [
+        "P61830",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00445__Q3E7X9",
+      "pair_id": "P00445__Q3E7X9",
+      "components": [
+        "P00445",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P00445",
+      "pair_id": "P00445__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P00445"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P00924",
+      "pair_id": "P00560__P00924",
+      "components": [
+        "P00560",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P00560",
+      "pair_id": "P00560__P00924",
+      "components": [
+        "P00924",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P00942",
+      "pair_id": "P00560__P00942",
+      "components": [
+        "P00560",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P00560",
+      "pair_id": "P00560__P00942",
+      "components": [
+        "P00942",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P04807",
+      "pair_id": "P00560__P04807",
+      "components": [
+        "P00560",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P00560",
+      "pair_id": "P00560__P04807",
+      "components": [
+        "P04807",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P14832",
+      "pair_id": "P00560__P14832",
+      "components": [
+        "P00560",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P00560",
+      "pair_id": "P00560__P14832",
+      "components": [
+        "P14832",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P19882",
+      "pair_id": "P00560__P19882",
+      "components": [
+        "P00560",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P00560",
+      "pair_id": "P00560__P19882",
+      "components": [
+        "P19882",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P22141",
+      "pair_id": "P00560__P22141",
+      "components": [
+        "P00560",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P00560",
+      "pair_id": "P00560__P22141",
+      "components": [
+        "P22141",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P22217",
+      "pair_id": "P00560__P22217",
+      "components": [
+        "P00560",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P00560",
+      "pair_id": "P00560__P22217",
+      "components": [
+        "P22217",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P34760",
+      "pair_id": "P00560__P34760",
+      "components": [
+        "P00560",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P00560",
+      "pair_id": "P00560__P34760",
+      "components": [
+        "P34760",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__P61830",
+      "pair_id": "P00560__P61830",
+      "components": [
+        "P00560",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P00560",
+      "pair_id": "P00560__P61830",
+      "components": [
+        "P61830",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00560__Q3E7X9",
+      "pair_id": "P00560__Q3E7X9",
+      "components": [
+        "P00560",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P00560",
+      "pair_id": "P00560__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P00560"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P00942",
+      "pair_id": "P00924__P00942",
+      "components": [
+        "P00924",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P00924",
+      "pair_id": "P00924__P00942",
+      "components": [
+        "P00942",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P04807",
+      "pair_id": "P00924__P04807",
+      "components": [
+        "P00924",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P00924",
+      "pair_id": "P00924__P04807",
+      "components": [
+        "P04807",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P14832",
+      "pair_id": "P00924__P14832",
+      "components": [
+        "P00924",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P00924",
+      "pair_id": "P00924__P14832",
+      "components": [
+        "P14832",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P19882",
+      "pair_id": "P00924__P19882",
+      "components": [
+        "P00924",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P00924",
+      "pair_id": "P00924__P19882",
+      "components": [
+        "P19882",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P22141",
+      "pair_id": "P00924__P22141",
+      "components": [
+        "P00924",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P00924",
+      "pair_id": "P00924__P22141",
+      "components": [
+        "P22141",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P22217",
+      "pair_id": "P00924__P22217",
+      "components": [
+        "P00924",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P00924",
+      "pair_id": "P00924__P22217",
+      "components": [
+        "P22217",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P34760",
+      "pair_id": "P00924__P34760",
+      "components": [
+        "P00924",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P00924",
+      "pair_id": "P00924__P34760",
+      "components": [
+        "P34760",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__P61830",
+      "pair_id": "P00924__P61830",
+      "components": [
+        "P00924",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P00924",
+      "pair_id": "P00924__P61830",
+      "components": [
+        "P61830",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00924__Q3E7X9",
+      "pair_id": "P00924__Q3E7X9",
+      "components": [
+        "P00924",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P00924",
+      "pair_id": "P00924__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P00924"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P04807",
+      "pair_id": "P00942__P04807",
+      "components": [
+        "P00942",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P00942",
+      "pair_id": "P00942__P04807",
+      "components": [
+        "P04807",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P10591",
+      "pair_id": "P00942__P10591",
+      "components": [
+        "P00942",
+        "P10591"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P10591__P00942",
+      "pair_id": "P00942__P10591",
+      "components": [
+        "P10591",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P14832",
+      "pair_id": "P00942__P14832",
+      "components": [
+        "P00942",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P00942",
+      "pair_id": "P00942__P14832",
+      "components": [
+        "P14832",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P19882",
+      "pair_id": "P00942__P19882",
+      "components": [
+        "P00942",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P00942",
+      "pair_id": "P00942__P19882",
+      "components": [
+        "P19882",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P22141",
+      "pair_id": "P00942__P22141",
+      "components": [
+        "P00942",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P00942",
+      "pair_id": "P00942__P22141",
+      "components": [
+        "P22141",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P22217",
+      "pair_id": "P00942__P22217",
+      "components": [
+        "P00942",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P00942",
+      "pair_id": "P00942__P22217",
+      "components": [
+        "P22217",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P34760",
+      "pair_id": "P00942__P34760",
+      "components": [
+        "P00942",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P00942",
+      "pair_id": "P00942__P34760",
+      "components": [
+        "P34760",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__P61830",
+      "pair_id": "P00942__P61830",
+      "components": [
+        "P00942",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P00942",
+      "pair_id": "P00942__P61830",
+      "components": [
+        "P61830",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P00942__Q3E7X9",
+      "pair_id": "P00942__Q3E7X9",
+      "components": [
+        "P00942",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P00942",
+      "pair_id": "P00942__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P00942"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P14832",
+      "pair_id": "P04807__P14832",
+      "components": [
+        "P04807",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P04807",
+      "pair_id": "P04807__P14832",
+      "components": [
+        "P14832",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P22141",
+      "pair_id": "P04807__P22141",
+      "components": [
+        "P04807",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P04807",
+      "pair_id": "P04807__P22141",
+      "components": [
+        "P22141",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P22217",
+      "pair_id": "P04807__P22217",
+      "components": [
+        "P04807",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P04807",
+      "pair_id": "P04807__P22217",
+      "components": [
+        "P22217",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P34760",
+      "pair_id": "P04807__P34760",
+      "components": [
+        "P04807",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P04807",
+      "pair_id": "P04807__P34760",
+      "components": [
+        "P34760",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__P61830",
+      "pair_id": "P04807__P61830",
+      "components": [
+        "P04807",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P04807",
+      "pair_id": "P04807__P61830",
+      "components": [
+        "P61830",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P04807__Q3E7X9",
+      "pair_id": "P04807__Q3E7X9",
+      "components": [
+        "P04807",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P04807",
+      "pair_id": "P04807__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P04807"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P10591__P14832",
+      "pair_id": "P10591__P14832",
+      "components": [
+        "P10591",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P10591",
+      "pair_id": "P10591__P14832",
+      "components": [
+        "P14832",
+        "P10591"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P10591__P22141",
+      "pair_id": "P10591__P22141",
+      "components": [
+        "P10591",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P10591",
+      "pair_id": "P10591__P22141",
+      "components": [
+        "P22141",
+        "P10591"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P10591__P22217",
+      "pair_id": "P10591__P22217",
+      "components": [
+        "P10591",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P10591",
+      "pair_id": "P10591__P22217",
+      "components": [
+        "P22217",
+        "P10591"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P10591__P34760",
+      "pair_id": "P10591__P34760",
+      "components": [
+        "P10591",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P10591",
+      "pair_id": "P10591__P34760",
+      "components": [
+        "P34760",
+        "P10591"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P10591__P61830",
+      "pair_id": "P10591__P61830",
+      "components": [
+        "P10591",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P10591",
+      "pair_id": "P10591__P61830",
+      "components": [
+        "P61830",
+        "P10591"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P10591__Q3E7X9",
+      "pair_id": "P10591__Q3E7X9",
+      "components": [
+        "P10591",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P10591",
+      "pair_id": "P10591__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P10591"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P19882",
+      "pair_id": "P14832__P19882",
+      "components": [
+        "P14832",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P14832",
+      "pair_id": "P14832__P19882",
+      "components": [
+        "P19882",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P22141",
+      "pair_id": "P14832__P22141",
+      "components": [
+        "P14832",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P14832",
+      "pair_id": "P14832__P22141",
+      "components": [
+        "P22141",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P22217",
+      "pair_id": "P14832__P22217",
+      "components": [
+        "P14832",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P14832",
+      "pair_id": "P14832__P22217",
+      "components": [
+        "P22217",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P34760",
+      "pair_id": "P14832__P34760",
+      "components": [
+        "P14832",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P14832",
+      "pair_id": "P14832__P34760",
+      "components": [
+        "P34760",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__P61830",
+      "pair_id": "P14832__P61830",
+      "components": [
+        "P14832",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P14832",
+      "pair_id": "P14832__P61830",
+      "components": [
+        "P61830",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P14832__Q3E7X9",
+      "pair_id": "P14832__Q3E7X9",
+      "components": [
+        "P14832",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P14832",
+      "pair_id": "P14832__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P14832"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P22141",
+      "pair_id": "P19882__P22141",
+      "components": [
+        "P19882",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P19882",
+      "pair_id": "P19882__P22141",
+      "components": [
+        "P22141",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P22217",
+      "pair_id": "P19882__P22217",
+      "components": [
+        "P19882",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P19882",
+      "pair_id": "P19882__P22217",
+      "components": [
+        "P22217",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P34760",
+      "pair_id": "P19882__P34760",
+      "components": [
+        "P19882",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P19882",
+      "pair_id": "P19882__P34760",
+      "components": [
+        "P34760",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__P61830",
+      "pair_id": "P19882__P61830",
+      "components": [
+        "P19882",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P19882",
+      "pair_id": "P19882__P61830",
+      "components": [
+        "P61830",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P19882__Q3E7X9",
+      "pair_id": "P19882__Q3E7X9",
+      "components": [
+        "P19882",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P19882",
+      "pair_id": "P19882__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P19882"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P22217",
+      "pair_id": "P22141__P22217",
+      "components": [
+        "P22141",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P22141",
+      "pair_id": "P22141__P22217",
+      "components": [
+        "P22217",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P34760",
+      "pair_id": "P22141__P34760",
+      "components": [
+        "P22141",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P22141",
+      "pair_id": "P22141__P34760",
+      "components": [
+        "P34760",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__P61830",
+      "pair_id": "P22141__P61830",
+      "components": [
+        "P22141",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P22141",
+      "pair_id": "P22141__P61830",
+      "components": [
+        "P61830",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22141__Q3E7X9",
+      "pair_id": "P22141__Q3E7X9",
+      "components": [
+        "P22141",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P22141",
+      "pair_id": "P22141__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P22141"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P34760",
+      "pair_id": "P22217__P34760",
+      "components": [
+        "P22217",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P22217",
+      "pair_id": "P22217__P34760",
+      "components": [
+        "P34760",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__P61830",
+      "pair_id": "P22217__P61830",
+      "components": [
+        "P22217",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P22217",
+      "pair_id": "P22217__P61830",
+      "components": [
+        "P61830",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P22217__Q3E7X9",
+      "pair_id": "P22217__Q3E7X9",
+      "components": [
+        "P22217",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P22217",
+      "pair_id": "P22217__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P22217"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__P61830",
+      "pair_id": "P34760__P61830",
+      "components": [
+        "P34760",
+        "P61830"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__P34760",
+      "pair_id": "P34760__P61830",
+      "components": [
+        "P61830",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P34760__Q3E7X9",
+      "pair_id": "P34760__Q3E7X9",
+      "components": [
+        "P34760",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P34760",
+      "pair_id": "P34760__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P34760"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_P61830__Q3E7X9",
+      "pair_id": "P61830__Q3E7X9",
+      "components": [
+        "P61830",
+        "Q3E7X9"
+      ],
+      "artificial": true
+    },
+    {
+      "query_id": "join_Q3E7X9__P61830",
+      "pair_id": "P61830__Q3E7X9",
+      "components": [
+        "Q3E7X9",
+        "P61830"
+      ],
+      "artificial": true
+    }
+  ],
+  "repeat_query_ids": [
+    "clean_Q3E7X9",
+    "clean_P22217",
+    "clean_P00044",
+    "clean_P61830",
+    "clean_P00445",
+    "clean_P14832",
+    "clean_P34760",
+    "clean_P22141",
+    "clean_P00942",
+    "clean_P00359",
+    "clean_P00330",
+    "clean_P00560",
+    "clean_P00924",
+    "clean_P04807",
+    "clean_P19882",
+    "clean_P10591",
+    "join_P00924__P19882",
+    "join_P19882__P00924",
+    "join_P10591__Q3E7X9",
+    "join_Q3E7X9__P10591",
+    "join_P22141__P34760",
+    "join_P34760__P22141",
+    "join_P22217__Q3E7X9",
+    "join_Q3E7X9__P22217"
+  ],
+  "repeat_pair_ids": [
+    "P00924__P19882",
+    "P10591__Q3E7X9",
+    "P22141__P34760",
+    "P22217__Q3E7X9"
+  ],
+  "fraction_bins": [
+    0,
+    0.25,
+    0.4,
+    0.6,
+    0.75,
+    1
+  ],
+  "near_tie_tolerance": 1e-06,
+  "target_genes": {
+    "Q3E7X9": "RPS28A",
+    "P22217": "TRX1",
+    "P00044": "CYC1",
+    "P61830": "HHT1",
+    "P00445": "SOD1",
+    "P14832": "CPR1",
+    "P34760": "TSA1",
+    "P22141": "PRE1",
+    "P00942": "TPI1",
+    "P00359": "TDH3",
+    "P00330": "ADH1",
+    "P00560": "PGK1",
+    "P00924": "ENO1",
+    "P04807": "HXK2",
+    "P19882": "HSP60",
+    "P10591": "SSA1"
+  }
+}

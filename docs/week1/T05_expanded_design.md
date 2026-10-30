@@ -85,3 +85,28 @@ comparisons are controlled within this digital model experiment; length/identity
 associations are confounded. Extracting and re-encoding changes context as well
 as which residue vectors enter the mean. No function prediction, automatic
 segmentation, biological construct validation or hazard screening is established.
+
+## Preflight resolution (before expanded inference)
+
+107 named genes resolved to 105 canonical reviewed accessions, representing 101
+distinct sequences. HHT1/HHT2 and HHF1/HHF2 each share a source accession. Exclude
+P17695-2 (noncanonical alternative isoform returned by API). Four pairs of distinct
+accessions share identical canonical sequences; retain all with explicit equivalence
+groups. All 16 planned targets were admitted, 67–642 aa. All 120 unordered target
+pairs were considered: 115 admitted and five exceeding 1,022 aa excluded. There
+are 230 ordered artificial queries, 16 clean queries and 460 component instances
+in the combined arm. The oracle arm independently encodes 460 extracted components.
+The repeatability subset contains 16 clean and eight combined queries (four pairs).
+
+Relatedness audit: global pairwise alignment of every pair of catalogue sequences,
+Biopython PairwiseAligner, BLOSUM62, open gap -10, extension -0.5, same penalties
+at terminal gaps; use first optimal alignment. Identity = identical residues / all
+alignment columns (including gaps). This is a transparent descriptive audit, not
+a certified homology classification. Save all pair identities and each target's
+closest catalogue neighbour excluding itself. Report numbers with >=30%, >=50%
+and >=90% identity; exact duplicates separately. Annotation-based relation groups
+include broad function groups and do not themselves prove homology.
+
+Additional analysis-only packages (Matplotlib, Biopython and dependencies) are
+locked in requirements-t05-expanded.lock.txt. Original model/runtime package
+versions were constrained to requirements-t05.lock.txt and remain unchanged.
