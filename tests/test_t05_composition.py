@@ -95,5 +95,31 @@ class CompositionTests(unittest.TestCase):
             (root/(digest+'.npz')).write_bytes(b'corrupted')
             with self.assertRaises(ValueError):cache_read(root,key,(1,2))
 
+    @unittest.skipIf(np is None,'NumPy needed for descriptive analysis checks')
+    def test_spearman_ties_and_constant_outcome(self):
+        sys.path.insert(0,str(ROOT/'scripts'))
+        from t05_composition_analyze import averaged_ranks,spearman
+        self.assertTrue(np.array_equal(averaged_ranks([2,1,2,4]),[2.5,1,2.5,4]))
+        self.assertAlmostEqual(spearman([1,2,3],[3,2,1]),-1.)
+        self.assertIsNone(spearman([1,2,3],[1,1,1]))
+
+    @unittest.skipIf(np is None,'NumPy needed for descriptive analysis checks')
+    def test_grouped_counts_do_not_call_reversals_independent_pairs(self):
+        sys.path.insert(0,str(ROOT/'scripts'))
+        from t05_composition_analyze import summarize
+        rows=[]
+        for qid in ['A_B','B_A']:
+            for a in ['A','B']:
+                rank=1 if a=='A' else 8
+                rows.append({'accession':a,'pair_id':'A__B','query_id':qid,'fraction_in_parent':.5,
+                    'rank':rank,'rank_change':rank-1,'reciprocal_rank':1/rank,
+                    'cosine_similarity':.9,'cosine_change':-.1,'exact_score_tie_count':1,'near_tie_count_1e6':1,
+                    **{f'hit_at_{k}':int(rank<=k) for k in (1,5,10)},
+                    **{f'sequence_equivalent_hit_at_{k}':int(rank<=k) for k in (1,5,10)}})
+        s=summarize(rows)
+        self.assertEqual((s['component_instances'],s['distinct_pairs'],s['distinct_proteins'],s['ordered_queries']),(4,1,2,2))
+        self.assertEqual(s['recall_at_1'],.5);self.assertEqual(s['recall_at_5'],.5)
+        self.assertEqual(s['recall_at_10'],1.)
+
 
 if __name__=='__main__':unittest.main()
