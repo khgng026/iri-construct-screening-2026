@@ -6,6 +6,7 @@ downloads, tunes thresholds, changes upstream algorithms, or admits a full run.
 """
 from __future__ import annotations
 import argparse
+import copy
 import datetime as dt
 import importlib
 import importlib.metadata
@@ -29,6 +30,29 @@ KS = (1, 5, 10)
 PARAMETERS = dict(enh=False, norm=False, bfactor=2, sigma_factor=2.0,
                   gap_penalty=0.5, min_spanlen=25, window_size=15, filter_results=True)
 REVISION = "207c252c96361096d8d5a54faa5705af6e9848be"
+ORIGINAL_DESIGN_SHA256 = "98528bfad9d28a6b2c9de7a1c8d50c050cae5c9759bbb3dbd104e12fcfcd83b1"
+RESOURCE_VERSION = "iri-plmblast-existing-esm2-resource-v2"
+RESOURCE_STATUS = "frozen_after_v1_timing_before_repeat32_benchmark_scoring"
+RESOURCE_AMENDMENT = {
+    "basis": "Explicit resource allocation after the original v1 timing failure; no repeat32 benchmark scoring observed",
+    "only_limit_change": {"path": "limits.repeat_alignment_seconds", "original": 5400, "amended": 10800},
+    "original_design": {"path": "inputs/plmblast_design_v1.json", "sha256": ORIGINAL_DESIGN_SHA256},
+    "original_negative_probe": {
+        "path": "jobs/plmblast-align-probe-v1-77145f0dd4e5",
+        "identity_sha256": "77145f0dd4e5672f76f07cba6a25947414cca03f5cfebb794ecf7d2461edc641",
+        "completion_sha256": "8ee4cda85ab49638c542ce7c2166f7e4a7047f47027d1cb1a072146ab1e49d06",
+        "decision": "not_admitted", "alignment_forecast_seconds": 8859.360704898589},
+    "prior_runner": {"git_commit": "9ef47d3", "sha256": "640ad1d05be5abfe1ed0ee8a7a68e690bddf57f1cf75e83b1d6e4995ebb10035"},
+    "independent_resource_audit": {
+        "path": "audit/independent_plmblast_probe_resource_v2.json",
+        "sha256": "84ff7509054023554d347298f10bc53ca4a2eb44b300031c88100231379f8887"},
+    "overlay_resolution": {
+        "path": "vendor/plmblast-runtime-bytecode-quarantine-v1/report.json",
+        "sha256": "efd6c97204a62b5f4856412b396add888350aa3a3bfbcb6cd537214e11fb237a"},
+    "command_local_environment": {"PYTHONDONTWRITEBYTECODE": "1"},
+    "reservation_seconds": {"alignment": 10800, "encoding": 1800, "cleanup_and_audit": 3600},
+    "admission": "Root explicit decision after priority-work/resource review and a new v2 encoding/probe identity; original v1 remains not_admitted",
+}
 SPAWNING = False
 CLEANING = False
 PENDING_SIGNAL = None
@@ -115,20 +139,91 @@ def source_evidence(session, design):
     return {"revision": REVISION, "manifest_sha256": file_hash(manifest_path), "files": records}
 
 
+def validate_resource_design(design, original):
+    """Allow only the exact resource amendment relative to checksum-pinned v1."""
+    require(original["version"] == "iri-plmblast-existing-esm2-v1" and
+            original["status"] == "frozen_before_installation_import_timing_or_scoring" and
+            original["limits"]["repeat_alignment_seconds"] == 5400 and
+            original["limits"]["repeat_encoding_seconds"] == 1800, "Wrong original design")
+    if design.get("version") == original["version"]:
+        require(canonical(design) == canonical(original), "Original v1 design changed")
+        return
+    require(design.get("version") == RESOURCE_VERSION, "Unknown pLM-BLAST design version")
+    expected = copy.deepcopy(original)
+    expected["version"] = RESOURCE_VERSION
+    expected["status"] = RESOURCE_STATUS
+    expected["limits"]["repeat_alignment_seconds"] = 10800
+    require(expected["forecast"]["admission"].count("alignment forecast<=5400s") == 1,
+            "Original admission description differs")
+    expected["forecast"]["admission"] = expected["forecast"]["admission"].replace(
+        "alignment forecast<=5400s", "alignment forecast<=10800s")
+    expected["resource_amendment"] = RESOURCE_AMENDMENT
+    require(canonical(design) == canonical(expected), "Resource v2 exceeds the exact cap-only amendment")
+
+
+def load_validated_design(session, design_path):
+    original_path = session / "inputs/plmblast_design_v1.json"
+    require(file_hash(original_path) == ORIGINAL_DESIGN_SHA256, "Pinned original v1 design bytes changed")
+    design = read(design_path)
+    validate_resource_design(design, read(original_path))
+    if design["version"] == RESOURCE_VERSION:
+        require(os.environ.get("PYTHONDONTWRITEBYTECODE") == "1" and sys.dont_write_bytecode,
+                "Resource v2 requires command-local PYTHONDONTWRITEBYTECODE=1 before interpreter startup")
+    return design
+
+
+def verify_resource_amendment(session, design, *, actual_overlay=None):
+    if design["version"] != RESOURCE_VERSION:
+        return
+    evidence = design["resource_amendment"]
+    original = evidence["original_negative_probe"]
+    probe = open_completed(session / original["path"], session)
+    require(probe.identity_hash == original["identity_sha256"] and
+            probe.completion_sha256 == original["completion_sha256"] and
+            probe.identity["design_sha256"] == ORIGINAL_DESIGN_SHA256,
+            "Original negative probe identity/completion changed")
+    summary = completed_unit(probe, "summary")
+    require(summary["resource_recommendation"] == original["decision"] == "not_admitted" and
+            summary["forecast"]["within_frozen_budget"] is False and
+            summary["forecast"]["alignment_seconds"] == original["alignment_forecast_seconds"],
+            "Original v1 negative resource decision changed")
+    for key in ("independent_resource_audit", "overlay_resolution"):
+        require(file_hash(session / evidence[key]["path"]) == evidence[key]["sha256"],
+                "Resource amendment evidence changed: " + key)
+    resolution = read(session / evidence["overlay_resolution"]["path"])
+    require(resolution["status"] == "passed" and resolution["all_extra_bytes_preserved"] is True and
+            resolution["all_original_installed_files_unchanged"] is True and resolution["exact_file_membership_restored"] is True,
+            "Overlay resolution did not pass")
+    installation_path = session / "inputs/plmblast_overlay_installation_v1.json"
+    require(file_hash(installation_path) == resolution["original_installation_sha256"], "Resolved installation record changed")
+    installation = read(installation_path)
+    overlay = session / "vendor/plmblast-overlay-v1"
+    require(installation["status"] == "verified_installed" and Path(installation["overlay"]).resolve() == overlay.resolve(),
+            "Resolved overlay differs")
+    if actual_overlay is not None:
+        require(Path(actual_overlay).resolve(strict=True) == overlay.resolve(strict=True),
+                "Selected overlay differs from the pinned installation overlay")
+    entries = list(overlay.rglob("*"))
+    require(not any(p.is_symlink() for p in entries) and
+            {str(p.relative_to(overlay)) for p in entries if p.is_file()} == set(installation["installed_files"]),
+            "Resolved overlay exact file membership changed")
+    for relative, sha in installation["installed_files"].items():
+        require(file_hash(overlay / relative) == sha, "Resolved overlay bytes changed")
+
+
 def setup(args):
-    from iri_constructs.session_benchmark import load_suite
     session = args.session.resolve()
     require(session.is_relative_to(ROOT / "results"), "Session outside owned results")
     require(file_hash(Path(__file__)) == args.expected_code_sha256, "Runner differs from frozen invocation")
     design_path = args.design or session / "inputs/plmblast_design_v1.json"
     require(file_hash(design_path) == args.expected_design_sha256, "Design differs from frozen invocation")
-    design = read(design_path)
-    require(design["version"] == "iri-plmblast-existing-esm2-v1" and
-            design["status"] == "frozen_before_installation_import_timing_or_scoring" and
-            design["extractor"] == PARAMETERS and design["budgets"] == list(KS) and
+    design = load_validated_design(session, design_path)
+    verify_resource_amendment(session, design, actual_overlay=args.overlay)
+    require(design["extractor"] == PARAMETERS and design["budgets"] == list(KS) and
             design["postprocess"] == dict(alignment_cutoff=0.3, round_decimals=3, reduce_duplicates=False) and
             design["screening"]["COS_PER_CUT"] == 0 and design["screening"]["workers"] == 1,
             "Frozen scientific settings changed")
+    from iri_constructs.session_benchmark import load_suite
     suite = load_suite(ROOT, session / "inputs")
     require(suite["verification"]["challenge_manifest_sha256"] == design["challenge_sha256"] and
             suite["manifest"]["repeat_query_ids"] == design["repeat_query_ids"] and
@@ -222,7 +317,33 @@ def session_seconds(session):
     return (deadline - dt.datetime.now(dt.timezone.utc)).total_seconds()
 
 
-def validate_admission(path, session, design_hash, sources):
+def forecast_within_limits(forecast, design):
+    alignment, encoding = forecast["alignment_seconds"], forecast["encoding_seconds"]
+    require(all(math.isfinite(value) and value > 0 for value in (alignment, encoding)), "Invalid resource forecast")
+    return (alignment <= design["limits"]["repeat_alignment_seconds"] and
+            encoding <= design["limits"]["repeat_encoding_seconds"])
+
+
+def validate_resource_reservation(gate, hard_stop, stage, now=None):
+    """Keep the full stage budgets plus one hour for cleanup/audit available."""
+    require(stage in ("encoding", "alignment"), "Unknown resource-reservation stage")
+    require(gate["schema"] == "iri-plmblast-explicit-resource-admission-v2" and gate["decided_by"] == "root" and
+            gate["priority_work_and_actual_resources_reviewed"] is True, "Resource v2 needs explicit root review")
+    reservation = gate["resource_reservation"]
+    expected = {"session_hard_stop_utc": hard_stop, "alignment_seconds": 10800,
+                "encoding_seconds": 1800, "cleanup_audit_seconds": 3600}
+    require(canonical(reservation) == canonical(expected), "Resource v2 reservation changed")
+    deadline = dt.datetime.fromisoformat(hard_stop)
+    decided = dt.datetime.fromisoformat(gate["decision_utc"])
+    now = dt.datetime.now(dt.timezone.utc) if now is None else now
+    require(deadline.tzinfo is not None and decided.tzinfo is not None and now.tzinfo is not None and decided <= now,
+            "Resource reservation timestamps are invalid")
+    require((deadline - decided).total_seconds() >= 16200, "Original resource decision lacked the full 16200 s reservation")
+    required = 16200 if stage == "encoding" else 14400
+    require((deadline - now).total_seconds() >= required, "Insufficient remaining session time for resource v2 " + stage)
+
+
+def validate_admission(path, session, design_hash, sources, *, design, stage):
     require(path is not None, "Repeat32 requires explicit passed pair-probe resource admission")
     gate = read(path)
     require(gate["status"] == "passed" and gate["decision"] == "admit_repeat32" and gate["resource_gate"] == "passed",
@@ -234,8 +355,16 @@ def validate_admission(path, session, design_hash, sources):
             probe.identity["code_hashes"] == code_hashes(), "Admission refers to another probe/code/design")
     summary = completed_unit(probe, "summary")
     require(summary["resource_recommendation"] == "eligible_for_explicit_repeat32_admission" and
-            summary["failed_pair_count"] == 0 and not summary["resource_gate_failures"] and summary["expected_pair_count"] == 12,
+            summary["failed_pair_count"] == 0 and not summary["resource_gate_failures"] and summary["expected_pair_count"] == 12 and
+            summary["forecast"]["within_frozen_budget"] is True and forecast_within_limits(summary["forecast"], design),
             "Probe/resource gates failed")
+    if design["version"] == RESOURCE_VERSION:
+        require(gate["design_sha256"] == design_hash and gate["runner_sha256"] == file_hash(__file__) and
+                gate["probe_identity_sha256"] == probe.identity_hash and probe.identity["design_version"] == RESOURCE_VERSION and
+                gate["original_v1_design_sha256"] == ORIGINAL_DESIGN_SHA256 and
+                canonical(gate["original_v1_negative_probe"]) == canonical(RESOURCE_AMENDMENT["original_negative_probe"]),
+                "Resource v2 admission provenance differs")
+        validate_resource_reservation(gate, read(session / "launch.json")["hard_stop_utc"], stage)
     return {"gate_sha256": file_hash(path), "probe": evidence_of(probe),
             "method": probe.identity["method"], "runtime": probe.identity["runtime"],
             "forecast": summary["forecast"]}
@@ -247,12 +376,14 @@ def encode(args, session, design, design_path, suite, sources):
     from session_context_profile import PrecisionAudit
     probe_mode = args.mode == "encode-probe"
     original = verify_model_probe(args.model_probe_job, session, design, suite)
-    admission = None if probe_mode else validate_admission(args.admission, session, file_hash(design_path), sources)
+    admission = None if probe_mode else validate_admission(args.admission, session, file_hash(design_path), sources,
+                                                          design=design, stage="encoding")
     require(admission is None or admission["method"] == original.identity["model"], "Admission model differs")
     query_ids, accessions = encoding_panel(design, suite, probe_mode)
     lookup = {q["query_id"]: q for q in suite["queries"]}
     units = ["reference-" + a for a in accessions] + ["query-" + q for q in query_ids]
     identity = {"mode": "plmblast_encoding_v1", "panel": "probe12" if probe_mode else "repeat32",
+                "design_version": design["version"], "design_status": design["status"],
                 "design_sha256": file_hash(design_path), "source": sources, "code_hashes": code_hashes(),
                 "method": original.identity["model"], "model_probe": evidence_of(original),
                 "query_ids": query_ids, "reference_accessions": accessions, "unit_keys": units + ["summary"],
@@ -548,8 +679,9 @@ def worker(spec_path, overlay):
     started = time.monotonic()
     spec = read(spec_path)
     session = Path(spec["session"])
-    design = read(spec["design_path"])
     require(file_hash(spec["design_path"]) == spec["design_sha256"] and code_hashes() == spec["code_hashes"], "Worker code/design changed")
+    design = load_validated_design(session, spec["design_path"])
+    verify_resource_amendment(session, design, actual_overlay=overlay)
     upstream, runtime = load_alignment_runtime(session, design, overlay)
     from iri_constructs.session_benchmark import load_suite
     from session_experiment import peak_mib
@@ -772,8 +904,7 @@ def forecast_repeat(pair_rows, timings, startups, model_probe, suite, design):
               "encoding_seconds": factor * encoding_rate * encoding_work, "safety_factor": factor,
               "maximum_observed_pair_seconds_per_work": max(rates), "repeat_work": work,
               "basis": "All12 prespecified pairs; no retrieval metric, pair substitution or threshold tuning", "is_guarantee": False}
-    result["within_frozen_budget"] = (result["alignment_seconds"] <= design["limits"]["repeat_alignment_seconds"] and
-                                      result["encoding_seconds"] <= design["limits"]["repeat_encoding_seconds"])
+    result["within_frozen_budget"] = forecast_within_limits(result, design)
     return result
 
 
@@ -825,7 +956,8 @@ def alignment(args, session, design, design_path, suite, sources):
     original = verify_model_probe(Path(encoding.identity["model_probe"]["path"]), session, design, suite)
     require(evidence_of(original) == encoding.identity["model_probe"] and encoding.identity["method"] == original.identity["model"],
             "Completed model source changed")
-    admission = None if probe_mode else validate_admission(args.admission, session, file_hash(design_path), sources)
+    admission = None if probe_mode else validate_admission(args.admission, session, file_hash(design_path), sources,
+                                                          design=design, stage="alignment")
     if admission is not None:
         require(encoding.identity["admission"] == admission, "Repeat encoding used another admission")
     label_path = session / "inputs/family_labels_v1.json"
@@ -842,6 +974,7 @@ def alignment(args, session, design, design_path, suite, sources):
         if admission is not None:
             require(ready["runtime"] == admission["runtime"], "Repeat alignment runtime differs from timing probe")
         identity = {"mode": "plmblast_alignment_v1", "panel": "probe12" if probe_mode else "repeat32",
+                    "design_version": design["version"], "design_status": design["status"],
                     "design_sha256": file_hash(design_path), "source": sources, "code_hashes": code_hashes(),
                     "runtime": ready["runtime"], "encoding_source": evidence_of(encoding),
                     "method": encoding.identity["method"], "query_ids": query_ids, "reference_accessions": accessions,
