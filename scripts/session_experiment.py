@@ -81,7 +81,7 @@ def run(args):
     job_id=args.name+'-'+digest(canonical(identity))[:12]
     store=UnitStore(session/'jobs'/job_id,identity,session/'job_ledger.jsonl')
     store.event(event='job_started',job_id=job_id,state='running',pid=os.getpid(),query_count=len(queries))
-    atomic_json(store.root/'invocation-'+str(os.getpid())+'.json',{'argv':sys.argv,'started_utc':utcnow(),'pid':os.getpid()})
+    atomic_json(store.root/('invocation-'+str(os.getpid())+'.json'),{'argv':sys.argv,'started_utc':utcnow(),'pid':os.getpid()})
     expected=[]
     try:
         refs=None
