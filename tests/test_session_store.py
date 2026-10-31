@@ -43,5 +43,14 @@ class StoreTests(unittest.TestCase):
             self.assertEqual([r["state"] for r in results],["failed","blocked","complete"])
             self.assertEqual(len(ledger.read_text().splitlines()),6)
 
+    def test_supervisor_interruption_is_recorded_and_propagated(self):
+        with tempfile.TemporaryDirectory() as d:
+            ledger=Path(d)/'ledger.jsonl'
+            def stop():raise SystemExit(143)
+            with self.assertRaises(SystemExit):attempt_job('owned-stop',stop,ledger)
+            events=[json.loads(line) for line in ledger.read_text().splitlines()]
+            self.assertEqual(events[-1]['event'],'job_attempt_interrupted')
+            self.assertEqual(events[-1]['state'],'failed')
+
 
 if __name__ == "__main__": unittest.main()

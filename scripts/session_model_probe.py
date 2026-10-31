@@ -22,6 +22,16 @@ def main(args):
     longest=max(suite['queries'],key=lambda q:(q['length_aa'],q['query_id']))
     panel=[clean[0],clean[len(clean)//2],clean[-1],longest]
     encoder=load_encoder(config)
+    observed_outputs=[]
+    floating_dtypes=sorted({str(p.dtype) for p in encoder.model.parameters() if p.is_floating_point()})
+    if floating_dtypes!=['torch.float32']:
+        encoder.close();raise ValueError('Actual model parameter precision differs from declared FP32')
+    def check_raw_output(module,inputs,output):
+        hidden=getattr(output,'embeddings',None) if config['family']=='esm3' else getattr(output,'last_hidden_state',None)
+        if hidden is None or str(hidden.dtype)!='torch.float32' or hidden.device.type!=config['device']:
+            raise ValueError('Actual forward hidden dtype/device differs from configuration')
+        observed_outputs.append({'dtype':str(hidden.dtype),'device':str(hidden.device)})
+    output_hook=encoder.model.register_forward_hook(check_raw_output)
     try:
         identity={'mode':'admission_probe_v1','config':config,
                   'model':{k:v for k,v in encoder.metadata.items() if k!='load_seconds'},
@@ -44,13 +54,16 @@ def main(args):
                   'within_config_max_abs':max_difference,'encode':encoder.last_encode_metadata,
                   'peak_process_rss_mib':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss/2**20,
                   'load_seconds':encoder.load_seconds}
+            info.update(actual_parameter_dtypes=floating_dtypes,actual_forward_outputs=observed_outputs[-3:])
             if config['family']=='esm3' and q==panel[0]:
                 info['official_api_equivalence']=encoder.verify_official_equivalence(q['sequence'])
             job.publish(key,info,{'residues':reference,'mean':reference.mean(axis=0,dtype=np.float64).astype(np.float32)})
             print(json.dumps(info),flush=True)
         job.complete(expected)
         print(json.dumps({'status':'passed','job':str(job.root)}),flush=True)
-    finally:encoder.close()
+    finally:
+        output_hook.remove()
+        encoder.close()
 
 
 if __name__=='__main__':
