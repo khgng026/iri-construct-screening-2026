@@ -14,6 +14,30 @@ from iri_constructs.session_store import UnitStore,atomic_json,append_event,file
 from iri_constructs.session_jobs import run_guarded,attempt_job,BlockedJob,remaining_session_seconds
 
 
+def resolve_command(job, results):
+    """Resolve explicit prior verified outputs; never guess a job hash or run a shell."""
+    command = []
+    for argument in job['command']:
+        if isinstance(argument, str):
+            command.append(argument)
+            continue
+        if not isinstance(argument, dict) or set(argument) != {'verified_job_of'}:
+            raise ValueError('Unsupported structured command argument')
+        dependency = argument['verified_job_of']
+        if dependency not in job.get('requires', []):
+            raise ValueError('A verified-output reference must declare its dependency')
+        prior = [result for result in results if result['job_id'] == dependency]
+        if not prior or prior[-1]['state'] != 'complete':
+            raise BlockedJob('Verified source job is not complete: ' + dependency)
+        path = prior[-1].get('outputs', {}).get('verified_job')
+        if not isinstance(path, str) or not Path(path).is_absolute():
+            raise ValueError('Prior job has no verified completed job path')
+        command.append(path)
+    if not command or not command[0]:
+        raise ValueError('Empty command')
+    return command
+
+
 def stability(session,job_id):
     spec=importlib.util.spec_from_file_location('resource_guard',ROOT.parent/'machine-readiness-2026-10-31/resource_guard.py')
     guard=importlib.util.module_from_spec(spec);spec.loader.exec_module(guard)
@@ -39,11 +63,17 @@ def run_queue(args):
                 prior=[r for r in results if r['job_id']==required]
                 if not prior or prior[-1]['state']!='complete':
                     raise BlockedJob('Required earlier job did not complete: '+required)
+            resolved_command=resolve_command(job,results)
+            append_event(s/'job_ledger.jsonl',{'event':'queue_command_resolved','job_id':job_id,
+                'command':resolved_command,'declared_dependencies':job.get('requires',[])})
             if job.get('stable_before'):stability(s,job_id)
-            output=run_guarded(command,interpreter=sys.executable,guard=ROOT/'scripts/session_guard_entry.py',
+            output=run_guarded(resolved_command,interpreter=sys.executable,guard=ROOT/'scripts/session_guard_entry.py',
                     timeout=job['timeout'],deadline_utc=launch['hard_stop_utc'],log_path=s/'logs'/(job_id+'-guard.log'))
             if 'completion_glob' in job:
-                matches=list((s/'jobs').glob(job['completion_glob']))
+                completion_root=job.get('completion_root','jobs')
+                if completion_root not in ('jobs','analysis'):
+                    raise ValueError('Completion evidence must be in owned jobs or analysis directory')
+                matches=list((s/completion_root).glob(job['completion_glob']))
                 valid=[]
                 for path in matches:
                     if not list(path.glob('completion-*.json')):continue
