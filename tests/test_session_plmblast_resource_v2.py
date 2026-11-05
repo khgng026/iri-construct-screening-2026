@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT / "src"), str(ROOT / "scripts")]
 import session_plmblast_experiment as runner
 
-SESSION = ROOT / "results/iri-session-20261031-032506"
+SESSION = ROOT / "tests/fixtures/session"
 V1 = SESSION / "inputs/plmblast_design_v1.json"
 V2 = SESSION / "inputs/plmblast_design_resource_v2.json"
 

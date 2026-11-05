@@ -1,16 +1,22 @@
-name: Week 1 metadata and schema checks
+name: Portable research checks
 on:
   push:
   pull_request:
 jobs:
   test:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ['3.11', '3.12']
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-      - name: Run dependency-free smoke check
+          python-version: ${{ matrix.python }}
+      - name: Install lightweight test dependencies
+        run: python -m pip install -e . -r requirements-checks.txt
+      - name: Run smoke check
         run: python scripts/smoke_test.py
-      - name: Run standard-library unit tests
+      - name: Run portable tests without downloads
         run: python -m unittest discover -s tests -v

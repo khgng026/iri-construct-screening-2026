@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'scripts'))
 import session_storage_compress as storage
 
-PREPARED_GUARD = ROOT.parent/'machine-readiness-2026-10-31/resource_guard.py'
+PREPARED_GUARD = ROOT / 'scripts/resource_guard.py'
 
 
 class FixtureGuard:

@@ -1,5 +1,6 @@
 """Independent hand-checkable tests of denominators, masks and design checks."""
 from copy import deepcopy
+import os
 from pathlib import Path
 import tempfile
 import unittest
@@ -152,9 +153,9 @@ class PreparedInputTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.repo = Path(__file__).resolve().parents[1]
-        cls.packet = cls.repo.parent / 'overnight-plan-2026-10-31'
-        if not cls.packet.exists():
-            raise unittest.SkipTest('Local frozen preparation packet is not installed')
+        cls.packet = cls.repo / 'config/reproduction/packet'
+        if os.environ.get('IRI_RUN_DATA_TESTS') != '1':
+            raise unittest.SkipTest('Install the verified input bundle and set IRI_RUN_DATA_TESTS=1 for frozen-data integration tests')
         cls.suite = load_suite(cls.repo, cls.packet)
 
     def test_all_reviewed_inputs_and_designs(self):

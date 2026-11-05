@@ -39,7 +39,7 @@ def resolve_command(job, results):
 
 
 def stability(session,job_id):
-    spec=importlib.util.spec_from_file_location('resource_guard',ROOT.parent/'machine-readiness-2026-10-31/resource_guard.py')
+    spec=importlib.util.spec_from_file_location('resource_guard',ROOT / 'scripts/resource_guard.py')
     guard=importlib.util.module_from_spec(spec);spec.loader.exec_module(guard)
     start=time.monotonic();samples=[]
     while True:

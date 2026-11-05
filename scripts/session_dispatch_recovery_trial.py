@@ -22,7 +22,7 @@ import uuid
 
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = Path(__file__).resolve()
-PREPARED_GUARD = ROOT.parent / "machine-readiness-2026-10-31/resource_guard.py"
+PREPARED_GUARD = ROOT / "scripts/resource_guard.py"
 
 
 def require(value, message):

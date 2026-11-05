@@ -1,5 +1,9 @@
 # IRI research handoff — November 5, 2026
 
+## Run the core benchmark
+
+Follow [REPRODUCE.md](REPRODUCE.md) for a clean environment, verified shared input bundle and bounded CPU runs. Optional historical extensions remain separately scoped.
+
 ## Read first
 
 [October 31 research report](docs/research/2026-10-31/REPORT.md) contains the results, limits and links. [Shared evidence manifest](docs/research/2026-10-31/SHARED_MANIFEST.json) lists copied tables, figures and audit records. Code and tests are on this branch; main is preserved pending review.
@@ -29,8 +33,8 @@ Local only: raw biological sequences, downloaded source records, model weights, 
 
 Historical validation: 370 supported tests, 369 passed and one SciPy-dependent skip subsequently checked in the compatible environment. New handoff verification is recorded separately. No new inference results are claimed.
 
-## Fresh handoff validation
+## Initial handoff validation before portability fixes
 
-On November 5, clean-worktree discovery ran 367 tests: 352 passed, 14 errored and one skipped. Errors are retained in [handoff test log](docs/research/handoff-tests.txt); they expose dependencies on local-only session fixtures and resource-guard files. The historical 370-test closeout used the original local environment and is not a claim that this checkout passes all tests. This PR remains draft until portability work is reviewed.
+On November 5, clean-worktree discovery ran 367 tests: 352 passed, 14 errored and one skipped. Errors are retained in [handoff test log](docs/research/handoff-tests.txt); they expose dependencies on local-only session fixtures and resource-guard files. The historical 370-test closeout used the original local environment and is not a claim that this checkout passes all tests. These initial errors are preserved as historical evidence; see REPRODUCE.md and the subsequent validation record for portability fixes.
 
 Shared Drive entry point: https://docs.google.com/document/d/1fAH0zEmMkPr_5EqWrB3ck0R-OEZcnDk42QoMw_IkhSw/edit

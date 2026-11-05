@@ -171,7 +171,7 @@ class MaskAndFusionTests(unittest.TestCase):
 
     def test_frozen_unique_catalogues_rebuilt_and_tampering_rejected(self):
         session = ROOT / "results/iri-session-20261031-032506"
-        manifest = audit.read(session / "inputs/challenge_manifest.json")
+        manifest = audit.read(ROOT / "config/reproduction/packet/challenge_manifest.json")
         catalogue = audit.read(ROOT / "data/manifests/t05_expanded_catalogue.json")
         hashes = {r["accession"]: r["sequence_sha256"] for r in catalogue["records"]}
         masks = audit.rebuild_catalogues(manifest, hashes)

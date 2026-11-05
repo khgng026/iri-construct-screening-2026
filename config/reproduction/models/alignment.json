@@ -1,0 +1,1 @@
+{"first_gap":"open+(length-1)*extend","gap_extend":0.5,"gap_open":10,"matrix":"BLOSUM62","method":"Smith-Waterman"}

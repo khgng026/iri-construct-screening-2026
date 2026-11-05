@@ -18,7 +18,7 @@ sys.path.insert(0,str(ROOT/'src'))
 from iri_constructs.session_jobs import cleanup_owned_group
 from iri_constructs.session_store import atomic_json,utcnow
 
-GUARD=Path('/Users/Rudra2.0/Desktop/IRI/machine-readiness-2026-10-31/resource_guard.py')
+GUARD=ROOT / 'scripts/resource_guard.py'
 SPAWNING=False
 PENDING_SIGNAL=None
 
