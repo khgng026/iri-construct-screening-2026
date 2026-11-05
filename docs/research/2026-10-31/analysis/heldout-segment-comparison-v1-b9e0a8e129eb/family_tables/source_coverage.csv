@@ -1,0 +1,2 @@
+job_id,mode,arm,policy,role,configuration_id,segmenter,label,source_queries,compared_queries,source_queries_outside_comparison,missing_panel_queries,combined_queries,clean_queries
+family-test-8m-infer-v1-d0424de04de8,family_automatic_retrieval_v1,family_segmentation,family_panel,exploratory_family_transfer,windows256_stride128_max_score,fixed_windows,facebook/esm2_t6_8M_UR50D / windows256_stride128_max_score,966,966,0,0,950,16

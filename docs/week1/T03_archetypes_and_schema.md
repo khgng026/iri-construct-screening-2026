@@ -1,6 +1,6 @@
 # T03 | Construct archetypes and normalized output schema
 
-**Week:** 1  |  **Budget:** 2 hours  |  **Status:** Draft schema v0.1  |  **Prerequisite:** T01  |  **Calendar source:** `Weekly To-Dos!A7:K7`.
+**Week:** 1  |  **Budget:** 2 hours  |  **Status:** Approved schema v0.1 baseline (researcher sign-off 2026-10-29)  |  **Prerequisite:** T01  |  **Calendar source:** `Weekly To-Dos!A7:K7`.
 
 ## Archetype definitions (selection labels, not inferred hazards)
 
@@ -15,7 +15,7 @@
 
 ## Normalized representation: v0.1 (three linked objects)
 
-The JSON drafts in `data/examples/` are **hypothetical schematic benign metadata only**: no real accessions, sequences, or verified biological findings.
+The approved v0.1 JSON examples in `data/examples/` are **hypothetical schematic benign metadata only**: no real accessions, sequences, or verified biological findings.
 
 ### `construct` (one per source record)
 
@@ -62,7 +62,7 @@ All three examples can be checked with `python -m unittest discover -s tests -v`
 
 ## Handoff and decisions
 
-T03 is ready for T06/T10/T11/T12 when the archetypes and schema are reviewed. T05 must decide the model interface before any example is labeled truly `ready`. T10/11 must preserve raw GenBank feature semantics; FASTA-only inputs typically lack feature labels and should receive `unknown` unless a separate approved annotation source exists. Additional annotation keys may be added after a Week 2 pilot, with a documented version bump and migration.
+**T03 planning sign-off — completed 2026-10-29:** The researcher approved the four archetypes, normalization schema v0.1, and three fictional examples for the Week 1 deliverable. This does **not** claim biological accuracy or validation on real records. T03 can serve as the baseline for T06/T10/T11/T12; the schema must still be checked against a benign annotated pilot and any revisions must be versioned. T05 must decide the model interface before any example is labeled truly `ready`. T10/11 must preserve raw GenBank feature semantics; FASTA-only inputs typically lack feature labels and should receive `unknown` unless a separate approved annotation source exists. Additional annotation keys may be added after a Week 2 pilot, with a documented version bump and migration.
 
 **Source basis:** IRI proposal, pp. 1–2 (mixed constructs and four archetypes); four-week workbook `Weekly To-Dos` T03, T10–T12 and `MVP Criteria` MVP-02/03/04.
 
