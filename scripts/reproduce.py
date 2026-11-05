@@ -31,7 +31,7 @@ def install_bundle(path):
         payloads = {}
         for name, digest in manifest.items():
             target = (ROOT / name).resolve()
-            if not target.is_relative_to(ROOT / 'data'):
+            if not target.is_relative_to(ROOT.resolve() / 'data'):
                 raise ValueError('Unsafe archive path')
             data = archive.read(name)
             if sha(data) != digest:
