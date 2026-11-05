@@ -26,7 +26,7 @@ def validate_case(case: dict, proteins: dict) -> tuple:
     return fusion, target, start, end
 
 
-def compare_case(case: dict, proteins: dict, adapter) -> dict:
+def compare_case(case: dict, proteins: dict, adapter, *, pooled_sink: dict | None = None) -> dict:
     fusion, target, start, end = validate_case(case, proteins)
     result = {'case_id': case['case_id'], 'fusion_id': fusion.input_id, 'target_id': target.input_id,
               'start0': start, 'end0': end, 'coordinate_system': '0-based half-open amino acids',
@@ -48,6 +48,10 @@ def compare_case(case: dict, proteins: dict, adapter) -> dict:
     else:
         result['conditions']['contextual_target'] = {'status': 'unavailable', 'reason': 'Full fusion inference failed'}
     pooled = {key: mean_pool(rows) for key, rows in raw.items()}
+    # Callers may reuse pooled values for a separately frozen retrieval panel.
+    # Vectors remain in memory and are never inserted in the sequence-free report.
+    if pooled_sink is not None:
+        pooled_sink.update(pooled)
     result['pairwise_cosine'] = {a + '__' + b: cosine(pooled[a], pooled[b])
         for a, b in [('isolated_target', 'complete_fusion'), ('isolated_target', 'contextual_target'),
                      ('complete_fusion', 'contextual_target')] if a in pooled and b in pooled}

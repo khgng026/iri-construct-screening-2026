@@ -1,0 +1,37 @@
+{
+  "schema_version": "pilot-scoring-1",
+  "protocol_id": "iri-real-construct-pilot",
+  "protocol_version": "1.0",
+  "design_status": "design_frozen_pending_admission",
+  "frozen_design_on": "2026-11-05",
+  "top_k": 5,
+  "retrieval_budget": 5,
+  "budget_scope": "one total ranking per parent or matched target query; never five per unit",
+  "seed": 20261105,
+  "min_independent_clusters": 8,
+  "bootstrap_replicates": 2000,
+  "max_residues": 1022,
+  "claim_scope": "Reviewed annotation-family agreement; no biological-function or hazardous-sequence classification",
+  "input_schema": "t05-inputs-1",
+  "panel_schema": "pilot-panel-1",
+  "model_revisions": {
+    "esm2": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "esmc": "main"
+  },
+  "pr1_reference_sha": "7b15f02ac929cd06a8dee76ccec0541641844ccf",
+  "experiment": "C",
+  "models": [
+    "alignment",
+    "esm2"
+  ],
+  "hypothesis": "Embeddings provide additional annotation-family recovery beyond conventional alignment, if empirically supported.",
+  "alignment": {
+    "mode": "local",
+    "substitution_matrix": "BLOSUM62",
+    "open_gap_score": -10,
+    "extend_gap_score": -0.5,
+    "primary": "raw_score",
+    "sensitivity": "reference_self_normalized"
+  },
+  "primary_endpoint": "paired documented-family recall@5 on identical eligible references; raw alignment primary"
+}

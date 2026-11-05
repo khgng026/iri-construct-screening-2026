@@ -56,6 +56,11 @@ class ReviewGateTests(unittest.TestCase):
         self.config['records'] *= 2
         with self.assertRaisesRegex(InputError, 'Duplicate'):
             reviewed_sources(self.write())
+
+    def test_distinct_input_ids_cannot_alias_one_source_record(self):
+        self.config['records'].append({**self.config['records'][0], 'input_id':'different-alias'})
+        with self.assertRaisesRegex(InputError,'source-record alias'):
+            reviewed_sources(self.write())
         self.config['records'] = self.config['records'][:1]
         self.row['notes'] = ''
         with self.assertRaisesRegex(InputError, 'notes'):
@@ -92,4 +97,11 @@ class ReviewGateTests(unittest.TestCase):
         self.row['checksum_sha256'] = digest_file(self.source)
         _, sources, _ = reviewed_sources(self.write())
         with self.assertRaisesRegex(InputError, 'Duplicate sequence'):
+            read_source(sources[0])
+
+    @unittest.skipUnless(importlib.util.find_spec('Bio'), 'Optional Biopython')
+    def test_source_mutation_after_gate_is_rejected_before_parse(self):
+        _, sources, _ = reviewed_sources(self.write())
+        self.source.write_text('>fictional-test\n'+'C'*4+'\n',encoding='utf-8')
+        with self.assertRaisesRegex(InputError,'changed after review'):
             read_source(sources[0])
