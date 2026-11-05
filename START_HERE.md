@@ -28,3 +28,9 @@ Local only: raw biological sequences, downloaded source records, model weights, 
 4. Review code and tests for the selected next experiment. Optional DCT/pLM adapters and unrun extensions are not completed scientific findings; see CONTINUE.md.
 
 Historical validation: 370 supported tests, 369 passed and one SciPy-dependent skip subsequently checked in the compatible environment. New handoff verification is recorded separately. No new inference results are claimed.
+
+## Fresh handoff validation
+
+On November 5, clean-worktree discovery ran 367 tests: 352 passed, 14 errored and one skipped. Errors are retained in [handoff test log](docs/research/handoff-tests.txt); they expose dependencies on local-only session fixtures and resource-guard files. The historical 370-test closeout used the original local environment and is not a claim that this checkout passes all tests. This PR remains draft until portability work is reviewed.
+
+Shared Drive entry point: https://docs.google.com/document/d/1fAH0zEmMkPr_5EqWrB3ck0R-OEZcnDk42QoMw_IkhSw/edit
