@@ -37,8 +37,9 @@ Biopython 1.86 and psutil 7.1.3 were installed in the local environment.
 
 The dependency-free run passes 40 tests and skips 18 optional parsing/tensor tests;
 the standard-library smoke check passes. All six entry points provide dependency-free
-CLI help from another working directory. The optional CI parsing job is configured
-but has not been run on GitHub in this session.
+CLI help from another working directory. After publication, both GitHub CI jobs
+(`test` and `parsing`) passed for implementation commit `d8980cb`:
+[verified Actions run](https://github.com/khgng026/iri-construct-screening-2026/actions/runs/42073187942).
 
 Actual environment preflight: Python 3.14.7, PyTorch 2.15.0+cpu, CUDA unavailable
 (zero devices), ESM SDK absent. The local environment differs from the separate

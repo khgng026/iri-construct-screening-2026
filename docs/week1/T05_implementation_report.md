@@ -56,8 +56,9 @@ label approval and winner selection are excluded from current executable use.
 Biopython 1.86 and psutil 7.1.3 were installed locally to run parser/resource tests.
 The existing environment is Python 3.14.7 with PyTorch 2.15.0+cpu; CUDA is
 unavailable and the ESM SDK is absent. The separate Python 3.11 direct model pins
-have not been installed and clean-tested here. GitHub Actions was configured but
-not remotely executed during this session.
+have not been installed and clean-tested here. Following publication, both GitHub
+Actions jobs (`test` and `parsing`) passed for implementation commit `d8980cb`:
+[verified CI run](https://github.com/khgng026/iri-construct-screening-2026/actions/runs/42073187942).
 
 ## Experiments and blockers
 
