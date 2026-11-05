@@ -44,5 +44,17 @@ class MetadataValidationTests(unittest.TestCase):
     def test_invalid_date(self):
         self.assertTrue(any("retrieved_on" in e for e in self.check_rows([{**BASE, "retrieved_on": "next Tuesday"}])))
 
+    def test_bad_checksum(self):
+        self.assertTrue(any("checksum_sha256" in e for e in self.check_rows([{**BASE, "checksum_sha256": "z" * 64}])) )
+
+    def test_duplicate_columns(self):
+        self.assertTrue(any("duplicate column" in e for e in self.check_rows([], list(REQUIRED_COLUMNS) + ['notes'])))
+
+    def test_truncated_csv_row(self):
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / 'bad.csv'
+            path.write_text(','.join(REQUIRED_COLUMNS) + '\nonly-one-field\n', encoding='utf-8')
+            self.assertTrue(any('field count' in e for e in validate_manifest(path)))
+
 if __name__ == "__main__":
     unittest.main()

@@ -6,6 +6,7 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 .venv/
+.venv-models/
 venv/
 dist/
 build/
@@ -28,6 +29,11 @@ build/
 *.sam
 *.pkl
 *.parquet
+*.npz
+*.npy
+*.pt
+*.pth
+*.safetensors
 *.sqlite
 *.db
 /data/raw/
@@ -35,6 +41,10 @@ build/
 /data/exports/
 /results/*
 !/results/README.md
+
+# Legacy comparison prototype's local artifacts (run from its directory)
+/iri_t05_model_comparison/data/
+/iri_t05_model_comparison/results/
 
 # OS/editor
 .DS_Store

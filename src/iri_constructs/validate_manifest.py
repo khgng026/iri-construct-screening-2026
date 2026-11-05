@@ -20,7 +20,12 @@ def validate_manifest(path: str | Path) -> list[str]:
         missing = set(REQUIRED_COLUMNS) - set(reader.fieldnames)
         if missing:
             return [f"Missing columns: {', '.join(sorted(missing))}"]
+        if len(reader.fieldnames) != len(set(reader.fieldnames)):
+            return ["Manifest has duplicate column names"]
         for n, row in enumerate(reader, start=2):
+            if None in row or any(row.get(key) is None for key in REQUIRED_COLUMNS):
+                errors.append(f"Row {n}: CSV field count does not match the header")
+                continue
             rid = (row["record_id"] or "").strip()
             if not rid:
                 errors.append(f"Row {n}: record_id is blank")

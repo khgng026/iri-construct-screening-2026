@@ -1,0 +1,5 @@
+# Separate Python 3.11 environment; do not replace the existing Week 1 environment.
+-r requirements-esm2.txt
+esm==3.2.1
+torchvision==0.18.0
+torchtext==0.18.0

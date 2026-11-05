@@ -1,0 +1,6 @@
+# Reference direct pins, Python 3.11. Freeze transitive dependencies after resolution.
+-r ../requirements-parsing.txt
+torch==2.3.0
+numpy==1.26.4
+transformers==4.48.1
+huggingface-hub==0.28.1

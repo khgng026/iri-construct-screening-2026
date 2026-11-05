@@ -13,7 +13,10 @@ REQUIRED_KEYS = {"project", "manifest", "log_level", "schema_examples"}
 def load_config(path: Path) -> dict[str, str]:
     """Load a small repo-relative configuration without shell/env interpretation."""
     path = Path(path)
-    settings = json.loads(path.read_text(encoding="utf-8"))
+    try:
+        settings = json.loads(path.read_text(encoding="utf-8-sig"))
+    except (OSError, ValueError) as exc:
+        raise ValueError("Cannot read configuration; check file existence and JSON syntax") from exc
     if not isinstance(settings, dict):
         raise ValueError("Configuration must be a JSON object")
     missing = REQUIRED_KEYS - settings.keys()

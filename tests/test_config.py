@@ -22,3 +22,11 @@ class ConfigTests(unittest.TestCase):
             p.write_text(json.dumps(cfg), encoding="utf-8")
             with self.assertRaises(ValueError):
                 load_config(p)
+
+    def test_invalid_json_and_missing_settings(self):
+        for text in ('[]', '{invalid-json', '{}', '{"project": false}'):
+            with self.subTest(text=text), tempfile.TemporaryDirectory() as directory:
+                path = Path(directory) / 'config.json'
+                path.write_text(text, encoding='utf-8')
+                with self.assertRaises(ValueError):
+                    load_config(path)
