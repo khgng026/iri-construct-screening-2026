@@ -1,6 +1,6 @@
 # T04 | Git repository and reproducible environment
 
-**Week:** 1  |  **Budget:** 2 hours  |  **Status:** Implemented and hosted privately; GitHub Actions passing  |  **Prerequisite:** T01  |  **Calendar source:** `Weekly To-Dos!A8:K8`.
+**Week:** 1  |  **Budget:** 2 hours  |  **Status:** Done and researcher-approved (2026-10-29); hosted privately, GitHub Actions passing  |  **Prerequisite:** T01  |  **Calendar source:** `Weekly To-Dos!A8:K8`.
 
 ## What has been set up
 
@@ -37,4 +37,4 @@ On Windows, use `.venv\\Scripts\\python.exe` instead of `.venv/bin/python`. Neit
 
 The local repository has an initial commit and subsequent alignment commit. Confirm with `git log --oneline -2` and `git status --short`. The remote is a private GitHub repository at https://github.com/khgng026/iri-construct-screening-2026; the `main` branch contains the Week 1 scaffold and planning workbook. Changes can be pushed via Git or the connected GitHub integration.
 
-**T04 done when:** The archived Git repository opens with history, the above commands pass in a fresh Python environment, and configuration/logging rules are documented. This task unblocks T05, T10, T13 and T15; it does not imply any model inference or screened data exists.
+**T04 completion accepted 2026-10-29:** The researcher approved the GitHub-hosted project scaffold, environment, configuration/logging conventions, smoke test, and tests. Latest CI evidence is available in GitHub Actions. This task unblocks T05, T10, T13 and T15; it does not imply any model inference or screened data exists.

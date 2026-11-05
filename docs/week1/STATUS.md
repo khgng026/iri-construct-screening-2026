@@ -1,9 +1,9 @@
 # Project status — 2026-11-05
 
-Current task approvals follow the user's implementation request. Earlier README,
-scope/schema headings and workbook notes were stale and have been aligned with
-that instruction. Approval of the scope/schema/governance is separate from
-approval of any source record or label.
+T01-T04 approvals and their original 2026-10-28/29 dates are preserved from
+the newer GitHub history. Approval of scope/schema/governance remains separate
+from approval of any source record or label. The implementation was reconciled
+with the upstream fusion experiment before publication.
 
 | Task | Status | Evidence / remaining work |
 | --- | --- | --- |
@@ -14,8 +14,9 @@ approval of any source record or label.
 | T05 | In progress | Fusion, probe, annotation parsing and modular model comparison implemented; reviewed-data pretrained experiments remain blocked |
 | T06–T28 | Not completed by this work | Helpers support later tasks without asserting dataset, evaluation, clean-model rerun or delivery acceptance |
 
-The requested `experiments/t05_esm2_fusion/` and this status file were absent at
-inspection. The existing untracked `iri_t05_model_comparison/` prototype was
+The initial local checkout lacked the fusion experiment and status file;
+publication now includes the newer upstream versions and their validation tests.
+The existing untracked `iri_t05_model_comparison/` prototype was
 reviewed and retained; its executable now delegates to the reviewed local-input
 runner. The original hard-coded probe has been replaced with the same validated
 CLI. No biological input files were changed and no source records/labels were
@@ -28,12 +29,13 @@ The parser's separate audit contract is documented in
 accepted schema was not extended silently.
 
 Local verification: the original 11 tests passed before changes. The expanded
-suite passes 51 tests, including a real FASTA/GenBank parsing CLI run on generated, explicitly
+suite passes 58 tests, including all seven upstream fusion regression tests and
+a real FASTA/GenBank parsing CLI run on generated, explicitly
 fictional software fixtures, plus numerical adapter/retrieval tests. These are
 software checks, not source approval or model-performance evidence. Optional
 Biopython 1.86 and psutil 7.1.3 were installed in the local environment.
 
-The dependency-free run passes 33 tests and skips 18 optional parsing/tensor tests;
+The dependency-free run passes 40 tests and skips 18 optional parsing/tensor tests;
 the standard-library smoke check passes. All six entry points provide dependency-free
 CLI help from another working directory. The optional CI parsing job is configured
 but has not been run on GitHub in this session.
@@ -51,10 +53,21 @@ ignored `results/t05_environment/`.
 
 Fusion/comparison/parser CLI attempts against the missing reviewed-input config
 produced blocked JSON reports under ignored `results/t05_*_blocked/20261105/`.
-The planning workbook now records T01/T03 as Done (approved) and T05 as In progress;
-only six status/note cells in the Weekly To-Dos worksheet changed.
+The planning workbook preserves upstream approval dates and probe notes;
+T05 remains In progress, with its current implementation note appended.
 
 Review remaining: implementation and separate audit contract; T02 source/licensing/
 safety approvals with checksums; annotation family and independence policy;
 documented fusion target boundaries; a compatible model environment and model
 access; then actual fixed-checkpoint runs before a T05 feasibility decision.
+
+## Preserved earlier evidence
+
+The 2026-10-29 upstream status records a researcher-reported ESM-2
+`facebook/esm2_t6_8M_UR50D` probe on public GFP UniProt `P42212`: 238 amino
+acids and output shape `[1, 240, 320]`. That prior report was not independently
+reproduced in this implementation session. It remains preliminary evidence,
+with no annotation-family benchmark or T05 completion implied; the local source
+still needs its record-specific T02 review evidence. Upstream T01/T03/T04
+approvals are dated 2026-10-29; T02 approval is dated 2026-10-28 and reaffirmed
+2026-10-29.

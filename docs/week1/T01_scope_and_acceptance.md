@@ -1,6 +1,6 @@
 # T01 | MVP question, scope and acceptance criteria
 
-**Week 1 / 1 hour / Approved (user instruction, 2026-11-05)**  |  Calendar: `Weekly To-Dos!A5:K5`, `MVP Criteria!A4:D13`.
+**Week 1 / 1 hour / Approved by researcher (2026-10-29), scope baseline v1.0**  |  Calendar: `Weekly To-Dos!A5:K5`, `MVP Criteria!A4:D13`.
 
 ## Research question
 
@@ -31,6 +31,6 @@ The research proposal identifies an **input-format mismatch**: multi-part constr
 | **MVP-06** | Coverage, supported agreement/classification metrics, per-archetype results, runtime and failures reported. |
 | **MVP-07** | Reproducible tests, environment/config, CLI, README and benign end-to-end demo. |
 
-**Week 1 sign-off:** Scope and criteria approved per user instruction (2026-11-05). T05 must confirm the model/interface and whether proposed label metrics are valid; T02 must approve data rules; T03 must validate the schema against pilot annotations. Do **not** assume any performance improvement before paired tests.
+**Week 1 sign-off — completed 2026-10-29:** The researcher explicitly approved this MVP question, scope, and measurable criteria as the planning baseline (v1.0). This is researcher approval; no separate advisor signature is asserted. T02 policy v1.0 is approved, and T03 schema v0.1 is an approved preliminary baseline. T05 must establish model/interface and viable label metrics; pilot schema validation and actual performance evidence remain future work. Do **not** assume any improvement before paired tests.
 
 **Source basis:** `4-week workflow.xlsx` (Overview; Weekly To-Dos T01; MVP Criteria) and the IRI proposal, pp. 1–2.

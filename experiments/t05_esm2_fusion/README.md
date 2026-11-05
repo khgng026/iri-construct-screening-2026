@@ -34,3 +34,15 @@ These measurements quantify representation changes. Similarity or context
 dependence does not establish protein function, biological activity, a model
 improvement or a safety classification. No reviewed fusion was available during
 implementation, so no pretrained fusion measurements are claimed.
+
+## Earlier pair-manifest workflow
+
+The upstream FASTA/pair-validation and numerical comparison helpers remain
+importable from `compare_fusion.py`; its original regression tests are preserved.
+`pairs.template.csv` remains a record of the earlier CSV interface. To migrate
+from the former `--fasta/--pairs` CLI, create the shared reviewed-input JSON and
+T02 manifest described above, with source checksums and review notes. Convert
+1-based inclusive bounds explicitly: `start0 = start_aa - 1`, `end0 = end_aa`.
+Pair-level approval flags alone do not replace source-file T02 reviews. Current
+scientific execution uses the `--inputs` commands above; the compatibility
+helpers do not load models or download records.

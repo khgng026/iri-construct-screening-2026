@@ -1,6 +1,6 @@
 # IRI Fall 2026 | Complex-construct preprocessing (Week 1)
 
-**Status (2026-11-05):** T01-T04 are approved. T05 is in progress: reviewed local-input parsing, ESM-2 fusion/probe and modular ESM-2/ESM-C/ESM-3 feasibility runners are implemented. No reviewed-data pretrained inference or scientific model comparison has been executed. See [current status](docs/week1/STATUS.md).
+**Status (2026-11-05):** T01-T04 are approved. T05 is in progress: reviewed local-input parsing, ESM-2 fusion/probe and modular ESM-2/ESM-C/ESM-3 feasibility runners are implemented. The earlier researcher-reported GFP probe remains preliminary; this implementation adds no reviewed-data inference or scientific model comparison. See [current status](docs/week1/STATUS.md).
 
 ## Research question
 
@@ -12,13 +12,13 @@ The IRI proposal frames this as an approximately **80-hour integration/evaluatio
 
 | ID | Calendar task | Artifact | Status |
 | --- | --- | --- | --- |
-| T01 | Write MVP question, scope, and acceptance criteria | [T01 scope and acceptance](docs/week1/T01_scope_and_acceptance.md) | Approved |
-| T02 | Set public-data and safety rules | [T02 governance checklist](docs/week1/T02_data_governance.md) | Approved (policy v1.0, 2026-10-28); record-by-record reviews pending T06/T08 |
-| T03 | Define construct archetypes and normalized output schema | [T03 schema](docs/week1/T03_archetypes_and_schema.md), [three fictional examples](data/examples/) | Approved baseline v0.1; real-record pilot checks pending |
-| T04 | Create repository and reproducible environment | [T04 setup](docs/week1/T04_repository_setup.md), config, smoke test and unit tests | Done; hosted privately with passing CI |
+| T01 | Write MVP question, scope, and acceptance criteria | [T01 scope and acceptance](docs/week1/T01_scope_and_acceptance.md) | **Done — approved 2026-10-29** |
+| T02 | Set public-data and safety rules | [T02 governance checklist](docs/week1/T02_data_governance.md) | **Done — approved 2026-10-28; reaffirmed 2026-10-29** (record-level reviews still required in T06/T08) |
+| T03 | Define construct archetypes and normalized output schema | [T03 schema](docs/week1/T03_archetypes_and_schema.md), [three fictional examples](data/examples/) | **Done — v0.1 baseline approved 2026-10-29** (real-data pilot validation pending) |
+| T04 | Create repository and reproducible environment | [T04 setup](docs/week1/T04_repository_setup.md), config, smoke test and unit tests | **Done — accepted 2026-10-29**; hosted privately with passing CI |
 | T05 | Run a pretrained model feasibility spike | [Experiments and commands](experiments/README.md) | In progress; reviewed inputs and actual model-run evidence pending |
 
-[Four-week workflow with progress notes](planning/4-week-workflow.xlsx)
+[Four-week workflow with progress notes](planning/4-week-workflow.xlsx) | [Task status and approval history](docs/week1/STATUS.md)
 
 ## Reproducible quick start (Python 3.10+, no packages to download)
 

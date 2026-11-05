@@ -2,7 +2,7 @@
 
 **Week:** 1  |  **Budget:** 1 hour  |  **Status:** Approved — finalized policy v1.0 (2026-10-28)  |  **Prerequisite:** T01  |  **Calendar source:** `Weekly To-Dos!A6:K6`.
 
-**Approval record:** User approved the written governance policy on 2026-10-28. This version is the current baseline for source selection, provenance, license and biosafety review. Future amendments should be versioned and documented; this approval does **not** approve any specific sequence, accession, dataset, source license, or release. The checklist below remains unchecked because each entry must be applied independently to each future candidate record in T06/T08.
+**Approval record:** User approved the written governance policy on 2026-10-28 and reaffirmed T02's approval with T01–T04 on 2026-10-29. This version is the current baseline for source selection, provenance, license and biosafety review. Future amendments should be versioned and documented; this approval does **not** approve any specific sequence, accession, dataset, source license, or release. The checklist below remains unchecked because each entry must be applied independently to each future candidate record in T06/T08.
 
 ## Purpose and permissible data
 
