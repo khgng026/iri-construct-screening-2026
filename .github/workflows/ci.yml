@@ -14,7 +14,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python }}
-      - name: Install lightweight test dependencies
+      - name: Install CPU-only PyTorch on Linux
+        if: runner.os == 'Linux'
+        run: python -m pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+      - name: Install test dependencies
         run: python -m pip install -e . -r requirements-checks.txt
       - name: Run smoke check
         run: python scripts/smoke_test.py

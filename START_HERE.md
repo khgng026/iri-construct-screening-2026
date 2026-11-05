@@ -22,7 +22,7 @@ T01–T04 approval is preserved from shared main. Local T05 work now extends to 
 
 Shared: committed implementation and tests, T05 documentation, October 31 report, continuation/lessons, selected aggregate CSV tables and PNG figures, historical audit summaries and checksums.
 
-Local only: raw biological sequences, downloaded source records, model weights, embeddings, large per-query ranking stores and recovery snapshots. Six unreviewed casebook/unit-normalization draft files remain outside this branch. Nishit's confidential presentation is not included. The original report contains some local-only links and execution paths; those are evidence locators on Rudra's Mac, not portable downloads. This package is a review handoff, not a self-contained reproduction bundle. Model downloads and admitted input acquisition are needed for fresh inference.
+Local only: model weights, embeddings, large per-query ranking stores and recovery snapshots. The original reviewed core input snapshot is now separately available in the shared Drive archive linked in REPRODUCE.md, with attribution and checksums. Six unreviewed casebook/unit-normalization draft files remain outside this branch. Nishit's confidential presentation is not included. The original report contains some local-only links and execution paths; those are evidence locators on Rudra's Mac, not portable downloads. Core reproduction now has a portable entry point and verified data archive; model weights still require separate pinned downloads. Optional historical extensions remain separately scoped.
 
 ## Review order
 
@@ -38,3 +38,7 @@ Historical validation: 370 supported tests, 369 passed and one SciPy-dependent s
 On November 5, clean-worktree discovery ran 367 tests: 352 passed, 14 errored and one skipped. Errors are retained in [handoff test log](docs/research/handoff-tests.txt); they expose dependencies on local-only session fixtures and resource-guard files. The historical 370-test closeout used the original local environment and is not a claim that this checkout passes all tests. These initial errors are preserved as historical evidence; see REPRODUCE.md and the subsequent validation record for portability fixes.
 
 Shared Drive entry point: https://docs.google.com/document/d/1fAH0zEmMkPr_5EqWrB3ck0R-OEZcnDk42QoMw_IkhSw/edit
+
+## Portability validation after fixes
+
+A separate checkout under /tmp and a new Python 3.12 environment ran 373 tests with the shared input archive installed: 372 passed, one optional DCT upstream-source fixture skipped, zero failures/errors. The archive verified all 105 records, 101 unique sequences and 1,146 queries. Logs: [tests](docs/research/portable-tests.txt), [input verification](docs/research/portable-inputs.json). A guarded numerical smoke run was blocked by battery power, as designed; no fresh inference completion is claimed. Linux/macOS CI is configured separately.
