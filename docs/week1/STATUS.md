@@ -1,4 +1,22 @@
-# Project status — 2026-11-05
+# Project status - 2026-11-06 UTC
+
+## T07 v1.1 update (2026-11-06 UTC)
+
+The exact ten candidate identities are selected, with zero biological source files
+admitted. T07 v1.0 is approved in principle and remains unchanged. E1-E4 now have
+tested software implementations in a separate v1.1 addendum: annotation quality,
+longest/all-CDS parent comparison, reviewed reference tiers and strict measured
+cost reporting. Real experiments remain blocked. See the
+[implementation report](T07_v1_1_implementation_report.md),
+[milestone handoff](../coordination/CODEX_STATUS.md) and
+[pending evidence](../coordination/DECISIONS_NEEDED.md).
+
+PR #2 was merged upstream by the researcher at 2026-11-06T00:40:46Z;
+main is now `284a7008f0420da4557eccf434cabef64696d787`, whose tree is identical
+to PR #2's `2c9a5bf`. The v1.1 PR therefore targets main directly. This
+implementation has made no merge, force push or change to main or PR #1/#2 heads.
+
+## Earlier implementation and approval history
 
 T01-T04 approvals and their original 2026-10-28/29 dates are preserved from
 the newer GitHub history. Approval of scope/schema/governance remains separate
@@ -12,7 +30,7 @@ with the upstream fusion experiment before publication.
 | T03 | Approved | Baseline v0.1 and all three existing examples retained |
 | T04 | Approved / implemented | Dependency-free smoke/tests retained; optional parsing is separate |
 | T05 | In progress | Fusion, probe, annotation parsing and modular model comparison implemented; reviewed-data pretrained experiments remain blocked |
-| T06 | Inventory implemented; researcher review pending | 20 public metadata candidates across all archetypes; zero sources approved |
+| T06 | Inventory implemented; identities selected | 20 discovery candidates; exact ten-identity v1.1 shortlist; zero source files admitted |
 | T07 | Design/scoring implemented, scientifically unvalidated | A priori A-D protocol/configurations frozen before pilot scoring; reference labels/panel await review |
 | T08 | Pipeline implemented; real-data admission blocked | Ten-record pending queue, annotation-preservation audit and regression tests; zero real records parsed/scored |
 | T09–T28 | Pending | No dataset expansion, full paired benchmark, final evaluation or research delivery claimed |

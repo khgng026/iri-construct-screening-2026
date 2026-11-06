@@ -46,3 +46,11 @@ class ExtensionConfigurationTests(unittest.TestCase):
             with self.subTest(path=path):
                 actual=hashlib.sha256((ROOT/path).read_text(encoding='utf-8').encode()).hexdigest()
                 self.assertEqual(actual,expected)
+
+    def test_v1_1_has_a_separate_design_freeze(self):
+        freeze=json.loads((ROOT/'config/extensions/design_freeze.json').read_text(encoding='utf-8'))
+        self.assertEqual(freeze['protocol_version'],'1.1')
+        self.assertEqual(len(freeze['files']),5)
+        for path,expected in freeze['files'].items():
+            with self.subTest(path=path):
+                self.assertEqual(hashlib.sha256((ROOT/path).read_text(encoding='utf-8').encode()).hexdigest(),expected)

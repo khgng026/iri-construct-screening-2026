@@ -163,5 +163,6 @@ The human-readable milestone handoff is
 [CODEX_STATUS.md](../coordination/CODEX_STATUS.md). Specific remaining source and
 policy decisions are in [DECISIONS_NEEDED.md](../coordination/DECISIONS_NEEDED.md).
 That handoff requires requested human review; ChatGPT is not automatically
-monitoring it. The stacked PR targets PR #2's branch and must only be retargeted
-to main after PR #2 is merged; no branch is merged by this implementation.
+monitoring it. While PR #2 is unmerged, the stacked PR targets its branch; after
+PR #2 is merged, the extension PR targets main. No branch is merged by this
+implementation.
