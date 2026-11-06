@@ -1,6 +1,6 @@
 # IRI Fall 2026 | Complex-construct preprocessing (Week 1)
 
-**Status (2026-11-05):** T01-T04 are approved. T05 is in progress: reviewed local-input parsing, ESM-2 fusion/probe and modular ESM-2/ESM-C/ESM-3 feasibility runners are implemented. The earlier researcher-reported GFP probe remains preliminary; this implementation adds no reviewed-data inference or scientific model comparison. See [current status](docs/week1/STATUS.md).
+**Status (2026-11-05):** T01-T04 remain approved and T05 remains in progress. T06 now has 20 public candidate records and a ten-record pending pilot queue. T07 has an a priori benchmark design and scoring configurations; T08 has a tested annotation-preservation pipeline. No real record is admitted, and scientific experiments remain blocked by source/label review. See [current status](docs/week1/STATUS.md).
 
 ## Research question
 
@@ -17,6 +17,9 @@ The IRI proposal frames this as an approximately **80-hour integration/evaluatio
 | T03 | Define construct archetypes and normalized output schema | [T03 schema](docs/week1/T03_archetypes_and_schema.md), [three fictional examples](data/examples/) | **Done — v0.1 baseline approved 2026-10-29** (real-data pilot validation pending) |
 | T04 | Create repository and reproducible environment | [T04 setup](docs/week1/T04_repository_setup.md), config, smoke test and unit tests | **Done — accepted 2026-10-29**; hosted privately with passing CI |
 | T05 | Run a pretrained model feasibility spike | [Experiments and commands](experiments/README.md) | In progress; reviewed inputs and actual model-run evidence pending |
+| T06 | Build public benign construct candidate inventory | [Candidate inventory](docs/week1/T06_candidate_inventory.md) | Implemented: 20 metadata candidates; researcher admission pending |
+| T07 | Define supported reference labels and benchmark metrics | [Frozen protocol](docs/week1/T07_benchmark_protocol.md) | Design implemented; researcher review and admitted-panel validation pending |
+| T08 | Curate and manually spot-check a pilot | [Pilot pipeline and queue](docs/week1/T08_pilot_pipeline.md) | Pipeline implemented; ten proposed records, zero approved; scientific validation blocked |
 
 [Four-week workflow with progress notes](planning/4-week-workflow.xlsx) | [Task status and approval history](docs/week1/STATUS.md)
 
@@ -50,3 +53,20 @@ The T02 public-data and safety policy is approved; approval of individual record
 See [experiments/README.md](experiments/README.md) for the annotation parser, reviewed-input contract, separate model dependencies, CLI commands, metrics and limitations. Run `python scripts/t05_environment.py` to record local dependency/device/cache availability without loading sequences or downloading models.
 
 Week 1 checks remain dependency-free. Optional Biopython tests skip when it is absent; install `requirements-parsing.txt` to exercise real parsing on fictional software fixtures. Pretrained tests require independently approved local source records, labels and fusion coordinates. Generated sequences, embeddings, source qualifiers and reports remain in ignored local directories.
+
+## Real-construct pilot contribution
+
+Start with the [T06 inventory](docs/week1/T06_candidate_inventory.md),
+[T07 protocol](docs/week1/T07_benchmark_protocol.md) and
+[T08 review/preparation commands](docs/week1/T08_pilot_pipeline.md).
+The shared `scripts/run_pilot_experiment.py` freezes designs/panels before scoring
+and supports annotation preservation (A), documented fusion comparisons (B),
+alignment versus embeddings (C), and sequential model-cost comparisons (D).
+All real-data commands currently stop at admission. Software fixtures and metadata
+validation are distinct from real biological or pretrained-model evidence.
+
+This contribution is isolated on `codex/real-construct-pilot`; PR #1 was read as
+research context and is not modified or merged. Its artificial-combination results
+are not treated as real-construct validation. See the
+[implementation report](docs/week1/T06_T08_implementation_report.md) for provenance,
+test evidence, actual blockers and scope limits.

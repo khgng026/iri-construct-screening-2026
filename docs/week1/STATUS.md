@@ -12,7 +12,10 @@ with the upstream fusion experiment before publication.
 | T03 | Approved | Baseline v0.1 and all three existing examples retained |
 | T04 | Approved / implemented | Dependency-free smoke/tests retained; optional parsing is separate |
 | T05 | In progress | Fusion, probe, annotation parsing and modular model comparison implemented; reviewed-data pretrained experiments remain blocked |
-| T06–T28 | Not completed by this work | Helpers support later tasks without asserting dataset, evaluation, clean-model rerun or delivery acceptance |
+| T06 | Inventory implemented; researcher review pending | 20 public metadata candidates across all archetypes; zero sources approved |
+| T07 | Design/scoring implemented, scientifically unvalidated | A priori A-D protocol/configurations frozen before pilot scoring; reference labels/panel await review |
+| T08 | Pipeline implemented; real-data admission blocked | Ten-record pending queue, annotation-preservation audit and regression tests; zero real records parsed/scored |
+| T09–T28 | Pending | No dataset expansion, full paired benchmark, final evaluation or research delivery claimed |
 
 The initial local checkout lacked the fusion experiment and status file;
 publication now includes the newer upstream versions and their validation tests.
@@ -72,3 +75,26 @@ with no annotation-family benchmark or T05 completion implied; the local source
 still needs its record-specific T02 review evidence. Upstream T01/T03/T04
 approvals are dated 2026-10-29; T02 approval is dated 2026-10-28 and reaffirmed
 2026-10-29.
+
+## T06-T08 feature-branch progress
+
+The [candidate inventory](T06_candidate_inventory.md) and
+[ten-record queue](../../data/manifests/t08_pilot_review_queue.json) are discovery
+metadata only. Source versions, permissions, checksums, full annotations and
+separate label/independence decisions remain pending or uncertain. The
+[T07 protocol](T07_benchmark_protocol.md) predefines budgets, valid protein
+baselines, claims, leakage exclusions and paired uncertainty. The
+[T08 pipeline](T08_pilot_pipeline.md) preserves T03 v0.1 and original qualifiers
+without source approval or unsupported feature inference.
+
+Actual feature-branch checks: inventory/queue metadata validation succeeded;
+preparation and A returned `no_inputs`, and B-D returned
+`blocked_no_reviewed_inputs` with no source parsing/inference. No real pilot score
+or plot was produced. Software fixtures do not replace those experiments. Tests
+and limitations are recorded in the [report](T06_T08_implementation_report.md).
+
+New contributions are confined to `codex/real-construct-pilot`, based on
+`origin/main` at `f39666d`. The main worktree and draft PR #1 were not modified.
+PR #1 was inspected read-only at `7b15f02`; its artificial-combination results
+inform controls, not present-day real-construct claims. No task approval or
+dataset admission is inferred from code completion.

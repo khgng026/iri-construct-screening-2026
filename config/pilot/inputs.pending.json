@@ -1,0 +1,10 @@
+{
+  "schema_version": "t05-inputs-1",
+  "review_manifest": "../../data/manifests/t08_approved_sources.csv",
+  "records": [],
+  "families": [],
+  "fusion_cases": [],
+  "review_queue": "../../data/manifests/t08_pilot_review_queue.json",
+  "status": "pending_manual_review",
+  "note": "Intentionally no admitted records. This is runnable to verify blocked/no-input outcomes. Supply a separate local reviewed-input config only after T02 approvals; this file never approves the discovery inventory."
+}

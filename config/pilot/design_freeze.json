@@ -1,0 +1,16 @@
+{
+  "base_main_commit": "f39666dca62380dab16847034efcfd5525f92300",
+  "evidence_scope": "Design freeze before admitted real-data scoring; software numerical fixtures are not scientific measurements. Model resolutions and source/panel identities freeze separately at execution.",
+  "files": {
+    "config/pilot/experiment_A.json": "921aca89f695d4de9513c97f1e3306db1bd48e8e93ab43eb1060973c8094e1d5",
+    "config/pilot/experiment_B.json": "5e3338f90e1970823fcd14ee596ca9123499727f52f0a73a5c9ab1ac5951d663",
+    "config/pilot/experiment_C.json": "c314c9110e9faf6aaa50eadd2ae45feeb1ab365ccf5cae73fc2ffbaa393491b9",
+    "config/pilot/experiment_D.json": "bf9c2fb7a7fe1648ae256bf3369ba1e7fca596de28871d45dacc1ee3ba7297c9",
+    "docs/week1/T07_benchmark_protocol.md": "30f89d9562b7ba088748cbc8a9b7ae89673e2e8db41195c5ec9ade4f0da27488"
+  },
+  "frozen_on": "2026-11-05",
+  "hash_policy": "UTF-8 text with CRLF normalized to LF; source biological file hashes remain raw bytes",
+  "reference_pr_1_commit": "7b15f02ac929cd06a8dee76ccec0541641844ccf",
+  "schema_version": "pilot-design-freeze-1",
+  "status": "design_frozen_pending_admission"
+}

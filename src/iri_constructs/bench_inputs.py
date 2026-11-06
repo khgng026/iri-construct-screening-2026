@@ -65,7 +65,7 @@ def reviewed_sources(config_path: Path) -> tuple[dict, list[ReviewedSource], dic
     entries = config.get('records')
     if not isinstance(entries, list) or not entries:
         raise InputError('records must be a nonempty list of reviewed local inputs')
-    sources, seen = [], set()
+    sources, seen, physical_records, checksummed_records = [], set(), set(), set()
     for entry in entries:
         if not isinstance(entry, dict):
             raise InputError('Every records entry must be an object')
@@ -86,14 +86,23 @@ def reviewed_sources(config_path: Path) -> tuple[dict, list[ReviewedSource], dic
         path = (config_path.parent / require_text(entry, 'path')).resolve()
         if entry.get('format') not in ('fasta', 'genbank') or entry.get('molecule_type') not in ('dna', 'protein'):
             raise InputError('Input format must be fasta/genbank and molecule_type dna/protein')
+        sequence_id = require_text(entry, 'sequence_id')
+        physical = (path, sequence_id)
+        if physical in physical_records:
+            raise InputError('Duplicate physical source-record alias')
+        physical_records.add(physical)
         try:
             checksum = digest_file(path)
         except OSError as exc:
             raise InputError('Reviewed local source file is missing or unreadable') from exc
         if checksum.lower() != row['checksum_sha256'].lower():
             raise InputError('Source checksum does not match the reviewed T02 manifest')
+        checksummed = (checksum.lower(), sequence_id)
+        if checksummed in checksummed_records:
+            raise InputError('Duplicate checksummed source-record alias')
+        checksummed_records.add(checksummed)
         sources.append(ReviewedSource(iid, path, entry['format'], entry['molecule_type'],
-                                      require_text(entry, 'sequence_id'), row))
+                                      sequence_id, row))
     return config, sources, {'input_config_sha256': digest_file(config_path),
                              'review_manifest_sha256': digest_file(manifest),
                              'sources': [{k: s.review[k] for k in
@@ -105,6 +114,9 @@ def reviewed_sources(config_path: Path) -> tuple[dict, list[ReviewedSource], dic
 def read_source(source: ReviewedSource):
     from Bio import SeqIO
     import warnings
+    expected = source.review['checksum_sha256'].lower()
+    if digest_file(source.path).lower() != expected:
+        raise InputError('Source checksum changed after review validation; no parsing performed')
     try:
         # Parser warnings can contain raw annotation/sequence text. Treat them as controlled failures.
         with warnings.catch_warnings():
@@ -113,6 +125,8 @@ def read_source(source: ReviewedSource):
                 records = list(SeqIO.parse(handle, source.format))
     except (ValueError, Warning) as exc:
         raise InputError('Malformed sequence record or annotation; inspect the local source file') from exc
+    if digest_file(source.path).lower() != expected:
+        raise InputError('Source checksum changed while parsing; no record admitted')
     ids = [r.id for r in records]
     if len(ids) != len(set(ids)):
         raise InputError('Duplicate sequence IDs in source file')
