@@ -1,0 +1,36 @@
+name: Publish public accession audit metadata
+on:
+  push:
+    branches:
+      - codex/open-archive-replacements-2026-11-06
+jobs:
+  publish:
+    if: "!contains(github.event.head_commit.message, 'Archive audit results')"
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install biopython==1.86
+      - name: Verify archive candidates and create review-only metadata
+        run: python scripts/review_open_archive_candidates_v2.py --pause 0.5
+      - name: Publish metadata, not sequences
+        if: always()
+        run: |
+          if [ -f results/open_archive_review_2026_11_06/report.json ]; then
+            mkdir -p docs/archive-review-2026-11-06
+            cp results/open_archive_review_2026_11_06/report.json docs/archive-review-2026-11-06/report.json
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/archive-review-2026-11-06/report.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Archive audit results: exact accession checks [skip ci]"
+              git push origin HEAD:codex/open-archive-replacements-2026-11-06
+            fi
+          fi
