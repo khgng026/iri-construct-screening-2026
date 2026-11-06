@@ -1,0 +1,179 @@
+{
+  "catalog_linkage_review": [
+    {
+      "catalog_products": [
+        "luc+ firefly luciferase (catalog description)"
+      ],
+      "discovery_group": "pgl3-firefly",
+      "evidence": "https://www.addgene.org/212936/",
+      "record_id": "addgene-212936",
+      "status": "HOLD_not_a_verified_protein_cluster"
+    },
+    {
+      "catalog_products": [
+        "firefly luciferase (catalog Gene/Insert)"
+      ],
+      "discovery_group": "pcdna3-firefly",
+      "evidence": "https://www.addgene.org/18964/",
+      "record_id": "addgene-18964",
+      "status": "HOLD_not_a_verified_protein_cluster"
+    },
+    {
+      "catalog_products": [
+        "Renilla luciferase Rluc8 (catalog Gene/Insert)"
+      ],
+      "discovery_group": "rluc8-family",
+      "evidence": "https://www.addgene.org/87121/",
+      "record_id": "addgene-87121",
+      "status": "HOLD_not_a_verified_protein_cluster"
+    },
+    {
+      "catalog_products": [
+        "tagged EYFP reporter product (catalog)",
+        "tagged ECFP reporter product (catalog)"
+      ],
+      "discovery_group": "yfp-cfp-bicistronic",
+      "evidence": "https://www.addgene.org/18673/",
+      "record_id": "addgene-18673",
+      "status": "HOLD_not_a_verified_protein_cluster"
+    },
+    {
+      "catalog_products": [
+        "firefly luciferase reporter (catalog collection)",
+        "Renilla luciferase reporter (catalog modification)"
+      ],
+      "discovery_group": "dual-luc-pgl4",
+      "evidence": "https://www.addgene.org/64034/",
+      "record_id": "addgene-64034",
+      "status": "HOLD_not_a_verified_protein_cluster"
+    },
+    {
+      "catalog_products": [
+        "Firefly luciferase reporter (catalog)",
+        "Renilla luciferase normalization reporter (catalog)"
+      ],
+      "discovery_group": "plant-dual-luc",
+      "evidence": "https://www.addgene.org/108228/",
+      "record_id": "addgene-108228",
+      "status": "HOLD_not_a_verified_protein_cluster"
+    },
+    {
+      "catalog_products": [
+        "EGFP-LC3 fusion product (catalog)"
+      ],
+      "discovery_group": "lc3-egfp",
+      "evidence": "https://www.addgene.org/21073/",
+      "record_id": "addgene-21073",
+      "status": "HOLD_not_a_verified_protein_cluster"
+    },
+    {
+      "catalog_products": [
+        "Nano-lantern fusion product (catalog; Rluc8 mutation noted)"
+      ],
+      "discovery_group": "rluc8-family",
+      "evidence": "https://www.addgene.org/51970/",
+      "record_id": "addgene-51970",
+      "status": "HOLD_not_a_verified_protein_cluster"
+    },
+    {
+      "catalog_products": [
+        "Renilla-FLAG-firefly fusion product (catalog)"
+      ],
+      "discovery_group": "dual-luc-fusion",
+      "evidence": "https://www.addgene.org/255006/",
+      "record_id": "addgene-255006",
+      "status": "HOLD_not_a_verified_protein_cluster"
+    }
+  ],
+  "conservative_review_flags": [
+    "Do not count shared firefly reporters as independent solely because vector IDs differ.",
+    "Rluc8 and Nano-lantern share documented Renilla ancestry; review overlap before selecting references.",
+    "EYFP/ECFP/EGFP components need relatedness review; fluorophore color is not independent family truth.",
+    "pcDNA/pGL backbone and selection-marker overlap must be excluded when exact units are available."
+  ],
+  "decisions_needed": [
+    "Define evidence-supported family granularity and retrieve independently sourced positive/competing references with exact rights and provenance.",
+    "Review exact-source/parent/component-copy exclusions before inference; do not turn protein accessions AAB59735.1/AAB59736.1/AAB59737.1 into independent references.",
+    "Justify and freeze E3 strict pair exclusions before results; retain all base T07 exclusions."
+  ],
+  "family_labels": [],
+  "reference_ids": [],
+  "review_scope": "Reviewed same-parent exclusions and documented source products only. No independent biological-family ground truth or homology clusters fabricated.",
+  "reviewed_on": "2026-11-06",
+  "reviewer": "Codex technical evidence review under researcher delegation; not a new human sign-off",
+  "schema_version": "pilot-independence-review-1",
+  "strict_relatedness_policy_status": "HOLD_no_evidence_based_pair_exclusions_or_identity_cutoff",
+  "verified_groups": [
+    {
+      "basis": "All three protein accessions occur as CDS translations of the same exact GenBank J01749.1 source; cannot reference one another in leave-parent-out retrieval.",
+      "evidence": [
+        "https://www.ncbi.nlm.nih.gov/nuccore/J01749.1"
+      ],
+      "group_id": "ncbi-J01749.1-parent-lineage",
+      "independent_reference_eligible": false,
+      "members": [
+        {
+          "documented_product": "tetracycline resistance protein",
+          "gene": "tet",
+          "independence_group": "ncbi-J01749.1-parent-lineage",
+          "location": "[85:1276](+)",
+          "protein_accession_version": "AAB59735.1",
+          "retrieval_family_label": null,
+          "retrieval_family_review_status": "HOLD_independent_reference_family_not_reviewed",
+          "segments_zero_based_half_open": [
+            {
+              "end0": 1276,
+              "start0": 85,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 11,
+          "translation_length_aa": 396,
+          "translation_sha256": "27caae7e0153afb364b0f12c8ac82367a49ed6fe094a33d168867c622554ad90",
+          "translation_validation": "Source annotated translation verified against exact CDS coordinates/table"
+        },
+        {
+          "documented_product": "ROP protein",
+          "gene": null,
+          "independence_group": "ncbi-J01749.1-parent-lineage",
+          "location": "[1914:2106](+)",
+          "protein_accession_version": "AAB59736.1",
+          "retrieval_family_label": null,
+          "retrieval_family_review_status": "HOLD_independent_reference_family_not_reviewed",
+          "segments_zero_based_half_open": [
+            {
+              "end0": 2106,
+              "start0": 1914,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 27,
+          "translation_length_aa": 63,
+          "translation_sha256": "b999d6315c7a7034af5f3cc095c13b30ba58e106d10c8a7810f3b026c2f45295",
+          "translation_validation": "Source annotated translation verified against exact CDS coordinates/table"
+        },
+        {
+          "documented_product": "beta-lactamase",
+          "gene": "bla",
+          "independence_group": "ncbi-J01749.1-parent-lineage",
+          "location": "[3292:4153](-)",
+          "protein_accession_version": "AAB59737.1",
+          "retrieval_family_label": null,
+          "retrieval_family_review_status": "HOLD_independent_reference_family_not_reviewed",
+          "segments_zero_based_half_open": [
+            {
+              "end0": 4153,
+              "start0": 3292,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 39,
+          "translation_length_aa": 286,
+          "translation_sha256": "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468",
+          "translation_validation": "Source annotated translation verified against exact CDS coordinates/table"
+        }
+      ],
+      "review_status": "approved_same_source_parent_exclusion"
+    }
+  ]
+}

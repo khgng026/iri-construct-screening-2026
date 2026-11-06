@@ -50,3 +50,6 @@ build/
 .DS_Store
 .idea/
 .vscode/
+
+# T02 v1.1: exact reviewed NCBI snapshot only; other biological files stay ignored.
+!/data/approved_public/J01749.1.gb

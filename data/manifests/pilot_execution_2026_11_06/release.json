@@ -1,0 +1,64 @@
+{
+  "admitted_e1_source_count": 1,
+  "admitted_independent_reference_count": 0,
+  "base_commit": "4352009703dcd1825e181d203edf6088c882182e",
+  "cloud_storage_approved_count": 1,
+  "downloaded_source_count": 1,
+  "held_source_count": 9,
+  "records": [
+    {
+      "manifest": "records/ncbi-J01749.1.json",
+      "record_id": "ncbi-J01749.1",
+      "status": "ADMITTED_E1_ONLY"
+    },
+    {
+      "manifest": "records/addgene-212936.json",
+      "record_id": "addgene-212936",
+      "status": "HOLD"
+    },
+    {
+      "manifest": "records/addgene-18964.json",
+      "record_id": "addgene-18964",
+      "status": "HOLD"
+    },
+    {
+      "manifest": "records/addgene-87121.json",
+      "record_id": "addgene-87121",
+      "status": "HOLD"
+    },
+    {
+      "manifest": "records/addgene-18673.json",
+      "record_id": "addgene-18673",
+      "status": "HOLD"
+    },
+    {
+      "manifest": "records/addgene-64034.json",
+      "record_id": "addgene-64034",
+      "status": "HOLD"
+    },
+    {
+      "manifest": "records/addgene-108228.json",
+      "record_id": "addgene-108228",
+      "status": "HOLD"
+    },
+    {
+      "manifest": "records/addgene-21073.json",
+      "record_id": "addgene-21073",
+      "status": "HOLD"
+    },
+    {
+      "manifest": "records/addgene-51970.json",
+      "record_id": "addgene-51970",
+      "status": "HOLD"
+    },
+    {
+      "manifest": "records/addgene-255006.json",
+      "record_id": "addgene-255006",
+      "status": "HOLD"
+    }
+  ],
+  "researcher_approved_count": 10,
+  "retrieval_panel_ready": false,
+  "reviewed_at_utc": "2026-11-06T13:40:52.487028+00:00",
+  "schema_version": "pilot-verified-subset-1"
+}

@@ -1,0 +1,70 @@
+{
+  "access_observations": [
+    {
+      "final_url": "https://www.addgene.org/18964/",
+      "http_status": 200,
+      "login_required": false,
+      "response_bytes": 247475,
+      "response_kind": "public_HTML_not_source_sequence",
+      "response_sha256": "4c4e01bef79733203c1a965ada84f33ba1a1d41a99f21007cadd4c66a44fde44",
+      "retrieved_at_utc": "2026-11-06T13:38:01.519097+00:00",
+      "url": "https://www.addgene.org/18964/"
+    },
+    {
+      "final_url": "https://www.addgene.org/18964/sequences/",
+      "http_status": 200,
+      "login_required": true,
+      "response_bytes": 211596,
+      "response_kind": "public_HTML_not_source_sequence",
+      "response_sha256": "f9d0d1bb2f604c681a3d50f8e491c247a3ef51c9ddceaca9c9f19dfd7c088182",
+      "retrieved_at_utc": "2026-11-06T13:38:02.835893+00:00",
+      "url": "https://www.addgene.org/18964/sequences/"
+    }
+  ],
+  "accession_version": null,
+  "annotation_review_status": "HOLD_no_exact_source",
+  "benign_review": {
+    "catalog_context": "Consistent with researcher-approved ordinary reporter/expression research; Gene/Insert metadata identifies firefly luciferase in a mammalian expression backbone.",
+    "exact_file_status": "HOLD_uninspected_source_not_an_adverse_safety_finding"
+  },
+  "blockers": [
+    "Authorized logged-in download or approved provider interface needed; public sequence index explicitly requires login",
+    "Exact full file, sequence revision/date, SHA256 and original feature table unavailable",
+    "Exact-file notices and private-GitHub storage scope require review after legitimate acquisition",
+    "Independent reviewed family/reference panel unavailable"
+  ],
+  "catalog_caveat": "Inspect the full annotated source, document benign rationale/permissions, and assign only evidence-supported units and family labels.",
+  "checksum_sha256": null,
+  "cloud_storage_approved": false,
+  "construct_name": "Luciferase-pcDNA3",
+  "documented_catalog_components": [
+    "firefly luciferase (catalog Gene/Insert)"
+  ],
+  "downloaded_locally": false,
+  "durable_catalog_id": "Addgene:18964",
+  "family_label_status": "HOLD_no_verified_CDS_units_or_independent_references",
+  "feature_count": null,
+  "licensing_status": "uncertain_for_exact_cloud_copy",
+  "no_substitution": "Linked insert/protein accessions, generic vendor backbones, maps, partial reads and public catalogue names are not substituted for the exact complete construct.",
+  "record_id": "addgene-18964",
+  "researcher_decision": "approved_for_pilot",
+  "retrieval_admission": "HOLD",
+  "reviewed_at_utc": "2026-11-06T13:40:52.487028+00:00",
+  "reviewer": "Codex technical evidence review under researcher delegation; not a new human sign-off",
+  "rights_evidence": [
+    "https://www.addgene.org/terms-of-use/",
+    "https://help.addgene.org/hc/en-us/articles/44210206209549-Are-there-any-requirements-for-viewing-plasmid-sequence-data-on-the-Addgene-website"
+  ],
+  "rights_review": "General terms permit informational noncommercial use subject to notices and exceptions. Material MTAs and reporter licenses do not alone settle rights for an unseen full sequence file. No finding of blanket prohibition; no exact-file hosting approval asserted.",
+  "rrid": "Addgene_18964",
+  "schema_version": "pilot-exact-source-review-1",
+  "sequence_index_categories": [
+    "Addgene-Verified Full Sequences (1)",
+    "Addgene-Verified Partial Sequences (2)"
+  ],
+  "sequence_length_nt": null,
+  "source_admitted_for_annotation_audit": false,
+  "source_file_version": null,
+  "source_url": "https://www.addgene.org/18964/",
+  "status": "HOLD"
+}

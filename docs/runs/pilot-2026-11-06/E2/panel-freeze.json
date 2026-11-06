@@ -1,0 +1,68 @@
+{
+  "input_fingerprints": {},
+  "merge_policy": "maximum per reference across all eligible CDS scores, then one stable top-five parent ranking",
+  "panel_sha256": "9a5b5392448120e476eb547dd56e6e391a778d150d913593801ae42898a05ce7",
+  "parent_ids": [
+    "ncbi-J01749.1"
+  ],
+  "parents": {
+    "ncbi-J01749.1": {
+      "all_component_sequence_sha256": [
+        "27caae7e0153afb364b0f12c8ac82367a49ed6fe094a33d168867c622554ad90",
+        "b999d6315c7a7034af5f3cc095c13b30ba58e106d10c8a7810f3b026c2f45295",
+        "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468"
+      ],
+      "archetype": "backbone_heavy",
+      "baseline_unit_id": null,
+      "budget_saturated": true,
+      "documented_family_by_unit": {},
+      "eligible_cds_count": 0,
+      "eligible_reference_ids": [],
+      "eligible_unit_ids": [],
+      "full_abstention_reason": "no_eligible_documented_cds",
+      "full_expected_families": [],
+      "independence_cluster": "parent-cluster-28e9162707e1fa632afa",
+      "matched_abstention_reason": "no_independently_supported_eligible_families",
+      "matched_supported_families": [],
+      "model_label_eligible_cds_coverage": 0.0,
+      "parsed_cds_count": 3,
+      "parsed_cds_coverage": 1.0,
+      "reference_exclusions": [],
+      "reviewed_groups": [],
+      "source_cds_count": 3,
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6",
+      "unit_exclusions": [
+        {
+          "reason": "Family annotation is missing, unknown or unapproved",
+          "unit_id": "pbr322/ncbi-J01749.1-u-45fec3a34a1435f32eee"
+        },
+        {
+          "reason": "Family annotation is missing, unknown or unapproved",
+          "unit_id": "pbr322/ncbi-J01749.1-u-64d2ebed8b1795ab2bc2"
+        },
+        {
+          "reason": "Family annotation is missing, unknown or unapproved",
+          "unit_id": "pbr322/ncbi-J01749.1-u-da3f5bc934ba3cd9e0c7"
+        }
+      ],
+      "unit_ids": [
+        "pbr322/ncbi-J01749.1-u-45fec3a34a1435f32eee",
+        "pbr322/ncbi-J01749.1-u-64d2ebed8b1795ab2bc2",
+        "pbr322/ncbi-J01749.1-u-da3f5bc934ba3cd9e0c7"
+      ],
+      "unknown_family_unit_ids": [
+        "pbr322/ncbi-J01749.1-u-45fec3a34a1435f32eee",
+        "pbr322/ncbi-J01749.1-u-64d2ebed8b1795ab2bc2",
+        "pbr322/ncbi-J01749.1-u-da3f5bc934ba3cd9e0c7"
+      ],
+      "unsupported_documented_families": []
+    }
+  },
+  "protocol_sha256": "58d426e9714f79918fe0191eac1f585dd77e75e5a8085135920b6658c89b6d19",
+  "protocol_version": "1.1",
+  "reference_ids": [],
+  "retrieval_budget": 5,
+  "schema_version": "multi-cds-panel-1",
+  "status": "blocked_insufficient_parent_panel",
+  "top_k": 5
+}

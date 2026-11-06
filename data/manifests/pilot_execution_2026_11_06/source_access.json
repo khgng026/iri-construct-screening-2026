@@ -1,0 +1,265 @@
+{
+  "provider_integration_search": "Addgene plugin search returned no integrations in this session. No authenticated provider session used.",
+  "records": [
+    {
+      "observations": [
+        {
+          "final_url": "https://www.addgene.org/212936/",
+          "http_status": 200,
+          "login_required": false,
+          "response_bytes": 225104,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "17b5a44676ff140b29a441d5010787ea529a78e8364ffd63f4e9df377395fe81",
+          "retrieved_at_utc": "2026-11-06T13:37:59.736798+00:00",
+          "url": "https://www.addgene.org/212936/"
+        },
+        {
+          "final_url": "https://www.addgene.org/212936/sequences/",
+          "http_status": 200,
+          "login_required": true,
+          "response_bytes": 208480,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "fad98d26627fa5e2fce79812a2ca6b0372b22e6bc67db34504354189c9caea41",
+          "retrieved_at_utc": "2026-11-06T13:38:00.856399+00:00",
+          "url": "https://www.addgene.org/212936/sequences/"
+        }
+      ],
+      "record_id": "addgene-212936",
+      "sequence_index_categories": [
+        "Addgene-Verified Full Sequences (1)"
+      ]
+    },
+    {
+      "observations": [
+        {
+          "final_url": "https://www.addgene.org/18964/",
+          "http_status": 200,
+          "login_required": false,
+          "response_bytes": 247475,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "4c4e01bef79733203c1a965ada84f33ba1a1d41a99f21007cadd4c66a44fde44",
+          "retrieved_at_utc": "2026-11-06T13:38:01.519097+00:00",
+          "url": "https://www.addgene.org/18964/"
+        },
+        {
+          "final_url": "https://www.addgene.org/18964/sequences/",
+          "http_status": 200,
+          "login_required": true,
+          "response_bytes": 211596,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "f9d0d1bb2f604c681a3d50f8e491c247a3ef51c9ddceaca9c9f19dfd7c088182",
+          "retrieved_at_utc": "2026-11-06T13:38:02.835893+00:00",
+          "url": "https://www.addgene.org/18964/sequences/"
+        }
+      ],
+      "record_id": "addgene-18964",
+      "sequence_index_categories": [
+        "Addgene-Verified Full Sequences (1)",
+        "Addgene-Verified Partial Sequences (2)"
+      ]
+    },
+    {
+      "observations": [
+        {
+          "final_url": "https://www.addgene.org/87121/",
+          "http_status": 200,
+          "login_required": false,
+          "response_bytes": 250802,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "c68bdf4758ed61af5d97bf7429086e8e202972cf48fb760031af277c2ed65843",
+          "retrieved_at_utc": "2026-11-06T13:38:03.554285+00:00",
+          "url": "https://www.addgene.org/87121/"
+        },
+        {
+          "final_url": "https://www.addgene.org/87121/sequences/",
+          "http_status": 200,
+          "login_required": true,
+          "response_bytes": 208438,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "41ecac2ceb5b0d05b77ee9514b677b9f6213d4a9f22aa02dc313eeb9550ef629",
+          "retrieved_at_utc": "2026-11-06T13:38:04.719178+00:00",
+          "url": "https://www.addgene.org/87121/sequences/"
+        }
+      ],
+      "record_id": "addgene-87121",
+      "sequence_index_categories": [
+        "Addgene-Verified Full Sequences (1)"
+      ]
+    },
+    {
+      "observations": [
+        {
+          "final_url": "https://www.addgene.org/18673/",
+          "http_status": 200,
+          "login_required": false,
+          "response_bytes": 233397,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "8fecd5b6252549c13ce4960bda3ba5094ba9dc465c3c7d0ef6dff7208d92725a",
+          "retrieved_at_utc": "2026-11-06T13:38:05.380460+00:00",
+          "url": "https://www.addgene.org/18673/"
+        },
+        {
+          "final_url": "https://www.addgene.org/18673/sequences/",
+          "http_status": 200,
+          "login_required": true,
+          "response_bytes": 209975,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "887db21af14490a9ef952e99cc8c9e3df27c5d3f587a13e72986d5cd061615fe",
+          "retrieved_at_utc": "2026-11-06T13:38:06.595526+00:00",
+          "url": "https://www.addgene.org/18673/sequences/"
+        }
+      ],
+      "record_id": "addgene-18673",
+      "sequence_index_categories": [
+        "Depositor Full Sequences (1)",
+        "Addgene-Verified Partial Sequences (1)"
+      ]
+    },
+    {
+      "observations": [
+        {
+          "final_url": "https://www.addgene.org/64034/",
+          "http_status": 200,
+          "login_required": false,
+          "response_bytes": 232999,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "cfb7b90356794dafcdb9ac7a8e17e7007d5fa6a79b6b30224cdef66ee604687d",
+          "retrieved_at_utc": "2026-11-06T13:38:07.324603+00:00",
+          "url": "https://www.addgene.org/64034/"
+        },
+        {
+          "final_url": "https://www.addgene.org/64034/sequences/",
+          "http_status": 200,
+          "login_required": true,
+          "response_bytes": 212703,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "31fefed5d927a0a2e71612673445876860be2f2cea216414d4d4e0e5ae818759",
+          "retrieved_at_utc": "2026-11-06T13:38:08.152102+00:00",
+          "url": "https://www.addgene.org/64034/sequences/"
+        }
+      ],
+      "record_id": "addgene-64034",
+      "sequence_index_categories": [
+        "Addgene-Verified Full Sequences (1)",
+        "Addgene-Verified Partial Sequences (3)"
+      ]
+    },
+    {
+      "observations": [
+        {
+          "final_url": "https://www.addgene.org/108228/",
+          "http_status": 200,
+          "login_required": false,
+          "response_bytes": 226286,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "0fe1e31e515fbb1403ca7e30f6531fa68e100f4c4c38bb562dee63542450fb5f",
+          "retrieved_at_utc": "2026-11-06T13:38:08.862902+00:00",
+          "url": "https://www.addgene.org/108228/"
+        },
+        {
+          "final_url": "https://www.addgene.org/108228/sequences/",
+          "http_status": 200,
+          "login_required": true,
+          "response_bytes": 208461,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "0c4683e047d93690e5c01e0ed962e4062b72e7879b9a9cd2c32b8d2144272f76",
+          "retrieved_at_utc": "2026-11-06T13:38:09.810688+00:00",
+          "url": "https://www.addgene.org/108228/sequences/"
+        }
+      ],
+      "record_id": "addgene-108228",
+      "sequence_index_categories": [
+        "Addgene-Verified Full Sequences (1)"
+      ]
+    },
+    {
+      "observations": [
+        {
+          "final_url": "https://www.addgene.org/21073/",
+          "http_status": 200,
+          "login_required": false,
+          "response_bytes": 244125,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "16ef0014e04c992493fd7d4fb0bfb196e5e48ab4cdd2dab2e132ee221af46fdc",
+          "retrieved_at_utc": "2026-11-06T13:38:10.514897+00:00",
+          "url": "https://www.addgene.org/21073/"
+        },
+        {
+          "final_url": "https://www.addgene.org/21073/sequences/",
+          "http_status": 200,
+          "login_required": true,
+          "response_bytes": 208428,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "51d68bcc6fd82bd7b4a7dcef73817ecb81e5b141f93a2b52821020b975baa041",
+          "retrieved_at_utc": "2026-11-06T13:38:11.562124+00:00",
+          "url": "https://www.addgene.org/21073/sequences/"
+        }
+      ],
+      "record_id": "addgene-21073",
+      "sequence_index_categories": [
+        "Addgene-Verified Full Sequences (1)"
+      ]
+    },
+    {
+      "observations": [
+        {
+          "final_url": "https://www.addgene.org/51970/",
+          "http_status": 200,
+          "login_required": false,
+          "response_bytes": 250852,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "7f262e4d91686c1c554e990c56d2d8e21972eb5819eb5ea86c382ec9474e820a",
+          "retrieved_at_utc": "2026-11-06T13:38:12.283324+00:00",
+          "url": "https://www.addgene.org/51970/"
+        },
+        {
+          "final_url": "https://www.addgene.org/51970/sequences/",
+          "http_status": 200,
+          "login_required": true,
+          "response_bytes": 214969,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "eb0d70ad1927af348f5080e7a159bf99c408421773cca026a0e21db3637a034c",
+          "retrieved_at_utc": "2026-11-06T13:38:13.357552+00:00",
+          "url": "https://www.addgene.org/51970/sequences/"
+        }
+      ],
+      "record_id": "addgene-51970",
+      "sequence_index_categories": [
+        "Addgene-Verified Full Sequences (1)",
+        "Addgene-Verified Partial Sequences (3)",
+        "Depositor Partial Sequences (1)"
+      ]
+    },
+    {
+      "observations": [
+        {
+          "final_url": "https://www.addgene.org/255006/",
+          "http_status": 200,
+          "login_required": false,
+          "response_bytes": 225060,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "a47e9f3f9b2e3ff558cf12ae768abf250cd8a82974ab1477924f9f73028b3b0d",
+          "retrieved_at_utc": "2026-11-06T13:38:14.452186+00:00",
+          "url": "https://www.addgene.org/255006/"
+        },
+        {
+          "final_url": "https://www.addgene.org/255006/sequences/",
+          "http_status": 200,
+          "login_required": true,
+          "response_bytes": 208490,
+          "response_kind": "public_HTML_not_source_sequence",
+          "response_sha256": "99d40d1bcb1a5c0b7664a6516e416218c58553946f4871dd07c414cd6760b7ca",
+          "retrieved_at_utc": "2026-11-06T13:38:15.389967+00:00",
+          "url": "https://www.addgene.org/255006/sequences/"
+        }
+      ],
+      "record_id": "addgene-255006",
+      "sequence_index_categories": [
+        "Addgene-Verified Full Sequences (1)"
+      ]
+    }
+  ],
+  "reviewed_at_utc": "2026-11-06T13:40:52.487028+00:00",
+  "schema_version": "pilot-source-access-1",
+  "scope": "Public metadata only; HTML hashes below are NOT sequence-file checksums. No login-protected sequence files acquired."
+}

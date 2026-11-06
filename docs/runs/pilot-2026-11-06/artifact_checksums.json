@@ -1,0 +1,21 @@
+{
+  "schema_version": "pilot-run-artifact-digests-1",
+  "scope": "Original byte-for-byte sequence-free run reports, freezes and software test log; copied out of ignored results. Includes no exported sequence/qualifier sidecars.",
+  "sha256": {
+    "docs/runs/pilot-2026-11-06/E1/protocol-freeze.json": "9fa5b19f0a6f5be9fe409bbcbbff1b523cfacab03705aab7c5c3e487b5fa99af",
+    "docs/runs/pilot-2026-11-06/E1/report.json": "7c8a55536f5b397df775b00f2e215c6dfd1a6e1cb7ed952d79cb607ed4ca95c3",
+    "docs/runs/pilot-2026-11-06/E2/cost-quality-records.json": "73a9e93cb1eca0645a4649836efc576354ecbfb1f858c1d54a116fbf709cc61e",
+    "docs/runs/pilot-2026-11-06/E2/panel-freeze.json": "a4287b48aaa728e27ea197d0480779ce2b0bff4b24b8acdc98f4176d28c5c970",
+    "docs/runs/pilot-2026-11-06/E2/protocol-freeze.json": "3503b89dd3acfd20372cfef65e24c7a450d167898fbadb729f2bef1012deb64c",
+    "docs/runs/pilot-2026-11-06/E2/report.json": "77e281dc4fe1ac302a731c6faad8acb6607f5bfa6ede0e162d8332f990e8073e",
+    "docs/runs/pilot-2026-11-06/E3/cost-quality-records.json": "c226f7db47b65db8f5dc35f171b2ef4e1d03ce228e10589182a47637461a477a",
+    "docs/runs/pilot-2026-11-06/E3/protocol-freeze.json": "bcbe506d3ec3e2f20cc113f618684fe4d9d51f8dfdf6cec95ce8a98bec332d1f",
+    "docs/runs/pilot-2026-11-06/E3/reference-tier-freeze.json": "c51b7c1c48fa3cf9cf172b25092e1f4ab594418cda62031a5e09e28255d16d8e",
+    "docs/runs/pilot-2026-11-06/E3/report.json": "fbaf6eff3eea34cabd81c5f2c133923e15c25c66254590b26ff7819d650a33ab",
+    "docs/runs/pilot-2026-11-06/E4/report.json": "2fca907556b215508ac96ef58f07094a095c9f3837ac904b037530395bc6e560",
+    "docs/runs/pilot-2026-11-06/attempts.json": "0c8dcabacea3b77207c0708f498ca95e5c6a8dad29c1e876566e9aeeaf34719a",
+    "docs/runs/pilot-2026-11-06/baseline-tests.txt": "660ca3092642c5d50d699d294a364618939dc788bf7a901c06bb2b71b6ae0453",
+    "docs/runs/pilot-2026-11-06/environment-global/report.json": "2f7f7b235b7d59e0f4fac4b9b0f2a78e8e772b7d7c5711bc98791aff5115eeca",
+    "docs/runs/pilot-2026-11-06/environment-parsing/report.json": "c38b679c5792876e9e178c8764a2740e2d70ef8d70f68cfb07239693066eaeeb"
+  }
+}
