@@ -1,5 +1,41 @@
 # Codex implementation handoff
 
+## E3/E4 completion milestone
+
+UTC timestamp: 2026-11-06T03:33:20Z. Branch: `codex/t07-evaluation-extensions`.
+Recorded HEAD before this milestone commit: `c5ba9f39e66ddc2b3821b1a02e954e9de145d642`.
+PR [#2](https://github.com/khgng026/iri-construct-screening-2026/pull/2)
+remains the unmodified stacked base; PR #1 and main remain read-only.
+
+E3 and E4 software is integrated. E3 freezes all reference tiers before any
+scores and preserves every v1.0 independence safeguard; a missing strict policy
+blocks tier 3. E4 retains null costs and rejects unmatched panels, measurement
+conditions, scored support and ambiguous method configurations. Scientific
+measurements and plots remain pending; there is no automatic winning model.
+
+Agent A/B deliverables have been reviewed by the lead; Agent C's saved E3/E4
+modules and tests have now been integrated by the lead. All three agents' final
+handoffs were interrupted by the workspace spend cap; their saved files were
+available, and no replacement agents were launched. Lead work is now final
+regression, documentation/workbook updates, diff review and GitHub publication.
+
+Focused evidence: eight reference-tier tests passed; 14 cost/quality tests ran
+(13 passed, one skipped for optional Matplotlib); six cross-module tests passed.
+These cover strict policy binding before inference, identical per-tier panels,
+missing model common-support failure, fixture-to-E4 nonpromotion, and the common
+CLI's four pending outcomes: E1 `no_inputs`, E2/E3 `blocked_no_reviewed_inputs`,
+E4 `blocked_no_measurements`, all with non-success exit codes. Zero real records
+were parsed or scored; all model-like scores in tests came from fictional adapters.
+
+Files added: `reference_tiers.py`, `cost_quality.py`, `extension_experiments.py`,
+the shared and standalone reporting CLIs, their focused/cross-module tests and
+`E3_E4_generalization_cost.md`. E2-to-E4 normalized records are also checked.
+Implemented under delegated authority: explicit pair-bound reviewed policies,
+shared execution attribution, exact support checks and conservative comparison
+exclusions. Source and family admission, tier-3 scientific justification and
+actual comparable measurements remain the same pending researcher evidence;
+no new approval or interpretation has been inferred.
+
 ## E1/E2 completion milestone
 
 UTC timestamp: 2026-11-06T03:31:18Z. Branch: `codex/t07-evaluation-extensions`.

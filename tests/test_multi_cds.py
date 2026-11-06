@@ -209,6 +209,10 @@ class MultiCdsExecutionTests(MultiCdsFixture,unittest.TestCase):
         self.assertEqual(report['status'],'ok')
         self.assertFalse(report['scientific_scores_produced'])
         records=report['cost_quality_records']
+        from iri_constructs.cost_quality import summarize_cost_quality
+        summary=summarize_cost_quality(records)
+        self.assertEqual(summary['actual_admitted_research_records'],0)
+        self.assertEqual(summary['status'],'descriptive_only_no_admitted_research')
         self.assertEqual(records[0]['shared_execution_id'],records[1]['shared_execution_id'])
         self.assertEqual([r['logical_query_units'] for r in records],[1,2])
         self.assertEqual([r['costs']['model_calls'] for r in records],[7,8])
@@ -296,4 +300,3 @@ class MultiCdsSourceTests(unittest.TestCase):
             manifest({**row,'annotation_status':'pending'})
             with patch('iri_constructs.multi_cds.read_source',side_effect=AssertionError('No pending source parsing')):
                 with self.assertRaises(InputError): load_multi_cds_inputs(path)
-
