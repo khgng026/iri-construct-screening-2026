@@ -1,0 +1,6 @@
+-r requirements-checks.txt
+torch==2.15.0
+transformers==5.22.0
+esm==3.4.2
+safetensors
+huggingface-hub

@@ -1,0 +1,1 @@
+{"attn_implementation":"sdpa","device":"cpu","dtype":"float32","expected_file_sha256":{"model.safetensors":"526573c304b7718f9cfd2a8adf79638feb6752eb38056968bf21d9036b7882ce"},"family":"esmc","layer":-1,"local_files_only":true,"max_residues":1022,"model_id":"biohub/ESMC-600M","revision":"fcc9d36f5fff97d9bb69a36e3252de61cc78c968","seed":0,"threads":4}

@@ -1,0 +1,272 @@
+..............E.......................................................s........................................................E..........................................................................................................EEEEEEEEEEEE..........................................................................................................................
+======================================================================
+ERROR: setUpClass (test_session_benchmark.PreparedInputTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_benchmark.py", line 158, in setUpClass
+    cls.suite = load_suite(cls.repo, cls.packet)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/src/iri_constructs/session_benchmark.py", line 149, in load_suite
+    sequences = load_reviewed(root, reviewed)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/src/iri_constructs/t05_composition.py", line 30, in load_reviewed
+    if sha256(page.read_bytes()) != record['source_page_sha256']:
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/data/raw/t05-expanded/candidate-page-17.json'
+
+======================================================================
+ERROR: test_frozen_unique_catalogues_rebuilt_and_tampering_rejected (test_session_extension_audit.MaskAndFusionTests.test_frozen_unique_catalogues_rebuilt_and_tampering_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_extension_audit.py", line 174, in test_frozen_unique_catalogues_rebuilt_and_tampering_rejected
+    manifest = audit.read(session / "inputs/challenge_manifest.json")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/scripts/session_extension_audit.py", line 44, in read
+    return json.loads(Path(path).read_text())
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/challenge_manifest.json'
+
+======================================================================
+ERROR: test_full_encoding_and_alignment_reservations (test_session_plmblast_resource_v2.ExplicitReservationTests.test_full_encoding_and_alignment_reservations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 112, in test_full_encoding_and_alignment_reservations
+    gate = admission(); stop = gate["resource_reservation"]["session_hard_stop_utc"]
+           ^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 27, in admission
+    "design_sha256": runner.file_hash(V2), "runner_sha256": runner.file_hash(runner.__file__),
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/src/iri_constructs/session_store.py", line 30, in file_hash
+    with Path(path).open("rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_resource_v2.json'
+
+======================================================================
+ERROR: test_late_original_decision_cannot_be_backfilled_at_alignment (test_session_plmblast_resource_v2.ExplicitReservationTests.test_late_original_decision_cannot_be_backfilled_at_alignment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 134, in test_late_original_decision_cannot_be_backfilled_at_alignment
+    gate = admission(); gate["decision_utc"] = "2026-10-31T15:00:00+00:00"
+           ^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 27, in admission
+    "design_sha256": runner.file_hash(V2), "runner_sha256": runner.file_hash(runner.__file__),
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/src/iri_constructs/session_store.py", line 30, in file_hash
+    with Path(path).open("rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_resource_v2.json'
+
+======================================================================
+ERROR: test_new_probe_admission_checks_reservation_and_pins_completion (test_session_plmblast_resource_v2.ExplicitReservationTests.test_new_probe_admission_checks_reservation_and_pins_completion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 152, in test_new_probe_admission_checks_reservation_and_pins_completion
+    gate = admission(); design = runner.read(V2); code = {"runner": runner.file_hash(runner.__file__)}
+           ^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 27, in admission
+    "design_sha256": runner.file_hash(V2), "runner_sha256": runner.file_hash(runner.__file__),
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/src/iri_constructs/session_store.py", line 30, in file_hash
+    with Path(path).open("rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_resource_v2.json'
+
+======================================================================
+ERROR: test_original_v1_probe_cannot_admit_v2 (test_session_plmblast_resource_v2.ExplicitReservationTests.test_original_v1_probe_cannot_admit_v2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 140, in test_original_v1_probe_cannot_admit_v2
+    gate = admission(); old = runner.RESOURCE_AMENDMENT["original_negative_probe"]
+           ^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 27, in admission
+    "design_sha256": runner.file_hash(V2), "runner_sha256": runner.file_hash(runner.__file__),
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/src/iri_constructs/session_store.py", line 30, in file_hash
+    with Path(path).open("rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_resource_v2.json'
+
+======================================================================
+ERROR: test_root_review_exact_hardstop_and_allowance_mandatory (test_session_plmblast_resource_v2.ExplicitReservationTests.test_root_review_exact_hardstop_and_allowance_mandatory)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 124, in test_root_review_exact_hardstop_and_allowance_mandatory
+    changed = admission(); changed[field] = value
+              ^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 27, in admission
+    "design_sha256": runner.file_hash(V2), "runner_sha256": runner.file_hash(runner.__file__),
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/src/iri_constructs/session_store.py", line 30, in file_hash
+    with Path(path).open("rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_resource_v2.json'
+
+======================================================================
+ERROR: test_changed_examples_safety_scoring_runtime_or_extra_field_rejected (test_session_plmblast_resource_v2.ResourceDesignTests.test_changed_examples_safety_scoring_runtime_or_extra_field_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 38, in setUp
+    self.original, self.amended = runner.read(V1), runner.read(V2)
+                                  ^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/scripts/session_plmblast_experiment.py", line 79, in read
+    return json.loads(Path(path).read_text())
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_v1.json'
+
+======================================================================
+ERROR: test_frozen_original_and_exact_amendment_accepted (test_session_plmblast_resource_v2.ResourceDesignTests.test_frozen_original_and_exact_amendment_accepted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 38, in setUp
+    self.original, self.amended = runner.read(V1), runner.read(V2)
+                                  ^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/scripts/session_plmblast_experiment.py", line 79, in read
+    return json.loads(Path(path).read_text())
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_v1.json'
+
+======================================================================
+ERROR: test_identical_forecast_v1_fails_5400_v2_passes_10800 (test_session_plmblast_resource_v2.ResourceDesignTests.test_identical_forecast_v1_fails_5400_v2_passes_10800)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 38, in setUp
+    self.original, self.amended = runner.read(V1), runner.read(V2)
+                                  ^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/scripts/session_plmblast_experiment.py", line 79, in read
+    return json.loads(Path(path).read_text())
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_v1.json'
+
+======================================================================
+ERROR: test_v1_cannot_be_relabelled_or_cap_changed (test_session_plmblast_resource_v2.ResourceDesignTests.test_v1_cannot_be_relabelled_or_cap_changed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 38, in setUp
+    self.original, self.amended = runner.read(V1), runner.read(V2)
+                                  ^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/scripts/session_plmblast_experiment.py", line 79, in read
+    return json.loads(Path(path).read_text())
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_v1.json'
+
+======================================================================
+ERROR: test_v2_requires_bytecode_environment_before_startup (test_session_plmblast_resource_v2.ResourceDesignTests.test_v2_requires_bytecode_environment_before_startup)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 38, in setUp
+    self.original, self.amended = runner.read(V1), runner.read(V2)
+                                  ^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/scripts/session_plmblast_experiment.py", line 79, in read
+    return json.loads(Path(path).read_text())
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_v1.json'
+
+======================================================================
+ERROR: test_only_recorded_overlay_is_accepted_even_with_identical_sibling_bytes (test_session_plmblast_resource_v2.SelectedOverlayTests.test_only_recorded_overlay_is_accepted_even_with_identical_sibling_bytes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 219, in test_only_recorded_overlay_is_accepted_even_with_identical_sibling_bytes
+    with self.approved_and_sibling() as value:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 178, in approved_and_sibling
+    design = runner.read(V2)
+             ^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/scripts/session_plmblast_experiment.py", line 79, in read
+    return json.loads(Path(path).read_text())
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_resource_v2.json'
+
+======================================================================
+ERROR: test_parent_and_worker_reject_sibling_before_numerical_runtime (test_session_plmblast_resource_v2.SelectedOverlayTests.test_parent_and_worker_reject_sibling_before_numerical_runtime)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 227, in test_parent_and_worker_reject_sibling_before_numerical_runtime
+    with self.approved_and_sibling() as value, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/tests/test_session_plmblast_resource_v2.py", line 178, in approved_and_sibling
+    design = runner.read(V2)
+             ^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/scripts/session_plmblast_experiment.py", line 79, in read
+    return json.loads(Path(path).read_text())
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rudra2.0/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Rudra2.0/Desktop/IRI/shared-handoff-2026-11-05/results/iri-session-20261031-032506/inputs/plmblast_design_resource_v2.json'
+
+----------------------------------------------------------------------
+Ran 367 tests in 11.862s
+
+FAILED (errors=14, skipped=1)

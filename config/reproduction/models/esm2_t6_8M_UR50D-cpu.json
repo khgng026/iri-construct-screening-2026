@@ -1,0 +1,1 @@
+{"device":"cpu","dtype":"float32","expected_file_sha256":{"model.safetensors":"24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"},"family":"esm2","layer":-1,"local_files_only":true,"max_residues":1022,"model_id":"facebook/esm2_t6_8M_UR50D","revision":"c731040fcd8d73dceaa04b0a8e6329b345b0f5df","seed":0,"threads":4}

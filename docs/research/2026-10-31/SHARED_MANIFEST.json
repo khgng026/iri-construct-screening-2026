@@ -1,0 +1,452 @@
+[
+  {
+    "path": "CONTINUE.md",
+    "bytes": 9194,
+    "sha256": "078b4c8cda1c65820ac7e6b2152211cd48cf164f11a28d480a42896a48fefd01"
+  },
+  {
+    "path": "REPORT.md",
+    "bytes": 13257,
+    "sha256": "9b6f5b845e20cb8aa8ff720020cf75921a7e9901a6b053a062bd06dcbb9b7e8f"
+  },
+  {
+    "path": "LESSONS.md",
+    "bytes": 8505,
+    "sha256": "a909ced4a870a8fdcac0c9dad82bceb6a01eb8046d065d30babbd83f6fa4af95"
+  },
+  {
+    "path": "audit/closeout_verification_v1.json",
+    "bytes": 14186,
+    "sha256": "be93e70db86ab9e62bfaec916ff401f828b082996478fe982e70c2809dc1adb0"
+  },
+  {
+    "path": "audit/closeout_test_results_v1.json",
+    "bytes": 2330,
+    "sha256": "25234077d6f7df9c17b881e84bd54c01bf67e5abcc90a254ef6c1d17733cd9f2"
+  },
+  {
+    "path": "jobs/compare-core-five-models-v1-fb9fecb900a2/exports/component_recall5_by_count.png",
+    "bytes": 136085,
+    "sha256": "9e10c5b7d5d0cf42873c72d8a618e8d727510f85093b7dfccab127b6aa38e99f"
+  },
+  {
+    "path": "jobs/compare-core-five-models-v1-fb9fecb900a2/exports/coverage.csv",
+    "bytes": 3891,
+    "sha256": "820fe396d7857079e8a810e33d64f219e7a521d32337871e21ea472fda1b206e"
+  },
+  {
+    "path": "jobs/compare-core-five-models-v1-fb9fecb900a2/exports/component_metrics.csv",
+    "bytes": 1163197,
+    "sha256": "7b561afb2005938b2c2f89fb26878ed0de720062a78bacd88ef3670471a5c70e"
+  },
+  {
+    "path": "jobs/compare-core-five-models-v1-fb9fecb900a2/exports/mechanism_contrasts.csv",
+    "bytes": 32535,
+    "sha256": "80c3b5242e87fb7c53b4596410116a92261d5d817389d8f1a83596f6ceb6969a"
+  },
+  {
+    "path": "jobs/compare-core-five-models-v1-fb9fecb900a2/exports/query_metrics.csv",
+    "bytes": 138172,
+    "sha256": "a9efe05f93f0bdafe99426c6bcc764e9f9a597d300d37956ed668c42ff593e98"
+  },
+  {
+    "path": "jobs/compare-core-five-models-v1-fb9fecb900a2/exports/headlines.csv",
+    "bytes": 7325,
+    "sha256": "09e338e3cdeaadf742525724d95528ead3890849f68571d5fa66419bee526884"
+  },
+  {
+    "path": "jobs/compare-core-five-models-v1-fb9fecb900a2/exports/paired_method_comparisons.csv",
+    "bytes": 30046,
+    "sha256": "ce9ed3fd0cdeefda43171c34759cff80db5c9de9e55226edbf558c3bc51b8a67"
+  },
+  {
+    "path": "jobs/compare-core-five-models-v1-fb9fecb900a2/exports/control_identity_checks.csv",
+    "bytes": 1259979,
+    "sha256": "eb75bf00441d4d62687d4eeccf856d82bd1b513c9afbd2735d8c8a4fa2ba5682"
+  },
+  {
+    "path": "analysis/failure-profile-v1-3ff70216e42c/failure_profile.png",
+    "bytes": 203869,
+    "sha256": "2f2809f01797d26cabc3bfda263f7599fd64693fe64ab0d931f68b3927e32919"
+  },
+  {
+    "path": "analysis/failure-profile-v1-3ff70216e42c/profile_metrics.csv",
+    "bytes": 10150,
+    "sha256": "74fe787d5e6f469c8019d5bcc38ad3d72d524ede08d251bd457bda6b18d6c659"
+  },
+  {
+    "path": "analysis/context-common-repeat-v2-9dbff8491506/common_repeat_context_profile.png",
+    "bytes": 171728,
+    "sha256": "ee6641cc1be304c3da210f298b6ebb633f36e0e72c2500fa5c339c57816528b9"
+  },
+  {
+    "path": "analysis/expanded-catalogue-closeout-v1-cd8aa1563580/catalogue_comparison.csv",
+    "bytes": 129786,
+    "sha256": "a27a524de263a1098ad765d019dcbfdee02db64b88a320e83f1cf9f093479cdf"
+  },
+  {
+    "path": "analysis/expanded-catalogue-closeout-v1-cd8aa1563580/catalogue_competition.png",
+    "bytes": 141116,
+    "sha256": "30d0fa4bf676d802acde97a6486939eaa6c7977ffc87e6617e6d0d9a1fd25afb"
+  },
+  {
+    "path": "analysis/context-common-repeat-v1-e8fe1a7ed206/common_repeat_context_profile.png",
+    "bytes": 171728,
+    "sha256": "ee6641cc1be304c3da210f298b6ebb633f36e0e72c2500fa5c339c57816528b9"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/union_component_metrics.csv",
+    "bytes": 278541,
+    "sha256": "40d96ca323e6c24b50322eaddf28be5f493a877121005c65a86b9cf308e5f695"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/component_metrics.csv",
+    "bytes": 1677322,
+    "sha256": "686879f286c7cca93e5a6bc9efcc176d40c717dc822fe80035afd59998efc141"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/returned_volume_metrics.csv",
+    "bytes": 81444,
+    "sha256": "4716a16596ecbd0157a1c3eb32ff9d3d65c0cb754591f73f863f04ee6c938949"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/query_metrics.csv",
+    "bytes": 155119,
+    "sha256": "51e5772f71d243f50b7d3992bfeca82c8c3e33ae87c2f6e38981395b453d3e94"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/resource_observations.csv",
+    "bytes": 1174442,
+    "sha256": "cfd06ce3f3ae89f606214f3fe53ed9321b6ebf95950898d5196b132e8d378912"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/matched_whole_baseline_metrics.csv",
+    "bytes": 4171,
+    "sha256": "26c8c2dcc60d7f1e628025e8306bc62e724df3705d781fe0f29f8c9f3510db1b"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/core_runtime.csv",
+    "bytes": 1551962,
+    "sha256": "9019dac6b479d564c94996ed3db1f395a745f76a4b33f3aa4ee2742f2e83cc6c"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/boundary_metrics.csv",
+    "bytes": 12805,
+    "sha256": "0916721a330e77fc03851296357a58cfe13a5e55344269253e20507d00acba33"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/headlines.csv",
+    "bytes": 4596,
+    "sha256": "6e3a66c00b5f870b93f3ecbbfa3bb48939e4954187c04165398ebee906cf4533"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/union_query_metrics.csv",
+    "bytes": 29593,
+    "sha256": "3ca8fc08a4d5df998c3cd20fbfe3c2380393233e14ad884c004b86544e1eebc0"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/resource_metrics.csv",
+    "bytes": 5567,
+    "sha256": "72829ee04d6c57cc6b9d9d14bdc206bfe395836b1554ec2ea3c965cd051393fd"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/matched_whole_baseline.csv",
+    "bytes": 946789,
+    "sha256": "4721e31ec3bb95fbfe8d2f2230b992290afac907382802341aa08393facba619"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/tables/source_coverage.csv",
+    "bytes": 1149,
+    "sha256": "b1005fac0d1468e8a3095ac2351cdcdc0ff64a042a5a72a2e2558bbb78783c5a"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/union_component_metrics.csv",
+    "bytes": 567084,
+    "sha256": "aa3936068256948ed3a56b663882aba2719ffa666bc647b11c11324bb60d0c99"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/component_metrics.csv",
+    "bytes": 612371,
+    "sha256": "b3143fd0c3a9620d626b625aff9c2c307294405c79ca5979143925536be472fe"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/returned_volume_metrics.csv",
+    "bytes": 17251,
+    "sha256": "37042fa054965409ac5e46bbd79e14cdb0028a5e9d3d4303acf8e80f7ae4682c"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/query_metrics.csv",
+    "bytes": 58571,
+    "sha256": "5039b762c27298acafe7e9669e597087adcf4ef1752b2becbcf848ad577d2482"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/matched_whole_baseline_metrics.csv",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/core_runtime.csv",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/boundary_metrics.csv",
+    "bytes": 27583,
+    "sha256": "af5cf5d90fc52c43b1b7ed73adecfb5e6914a0ffe51212965d5ab160e89d9af9"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/headlines.csv",
+    "bytes": 3108,
+    "sha256": "b94e23d5c3208b786c04a258fa4bc059cb14c8582b00defa68417881abe1132e"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/union_query_metrics.csv",
+    "bytes": 59376,
+    "sha256": "388dc15c5141fc3d52af77dc685612d4f465500c14b16988750b13a6cf929e2b"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/resource_metrics.csv",
+    "bytes": 10731,
+    "sha256": "31490ecaf53f4edc2909774c2171e1f5ce5eb9ce8f21aa9cff7fbcb00bde02a3"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/matched_whole_baseline.csv",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v1-b9e0a8e129eb/family_tables/source_coverage.csv",
+    "bytes": 433,
+    "sha256": "a43406e2e5db20b0ac2dfb940c2d01a220c7251302b722b8b2cac086898337b1"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/tables/union_component_metrics.csv",
+    "bytes": 1119401,
+    "sha256": "e1e1704e6ed647681b8da07197fad9c7493408bcbf80295f7ebe906a94e18dfb"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/tables/returned_volume_metrics.csv",
+    "bytes": 107218,
+    "sha256": "81015aef0eec24eb5e719f96f972b23a0948e2c030690f051066c8e697a689c1"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/tables/query_metrics.csv",
+    "bytes": 218503,
+    "sha256": "80741b10eb0979f0784994244e81f58d1fbe77ef1ad59f0db33a7c98b3153f52"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/tables/matched_whole_baseline_metrics.csv",
+    "bytes": 16506,
+    "sha256": "21c688c61aeae3ae185bb460bde16c767dc490f902190cbbac0c5e67f689aa62"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/tables/core_runtime.csv",
+    "bytes": 1551962,
+    "sha256": "9019dac6b479d564c94996ed3db1f395a745f76a4b33f3aa4ee2742f2e83cc6c"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/tables/boundary_metrics.csv",
+    "bytes": 51562,
+    "sha256": "ac46fa7b22f380b174adbc07b40df93ba8c00e083d2c25ad4d0e8c8765238f71"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/tables/headlines.csv",
+    "bytes": 7814,
+    "sha256": "e9cd3ac1d7f7b8f4bef630e086024020ba4ad850be7efd20bbd10f6d1b1a26e6"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/tables/union_query_metrics.csv",
+    "bytes": 117526,
+    "sha256": "1c4081976a472ab061336dc816bcd355c5db7f01f06aaed9ffe50679e09eba71"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/tables/resource_metrics.csv",
+    "bytes": 21406,
+    "sha256": "cb19c10f1f958eee58731cfaffa83340c371d6b9454b2d79baf4a9304c884101"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/tables/source_coverage.csv",
+    "bytes": 1888,
+    "sha256": "67a1e8e1c4440208387a09c0db8d911b1a6023954d6e66428a54fe2ce23ac9ce"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/union_component_metrics.csv",
+    "bytes": 567084,
+    "sha256": "aa3936068256948ed3a56b663882aba2719ffa666bc647b11c11324bb60d0c99"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/component_metrics.csv",
+    "bytes": 1954626,
+    "sha256": "3ddfc2e95a0880f3f446ebb28603e9377f790805004785f0d285d6217a4fc8df"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/returned_volume_metrics.csv",
+    "bytes": 63338,
+    "sha256": "ea8ff16a8b7298a6bdab23b6a3cdf4915b0a4af986c51f0fd30a850ee600b2b9"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/query_metrics.csv",
+    "bytes": 184787,
+    "sha256": "67dfb445999bc91f65d893d3ae2d645925a5ddfc83d79ead7eb85dac696ea764"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/matched_whole_baseline_metrics.csv",
+    "bytes": 8297,
+    "sha256": "654acea98478e2e2a8764180a7f615626bc89c045ad74331012e6328963d9091"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/core_runtime.csv",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/boundary_metrics.csv",
+    "bytes": 27583,
+    "sha256": "af5cf5d90fc52c43b1b7ed73adecfb5e6914a0ffe51212965d5ab160e89d9af9"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/headlines.csv",
+    "bytes": 9087,
+    "sha256": "4b5ae69977e5d9cf368c7cd5632c74383ecf809da522e321ab45da8721dab506"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/union_query_metrics.csv",
+    "bytes": 59376,
+    "sha256": "388dc15c5141fc3d52af77dc685612d4f465500c14b16988750b13a6cf929e2b"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/resource_metrics.csv",
+    "bytes": 10731,
+    "sha256": "31490ecaf53f4edc2909774c2171e1f5ce5eb9ce8f21aa9cff7fbcb00bde02a3"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/matched_whole_baseline.csv",
+    "bytes": 1964895,
+    "sha256": "133aeaa0b081ccd6ef752463166dbab9e2329bb76e47eda2cb2d83d56cb9cc5e"
+  },
+  {
+    "path": "analysis/heldout-segment-four-model-closeout-v4-33b8c9f01052/family_tables/source_coverage.csv",
+    "bytes": 2427,
+    "sha256": "96ec0e4ba176eb5cda2152c436e9b347dc86cb2b88dbb076701769e0e44e1507"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/union_component_metrics.csv",
+    "bytes": 561071,
+    "sha256": "9611c0be3dc88d4d0e4a368bfe416aed5c11ca443f0db4a1949210a42bb22780"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/component_metrics.csv",
+    "bytes": 1912136,
+    "sha256": "b5d27184a9b94e40efab63c0661976dca802c841a61f102325109d952b297db7"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/returned_volume_metrics.csv",
+    "bytes": 89968,
+    "sha256": "3e3ba4e92fa3a8b52a756df4177a66e9c46e2bcadcddefd8bf37020a95b7027a"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/query_metrics.csv",
+    "bytes": 176451,
+    "sha256": "2b17808e8ab8976b844198b557ecaaa0340223d2426aeba36d772b0ba3816f7e"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/matched_whole_baseline_metrics.csv",
+    "bytes": 8503,
+    "sha256": "75ace373e7054a214195bde725159eda0a299d800e65202982ebd83ed695ffd3"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/core_runtime.csv",
+    "bytes": 1551962,
+    "sha256": "9019dac6b479d564c94996ed3db1f395a745f76a4b33f3aa4ee2742f2e83cc6c"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/boundary_metrics.csv",
+    "bytes": 25596,
+    "sha256": "ecf92a2702a4588fbbf7f8381262e000f7fb190341249216156de367b243e195"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/headlines.csv",
+    "bytes": 5673,
+    "sha256": "64fa74b09c2f6076c4d69d498f3257c797fed3e872c38dacb3ceead7e1634796"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/union_query_metrics.csv",
+    "bytes": 59125,
+    "sha256": "06eaa48c306a57d037b7a11fff33bf5265ba1da9e5fb255917dc009b03b35ea9"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/resource_metrics.csv",
+    "bytes": 10830,
+    "sha256": "16f5891c47e810ab97a16772a5f3392ad9dcff46cc873248c75948d53d9931b0"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/matched_whole_baseline.csv",
+    "bytes": 1964517,
+    "sha256": "c2050504ae1aec4d5911465be2088397898f8f49dedf294ef8a39a4346291c72"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/tables/source_coverage.csv",
+    "bytes": 1398,
+    "sha256": "2cf4187c14b42840d6d9eb57d6d249768bf822c86baa2b64d465442f9e9e80ea"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/union_component_metrics.csv",
+    "bytes": 567084,
+    "sha256": "aa3936068256948ed3a56b663882aba2719ffa666bc647b11c11324bb60d0c99"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/component_metrics.csv",
+    "bytes": 1954626,
+    "sha256": "3ddfc2e95a0880f3f446ebb28603e9377f790805004785f0d285d6217a4fc8df"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/returned_volume_metrics.csv",
+    "bytes": 63338,
+    "sha256": "ea8ff16a8b7298a6bdab23b6a3cdf4915b0a4af986c51f0fd30a850ee600b2b9"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/query_metrics.csv",
+    "bytes": 184787,
+    "sha256": "67dfb445999bc91f65d893d3ae2d645925a5ddfc83d79ead7eb85dac696ea764"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/matched_whole_baseline_metrics.csv",
+    "bytes": 8297,
+    "sha256": "654acea98478e2e2a8764180a7f615626bc89c045ad74331012e6328963d9091"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/core_runtime.csv",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/boundary_metrics.csv",
+    "bytes": 27583,
+    "sha256": "af5cf5d90fc52c43b1b7ed73adecfb5e6914a0ffe51212965d5ab160e89d9af9"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/headlines.csv",
+    "bytes": 9087,
+    "sha256": "4b5ae69977e5d9cf368c7cd5632c74383ecf809da522e321ab45da8721dab506"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/union_query_metrics.csv",
+    "bytes": 59376,
+    "sha256": "388dc15c5141fc3d52af77dc685612d4f465500c14b16988750b13a6cf929e2b"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/resource_metrics.csv",
+    "bytes": 10731,
+    "sha256": "31490ecaf53f4edc2909774c2171e1f5ce5eb9ce8f21aa9cff7fbcb00bde02a3"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/matched_whole_baseline.csv",
+    "bytes": 1964895,
+    "sha256": "133aeaa0b081ccd6ef752463166dbab9e2329bb76e47eda2cb2d83d56cb9cc5e"
+  },
+  {
+    "path": "analysis/heldout-segment-comparison-v2-5a72a9de2493/family_tables/source_coverage.csv",
+    "bytes": 2427,
+    "sha256": "96ec0e4ba176eb5cda2152c436e9b347dc86cb2b88dbb076701769e0e44e1507"
+  }
+]

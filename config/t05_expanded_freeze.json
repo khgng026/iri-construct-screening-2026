@@ -1,0 +1,14 @@
+{
+  "version": "t05-composition-freeze-v1",
+  "frozen_at_utc": "2026-10-30T01:18:54.525958+00:00",
+  "note": "No expanded catalogue/query retrieval scores observed before this freeze. Original approved inputs only used in timing preflight.",
+  "file_sha256": {
+    "config/t05_expanded_selection.json": "d8ae3ff101c0c39eda655b646c348a648f10cf060f24c16f088afc2ab5c8060d",
+    "config/t05_expanded_queries.json": "b76bb8ab2c8de4402bb5ec28b608eba1b1fb753cf5ebed1e624fb713b310509e",
+    "config/t05_model.json": "f36f1efd28d129a70ae1db0ce1d74b7f73f65a2fbcb1c09d1a56fd21d708e092",
+    "data/manifests/t05_expanded_catalogue.json": "d2aa684f85e66cedd26e4dbbd26431d886cf7decbd8229a497cbeaba64990ae4",
+    "requirements-t05.lock.txt": "8e8938daf7e853f6f610b3d5f8a0153282ff1eb8526879190e4ff070cca90786",
+    "requirements-t05-expanded.lock.txt": "4ed25c4acd9c47c1c5675db200306b7711417a8dc11b06f8058491b2ebc6ca61",
+    "docs/week1/T05_expanded_design.md": "08b764ab57f0ac351dada88c78607c4617c1fe3b1dd3b6114f2ae84dd827a115"
+  }
+}

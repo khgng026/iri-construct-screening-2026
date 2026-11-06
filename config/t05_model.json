@@ -1,0 +1,11 @@
+{
+  "model_id": "facebook/esm2_t6_8M_UR50D",
+  "revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+  "max_residues": 1022,
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 4,
+  "seed": 0,
+  "pooling": "last_hidden_state_mean_actual_residues",
+  "tokenizer_truncation": false
+}

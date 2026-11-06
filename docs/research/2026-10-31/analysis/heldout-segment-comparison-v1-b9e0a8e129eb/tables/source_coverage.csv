@@ -1,0 +1,8 @@
+job_id,mode,arm,policy,role,configuration_id,segmenter,label,source_queries,compared_queries,source_queries_outside_comparison,missing_panel_queries
+esm2-8m-cpu-full-001d1d719731,model,whole,original,primary,,,esm2_t6_8M_UR50D cpu float32 layer=-1,1146,966,180,0
+esm2-150m-cpu-full-edd61d9bb7e4,model,whole,original,primary,,,esm2_t30_150M_UR50D cpu float32 layer=-1,1146,966,180,0
+esm2-650m-cpu-full-3043fbb2e3b0,model,whole,original,primary,,,esm2_t33_650M_UR50D cpu float32 layer=-1,1146,966,180,0
+esmc-300m-cpu-full-b0d66ca52704,model,whole,original,primary,,,ESMC-300M cpu float32 layer=-1,1146,966,180,0
+alignment-full-cc35ef35e5cc,alignment,local_alignment,original,primary,,,Smith-Waterman raw,1146,966,180,0
+alignment-normalized-exploratory-a40d74738d2f,alignment_normalization,normalized_alignment,original,exploratory_normalization,,,SW reference-self-score (exploratory),1146,966,180,0
+segmentation-test-8m-infer-v1-42b54ea33217,automatic_segment_retrieval_v1,selected_segmentation,original,selected_segmentation,windows256_stride128_max_score,fixed_windows,facebook/esm2_t6_8M_UR50D / windows256_stride128_max_score,966,966,0,0

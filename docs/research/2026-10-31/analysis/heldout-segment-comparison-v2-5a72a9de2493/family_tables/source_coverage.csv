@@ -1,0 +1,14 @@
+job_id,mode,arm,policy,role,configuration_id,segmenter,label,baseline_method_role,source_queries,compared_queries,source_queries_outside_comparison,missing_panel_queries,combined_queries,clean_queries
+esm2-8m-cpu-full-001d1d719731,model,whole,exact_removed,family_retrieval_baseline,,,esm2_t6_8M_UR50D cpu float32 layer=-1,primary,1146,966,180,0,950,16
+esm2-8m-cpu-full-001d1d719731,model,whole,near90_removed,family_retrieval_baseline,,,esm2_t6_8M_UR50D cpu float32 layer=-1,primary,1146,966,180,0,950,16
+esm2-150m-cpu-full-edd61d9bb7e4,model,whole,exact_removed,family_retrieval_baseline,,,esm2_t30_150M_UR50D cpu float32 layer=-1,primary,1146,966,180,0,950,16
+esm2-150m-cpu-full-edd61d9bb7e4,model,whole,near90_removed,family_retrieval_baseline,,,esm2_t30_150M_UR50D cpu float32 layer=-1,primary,1146,966,180,0,950,16
+esm2-650m-cpu-full-3043fbb2e3b0,model,whole,exact_removed,family_retrieval_baseline,,,esm2_t33_650M_UR50D cpu float32 layer=-1,primary,1146,966,180,0,950,16
+esm2-650m-cpu-full-3043fbb2e3b0,model,whole,near90_removed,family_retrieval_baseline,,,esm2_t33_650M_UR50D cpu float32 layer=-1,primary,1146,966,180,0,950,16
+esmc-300m-cpu-full-b0d66ca52704,model,whole,exact_removed,family_retrieval_baseline,,,ESMC-300M cpu float32 layer=-1,primary,1146,966,180,0,950,16
+esmc-300m-cpu-full-b0d66ca52704,model,whole,near90_removed,family_retrieval_baseline,,,ESMC-300M cpu float32 layer=-1,primary,1146,966,180,0,950,16
+alignment-full-cc35ef35e5cc,alignment,local_alignment,exact_removed,family_retrieval_baseline,,,Smith-Waterman raw,primary,1146,966,180,0,950,16
+alignment-full-cc35ef35e5cc,alignment,local_alignment,near90_removed,family_retrieval_baseline,,,Smith-Waterman raw,primary,1146,966,180,0,950,16
+alignment-normalized-exploratory-a40d74738d2f,alignment_normalization,normalized_alignment,exact_removed,family_retrieval_baseline,,,SW reference-self-score (exploratory),exploratory_normalization,1146,966,180,0,950,16
+alignment-normalized-exploratory-a40d74738d2f,alignment_normalization,normalized_alignment,near90_removed,family_retrieval_baseline,,,SW reference-self-score (exploratory),exploratory_normalization,1146,966,180,0,950,16
+family-test-8m-infer-v1-d0424de04de8,family_automatic_retrieval_v1,family_segmentation,family_panel,exploratory_family_transfer,windows256_stride128_max_score,fixed_windows,facebook/esm2_t6_8M_UR50D / windows256_stride128_max_score,,966,966,0,0,950,16

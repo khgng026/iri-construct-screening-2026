@@ -1,3 +1,7 @@
+# Latest research handoff
+
+See [START_HERE.md](START_HERE.md) for the November 5 local research handoff and shared evidence. The Week 1 status below is historical.
+
 # IRI Fall 2026 | Complex-construct preprocessing (Week 1)
 
 **Status (2026-11-06 UTC):** T01-T04 remain approved and T05 remains in progress. The researcher selected ten candidate identities; zero source files are admitted. T07 v1.0 is approved in principle and remains frozen. The [v1.1 E1-E4 addendum](docs/week1/T07_v1_1_evaluation_addendum.md) now has tested annotation-quality, multi-CDS, independent-reference and cost-reporting implementations. Scientific experiments remain blocked by source/label review. See [current status](docs/week1/STATUS.md) and the [oversight handoff](docs/coordination/CODEX_STATUS.md).
