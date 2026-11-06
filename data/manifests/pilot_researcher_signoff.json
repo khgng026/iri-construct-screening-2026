@@ -1,0 +1,129 @@
+{
+  "schema_version": "researcher-pilot-signoff-1",
+  "decision_date": "2026-11-05",
+  "decision_basis": "Researcher statement in IRI Fall 2026 project conversation: 'I have checked them, you can mark all ten as admitted.'",
+  "researcher_approval_status": "approved_all_ten",
+  "researcher_attested_manual_review": true,
+  "researcher_intent": "Admit the entire approved shortlist and permit use of eligible files in the pilot under T02 v1.1.",
+  "source_verification_status": "awaiting_file_evidence",
+  "experimental_input_ready": false,
+  "admitted_scoring_source_count": 0,
+  "records": [
+    {
+      "record_id": "ncbi-J01749.1",
+      "construct_name": "pBR322",
+      "researcher_decision": "approved_for_pilot",
+      "researcher_attestation": "checked",
+      "exact_source_file_sha256": null,
+      "source_file_verified": false,
+      "annotation_evidence_verified": false,
+      "cloud_storage_rights_recorded": false,
+      "scoring_admission": "pending_file_verification"
+    },
+    {
+      "record_id": "addgene-212936",
+      "construct_name": "pGL3 Basic Vector",
+      "researcher_decision": "approved_for_pilot",
+      "researcher_attestation": "checked",
+      "exact_source_file_sha256": null,
+      "source_file_verified": false,
+      "annotation_evidence_verified": false,
+      "cloud_storage_rights_recorded": false,
+      "scoring_admission": "pending_file_verification"
+    },
+    {
+      "record_id": "addgene-18964",
+      "construct_name": "Luciferase-pcDNA3",
+      "researcher_decision": "approved_for_pilot",
+      "researcher_attestation": "checked",
+      "exact_source_file_sha256": null,
+      "source_file_verified": false,
+      "annotation_evidence_verified": false,
+      "cloud_storage_rights_recorded": false,
+      "scoring_admission": "pending_file_verification"
+    },
+    {
+      "record_id": "addgene-87121",
+      "construct_name": "pcDNA-RLuc8",
+      "researcher_decision": "approved_for_pilot",
+      "researcher_attestation": "checked",
+      "exact_source_file_sha256": null,
+      "source_file_verified": false,
+      "annotation_evidence_verified": false,
+      "cloud_storage_rights_recorded": false,
+      "scoring_admission": "pending_file_verification"
+    },
+    {
+      "record_id": "addgene-18673",
+      "construct_name": "pYIC",
+      "researcher_decision": "approved_for_pilot",
+      "researcher_attestation": "checked",
+      "exact_source_file_sha256": null,
+      "source_file_verified": false,
+      "annotation_evidence_verified": false,
+      "cloud_storage_rights_recorded": false,
+      "scoring_admission": "pending_file_verification"
+    },
+    {
+      "record_id": "addgene-64034",
+      "construct_name": "pGL4Luc-RLuc",
+      "researcher_decision": "approved_for_pilot",
+      "researcher_attestation": "checked",
+      "exact_source_file_sha256": null,
+      "source_file_verified": false,
+      "annotation_evidence_verified": false,
+      "cloud_storage_rights_recorded": false,
+      "scoring_admission": "pending_file_verification"
+    },
+    {
+      "record_id": "addgene-108228",
+      "construct_name": "pGreen2x35SLUC",
+      "researcher_decision": "approved_for_pilot",
+      "researcher_attestation": "checked",
+      "exact_source_file_sha256": null,
+      "source_file_verified": false,
+      "annotation_evidence_verified": false,
+      "cloud_storage_rights_recorded": false,
+      "scoring_admission": "pending_file_verification"
+    },
+    {
+      "record_id": "addgene-21073",
+      "construct_name": "pEGFP-LC3",
+      "researcher_decision": "approved_for_pilot",
+      "researcher_attestation": "checked",
+      "exact_source_file_sha256": null,
+      "source_file_verified": false,
+      "annotation_evidence_verified": false,
+      "cloud_storage_rights_recorded": false,
+      "scoring_admission": "pending_file_verification"
+    },
+    {
+      "record_id": "addgene-51970",
+      "construct_name": "Nano-lantern/pcDNA3",
+      "researcher_decision": "approved_for_pilot",
+      "researcher_attestation": "checked",
+      "exact_source_file_sha256": null,
+      "source_file_verified": false,
+      "annotation_evidence_verified": false,
+      "cloud_storage_rights_recorded": false,
+      "scoring_admission": "pending_file_verification"
+    },
+    {
+      "record_id": "addgene-255006",
+      "construct_name": "pcDNA3-Renilla-FLAG-firefly",
+      "researcher_decision": "approved_for_pilot",
+      "researcher_attestation": "checked",
+      "exact_source_file_sha256": null,
+      "source_file_verified": false,
+      "annotation_evidence_verified": false,
+      "cloud_storage_rights_recorded": false,
+      "scoring_admission": "pending_file_verification"
+    }
+  ],
+  "notes": [
+    "Researcher approval is recorded without questioning or asking them to repeat their review.",
+    "Existing T02 inclusion requirements still demand exact source files, immutable identity, checksums, annotation evidence, and recorded hosting/reuse scope.",
+    "Do not set t08 approved_record_count to 10 or bypass CLI input checks before evidence exists.",
+    "Codex may complete technical evidence verification and change individual records to admitted when all source-specific conditions are met; retain an audit log of any holds."
+  ]
+}
