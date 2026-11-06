@@ -1,0 +1,14 @@
+{
+  "schema_version": "t07-extensions-design-freeze-1",
+  "protocol_version": "1.1",
+  "frozen_before_research_scoring": true,
+  "text_hash_policy": "UTF-8 decoded text with universal-newline normalization to LF; source file checksums remain raw bytes",
+  "base_v1_0_freeze": "config/pilot/design_freeze.json",
+  "files": {
+    "docs/week1/T07_v1_1_evaluation_addendum.md": "eb1d6cd87a49f10152566f6b696a27b008111c9de1cf612029372a25370c93c4",
+    "config/extensions/E1.json": "55f0fe95360e1b4e8ee87b304b3414f25e1a799fa1ebfea0928c4a77b71f7bb7",
+    "config/extensions/E2.json": "2b02e4fa5b472fc87e11a5fdb01cede84a5363746ea89e85f9807cdfa8dd8153",
+    "config/extensions/E3.json": "a659f46827c212b9bc2a9c08853a73db62423d15ce592220addd32999dc74cc0",
+    "config/extensions/E4.json": "500212e017b54e685ac478688e1bf67679796c19599e74e0ae209a331129d0ee"
+  }
+}

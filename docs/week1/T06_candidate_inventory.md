@@ -139,6 +139,12 @@ The metadata CLI also writes a derived `pilot_review_queue.json`. The checked-in
 [T08 pending queue](../../data/manifests/t08_pilot_review_queue.json) contains the
 ten prioritized records and binds a canonical-JSON inventory SHA256, independent
 of Git line endings. The inventory run report separately records the local file-byte digest. Add
-`--check-pilot-queue data/manifests/t08_pilot_review_queue.json` to reject stale or
+`--shortlist data/manifests/pilot_shortlist_v1_1.json --check-pilot-queue data/manifests/t08_pilot_review_queue.json` to reject stale or
 altered queue metadata. Editing counters/statuses cannot promote it to admission;
 source approvals remain separate T02 decisions.
+
+The v1.1 shortlist reflects the researcher's approved ten identities and includes
+`addgene-108228` (pGreen2x35SLUC). pUC19c is optional after its own review.
+`t08_pilot_review_queue_v1_0.json` preserves the original proposed queue;
+the twenty-record discovery inventory remains unchanged. The approved selection
+manifest is metadata, with zero admitted biological records.

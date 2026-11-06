@@ -30,7 +30,7 @@ annotation preparer requires parent DNA records. Discovery history stays unappro
 ## Commands and expected pending outcomes
 
 ```powershell
-python scripts/inventory_candidates.py --inventory data/manifests/t06_candidate_inventory.json --check-pilot-queue data/manifests/t08_pilot_review_queue.json --output results/t06_inventory/run01
+python scripts/inventory_candidates.py --inventory data/manifests/t06_candidate_inventory.json --shortlist data/manifests/pilot_shortlist_v1_1.json --check-pilot-queue data/manifests/t08_pilot_review_queue.json --output results/t06_inventory/run01
 python scripts/prepare_pilot.py --inputs config/pilot/inputs.pending.json --output results/t08_pilot/pending01
 python scripts/run_pilot_experiment.py --protocol config/pilot/experiment_A.json --inputs config/pilot/inputs.pending.json --output results/pilot/A/pending01
 python scripts/run_pilot_experiment.py --protocol config/pilot/experiment_B.json --inputs config/pilot/inputs.pending.json --output results/pilot/B/pending01
@@ -97,5 +97,21 @@ Missing reference scores cause abstention rather than favorable panel shrinkage.
 K is a total hit budget. A query returning every available reference is descriptive
 only and excluded from advantage intervals. Cosine/family retrieval cannot establish
 function or improved real-construct characterization without admitted independent
-evidence. Multi-CDS parent-level score merging remains a prospective frozen design,
-not an implemented or executed construct benchmark.
+evidence. Multi-CDS parent-level score merging was prospective in frozen v1.0;
+the separate [v1.1 E2 implementation](E2_multi_cds.md) now provides tested execution
+without claiming a real construct benchmark. The original v1.0 protocol/configs
+are unchanged.
+
+## Approved selection and v1.1 extensions
+
+The current queue uses the researcher's exact ten selected identities, including
+pGreen2x35SLUC. pUC19c is an optional annotation-limited control after its own T02
+review. No selected identity implies approval of a file, annotation or label.
+The original queue is retained as `t08_pilot_review_queue_v1_0.json`; validate that
+historical queue without `--shortlist`. The original 20-record inventory is intact.
+
+[E1](E1_annotation_quality.md) audits annotation quality and appropriate abstention;
+[E2](E2_multi_cds.md) compares longest/all eligible CDSs under five total parent hits;
+[E3/E4](E3_E4_generalization_cost.md) freeze reference difficulty and report genuinely
+comparable measured costs. Current pending commands are in the
+[v1.1 addendum](T07_v1_1_evaluation_addendum.md). All real runs remain blocked.

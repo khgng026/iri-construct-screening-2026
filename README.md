@@ -1,6 +1,6 @@
 # IRI Fall 2026 | Complex-construct preprocessing (Week 1)
 
-**Status (2026-11-05):** T01-T04 remain approved and T05 remains in progress. T06 now has 20 public candidate records and a ten-record pending pilot queue. T07 has an a priori benchmark design and scoring configurations; T08 has a tested annotation-preservation pipeline. No real record is admitted, and scientific experiments remain blocked by source/label review. See [current status](docs/week1/STATUS.md).
+**Status (2026-11-06 UTC):** T01-T04 remain approved and T05 remains in progress. The researcher selected ten candidate identities; zero source files are admitted. T07 v1.0 is approved in principle and remains frozen. The [v1.1 E1-E4 addendum](docs/week1/T07_v1_1_evaluation_addendum.md) now has tested annotation-quality, multi-CDS, independent-reference and cost-reporting implementations. Scientific experiments remain blocked by source/label review. See [current status](docs/week1/STATUS.md) and the [oversight handoff](docs/coordination/CODEX_STATUS.md).
 
 ## Research question
 
@@ -18,10 +18,15 @@ The IRI proposal frames this as an approximately **80-hour integration/evaluatio
 | T04 | Create repository and reproducible environment | [T04 setup](docs/week1/T04_repository_setup.md), config, smoke test and unit tests | **Done — accepted 2026-10-29**; hosted privately with passing CI |
 | T05 | Run a pretrained model feasibility spike | [Experiments and commands](experiments/README.md) | In progress; reviewed inputs and actual model-run evidence pending |
 | T06 | Build public benign construct candidate inventory | [Candidate inventory](docs/week1/T06_candidate_inventory.md) | Implemented: 20 metadata candidates; researcher admission pending |
-| T07 | Define supported reference labels and benchmark metrics | [Frozen protocol](docs/week1/T07_benchmark_protocol.md) | Design implemented; researcher review and admitted-panel validation pending |
-| T08 | Curate and manually spot-check a pilot | [Pilot pipeline and queue](docs/week1/T08_pilot_pipeline.md) | Pipeline implemented; ten proposed records, zero approved; scientific validation blocked |
+| T07 | Define supported reference labels and benchmark metrics | [Frozen v1.0](docs/week1/T07_benchmark_protocol.md), [v1.1 extensions](docs/week1/T07_v1_1_evaluation_addendum.md) | v1.0 approved in principle; E1-E4 implemented/tested; admitted-panel validation pending |
+| T08 | Curate and manually spot-check a pilot | [Pilot pipeline and queue](docs/week1/T08_pilot_pipeline.md) | Ten selected identities; zero admitted files; scientific validation blocked |
 
 [Four-week workflow with progress notes](planning/4-week-workflow.xlsx) | [Task status and approval history](docs/week1/STATUS.md)
+
+The [v1.1 implementation report](docs/week1/T07_v1_1_implementation_report.md)
+records test evidence and blocked experiments. Reproduction commands are in the
+[addendum](docs/week1/T07_v1_1_evaluation_addendum.md); first-run source and policy
+requirements are in [DECISIONS_NEEDED.md](docs/coordination/DECISIONS_NEEDED.md).
 
 ## Reproducible quick start (Python 3.10+, no packages to download)
 
