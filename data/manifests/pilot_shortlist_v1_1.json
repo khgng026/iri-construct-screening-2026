@@ -1,0 +1,71 @@
+{
+  "authority_url": "https://github.com/khgng026/iri-construct-screening-2026/blob/4fd825691f5441f88fd0419996689f8bb76a98d9/docs/oversight/2026-11-05_DECISIONS.md",
+  "decision_id": "D-001",
+  "decision_on": "2026-11-05",
+  "optional_controls": [
+    {
+      "annotation_quality_status": "unassessed_until_source_admission",
+      "record_id": "ncbi-L09137.2",
+      "role": "prospective_annotation_limited_backbone_control",
+      "selection_status": "reserve_not_in_primary_shortlist",
+      "source_admission_status": "pending_t02_review"
+    }
+  ],
+  "records": [
+    {
+      "priority": 1,
+      "record_id": "ncbi-J01749.1",
+      "selection_status": "approved_candidate_selection"
+    },
+    {
+      "priority": 2,
+      "record_id": "addgene-212936",
+      "selection_status": "approved_candidate_selection"
+    },
+    {
+      "priority": 3,
+      "record_id": "addgene-18964",
+      "selection_status": "approved_candidate_selection"
+    },
+    {
+      "priority": 4,
+      "record_id": "addgene-87121",
+      "selection_status": "approved_candidate_selection"
+    },
+    {
+      "priority": 5,
+      "record_id": "addgene-18673",
+      "selection_status": "approved_candidate_selection"
+    },
+    {
+      "priority": 6,
+      "record_id": "addgene-64034",
+      "selection_status": "approved_candidate_selection"
+    },
+    {
+      "priority": 7,
+      "record_id": "addgene-108228",
+      "selection_status": "approved_candidate_selection"
+    },
+    {
+      "priority": 8,
+      "record_id": "addgene-21073",
+      "selection_status": "approved_candidate_selection"
+    },
+    {
+      "priority": 9,
+      "record_id": "addgene-51970",
+      "selection_status": "approved_candidate_selection"
+    },
+    {
+      "priority": 10,
+      "record_id": "addgene-255006",
+      "selection_status": "approved_candidate_selection"
+    }
+  ],
+  "schema_version": "pilot-shortlist-1",
+  "scope": "Researcher-approved candidate identities/order only; no source, annotation, license, safety or family-label admission. T06 discovery history remains unchanged.",
+  "selection_status": "approved_candidate_selection",
+  "selection_version": "1.1",
+  "source_admission_status": "not_authorized_by_selection"
+}

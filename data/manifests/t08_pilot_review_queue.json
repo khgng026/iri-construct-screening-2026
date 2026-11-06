@@ -1,5 +1,6 @@
 {
   "approved_record_count": 0,
+  "decision_id": "D-001",
   "experimental_input_ready": false,
   "inventory_hash_policy": "canonical-json-v1: sorted keys, compact separators, UTF-8; independent of Git line endings",
   "inventory_sha256": "b109fb304ea96dc670962d22e4aa635cf16383e48f163cc956e34dbc5b0d7a0e",
@@ -18,9 +19,18 @@
     "Assign independent reference groups and evidence-supported family labels separately.",
     "Create a distinct complete T02 admission row and t05-inputs-1 source mapping; do not relabel this inventory as approved."
   ],
+  "optional_controls": [
+    {
+      "annotation_quality_status": "unassessed_until_source_admission",
+      "record_id": "ncbi-L09137.2",
+      "role": "prospective_annotation_limited_backbone_control",
+      "selection_status": "reserve_not_in_primary_shortlist",
+      "source_admission_status": "pending_t02_review"
+    }
+  ],
   "primary_archetype_counts": {
-    "backbone_heavy": 2,
-    "multi_cds": 2,
+    "backbone_heavy": 1,
+    "multi_cds": 3,
     "single_cds": 3,
     "tagged_fusion": 3
   },
@@ -36,29 +46,10 @@
         "missing_reviewed_feature_count",
         "missing_reviewed_checksum_sha256"
       ],
-      "construct_name": "pUC19c",
-      "independence_group": "puc-family",
-      "pilot_priority": 1,
-      "primary_archetype": "backbone_heavy",
-      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
-      "record_id": "ncbi-L09137.2",
-      "reviewer_notes": "No researcher approval asserted. Do not equate every commercial pUC19 variant or numbering convention with L09137.2. The Addgene pUC19 candidate is linked, not an independent reference.",
-      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/L09137.2",
-      "status": "excluded_from_scoring"
-    },
-    {
-      "blockers": [
-        "annotation_status:pending",
-        "review_status:pending",
-        "licensing_status:uncertain",
-        "safety_review:pending",
-        "missing_reviewed_sequence_length_nt",
-        "missing_reviewed_feature_count",
-        "missing_reviewed_checksum_sha256"
-      ],
+      "candidate_selection_status": "approved_candidate_selection",
       "construct_name": "pBR322",
       "independence_group": "pbr322-family",
-      "pilot_priority": 2,
+      "pilot_priority": 1,
       "primary_archetype": "backbone_heavy",
       "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
       "record_id": "ncbi-J01749.1",
@@ -77,9 +68,10 @@
         "missing_reviewed_checksum_sha256",
         "immutable_source_version_not_selected"
       ],
+      "candidate_selection_status": "approved_candidate_selection",
       "construct_name": "pGL3 Basic Vector",
       "independence_group": "pgl3-firefly",
-      "pilot_priority": 3,
+      "pilot_priority": 2,
       "primary_archetype": "single_cds",
       "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
       "record_id": "addgene-212936",
@@ -98,9 +90,10 @@
         "missing_reviewed_checksum_sha256",
         "immutable_source_version_not_selected"
       ],
+      "candidate_selection_status": "approved_candidate_selection",
       "construct_name": "Luciferase-pcDNA3",
       "independence_group": "pcdna3-firefly",
-      "pilot_priority": 4,
+      "pilot_priority": 3,
       "primary_archetype": "single_cds",
       "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
       "record_id": "addgene-18964",
@@ -119,9 +112,10 @@
         "missing_reviewed_checksum_sha256",
         "immutable_source_version_not_selected"
       ],
+      "candidate_selection_status": "approved_candidate_selection",
       "construct_name": "pcDNA-RLuc8",
       "independence_group": "rluc8-family",
-      "pilot_priority": 5,
+      "pilot_priority": 4,
       "primary_archetype": "single_cds",
       "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
       "record_id": "addgene-87121",
@@ -140,9 +134,10 @@
         "missing_reviewed_checksum_sha256",
         "immutable_source_version_not_selected"
       ],
+      "candidate_selection_status": "approved_candidate_selection",
       "construct_name": "pYIC",
       "independence_group": "yfp-cfp-bicistronic",
-      "pilot_priority": 6,
+      "pilot_priority": 5,
       "primary_archetype": "multi_cds",
       "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
       "record_id": "addgene-18673",
@@ -161,9 +156,10 @@
         "missing_reviewed_checksum_sha256",
         "immutable_source_version_not_selected"
       ],
+      "candidate_selection_status": "approved_candidate_selection",
       "construct_name": "pGL4Luc-RLuc",
       "independence_group": "dual-luc-pgl4",
-      "pilot_priority": 7,
+      "pilot_priority": 6,
       "primary_archetype": "multi_cds",
       "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
       "record_id": "addgene-64034",
@@ -182,6 +178,29 @@
         "missing_reviewed_checksum_sha256",
         "immutable_source_version_not_selected"
       ],
+      "candidate_selection_status": "approved_candidate_selection",
+      "construct_name": "pGreen2x35SLUC",
+      "independence_group": "plant-dual-luc",
+      "pilot_priority": 7,
+      "primary_archetype": "multi_cds",
+      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
+      "record_id": "addgene-108228",
+      "reviewer_notes": "No researcher approval asserted. An ORF-insertion site is capacity, not a completed ORF fusion. The empty construct must not be assigned an invented insert.",
+      "source_url": "https://www.addgene.org/108228/",
+      "status": "excluded_from_scoring"
+    },
+    {
+      "blockers": [
+        "annotation_status:pending",
+        "review_status:pending",
+        "licensing_status:uncertain",
+        "safety_review:pending",
+        "missing_reviewed_sequence_length_nt",
+        "missing_reviewed_feature_count",
+        "missing_reviewed_checksum_sha256",
+        "immutable_source_version_not_selected"
+      ],
+      "candidate_selection_status": "approved_candidate_selection",
       "construct_name": "pEGFP-LC3",
       "independence_group": "lc3-egfp",
       "pilot_priority": 8,
@@ -203,6 +222,7 @@
         "missing_reviewed_checksum_sha256",
         "immutable_source_version_not_selected"
       ],
+      "candidate_selection_status": "approved_candidate_selection",
       "construct_name": "Nano-lantern/pcDNA3",
       "independence_group": "rluc8-family",
       "pilot_priority": 9,
@@ -224,6 +244,7 @@
         "missing_reviewed_checksum_sha256",
         "immutable_source_version_not_selected"
       ],
+      "candidate_selection_status": "approved_candidate_selection",
       "construct_name": "pcDNA3-Renilla-FLAG-firefly",
       "independence_group": "dual-luc-fusion",
       "pilot_priority": 10,
@@ -236,6 +257,10 @@
     }
   ],
   "release_scope": "Public discovery metadata only; no source sequence/feature tables or approved dataset",
-  "schema_version": "t08-pilot-review-1",
+  "schema_version": "t08-pilot-review-1.1",
+  "selection_status": "approved_candidate_selection",
+  "selection_version": "1.1",
+  "shortlist_sha256": "f663b70c1aa6c8ea82cf2b6a9c746526ab249610177998570cb57e4c89f80987",
+  "source_admission_status": "pending_manual_review",
   "status": "pending_manual_review"
 }

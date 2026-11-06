@@ -149,12 +149,55 @@ def review_queue(records: list[dict]) -> dict:
                             'Unknown counts/versions are explicit and cannot be used to fabricate a T02 admission row.']}
 
 
-def build_pilot_review_queue(inventory_path: Path) -> dict:
+def load_pilot_shortlist(path: Path, inventory_path: Path) -> dict:
+    """Validate selection approval independently of biological source admission."""
+    selection = read_json(path)
+    if (selection.get('schema_version') != 'pilot-shortlist-1' or
+            selection.get('selection_status') != 'approved_candidate_selection' or
+            selection.get('source_admission_status') != 'not_authorized_by_selection'):
+        raise InputError('Expected an approved candidate-selection shortlist, never source admission')
+    for field in ('selection_version', 'decision_id', 'decision_on', 'authority_url', 'scope'):
+        require_text(selection, field)
+    try:
+        date.fromisoformat(selection['decision_on'])
+    except ValueError as exc:
+        raise InputError('Shortlist decision_on must be YYYY-MM-DD') from exc
+    rows = {r['record_id']: r for r in load_candidate_inventory(inventory_path)}
+    selected = selection.get('records')
+    if not isinstance(selected, list) or not selected:
+        raise InputError('Shortlist records must be a nonempty ordered list')
+    seen = set()
+    for priority, entry in enumerate(selected, 1):
+        if (not isinstance(entry, dict) or entry.get('record_id') not in rows or
+                type(entry.get('priority')) is not int or entry['priority'] != priority or
+                entry.get('selection_status') != 'approved_candidate_selection'):
+            raise InputError('Shortlist entries require known candidate IDs, consecutive priorities and selection-only approval')
+        if entry['record_id'] in seen:
+            raise InputError('Duplicate candidate in shortlist')
+        seen.add(entry['record_id'])
+        if any(key in entry for key in GATES) or any(key in selection for key in GATES):
+            raise InputError('Source-admission gates cannot be embedded in a selection approval')
+    for control in selection.get('optional_controls', []):
+        if (not isinstance(control, dict) or control.get('record_id') not in rows or
+                control['record_id'] in seen or control.get('source_admission_status') != 'pending_t02_review'
+                or any(key in control for key in GATES)):
+            raise InputError('Optional controls must be separate known candidates with pending source review')
+    return selection
+
+
+def build_pilot_review_queue(inventory_path: Path, shortlist_path: Path | None = None) -> dict:
     """Derive a shareable pending-priority queue, never a scored biological dataset."""
     queue = review_queue(load_candidate_inventory(inventory_path))
-    proposed = [entry for entry in queue['entries'] if entry['pilot_priority'] is not None]
+    selection = load_pilot_shortlist(shortlist_path, inventory_path) if shortlist_path is not None else None
+    if selection:
+        by_id = {entry['record_id']: entry for entry in queue['entries']}
+        proposed = [{**by_id[item['record_id']], 'pilot_priority': item['priority'],
+                     'candidate_selection_status': 'approved_candidate_selection'}
+                    for item in selection['records']]
+    else:
+        proposed = [entry for entry in queue['entries'] if entry['pilot_priority'] is not None]
     canonical = json.dumps(read_json(inventory_path),sort_keys=True,separators=(',', ':'),allow_nan=False).encode('utf-8')
-    return {'schema_version': 't08-pilot-review-1', 'inventory_sha256': hashlib.sha256(canonical).hexdigest(),
+    result = {'schema_version': 't08-pilot-review-1.1' if selection else 't08-pilot-review-1', 'inventory_sha256': hashlib.sha256(canonical).hexdigest(),
             'inventory_hash_policy': 'canonical-json-v1: sorted keys, compact separators, UTF-8; independent of Git line endings',
             'status': 'pending_manual_review', 'record_count': len(proposed),
             'approved_record_count': 0, 'experimental_input_ready': False,
@@ -162,8 +205,15 @@ def build_pilot_review_queue(inventory_path: Path) -> dict:
             'records': proposed, 'manual_checklist': queue['manual_checklist'],
             'release_scope': 'Public discovery metadata only; no source sequence/feature tables or approved dataset',
             'limitations': queue['limitations']}
+    if selection:
+        selection_bytes = json.dumps(selection, sort_keys=True, separators=(',', ':'), allow_nan=False).encode('utf-8')
+        result.update(selection_status='approved_candidate_selection', source_admission_status='pending_manual_review',
+                      selection_version=selection['selection_version'], decision_id=selection['decision_id'],
+                      shortlist_sha256=hashlib.sha256(selection_bytes).hexdigest(),
+                      optional_controls=selection.get('optional_controls', []))
+    return result
 
 
-def validate_pilot_review_queue(path: Path, inventory_path: Path) -> None:
-    if read_json(path) != build_pilot_review_queue(inventory_path):
+def validate_pilot_review_queue(path: Path, inventory_path: Path, shortlist_path: Path | None = None) -> None:
+    if read_json(path) != build_pilot_review_queue(inventory_path, shortlist_path):
         raise InputError('Pilot queue is stale or altered; regenerate metadata from the candidate inventory, not approvals')

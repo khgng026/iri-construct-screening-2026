@@ -1,6 +1,47 @@
 # Codex implementation handoff
 
-## Git state and timestamp
+## E1/E2 completion milestone
+
+UTC timestamp: 2026-11-06T03:31:18Z. Branch: `codex/t07-evaluation-extensions`.
+Recorded HEAD before this milestone commit: `fcfb882a98fbe198bc3133b796c7d6b59d3245b3`.
+Related PRs remain [#1](https://github.com/khgng026/iri-construct-screening-2026/pull/1)
+and the read-only base [#2](https://github.com/khgng026/iri-construct-screening-2026/pull/2).
+
+E1 and E2 software is complete and tested. The current pending queue now follows
+the ten approved identities, including pGreen2x35SLUC; the original inventory
+and original queue are preserved. Selection approves zero source files.
+No real source was acquired, admitted or scored, and no pretrained inference ran.
+
+| Owner | State | Evidence |
+| --- | --- | --- |
+| Agent A | Files delivered; final handoff blocked by workspace spend cap | Annotation-quality module, source-preservation/abstention tests, exact shortlist/queue and conditional expansion plan |
+| Agent B | Files delivered; final handoff blocked by workspace spend cap | Longest versus all-CDS execution, maximum per-reference merge, five total parent hits, matched-unit controls and measured stage costs |
+| Agent C | Files delivered; final handoff blocked by workspace spend cap | E3/E4 modules and tests saved; lead review underway |
+| Lead | Integration and testing | Added fixture evidence safeguards, paired parent-cluster uncertainty and saturated-panel exclusions; finishing integration without respawning capped agents |
+
+Fresh unchanged PR #2 baseline: 116 tests passed. Initial integrated suite:
+183 tests run, 182 passed, one skipped (optional Matplotlib fixture).
+After the E1/E2 review fixes: 46 focused tests passed (16 E1, 18 E2, 12 inventory).
+Tests use fictional records/numerical adapters; these are software checks,
+not measured improvements on real constructs. No biological result denominator
+exists: zero admitted records and zero real scored parents.
+
+Files: `annotation_quality.py`, `multi_cds.py`, their CLI/tests and E1/E2 docs;
+`candidate_inventory.py`, selection/queue manifests and metadata CLI/tests;
+`FUTURE_DATASET_PLAN.md`; shared `extension_config.py`, four versioned extension
+configs and the v1.1 addendum. E3/E4 integration/CLI publication follows next.
+Original T02/T03/T07 v1.0 files and `config/pilot/` are unchanged.
+
+Decisions under existing authority: stable longest-CDS tie breaking, maximum
+per-reference parent aggregation, all-component leakage exclusions, conservative
+reviewed parent clustering and explicit null intervals below eight clusters.
+Source-specific admission, independently supported family/reference evidence and
+the strict tier-3 relatedness policy remain pending in
+[DECISIONS_NEEDED.md](DECISIONS_NEEDED.md). Future expansion stays conditional.
+
+## Initial milestone (historical)
+
+### Git state and timestamp
 
 UTC timestamp: 2026-11-06T00:12:31.363348+00:00
 

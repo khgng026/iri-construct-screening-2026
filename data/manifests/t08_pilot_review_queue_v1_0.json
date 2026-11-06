@@ -1,0 +1,241 @@
+{
+  "approved_record_count": 0,
+  "experimental_input_ready": false,
+  "inventory_hash_policy": "canonical-json-v1: sorted keys, compact separators, UTF-8; independent of Git line endings",
+  "inventory_sha256": "b109fb304ea96dc670962d22e4aa635cf16383e48f163cc956e34dbc5b0d7a0e",
+  "limitations": [
+    "Discovery metadata does not admit any biological record.",
+    "Candidate relatedness groups are conservative review aids, not validated homology clusters.",
+    "Unknown counts/versions are explicit and cannot be used to fabricate a T02 admission row."
+  ],
+  "manual_checklist": [
+    "Confirm exact public material/accession identity and immutable source-file version.",
+    "Researcher records ordinary benign rationale and source-specific safety review.",
+    "Researcher checks sequence-data access/reuse/redistribution terms; material MTA alone is insufficient.",
+    "Acquire only a permitted reviewed local file; record retrieval date and SHA256.",
+    "Review complete feature table, parent nucleotide length, original CDS/noncoding qualifiers and ambiguity.",
+    "Resolve variant/tag/boundary discrepancies; document unknown states rather than guessing.",
+    "Assign independent reference groups and evidence-supported family labels separately.",
+    "Create a distinct complete T02 admission row and t05-inputs-1 source mapping; do not relabel this inventory as approved."
+  ],
+  "primary_archetype_counts": {
+    "backbone_heavy": 2,
+    "multi_cds": 2,
+    "single_cds": 3,
+    "tagged_fusion": 3
+  },
+  "record_count": 10,
+  "records": [
+    {
+      "blockers": [
+        "annotation_status:pending",
+        "review_status:pending",
+        "licensing_status:uncertain",
+        "safety_review:pending",
+        "missing_reviewed_sequence_length_nt",
+        "missing_reviewed_feature_count",
+        "missing_reviewed_checksum_sha256"
+      ],
+      "construct_name": "pUC19c",
+      "independence_group": "puc-family",
+      "pilot_priority": 1,
+      "primary_archetype": "backbone_heavy",
+      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
+      "record_id": "ncbi-L09137.2",
+      "reviewer_notes": "No researcher approval asserted. Do not equate every commercial pUC19 variant or numbering convention with L09137.2. The Addgene pUC19 candidate is linked, not an independent reference.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/L09137.2",
+      "status": "excluded_from_scoring"
+    },
+    {
+      "blockers": [
+        "annotation_status:pending",
+        "review_status:pending",
+        "licensing_status:uncertain",
+        "safety_review:pending",
+        "missing_reviewed_sequence_length_nt",
+        "missing_reviewed_feature_count",
+        "missing_reviewed_checksum_sha256"
+      ],
+      "construct_name": "pBR322",
+      "independence_group": "pbr322-family",
+      "pilot_priority": 2,
+      "primary_archetype": "backbone_heavy",
+      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
+      "record_id": "ncbi-J01749.1",
+      "reviewer_notes": "No researcher approval asserted. Direct source feature table and current accession status require review; no exact feature coordinates were copied.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/J01749.1",
+      "status": "excluded_from_scoring"
+    },
+    {
+      "blockers": [
+        "annotation_status:pending",
+        "review_status:pending",
+        "licensing_status:uncertain",
+        "safety_review:pending",
+        "missing_reviewed_sequence_length_nt",
+        "missing_reviewed_feature_count",
+        "missing_reviewed_checksum_sha256",
+        "immutable_source_version_not_selected"
+      ],
+      "construct_name": "pGL3 Basic Vector",
+      "independence_group": "pgl3-firefly",
+      "pilot_priority": 3,
+      "primary_archetype": "single_cds",
+      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
+      "record_id": "addgene-212936",
+      "reviewer_notes": "No researcher approval asserted. Promoterless reporter baseline; added promoter/insert must not be invented. Catalog links U47295 but whole-construct equivalence/version is not verified.",
+      "source_url": "https://www.addgene.org/212936/",
+      "status": "excluded_from_scoring"
+    },
+    {
+      "blockers": [
+        "annotation_status:pending",
+        "review_status:pending",
+        "licensing_status:uncertain",
+        "safety_review:pending",
+        "missing_reviewed_sequence_length_nt",
+        "missing_reviewed_feature_count",
+        "missing_reviewed_checksum_sha256",
+        "immutable_source_version_not_selected"
+      ],
+      "construct_name": "Luciferase-pcDNA3",
+      "independence_group": "pcdna3-firefly",
+      "pilot_priority": 4,
+      "primary_archetype": "single_cds",
+      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
+      "record_id": "addgene-18964",
+      "reviewer_notes": "No researcher approval asserted. Inspect the full annotated source, document benign rationale/permissions, and assign only evidence-supported units and family labels.",
+      "source_url": "https://www.addgene.org/18964/",
+      "status": "excluded_from_scoring"
+    },
+    {
+      "blockers": [
+        "annotation_status:pending",
+        "review_status:pending",
+        "licensing_status:uncertain",
+        "safety_review:pending",
+        "missing_reviewed_sequence_length_nt",
+        "missing_reviewed_feature_count",
+        "missing_reviewed_checksum_sha256",
+        "immutable_source_version_not_selected"
+      ],
+      "construct_name": "pcDNA-RLuc8",
+      "independence_group": "rluc8-family",
+      "pilot_priority": 5,
+      "primary_archetype": "single_cds",
+      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
+      "record_id": "addgene-87121",
+      "reviewer_notes": "No researcher approval asserted. Related to Rluc8-containing Nano-lantern; the two are not automatically independent reference proteins.",
+      "source_url": "https://www.addgene.org/87121/",
+      "status": "excluded_from_scoring"
+    },
+    {
+      "blockers": [
+        "annotation_status:pending",
+        "review_status:pending",
+        "licensing_status:uncertain",
+        "safety_review:pending",
+        "missing_reviewed_sequence_length_nt",
+        "missing_reviewed_feature_count",
+        "missing_reviewed_checksum_sha256",
+        "immutable_source_version_not_selected"
+      ],
+      "construct_name": "pYIC",
+      "independence_group": "yfp-cfp-bicistronic",
+      "pilot_priority": 6,
+      "primary_archetype": "multi_cds",
+      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
+      "record_id": "addgene-18673",
+      "reviewer_notes": "No researcher approval asserted. Tag summaries and depositor comments disagree on EYFP HA versus FLAG wording. Preserve the conflict; exact tags, ORF boundaries and annotations require manual resolution.",
+      "source_url": "https://www.addgene.org/18673/",
+      "status": "excluded_from_scoring"
+    },
+    {
+      "blockers": [
+        "annotation_status:pending",
+        "review_status:pending",
+        "licensing_status:uncertain",
+        "safety_review:pending",
+        "missing_reviewed_sequence_length_nt",
+        "missing_reviewed_feature_count",
+        "missing_reviewed_checksum_sha256",
+        "immutable_source_version_not_selected"
+      ],
+      "construct_name": "pGL4Luc-RLuc",
+      "independence_group": "dual-luc-pgl4",
+      "pilot_priority": 7,
+      "primary_archetype": "multi_cds",
+      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
+      "record_id": "addgene-64034",
+      "reviewer_notes": "No researcher approval asserted. Catalog lists four sequence records. Full deposited source and promoter/CDS boundaries must be selected and checked before an evaluation.",
+      "source_url": "https://www.addgene.org/64034/",
+      "status": "excluded_from_scoring"
+    },
+    {
+      "blockers": [
+        "annotation_status:pending",
+        "review_status:pending",
+        "licensing_status:uncertain",
+        "safety_review:pending",
+        "missing_reviewed_sequence_length_nt",
+        "missing_reviewed_feature_count",
+        "missing_reviewed_checksum_sha256",
+        "immutable_source_version_not_selected"
+      ],
+      "construct_name": "pEGFP-LC3",
+      "independence_group": "lc3-egfp",
+      "pilot_priority": 8,
+      "primary_archetype": "tagged_fusion",
+      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
+      "record_id": "addgene-21073",
+      "reviewer_notes": "No researcher approval asserted. Catalog says the insert first ATG is absent. Do not use the insert accession alone as the complete fusion; verify the whole construct and annotated amino-acid boundaries.",
+      "source_url": "https://www.addgene.org/21073/",
+      "status": "excluded_from_scoring"
+    },
+    {
+      "blockers": [
+        "annotation_status:pending",
+        "review_status:pending",
+        "licensing_status:uncertain",
+        "safety_review:pending",
+        "missing_reviewed_sequence_length_nt",
+        "missing_reviewed_feature_count",
+        "missing_reviewed_checksum_sha256",
+        "immutable_source_version_not_selected"
+      ],
+      "construct_name": "Nano-lantern/pcDNA3",
+      "independence_group": "rluc8-family",
+      "pilot_priority": 9,
+      "primary_archetype": "tagged_fusion",
+      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
+      "record_id": "addgene-51970",
+      "reviewer_notes": "No researcher approval asserted. Catalog lists five sequence entries and an insert accession JN859492. Do not substitute that insert record for a verified whole-construct GenBank file.",
+      "source_url": "https://www.addgene.org/51970/",
+      "status": "excluded_from_scoring"
+    },
+    {
+      "blockers": [
+        "annotation_status:pending",
+        "review_status:pending",
+        "licensing_status:uncertain",
+        "safety_review:pending",
+        "missing_reviewed_sequence_length_nt",
+        "missing_reviewed_feature_count",
+        "missing_reviewed_checksum_sha256",
+        "immutable_source_version_not_selected"
+      ],
+      "construct_name": "pcDNA3-Renilla-FLAG-firefly",
+      "independence_group": "dual-luc-fusion",
+      "pilot_priority": 10,
+      "primary_archetype": "tagged_fusion",
+      "reason": "Excluded from parsing/scored research until record-specific T02 approval, permitted local source, exact version/checksum, full annotation audit and appropriate label/reference review are recorded.",
+      "record_id": "addgene-255006",
+      "reviewer_notes": "No researcher approval asserted. Verify exact fusion order/tag bounds from the source annotation. Shared luciferase/backbone families cannot be treated as independent references.",
+      "source_url": "https://www.addgene.org/255006/",
+      "status": "excluded_from_scoring"
+    }
+  ],
+  "release_scope": "Public discovery metadata only; no source sequence/feature tables or approved dataset",
+  "schema_version": "t08-pilot-review-1",
+  "status": "pending_manual_review"
+}

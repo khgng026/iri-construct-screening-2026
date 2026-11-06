@@ -9,7 +9,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 from iri_constructs.candidate_inventory import (GATES, build_pilot_review_queue, load_candidate_inventory,
-    review_queue, validate_candidate_records, validate_pilot_review_queue)
+    review_queue, validate_candidate_records, validate_pilot_review_queue, load_pilot_shortlist)
 from iri_constructs.runtime import InputError
 
 
@@ -99,3 +99,40 @@ class CandidateInventoryTests(unittest.TestCase):
         before = deepcopy(self.rows)
         self.assertEqual(review_queue(self.rows), review_queue(list(reversed(self.rows))))
         self.assertEqual(self.rows, before)
+
+    def test_approved_selection_has_exact_order_but_no_source_admissions(self):
+        shortlist = ROOT / 'data/manifests/pilot_shortlist_v1_1.json'
+        selection = load_pilot_shortlist(shortlist, self.path)
+        queue = build_pilot_review_queue(self.path, shortlist)
+        expected = ['ncbi-J01749.1','addgene-212936','addgene-18964','addgene-87121','addgene-18673',
+                    'addgene-64034','addgene-108228','addgene-21073','addgene-51970','addgene-255006']
+        self.assertEqual([r['record_id'] for r in queue['records']], expected)
+        self.assertEqual(queue['approved_record_count'], 0)
+        self.assertFalse(queue['experimental_input_ready'])
+        self.assertTrue(all(r['status'] == 'excluded_from_scoring' for r in queue['records']))
+        self.assertEqual(selection['optional_controls'][0]['record_id'], 'ncbi-L09137.2')
+        validate_pilot_review_queue(ROOT / 'data/manifests/t08_pilot_review_queue.json', self.path, shortlist)
+        validate_pilot_review_queue(ROOT / 'data/manifests/t08_pilot_review_queue_v1_0.json', self.path)
+
+    def test_selection_manifest_cannot_inject_source_approvals(self):
+        original = json.loads((ROOT / 'data/manifests/pilot_shortlist_v1_1.json').read_text(encoding='utf-8'))
+        for where in ('top','record','control'):
+            selection = deepcopy(original)
+            target = selection if where == 'top' else selection['records'][0] if where == 'record' else selection['optional_controls'][0]
+            target['review_status'] = 'approved'
+            with tempfile.TemporaryDirectory() as directory:
+                path = Path(directory) / 'selection.json'
+                path.write_text(json.dumps(selection),encoding='utf-8')
+                with self.subTest(where=where), self.assertRaises(InputError):
+                    load_pilot_shortlist(path,self.path)
+
+    def test_duplicate_or_unknown_selected_identity_is_rejected(self):
+        original = json.loads((ROOT / 'data/manifests/pilot_shortlist_v1_1.json').read_text(encoding='utf-8'))
+        for replacement in ('not-a-candidate', original['records'][0]['record_id']):
+            selection = deepcopy(original)
+            selection['records'][1]['record_id'] = replacement
+            with tempfile.TemporaryDirectory() as directory:
+                path = Path(directory) / 'selection.json'
+                path.write_text(json.dumps(selection),encoding='utf-8')
+                with self.assertRaises(InputError):
+                    load_pilot_shortlist(path,self.path)

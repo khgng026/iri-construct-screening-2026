@@ -1,0 +1,11 @@
+{
+  "schema_version": "t05-inputs-1",
+  "review_manifest": "../../data/manifests/approved_extension_sources.csv",
+  "records": [],
+  "families": [],
+  "reference_ids": [],
+  "evidence_kind": "unclassified",
+  "status": "pending_T02_admission",
+  "candidate_selection": "../../data/manifests/pilot_shortlist_v1_1.json",
+  "note": "Approved candidate identities do not approve source files, annotations, permissions, family labels or relatedness policies. No source record is admitted by this empty configuration."
+}
