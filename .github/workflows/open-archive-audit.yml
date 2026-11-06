@@ -1,0 +1,30 @@
+name: Public archive candidate audit
+on:
+  push:
+    branches:
+      - codex/open-archive-replacements-2026-11-06
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install parser dependencies
+        run: python -m pip install biopython==1.86
+      - name: Retrieve versioned public annotated candidate records
+        run: python scripts/review_open_archive_candidates_v2.py --pause 0.5
+      - name: Upload source-free integrity and admission-gate report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: open-archive-review
+          path: results/open_archive_review_2026_11_06/report.json
+          if-no-files-found: warn
+          retention-days: 14
