@@ -1,5 +1,119 @@
 # Codex implementation handoff
 
+## Final integration and publication
+
+UTC timestamp: 2026-11-06T03:40:52Z.
+Branch: `codex/t07-evaluation-extensions`.
+Recorded implementation HEAD before this status commit:
+`9a83686ee73538302155b124bae6119d0a259718`.
+The containing status commit is identified by this file's Git history.
+Current review: [PR #3](https://github.com/khgng026/iri-construct-screening-2026/pull/3),
+open and unmerged, with no merge conflicts reported by GitHub.
+
+E1-E4 are implemented, integrated and tested as a separately frozen T07 v1.1
+addendum. The exact approved ten-identity selection is reflected in the current
+pending queue, while source admissions remain zero. No real sequence parsing,
+pretrained inference, scientific scores or scientific plots were produced.
+The completed work is published for review; researcher evidence is still required
+before the first real scored pilot.
+
+### GitHub state and scope
+
+PR #2 was merged **upstream by the researcher**, not by this implementation, at
+2026-11-06T00:40:46Z. Its merge commit is
+`284a7008f0420da4557eccf434cabef64696d787`, and its tree matches the original
+base `2c9a5bf6e157b05326199a6de0c345598cb22035` exactly. Consequently PR #3 now
+targets main directly, applying the requested post-merge retargeting rule.
+The original main worktree is clean; main itself was never pushed or merged by
+this agent. PR #1 stays open/unmerged at `7b15f02`; PR #2's head stays `2c9a5bf`;
+the oversight reference stays `4fd8256`. There was no force push.
+
+### Agent and lead status
+
+| Owner | Final state | Contribution |
+| --- | --- | --- |
+| Agent A | Saved deliverables integrated; final handoff interrupted by workspace spend cap | E1 quality/abstention, provenance-aware selection/queue, regression tests and conditional 150-250-record plan |
+| Agent B | Saved deliverables integrated; final handoff interrupted by workspace spend cap | E2 longest/all eligible CDS evaluation, maximum-score merge, fixed five-hit parent budget, coverage/controls and measured phase costs |
+| Agent C | Saved deliverables integrated; final handoff interrupted by workspace spend cap | E3 independently reviewed reference tiers and E4 strict cost/quality tables/optional plots and tests |
+| Lead | Complete | Shared configs/CLI and design freeze, execution orchestration, review/fixes, parent uncertainty, cross-module tests, documentation/workbook and GitHub publication |
+
+All three were actual delegated agents. The lead finished from saved files after
+the cap; no final agent handoff is claimed and no replacement agents were spawned.
+
+### Validation and actual experiments
+
+| Check | Actual outcome |
+| --- | --- |
+| Fresh unchanged PR #2 baseline | 116 passed |
+| Final full suite | 187 run: 186 passed, one optional Matplotlib fixture skipped |
+| Dependency-free suite (`python -S`) | 187 run: 143 passed, 44 optional-dependency skips |
+| Dependency-free smoke | Passed; three fictional examples |
+| Explicit v1.1 selection/queue validation | Exit 0, metadata only |
+| E1 pending command | Exit 1, `no_inputs` |
+| E2/E3 pending commands | Exit 1, `blocked_no_reviewed_inputs` |
+| E4 pending command | Exit 1, `blocked_no_measurements` |
+
+All four pending reports explicitly record no inference and no scientific scores.
+Observed scientific denominator: zero admitted real records, zero real scored
+parents. Fictional numerical adapter/annotation tests are software validation.
+The local environment is Python 3.14.7/Biopython 1.86, CPU-only, without ESM SDK
+or Matplotlib; no scientific runtime compatibility or model-access claim follows.
+
+Hosted CI passed both E1/E2 and E3/E4 milestones, plus the
+[final implementation push](https://github.com/khgng026/iri-construct-screening-2026/actions/runs/42157933453).
+The status-only publication push has its own CI run visible on PR #3.
+No code changed after the final local suite; subsequent edits record publication.
+
+Diff review checked 40 changed files and found no raw sequence files, restricted
+annotation exports, weights, embeddings or credentials. T02, T03/schema/examples,
+the original twenty-candidate inventory, all `config/pilot/` and frozen v1.0 text
+are unchanged. The original pending queue is archived byte-for-byte as a Git blob.
+V1.1 has a separate five-file design hash freeze. Workbook verification confirms
+only `Weekly To-Dos!L10`, `L11`, `L12` notes changed; task statuses, prior notes,
+approval history and every other archive member were preserved.
+
+Full file ownership, acceptance evidence, limitations and reproduction commands:
+[implementation report](../week1/T07_v1_1_implementation_report.md),
+[addendum](../week1/T07_v1_1_evaluation_addendum.md),
+[E1](../week1/E1_annotation_quality.md), [E2](../week1/E2_multi_cds.md),
+[E3/E4](../week1/E3_E4_generalization_cost.md).
+Sequence-free local check reports are ignored under
+`results/extensions/verification-20261106/`.
+
+### Scientific decisions and exact remaining actions
+
+Engineering choices under existing authority: deterministic longest-CDS ties,
+maximum per-reference merging, all-component leakage exclusions, conservative
+parent clusters, fixed total K=5, null uncertainty below eight independent groups,
+matched scored support, no comparison of saturated panels, and measured shared
+cost attribution. No source approval, function inference, tuned threshold or
+scientific winner was introduced. Annotation agreement is not biological truth;
+additional CDS coverage is not higher per-unit model accuracy.
+
+1. Supply permitted exact local files and complete T02 admission rows with immutable
+   source/version, reviewer/date, reuse scope, safety rationale, annotation approval
+   and original-byte checksums. Hold every pending/uncertain record.
+2. Review original CDS annotations/caveats, family labels, query/reference roles
+   and independence groups; retain unknowns and ensure independent positives and
+   competing families without enlarging the five-hit budget.
+3. Provide an independently justified, predeclared tier-3 sequence-relatedness
+   policy bound to those exact fingerprints; otherwise that tier stays blocked.
+4. Create a separate local reviewed input config with explicit research evidence
+   classification; run E1 and manual spot checks before protein-model scoring.
+5. Validate model dependencies/access/memory, freeze actual model identities and
+   run fixed E2/E3 checkpoints sequentially with all costs/failures/coverage saved.
+6. Feed actual measurement batches to E4; interpret or plot only comparable panels
+   and conditions, then request scientific review of the observed results.
+
+[DECISIONS_NEEDED.md](DECISIONS_NEEDED.md) records those remaining evidence gates.
+Expansion to 150-250 reviewed constructs is prospective, conditional on pilot
+assessment, and has not started. ChatGPT does not automatically monitor this
+readable handoff; the researcher can explicitly request its review.
+
+---
+
+The milestone entries below are historical snapshots at their stated timestamps.
+
 ## E3/E4 completion milestone
 
 UTC timestamp: 2026-11-06T03:33:20Z. Branch: `codex/t07-evaluation-extensions`.
