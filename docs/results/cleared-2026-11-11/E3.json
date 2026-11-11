@@ -765,6 +765,42 @@
     "tie_policy": "descending method score, then ascending stable reference ID",
     "top_k": 5
   },
+  "reproducibility": {
+    "additional_independent_observations": false,
+    "canonical_score_matrix_sha256": {
+      "alignment-scores.json": "2cab21ca938c83a96da3ed23c6e1a53aa7a667d79fb4101c5c2a1dfa5811c2cc",
+      "esm2-scores.json": "c28a1c622435e3b3f3488b7d17ffb319088c9395ecefc3a98dad2a5f5dacd0ec"
+    },
+    "raw_alignment_and_esm2_score_matrices_identical": true,
+    "repeat_full_biological_run": true,
+    "repeated_stage_resources": {
+      "command": [
+        "env",
+        "HF_HOME=/workspace/iri-construct-screening-2026/results/week2/model-cache",
+        "HF_HUB_OFFLINE=1",
+        "TRANSFORMERS_OFFLINE=1",
+        ".venv-models/bin/python",
+        "scripts/execute_cleared_retrieval.py",
+        "--stage",
+        "E3",
+        "--output",
+        "results/cleared-2026-11-11/E3/repeat01"
+      ],
+      "exit_code": 0,
+      "gpu_seconds": null,
+      "limits": {
+        "process_rss_bytes": 6442450944,
+        "wall_seconds": 1800
+      },
+      "monetary_cost": null,
+      "os_peak_process_rss_bytes": 614703104,
+      "process_cpu_seconds": 10.403506,
+      "rss_policy": "20ms sampling with termination; OS high-water mark checked after exit",
+      "sampled_peak_process_rss_bytes": 615104512,
+      "stop_reason": null,
+      "wall_seconds": 8.293903230998694
+    }
+  },
   "resource_bound_measurement": {
     "command": [
       "env",

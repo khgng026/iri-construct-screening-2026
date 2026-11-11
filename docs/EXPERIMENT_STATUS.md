@@ -66,3 +66,8 @@ HF_HOME="$PWD/results/week2/model-cache" HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
 Restoring exact ignored caches is required; changed bytes block instead of being substituted. Each retrieval run verifies the original review freeze, source checksums, all 17 reference originals, protein fingerprints and input budgets before scoring. The executor stores the exact protocol/panel before results and refuses incomplete score support. Full diagnostics/test transcripts stay ignored; Git retains the authorization, minimal manifests, source-free stage evidence and this single status summary. Existing frozen documentation is retained rather than rewritten or deleted.
 
 Targeted cleanup added shared score reuse instead of another model implementation, removed duplicated per-input diagnostic details from committed stage summaries, and formatted the small launcher. Cache tampering is regression-tested without expensive models. Final tests: **247 run, 242 passed, five optional skips**; dependency-free **247 run, 188 passed, 59 skips**; historical release verifier passed. Full logs are under ignored `results/cleared-2026-11-11/`.
+
+A final bounded biological E3 rerun after cleanup reproduced identical raw
+alignment and ESM-2 score matrices. This is reproducibility evidence, not new
+independent observations. Canonical score-matrix hashes and repeat resources
+are retained in the E3 evidence.
