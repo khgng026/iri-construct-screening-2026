@@ -4,3 +4,6 @@ data/approved_public/J01749.1.gb -text -whitespace
 data/manifests/pilot_execution_2026_11_06/** -text whitespace=cr-at-eol
 config/pilot/inputs.verified_e1_2026_11_06.json -text whitespace=cr-at-eol
 docs/runs/pilot-2026-11-06/** -text whitespace=cr-at-eol
+
+# Preserve the exact admitted manifest bytes used for the first cleared E1 run.
+data/manifests/execution_2026_11_11/e1_sources.csv -text whitespace=cr-at-eol
