@@ -144,6 +144,8 @@ def main():
         assert all((c['matched']['scored_parents'] == 1 for c in report['methods']['esm2']['result']['conditions'].values()))
     report.update(status='completed_descriptive_partial_method_pilot' if a.stage == 'E3' else 'completed_supported_subset_descriptive', inference_executed=not bool(a.reuse_e3), scientific_scores_produced=True, confidence_interval=None, confidence_interval_reason='fewer_than_eight_independent_parents', limitations=['Molecular-family retrieval only; no functional validation or population/model-winner claim.', 'ESM-C, strictertiers,Renilla and formalE4 remainHOLD.', 'E2 full documented-family endpoint unresolved; AmpR retained as unknown source component.'])
     write_json(a.output / 'report.json', report)
+    if a.stage == 'E3':
+        write_json(a.output / 'cache-checksums.json', {name: digest_file(a.output / name) for name in ['report.json', 'execution-freeze.json', 'esm2-scores.json']})
     print(report['status'])
 if __name__ == '__main__':
     main()
