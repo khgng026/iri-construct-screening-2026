@@ -1,0 +1,100 @@
+{
+  "base_main": "4352009703dcd1825e181d203edf6088c882182e",
+  "branch": "codex/pilot-verified-subset-2026-11-06",
+  "claims": "E1 source-annotation agreement on one backbone-heavy record only. No inference, family-retrieval, generalization, function prediction, cost-quality ranking or plot result.",
+  "commands": [
+    {
+      "cli_exit_code_observed": 0,
+      "command": ".venv/Scripts/python.exe scripts/run_evaluation_extension.py --protocol config/extensions/E1.json --inputs config/pilot/inputs.verified_e1_2026_11_06.json --output results/pilot-2026-11-06/E1",
+      "inference_executed": false,
+      "retrieval_scores_produced": false,
+      "source_annotation_agreement_produced": true,
+      "started_at_utc": "2026-11-06T13:40:52.969908+00:00",
+      "status": "ok"
+    },
+    {
+      "cli_exit_code_observed": null,
+      "command": ".venv/Scripts/python.exe scripts/run_evaluation_extension.py --protocol config/extensions/E2.json --inputs config/pilot/inputs.verified_e1_2026_11_06.json --output results/pilot-2026-11-06/E2",
+      "inference_executed": false,
+      "retrieval_scores_produced": false,
+      "source_annotation_agreement_produced": false,
+      "started_at_utc": "2026-11-06T13:41:20.586208+00:00",
+      "status": "blocked_insufficient_parent_panel"
+    },
+    {
+      "cli_exit_code_observed": null,
+      "command": ".venv/Scripts/python.exe scripts/run_evaluation_extension.py --protocol config/extensions/E3.json --inputs config/pilot/inputs.verified_e1_2026_11_06.json --output results/pilot-2026-11-06/E3",
+      "inference_executed": false,
+      "retrieval_scores_produced": false,
+      "source_annotation_agreement_produced": false,
+      "started_at_utc": "2026-11-06T13:41:21.297753+00:00",
+      "status": "blocked_insufficient_panel"
+    },
+    {
+      "cli_exit_code_observed": 1,
+      "command": ".venv/Scripts/python.exe scripts/run_evaluation_extension.py --protocol config/extensions/E4.json --measurement-records results/pilot-2026-11-06/E3/cost-quality-records.json --output results/pilot-2026-11-06/E4",
+      "inference_executed": false,
+      "retrieval_scores_produced": false,
+      "status": "blocked_no_measurements"
+    }
+  ],
+  "exit_code_note": "E2/E3/E4 ran sequentially in one shell batch. The batch/final E4 exit code was observed as 1; separate E2/E3 shell exit codes were not captured. Their persisted blocked report statuses are authoritative. No failed/blocked command is called a successful experiment.",
+  "model_preflight": {
+    "esm2": "Pinned cached snapshot c731040fcd8d73dceaa04b0a8e6329b345b0f5df loaded offline without a forward pass",
+    "esm2_load_scope": "Environment availability only; no biological sequence encoded and no model comparison",
+    "esm2_weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189",
+    "esmc": "SDK/checkpoint not validated; no download or run attempted without a verified panel",
+    "global_environment": "Existing CPU torch 2.15.0+cpu / transformers 5.22.0; esm package absent; CUDA unavailable",
+    "isolated_parsing_environment": "No torch/transformers/esm; parsing available"
+  },
+  "preparation": [
+    {
+      "action": "Read earlier conversation and current main through GitHub connector",
+      "status": "completed"
+    },
+    {
+      "action": "Initial restricted-network git clone",
+      "status": "failed_connection"
+    },
+    {
+      "action": "Connector snapshot transfer",
+      "status": "initial_single_payload_rejected_size_limit_then_batched; interrupted before last two files"
+    },
+    {
+      "action": "Authorized network git fetch",
+      "status": "first blocked by Git ownership check; succeeded with path-scoped per-command trust; exact main restored"
+    },
+    {
+      "action": "Isolated parsing dependency installation",
+      "status": "completed biopython 1.86; psutil 7.1.3; numpy 2.5.4"
+    },
+    {
+      "action": "Addgene integration discovery",
+      "status": "no results; no account credentials used"
+    },
+    {
+      "action": "Nine public catalogue and nine sequence-index reads",
+      "status": "18 HTTP 200 responses; all nine sequence indexes require login; no sequence download attempted behind that gate"
+    },
+    {
+      "action": "NCBI exact full GenBank download",
+      "status": "completed; checksum/identity/annotations/rights reviewed in per-record manifest"
+    }
+  ],
+  "recorded_at_utc": "2026-11-06T13:49:05.661357+00:00",
+  "schema_version": "pilot-execution-attempts-1",
+  "source_code_note": "E1-E4 used unchanged main parser/evaluation modules. Working tree was dirty from new dataset manifests/configuration. Original reports retain exact source-code SHA256 values and base commit; newly added release verifier is not part of those experimental executions.",
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests -v",
+    "discovered": 187,
+    "errors": 0,
+    "failures": 0,
+    "passed": 182,
+    "scope": "Main software suite; fixtures are not biological findings.",
+    "skip_reasons": [
+      "Four optional PyTorch adapter contract checks: PyTorch absent from isolated parsing environment",
+      "One optional Matplotlib fictional plotting check"
+    ],
+    "skipped": 5
+  }
+}

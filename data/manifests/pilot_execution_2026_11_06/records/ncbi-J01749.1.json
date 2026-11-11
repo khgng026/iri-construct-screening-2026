@@ -1,0 +1,980 @@
+{
+  "annotation_review": "All 50 original features reviewed; all locations exact and supported by parser. All 3 source translations independently compared with documented coordinates/frame/table. Historical differences/old-sequence notes and mobile-element feature remain intact; biological correctness is not asserted.",
+  "benign_review": {
+    "basis": "Complete record explicitly identifies a cloning vector. Reviewed original source, CDS products and feature table: routine antibiotic selection and plasmid replication/copy control; no pathogen genome or toxin construct identified. Researcher already checked this candidate in PR #5.",
+    "caveat": "Ampicillin/beta-lactamase and tetracycline markers are present, not omitted from review. Computational annotation audit only; no sequence design or biological manipulation.",
+    "status": "approved_within_existing_benign_cloning_scope"
+  },
+  "blockers": [
+    "Independent positive and competing reference families are absent",
+    "Retrieval-family granularity is not established by product names alone",
+    "Strict E3 relatedness policy remains unreviewed"
+  ],
+  "cds_evidence": [
+    {
+      "documented_product": "tetracycline resistance protein",
+      "gene": "tet",
+      "independence_group": "ncbi-J01749.1-parent-lineage",
+      "location": "[85:1276](+)",
+      "protein_accession_version": "AAB59735.1",
+      "retrieval_family_label": null,
+      "retrieval_family_review_status": "HOLD_independent_reference_family_not_reviewed",
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1276,
+          "start0": 85,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 11,
+      "translation_length_aa": 396,
+      "translation_sha256": "27caae7e0153afb364b0f12c8ac82367a49ed6fe094a33d168867c622554ad90",
+      "translation_validation": "Source annotated translation verified against exact CDS coordinates/table"
+    },
+    {
+      "documented_product": "ROP protein",
+      "gene": null,
+      "independence_group": "ncbi-J01749.1-parent-lineage",
+      "location": "[1914:2106](+)",
+      "protein_accession_version": "AAB59736.1",
+      "retrieval_family_label": null,
+      "retrieval_family_review_status": "HOLD_independent_reference_family_not_reviewed",
+      "segments_zero_based_half_open": [
+        {
+          "end0": 2106,
+          "start0": 1914,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 27,
+      "translation_length_aa": 63,
+      "translation_sha256": "b999d6315c7a7034af5f3cc095c13b30ba58e106d10c8a7810f3b026c2f45295",
+      "translation_validation": "Source annotated translation verified against exact CDS coordinates/table"
+    },
+    {
+      "documented_product": "beta-lactamase",
+      "gene": "bla",
+      "independence_group": "ncbi-J01749.1-parent-lineage",
+      "location": "[3292:4153](-)",
+      "protein_accession_version": "AAB59737.1",
+      "retrieval_family_label": null,
+      "retrieval_family_review_status": "HOLD_independent_reference_family_not_reviewed",
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4153,
+          "start0": 3292,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 39,
+      "translation_length_aa": 286,
+      "translation_sha256": "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468",
+      "translation_validation": "Source annotated translation verified against exact CDS coordinates/table"
+    }
+  ],
+  "citations": [
+    "https://www.ncbi.nlm.nih.gov/nuccore/J01749.1",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=J01749.1&rettype=gbwithparts&retmode=text",
+    "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+    "https://www.ncbi.nlm.nih.gov/books/NBK565821/"
+  ],
+  "cloud_storage_approved": true,
+  "construct_name": "pBR322",
+  "download_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=J01749.1&rettype=gbwithparts&retmode=text",
+  "downloaded_locally": true,
+  "exact_file": {
+    "accession_version": "J01749.1",
+    "file_bytes": 24806,
+    "file_kind": "complete nucleotide GenBank flatfile with original feature table and ORIGIN through //; not FASTA, insert, fragment, map or HTML",
+    "file_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6",
+    "record_locus_date": "30-SEP-2008",
+    "version_policy": "Accession.version identifies sequence revision; it does not freeze feature-table revisions. This dated exact-byte SHA256 snapshot identifies the full annotated file."
+  },
+  "feature_count": 50,
+  "feature_evidence": [
+    {
+      "biopython_location": "[0:4361](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "db_xref",
+        "focus",
+        "mol_type",
+        "organism",
+        "tissue_lib"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4361,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 1,
+      "type": "source"
+    },
+    {
+      "biopython_location": "[0:1762](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "db_xref",
+        "mol_type",
+        "organism"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1762,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 2,
+      "type": "source"
+    },
+    {
+      "biopython_location": "[23:27](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 27,
+          "start0": 23,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 3,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[26:33](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "note",
+        "regulatory_class"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 33,
+          "start0": 26,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 4,
+      "type": "regulatory"
+    },
+    {
+      "biopython_location": "[38:42](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 42,
+          "start0": 38,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 5,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[42:49](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "note",
+        "regulatory_class"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 49,
+          "start0": 42,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 6,
+      "type": "regulatory"
+    },
+    {
+      "biopython_location": "[52:56](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 56,
+          "start0": 52,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 7,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[66:70](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 70,
+          "start0": 66,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 8,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[79:83](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 83,
+          "start0": 79,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 9,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[85:1276](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "gene"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1276,
+          "start0": 85,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 10,
+      "type": "gene"
+    },
+    {
+      "biopython_location": "[85:1276](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "codon_start",
+        "gene",
+        "product",
+        "protein_id",
+        "transl_table",
+        "translation"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1276,
+          "start0": 85,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 11,
+      "type": "CDS"
+    },
+    {
+      "biopython_location": "[140:142](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "note"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 142,
+          "start0": 140,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 12,
+      "type": "misc_feature"
+    },
+    {
+      "biopython_location": "[145:147](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "gene",
+        "note"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 147,
+          "start0": 145,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 13,
+      "type": "misc_feature"
+    },
+    {
+      "biopython_location": "[410:414](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety",
+        "gene"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 414,
+          "start0": 410,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 14,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[425:426](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "citation",
+        "gene",
+        "note",
+        "replace"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 426,
+          "start0": 425,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 15,
+      "type": "misc_difference"
+    },
+    {
+      "biopython_location": "[468:472](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety",
+        "gene"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 472,
+          "start0": 468,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 16,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[525:528](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "citation",
+        "gene"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 528,
+          "start0": 525,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 17,
+      "type": "old_sequence"
+    },
+    {
+      "biopython_location": "[1514:1519](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "note",
+        "rpt_type"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1519,
+          "start0": 1514,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 18,
+      "type": "repeat_region"
+    },
+    {
+      "biopython_location": "[1635:1762](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "note"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1762,
+          "start0": 1635,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 19,
+      "type": "misc_feature"
+    },
+    {
+      "biopython_location": "[1787:1792](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "note",
+        "rpt_type"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1792,
+          "start0": 1787,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 20,
+      "type": "repeat_region"
+    },
+    {
+      "biopython_location": "[1890:1892](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "citation",
+        "note",
+        "replace"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1892,
+          "start0": 1890,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 21,
+      "type": "misc_difference"
+    },
+    {
+      "biopython_location": "[1891:1893](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "citation"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1893,
+          "start0": 1891,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 22,
+      "type": "old_sequence"
+    },
+    {
+      "biopython_location": "[1904:1910](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "regulatory_class"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1910,
+          "start0": 1904,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 23,
+      "type": "regulatory"
+    },
+    {
+      "biopython_location": "[1904:1909](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "note",
+        "regulatory_class"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1909,
+          "start0": 1904,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 24,
+      "type": "regulatory"
+    },
+    {
+      "biopython_location": "[1912:1914](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "citation",
+        "note",
+        "replace"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1914,
+          "start0": 1912,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 25,
+      "type": "misc_difference"
+    },
+    {
+      "biopython_location": "[1913:1915](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "citation"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 1915,
+          "start0": 1913,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 26,
+      "type": "old_sequence"
+    },
+    {
+      "biopython_location": "[1914:2106](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "codon_start",
+        "product",
+        "protein_id",
+        "transl_table",
+        "translation"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 2106,
+          "start0": 1914,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 27,
+      "type": "CDS"
+    },
+    {
+      "biopython_location": "[2010:2167](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "citation",
+        "note"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 2167,
+          "start0": 2010,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 28,
+      "type": "misc_feature"
+    },
+    {
+      "biopython_location": "[2244:2249](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "note",
+        "rpt_type"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 2249,
+          "start0": 2244,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 29,
+      "type": "repeat_region"
+    },
+    {
+      "biopython_location": "[2350:2414](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "citation",
+        "note"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 2414,
+          "start0": 2350,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 30,
+      "type": "misc_feature"
+    },
+    {
+      "biopython_location": "[2438:2447](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 2447,
+          "start0": 2438,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 31,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[2534:2535](+)",
+      "location_issue": null,
+      "qualifier_keys": [],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 2535,
+          "start0": 2534,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 32,
+      "type": "rep_origin"
+    },
+    {
+      "biopython_location": "[2728:2730](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "citation",
+        "note",
+        "replace"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 2730,
+          "start0": 2728,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 33,
+      "type": "old_sequence"
+    },
+    {
+      "biopython_location": "[2728:2729](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "citation"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 2729,
+          "start0": 2728,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 34,
+      "type": "old_sequence"
+    },
+    {
+      "biopython_location": "[2729:2730](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "citation",
+        "note",
+        "replace"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 2730,
+          "start0": 2729,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 35,
+      "type": "old_sequence"
+    },
+    {
+      "biopython_location": "[3147:4361](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "mobile_element_type"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4361,
+          "start0": 3147,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 36,
+      "type": "mobile_element"
+    },
+    {
+      "biopython_location": "[3147:3185](+)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "note",
+        "rpt_type"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 3185,
+          "start0": 3147,
+          "strand": 1
+        }
+      ],
+      "source_ordinal_1based": 37,
+      "type": "repeat_region"
+    },
+    {
+      "biopython_location": "[3292:4153](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "gene"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4153,
+          "start0": 3292,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 38,
+      "type": "gene"
+    },
+    {
+      "biopython_location": "[3292:4153](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "codon_start",
+        "gene",
+        "note",
+        "product",
+        "protein_id",
+        "transl_table",
+        "translation"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4153,
+          "start0": 3292,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 39,
+      "type": "CDS"
+    },
+    {
+      "biopython_location": "[4084:4153](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "gene"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4153,
+          "start0": 4084,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 40,
+      "type": "sig_peptide"
+    },
+    {
+      "biopython_location": "[3295:4084](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "gene",
+        "product"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4084,
+          "start0": 3295,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 41,
+      "type": "mat_peptide"
+    },
+    {
+      "biopython_location": "[4160:4165](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "note",
+        "regulatory_class"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4165,
+          "start0": 4160,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 42,
+      "type": "regulatory"
+    },
+    {
+      "biopython_location": "[4187:4194](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "note",
+        "regulatory_class"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4194,
+          "start0": 4187,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 43,
+      "type": "regulatory"
+    },
+    {
+      "biopython_location": "[4267:4271](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4271,
+          "start0": 4267,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 44,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[4279:4283](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4283,
+          "start0": 4279,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 45,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[4284:4288](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4288,
+          "start0": 4284,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 46,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[4295:4299](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4299,
+          "start0": 4295,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 47,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[4310:4314](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4314,
+          "start0": 4310,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 48,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[4316:4320](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4320,
+          "start0": 4316,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 49,
+      "type": "misc_binding"
+    },
+    {
+      "biopython_location": "[4330:4334](-)",
+      "location_issue": null,
+      "qualifier_keys": [
+        "bound_moiety"
+      ],
+      "segments_zero_based_half_open": [
+        {
+          "end0": 4334,
+          "start0": 4330,
+          "strand": -1
+        }
+      ],
+      "source_ordinal_1based": 50,
+      "type": "misc_binding"
+    }
+  ],
+  "feature_types": {
+    "CDS": 3,
+    "gene": 2,
+    "mat_peptide": 1,
+    "misc_binding": 15,
+    "misc_difference": 3,
+    "misc_feature": 5,
+    "mobile_element": 1,
+    "old_sequence": 6,
+    "regulatory": 6,
+    "rep_origin": 1,
+    "repeat_region": 4,
+    "sig_peptide": 1,
+    "source": 2
+  },
+  "record_id": "ncbi-J01749.1",
+  "researcher_decision": "approved_for_pilot",
+  "researcher_signoff": "https://github.com/khgng026/iri-construct-screening-2026/pull/5",
+  "retrieval_admission": "HOLD_missing_reviewed_family_labels_and_independent_references",
+  "retrieved_on": "2026-11-06",
+  "reviewed_at_utc": "2026-11-06T13:40:52.487028+00:00",
+  "reviewer": "Codex technical evidence review under researcher delegation; not a new human sign-off",
+  "schema_version": "pilot-exact-source-review-1",
+  "sequence_length_nt": 4361,
+  "source_admitted_for_annotation_audit": true,
+  "source_path": "data/approved_public/J01749.1.gb",
+  "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/J01749.1",
+  "status": "ADMITTED_E1_ONLY",
+  "storage_rights": {
+    "attribution": "NCBI GenBank J01749.1; annotations supplied by Will Gilbert under the Curator Program; original references retained verbatim in source file.",
+    "decision_basis": "NCBI Molecular Data Usage states no NCBI use/distribution restrictions and rejects submitter-requested reuse restrictions. Exact J01749.1 file inspected; no source-specific restrictive license/notice found. Apply the researcher-authorized T02 v1.1 private-research scope.",
+    "limitations": "NCBI is not the owner of all submitted rights and cannot transfer unrestricted rights. This is a documented project hosting determination, not a declaration of CC0, public-domain status, patent clearance or a new redistribution license.",
+    "review_status": "approved_for_private_project_copy",
+    "reviewed_on": "2026-11-06",
+    "reviewer": "Codex technical evidence review under researcher delegation; not a new human sign-off",
+    "storage": "Private khgng026/iri-construct-screening-2026 repository and its authorized collaborators; no public release authorized.",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+  }
+}

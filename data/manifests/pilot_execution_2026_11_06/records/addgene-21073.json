@@ -1,0 +1,69 @@
+{
+  "access_observations": [
+    {
+      "final_url": "https://www.addgene.org/21073/",
+      "http_status": 200,
+      "login_required": false,
+      "response_bytes": 244125,
+      "response_kind": "public_HTML_not_source_sequence",
+      "response_sha256": "16ef0014e04c992493fd7d4fb0bfb196e5e48ab4cdd2dab2e132ee221af46fdc",
+      "retrieved_at_utc": "2026-11-06T13:38:10.514897+00:00",
+      "url": "https://www.addgene.org/21073/"
+    },
+    {
+      "final_url": "https://www.addgene.org/21073/sequences/",
+      "http_status": 200,
+      "login_required": true,
+      "response_bytes": 208428,
+      "response_kind": "public_HTML_not_source_sequence",
+      "response_sha256": "51d68bcc6fd82bd7b4a7dcef73817ecb81e5b141f93a2b52821020b975baa041",
+      "retrieved_at_utc": "2026-11-06T13:38:11.562124+00:00",
+      "url": "https://www.addgene.org/21073/sequences/"
+    }
+  ],
+  "accession_version": null,
+  "annotation_review_status": "HOLD_no_exact_source",
+  "benign_review": {
+    "catalog_context": "Consistent with researcher-approved ordinary reporter/expression research; Catalog purpose explicitly documents rat LC3 fused to EGFP.",
+    "exact_file_status": "HOLD_uninspected_source_not_an_adverse_safety_finding"
+  },
+  "blockers": [
+    "Authorized logged-in download or approved provider interface needed; public sequence index explicitly requires login",
+    "Exact full file, sequence revision/date, SHA256 and original feature table unavailable",
+    "Exact-file notices and private-GitHub storage scope require review after legitimate acquisition",
+    "Independent reviewed family/reference panel unavailable"
+  ],
+  "catalog_caveat": "Catalog says the insert first ATG is absent. Do not use the insert accession alone as the complete fusion; verify the whole construct and annotated amino-acid boundaries.",
+  "checksum_sha256": null,
+  "cloud_storage_approved": false,
+  "construct_name": "pEGFP-LC3",
+  "documented_catalog_components": [
+    "EGFP-LC3 fusion product (catalog)"
+  ],
+  "downloaded_locally": false,
+  "durable_catalog_id": "Addgene:21073",
+  "family_label_status": "HOLD_no_verified_CDS_units_or_independent_references",
+  "feature_count": null,
+  "licensing_status": "uncertain_for_exact_cloud_copy",
+  "no_substitution": "Linked insert/protein accessions, generic vendor backbones, maps, partial reads and public catalogue names are not substituted for the exact complete construct.",
+  "record_id": "addgene-21073",
+  "researcher_decision": "approved_for_pilot",
+  "retrieval_admission": "HOLD",
+  "reviewed_at_utc": "2026-11-06T13:40:52.487028+00:00",
+  "reviewer": "Codex technical evidence review under researcher delegation; not a new human sign-off",
+  "rights_evidence": [
+    "https://www.addgene.org/terms-of-use/",
+    "https://help.addgene.org/hc/en-us/articles/44210206209549-Are-there-any-requirements-for-viewing-plasmid-sequence-data-on-the-Addgene-website"
+  ],
+  "rights_review": "General terms permit informational noncommercial use subject to notices and exceptions. Material MTAs and reporter licenses do not alone settle rights for an unseen full sequence file. No finding of blanket prohibition; no exact-file hosting approval asserted.",
+  "rrid": "Addgene_21073",
+  "schema_version": "pilot-exact-source-review-1",
+  "sequence_index_categories": [
+    "Addgene-Verified Full Sequences (1)"
+  ],
+  "sequence_length_nt": null,
+  "source_admitted_for_annotation_audit": false,
+  "source_file_version": null,
+  "source_url": "https://www.addgene.org/21073/",
+  "status": "HOLD"
+}

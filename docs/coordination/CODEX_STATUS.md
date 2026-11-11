@@ -1,5 +1,89 @@
 # Codex implementation handoff
 
+## Pilot execution — 2026-11-06
+
+Branch: `codex/pilot-verified-subset-2026-11-06`. Base main:
+`4352009703dcd1825e181d203edf6088c882182e`, including merged researcher sign-off
+PR #5. **One source admitted for E1; nine exact-source HOLDs; zero independent
+references or retrieval scores.** The researcher's approval of all ten remains
+valid. The older handoff below is historical; its zero-source/no-parsing state
+is superseded by this execution. The original inventory, frozen protocols,
+discovery queue and researcher sign-off are preserved as historical evidence.
+
+The [release manifest](../../data/manifests/pilot_execution_2026_11_06/release.json)
+and ten per-record manifests are the current technical admission ledger.
+Downloaded complete NCBI pBR322 J01749.1: 24,806 original bytes, 4,361 nt,
+50 features, three documented CDSs. Original-file SHA-256:
+`7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6`.
+The accession version identifies the sequence revision; retrieval date/checksum
+identify the complete annotated-file snapshot. All three provided translations
+agree with their exact source coordinates, frame and table.
+
+The [source review](../../data/manifests/pilot_execution_2026_11_06/records/ncbi-J01749.1.json)
+documents all feature locations/types, original CDS evidence, benign cloning
+context including antibiotic markers, reviewer/date and private-copy rights.
+NCBI's molecular-data policy imposes no NCBI distribution restriction and no
+conflicting notice was identified in this exact file. Attribution to NCBI,
+Will Gilbert and the original references is retained, alongside NCBI's
+submitter-IP caveat. This is a T02 v1.1 private-project hosting determination,
+not a claim of CC0, patent clearance or permission for public publication.
+
+All nine Addgene public catalogues and sequence indexes returned HTTP 200;
+every sequence index explicitly requires login to download/copy sequences.
+Each lists a full-file category, but none was downloaded or checksum/annotation
+verified. Public metadata hashes are clearly labeled HTML response hashes,
+never biological-source checksums. No login gate was bypassed, credentials used,
+or generic backbone/insert accession/partial read substituted. General
+noncommercial-use terms were inspected; exact-file notices and hosting scope
+remain unverified. See the [access log](../../data/manifests/pilot_execution_2026_11_06/source_access.json).
+
+| Execution | Actual outcome |
+| --- | --- |
+| E1, unchanged v1.1 implementation | `ok`; one well-annotated backbone-heavy source; 48/48 substantive features and qualifiers preserved, excluding two source bookkeeping features; 3/3 validated source translations; zero invention/parser failures |
+| E2 | `blocked_insufficient_parent_panel`; three parsed CDSs, zero reviewed family-eligible units and zero independent references; no model calls/retrieval scores |
+| E3 | `blocked_insufficient_panel`; no independent positive/competing-family panel; no alignment/model scores; no strict relatedness policy invented |
+| E4 | `blocked_no_measurements`; consumed empty E3 measurements; no cost/quality plot or ranking |
+| Main parsing/regression suite | 187 tests: 182 passed, five optional skips, zero failures/errors; software fixtures are not biological results |
+| Offline ESM-2 preflight | Existing cached snapshot `c731040fcd8d73dceaa04b0a8e6329b345b0f5df` loaded on CPU; no forward pass; weight SHA-256 `24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189` |
+
+E1 measures agreement with one source's annotations, not biological correctness,
+protein function, model accuracy or generalization. Abstention/uncertainty
+denominators are zero here, so those rates remain null. E1's report field
+`scientific_scores_produced: true` means source-annotation agreement only, as
+its `evidence_class` states; no pretrained inference occurred.
+
+The isolated parser environment has Python 3.14.7, Biopython 1.86, NumPy 2.5.4
+and psutil 7.1.3. Four optional PyTorch adapter tests and one Matplotlib fixture
+were skipped. The separate existing global model environment has PyTorch
+2.15.0+cpu and Transformers 5.22.0, no ESM SDK and no CUDA. ESM-C was not
+validated; no new checkpoint downloaded. ESM-2 availability cannot supply
+missing scientific labels/references.
+
+[Run evidence](../runs/pilot-2026-11-06/README.md) includes original sequence-free
+reports, freezes, resources, test log, artifact digests and an attempt ledger.
+Parser/evaluation modules and protocols are unchanged from base main; original
+reports retain source-code hashes and dirty working-tree status from the added
+dataset/configuration. Generated T03 objects, qualifier sidecars and protein
+exports remain in ignored local results.
+
+The [independence review](../../data/manifests/pilot_execution_2026_11_06/independence_review.json)
+places all three pBR322 proteins in one verified same-parent exclusion group.
+Standalone protein accessions from this plasmid would be source copies, not
+independent references. Product names are retained without guessing homology
+labels. Addgene reporter/backbone linkages remain review flags, not validated
+protein clusters. No relatedness cutoff was invented. Remaining decisions:
+legitimate Addgene access and exact-file rights; evidence-supported family
+definitions/independent positive and competing references; justified pre-score
+strict E3 exclusions. See [DECISIONS_NEEDED.md](DECISIONS_NEEDED.md).
+
+Only `data/approved_public/J01749.1.gb` is allowlisted, with byte-preserving Git
+attributes. No raw directory, biological extension, weights, embeddings or
+credentials are broadly enabled. PR #1 was inspected read-only at `7b15f02`;
+its code/data/results were neither modified nor imported as fresh pilot evidence.
+The new branch is for review; no merge is performed.
+
+## Previous implementation handoff (historical)
+
 ## Final integration and publication
 
 UTC timestamp: 2026-11-06T03:40:52Z.

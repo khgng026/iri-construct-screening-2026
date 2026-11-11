@@ -1,0 +1,42 @@
+{
+  "frozen_at_utc": "2026-11-06T13:40:53.061369+00:00",
+  "protocol": {
+    "base_protocol": "docs/week1/T07_benchmark_protocol.md",
+    "base_protocol_version": "1.0",
+    "bootstrap_replicates": 2000,
+    "budget_scope": "five total references per parent or matched query; never five per CDS",
+    "design_status": "design_frozen_pending_admission",
+    "extension": "E1",
+    "frozen_design_on": "2026-11-05",
+    "hypothesis": "Annotation completeness limits valid model-input coverage; uncertainty should cause justified abstention.",
+    "max_residues": 1022,
+    "measurement_policy": {
+      "cache_policy": "exact-sequence-within-run",
+      "missing_resources": "null, never invented",
+      "model_execution": "sequential",
+      "precision": "float32",
+      "timing_scope": "cold load separately from inference/pooling/host transfer"
+    },
+    "min_independent_clusters": 8,
+    "model_revisions": {
+      "esm2": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+      "esmc": "main"
+    },
+    "models": [],
+    "oversight_reference_sha": "4fd825691f5441f88fd0419996689f8bb76a98d9",
+    "protocol_id": "iri-real-construct-extensions",
+    "protocol_version": "1.1",
+    "quality_strata": [
+      "well_annotated",
+      "partially_annotated",
+      "annotation_limited"
+    ],
+    "retrieval_budget": 5,
+    "schema_version": "t07-extensions-1",
+    "seed": 20261105,
+    "source_admission": "T02 exact-record gates plus independently reviewed family evidence; selection approval is not source approval",
+    "top_k": 5
+  },
+  "protocol_file_sha256": "55f0fe95360e1b4e8ee87b304b3414f25e1a799fa1ebfea0928c4a77b71f7bb7",
+  "stage": "before source admission and annotation-quality audit"
+}

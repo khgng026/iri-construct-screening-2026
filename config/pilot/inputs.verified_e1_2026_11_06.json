@@ -1,0 +1,19 @@
+{
+  "evidence_kind": "admitted_research",
+  "families": [],
+  "note": "No independent family labels or reference proteins admitted. E2/E3 runs are gate diagnostics and must produce no retrieval scores. Source product names do not establish reviewed homology classes.",
+  "records": [
+    {
+      "format": "genbank",
+      "input_id": "pbr322",
+      "molecule_type": "dna",
+      "path": "../../data/approved_public/J01749.1.gb",
+      "record_id": "ncbi-J01749.1",
+      "sequence_id": "J01749.1"
+    }
+  ],
+  "reference_ids": [],
+  "review_manifest": "../../data/manifests/pilot_execution_2026_11_06/admitted_e1_sources.csv",
+  "schema_version": "t05-inputs-1",
+  "status": "admitted_for_E1_only"
+}

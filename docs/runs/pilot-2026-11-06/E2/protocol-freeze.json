@@ -1,0 +1,42 @@
+{
+  "protocol": {
+    "base_protocol": "docs/week1/T07_benchmark_protocol.md",
+    "base_protocol_version": "1.0",
+    "baseline": "longest eligible annotated translation; stable unit ID tie-break",
+    "bootstrap_replicates": 2000,
+    "budget_scope": "five total references per parent or matched query; never five per CDS",
+    "design_status": "design_frozen_pending_admission",
+    "expected_families": "frozen reviewed documented family sets per parent; full and independently supported denominators reported separately",
+    "extension": "E2",
+    "frozen_design_on": "2026-11-05",
+    "hypothesis": "Representing every eligible documented CDS improves parent family coverage over one longest eligible CDS, without implying better per-unit accuracy.",
+    "max_residues": 1022,
+    "measurement_policy": {
+      "cache_policy": "exact-sequence-within-run",
+      "missing_resources": "null, never invented",
+      "model_execution": "sequential",
+      "precision": "float32",
+      "timing_scope": "cold load separately from inference/pooling/host transfer"
+    },
+    "merge_rule": "max score per reference before deduplication and total top five",
+    "min_independent_clusters": 8,
+    "model_revisions": {
+      "esm2": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+      "esmc": "main"
+    },
+    "models": [
+      "esm2"
+    ],
+    "oversight_reference_sha": "4fd825691f5441f88fd0419996689f8bb76a98d9",
+    "protocol_id": "iri-real-construct-extensions",
+    "protocol_version": "1.1",
+    "retrieval_budget": 5,
+    "schema_version": "t07-extensions-1",
+    "seed": 20261105,
+    "source_admission": "T02 exact-record gates plus independently reviewed family evidence; selection approval is not source approval",
+    "top_k": 5
+  },
+  "protocol_file_sha256": "2b02e4fa5b472fc87e11a5fdb01cede84a5363746ea89e85f9807cdfa8dd8153",
+  "protocol_sha256": "58d426e9714f79918fe0191eac1f585dd77e75e5a8085135920b6658c89b6d19",
+  "stage": "before source admission and any scoring"
+}
