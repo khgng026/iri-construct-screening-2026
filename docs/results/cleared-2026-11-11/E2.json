@@ -622,7 +622,7 @@
         "--reuse-e3",
         "results/cleared-2026-11-11/E3/run01",
         "--output",
-        "results/cleared-2026-11-11/E2/reuse01"
+        "results/cleared-2026-11-11/E2/reuse-verified"
       ],
       "exit_code": 0,
       "gpu_seconds": null,
@@ -631,12 +631,12 @@
         "wall_seconds": 1800
       },
       "monetary_cost": null,
-      "os_peak_process_rss_bytes": 36188160,
-      "process_cpu_seconds": 1.529099,
+      "os_peak_process_rss_bytes": 36241408,
+      "process_cpu_seconds": 1.719794,
       "rss_policy": "20ms sampling with termination; OS high-water mark checked after exit",
-      "sampled_peak_process_rss_bytes": 36261888,
+      "sampled_peak_process_rss_bytes": 36315136,
       "stop_reason": null,
-      "wall_seconds": 1.4063661110012617
+      "wall_seconds": 1.639977798997279
     }
   },
   "stage": "E2",
