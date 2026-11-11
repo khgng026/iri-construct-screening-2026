@@ -1,0 +1,41 @@
+{
+  "base_protocol": "docs/week1/T07_benchmark_protocol.md",
+  "base_protocol_version": "1.0",
+  "bootstrap_replicates": 2000,
+  "budget_scope": "five total references per parent or matched query; never five per CDS",
+  "derived_from_protocol_file": "config/extensions/E1.json",
+  "derived_from_protocol_sha256": "55f0fe95360e1b4e8ee87b304b3414f25e1a799fa1ebfea0928c4a77b71f7bb7",
+  "design_status": "design_frozen_pending_admission",
+  "extension": "E1",
+  "frozen_design_on": "2026-11-05",
+  "hypothesis": "Annotation completeness limits valid model-input coverage; uncertainty should cause justified abstention.",
+  "max_residues": 1022,
+  "measurement_policy": {
+    "cache_policy": "exact-sequence-within-run",
+    "missing_resources": "null, never invented",
+    "model_execution": "sequential",
+    "precision": "float32",
+    "timing_scope": "cold load separately from inference/pooling/host transfer"
+  },
+  "min_independent_clusters": 8,
+  "model_revisions": {
+    "esm2": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "esmc": "7f10b20ae75017b2dbc884070e03434515709a8d"
+  },
+  "models": [],
+  "oversight_reference_sha": "4fd825691f5441f88fd0419996689f8bb76a98d9",
+  "prospective_program_id": "iri-week2-review-proposal-2026-11-11",
+  "protocol_id": "iri-real-construct-extensions",
+  "protocol_version": "1.1",
+  "quality_strata": [
+    "well_annotated",
+    "partially_annotated",
+    "annotation_limited"
+  ],
+  "retrieval_budget": 5,
+  "schema_version": "t07-extensions-1",
+  "scientific_execution_clearance": "pending_separate_ChatGPT_review",
+  "seed": 20261105,
+  "source_admission": "T02 exact-record gates plus independently reviewed family evidence; selection approval is not source approval",
+  "top_k": 5
+}

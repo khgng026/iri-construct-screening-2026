@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "accession": "P42212",
+      "original_json_sha256": "bad091bb0e7eee638b73c88238d5c7ce6f469a126d5074915115e811d2f21039",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "Q9U6Y8",
+      "original_json_sha256": "1a7399f9b87685cdf69b5b885ac3acbce44d139fac6df7bcc1ab289306a8e074",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "Q8ISF8",
+      "original_json_sha256": "c27eb2c56a5378a57d2de2616d1d18ab8cb4a6182619f717f54250f832da3638",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "Q9U6Y4",
+      "original_json_sha256": "9224eb5fefc1cd0bd6834ae2079952a84a50197d650c685a8d59fab5823f1cef",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "Q9U6Y3",
+      "original_json_sha256": "d3cd73591835b5b6dc158c6543fecf87ad9fefc2ef9e3da15504e3296e96eb12",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "Q9U6Y6",
+      "original_json_sha256": "a14008d840a489d4a32c4b22275fdc48fe41b42b9fa0e6c77af57360446f030f",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "P83690",
+      "original_json_sha256": "c0a15c66b078570a99c7beed3d7bbb8b0394df51e98971ace3fcd986f37ceb37",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "P08659",
+      "original_json_sha256": "20da1035e697f9af9b15600d307f3904e87cb2bb888b4b3531dbd32b59e91166",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "Q26304",
+      "original_json_sha256": "03e9f7bce6662cc2a310b5a247c56eafc77a0899b76702381337b213e5b762fd",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "P13129",
+      "original_json_sha256": "23a3614c684047080e428c512addf48bc47864783822d0709656b5b6f1fa4341",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "Q01158",
+      "original_json_sha256": "c1295f88339857537fe5c73d65b5fb5de5d651c43c27227b16984e8875eb0af4",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "Q27757",
+      "original_json_sha256": "9c2b825cdb2ab77c506c6865e0d13089b844645c8b8c53457ab23bda062c504e",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "P27652",
+      "original_json_sha256": "98ce02c9e11cda656dbd96ab2aff46fbd7585bc45c9153537271dc2df635f27d",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "P03962",
+      "original_json_sha256": "c6b9ddec19e7fa9b957bb9f6abcc2f65ab4863ce84bed0e09f1309426740d52c",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "P08244",
+      "original_json_sha256": "9998b08583673185fb52fc790e60b70b3926fe5bed7795710b4298bfbd42b043",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "P25971",
+      "original_json_sha256": "d36ebc825c58801ee0cd74f738e5afe0b2c9a173482fbb1fcc12638ab7ce4e9d",
+      "status": "validated_reference_proposal"
+    },
+    {
+      "accession": "O26232",
+      "original_json_sha256": "561172d4ac4b94f38f9e57e050f6a0d57c0bf1ff1b4c8995b2a0d345362ce000",
+      "status": "validated_reference_proposal"
+    }
+  ],
+  "scoring_performed": false
+}

@@ -1,0 +1,212 @@
+{
+  "family_definitions": "src/iri_constructs/reference_dataset.py:FAMILY_RULES",
+  "references": [
+    {
+      "accession": "P42212",
+      "ancestor_anchor": true,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-6100",
+      "proposed_family": "gfp_like_homologs",
+      "taxon_id": 6100
+    },
+    {
+      "accession": "Q9U6Y8",
+      "ancestor_anchor": true,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-86600",
+      "proposed_family": "gfp_like_homologs",
+      "taxon_id": 86600
+    },
+    {
+      "accession": "Q8ISF8",
+      "ancestor_anchor": false,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-6118",
+      "proposed_family": "gfp_like_homologs",
+      "taxon_id": 6118
+    },
+    {
+      "accession": "Q9U6Y4",
+      "ancestor_anchor": false,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-105402",
+      "proposed_family": "gfp_like_homologs",
+      "taxon_id": 105402
+    },
+    {
+      "accession": "Q9U6Y3",
+      "ancestor_anchor": false,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-86521",
+      "proposed_family": "gfp_like_homologs",
+      "taxon_id": 86521
+    },
+    {
+      "accession": "Q9U6Y6",
+      "ancestor_anchor": false,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-105399",
+      "proposed_family": "gfp_like_homologs",
+      "taxon_id": 105399
+    },
+    {
+      "accession": "P83690",
+      "ancestor_anchor": false,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-105610",
+      "proposed_family": "gfp_like_homologs",
+      "taxon_id": 105610
+    },
+    {
+      "accession": "P08659",
+      "ancestor_anchor": true,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-7054",
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "taxon_id": 7054
+    },
+    {
+      "accession": "Q26304",
+      "ancestor_anchor": false,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-27446",
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "taxon_id": 27446
+    },
+    {
+      "accession": "P13129",
+      "ancestor_anchor": false,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-7051",
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "taxon_id": 7051
+    },
+    {
+      "accession": "Q01158",
+      "ancestor_anchor": false,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-7052",
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "taxon_id": 7052
+    },
+    {
+      "accession": "Q27757",
+      "ancestor_anchor": false,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-1710587",
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "taxon_id": 1710587
+    },
+    {
+      "accession": "P27652",
+      "ancestor_anchor": true,
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "lineage_group": "natural-origin-taxon-6136",
+      "proposed_family": "renilla_luciferase_lineage",
+      "taxon_id": 6136
+    },
+    {
+      "accession": "P03962",
+      "ancestor_anchor": true,
+      "independence_caveat": "Ordinary pyrimidine-biosynthesis enzyme from a nonpathogenic laboratory strain or methanogenic archaeon. S. cerevisiae URA3 ancestor is excluded from the yeast-vector query; other natural sources are proposed positive homologs, not evidence of evolutionary/pretraining independence.",
+      "lineage_group": "natural-origin-taxon-559292",
+      "proposed_family": "omp_decarboxylase_homologs",
+      "taxon_id": 559292
+    },
+    {
+      "accession": "P08244",
+      "ancestor_anchor": false,
+      "independence_caveat": "Ordinary pyrimidine-biosynthesis enzyme from a nonpathogenic laboratory strain or methanogenic archaeon. S. cerevisiae URA3 ancestor is excluded from the yeast-vector query; other natural sources are proposed positive homologs, not evidence of evolutionary/pretraining independence.",
+      "lineage_group": "natural-origin-taxon-83333",
+      "proposed_family": "omp_decarboxylase_homologs",
+      "taxon_id": 83333
+    },
+    {
+      "accession": "P25971",
+      "ancestor_anchor": false,
+      "independence_caveat": "Ordinary pyrimidine-biosynthesis enzyme from a nonpathogenic laboratory strain or methanogenic archaeon. S. cerevisiae URA3 ancestor is excluded from the yeast-vector query; other natural sources are proposed positive homologs, not evidence of evolutionary/pretraining independence.",
+      "lineage_group": "natural-origin-taxon-224308",
+      "proposed_family": "omp_decarboxylase_homologs",
+      "taxon_id": 224308
+    },
+    {
+      "accession": "O26232",
+      "ancestor_anchor": false,
+      "independence_caveat": "Ordinary pyrimidine-biosynthesis enzyme from a nonpathogenic laboratory strain or methanogenic archaeon. S. cerevisiae URA3 ancestor is excluded from the yeast-vector query; other natural sources are proposed positive homologs, not evidence of evolutionary/pretraining independence.",
+      "lineage_group": "natural-origin-taxon-187420",
+      "proposed_family": "omp_decarboxylase_homologs",
+      "taxon_id": 187420
+    }
+  ],
+  "schema_version": "week2-reference-catalogue-specification-1",
+  "selection_basis": "Small prospective natural reporter-homolog catalogue. No hazardous families, source duplicates, model outcomes, or identity-tuned thresholds used for selection.",
+  "source_rights_evidence": {
+    "gfp-interpro": {
+      "entry_name": "Green fluorescent protein, GFP",
+      "entry_type": "family",
+      "literature": {
+        "PUB00020644": {
+          "DOI_URL": "http://dx.doi.org/10.1002/bies.10154",
+          "ISBN": null,
+          "ISO_journal": "Bioessays",
+          "PMID": 12325128,
+          "URL": null,
+          "authors": [
+            "Matz MV",
+            "Lukyanov KA",
+            "Lukyanov SA."
+          ],
+          "issue": "10",
+          "medline_journal": "Bioessays",
+          "raw_pages": "953-9",
+          "title": "Family of the green fluorescent protein: journey to the end of the rainbow.",
+          "volume": "24",
+          "year": 2002
+        },
+        "PUB00020645": {
+          "DOI_URL": "http://dx.doi.org/10.1074/jbc.C000338200",
+          "ISBN": null,
+          "ISO_journal": "J. Biol. Chem.",
+          "PMID": 10852900,
+          "URL": null,
+          "authors": [
+            "Lukyanov KA",
+            "Fradkov AF",
+            "Gurskaya NG",
+            "Matz MV",
+            "Labas YA",
+            "Savitsky AP",
+            "Markelov ML",
+            "Zaraisky AG",
+            "Zhao X",
+            "Fang Y",
+            "Tan W",
+            "Lukyanov SA."
+          ],
+          "issue": "34",
+          "medline_journal": "J Biol Chem",
+          "raw_pages": "25879-82",
+          "title": "Natural animal coloration can Be determined by a nonfluorescent green fluorescent protein homolog.",
+          "volume": "275",
+          "year": 2000
+        }
+      },
+      "original_response_sha256": "5fe2ae3028ac70a63aeef25461f0d555256e102495343517185db52dc1802832",
+      "retrieved_at_utc": "2026-11-11T03:44:16.107475+00:00",
+      "scientific_basis": "Curated family description explicitly includes fluorescent colors and nonfluorescent homologs. The family is not a shared fluorescence-function class.",
+      "source_url": "https://www.ebi.ac.uk/interpro/api/entry/InterPro/IPR000786/"
+    },
+    "uniprot-license": {
+      "attribution": "UniProt Consortium; exact entry accession/version and source URL retained for each record; https://www.uniprot.org/help/publications",
+      "license_id": "CC-BY-4.0",
+      "original_response_sha256": "5960c22bf17f22286504b927dbb3ca41713c571ed91a10fe7a88ddd964b416ce",
+      "proposal": "Permits research analysis and private-project source copies with attribution; no new public raw-source release is made by this work.",
+      "retrieved_at_utc": "2026-11-11T03:44:15.034725+00:00",
+      "scope": "All copyrightable parts of UniProt databases; attribution required. Provider disclaims correctness and does not provide unrestricted patent/other-rights permission.",
+      "source_policy_last_modified": "2024-12-18",
+      "source_url": "https://rest.uniprot.org/help/license"
+    }
+  },
+  "source_storage": "Original UniProt JSON and source policy originals remain in ignored private results/week2/references; manifests contain hashes and attribution only.",
+  "status": "PROPOSAL_NOT_SCIENTIFIC_CLEARANCE"
+}

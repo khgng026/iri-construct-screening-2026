@@ -1,0 +1,2601 @@
+{
+  "catalogue_spec_sha256": "ac5cf6658fc0ed4fbc00f6a1ff48909127fab1b05e10e293b74e17f053a130fe",
+  "eligibility_proposals": [
+    {
+      "budget_saturated": false,
+      "competing_count": 12,
+      "competing_reference_ids_proposed": [
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P27652",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "eligible_count": 15,
+      "eligible_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "parent_id": "ncbi-AF298787.1",
+      "positive_count": 3,
+      "positive_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P08244",
+        "uniprot-P25971"
+      ],
+      "proposed_family": "omp_decarboxylase_homologs",
+      "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207",
+      "removed_references": {
+        "uniprot-P03962": [
+          "shared_origin_or_vector_lineage",
+          "documented_query_ancestor"
+        ],
+        "uniprot-P42212": [
+          "documented_query_ancestor"
+        ]
+      },
+      "scientific_clearance": false,
+      "scoring_performed": false,
+      "support_status": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "top_k": 5
+    },
+    {
+      "budget_saturated": false,
+      "competing_count": 9,
+      "competing_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757"
+      ],
+      "eligible_count": 15,
+      "eligible_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "parent_id": "ncbi-AF298787.1",
+      "positive_count": 6,
+      "positive_reference_ids_proposed": [
+        "uniprot-P83690",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "proposed_family": "gfp_like_homologs",
+      "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714",
+      "removed_references": {
+        "uniprot-P03962": [
+          "documented_query_ancestor"
+        ],
+        "uniprot-P42212": [
+          "shared_origin_or_vector_lineage",
+          "documented_query_ancestor"
+        ]
+      },
+      "scientific_clearance": false,
+      "scoring_performed": false,
+      "support_status": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "top_k": 5
+    },
+    {
+      "budget_saturated": false,
+      "competing_count": 16,
+      "competing_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P42212",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "eligible_count": 16,
+      "eligible_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P42212",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "parent_id": "ncbi-AY864931.1",
+      "positive_count": 0,
+      "positive_reference_ids_proposed": [],
+      "proposed_family": "renilla_luciferase_lineage",
+      "query_id": "ncbi-AY864931.1/ncbi-AY864931.1-u-cfa1199e479fa95e41ed",
+      "removed_references": {
+        "uniprot-P27652": [
+          "shared_origin_or_vector_lineage",
+          "documented_query_ancestor"
+        ]
+      },
+      "scientific_clearance": false,
+      "scoring_performed": false,
+      "support_status": "HOLD_NO_INDEPENDENT_POSITIVE_OR_COMPETITOR",
+      "top_k": 5
+    },
+    {
+      "budget_saturated": false,
+      "competing_count": 12,
+      "competing_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-P42212",
+        "uniprot-P83690",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "eligible_count": 16,
+      "eligible_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-P42212",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "parent_id": "ncbi-U47295.2",
+      "positive_count": 4,
+      "positive_reference_ids_proposed": [
+        "uniprot-P13129",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757"
+      ],
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "query_id": "ncbi-U47295.2/ncbi-U47295.2-u-b2052ad5b0d017c1f14c",
+      "removed_references": {
+        "uniprot-P08659": [
+          "shared_origin_or_vector_lineage",
+          "documented_query_ancestor"
+        ]
+      },
+      "scientific_clearance": false,
+      "scoring_performed": false,
+      "support_status": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "top_k": 5
+    },
+    {
+      "budget_saturated": false,
+      "competing_count": 10,
+      "competing_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757"
+      ],
+      "eligible_count": 16,
+      "eligible_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "parent_id": "ncbi-U55762.1",
+      "positive_count": 6,
+      "positive_reference_ids_proposed": [
+        "uniprot-P83690",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "proposed_family": "gfp_like_homologs",
+      "query_id": "ncbi-U55762.1/ncbi-U55762.1-u-19863cb9a9722e562f34",
+      "removed_references": {
+        "uniprot-P42212": [
+          "shared_origin_or_vector_lineage",
+          "documented_query_ancestor"
+        ]
+      },
+      "scientific_clearance": false,
+      "scoring_performed": false,
+      "support_status": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "top_k": 5
+    }
+  ],
+  "inference_executed": false,
+  "limitations": [
+    "This is an evidence proposal, not a scoring panel accepted by the experimental runners.",
+    "Species/source differences do not prove evolutionary, pretraining or statistical independence.",
+    "Families denote proposed homology groups, not equivalent biochemical activity or fluorescence color.",
+    "Natural ancestor proteins are excluded from their engineered derivative query lineages.",
+    "T02 rights/source admission and ChatGPT delegated scientific clearance remain separate gates."
+  ],
+  "model_residue_cap": 1022,
+  "parent_component_coverage": {
+    "ncbi-AF298787.1": {
+      "full_documented_family_set_status": "HOLD_unreviewed_component_families",
+      "proposed_eligible_longest_translation_aa": 267,
+      "proposed_supported_component_count": 2,
+      "proposed_supported_distinct_families": [
+        "gfp_like_homologs",
+        "omp_decarboxylase_homologs"
+      ],
+      "scientific_clearance": false,
+      "source_documented_cds_count": 3,
+      "source_longest_translation_aa": 286,
+      "unsupported_components": [
+        {
+          "length_aa": 286,
+          "product": "ampicillin resistance protein",
+          "protein_accession_version": "AAG34530.1",
+          "reason": "No supported family/reference proposal; preserved outside the supported-subset denominator",
+          "translation_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700"
+        }
+      ],
+      "validated_source_translation_count": 3
+    },
+    "ncbi-AY864931.1": {
+      "full_documented_family_set_status": "HOLD_unreviewed_component_families",
+      "proposed_eligible_longest_translation_aa": 311,
+      "proposed_supported_component_count": 1,
+      "proposed_supported_distinct_families": [
+        "renilla_luciferase_lineage"
+      ],
+      "scientific_clearance": false,
+      "source_documented_cds_count": 3,
+      "source_longest_translation_aa": 345,
+      "unsupported_components": [
+        {
+          "length_aa": 345,
+          "product": "synthetic hygromycin resistance protein",
+          "protein_accession_version": "AAW66992.1",
+          "reason": "No supported family/reference proposal; preserved outside the supported-subset denominator",
+          "translation_sha256": "1616972fc762e99a5c350b9ba28997edb65d3fc4a0043f6aa96187699eaffa3a"
+        },
+        {
+          "length_aa": 286,
+          "product": "synthetic beta-lactamase",
+          "protein_accession_version": "AAW66993.1",
+          "reason": "No supported family/reference proposal; preserved outside the supported-subset denominator",
+          "translation_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700"
+        }
+      ],
+      "validated_source_translation_count": 3
+    },
+    "ncbi-U47295.2": {
+      "full_documented_family_set_status": "HOLD_unreviewed_component_families",
+      "proposed_eligible_longest_translation_aa": 550,
+      "proposed_supported_component_count": 1,
+      "proposed_supported_distinct_families": [
+        "coleopteran_luciferase_homologs"
+      ],
+      "scientific_clearance": false,
+      "source_documented_cds_count": 2,
+      "source_longest_translation_aa": 550,
+      "unsupported_components": [
+        {
+          "length_aa": 286,
+          "product": "beta-lactamase",
+          "protein_accession_version": "AAA89083.1",
+          "reason": "No supported family/reference proposal; preserved outside the supported-subset denominator",
+          "translation_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700"
+        }
+      ],
+      "validated_source_translation_count": 2
+    },
+    "ncbi-U55762.1": {
+      "full_documented_family_set_status": "HOLD_unreviewed_component_families",
+      "proposed_eligible_longest_translation_aa": 239,
+      "proposed_supported_component_count": 1,
+      "proposed_supported_distinct_families": [
+        "gfp_like_homologs"
+      ],
+      "scientific_clearance": false,
+      "source_documented_cds_count": 2,
+      "source_longest_translation_aa": 264,
+      "unsupported_components": [
+        {
+          "length_aa": 264,
+          "product": "neomycin phosphotransferase",
+          "protein_accession_version": "AAB02575.1",
+          "reason": "No supported family/reference proposal; preserved outside the supported-subset denominator",
+          "translation_sha256": "0afa388d22fe22895c0561fcb0566d89c4f2f9368842f2157ec283616f08cb91"
+        }
+      ],
+      "validated_source_translation_count": 2
+    }
+  },
+  "proposal_sha256": "f51457db5f7c991d58a37b11dc700c7a63a5be06cef0dccb870b4620360339f3",
+  "query_proposals": [
+    {
+      "all_parent_component_sha256": [
+        "16ffd3dfd8480989df378d9161f820f099b3f05b38030190194acaf25252a822",
+        "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+        "dc215e92b61ef5c25772ef4e52fee03b87d1f4550590aa6e036b0823e5cfca75"
+      ],
+      "family_evidence": {
+        "basis": "Exact source AF298787.1 annotates URA3/orotidine-5-prime-phosphate decarboxylase and supplies a validated267-aa translation. Reviewed P03962 independently identifies S.cerevisiaeURA3 as the PF00215/OMP-decarboxylase molecular family; K12,B.subtilis168 and methanogenic archaeal homologs have the same reviewed family evidence. Yeast source anchor P03962 is excluded. This is a proposed biological assignment requiring review, not proof from growth-selection phenotype.",
+        "decision_status": "Proposed from documented source protein identity and external curated molecular-family evidence; requires actual delegated scientific review. No model output or tuned identity cutoff used.",
+        "supporting_sources": [
+          "https://www.uniprot.org/uniprotkb/P03962/entry",
+          "https://www.ebi.ac.uk/interpro/entry/pfam/PF00215/"
+        ]
+      },
+      "family_panel_approved": false,
+      "feature_ids": [
+        "ncbi-AF298787.1-f-036e9d3cdc9d09cdb207"
+      ],
+      "known_ancestor_accessions": [
+        "P03962",
+        "P42212"
+      ],
+      "length_aa": 267,
+      "lineage_group": "natural-origin-taxon-559292",
+      "parent_id": "ncbi-AF298787.1",
+      "proposal_role": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "proposed_family": "omp_decarboxylase_homologs",
+      "protein_accession_version": "AAG34528.1",
+      "protein_sequence_sha256": "16ffd3dfd8480989df378d9161f820f099b3f05b38030190194acaf25252a822",
+      "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207",
+      "review_status": "PROPOSED_NOT_APPROVED",
+      "run_authorized": false,
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-AF298787.1",
+      "source_segments": [
+        {
+          "end0": 1220,
+          "start0": 416,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/AF298787.1"
+    },
+    {
+      "all_parent_component_sha256": [
+        "16ffd3dfd8480989df378d9161f820f099b3f05b38030190194acaf25252a822",
+        "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+        "dc215e92b61ef5c25772ef4e52fee03b87d1f4550590aa6e036b0823e5cfca75"
+      ],
+      "family_evidence": {
+        "basis": "Exact source AF298787.1 documents EGFP3 with a source-validated238-aa translation, distinct from its URA3 and AmpR components. Curated GFP homolog-family evidence as above applies to the proposed molecular class, not protein function. Parent-wide ancestor exclusions include both yeastURA3 and AequoreaGFP for every component condition.",
+        "decision_status": "Proposed from documented source protein identity and external curated molecular-family evidence; requires actual delegated scientific review. No model output or tuned identity cutoff used.",
+        "supporting_sources": [
+          "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000786/",
+          "https://www.uniprot.org/uniprotkb/P42212/entry",
+          "https://pubmed.ncbi.nlm.nih.gov/8707053/",
+          "https://pubmed.ncbi.nlm.nih.gov/12325128/"
+        ]
+      },
+      "family_panel_approved": false,
+      "feature_ids": [
+        "ncbi-AF298787.1-f-eb7f4497fb14c5bda714"
+      ],
+      "known_ancestor_accessions": [
+        "P03962",
+        "P42212"
+      ],
+      "length_aa": 238,
+      "lineage_group": "natural-origin-taxon-6100",
+      "parent_id": "ncbi-AF298787.1",
+      "proposal_role": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "proposed_family": "gfp_like_homologs",
+      "protein_accession_version": "AAG34529.1",
+      "protein_sequence_sha256": "dc215e92b61ef5c25772ef4e52fee03b87d1f4550590aa6e036b0823e5cfca75",
+      "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714",
+      "review_status": "PROPOSED_NOT_APPROVED",
+      "run_authorized": false,
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-AF298787.1",
+      "source_segments": [
+        {
+          "end0": 2987,
+          "start0": 2270,
+          "strand": -1
+        }
+      ],
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/AF298787.1"
+    },
+    {
+      "all_parent_component_sha256": [
+        "1616972fc762e99a5c350b9ba28997edb65d3fc4a0043f6aa96187699eaffa3a",
+        "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+        "4c6107c417e1304f537ade1d01c1037999badb3b7298d249165870266fbee498"
+      ],
+      "family_evidence": {
+        "basis": "Exact source AY864931.1 records hRluc and the original note Renilla luciferase. Curated P27652 independently documents the Renilla sequence/alpha-beta-hydrolase lineage; it is the source ancestor and is excluded, leaving no independent same-lineage positive in this bounded catalogue. This class is not merged into firefly luciferases solely because both emit light.",
+        "decision_status": "Proposed from documented source protein identity and external curated molecular-family evidence; requires actual delegated scientific review. No model output or tuned identity cutoff used.",
+        "supporting_sources": [
+          "https://www.uniprot.org/uniprotkb/P27652/entry",
+          "https://www.ncbi.nlm.nih.gov/nuccore/AY864931.1"
+        ]
+      },
+      "family_panel_approved": false,
+      "feature_ids": [
+        "ncbi-AY864931.1-f-cfa1199e479fa95e41ed"
+      ],
+      "known_ancestor_accessions": [
+        "P27652"
+      ],
+      "length_aa": 311,
+      "lineage_group": "natural-origin-taxon-6136",
+      "parent_id": "ncbi-AY864931.1",
+      "proposal_role": "HOLD_NO_INDEPENDENT_POSITIVE",
+      "proposed_family": "renilla_luciferase_lineage",
+      "protein_accession_version": "AAW66991.1",
+      "protein_sequence_sha256": "4c6107c417e1304f537ade1d01c1037999badb3b7298d249165870266fbee498",
+      "query_id": "ncbi-AY864931.1/ncbi-AY864931.1-u-cfa1199e479fa95e41ed",
+      "review_status": "PROPOSED_NOT_APPROVED",
+      "run_authorized": false,
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-AY864931.1",
+      "source_segments": [
+        {
+          "end0": 1035,
+          "start0": 99,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/AY864931.1"
+    },
+    {
+      "all_parent_component_sha256": [
+        "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+        "9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43"
+      ],
+      "family_evidence": {
+        "basis": "The exact U47295.2 source documents luc+ luciferase; its validated550-aa protein fingerprint equals the independently deposited AY738222.1 product explicitly annotated in a Firefly luciferase reporter vector. Curated P08659 anchors coleopteran luciferase homology and source lineage, and is excluded from positives. The other beetle luciferases require both reviewed protein identity, Coleoptera lineage and curated AMP-binding/Pfam evidence; AMP-binding domains alone do not define this family.",
+        "decision_status": "Proposed from documented source protein identity and external curated molecular-family evidence; requires actual delegated scientific review. No model output or tuned identity cutoff used.",
+        "supporting_sources": [
+          "https://www.uniprot.org/uniprotkb/P08659/entry",
+          "https://www.ncbi.nlm.nih.gov/nuccore/AY738222.1"
+        ]
+      },
+      "family_panel_approved": false,
+      "feature_ids": [
+        "ncbi-U47295.2-f-b2052ad5b0d017c1f14c"
+      ],
+      "known_ancestor_accessions": [
+        "P08659"
+      ],
+      "length_aa": 550,
+      "lineage_group": "natural-origin-taxon-7054",
+      "parent_id": "ncbi-U47295.2",
+      "proposal_role": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "protein_accession_version": "AAA89082.1",
+      "protein_sequence_sha256": "9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43",
+      "query_id": "ncbi-U47295.2/ncbi-U47295.2-u-b2052ad5b0d017c1f14c",
+      "review_status": "PROPOSED_NOT_APPROVED",
+      "run_authorized": false,
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-U47295.2",
+      "source_segments": [
+        {
+          "end0": 1740,
+          "start0": 87,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/U47295.2"
+    },
+    {
+      "all_parent_component_sha256": [
+        "0afa388d22fe22895c0561fcb0566d89c4f2f9368842f2157ec283616f08cb91",
+        "1041d381511cdf4e0dff50ee0f331e26d76b6d8bf0a95e4ad6a5ead87a0f2fc8"
+      ],
+      "family_evidence": {
+        "basis": "U55762.1 documents egfp/enhanced GFP and cites original GFP mutant study PMID8707053. Reviewed natural GFP source P42212 and InterProIPR000786 document the molecular family. GFP color/fluorescence function is not a family split. Aequorea GFP is an ancestry anchor, not an independent positive.",
+        "decision_status": "Proposed from documented source protein identity and external curated molecular-family evidence; requires actual delegated scientific review. No model output or tuned identity cutoff used.",
+        "supporting_sources": [
+          "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000786/",
+          "https://www.uniprot.org/uniprotkb/P42212/entry",
+          "https://pubmed.ncbi.nlm.nih.gov/8707053/",
+          "https://pubmed.ncbi.nlm.nih.gov/12325128/"
+        ]
+      },
+      "family_panel_approved": false,
+      "feature_ids": [
+        "ncbi-U55762.1-f-19863cb9a9722e562f34"
+      ],
+      "known_ancestor_accessions": [
+        "P42212"
+      ],
+      "length_aa": 239,
+      "lineage_group": "natural-origin-taxon-6100",
+      "parent_id": "ncbi-U55762.1",
+      "proposal_role": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "proposed_family": "gfp_like_homologs",
+      "protein_accession_version": "AAB02574.1",
+      "protein_sequence_sha256": "1041d381511cdf4e0dff50ee0f331e26d76b6d8bf0a95e4ad6a5ead87a0f2fc8",
+      "query_id": "ncbi-U55762.1/ncbi-U55762.1-u-19863cb9a9722e562f34",
+      "review_status": "PROPOSED_NOT_APPROVED",
+      "run_authorized": false,
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-U55762.1",
+      "source_segments": [
+        {
+          "end0": 1398,
+          "start0": 678,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "bf6a633fce38b828ed369628f45bed5755db623fac938772bcf9efd3f5f2481d",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/U55762.1"
+    }
+  ],
+  "query_specification_sha256": "6c8f05ef80282c60fa474207f2ef710d423c857fbdef526c0f2fb963de4fa188",
+  "reference_ids": [
+    "uniprot-O26232",
+    "uniprot-P03962",
+    "uniprot-P08244",
+    "uniprot-P08659",
+    "uniprot-P13129",
+    "uniprot-P25971",
+    "uniprot-P27652",
+    "uniprot-P42212",
+    "uniprot-P83690",
+    "uniprot-Q01158",
+    "uniprot-Q26304",
+    "uniprot-Q27757",
+    "uniprot-Q8ISF8",
+    "uniprot-Q9U6Y3",
+    "uniprot-Q9U6Y4",
+    "uniprot-Q9U6Y6",
+    "uniprot-Q9U6Y8"
+  ],
+  "references": [
+    {
+      "accession": "O26232",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/O26232/entry",
+      "entry_id": "PYRF_METTH",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 161,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1128/jb.179.22.7135-7155.1997",
+            "publication_date": "1997",
+            "pubmed_id": "9371463",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "title": "Complete genome sequence of Methanobacterium thermoautotrophicum deltaH: functional analysis and comparative genomics."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1107/s090744490000576x",
+            "publication_date": "2000",
+            "pubmed_id": "10930842",
+            "reference_positions": [
+              "CRYSTALLIZATION"
+            ],
+            "title": "Purification, crystallization and preliminary X-ray study of orotidine 5'-monophosphate decarboxylase."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1073/pnas.050417797",
+            "publication_date": "2000",
+            "pubmed_id": "10681441",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY OF NATIVE PROTEIN AND COMPLEX WITH 6-AZAUMP",
+              "SUBUNIT"
+            ],
+            "title": "Electrostatic stress in catalysis: structure and mechanism of the enzyme orotidine monophosphate decarboxylase."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/bi015758p",
+            "publication_date": "2002",
+            "pubmed_id": "11900543",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY OF MUTANTS ALA-42; GLY-70; ALA-70; ALA-72; ALA-70/ALA-72; ASN-75; ALA-127 AND ALA-185 IN COMPLEX WITH DIFFERENT LIGANDS",
+              "SUBUNIT"
+            ],
+            "title": "Mapping the active site-ligand interactions of orotidine 5'-monophosphate decarboxylase by crystallography."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1074/jbc.m202362200",
+            "publication_date": "2002",
+            "pubmed_id": "12011084",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY OF COMPLEXES WITH BMP; CMP; UMP; XMP AND OF MUTANT DELTA ALA-203 IN COMPLEX WITH 6-AZAUMP",
+              "SUBUNIT"
+            ],
+            "title": "Crystal structures of inhibitor complexes reveal an alternate binding mode in orotidine-5'-monophosphate decarboxylase."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/ja054865u",
+            "publication_date": "2005",
+            "pubmed_id": "16248642",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY OF COMPLEX WITH BMP",
+              "SUBUNIT"
+            ],
+            "title": "An unprecedented twist to ODCase catalytic activity."
+          }
+        ],
+        "interpro": [
+          "IPR001754",
+          "IPR011060",
+          "IPR013785",
+          "IPR014732",
+          "IPR018089",
+          "IPR047595"
+        ],
+        "pfam": [
+          "PF00215"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the OMP decarboxylase family. Type 1 subfamily"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "Standalone OMP-decarboxylase molecular homolog family, used here for a source-documented URA3 component; no inference from growth selection alone.",
+      "independence_caveat": "Ordinary pyrimidine-biosynthesis enzyme from a nonpathogenic laboratory strain or methanogenic archaeon. S. cerevisiae URA3 ancestor is excluded from the yeast-vector query; other natural sources are proposed positive homologs, not evidence of evolutionary/pretraining independence.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "1998-01-01",
+      "length_aa": 228,
+      "lineage_group": "natural-origin-taxon-187420",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Methanothermobacter thermautotrophicus (strain ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 100330 / Delta H)",
+      "original_json_sha256": "561172d4ac4b94f38f9e57e050f6a0d57c0bf1ff1b4c8995b2a0d345362ce000",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "omp_decarboxylase_homologs",
+      "protein_sequence_sha256": "a22d74520f1eb1b63ae30e06e8c00630ea7a8247b60817808c3cd9285df9253f",
+      "recommended_name": "Orotidine 5'-phosphate decarboxylase",
+      "reference_id": "uniprot-O26232",
+      "retrieved_at_utc": "2026-11-11T03:45:55.177639+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/O26232.json",
+      "taxon_id": 187420
+    },
+    {
+      "accession": "P03962",
+      "ancestor_anchor": true,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/P03962/entry",
+      "entry_id": "PYRF_YEAST",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 220,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/0378-1119(84)90172-0",
+            "publication_date": "1984",
+            "pubmed_id": "6092217",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+            ],
+            "title": "Structure and function of the yeast URA3 gene: expression in Escherichia coli."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/387s078",
+            "publication_date": "1997",
+            "pubmed_id": "9169868",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "title": "The nucleotide sequence of Saccharomyces cerevisiae chromosome V."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1534/g3.113.008995",
+            "publication_date": "2014",
+            "pubmed_id": "24374639",
+            "reference_positions": [
+              "GENOME REANNOTATION"
+            ],
+            "title": "The reference genome sequence of Saccharomyces cerevisiae: Then and now."
+          },
+          {
+            "citation_type": "submission",
+            "doi": null,
+            "publication_date": "JUN-1997",
+            "pubmed_id": null,
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+            ],
+            "title": null
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1128/mcb.6.4.1095-1101.1986",
+            "publication_date": "1986",
+            "pubmed_id": "3023868",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-73"
+            ],
+            "title": "Transcription terminator-like element within a Saccharomyces cerevisiae promoter region."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0022-2836(83)80193-4",
+            "publication_date": "1983",
+            "pubmed_id": "6315953",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-11"
+            ],
+            "title": "Structure and function of the yeast URA3 gene. Differentially regulated expression of hybrid beta-galactosidase from overlapping coding sequences in yeast."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1074/jbc.m011429200",
+            "publication_date": "2001",
+            "pubmed_id": "11278904",
+            "reference_positions": [
+              "MUTAGENESIS OF LYS-59; ASP-91; LYS-93; ASP-96 AND GLN-215"
+            ],
+            "title": "Dissecting a charged network at the active site of orotidine-5'-phosphate decarboxylase."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/nbt849",
+            "publication_date": "2003",
+            "pubmed_id": "12872131",
+            "reference_positions": [
+              "UBIQUITINATION [LARGE SCALE ANALYSIS] AT LYS-93; LYS-209 AND LYS-253",
+              "IDENTIFICATION BY MASS SPECTROMETRY"
+            ],
+            "title": "A proteomics approach to understanding protein ubiquitination."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1073/pnas.1210303109",
+            "publication_date": "2012",
+            "pubmed_id": "22814378",
+            "reference_positions": [
+              "ACETYLATION [LARGE SCALE ANALYSIS] AT SER-2",
+              "CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]",
+              "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+            ],
+            "title": "N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1073/pnas.030409797",
+            "publication_date": "2000",
+            "pubmed_id": "10681417",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY OF APOENZYME AND IN COMPLEX WITH TRANSITION STATE ANALOG"
+            ],
+            "title": "Anatomy of a proficient enzyme: the structure of orotidine 5'-monophosphate decarboxylase in the presence and absence of a potential transition state analog."
+          }
+        ],
+        "interpro": [
+          "IPR001754",
+          "IPR011060",
+          "IPR013785",
+          "IPR014732",
+          "IPR018089"
+        ],
+        "pfam": [
+          "PF00215"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the OMP decarboxylase family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "Standalone OMP-decarboxylase molecular homolog family, used here for a source-documented URA3 component; no inference from growth selection alone.",
+      "independence_caveat": "Ordinary pyrimidine-biosynthesis enzyme from a nonpathogenic laboratory strain or methanogenic archaeon. S. cerevisiae URA3 ancestor is excluded from the yeast-vector query; other natural sources are proposed positive homologs, not evidence of evolutionary/pretraining independence.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "1995-02-01",
+      "length_aa": 267,
+      "lineage_group": "natural-origin-taxon-559292",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c)",
+      "original_json_sha256": "c6b9ddec19e7fa9b957bb9f6abcc2f65ab4863ce84bed0e09f1309426740d52c",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "omp_decarboxylase_homologs",
+      "protein_sequence_sha256": "ce750d1bae7a71ff05c0a27b181fd3f8ddb48d850c6093dd191b58be512406cd",
+      "recommended_name": "Orotidine 5'-phosphate decarboxylase",
+      "reference_id": "uniprot-P03962",
+      "retrieved_at_utc": "2026-11-11T03:45:53.226725+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 2,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/P03962.json",
+      "taxon_id": 559292
+    },
+    {
+      "accession": "P08244",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/P08244/entry",
+      "entry_id": "PYRF_ECOLI",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 190,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0021-9258(18)61103-2",
+            "publication_date": "1987",
+            "pubmed_id": "2956254",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+            ],
+            "title": "Nucleotide sequence and characterization of the pyrF operon of Escherichia coli K12."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1093/dnares/3.6.363",
+            "publication_date": "1996",
+            "pubmed_id": "9097039",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "title": "A 570-kb DNA sequence of the Escherichia coli K-12 genome corresponding to the 28.0-40.1 min region on the linkage map."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1126/science.277.5331.1453",
+            "publication_date": "1997",
+            "pubmed_id": "9278503",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "title": "The complete genome sequence of Escherichia coli K-12."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/msb4100049",
+            "publication_date": "2006",
+            "pubmed_id": "16738553",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "title": "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/0092-8674(88)90033-5",
+            "publication_date": "1988",
+            "pubmed_id": "3052852",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-14"
+            ],
+            "title": "A consensus sequence of three DNA replication terminus sites on the E. coli chromosome is highly homologous to the terR sites of the R6K plasmid."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/bi992952r",
+            "publication_date": "2000",
+            "pubmed_id": "10757968",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY IN COMPLEX WITH SUBSTRATE ANALOG",
+              "SUBUNIT"
+            ],
+            "title": "Structural basis for the catalytic mechanism of a proficient enzyme: orotidine 5'-monophosphate decarboxylase."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1107/s0907444901010393",
+            "publication_date": "2001",
+            "pubmed_id": "11526316",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY IN COMPLEX WITH SUBSTRATE ANALOG",
+              "SUBUNIT"
+            ],
+            "title": "Selenomethionine substitution of orotidine-5'-monophosphate decarboxylase causes a change in crystal contacts and space group."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0022-2836(02)00200-0",
+            "publication_date": "2002",
+            "pubmed_id": "12054799",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY OF THE NATIVE PROTEIN",
+              "SUBUNIT"
+            ],
+            "title": "Substrate binding induces domain movements in orotidine 5'-monophosphate decarboxylase."
+          }
+        ],
+        "interpro": [
+          "IPR001754",
+          "IPR011060",
+          "IPR013785",
+          "IPR014732",
+          "IPR018089",
+          "IPR047596"
+        ],
+        "pfam": [
+          "PF00215"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the OMP decarboxylase family. Type 1 subfamily"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "Standalone OMP-decarboxylase molecular homolog family, used here for a source-documented URA3 component; no inference from growth selection alone.",
+      "independence_caveat": "Ordinary pyrimidine-biosynthesis enzyme from a nonpathogenic laboratory strain or methanogenic archaeon. S. cerevisiae URA3 ancestor is excluded from the yeast-vector query; other natural sources are proposed positive homologs, not evidence of evolutionary/pretraining independence.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "1988-08-01",
+      "length_aa": 245,
+      "lineage_group": "natural-origin-taxon-83333",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Escherichia coli (strain K12)",
+      "original_json_sha256": "9998b08583673185fb52fc790e60b70b3926fe5bed7795710b4298bfbd42b043",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "omp_decarboxylase_homologs",
+      "protein_sequence_sha256": "29d27a8e12107d092d8b2f04f5380a99915efa231443767c0541b7069a933635",
+      "recommended_name": "Orotidine 5'-phosphate decarboxylase",
+      "reference_id": "uniprot-P08244",
+      "retrieved_at_utc": "2026-11-11T03:45:53.845767+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/P08244.json",
+      "taxon_id": 83333
+    },
+    {
+      "accession": "P08659",
+      "ancestor_anchor": true,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/P08659/entry",
+      "entry_id": "LUCI_PHOPY",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 140,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1128/mcb.7.2.725-737.1987",
+            "publication_date": "1987",
+            "pubmed_id": "3821727",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+            ],
+            "title": "Firefly luciferase gene: structure and expression in mammalian cells."
+          },
+          {
+            "citation_type": "submission",
+            "doi": null,
+            "publication_date": "JUL-1996",
+            "pubmed_id": null,
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+            ],
+            "title": "Construction and utilization of an Autographa californica nuclear polyhedrosis virus vector with a unique cloning site: expression of genes amplified by the polymerase chain reaction."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1073/pnas.84.10.3264",
+            "publication_date": "1987",
+            "pubmed_id": "3554235",
+            "reference_positions": [
+              "SUBCELLULAR LOCATION"
+            ],
+            "title": "Firefly luciferase is targeted to peroxisomes in mammalian cells."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0969-2126(96)00033-0",
+            "publication_date": "1996",
+            "pubmed_id": "8805533",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY"
+            ],
+            "title": "Crystal structure of firefly luciferase throws light on a superfamily of adenylate-forming enzymes."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0006-3495(98)77664-7",
+            "publication_date": "1998",
+            "pubmed_id": "9788915",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY"
+            ],
+            "title": "Structural basis for the inhibition of firefly luciferase by a general anesthetic."
+          }
+        ],
+        "interpro": [
+          "IPR000873",
+          "IPR020845",
+          "IPR025110",
+          "IPR045851"
+        ],
+        "pfam": [
+          "PF00501",
+          "PF13193"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the ATP-dependent AMP-binding enzyme family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "Curated coleopteran luciferase homolog proposal, narrower than the AMP-binding superfamily; domain matches alone do not define luciferases.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "1988-01-01",
+      "length_aa": 550,
+      "lineage_group": "natural-origin-taxon-7054",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Photinus pyralis",
+      "original_json_sha256": "20da1035e697f9af9b15600d307f3904e87cb2bb888b4b3531dbd32b59e91166",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "protein_sequence_sha256": "abda0b3a5aa96aaa72c6b8e345ebbb67db0936532456cd861c94257224f9babc",
+      "recommended_name": "Luciferin 4-monooxygenase",
+      "reference_id": "uniprot-P08659",
+      "retrieved_at_utc": "2026-11-11T03:43:05.889599+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/P08659.json",
+      "taxon_id": 7054
+    },
+    {
+      "accession": "P13129",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/P13129/entry",
+      "entry_id": "LUCI_NIPCR",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 115,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/0378-1119(89)90074-7",
+            "publication_date": "1989",
+            "pubmed_id": "2473944",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "title": "Cloning and sequence analysis of cDNA for luciferase of a Japanese firefly, Luciola cruciata."
+          }
+        ],
+        "interpro": [
+          "IPR000873",
+          "IPR020845",
+          "IPR025110",
+          "IPR045851"
+        ],
+        "pfam": [
+          "PF00501",
+          "PF13193"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the ATP-dependent AMP-binding enzyme family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "Curated coleopteran luciferase homolog proposal, narrower than the AMP-binding superfamily; domain matches alone do not define luciferases.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "1990-01-01",
+      "length_aa": 548,
+      "lineage_group": "natural-origin-taxon-7051",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Nipponoluciola cruciata",
+      "original_json_sha256": "23a3614c684047080e428c512addf48bc47864783822d0709656b5b6f1fa4341",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "protein_sequence_sha256": "81d666c952ded7b2e5bf91ccf915d96c43cb31b3a6558060052f7ef9ec530e9b",
+      "recommended_name": "Luciferin 4-monooxygenase",
+      "reference_id": "uniprot-P13129",
+      "retrieved_at_utc": "2026-11-11T03:43:07.160636+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/P13129.json",
+      "taxon_id": 7051
+    },
+    {
+      "accession": "P25971",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/P25971/entry",
+      "entry_id": "PYRF_BACSU",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 159,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0021-9258(18)31559-x",
+            "publication_date": "1991",
+            "pubmed_id": "1709162",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+            ],
+            "title": "Functional organization and nucleotide sequence of the Bacillus subtilis pyrimidine biosynthetic operon."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/36786",
+            "publication_date": "1997",
+            "pubmed_id": "9384377",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "title": "The complete genome sequence of the Gram-positive bacterium Bacillus subtilis."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1073/pnas.259441296",
+            "publication_date": "2000",
+            "pubmed_id": "10681442",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY IN COMPLEX WITH UMP",
+              "SUBUNIT"
+            ],
+            "title": "The crystal structure and mechanism of orotidine 5'-monophosphate decarboxylase."
+          }
+        ],
+        "interpro": [
+          "IPR001754",
+          "IPR011060",
+          "IPR013785",
+          "IPR014732",
+          "IPR018089",
+          "IPR047596"
+        ],
+        "pfam": [
+          "PF00215"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the OMP decarboxylase family. Type 1 subfamily"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "Standalone OMP-decarboxylase molecular homolog family, used here for a source-documented URA3 component; no inference from growth selection alone.",
+      "independence_caveat": "Ordinary pyrimidine-biosynthesis enzyme from a nonpathogenic laboratory strain or methanogenic archaeon. S. cerevisiae URA3 ancestor is excluded from the yeast-vector query; other natural sources are proposed positive homologs, not evidence of evolutionary/pretraining independence.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "1992-05-01",
+      "length_aa": 239,
+      "lineage_group": "natural-origin-taxon-224308",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Bacillus subtilis (strain 168)",
+      "original_json_sha256": "d36ebc825c58801ee0cd74f738e5afe0b2c9a173482fbb1fcc12638ab7ce4e9d",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "omp_decarboxylase_homologs",
+      "protein_sequence_sha256": "422db3b3e63587065108ccf8c63c5b96eb526b3493e0113b23ad266a37478dad",
+      "recommended_name": "Orotidine 5'-phosphate decarboxylase",
+      "reference_id": "uniprot-P25971",
+      "retrieved_at_utc": "2026-11-11T03:45:54.515487+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/P25971.json",
+      "taxon_id": 224308
+    },
+    {
+      "accession": "P27652",
+      "ancestor_anchor": true,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/P27652/entry",
+      "entry_id": "LUCI_RENRE",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 102,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1073/pnas.88.10.4438",
+            "publication_date": "1991",
+            "pubmed_id": "1674607",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]",
+              "PROTEIN SEQUENCE OF 161-183; 208-228; 256-277 AND 304-310",
+              "FUNCTION",
+              "CATALYTIC ACTIVITY"
+            ],
+            "title": "Isolation and expression of a cDNA encoding Renilla reniformis luciferase."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/bi00620a014",
+            "publication_date": "1977",
+            "pubmed_id": "12797",
+            "reference_positions": [
+              "CATALYTIC ACTIVITY",
+              "BIOPHYSICOCHEMICAL PROPERTIES",
+              "SUBUNIT"
+            ],
+            "title": "Purification and properties of Renilla reniformis luciferase."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/j.jmb.2007.09.078",
+            "publication_date": "2007",
+            "pubmed_id": "17980388",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY OF APOENZYME AND IN COMPLEX WITH COELENTERAMIDE H",
+              "SUBUNIT"
+            ],
+            "title": "Crystal structures of the luciferase and green fluorescent protein from Renilla reniformis."
+          }
+        ],
+        "interpro": [
+          "IPR000073",
+          "IPR000639",
+          "IPR029058",
+          "IPR050266"
+        ],
+        "pfam": [
+          "PF00561"
+        ],
+        "reviewed_similarity_annotations": []
+      },
+      "family_panel_approved": false,
+      "family_scope": "Renilla lineage anchor only; not an independent positive for Renilla-derived query constructs. Not the firefly homolog family.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "1992-08-01",
+      "length_aa": 311,
+      "lineage_group": "natural-origin-taxon-6136",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Renilla reniformis",
+      "original_json_sha256": "98ce02c9e11cda656dbd96ab2aff46fbd7585bc45c9153537271dc2df635f27d",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "renilla_luciferase_lineage",
+      "protein_sequence_sha256": "625219b0991e13f0c0179a03a5de369949f26291677872011dbc0643a431ecc4",
+      "recommended_name": "Coelenterazine h 2-monooxygenase",
+      "reference_id": "uniprot-P27652",
+      "retrieved_at_utc": "2026-11-11T03:43:08.995249+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/P27652.json",
+      "taxon_id": 6136
+    },
+    {
+      "accession": "P42212",
+      "ancestor_anchor": true,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/P42212/entry",
+      "entry_id": "GFP_AEQVI",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 196,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/0378-1119(92)90691-h",
+            "publication_date": "1992",
+            "pubmed_id": "1347277",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]",
+              "PARTIAL PROTEIN SEQUENCE",
+              "VARIANTS TYR-100; SER-108; MET-141 AND ILE-219"
+            ],
+            "title": "Primary structure of the Aequorea victoria green-fluorescent protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/0014-5793(94)80472-9",
+            "publication_date": "1994",
+            "pubmed_id": "8137953",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]",
+              "BIOPHYSICOCHEMICAL PROPERTIES"
+            ],
+            "title": "Aequorea green fluorescent protein. Expression of the gene and fluorescence characteristics of the recombinant protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1023/a:1005740823703",
+            "publication_date": "1997",
+            "pubmed_id": "9154981",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]",
+              "BIOPHYSICOCHEMICAL PROPERTIES",
+              "BIOTECHNOLOGY"
+            ],
+            "title": "Enhanced expression in tobacco of the gene encoding green fluorescent protein by modification of its codon usage."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/0378-1119(95)00685-0",
+            "publication_date": "1996",
+            "pubmed_id": "8707053",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [GENOMIC DNA]",
+              "BIOTECHNOLOGY",
+              "MUTAGENESIS OF PHE-64; SER-65; VAL-68 AND SER-72"
+            ],
+            "title": "FACS-optimized mutants of the green fluorescent protein (GFP)."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/bi00056a003",
+            "publication_date": "1993",
+            "pubmed_id": "8448132",
+            "reference_positions": [
+              "CHROMOPHORE",
+              "DEHYDROGENATION AT TYR-66"
+            ],
+            "title": "Chemical structure of the hexapeptide chromophore of the Aequorea green-fluorescent protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1073/pnas.91.26.12501",
+            "publication_date": "1994",
+            "pubmed_id": "7809066",
+            "reference_positions": [
+              "MUTAGENESIS OF TYR-66; ILE-167; SER-202 AND THR-203"
+            ],
+            "title": "Wavelength mutations and posttranslational autoxidation of green fluorescent protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/nbt0295-151",
+            "publication_date": "1995",
+            "pubmed_id": "9634755",
+            "reference_positions": [
+              "MUTAGENESIS OF PHE-64; SER-65 AND GLN-69"
+            ],
+            "title": "Red-shifted excitation mutants of the green fluorescent protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/0014-5793(95)00557-p",
+            "publication_date": "1995",
+            "pubmed_id": "7796912",
+            "reference_positions": [
+              "MUTAGENESIS OF THR-203 AND GLU-222"
+            ],
+            "title": "Green-fluorescent protein mutants with altered fluorescence excitation spectra."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0968-0004(00)89099-4",
+            "publication_date": "1995",
+            "pubmed_id": "8578587",
+            "reference_positions": [
+              "MUTAGENESIS OF TYR-66",
+              "BIOTECHNOLOGY"
+            ],
+            "title": "Understanding, improving and using green fluorescent proteins."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0960-9822(02)70789-6",
+            "publication_date": "1996",
+            "pubmed_id": "8994830",
+            "reference_positions": [
+              "MUTAGENESIS OF VAL-163 AND SER-175"
+            ],
+            "title": "Mutations that suppress the thermosensitivity of green fluorescent protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/nbt0396-315",
+            "publication_date": "1996",
+            "pubmed_id": "9630892",
+            "reference_positions": [
+              "MUTAGENESIS OF PHE-99; MET-153 AND VAL-163"
+            ],
+            "title": "Improved green fluorescent protein by molecular evolution using DNA shuffling."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/nbt1096-1252",
+            "publication_date": "1996",
+            "pubmed_id": "9631088",
+            "reference_positions": [
+              "MUTAGENESIS OF PHE-99; MET-153 AND VAL-163"
+            ],
+            "title": "Spatial dynamics of GFP-tagged proteins investigated by local fluorescence enhancement."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1006/bbrc.1997.6235",
+            "publication_date": "1997",
+            "pubmed_id": "9125154",
+            "reference_positions": [
+              "MUTAGENESIS OF SER-147"
+            ],
+            "title": "A novel mutation which enhances the fluorescence of green fluorescent protein at high temperatures."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0006-3495(97)78307-3",
+            "publication_date": "1997",
+            "pubmed_id": "9370472",
+            "reference_positions": [
+              "MUTAGENESIS OF PHE-64; SER-65; TYR-66; PHE-99; MET-153 AND VAL-163"
+            ],
+            "title": "Use of the green fluorescent protein and its mutants in quantitative fluorescence microscopy."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1146/annurev.biochem.67.1.509",
+            "publication_date": "1998",
+            "pubmed_id": "9759496",
+            "reference_positions": [
+              "REVIEW ON MUTAGENESIS",
+              "BIOTECHNOLOGY"
+            ],
+            "title": "The green fluorescent protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1186/1471-213x-1-4",
+            "publication_date": "2001",
+            "pubmed_id": "11299042",
+            "reference_positions": [
+              "MUTAGENESIS OF SER-65; VAL-68; SER-72; ASN-146; MET-153; VAL-163 AND THR-203"
+            ],
+            "title": "Cre reporter strains produced by targeted insertion of EYFP and ECFP into the ROSA26 locus."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": null,
+            "publication_date": "2001",
+            "pubmed_id": "11776264",
+            "reference_positions": [
+              "MUTAGENESIS OF PHE-64 AND SER-65"
+            ],
+            "title": "Enhanced green fluorescent protein (EGFP) for space radiation research using mammalian cells in the International Space Station."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1186/1472-6750-3-5",
+            "publication_date": "2003",
+            "pubmed_id": "12769828",
+            "reference_positions": [
+              "MUTAGENESIS OF SER-72; TYR-145 AND THR-203"
+            ],
+            "title": "Efficiently folding and circularly permuted variants of the Sapphire mutant of GFP."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1117/1.1646416",
+            "publication_date": "2004",
+            "pubmed_id": "15065907",
+            "reference_positions": [
+              "MUTAGENESIS OF PHE-64; SER-65; TYR-66; ASN-146; MET-153 AND VAL-163"
+            ],
+            "title": "Fluorescence correlation spectroscopy investigation of a GFP mutant-enhanced cyan fluorescent protein and its tubulin fusion in living cells with two-photon excitation."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/nbt945",
+            "publication_date": "2004",
+            "pubmed_id": "14990965",
+            "reference_positions": [
+              "MUTAGENESIS OF PHE-64; SER-65; TYR-66; SER-72; TYR-145; ASN-146; HIS-148; MET-153 AND VAL-163"
+            ],
+            "title": "An improved cyan fluorescent protein variant useful for FRET."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/bi050550f",
+            "publication_date": "2005",
+            "pubmed_id": "16201762",
+            "reference_positions": [
+              "MUTAGENESIS OF SER-30; PHE-46; GLN-69; ASP-103; TYR-145; VAL-176; VAL-193 AND ASN-198"
+            ],
+            "title": "Development and characterization of green fluorescent protein mutants with altered lifetimes."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1002/cphc.200600057",
+            "publication_date": "2006",
+            "pubmed_id": "16739159",
+            "reference_positions": [
+              "MUTAGENESIS OF ALA-206"
+            ],
+            "title": "Monitoring protein interactions in the living cell through the fluorescence decays of the cyan fluorescent protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/j.bbagen.2007.06.005",
+            "publication_date": "2007",
+            "pubmed_id": "17658219",
+            "reference_positions": [
+              "MUTAGENESIS OF PHE-64; SER-65; SER-72; ASN-149; MET-153 AND ILE-167"
+            ],
+            "title": "Investigations of combinations of mutations in the jellyfish green fluorescent protein (GFP) that afford brighter fluorescence, and use of a version (VisGreen) in plant, bacterial, and animal cells."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/ja0715905",
+            "publication_date": "2007",
+            "pubmed_id": "17685514",
+            "reference_positions": [
+              "BIOTECHNOLOGY"
+            ],
+            "title": "A molecular thermometer based on fluorescent protein blinking."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/bi702130s",
+            "publication_date": "2008",
+            "pubmed_id": "18366185",
+            "reference_positions": [
+              "MUTAGENESIS OF PHE-46; PHE-64; VAL-68; LYS-162; VAL-163; ILE-167 AND ILE-171"
+            ],
+            "title": "The first mutant of the Aequorea victoria green fluorescent protein that forms a red chromophore."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/jp306257t",
+            "publication_date": "2012",
+            "pubmed_id": "22891786",
+            "reference_positions": [
+              "MUTAGENESIS OF SER-30; TYR-39; TYR-66; SER-72; GLN-80; ASN-105; ILE-128; TYR-145; VAL-150; ASP-155; ILE-171; ASN-198; ALA-206 AND VAL-224"
+            ],
+            "title": "Interpolated mechanics-molecular mechanics study of internal rotation dynamics of the chromophore unit in blue fluorescent protein and its variants."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/nbt1096-1246",
+            "publication_date": "1996",
+            "pubmed_id": "9631087",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY"
+            ],
+            "title": "The molecular structure of green fluorescent protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1126/science.273.5280.1392",
+            "publication_date": "1996",
+            "pubmed_id": "8703075",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY",
+              "MUTAGENESIS OF SER-65 AND THR-203"
+            ],
+            "title": "Crystal structure of the Aequorea victoria green fluorescent protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/nsb0597-361",
+            "publication_date": "1997",
+            "pubmed_id": "9145105",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY",
+              "MUTAGENESIS OF PHE-64; TYR-66; SER-72; ASN-149; MET-153 AND ILE-167",
+              "BIOPHYSICOCHEMICAL PROPERTIES",
+              "BIOTECHNOLOGY"
+            ],
+            "title": "The structural basis for spectral variations in green fluorescent protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0969-2126(98)00127-0",
+            "publication_date": "1998",
+            "pubmed_id": "9782051",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY OF YELLOW EMISSION MUTANT TYR-203/GLY-65/LEU-68/ALA-72",
+              "MUTAGENESIS OF SER-65; VAL-68; SER-72 AND THR-203",
+              "BIOPHYSICOCHEMICAL PROPERTIES",
+              "BIOTECHNOLOGY",
+              "SUBUNIT"
+            ],
+            "title": "Structural basis of spectral shifts in the yellow-emission variants of green fluorescent protein."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/bi9902182",
+            "publication_date": "1999",
+            "pubmed_id": "10220315",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY",
+              "BIOPHYSICOCHEMICAL PROPERTIES"
+            ],
+            "title": "Structural and spectral response of green fluorescent protein variants to changes in pH."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1074/jbc.m102815200",
+            "publication_date": "2001",
+            "pubmed_id": "11387331",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY OF MUTANT CITRININE",
+              "MUTAGENESIS OF VAL-68; GLN-69; SER-72 AND THR-203"
+            ],
+            "title": "Reducing the environmental sensitivity of yellow fluorescent protein. Mechanism and applications."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1074/jbc.m209524200",
+            "publication_date": "2002",
+            "pubmed_id": "12370172",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY OF VENUS",
+              "MUTAGENESIS OF PHE-46; PHE-64; SER-65; VAL-68; SER-72; MET-153; VAL-163; SER-175 AND THR-203"
+            ],
+            "title": "Crystal structure of venus, a yellow fluorescent protein with improved maturation and reduced environmental sensitivity."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/bi602664c",
+            "publication_date": "2007",
+            "pubmed_id": "17685554",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY",
+              "MUTAGENESIS OF 65-SER-TYR-66",
+              "BIOPHYSICOCHEMICAL PROPERTIES",
+              "BIOTECHNOLOGY"
+            ],
+            "title": "X-ray structure of Cerulean GFP: a tryptophan-based chromophore useful for fluorescence lifetime imaging."
+          }
+        ],
+        "interpro": [
+          "IPR000786",
+          "IPR009017",
+          "IPR011584"
+        ],
+        "pfam": [
+          "PF01353"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the GFP family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "GFP molecular homolog family, including fluorescent and nonfluorescent chromoproteins; color is not a class.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "1995-11-01",
+      "length_aa": 238,
+      "lineage_group": "natural-origin-taxon-6100",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Aequorea victoria",
+      "original_json_sha256": "bad091bb0e7eee638b73c88238d5c7ce6f469a126d5074915115e811d2f21039",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "gfp_like_homologs",
+      "protein_sequence_sha256": "44f2688342a00e4b01e82be5e655b26499f981515d5da9a6076315627355b403",
+      "recommended_name": "Green fluorescent protein",
+      "reference_id": "uniprot-P42212",
+      "retrieved_at_utc": "2026-11-11T03:43:01.300721+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/P42212.json",
+      "taxon_id": 6100
+    },
+    {
+      "accession": "P83690",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/P83690/entry",
+      "entry_id": "NFCP_MONEF",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 65,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1107/s0907444902023466",
+            "publication_date": "2003",
+            "pubmed_id": "12595737",
+            "reference_positions": [
+              "CRYSTALLIZATION"
+            ],
+            "title": "The production, purification and crystallization of a pocilloporin pigment from a reef-forming coral."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0969-2126(03)00028-5",
+            "publication_date": "2003",
+            "pubmed_id": "12623015",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY",
+              "SUBUNIT",
+              "MUTAGENESIS OF HIS-142 AND PHE-158",
+              "DEHYDROGENATION AT TYR-63"
+            ],
+            "title": "The 2.2 A crystal structure of a pocilloporin pigment reveals a nonplanar chromophore conformation."
+          }
+        ],
+        "interpro": [
+          "IPR009017",
+          "IPR011584"
+        ],
+        "pfam": [
+          "PF01353"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the GFP family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "GFP molecular homolog family, including fluorescent and nonfluorescent chromoproteins; color is not a class.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "2004-11-23",
+      "length_aa": 221,
+      "lineage_group": "natural-origin-taxon-105610",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Montipora efflorescens",
+      "original_json_sha256": "c0a15c66b078570a99c7beed3d7bbb8b0394df51e98971ace3fcd986f37ceb37",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "gfp_like_homologs",
+      "protein_sequence_sha256": "dc8c9f005a6147696c4943ae781cdb26d3e36b020c1cbb76984d09520e5e9763",
+      "recommended_name": "GFP-like non-fluorescent chromoprotein",
+      "reference_id": "uniprot-P83690",
+      "retrieved_at_utc": "2026-11-11T03:43:05.273598+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 2,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/P83690.json",
+      "taxon_id": 105610
+    },
+    {
+      "accession": "Q01158",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/Q01158/entry",
+      "entry_id": "LUCI_AQULA",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 98,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/0167-4781(92)90071-7",
+            "publication_date": "1992",
+            "pubmed_id": "1610896",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "title": "Molecular cloning and expression in Escherichia coli of a cDNA clone encoding luciferase of a firefly, Luciola lateralis."
+          }
+        ],
+        "interpro": [
+          "IPR000873",
+          "IPR020845",
+          "IPR025110",
+          "IPR045851"
+        ],
+        "pfam": [
+          "PF00501",
+          "PF13193"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the ATP-dependent AMP-binding enzyme family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "Curated coleopteran luciferase homolog proposal, narrower than the AMP-binding superfamily; domain matches alone do not define luciferases.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "1993-04-01",
+      "length_aa": 548,
+      "lineage_group": "natural-origin-taxon-7052",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Aquatica lateralis",
+      "original_json_sha256": "c1295f88339857537fe5c73d65b5fb5de5d651c43c27227b16984e8875eb0af4",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "protein_sequence_sha256": "b5c5aa13940327ae20fe89236b821301715a7e6d8da689811efb39f188ad4f6b",
+      "recommended_name": "Luciferin 4-monooxygenase",
+      "reference_id": "uniprot-Q01158",
+      "retrieved_at_utc": "2026-11-11T03:43:07.794179+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/Q01158.json",
+      "taxon_id": 7052
+    },
+    {
+      "accession": "Q26304",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/Q26304/entry",
+      "entry_id": "LUCI_LUCMI",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 90,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/0167-4781(93)90172-a",
+            "publication_date": "1993",
+            "pubmed_id": "8504162",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "title": "Luciferase from the east European firefly Luciola mingrelica: cloning and nucleotide sequence of the cDNA, overexpression in Escherichia coli and purification of the enzyme."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": null,
+            "publication_date": "1981",
+            "pubmed_id": null,
+            "reference_positions": [
+              "SUBUNIT"
+            ],
+            "title": "Dimers as catalytically active particles of firefly luciferase."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1002/bio.1170040155",
+            "publication_date": "1989",
+            "pubmed_id": "2801227",
+            "reference_positions": [
+              "FUNCTION",
+              "CATALYTIC ACTIVITY",
+              "ACTIVITY REGULATION",
+              "BIOPHYSICOCHEMICAL PROPERTIES"
+            ],
+            "title": "Luciferase of Luciola mingrelica fireflies. Kinetics and regulation mechanism."
+          }
+        ],
+        "interpro": [
+          "IPR000873",
+          "IPR020845",
+          "IPR025110",
+          "IPR045851"
+        ],
+        "pfam": [
+          "PF00501",
+          "PF13193"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000255"
+              }
+            ],
+            "value": "Belongs to the ATP-dependent AMP-binding enzyme family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "Curated coleopteran luciferase homolog proposal, narrower than the AMP-binding superfamily; domain matches alone do not define luciferases.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "1996-11-01",
+      "length_aa": 548,
+      "lineage_group": "natural-origin-taxon-27446",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Luciola mingrelica",
+      "original_json_sha256": "03e9f7bce6662cc2a310b5a247c56eafc77a0899b76702381337b213e5b762fd",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "protein_sequence_sha256": "09c93ba257a6bf314c88111acfcae1c644bd1919ac9761dbdcfbc8ad1f7bb301",
+      "recommended_name": "Luciferin 4-monooxygenase",
+      "reference_id": "uniprot-Q26304",
+      "retrieved_at_utc": "2026-11-11T03:43:06.503865+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/Q26304.json",
+      "taxon_id": 27446
+    },
+    {
+      "accession": "Q27757",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/Q27757/entry",
+      "entry_id": "LUCI_PHOPE",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 93,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1016/s0167-4838(96)00211-7",
+            "publication_date": "1997",
+            "pubmed_id": "9165098",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "title": "Cloning and sequencing of a cDNA for firefly luciferase from Photuris pennsylvanica."
+          }
+        ],
+        "interpro": [
+          "IPR000873",
+          "IPR020845",
+          "IPR025110",
+          "IPR045851"
+        ],
+        "pfam": [
+          "PF00501",
+          "PF13193"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the ATP-dependent AMP-binding enzyme family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "Curated coleopteran luciferase homolog proposal, narrower than the AMP-binding superfamily; domain matches alone do not define luciferases.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-09-02",
+      "last_sequence_update": "1998-01-01",
+      "length_aa": 545,
+      "lineage_group": "natural-origin-taxon-1710587",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Photuris pensylvanica",
+      "original_json_sha256": "9c2b825cdb2ab77c506c6865e0d13089b844645c8b8c53457ab23bda062c504e",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "protein_sequence_sha256": "1543c58bb5ca2a148a89c0d026bb93d3dad3d544db46510a02fe5bcffd40101c",
+      "recommended_name": "Luciferin 4-monooxygenase",
+      "reference_id": "uniprot-Q27757",
+      "retrieved_at_utc": "2026-11-11T03:43:08.389951+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 2,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/Q27757.json",
+      "taxon_id": 1710587
+    },
+    {
+      "accession": "Q8ISF8",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/Q8ISF8/entry",
+      "entry_id": "RFP_ENTQU",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 74,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1073/pnas.182157199",
+            "publication_date": "2002",
+            "pubmed_id": "12185250",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]",
+              "FUNCTION",
+              "SUBUNIT"
+            ],
+            "title": "A far-red fluorescent protein with fast maturation and reduced oligomerization tendency from Entacmaea quadricolor (Anthozoa, Actinaria)."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1074/jbc.m307896200",
+            "publication_date": "2003",
+            "pubmed_id": "12909624",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY",
+              "DEHYDROGENATION AT TYR-64"
+            ],
+            "title": "The 2.0-A crystal structure of eqFP611, a far red fluorescent protein from the sea anemone Entacmaea quadricolor."
+          }
+        ],
+        "interpro": [
+          "IPR009017",
+          "IPR011584"
+        ],
+        "pfam": [
+          "PF01353"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "id": "12185250",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Belongs to the GFP family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "GFP molecular homolog family, including fluorescent and nonfluorescent chromoproteins; color is not a class.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "2003-03-01",
+      "length_aa": 231,
+      "lineage_group": "natural-origin-taxon-6118",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Entacmaea quadricolor",
+      "original_json_sha256": "c27eb2c56a5378a57d2de2616d1d18ab8cb4a6182619f717f54250f832da3638",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "gfp_like_homologs",
+      "protein_sequence_sha256": "7e513be6ea94496befe621b65095a927fac92d321fe21f46fdb3c6332da0257d",
+      "recommended_name": "Red fluorescent protein eqFP611",
+      "reference_id": "uniprot-Q8ISF8",
+      "retrieved_at_utc": "2026-11-11T03:43:02.663211+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/Q8ISF8.json",
+      "taxon_id": 6118
+    },
+    {
+      "accession": "Q9U6Y3",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/Q9U6Y3/entry",
+      "entry_id": "GFPL_CLASP",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 78,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/13657",
+            "publication_date": "1999",
+            "pubmed_id": "10504696",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]",
+              "FUNCTION",
+              "TISSUE SPECIFICITY"
+            ],
+            "title": "Fluorescent proteins from nonbioluminescent Anthozoa species."
+          }
+        ],
+        "interpro": [
+          "IPR000786",
+          "IPR009017",
+          "IPR011584"
+        ],
+        "pfam": [
+          "PF01353"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "id": "10504696",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Belongs to the GFP family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "GFP molecular homolog family, including fluorescent and nonfluorescent chromoproteins; color is not a class.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "2000-05-01",
+      "length_aa": 266,
+      "lineage_group": "natural-origin-taxon-86521",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Clavularia sp.",
+      "original_json_sha256": "d3cd73591835b5b6dc158c6543fecf87ad9fefc2ef9e3da15504e3296e96eb12",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "gfp_like_homologs",
+      "protein_sequence_sha256": "fe4d6973729da73ce0d8bb93397b9ed80410764c939ec8dd95362b1b2a878a76",
+      "recommended_name": "GFP-like fluorescent chromoprotein cFP484",
+      "reference_id": "uniprot-Q9U6Y3",
+      "retrieved_at_utc": "2026-11-11T03:43:04.045586+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/Q9U6Y3.json",
+      "taxon_id": 86521
+    },
+    {
+      "accession": "Q9U6Y4",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/Q9U6Y4/entry",
+      "entry_id": "GFPL2_ZOASP",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 69,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/13657",
+            "publication_date": "1999",
+            "pubmed_id": "10504696",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]",
+              "FUNCTION",
+              "TISSUE SPECIFICITY"
+            ],
+            "title": "Fluorescent proteins from nonbioluminescent Anthozoa species."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1021/bi048383r",
+            "publication_date": "2005",
+            "pubmed_id": "15628861",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY",
+              "FUNCTION",
+              "BIOPHYSICOCHEMICAL PROPERTIES",
+              "SUBUNIT",
+              "AMIDATION AT PHE-65",
+              "CHROMOPHORE STRUCTURE",
+              "MUTAGENESIS OF LYS-66"
+            ],
+            "title": "zFP538, a yellow-fluorescent protein from Zoanthus, contains a novel three-ring chromophore."
+          }
+        ],
+        "interpro": [
+          "IPR009017",
+          "IPR011584"
+        ],
+        "pfam": [
+          "PF01353"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "id": "10504696",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Belongs to the GFP family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "GFP molecular homolog family, including fluorescent and nonfluorescent chromoproteins; color is not a class.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "2000-05-01",
+      "length_aa": 231,
+      "lineage_group": "natural-origin-taxon-105402",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Zoanthus sp.",
+      "original_json_sha256": "9224eb5fefc1cd0bd6834ae2079952a84a50197d650c685a8d59fab5823f1cef",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "gfp_like_homologs",
+      "protein_sequence_sha256": "6de05b2c8ad5084018adf2cce4447ed8946d74a895446dd2a4ab8ff614c1ed49",
+      "recommended_name": "GFP-like fluorescent chromoprotein FP538",
+      "reference_id": "uniprot-Q9U6Y4",
+      "retrieved_at_utc": "2026-11-11T03:43:03.344704+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/Q9U6Y4.json",
+      "taxon_id": 105402
+    },
+    {
+      "accession": "Q9U6Y6",
+      "ancestor_anchor": false,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/Q9U6Y6/entry",
+      "entry_id": "GFPL_ANEMA",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 75,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/13657",
+            "publication_date": "1999",
+            "pubmed_id": "10504696",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]",
+              "FUNCTION",
+              "TISSUE SPECIFICITY"
+            ],
+            "title": "Fluorescent proteins from nonbioluminescent Anthozoa species."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1073/pnas.0502250102",
+            "publication_date": "2005",
+            "pubmed_id": "16120682",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY",
+              "MUTAGENESIS OF GLU-150; ALA-165; HIS-199 AND GLU-217"
+            ],
+            "title": "Crystal structures and mutational analysis of amFP486, a cyan fluorescent protein from Anemonia majano."
+          }
+        ],
+        "interpro": [
+          "IPR000786",
+          "IPR009017",
+          "IPR011584"
+        ],
+        "pfam": [
+          "PF01353"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "id": "10504696",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Belongs to the GFP family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "GFP molecular homolog family, including fluorescent and nonfluorescent chromoproteins; color is not a class.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "2000-05-01",
+      "length_aa": 229,
+      "lineage_group": "natural-origin-taxon-105399",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Anemonia manjano",
+      "original_json_sha256": "a14008d840a489d4a32c4b22275fdc48fe41b42b9fa0e6c77af57360446f030f",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "gfp_like_homologs",
+      "protein_sequence_sha256": "8ce547de70aa424ecb959a3cc468472d134b4859bfefe291082fb4ce890f7184",
+      "recommended_name": "GFP-like fluorescent chromoprotein amFP486",
+      "reference_id": "uniprot-Q9U6Y6",
+      "retrieved_at_utc": "2026-11-11T03:43:04.652768+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/Q9U6Y6.json",
+      "taxon_id": 105399
+    },
+    {
+      "accession": "Q9U6Y8",
+      "ancestor_anchor": true,
+      "benign_basis": "Naturally occurring reporter/chromoprotein or ordinary pyrimidine-biosynthesis homolog used for protein-family retrieval evidence; no sequence generation, hazardous source panel or function engineering.",
+      "candidate_selected": true,
+      "display_url": "https://www.uniprot.org/uniprotkb/Q9U6Y8/entry",
+      "entry_id": "RFP_DISSP",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "entry_version": 87,
+      "family_evidence": {
+        "citations": [
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/13657",
+            "publication_date": "1999",
+            "pubmed_id": "10504696",
+            "reference_positions": [
+              "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "title": "Fluorescent proteins from nonbioluminescent Anthozoa species."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1038/81992",
+            "publication_date": "2000",
+            "pubmed_id": "11101896",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY"
+            ],
+            "title": "The structural basis for red fluorescence in the tetrameric GFP homolog DsRed."
+          },
+          {
+            "citation_type": "journal article",
+            "doi": "10.1073/pnas.98.2.462",
+            "publication_date": "2001",
+            "pubmed_id": "11209050",
+            "reference_positions": [
+              "X-RAY CRYSTALLOGRAPHY",
+              "SUBUNIT",
+              "DEHYDROGENATION AT TYR-67"
+            ],
+            "title": "Refined crystal structure of DsRed, a red fluorescent protein from coral, at 2.0-A resolution."
+          }
+        ],
+        "interpro": [
+          "IPR000786",
+          "IPR009017",
+          "IPR011584"
+        ],
+        "pfam": [
+          "PF01353"
+        ],
+        "reviewed_similarity_annotations": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the GFP family"
+          }
+        ]
+      },
+      "family_panel_approved": false,
+      "family_scope": "GFP molecular homolog family, including fluorescent and nonfluorescent chromoproteins; color is not a class.",
+      "independence_caveat": "Natural organism reference, not a construct component. Distinct species/source is a conservative ancestry proposal, not proof of evolutionary/pretraining independence. Must exclude source copies and all documented derivative lineages per query.",
+      "last_annotation_update": "2026-11-04",
+      "last_sequence_update": "2000-05-01",
+      "length_aa": 225,
+      "lineage_group": "natural-origin-taxon-86600",
+      "local_analysis_proposed_permitted": true,
+      "organism": "Discosoma sp.",
+      "original_json_sha256": "1a7399f9b87685cdf69b5b885ac3acbce44d139fac6df7bcc1ab289306a8e074",
+      "private_cloud_copy_proposed_permitted": true,
+      "proposed_family": "gfp_like_homologs",
+      "protein_sequence_sha256": "016abb252860c3952220cc3698048f23bc7983664b322b933a62df0b328e0301",
+      "recommended_name": "Red fluorescent protein drFP583",
+      "reference_id": "uniprot-Q9U6Y8",
+      "retrieved_at_utc": "2026-11-11T03:43:02.041303+00:00",
+      "review_status": "READY_FOR_DELEGATED_REVIEW",
+      "run_authorized": false,
+      "sequence_version": 1,
+      "source_admitted_for_scoring": false,
+      "source_rights_proposal": "CC_BY_4_0_with_UniProt_attribution",
+      "source_url": "https://rest.uniprot.org/uniprotkb/Q9U6Y8.json",
+      "taxon_id": 86600
+    }
+  ],
+  "review_status": "READY_FOR_DELEGATED_REVIEW",
+  "schema_version": "week2-reference-proposal-1",
+  "scientific_clearance": false,
+  "scoring_performed": false,
+  "source_manifest_sha256": "1201f720fd312a6f359674f3d50a5494a56bf98df661a2eff402304b9f742655",
+  "source_rights_evidence": {
+    "gfp-interpro": {
+      "entry_name": "Green fluorescent protein, GFP",
+      "entry_type": "family",
+      "literature": {
+        "PUB00020644": {
+          "DOI_URL": "http://dx.doi.org/10.1002/bies.10154",
+          "ISBN": null,
+          "ISO_journal": "Bioessays",
+          "PMID": 12325128,
+          "URL": null,
+          "authors": [
+            "Matz MV",
+            "Lukyanov KA",
+            "Lukyanov SA."
+          ],
+          "issue": "10",
+          "medline_journal": "Bioessays",
+          "raw_pages": "953-9",
+          "title": "Family of the green fluorescent protein: journey to the end of the rainbow.",
+          "volume": "24",
+          "year": 2002
+        },
+        "PUB00020645": {
+          "DOI_URL": "http://dx.doi.org/10.1074/jbc.C000338200",
+          "ISBN": null,
+          "ISO_journal": "J. Biol. Chem.",
+          "PMID": 10852900,
+          "URL": null,
+          "authors": [
+            "Lukyanov KA",
+            "Fradkov AF",
+            "Gurskaya NG",
+            "Matz MV",
+            "Labas YA",
+            "Savitsky AP",
+            "Markelov ML",
+            "Zaraisky AG",
+            "Zhao X",
+            "Fang Y",
+            "Tan W",
+            "Lukyanov SA."
+          ],
+          "issue": "34",
+          "medline_journal": "J Biol Chem",
+          "raw_pages": "25879-82",
+          "title": "Natural animal coloration can Be determined by a nonfluorescent green fluorescent protein homolog.",
+          "volume": "275",
+          "year": 2000
+        }
+      },
+      "original_response_sha256": "5fe2ae3028ac70a63aeef25461f0d555256e102495343517185db52dc1802832",
+      "retrieved_at_utc": "2026-11-11T03:44:16.107475+00:00",
+      "scientific_basis": "Curated family description explicitly includes fluorescent colors and nonfluorescent homologs. The family is not a shared fluorescence-function class.",
+      "source_url": "https://www.ebi.ac.uk/interpro/api/entry/InterPro/IPR000786/"
+    },
+    "uniprot-license": {
+      "attribution": "UniProt Consortium; exact entry accession/version and source URL retained for each record; https://www.uniprot.org/help/publications",
+      "license_id": "CC-BY-4.0",
+      "original_response_sha256": "5960c22bf17f22286504b927dbb3ca41713c571ed91a10fe7a88ddd964b416ce",
+      "proposal": "Permits research analysis and private-project source copies with attribution; no new public raw-source release is made by this work.",
+      "retrieved_at_utc": "2026-11-11T03:44:15.034725+00:00",
+      "scope": "All copyrightable parts of UniProt databases; attribution required. Provider disclaims correctness and does not provide unrestricted patent/other-rights permission.",
+      "source_policy_last_modified": "2024-12-18",
+      "source_url": "https://rest.uniprot.org/help/license"
+    }
+  },
+  "strict_relatedness_policy": "HOLD_missing_independently_reviewed_fingerprint_bound_policy",
+  "top_k": 5,
+  "unit_provenance_sha256": "9a7f649ced8fff03f64a68e9a77fc106bff9bf60c966f1a6b0756f440868a659"
+}

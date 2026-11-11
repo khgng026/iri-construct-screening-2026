@@ -1,0 +1,101 @@
+{
+  "active_delegation_merge": "7bd2bdb",
+  "artifact_sha256": {
+    "data/manifests/week2/inputs.preparatory.json": "77cbcd1177771617c73151f33a59b9cc1763ed04a0340736af05a85a801034da",
+    "data/manifests/week2/references/query_specification.json": "6c8f05ef80282c60fa474207f2ef710d423c857fbdef526c0f2fb963de4fa188",
+    "data/manifests/week2/references/reference_proposal.json": "627fb59b5e8b6a0b307447d2e22355fc75449bb02c21c3063468004948928349",
+    "data/manifests/week2/source_review.json": "1201f720fd312a6f359674f3d50a5494a56bf98df661a2eff402304b9f742655",
+    "docs/week2/model-freeze.json": "041b0c4e7063efde99c877e1c17b40f6fe1bb3e7c6c804d776b05366ff684887",
+    "docs/week2/qa/unit-provenance.json": "9a7f649ced8fff03f64a68e9a77fc106bff9bf60c966f1a6b0756f440868a659",
+    "docs/week2/schema-freeze.json": "93226f095a0f94c73dba7993ba4e4d46fb10aa81449a26631dca90890633657f"
+  },
+  "model_revisions": {
+    "esm2": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "esmc": "7f10b20ae75017b2dbc884070e03434515709a8d"
+  },
+  "new_scientific_clearance": false,
+  "program_id": "iri-week2-review-proposal-2026-11-11",
+  "reference_proposal_content_sha256": "f51457db5f7c991d58a37b11dc700c7a63a5be06cef0dccb870b4620360339f3",
+  "researcher_authorization": "docs/oversight/2026-11-10_RESEARCHER_EXPERIMENT_AUTHORIZATION.md",
+  "resource_bounds": {
+    "additional_spending": false,
+    "device": "cpu",
+    "interop_threads": 3,
+    "intraop_threads": 2,
+    "max_process_rss_bytes": 6442450944,
+    "max_residues_per_protein": 1022,
+    "max_total_residues_per_model_per_stage": 65536,
+    "max_unique_proteins_per_model_per_stage": 64,
+    "max_wall_seconds_per_model_per_stage": 1800,
+    "model_execution": "sequential",
+    "model_weight_downloads_during_scoring": false,
+    "precision": "float32_no_autocast",
+    "seed": 20261105,
+    "storage": "Private repository for source-free reports; original source/qualifiers/proteins/embeddings/weights remain ignored private storage. No public release."
+  },
+  "schema_version": "iri-week2-prospective-program-1",
+  "source_pool_scope": "Original11NCBI+10iGEM selection, with historicalpBR322 separate reproducibility control; supplementalMK448012.1 remains preparatory-only/outside this scored proposal.",
+  "stages": {
+    "E1": {
+      "executed": false,
+      "gate": "Actual source-specific delegated admission and E1 clearance for exact file hashes; original iGEM unknown-coordinate records excluded from this initial scored E1 proposal. Historical control is not an additional independent source.",
+      "historical_control_source_id": "ncbi-J01749.1",
+      "proposed_source_ids": [
+        "ncbi-U47295.2",
+        "ncbi-U47296.2",
+        "ncbi-AY864931.1",
+        "ncbi-U55762.1",
+        "ncbi-AY738222.1",
+        "ncbi-AF298787.1",
+        "ncbi-JX560321.2",
+        "ncbi-J01749.1"
+      ],
+      "protocol_file_sha256": "720000b3c19011bf77452703e5c6ccc715e2cd8774e11b3aaaf092d3c26a5aef",
+      "protocol_path": "config/week2/E1.proposed.json",
+      "scientific_compute_cost": null,
+      "scientific_metrics": null,
+      "status": "BLOCKED_PENDING_ACTUAL_CHATGPT_CLEARANCE"
+    },
+    "E2": {
+      "executed": false,
+      "gate": "Actual source/family/reference review; supported-subset comparison only if explicitly cleared. Full documented-family endpoint remains unresolved because AmpR family/reference is unsupported; literal source-longest differs from eligible longest. No full-family or protein-accuracy improvement claim.",
+      "proposed_supported_subset_parent_ids": [
+        "ncbi-AF298787.1"
+      ],
+      "protocol_file_sha256": "b6246bb6a348cc689b2d0b2e05f0c5319936f591ca5b69cef73e94cb87ef7405",
+      "protocol_path": "config/week2/E2.proposed.json",
+      "scientific_compute_cost": null,
+      "scientific_metrics": null,
+      "status": "BLOCKED_PENDING_ACTUAL_CHATGPT_CLEARANCE"
+    },
+    "E3": {
+      "executed": false,
+      "gate": "Actual source/family/reference review; at most3parent constructs, so uncertainty interval null. Tier3 remains blocked without independently reviewed fingerprint-bound relatedness policy.",
+      "proposed_query_ids": [
+        "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207",
+        "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714",
+        "ncbi-U47295.2/ncbi-U47295.2-u-b2052ad5b0d017c1f14c",
+        "ncbi-U55762.1/ncbi-U55762.1-u-19863cb9a9722e562f34"
+      ],
+      "proposed_tier1": "Mandatory T07 guards plus all-parent exact copies and known source-ancestor exclusions.",
+      "proposed_tier2": "Same guards and predeclared reviewed vector/linkage exclusions; require actual reviewer decision.",
+      "protocol_file_sha256": "11df8fa1d9be82665bbe9a086e83e76352d4ff66d08741ec771fd73fa8d6512d",
+      "protocol_path": "config/week2/E3.proposed.json",
+      "reference_proposal_content_sha256": "f51457db5f7c991d58a37b11dc700c7a63a5be06cef0dccb870b4620360339f3",
+      "scientific_compute_cost": null,
+      "scientific_metrics": null,
+      "status": "BLOCKED_PENDING_ACTUAL_CHATGPT_CLEARANCE",
+      "tier3_status": "BLOCKED_missing_reviewed_relatedness_policy"
+    },
+    "E4": {
+      "executed": false,
+      "gate": "Actual comparable E2/E3 quality and compute records from cleared stages with matched panel/support/cache/hardware/software; fictional fixture timing cannot enter scientific cost-quality comparison.",
+      "protocol_file_sha256": "41587c43d414a53cbe9d39dcba0df4fcfd7361d5719e5b1eec732557b5d6655e",
+      "protocol_path": "config/week2/E4.proposed.json",
+      "scientific_compute_cost": null,
+      "scientific_metrics": null,
+      "status": "BLOCKED_PENDING_ACTUAL_CHATGPT_CLEARANCE"
+    }
+  },
+  "status": "PROPOSED_NOT_CLEARED_FOR_SCIENTIFIC_EXECUTION"
+}
