@@ -1,0 +1,91 @@
+{
+  "blocked_records": 0,
+  "content_sha256": "b320006b0a1d545fe2dbc18125b1362e5b3ab872aecebde7e2495c980b0ee61f",
+  "coverage_by_archetype_proposed": {
+    "multi_cds": 1,
+    "single_cds": 1
+  },
+  "declared_lineage_groups": {},
+  "duplicate_parent_sequence_groups": [],
+  "duplicate_protein_sequence_groups": [],
+  "evidence_kind": "preparatory_source_QA",
+  "exported_annotated_proteins": 0,
+  "inference_executed": false,
+  "input_manifest_sha256": "75b196426428880aea08893242bbdd9fbfaf6b3a62b0ce7ee42d2fedee5e9c14",
+  "limitations": [
+    "Source agreement and deterministic preparation are not biological validation or experimental E1 scores.",
+    "Candidate archetypes and lineage groups remain proposals; no family/reference panel is approved here.",
+    "Missing source translations remain withheld; no ORFs or missing sequences are inferred.",
+    "Original annotations and protein sequences remain in ignored local artifacts."
+  ],
+  "prepared_records": 2,
+  "protein_interface_coverage": {},
+  "records": [
+    {
+      "annotation_states": {
+        "known": 6,
+        "unknown": 1
+      },
+      "archetype_proposed": "single_cds",
+      "coordinate_convention": "GenBank: 1-based inclusive source; normalized 0-based half-open",
+      "deterministic": true,
+      "format": "genbank",
+      "related_lineage_proposals": [],
+      "schema_errors": [],
+      "scientific_admission": false,
+      "scored_experiment_executed": false,
+      "sequence_sha256": "90613c7c770160a0605f5933f569a4b957dac9e9a7f8d2010389851adb40bdd4",
+      "source_cds_count": 1,
+      "source_content_sha256": "34f4461f92db11ef4c8bd3ad14facf5a5c1d4ea2ff09abd47ab32dcaeaba4f33",
+      "source_feature_count": 7,
+      "source_id": "igem-native-export-BBa_26NKZH8J",
+      "source_record_id": "BBa_26NKZH8J",
+      "source_sha256": "196f88c73248d313cff82674c3e3c496f51cd8df4081c80ecb1d6c5f3aacb2f8",
+      "source_type": "cassette_or_part",
+      "status": "prepared_for_review",
+      "unsupported_unit_reasons": {
+        "Missing annotated translation; no ORF inference or translation synthesis": 1,
+        "Noncoding/source feature retained as unsupported metadata": 6
+      },
+      "validated_annotated_protein_count": 0
+    },
+    {
+      "annotation_states": {
+        "known": 23,
+        "unknown": 3
+      },
+      "archetype_proposed": "multi_cds",
+      "coordinate_convention": "GenBank: 1-based inclusive source; normalized 0-based half-open",
+      "deterministic": true,
+      "format": "genbank",
+      "related_lineage_proposals": [],
+      "schema_errors": [],
+      "scientific_admission": false,
+      "scored_experiment_executed": false,
+      "sequence_sha256": "d127cca93da0e78195d07037aced7678e4eca94a0dffa3ec2762cdb8ae978d4b",
+      "source_cds_count": 3,
+      "source_content_sha256": "7cfe7155938b9467563246fb7d0a91b1564cfaab2a9794b4c36b206a8cf1c357",
+      "source_feature_count": 26,
+      "source_id": "igem-native-export-BBa_25FDWALN",
+      "source_record_id": "BBa_25FDWALN",
+      "source_sha256": "011b9e74e71cad640f0a4180799661d9a241f4c5061894dccf8c648bb005c977",
+      "source_type": "cassette_or_part",
+      "status": "prepared_for_review",
+      "unsupported_unit_reasons": {
+        "Missing annotated translation; no ORF inference or translation synthesis": 3,
+        "Noncoding/source feature retained as unsupported metadata": 23
+      },
+      "validated_annotated_protein_count": 0
+    }
+  ],
+  "requested_records": 2,
+  "schema": {
+    "source_schema_sha256": "b8953b9f2834cf811c97ee32c013d7ef8b69af01ce4c0d6184f8f2ae31152196",
+    "status": "technical_validation_only_pending_scientific_admission",
+    "version": "0.1"
+  },
+  "schema_version": "week2-source-QA-1",
+  "scientific_admission": false,
+  "scientific_scores_produced": false,
+  "status": "prepared_for_review"
+}

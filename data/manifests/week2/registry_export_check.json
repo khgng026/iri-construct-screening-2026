@@ -1,0 +1,845 @@
+{
+  "authenticated_access": false,
+  "coordinate_schema_evidence": {
+    "end_inclusivity_explicitly_documented": false,
+    "end_minimum": 1,
+    "interpretation": "The schema supports a positive origin but does not explicitly state inclusive end semantics. Every matched feature in these two native exports empirically matches raw one-based-inclusive conversion; no universal REST indexing contract asserted.",
+    "schema": "SequenceFeatureLocationDTO",
+    "start_minimum": 1
+  },
+  "endpoint_documentation": {
+    "operation_id": "PartsController_getGenbank_v1",
+    "original_sha256": "e82346f8464dc8a411016ba4710021b9440538d9619617d3a873d48cde584020",
+    "path": "/v1/parts/{partUUID}.gb",
+    "response_type_observed": "chemical/x-genbank; charset=utf-8",
+    "url": "https://api.registry.igem.org/docs/swagger-ui-init.js"
+  },
+  "existing_dataset_or_freeze_modified": false,
+  "http_request_count": 7,
+  "http_request_limit": 20,
+  "investigated_at_utc": "2026-11-11T15:01:48.744158+00:00",
+  "limitations": [
+    "Only two native exports were inspected; no global assertion about every Registry part or export format.",
+    "Native GenBank has two additional provider bookkeeping/composite features per record; its7/26feature counts are not substituted into original5/24REST feature denominators.",
+    "No inspected native CDS has a translation qualifier; provider export does not repair missing model input evidence.",
+    "Exact nucleotide equality is an integrity check, not independent source evidence or biological validation.",
+    "A future change from REST snapshots to native GenBank requires a new explicit source/input freeze and scientific review before scoring."
+  ],
+  "new_protein_units_gained": 0,
+  "new_scientific_clearance": false,
+  "provider_responses": [
+    {
+      "artifact_path": "results/week2/registry-export-check/BBa_25FDWALN.gb.original",
+      "bytes": 7660,
+      "content_type": "chemical/x-genbank; charset=utf-8",
+      "endpoint_basis": "Provider OpenAPI PartsController_getGenbank_v1",
+      "final_url": "https://api.registry.igem.org/v1/parts/212662e7-3789-4650-9b7a-5415bf8d7fb4.gb",
+      "retrieved_at_utc": "2026-11-11T14:59:38.215513+00:00",
+      "sha256": "011b9e74e71cad640f0a4180799661d9a241f4c5061894dccf8c648bb005c977",
+      "status": 200,
+      "url": "https://api.registry.igem.org/v1/parts/212662e7-3789-4650-9b7a-5415bf8d7fb4.gb"
+    },
+    {
+      "artifact_path": "results/week2/registry-export-check/BBa_26NKZH8J.gb.original",
+      "bytes": 2500,
+      "content_type": "chemical/x-genbank; charset=utf-8",
+      "endpoint_basis": "Provider OpenAPI PartsController_getGenbank_v1",
+      "final_url": "https://api.registry.igem.org/v1/parts/8d2dbd0e-67a9-423e-a901-c3b824a91a85.gb",
+      "retrieved_at_utc": "2026-11-11T14:59:23.898519+00:00",
+      "sha256": "196f88c73248d313cff82674c3e3c496f51cd8df4081c80ecb1d6c5f3aacb2f8",
+      "status": 200,
+      "url": "https://api.registry.igem.org/v1/parts/8d2dbd0e-67a9-423e-a901-c3b824a91a85.gb"
+    },
+    {
+      "artifact_path": "results/week2/registry-export-check/api-docs.original",
+      "bytes": 3126,
+      "content_type": "text/html",
+      "final_url": "https://api.registry.igem.org/docs",
+      "retrieved_at_utc": "2026-11-11T14:58:42.094669+00:00",
+      "sha256": "20f2dfd8e26ac3b37101841220acde1881c49ea4421a8238b1109a6135f58623",
+      "status": 200,
+      "url": "https://api.registry.igem.org/docs"
+    },
+    {
+      "artifact_path": "results/week2/registry-export-check/frontend.original",
+      "bytes": 400731,
+      "content_type": "application/javascript",
+      "final_url": "https://registry.igem.org/assets/index-CLQ-KqeM.js",
+      "retrieved_at_utc": "2026-11-11T14:58:55.694083+00:00",
+      "sha256": "3103e4f31c9a7dcd85e92f9dd30385a464f443af558e09ee887fb769ea5a65c5",
+      "status": 200,
+      "url": "https://registry.igem.org/assets/index-CLQ-KqeM.js"
+    },
+    {
+      "artifact_path": "results/week2/registry-export-check/part-page.original",
+      "bytes": 9921,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://registry.igem.org/parts/bba-26nkzh8j",
+      "retrieved_at_utc": "2026-11-11T14:58:39.727105+00:00",
+      "sha256": "5ea6fa9805a0a7cdeba5194084de79276fd9af557910ff04c562240100b29aaa",
+      "status": 200,
+      "url": "https://registry.igem.org/parts/bba-26nkzh8j"
+    },
+    {
+      "artifact_path": "results/week2/registry-export-check/swagger-init.original",
+      "bytes": 323249,
+      "content_type": "application/javascript",
+      "final_url": "https://api.registry.igem.org/docs/swagger-ui-init.js",
+      "retrieved_at_utc": "2026-11-11T14:58:57.113247+00:00",
+      "sha256": "e82346f8464dc8a411016ba4710021b9440538d9619617d3a873d48cde584020",
+      "status": 200,
+      "url": "https://api.registry.igem.org/docs/swagger-ui-init.js"
+    },
+    {
+      "artifact_path": "results/week2/registry-export-check/whats-new.original",
+      "bytes": 9921,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://registry.igem.org/about/whats-new",
+      "retrieved_at_utc": "2026-11-11T14:58:41.120505+00:00",
+      "sha256": "5ea6fa9805a0a7cdeba5194084de79276fd9af557910ff04c562240100b29aaa",
+      "status": 200,
+      "url": "https://registry.igem.org/about/whats-new"
+    }
+  ],
+  "records": [
+    {
+      "cds_evidence": [
+        {
+          "label": [
+            "mCerulean3"
+          ],
+          "location_0based_half_open": "[122:839](+)",
+          "provided_translation": false,
+          "reason": "Missing annotated translation; no ORF inference or translation synthesis",
+          "translation_state": "unknown"
+        }
+      ],
+      "coordinate_comparisons": [
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 19,
+              "start0": 0
+            }
+          ],
+          "label": "T7 promoter",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 19,
+          "raw_feature_ordinal_1based": 1,
+          "raw_start": 1,
+          "source_feature_uuid": "692dee2d-56f3-4abd-98cd-9fc489af0225",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 44,
+              "start0": 19
+            }
+          ],
+          "label": "lac operator",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 44,
+          "raw_feature_ordinal_1based": 2,
+          "raw_start": 20,
+          "source_feature_uuid": "9a0279f8-2427-486f-ba94-601a9821158e",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 97,
+              "start0": 74
+            }
+          ],
+          "label": "RBS",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 97,
+          "raw_feature_ordinal_1based": 3,
+          "raw_start": 75,
+          "source_feature_uuid": "23de4cdc-7f4c-4899-927c-d715dc5c5802",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 839,
+              "start0": 122
+            }
+          ],
+          "label": "mCerulean3",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 839,
+          "raw_feature_ordinal_1based": 4,
+          "raw_start": 123,
+          "source_feature_uuid": "1f1531ca-5361-4f8b-adf5-c7fd776120f6",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 974,
+              "start0": 926
+            }
+          ],
+          "label": "T7 terminator",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 974,
+          "raw_feature_ordinal_1based": 5,
+          "raw_start": 927,
+          "source_feature_uuid": "5cfe2875-b98c-44e1-8115-c7c9908bd5d5",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        }
+      ],
+      "coordinate_match_count": 5,
+      "coordinate_multiset_validation": {
+        "identity_limit": "Native export does not retain REST feature UUIDs; comparisons establish location multiset equality, not per-feature-UUID identity.",
+        "key": "label,strand,start0,end0; two native source/composite bookkeeping features excluded",
+        "one_based_inclusive_raw_conversion_equals_native_feature_multiset": true,
+        "zero_based_half_open_raw_interpretation_equals_native_feature_multiset": false
+      },
+      "export_feature_count": 7,
+      "export_feature_types": {
+        "CDS": 1,
+        "RBS": 1,
+        "misc_feature": 1,
+        "promoter": 1,
+        "protein_bind": 1,
+        "source": 1,
+        "terminator": 1
+      },
+      "interpretation": "Native GenBank export is real and annotated but provides no CDS translation qualifiers. Coordinates reflect observed provider export mapping, not independent truth.",
+      "length_nt": 974,
+      "native_export_retrieval": {
+        "bytes": 2500,
+        "content_type": "chemical/x-genbank; charset=utf-8",
+        "endpoint_basis": "Provider OpenAPI PartsController_getGenbank_v1",
+        "final_url": "https://api.registry.igem.org/v1/parts/8d2dbd0e-67a9-423e-a901-c3b824a91a85.gb",
+        "retrieved_at_utc": "2026-11-11T14:59:23.898519+00:00",
+        "sha256": "196f88c73248d313cff82674c3e3c496f51cd8df4081c80ecb1d6c5f3aacb2f8",
+        "status": 200,
+        "url": "https://api.registry.igem.org/v1/parts/8d2dbd0e-67a9-423e-a901-c3b824a91a85.gb"
+      },
+      "part_id": "BBa_26NKZH8J",
+      "part_uuid": "8d2dbd0e-67a9-423e-a901-c3b824a91a85",
+      "raw_api_feature_count": 5,
+      "record_id": "BBa_26NKZH8J",
+      "sequence_equal_to_original_part_api": true,
+      "sequence_sha256": "90613c7c770160a0605f5933f569a4b957dac9e9a7f8d2010389851adb40bdd4"
+    },
+    {
+      "cds_evidence": [
+        {
+          "label": [
+            "cI857"
+          ],
+          "location_0based_half_open": "[87:798](+)",
+          "provided_translation": false,
+          "reason": "Missing annotated translation; no ORF inference or translation synthesis",
+          "translation_state": "unknown"
+        },
+        {
+          "label": [
+            "phlF"
+          ],
+          "location_0based_half_open": "[1026:1626](+)",
+          "provided_translation": false,
+          "reason": "Missing annotated translation; no ORF inference or translation synthesis",
+          "translation_state": "unknown"
+        },
+        {
+          "label": [
+            "sfGFP"
+          ],
+          "location_0based_half_open": "[2511:3225](+)",
+          "provided_translation": false,
+          "reason": "Missing annotated translation; no ORF inference or translation synthesis",
+          "translation_state": "unknown"
+        }
+      ],
+      "coordinate_comparisons": [
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 19,
+              "start0": 0
+            }
+          ],
+          "label": "T7 promoter",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 19,
+          "raw_feature_ordinal_1based": 1,
+          "raw_start": 1,
+          "source_feature_uuid": "cca060cd-c5c7-4afd-b494-394a185b692f",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 44,
+              "start0": 19
+            }
+          ],
+          "label": "lac operator",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 44,
+          "raw_feature_ordinal_1based": 2,
+          "raw_start": 20,
+          "source_feature_uuid": "2cc49127-4236-4bef-ba89-224918274bbd",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 80,
+              "start0": 74
+            },
+            {
+              "end0": 1019,
+              "start0": 1013
+            },
+            {
+              "end0": 2505,
+              "start0": 2482
+            }
+          ],
+          "label": "RBS",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 80,
+          "raw_feature_ordinal_1based": 3,
+          "raw_start": 75,
+          "source_feature_uuid": "81cb29a7-2c1e-4555-bf8a-e6e2375a3199",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 90,
+              "start0": 87
+            },
+            {
+              "end0": 1029,
+              "start0": 1026
+            },
+            {
+              "end0": 1638,
+              "start0": 1635
+            },
+            {
+              "end0": 2514,
+              "start0": 2511
+            }
+          ],
+          "label": "start codon",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 90,
+          "raw_feature_ordinal_1based": 4,
+          "raw_start": 88,
+          "source_feature_uuid": "3c8f89f6-3846-42e7-b52b-3c84c345eb2b",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 798,
+              "start0": 87
+            }
+          ],
+          "label": "cI857",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 798,
+          "raw_feature_ordinal_1based": 5,
+          "raw_start": 88,
+          "source_feature_uuid": "df604cec-3d12-47a1-88e8-f25603db9179",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 801,
+              "start0": 798
+            },
+            {
+              "end0": 1629,
+              "start0": 1626
+            },
+            {
+              "end0": 2313,
+              "start0": 2310
+            },
+            {
+              "end0": 3228,
+              "start0": 3225
+            }
+          ],
+          "label": "stop codon",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 801,
+          "raw_feature_ordinal_1based": 6,
+          "raw_start": 799,
+          "source_feature_uuid": "8cd0334e-8d6f-4ce3-8578-855e9893a9ab",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 898,
+              "start0": 850
+            },
+            {
+              "end0": 2432,
+              "start0": 2384
+            },
+            {
+              "end0": 3339,
+              "start0": 3291
+            }
+          ],
+          "label": "T7 terminator",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 898,
+          "raw_feature_ordinal_1based": 7,
+          "raw_start": 851,
+          "source_feature_uuid": "b79042e2-a7e4-45fc-9719-23027712f553",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 954,
+              "start0": 904
+            }
+          ],
+          "label": "R promoter",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 954,
+          "raw_feature_ordinal_1based": 8,
+          "raw_start": 905,
+          "source_feature_uuid": "9802ad0a-ce23-4637-9345-67b14b229cd3",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 1019,
+              "start0": 967
+            }
+          ],
+          "label": "BBa_K115002",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 1019,
+          "raw_feature_ordinal_1based": 9,
+          "raw_start": 968,
+          "source_feature_uuid": "a0e7f8a8-65a8-4db0-aca1-8c8446554fc9",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 1019,
+              "start0": 967
+            }
+          ],
+          "label": "FourU",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 1019,
+          "raw_feature_ordinal_1based": 10,
+          "raw_start": 968,
+          "source_feature_uuid": "f7f9704e-8dd4-4dc2-9963-436a0643938b",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 80,
+              "start0": 74
+            },
+            {
+              "end0": 1019,
+              "start0": 1013
+            },
+            {
+              "end0": 2505,
+              "start0": 2482
+            }
+          ],
+          "label": "RBS",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 1019,
+          "raw_feature_ordinal_1based": 11,
+          "raw_start": 1014,
+          "source_feature_uuid": "734a2171-024f-4c3d-9b22-36b17e31a644",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 1626,
+              "start0": 1026
+            }
+          ],
+          "label": "phlF",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 1626,
+          "raw_feature_ordinal_1based": 12,
+          "raw_start": 1027,
+          "source_feature_uuid": "b588d5b3-124a-4340-a898-b4bf066be388",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 90,
+              "start0": 87
+            },
+            {
+              "end0": 1029,
+              "start0": 1026
+            },
+            {
+              "end0": 1638,
+              "start0": 1635
+            },
+            {
+              "end0": 2514,
+              "start0": 2511
+            }
+          ],
+          "label": "start codon",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 1029,
+          "raw_feature_ordinal_1based": 13,
+          "raw_start": 1027,
+          "source_feature_uuid": "d54f441f-352e-4b80-aff4-4cd2eb1117dd",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 801,
+              "start0": 798
+            },
+            {
+              "end0": 1629,
+              "start0": 1626
+            },
+            {
+              "end0": 2313,
+              "start0": 2310
+            },
+            {
+              "end0": 3228,
+              "start0": 3225
+            }
+          ],
+          "label": "stop codon",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 1629,
+          "raw_feature_ordinal_1based": 14,
+          "raw_start": 1627,
+          "source_feature_uuid": "296f3e2f-dbc0-4608-a91c-cb9e1ee09ddb",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 90,
+              "start0": 87
+            },
+            {
+              "end0": 1029,
+              "start0": 1026
+            },
+            {
+              "end0": 1638,
+              "start0": 1635
+            },
+            {
+              "end0": 2514,
+              "start0": 2511
+            }
+          ],
+          "label": "start codon",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 1638,
+          "raw_feature_ordinal_1based": 15,
+          "raw_start": 1636,
+          "source_feature_uuid": "d41e6270-13e3-4145-b18f-5793405f71ab",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 2310,
+              "start0": 1635
+            }
+          ],
+          "label": "mRFP1",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 2310,
+          "raw_feature_ordinal_1based": 16,
+          "raw_start": 1636,
+          "source_feature_uuid": "fde132ae-b3f8-4855-a8f4-24923f0b5d9b",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 801,
+              "start0": 798
+            },
+            {
+              "end0": 1629,
+              "start0": 1626
+            },
+            {
+              "end0": 2313,
+              "start0": 2310
+            },
+            {
+              "end0": 3228,
+              "start0": 3225
+            }
+          ],
+          "label": "stop codon",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 2313,
+          "raw_feature_ordinal_1based": 17,
+          "raw_start": 2311,
+          "source_feature_uuid": "246e699a-4ae8-4456-a0cb-cf37b4e9b3d1",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 898,
+              "start0": 850
+            },
+            {
+              "end0": 2432,
+              "start0": 2384
+            },
+            {
+              "end0": 3339,
+              "start0": 3291
+            }
+          ],
+          "label": "T7 terminator",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 2432,
+          "raw_feature_ordinal_1based": 18,
+          "raw_start": 2385,
+          "source_feature_uuid": "88899234-9e2d-4126-bf2b-2c1a090369f1",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 2468,
+              "start0": 2438
+            }
+          ],
+          "label": "PhlF promoter",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 2468,
+          "raw_feature_ordinal_1based": 19,
+          "raw_start": 2439,
+          "source_feature_uuid": "ae7ff6dd-c3be-41d8-9f4f-b5b657aac95c",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 80,
+              "start0": 74
+            },
+            {
+              "end0": 1019,
+              "start0": 1013
+            },
+            {
+              "end0": 2505,
+              "start0": 2482
+            }
+          ],
+          "label": "RBS",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 2505,
+          "raw_feature_ordinal_1based": 20,
+          "raw_start": 2483,
+          "source_feature_uuid": "defdd46e-0ae2-4cd3-a284-feac3aa1e71e",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 90,
+              "start0": 87
+            },
+            {
+              "end0": 1029,
+              "start0": 1026
+            },
+            {
+              "end0": 1638,
+              "start0": 1635
+            },
+            {
+              "end0": 2514,
+              "start0": 2511
+            }
+          ],
+          "label": "start codon",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 2514,
+          "raw_feature_ordinal_1based": 21,
+          "raw_start": 2512,
+          "source_feature_uuid": "7f26733d-2cf9-4685-b60e-6cd5840637a7",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 3225,
+              "start0": 2511
+            }
+          ],
+          "label": "sfGFP",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 3225,
+          "raw_feature_ordinal_1based": 22,
+          "raw_start": 2512,
+          "source_feature_uuid": "da3aca58-2aba-4c4a-bbeb-01344d555c46",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 801,
+              "start0": 798
+            },
+            {
+              "end0": 1629,
+              "start0": 1626
+            },
+            {
+              "end0": 2313,
+              "start0": 2310
+            },
+            {
+              "end0": 3228,
+              "start0": 3225
+            }
+          ],
+          "label": "stop codon",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 3228,
+          "raw_feature_ordinal_1based": 23,
+          "raw_start": 3226,
+          "source_feature_uuid": "6d20d7a6-97fa-42b3-9093-6226111463bd",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        },
+        {
+          "export_locations_for_same_label_and_strand": [
+            {
+              "end0": 898,
+              "start0": 850
+            },
+            {
+              "end0": 2432,
+              "start0": 2384
+            },
+            {
+              "end0": 3339,
+              "start0": 3291
+            }
+          ],
+          "label": "T7 terminator",
+          "one_based_inclusive_predicted_location_present": true,
+          "raw_end": 3339,
+          "raw_feature_ordinal_1based": 24,
+          "raw_start": 3292,
+          "source_feature_uuid": "ef9c11dc-26eb-43a3-8989-425ec83bb6ca",
+          "strand": 1,
+          "zero_based_half_open_predicted_location_present": false
+        }
+      ],
+      "coordinate_match_count": 24,
+      "coordinate_multiset_validation": {
+        "identity_limit": "Native export does not retain REST feature UUIDs; comparisons establish location multiset equality, not per-feature-UUID identity.",
+        "key": "label,strand,start0,end0; two native source/composite bookkeeping features excluded",
+        "one_based_inclusive_raw_conversion_equals_native_feature_multiset": true,
+        "zero_based_half_open_raw_interpretation_equals_native_feature_multiset": false
+      },
+      "export_feature_count": 26,
+      "export_feature_types": {
+        "CDS": 3,
+        "RBS": 3,
+        "misc_feature": 12,
+        "promoter": 3,
+        "protein_bind": 1,
+        "source": 1,
+        "terminator": 3
+      },
+      "interpretation": "Native GenBank export is real and annotated but provides no CDS translation qualifiers. Coordinates reflect observed provider export mapping, not independent truth.",
+      "length_nt": 3339,
+      "native_export_retrieval": {
+        "bytes": 7660,
+        "content_type": "chemical/x-genbank; charset=utf-8",
+        "endpoint_basis": "Provider OpenAPI PartsController_getGenbank_v1",
+        "final_url": "https://api.registry.igem.org/v1/parts/212662e7-3789-4650-9b7a-5415bf8d7fb4.gb",
+        "retrieved_at_utc": "2026-11-11T14:59:38.215513+00:00",
+        "sha256": "011b9e74e71cad640f0a4180799661d9a241f4c5061894dccf8c648bb005c977",
+        "status": 200,
+        "url": "https://api.registry.igem.org/v1/parts/212662e7-3789-4650-9b7a-5415bf8d7fb4.gb"
+      },
+      "part_id": "BBa_25FDWALN",
+      "part_uuid": "212662e7-3789-4650-9b7a-5415bf8d7fb4",
+      "raw_api_feature_count": 24,
+      "record_id": "BBa_25FDWALN",
+      "sequence_equal_to_original_part_api": true,
+      "sequence_sha256": "d127cca93da0e78195d07037aced7678e4eca94a0dffa3ec2762cdb8ae978d4b"
+    }
+  ],
+  "schema_version": "iri-registry-native-export-check-1",
+  "scope": "Bounded two-part preparatory source-format investigation; no source/panel/scoring admission. These are format snapshots of two existing selected parts, not two independent additional biological records.",
+  "technical_QA": {
+    "blocked_records": 0,
+    "content_sha256": "b320006b0a1d545fe2dbc18125b1362e5b3ab872aecebde7e2495c980b0ee61f",
+    "exported_annotated_proteins": 0,
+    "inference_executed": false,
+    "prepared_records": 2,
+    "report_file_sha256": "3fc5d5513940d070ac7159a4eaf080fd571b397cd37c36967eed623e53fb7bd9",
+    "report_path": "results/week2/registry-export-check/qa01/report.json",
+    "scientific_scores_produced": false,
+    "source_feature_count": 33
+  }
+}

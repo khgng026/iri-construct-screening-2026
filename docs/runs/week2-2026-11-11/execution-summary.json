@@ -1,0 +1,96 @@
+{
+  "actual_source_preparation": {
+    "main_HOLD": 4,
+    "main_acquired": 22,
+    "main_features": 271,
+    "main_preparatory_eligible": 18,
+    "main_source_validated_proteins": 18,
+    "new_scientific_admissions": 0,
+    "supplemental_features": 27,
+    "supplemental_fusion_sources": 1,
+    "supplemental_source_validated_proteins": 1
+  },
+  "clean_source_archive": {
+    "child_peak_rss_bytes": 46522368,
+    "passed": 241,
+    "skipped": 5,
+    "source_commit": "a53d77a685e2e30b7f0d35f3ede20dba376b4a59",
+    "test_count": 246,
+    "total_child_cpu_seconds": 4.766796999999999,
+    "total_subprocess_wall_seconds": 3.5611440329998914
+  },
+  "historical_E1": "Preserved unchanged docs/runs/pilot-2026-11-06/E1/report.json; reverified original bytes/artifacts without relabeling historical observations as new results.",
+  "model_fixture_report_sha256": "f665293a0d91f9080ee47f2b0d5733482be544d43bf1d876f859904fa3fb3c07",
+  "native_registry_export_check": {
+    "existing_selected_parts": 2,
+    "features_in_native_export_snapshots": 33,
+    "new_independent_biological_records": 0,
+    "protein_units_gained": 0,
+    "provided_translation_count": 0,
+    "qa_failures": 0,
+    "scientific_clearance": false
+  },
+  "new_biological_inference_executed": false,
+  "new_scientific_model_calls": 0,
+  "new_scientific_scores_produced": false,
+  "reference_preparation": {
+    "Renilla_status": "HOLD_no_independent_positive",
+    "proposed_supported_parents": 3,
+    "query_proposals": 5,
+    "reviewed_reference_entries": 17,
+    "supported_query_proposals": 4
+  },
+  "schema_version": "iri-week2-execution-summary-1",
+  "scientific_execution_status": "BLOCKED_NO_SEPARATE_PANEL_BOUND_CHATGPT_CLEARANCE",
+  "stages": {
+    "E1": {
+      "executed": false,
+      "performance_metrics": null,
+      "reason": "No actual stage/source clearance for new exact frozen subset.",
+      "scientific_compute_cost": null,
+      "status": "BLOCKED"
+    },
+    "E2": {
+      "executed": false,
+      "performance_metrics": null,
+      "reason": "No actual stage/family/reference clearance; full marker denominator remains unresolved.",
+      "scientific_compute_cost": null,
+      "status": "BLOCKED"
+    },
+    "E3": {
+      "executed": false,
+      "performance_metrics": null,
+      "reason": "No actual stage/family/reference clearance; stricttier3 policy absent; atmost3parents means intervalnull.",
+      "scientific_compute_cost": null,
+      "status": "BLOCKED"
+    },
+    "E4": {
+      "executed": false,
+      "performance_metrics": null,
+      "reason": "No actual compatible E2/E3 scientific measurements.",
+      "scientific_compute_cost": null,
+      "status": "BLOCKED"
+    }
+  },
+  "technical_checks": {
+    "child_peak_rss_bytes": 44634112,
+    "cost_scope": "Technical subprocess checks; OS child high-water RSS, not additive/per-model RSS. Excludes acquisition, prior model validation, inspection and tool overhead.",
+    "dependency_free_failures": 0,
+    "dependency_free_passed": 187,
+    "dependency_free_skipped": 59,
+    "dependency_free_test_count": 246,
+    "failures": 0,
+    "gpu_seconds": null,
+    "monetary_cost": null,
+    "passed": 241,
+    "repeat_determinism": {
+      "curated": true,
+      "supplemental": true
+    },
+    "skipped": 5,
+    "test_count": 246,
+    "total_child_cpu_seconds": 5.857029,
+    "total_subprocess_wall_seconds": 4.610499412999616
+  },
+  "technical_evidence_kind": "Actual-source preparatory QA and fictional model-interface validation; not scored biological inference."
+}

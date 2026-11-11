@@ -1,5 +1,35 @@
 # IRI Fall 2026 | Complex-construct preprocessing (Week 1)
 
+**Current status — November 11, 2026:** Week 2 ingestion, normalization,
+deterministic decomposition, source QA and regression work are implemented and
+validated. The bounded curation inspected 22 sources; 18 qualify for preparatory
+QA and four remain HOLD. A separate genuine fusion was validated for technical
+QA. ESM-2 and ESM-C both pass pinned, fully offline fictional-fixture checks.
+No new E1–E4 scientific execution clearance has been issued.
+
+Read the [Week 2 completion report](docs/week2/COMPLETION_REPORT.md),
+[current task ledger](docs/week2/TASK_STATUS.json),
+[research findings and limitations](docs/week2/RESEARCH_FINDINGS.md), and
+[complete scientific-review packet](docs/coordination/EXPERIMENT_APPROVAL_PACKET.md).
+The existing pBR322 source supports a clean-checkout preparatory demo:
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-parsing.txt
+.venv/bin/python scripts/validate_week2.py \
+  --inputs data/manifests/week2/demo.preparatory.json --output results/week2/demo-new
+```
+
+This command prepares source annotations and proteins for review; it does not
+run a scored experiment or grant source/family admission. Source acquisition,
+model validation and future frozen-run commands are documented in the reports.
+
+---
+
+The following Week 1 material is a **historical snapshot**. Its dated readiness
+counts are superseded by the current ledger above; approved scope and frozen
+scientific protocols remain preserved.
+
 **Status (2026-11-06 UTC):** T01-T04 remain approved and T05 remains in progress. The researcher selected ten candidate identities; zero source files are admitted. T07 v1.0 is approved in principle and remains frozen. The [v1.1 E1-E4 addendum](docs/week1/T07_v1_1_evaluation_addendum.md) now has tested annotation-quality, multi-CDS, independent-reference and cost-reporting implementations. Scientific experiments remain blocked by source/label review. See [current status](docs/week1/STATUS.md) and the [oversight handoff](docs/coordination/CODEX_STATUS.md).
 
 ## Research question

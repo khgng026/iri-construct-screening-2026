@@ -1,0 +1,5 @@
+{
+  "source_commit": "a53d77a685e2e30b7f0d35f3ede20dba376b4a59",
+  "archive_sha256": "7dffa0be22ad02d0ae2ff787461875651fd0cc381d1c9e9767c77cc29edb6514",
+  "scope": "Fresh committed-source archive and isolated Python3.12environment. Exact previously acquired private source cache copied locally; no provider responses changed or scientific admission inferred. Model weights not copied; separate offline-model validation is retained."
+}

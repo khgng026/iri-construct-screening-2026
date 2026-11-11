@@ -85,7 +85,7 @@ or a perfect annotation-preservation score.
   --output results/week2/new-demo
 ```
 
-Fourteen focused parser tests and sixteen curation tests pass. The parser tests
+Fourteen focused parser tests and seventeen curation tests pass. The parser tests
 cover valid and malformed formats, sequence-only FASTA, exact identity/version
 and hashes, duplicate aliases and parents, stable deterministic outputs, shared
 lineage links, missing translations, circular joined CDSs, model caps, and

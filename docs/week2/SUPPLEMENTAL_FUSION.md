@@ -60,6 +60,22 @@ print(record.id, evidence['feature_count'], evidence['validated_source_translati
 PY
 ```
 
+
+The exact source-free preparatory input snapshot is committed separately. After
+acquisition, restore it at its original relative location and use a new output:
+
+```bash
+cp docs/week2/supplemental-inputs.snapshot.json \
+  results/week2/supplemental-fusion/inputs.preparatory.json
+.venv/bin/python scripts/validate_week2.py \
+  --inputs results/week2/supplemental-fusion/inputs.preparatory.json \
+  --output results/week2/supplemental-fusion/qa-new
+```
+
+The snapshot contains only identities, checksums and rights/scope metadata, not
+biological source bytes. Its relative source path is intentionally resolved after
+copying it to the ignored local source directory.
+
 A changed annotated-file snapshot requires new evidence review; an accession
 version alone does not freeze every future annotation response. This one source
 improves preparatory architecture coverage. It does not establish retrieval

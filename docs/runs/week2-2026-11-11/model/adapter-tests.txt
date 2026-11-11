@@ -1,0 +1,9 @@
+test_bos_eos_and_padding_excluded (test_model_adapters.AdapterContractTests.test_bos_eos_and_padding_excluded) ... ok
+test_length_and_alphabet_rejected_without_truncation (test_model_adapters.AdapterContractTests.test_length_and_alphabet_rejected_without_truncation) ... ok
+test_sdk_bos_eos_contract_for_both_models (test_model_adapters.AdapterContractTests.test_sdk_bos_eos_contract_for_both_models) ... ok
+test_token_count_mismatch_and_nonfinite_output_fail (test_model_adapters.AdapterContractTests.test_token_count_mismatch_and_nonfinite_output_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.812s
+
+OK

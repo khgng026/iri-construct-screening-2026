@@ -92,9 +92,9 @@ counts, while admission to a scientific dataset remains partially complete.
 .venv/bin/python scripts/curate_week2_dataset.py \
   --output results/week2/curation --publish-manifests data/manifests/week2
 
-# Verify the existing exact originals without any network request:
+# Verify cached originals without network; leave committed review snapshots unchanged:
 .venv/bin/python scripts/curate_week2_dataset.py --offline \
-  --output results/week2/curation --publish-manifests data/manifests/week2
+  --output results/week2/curation
 
 .venv/bin/python scripts/validate_week2.py \
   --inputs data/manifests/week2/inputs.preparatory.json \

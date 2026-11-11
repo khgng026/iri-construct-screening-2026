@@ -1,0 +1,22 @@
+test_exact_identity_and_translation_evidence (test_dataset_curation.OriginalSourceTests.test_exact_identity_and_translation_evidence) ... ok
+test_igem_identity_and_coordinates (test_dataset_curation.OriginalSourceTests.test_igem_identity_and_coordinates) ... ok
+test_igem_pagination_and_license_not_assumed (test_dataset_curation.OriginalSourceTests.test_igem_pagination_and_license_not_assumed) ... ok
+test_incomplete_original_rejected (test_dataset_curation.OriginalSourceTests.test_incomplete_original_rejected) ... ok
+test_lineage_ids_are_not_independent_sample_counts (test_dataset_curation.OriginalSourceTests.test_lineage_ids_are_not_independent_sample_counts) ... ok
+test_missing_optional_parser_is_a_controlled_failure (test_dataset_curation.OriginalSourceTests.test_missing_optional_parser_is_a_controlled_failure) ... ok
+test_publication_context_hold_does_not_claim_vector_hazard (test_dataset_curation.OriginalSourceTests.test_publication_context_hold_does_not_claim_vector_hazard) ... ok
+test_source_cds_without_translation_not_synthesized (test_dataset_curation.OriginalSourceTests.test_source_cds_without_translation_not_synthesized) ... ok
+test_source_toxin_annotation_excluded_despite_vector_title (test_dataset_curation.OriginalSourceTests.test_source_toxin_annotation_excluded_despite_vector_title) ... ok
+test_corrupt_cache_is_not_silently_repaired (test_dataset_curation.SourceClientTests.test_corrupt_cache_is_not_silently_repaired) ... ok
+test_error_payload_and_path_not_exposed (test_dataset_curation.SourceClientTests.test_error_payload_and_path_not_exposed) ... ok
+test_offline_never_connects (test_dataset_curation.SourceClientTests.test_offline_never_connects) ... ok
+test_published_source_free_manifest_resolves_same_original (test_dataset_curation.SourceClientTests.test_published_source_free_manifest_resolves_same_original) ... ok
+test_retry_after_date_and_long_hold (test_dataset_curation.SourceClientTests.test_retry_after_date_and_long_hold) ... ok
+test_retry_honors_short_provider_wait (test_dataset_curation.SourceClientTests.test_retry_honors_short_provider_wait) ... ok
+test_url_binding_and_incomplete_pairs (test_dataset_curation.SourceClientTests.test_url_binding_and_incomplete_pairs) ... ok
+test_verified_cache_does_not_refetch (test_dataset_curation.SourceClientTests.test_verified_cache_does_not_refetch) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.130s
+
+OK

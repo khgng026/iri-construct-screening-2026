@@ -1,0 +1,22 @@
+{
+  "schema_version": "week2-source-inputs-1",
+  "records": [
+    {
+      "source_id": "ncbi-MK448012.1",
+      "path": "raw_sources/MK448012.1.gb",
+      "format": "genbank",
+      "sequence_id": "MK448012.1",
+      "checksum_sha256": "038fe3d5fb47562aca2003bc20a06a91809ccab8380221d4573976214b952c07",
+      "source": "NCBI GenBank",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/MK448012.1",
+      "accession": "MK448012",
+      "accession_version": "1",
+      "archetype": "tagged_fusion",
+      "source_type": "complete_plasmid_supplemental_preparation_only",
+      "sequence_length_nt": 7632,
+      "feature_count": 27,
+      "scientific_admission": false,
+      "lineage_group": "pCHX50-original-source"
+    }
+  ]
+}

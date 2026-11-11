@@ -1,3 +1,22 @@
+# Current Week 2 handoff — November 11, 2026
+
+The autonomous mission has delivered actual source curation, deterministic
+preparatory QA, parser and scoring corrections, and pinned offline ESM-2/ESM-C
+software validation. PR #9 is merged; its earlier draft/open snapshot below is
+historical. No new panel-specific scientific clearance has been issued.
+
+Start with [the completion report](../week2/COMPLETION_REPORT.md),
+[task status](../week2/TASK_STATUS.json),
+[scientific-review packet](EXPERIMENT_APPROVAL_PACKET.md), and
+[run evidence](../runs/week2-2026-11-11/README.md).
+New scoring remains blocked pending the separate actual ChatGPT decision;
+Codex has not signed its own scientific clearance. Source-specific HOLDs and
+unsupported reference/strict-tier conditions remain visible in the packet.
+
+---
+
+The handoff entries below are preserved historical evidence.
+
 # Codex implementation handoff
 
 ## Pilot execution — 2026-11-06

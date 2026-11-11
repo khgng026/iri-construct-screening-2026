@@ -1,0 +1,20 @@
+{
+  "schema_version": "iri-mission-authority-record-1",
+  "recorded_on": "2026-11-11",
+  "timezone": "America/New_York",
+  "source": "User-uploaded Codex Mission: Autonomous Research Execution and Week2Completion; user requested continuing this mission.",
+  "original_user_file_sha256": "7fd56b63d4997009bb0c4f636add3307ce1a7d8bc1a2c47b1171a21ff6dab564",
+  "permissions": [
+    "Routine public-benign source discovery/acquisition and evidence preparation",
+    "Week1prerequisite repairs and Week2T09-T14 implementation/QA",
+    "Multiple Codex agents and bounded free local software/model validation",
+    "Existing E1-E4 program only once applicable actual delegated scientific clearance exists",
+    "Reviewable branches/commits/pull request"
+  ],
+  "retained_conditions": [
+    "No additional spending, restricted data, hazardous biological scope or public source release",
+    "Public availability does not establish rights or scientific suitability",
+    "Codex must not fabricate or impersonate a separate ChatGPT scientific decision"
+  ],
+  "scientific_execution_clearance_issued_by_this_record": false
+}
