@@ -1,0 +1,16 @@
+{
+  "sha256": {
+    "README.md": "a61339e61e74efe21ecc2d05e991ae32b7e032cd465f5257831ef5e50cc25c32",
+    "assessment.json": "d34a0b772a45746a86245541150ee57f0d4a47f5cf5fc9c472570731df5018bf",
+    "governance-pr-snapshot.json": "659918e7484e035bc75b323369e0b49a30b6b48afd926179fafdba83744a1f66",
+    "technical-validation/checksums.json": "4ed074dd2ba51ac571ca4a6fff32231e6d368cfb3744377867790d5178ba3282",
+    "technical-validation/dependency-consistency.txt": "35bb3d1e4d1d0091788acae77c6d707f1dfb81d2384e34fd54a205f9497ce313",
+    "technical-validation/environment.txt": "dae27a5ab7e6eb971bff90d485b8ad2e42a56c9f21ec1e211133b57b84127016",
+    "technical-validation/environment/report.json": "5d0b264ce4467c6a232e1701a3178ab316916509c8a26447ff45f59935bb49b7",
+    "technical-validation/historical-release.txt": "7db2b07c2df905ad9d07cbac13551fe6546b873607289fbe47fc7b8a91375441",
+    "technical-validation/smoke.txt": "d773636b587e2d1b4870fc827cd12fc9a5824fc2f00b4e5ad134b0e742954833",
+    "technical-validation/unit-tests.txt": "52511ad6113bcde71d0eeb77866ef449e715a211a56de3727a7f9dde87fafc54",
+    "technical-validation/validation.json": "704eafe564d25d52073d10b9dab937f1a91092ad9e55b66e3b53ecd8b8241eca",
+    "validate.py": "e3a1b60819301c33c2c53fc82d17768debd14a0812c46568c846e5a3fe4e042c"
+  }
+}

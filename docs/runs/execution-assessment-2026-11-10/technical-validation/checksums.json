@@ -1,0 +1,11 @@
+{
+  "sha256": {
+    "dependency-consistency.txt": "35bb3d1e4d1d0091788acae77c6d707f1dfb81d2384e34fd54a205f9497ce313",
+    "environment.txt": "dae27a5ab7e6eb971bff90d485b8ad2e42a56c9f21ec1e211133b57b84127016",
+    "environment/report.json": "5d0b264ce4467c6a232e1701a3178ab316916509c8a26447ff45f59935bb49b7",
+    "historical-release.txt": "7db2b07c2df905ad9d07cbac13551fe6546b873607289fbe47fc7b8a91375441",
+    "smoke.txt": "d773636b587e2d1b4870fc827cd12fc9a5824fc2f00b4e5ad134b0e742954833",
+    "unit-tests.txt": "52511ad6113bcde71d0eeb77866ef449e715a211a56de3727a7f9dde87fafc54",
+    "validation.json": "704eafe564d25d52073d10b9dab937f1a91092ad9e55b66e3b53ecd8b8241eca"
+  }
+}
