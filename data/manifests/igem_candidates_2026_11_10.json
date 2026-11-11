@@ -6,7 +6,7 @@
   "retired_addgene_reactivation": false,
   "scientific_scope": "Public benign fluorescent reporters, multi-gene devices, tagged constructs, pigment enzyme expression; source parts are not necessarily complete plasmids.",
   "approval_contract": "Candidates only until anonymous API confirms published sequence plus source metadata, licensing, benign scope and annotations. Separate T02 scientific admission needed. T07 pre-score family/ref approval not waived.",
-  "candidate_count": 14,
+  "candidate_count": 16,
   "candidates": [
     {
       "part_id": "BBa_25FDWALN",
@@ -158,6 +158,28 @@
       "proposed_archetype": "single_reporter",
       "caveat": "Related to 25ULGTE2; not independent.",
       "source_url": "https://registry.igem.org/parts/bba-25ecypmt",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_K823025",
+      "slug": "bba-k823025",
+      "title": "pSB_Bs3C luxABCDE and RFP luminescence reporter vector",
+      "proposed_archetype": "multi_cds",
+      "caveat": "Public complete vector; long luxABCDE cassette, establish independent families separately.",
+      "source_url": "https://registry.igem.org/parts/bba-k823025",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_K5218004",
+      "slug": "bba-k5218004",
+      "title": "pS1300 RcTAL–eGFP fusion construct",
+      "proposed_archetype": "tagged_fusion",
+      "caveat": "Deposition claims a GFP fusion; verify full annotated part and exact fusion bounds.",
+      "source_url": "https://registry.igem.org/parts/bba-k5218004",
       "audit_status": "PENDING_API_VERIFICATION",
       "selection_approved": false,
       "source_admitted_for_scoring": false

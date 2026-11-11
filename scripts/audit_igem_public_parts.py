@@ -22,8 +22,21 @@ BASE="https://api.registry.igem.org/v1"
 def get_json(path):
     u=BASE+path
     req=Request(u,headers={"User-Agent":"IRI-Construct-Screening/0.2 (public academic metadata review; no authentication)","Accept":"application/json"})
-    with urlopen(req,timeout=30) as h:
-        raw=h.read(1_500_001)
+    raw=None
+    for attempt in range(7):
+        try:
+            with urlopen(req,timeout=30) as h:
+                raw=h.read(1_500_001)
+            break
+        except HTTPError as e:
+            if e.code != 429 or attempt == 6:
+                raise
+            retry=e.headers.get("Retry-After", "")
+            delay=min(120, max(40, int(retry) if retry.isdigit() else (attempt + 1)*40))
+            print("Registry rate-limited (HTTP 429); respecting cooldown",delay,"seconds",flush=True)
+            time.sleep(delay)
+    if raw is None:
+        raise ValueError("No source bytes received")
     if len(raw)>1_500_000:
         raise ValueError("Oversized response")
     data=json.loads(raw)
@@ -81,7 +94,7 @@ def main():
             entry["error"]=secret_free_error(e)
         report.append(entry)
         print(slug,entry["status"],entry.get("sequence_length_nt","-"),entry.get("annotation_count","-"),flush=True)
-        time.sleep(.4)
+        time.sleep(13.0)
     output={"audited_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),
             "candidate_count":len(report),
             "public_sequence_download_count":sum(z["status"]=="DOWNLOADED_REVIEW_REQUIRED" for z in report),
