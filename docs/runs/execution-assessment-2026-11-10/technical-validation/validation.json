@@ -1,0 +1,160 @@
+{
+  "checks": [
+    {
+      "argv": [
+        "/workspace/iri-construct-screening-2026/.venv/bin/python",
+        "scripts/smoke_test.py"
+      ],
+      "child_system_cpu_seconds": 0.003725,
+      "child_user_cpu_seconds": 0.022713999999999998,
+      "exit_code": 0,
+      "log": "smoke.txt",
+      "name": "smoke",
+      "wall_seconds": 0.030453141999998934
+    },
+    {
+      "argv": [
+        "/workspace/iri-construct-screening-2026/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "child_system_cpu_seconds": 0.31810299999999997,
+      "child_user_cpu_seconds": 1.4964979999999999,
+      "exit_code": 0,
+      "log": "unit-tests.txt",
+      "name": "unit-tests",
+      "wall_seconds": 1.5452859920000037
+    },
+    {
+      "argv": [
+        "/workspace/iri-construct-screening-2026/.venv/bin/python",
+        "scripts/verify_pilot_release.py"
+      ],
+      "child_system_cpu_seconds": 0.028274999999999995,
+      "child_user_cpu_seconds": 0.30637499999999984,
+      "exit_code": 0,
+      "log": "historical-release.txt",
+      "name": "historical-release",
+      "wall_seconds": 0.17456247600000552
+    },
+    {
+      "argv": [
+        "/workspace/iri-construct-screening-2026/.venv/bin/python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "child_system_cpu_seconds": 0.02826099999999998,
+      "child_user_cpu_seconds": 0.1453800000000003,
+      "exit_code": 0,
+      "log": "dependency-consistency.txt",
+      "name": "dependency-consistency",
+      "wall_seconds": 0.17415540300001453
+    },
+    {
+      "argv": [
+        "/workspace/iri-construct-screening-2026/.venv/bin/python",
+        "scripts/t05_environment.py",
+        "--load-esm2",
+        "--output",
+        "/workspace/iri-construct-screening-2026/results/execution-assessment-2026-11-10/check01/environment"
+      ],
+      "child_system_cpu_seconds": 0.00659000000000004,
+      "child_user_cpu_seconds": 0.06563699999999972,
+      "exit_code": 0,
+      "log": "environment.txt",
+      "name": "environment",
+      "wall_seconds": 0.07287632000000599
+    }
+  ],
+  "child_peak_rss_bytes": 40112128,
+  "child_peak_rss_scope": "OS high-water mark across child processes; not additive or a per-model measurement.",
+  "configuration": {
+    "biological_inference_requested": false,
+    "downloads": false,
+    "scientific_experiments_requested": false
+  },
+  "cpu": "",
+  "experiment": "execution_request_technical_validation",
+  "finished_at_utc": "2026-11-11T03:06:51.159798+00:00",
+  "git_revision": "4b032feda0672dc2903246ee897a034d665653fc",
+  "gpu_execution_seconds": null,
+  "inference_executed_on_biological_inputs": false,
+  "installed_packages": {
+    "biopython": "1.86",
+    "numpy": "2.5.4",
+    "pip": "25.0.1",
+    "psutil": "7.1.3"
+  },
+  "limitations": [
+    "Research representations and annotation agreement only; no function assay or safety decision.",
+    "No training or fine-tuning. No cross-model embedding-space comparisons.",
+    "No approved-input or pretrained-model performance is implied by unit tests.",
+    "Environment preflight may exit zero with unavailable model dependencies; inspect environment/report.json."
+  ],
+  "logical_cpu_count": 3,
+  "monetary_cost": null,
+  "new_scientific_scores_produced": false,
+  "packages": {
+    "biopython": "1.86",
+    "esm": null,
+    "huggingface-hub": null,
+    "numpy": "2.5.4",
+    "psutil": "7.1.3",
+    "torch": null,
+    "transformers": null
+  },
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "result_schema": "t05-results-1",
+  "source_code_sha256": {
+    "experiments/t05_esm2_fusion/compare_fusion.py": "79de9f3bfab01df52977d7190c7b02eaa182ef145c3cc45922eb9330dfb95306",
+    "experiments/t05_model_comparison/compare_models.py": "801bcb30d67a074d4ccced12cb07ce0c10fbe8cffca74bb9ecac87417de02d0c",
+    "scripts/audit_igem_public_parts.py": "9b1fdc458b04f58f1cada18d940059c63f35cbc8f5d149707dcd42c7621777bf",
+    "scripts/inventory_candidates.py": "89b69ca76fa62f02b95ff93fcf0190d2ebe68d03c88e475eafbc71040fa822ce",
+    "scripts/parse_annotations.py": "3cb096263ef4cd76f6971ba1fec4704880b96a514008126a8ac04765613a0cdd",
+    "scripts/prepare_pilot.py": "c565df106e4e0cc662e790152695570f4b32a05417b99ae936b63dc6b5f1f037",
+    "scripts/report_cost_quality.py": "70cd9162a1321c8ead3666594f0690f957ed324bd5dab38b252f7e3b3a4da78c",
+    "scripts/review_open_archive_candidates.py": "90818f51ca17e50577159e6b9a6d312717ed178cea762fabf8fad3f4960d6fe5",
+    "scripts/review_open_archive_candidates_v2.py": "8c57e43bd8dc45dcfb9055011d2abcca131a579f061b1439b7123995d92cb103",
+    "scripts/run_evaluation_extension.py": "bb13ec382a5e739a0a322e469b4e0eb5ff135260e27bfe4581bbabbf3f48513a",
+    "scripts/run_multi_cds.py": "bd0e24584c562d5caa797bbe8324981525a6edd96c041e253fa8ad53cd06bd6d",
+    "scripts/run_pilot_experiment.py": "f91998b2aa092f244eed060276ba98c76ddaad8cf6ace1af122911783e73c2bd",
+    "scripts/smoke_test.py": "d30139e0aa4deba1806c9ec7ae97ea1c5e8a76f242ab7c33b82fe1a9ac19a3c1",
+    "scripts/t05_environment.py": "bb358fcb2097fe0d55db39af01cf1c1e78253eba3b7bb9aee0011253206ebddd",
+    "scripts/t05_model_probe.py": "3c17c3ef9925d3edd285b8f87697b6e95974c9b8b9dee3ace18aa1955498ec37",
+    "scripts/verify_pilot_release.py": "b36a37ee27349a03402d3a36c932f68059b5e7dd280bbcaf49ddb2a646af36ef",
+    "src/iri_constructs/__init__.py": "b068ff9e57ee8cdef9492154fda0c7c882c317cffe0f8ef6e827b4144813b63f",
+    "src/iri_constructs/annotation_quality.py": "8e0b7be471c906f01e3e1439060d23d9927642201e9629a5d6f3770c91a60e60",
+    "src/iri_constructs/annotations.py": "f86f50683b45ea02487b01bb330b3f03baa3d6aae069334ec22be95b67fb465b",
+    "src/iri_constructs/bench_inputs.py": "1304cd1840bc23a27f305e8717ae4376ca893dbe1569e9991e075bc0cfae47ae",
+    "src/iri_constructs/candidate_inventory.py": "8f2cc1183405e0bb577e923e464e3698db78a70b70ebedae5144f473c3246e50",
+    "src/iri_constructs/config.py": "542dc6cdedaf0cd185fbd95b1ee0a8cdae5b3581c04378430001231de50ba174",
+    "src/iri_constructs/cost_quality.py": "fe48cb5556ca3bb083e7572cfddc9807e34a5455c8aa0d0498972903f74eda6a",
+    "src/iri_constructs/experiment_cli.py": "f7e4e7b53917b5962ec900423e887a25f1ea2f1f8e8386a764ce7e81ab4980ec",
+    "src/iri_constructs/extension_config.py": "a67a91c68f0cf4492c6581a5553ea782b57a15cd26003e4c4c4fec21dda7d1bc",
+    "src/iri_constructs/extension_experiments.py": "832ad19b225920541d7163c29a8cda30d09d107119ceb48574254960c217ff58",
+    "src/iri_constructs/fusion.py": "96b97a74163aeac1b78edf1be47b94254bba22b3c9f67726fd41edf0959f89a5",
+    "src/iri_constructs/fusion_legacy.py": "a9aa5e2716855ff8c200005e0a2b9c497ee2a21b10dc0126636d937ec4ada1af",
+    "src/iri_constructs/metrics.py": "5d72ca2938014808a4fba406f99f9526940f61072a99ebd30977035518a23718",
+    "src/iri_constructs/model_adapters.py": "fc68921a4d4fb3358de240e3cdd1bc64045c66622f2248e19e518bcb3bbb7097",
+    "src/iri_constructs/multi_cds.py": "3b2ab9e1f35d260034fff21861725149315f031acf27259b59a71dfd756e16b7",
+    "src/iri_constructs/pilot.py": "c56fb981db4371d7a8fe6eda045c43e57f63a8b272bfd169dac501c9dae448a0",
+    "src/iri_constructs/pilot_alignment.py": "3565233a515c2ea9c4fa71c8eb377918edf8a9ef1f0c6b4174335ca506c18b30",
+    "src/iri_constructs/pilot_experiments.py": "6d7ffc098faad9b75e8ff149a58c26c9876e95a83e68e4714bc6b8a1e2b7652c",
+    "src/iri_constructs/pilot_scoring.py": "03e373b17473283edb0330362def98cfc36c6772d56719b380b9334e0389a9e6",
+    "src/iri_constructs/reference_tiers.py": "314d117ace3c6f44159f750c38586094923bd6773c2ecb38154747c086a3450e",
+    "src/iri_constructs/runtime.py": "4d4534fbfc20877da045777ece256d5ad453b04d16254bab3849ae8ceddc9c58",
+    "src/iri_constructs/schema_check.py": "a36ba98f94ad5b9bcd52137e39f9050ff2fd2b0184e9f3b6b10d9ef0ab52ec08",
+    "src/iri_constructs/validate_manifest.py": "a82a134894b0fc7e86be766eab5127126b06ed684f394e5c943802fd84dbf08d"
+  },
+  "started_at_utc": "2026-11-11T03:06:49.156303+00:00",
+  "status": "software_checks_passed",
+  "validation_cost_scope": "Software checks only; not E2/E3/E4 scientific model costs.",
+  "validation_script_sha256": "e3a1b60819301c33c2c53fc82d17768debd14a0812c46568c846e5a3fe4e042c",
+  "working_tree_dirty": true
+}

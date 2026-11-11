@@ -1,0 +1,331 @@
+{
+  "approval_packet_path_checks": [
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "docs/coordination/EXPERIMENT_APPROVAL_PACKET.md",
+      "present": false
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "docs/oversight/EXPERIMENT_RUN_AUTHORIZATION.md",
+      "present": false
+    },
+    {
+      "git_commit": "cb31db46bc56cf0eab600b5058ef82dfc400b4c8",
+      "path": "docs/coordination/EXPERIMENT_APPROVAL_PACKET.md",
+      "present": false
+    },
+    {
+      "git_commit": "cb31db46bc56cf0eab600b5058ef82dfc400b4c8",
+      "path": "docs/oversight/EXPERIMENT_RUN_AUTHORIZATION.md",
+      "present": false
+    }
+  ],
+  "assessed_at_utc": "2026-11-11T03:07:55.559726+00:00",
+  "assessment_kind": "Executor inspection of existing approvals; not delegated scientific clearance.",
+  "biological_model_calls": 0,
+  "current_validation": {
+    "checks": [
+      {
+        "argv": [
+          "/workspace/iri-construct-screening-2026/.venv/bin/python",
+          "scripts/smoke_test.py"
+        ],
+        "child_system_cpu_seconds": 0.003725,
+        "child_user_cpu_seconds": 0.022713999999999998,
+        "exit_code": 0,
+        "log": "smoke.txt",
+        "name": "smoke",
+        "wall_seconds": 0.030453141999998934
+      },
+      {
+        "argv": [
+          "/workspace/iri-construct-screening-2026/.venv/bin/python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "child_system_cpu_seconds": 0.31810299999999997,
+        "child_user_cpu_seconds": 1.4964979999999999,
+        "exit_code": 0,
+        "log": "unit-tests.txt",
+        "name": "unit-tests",
+        "wall_seconds": 1.5452859920000037
+      },
+      {
+        "argv": [
+          "/workspace/iri-construct-screening-2026/.venv/bin/python",
+          "scripts/verify_pilot_release.py"
+        ],
+        "child_system_cpu_seconds": 0.028274999999999995,
+        "child_user_cpu_seconds": 0.30637499999999984,
+        "exit_code": 0,
+        "log": "historical-release.txt",
+        "name": "historical-release",
+        "wall_seconds": 0.17456247600000552
+      },
+      {
+        "argv": [
+          "/workspace/iri-construct-screening-2026/.venv/bin/python",
+          "-m",
+          "pip",
+          "check"
+        ],
+        "child_system_cpu_seconds": 0.02826099999999998,
+        "child_user_cpu_seconds": 0.1453800000000003,
+        "exit_code": 0,
+        "log": "dependency-consistency.txt",
+        "name": "dependency-consistency",
+        "wall_seconds": 0.17415540300001453
+      },
+      {
+        "argv": [
+          "/workspace/iri-construct-screening-2026/.venv/bin/python",
+          "scripts/t05_environment.py",
+          "--load-esm2",
+          "--output",
+          "/workspace/iri-construct-screening-2026/results/execution-assessment-2026-11-10/check01/environment"
+        ],
+        "child_system_cpu_seconds": 0.00659000000000004,
+        "child_user_cpu_seconds": 0.06563699999999972,
+        "exit_code": 0,
+        "log": "environment.txt",
+        "name": "environment",
+        "wall_seconds": 0.07287632000000599
+      }
+    ],
+    "child_peak_rss_bytes": 40112128,
+    "cost_scope": "Technical validation only; not experimental inference costs. Excludes repository inspection, tool overhead, and evidence preparation.",
+    "gpu_execution_seconds": null,
+    "monetary_cost": null,
+    "total_child_cpu_seconds": 2.4215579999999997,
+    "total_command_wall_seconds": 1.9973333330000287
+  },
+  "evidence": [
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "docs/week1/T02_data_governance.md",
+      "sha256": "e5a62ca7bdffd28fcfa3fb468c7d862591e639064974c7d41ec08524c96d2f1f"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "docs/week1/T07_benchmark_protocol.md",
+      "sha256": "30f89d9562b7ba088748cbc8a9b7ae89673e2e8db41195c5ec9ade4f0da27488"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "docs/week1/T07_v1_1_evaluation_addendum.md",
+      "sha256": "eb1d6cd87a49f10152566f6b696a27b008111c9de1cf612029372a25370c93c4"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "docs/coordination/CODEX_STATUS.md",
+      "sha256": "a0271b58d317ab067df4f681ed1046517efb445c50d755f0525790832c768ed1"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "docs/archive-review-2026-11-06/report.json",
+      "sha256": "4cd98bf993aa06c21006b1eef0952b3a448035f00c64f445846e66db1151e863"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "docs/igem-review-2026-11-10/report.json",
+      "sha256": "5cb509330e3bc00a5dd6eac4b7dbe57a3b9e1bc1b70b332a492cffff4cba0fb4"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "data/manifests/pilot_execution_2026_11_06/release.json",
+      "sha256": "bdcd86e7aab6413ae23ccf63e47f874b216cd84468b7a73bc735a082cd6f9623"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "data/manifests/pilot_execution_2026_11_06/independence_review.json",
+      "sha256": "44e18be494b45b3a435bbeb91fe23587ce8a8422315e6804c868231f8995efcc"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "config/extensions/design_freeze.json",
+      "sha256": "4437471f7f3aae1ad0674fcec8c9deda9891f493e8d0d304d65a0bf8d70448f7"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "config/extensions/E1.json",
+      "sha256": "55f0fe95360e1b4e8ee87b304b3414f25e1a799fa1ebfea0928c4a77b71f7bb7"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "config/extensions/E2.json",
+      "sha256": "2b02e4fa5b472fc87e11a5fdb01cede84a5363746ea89e85f9807cdfa8dd8153"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "config/extensions/E3.json",
+      "sha256": "a659f46827c212b9bc2a9c08853a73db62423d15ce592220addd32999dc74cc0"
+    },
+    {
+      "git_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+      "path": "config/extensions/E4.json",
+      "sha256": "500212e017b54e685ac478688e1bf67679796c19599e74e0ae209a331129d0ee"
+    },
+    {
+      "git_commit": "cb31db46bc56cf0eab600b5058ef82dfc400b4c8",
+      "path": "docs/coordination/EXPERIMENT_EXECUTION_READINESS_2026_11_10.md",
+      "sha256": "bbd563967220be8a60609ef96dd06096e1078ded261786f069773967c4d6a102"
+    },
+    {
+      "git_commit": "cb31db46bc56cf0eab600b5058ef82dfc400b4c8",
+      "path": "docs/coordination/CODEX_PREPARE_EXPERIMENT_AUTHORIZATION.md",
+      "sha256": "cffd1ce12d35532529e9f2861eb6715c488ad17f467ebff64f96599c8a0fd9c4"
+    },
+    {
+      "git_commit": "cb31db46bc56cf0eab600b5058ef82dfc400b4c8",
+      "path": "docs/oversight/2026-11-10_RESEARCHER_EXPERIMENT_AUTHORIZATION.md",
+      "sha256": "b7b42dc9d322aeb70b3971523fa947b55971b1d741ebd0da3fbc256bcbaeef6d"
+    },
+    {
+      "git_commit": "cb31db46bc56cf0eab600b5058ef82dfc400b4c8",
+      "path": "docs/oversight/T02_V1_2_DELEGATED_REVIEW.md",
+      "sha256": "1287e3092cf405429e58d956f80c7cea5b250c84d6e34434ecc5c92449b19df7"
+    },
+    {
+      "git_commit": "cb31db46bc56cf0eab600b5058ef82dfc400b4c8",
+      "path": "docs/oversight/T07_V1_2_DELEGATED_EVALUATION_SIGNOFF.md",
+      "sha256": "c87e446a9e98000877fd19034a81883aa48be49f17eee5f3758dba1582f16ad4"
+    }
+  ],
+  "experiments": {
+    "E1": {
+      "executed": false,
+      "inference_executed": false,
+      "new_scientific_metrics": null,
+      "reasons": [
+        "No completed approved experimental-readiness packet or dated stage-specific clearance bound to an exact panel found in inspected main or PR #9.",
+        "Recorded researcher authorization conditions delegated review on PR #9 merge; PR #9 is draft/open and unmerged in saved GitHub snapshot.",
+        "New 11 GenBank / 10 iGEM subset has no completed exact-source T02 admission and prospective panel; historical pBR322 E1 is already completed and is preserved."
+      ],
+      "scientific_compute_cost": null,
+      "status": "BLOCKED"
+    },
+    "E2": {
+      "executed": false,
+      "inference_executed": false,
+      "new_scientific_metrics": null,
+      "reasons": [
+        "No completed approved experimental-readiness packet or dated stage-specific clearance bound to an exact panel found in inspected main or PR #9.",
+        "Recorded researcher authorization conditions delegated review on PR #9 merge; PR #9 is draft/open and unmerged in saved GitHub snapshot.",
+        "No reviewed eligible parent-family panel with independent positive and competing references and frozen exclusions."
+      ],
+      "scientific_compute_cost": null,
+      "status": "BLOCKED"
+    },
+    "E3": {
+      "executed": false,
+      "inference_executed": false,
+      "new_scientific_metrics": null,
+      "reasons": [
+        "No completed approved experimental-readiness packet or dated stage-specific clearance bound to an exact panel found in inspected main or PR #9.",
+        "Recorded researcher authorization conditions delegated review on PR #9 merge; PR #9 is draft/open and unmerged in saved GitHub snapshot.",
+        "No reviewed independent reference tiers; no approved strict relatedness policy; no exact ESM-C snapshot freeze.",
+        "ESM-2/ESM-C dependencies unavailable in the selected environment; offline ESM-2 load check blocked."
+      ],
+      "scientific_compute_cost": null,
+      "status": "BLOCKED"
+    },
+    "E4": {
+      "executed": false,
+      "inference_executed": false,
+      "new_scientific_metrics": null,
+      "reasons": [
+        "No completed approved experimental-readiness packet or dated stage-specific clearance bound to an exact panel found in inspected main or PR #9.",
+        "Recorded researcher authorization conditions delegated review on PR #9 merge; PR #9 is draft/open and unmerged in saved GitHub snapshot.",
+        "No actual comparable E2/E3 quality/cost measurements exist for the requested panel."
+      ],
+      "scientific_compute_cost": null,
+      "status": "BLOCKED"
+    }
+  },
+  "historical_E1": {
+    "limitation": "One-source annotation agreement only; no biological function or pretrained retrieval evidence. Costs are original historical measurements, not this environment.",
+    "metrics": {
+      "confirmed_source_aligned_translation_rate": {
+        "denominator": 3,
+        "numerator": 3,
+        "value": 1.0
+      },
+      "conflicting_qualifier_cds_rate": {
+        "denominator": 3,
+        "numerator": 0,
+        "value": 0.0
+      },
+      "justified_model_abstention_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "value": null
+      },
+      "missing_translation_rate": {
+        "denominator": 3,
+        "numerator": 0,
+        "value": 0.0
+      },
+      "observable_feature_preservation": {
+        "denominator": 48,
+        "numerator": 48,
+        "value": 1.0
+      },
+      "observable_qualifier_preservation": {
+        "denominator": 48,
+        "numerator": 48,
+        "value": 1.0
+      },
+      "source_ambiguous_feature_rate": {
+        "denominator": 48,
+        "numerator": 0,
+        "value": 0.0
+      },
+      "source_uncertainty_preservation": {
+        "denominator": 0,
+        "numerator": 0,
+        "value": null
+      },
+      "source_unknown_feature_rate": {
+        "denominator": 48,
+        "numerator": 0,
+        "value": 0.0
+      },
+      "useful_model_input_rate": {
+        "denominator": 3,
+        "numerator": 3,
+        "value": 1.0
+      }
+    },
+    "new_run": false,
+    "report_path": "docs/runs/pilot-2026-11-06/E1/report.json",
+    "report_sha256": "7c8a55536f5b397df775b00f2e215c6dfd1a6e1cb7ed952d79cb607ed4ca95c3",
+    "resources": {
+      "memory_scope": "Absolute process RSS; CUDA allocator only. Sampling may miss brief peaks.",
+      "rss_sampling_interval_seconds": 0.02,
+      "sampled_peak_process_rss_bytes": 53567488,
+      "wall_seconds": 0.488199400017038
+    },
+    "source_record_id": "ncbi-J01749.1"
+  },
+  "inspected_main_commit": "4b032feda0672dc2903246ee897a034d665653fc",
+  "inspected_proposed_governance_commit": "cb31db46bc56cf0eab600b5058ef82dfc400b4c8",
+  "limitations": [
+    "Software checks passing does not establish scientific readiness or model availability.",
+    "Five optional model/plot tests skipped.",
+    "Historical source evidence was verified without creating a new E1 experimental observation.",
+    "Missing experimental costs and performance metrics remain null; blocked does not mean a measured failure of a model.",
+    "No additional biological source acquisition, model download or public release performed."
+  ],
+  "new_scientific_execution_clearance_found": false,
+  "new_scientific_scores_produced": false,
+  "researcher_scope_authorization_recorded": true,
+  "schema_version": "iri-execution-assessment-1",
+  "status": "BLOCKED_NO_NEW_SCIENTIFIC_CLEARANCE",
+  "user_facing_date": "2026-11-10",
+  "user_facing_timezone": "America/New_York"
+}
