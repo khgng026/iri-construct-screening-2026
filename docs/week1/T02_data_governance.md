@@ -1,6 +1,6 @@
 # T02 | Public-data and safety rules
 
-**Week:** 1  |  **Budget:** 1 hour  |  **Status:** Approved v1.0 (2026-10-28); storage amendment v1.1 authorized 2026-11-05, pending PR merge  |  **Prerequisite:** T01  |  **Calendar source:** `Weekly To-Dos!A6:K6`.
+**Week:** 1  |  **Budget:** 1 hour  |  **Status:** Approved v1.0 (2026-10-28); v1.1 storage amendment merged 2026-11-06; v1.2 delegated-review amendment proposed 2026-11-10  |  **Prerequisite:** T01  |  **Calendar source:** `Weekly To-Dos!A6:K6`.
 
 **Approval record:** User approved the written governance policy on 2026-10-28 and reaffirmed T02's approval with T01–T04 on 2026-10-29. Version 1.0 remains the baseline for source selection, provenance, licensing and safety review. The subsequent v1.1 storage amendment below supersedes only the repository-storage restrictions after individually verified approvals. Future amendments should be versioned and documented; this approval does **not** approve any specific sequence, accession, dataset, source license, or release. The checklist below remains unchecked because each entry must be applied independently to each future candidate record in T06/T08.
 
@@ -69,3 +69,7 @@ Use **only public, benign synthetic construct records** for an evaluation of ann
 **Current pilot state as of authorization:** Ten candidate identities are researcher-selected, and acquisition/cloud-storage eligibility is authorized in principle. **Zero exact downloaded biological records have completed the independent T02 source/version/checksum, annotation, permission, and safety checks, so zero files are currently admitted for scientific scoring or GitHub upload.** Do not change their manifest `pending`/`uncertain` statuses to `approved` until the corresponding evidence exists. This is not a denial of the researcher's permission; it is the implementation of the evidence conditions that remain in force.
 
 **Review evidence requirements and decision record:** See `docs/oversight/T02_V1_1_PUBLIC_PILOT_STORAGE.md`. Any future modification of T02 scoring or content eligibility must be versioned separately.
+
+## T02 v1.2 — researcher-initiated, delegated experimental-data admission (2026-11-10)
+
+The researcher authorized a **new approval workflow** in which ChatGPT may conduct and sign a documented, evidence-based review of the selected benign public constructs, protein-family labels, independent-reference panels, and readiness **after the researcher explicitly approves the scoped experimental run**. This user request authorizes the governance *mechanism*, **not the actual experiment execution**. Its complete signed-off decision criteria and audit record are in [T02 v1.2 delegated-review amendment](../oversight/T02_V1_2_DELEGATED_REVIEW.md). Earlier T02 source and reuse rights, safety exclusion, provenance, evidence standards and narrow cloud-storage controls remain mandatory. No absence of evidence can be changed into an approval.
