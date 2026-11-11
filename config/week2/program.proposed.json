@@ -7,7 +7,7 @@
     "data/manifests/week2/source_review.json": "1201f720fd312a6f359674f3d50a5494a56bf98df661a2eff402304b9f742655",
     "docs/week2/model-freeze.json": "041b0c4e7063efde99c877e1c17b40f6fe1bb3e7c6c804d776b05366ff684887",
     "docs/week2/qa/unit-provenance.json": "9a7f649ced8fff03f64a68e9a77fc106bff9bf60c966f1a6b0756f440868a659",
-    "docs/week2/schema-freeze.json": "93226f095a0f94c73dba7993ba4e4d46fb10aa81449a26631dca90890633657f"
+    "docs/week2/schema-freeze.json": "d35eddea4471308c4278097e5710a3bd43b46dcc34f763c2c5a97418b073fc1b"
   },
   "model_revisions": {
     "esm2": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",

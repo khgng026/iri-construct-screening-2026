@@ -114,7 +114,11 @@ seconds become resumable HOLDs rather than early retries. Acquisition is bounded
 to the selected identities and response sizes. `--only-id` and `--source` permit
 small targeted repairs without repeatedly downloading the entire pool.
 
-Focused validation: sixteen curation tests pass, including exact identities,
+Focused validation: seventeen curation tests pass, including exact identities,
 provided translations, source-context exclusions, license/pagination checks,
 corrupt-cache refusal, offline operation, provider retry handling, and safe
 source-free manifest publication.
+
+The dependency-free CI path also verifies that incomplete GenBank input is rejected
+before loading optional Biopython. A complete source with that parser absent now
+returns a controlled dependency failure instead of an uncaught import error.

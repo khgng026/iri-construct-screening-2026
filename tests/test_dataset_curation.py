@@ -146,6 +146,11 @@ class OriginalSourceTests(unittest.TestCase):
         with self.assertRaisesRegex(InputError, 'Incomplete'):
             parse_genbank(b'LOCUS incomplete\n', 'FICT00001.1')
 
+    def test_missing_optional_parser_is_a_controlled_failure(self):
+        with patch.dict(sys.modules, {'Bio': None}):
+            with self.assertRaisesRegex(InputError, 'Biopython is required'):
+                parse_genbank(b'LOCUS fictional software fixture\n//\n', 'FICT00001.1')
+
     def part(self):
         return {'name': 'BBa_FICTION', 'status': 'published', 'sequence': 'ATGGCTGCTTAA',
                 'licenseUUID': LICENSE_UUID, 'topology': {'label': 'Linear'},

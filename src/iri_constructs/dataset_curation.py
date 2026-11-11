@@ -128,12 +128,15 @@ class SourceClient:
 
 def parse_genbank(data: bytes, accession: str) -> tuple[object, dict]:
     """Read one complete annotated original, require exact version and DNA alphabet."""
-    from Bio import SeqIO
     from .bench_inputs import validate_sequence
     try:
         text = data.decode('utf-8')
         if not text.lstrip().startswith('LOCUS') or not text.rstrip().endswith('//'):
             raise InputError('Incomplete or non-GenBank original source')
+        try:
+            from Bio import SeqIO
+        except ImportError as exc:
+            raise InputError('Biopython is required to inspect a complete GenBank original') from exc
         record = SeqIO.read(StringIO(text), 'genbank')
         if record.id != accession:
             raise InputError('Original GenBank accession.version mismatch')
