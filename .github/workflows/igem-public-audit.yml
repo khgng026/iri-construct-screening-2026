@@ -1,0 +1,35 @@
+name: iGEM public access and feature audit
+on:
+  push:
+    branches:
+      - research/igem-public-constructs-2026-11-10
+  workflow_dispatch:
+
+jobs:
+  audit:
+    if: "!contains(github.event.head_commit.message, 'iGEM audit evidence')"
+    runs-on: ubuntu-latest
+    timeout-minutes: 17
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Audit anonymous published source access and annotation availability
+        run: python scripts/audit_igem_public_parts.py
+      - name: Commit source-free metadata only
+        if: always()
+        run: |
+          if [ -f results/igem_audit_2026_11_10/report.json ]; then
+            mkdir -p docs/igem-review-2026-11-10
+            cp results/igem_audit_2026_11_10/report.json docs/igem-review-2026-11-10/report.json
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/igem-review-2026-11-10/report.json
+            if ! git diff --cached --quiet; then
+              git commit -m "iGEM audit evidence: anonymous sequence and annotation checks [skip ci]"
+              git push origin HEAD:research/igem-public-constructs-2026-11-10
+            fi
+          fi
