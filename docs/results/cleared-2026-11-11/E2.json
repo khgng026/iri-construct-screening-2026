@@ -1,0 +1,644 @@
+{
+  "clearance": "https://github.com/khgng026/iri-construct-screening-2026/pull/11#issuecomment-6800553713",
+  "confidence_interval": null,
+  "environment": {
+    "logical_cpu_count": 3,
+    "packages": {
+      "biopython": "1.86",
+      "esm": "3.2.1",
+      "huggingface-hub": "0.28.1",
+      "numpy": "1.26.4",
+      "psutil": "7.1.3",
+      "torch": "2.3.0+cpu",
+      "transformers": "4.48.1"
+    },
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.11.17"
+  },
+  "execution_freeze_sha256": "8abbc3586599ec2a7be157571409a7dd34776d8f31a2da72527d9cb701824660",
+  "limitations": [
+    "Molecular-family retrieval only; no functional validation or population/model-winner claim.",
+    "ESM-C, strictertiers,Renilla and formalE4 remainHOLD.",
+    "E2 full documented-family endpoint unresolved; AmpR retained as unknown source component."
+  ],
+  "local_report_sha256": "6d99cef034dd69f28ef8ca53784eef6b058ba4de98c6c5d56e7691dcf1e00361",
+  "methods": {
+    "esm2": {
+      "costs": {
+        "alignment_calls": null,
+        "attempted_model_calls": 17,
+        "cache_hits": 0,
+        "cold_load_seconds": 2.7032842049993633,
+        "cpu_seconds": 6.6580764420000005,
+        "gpu_seconds": null,
+        "inference_pooling_seconds": 1.9797669319996203,
+        "model_calls": 17,
+        "peak_cuda_allocated_bytes": null,
+        "peak_process_rss_bytes": 568614912,
+        "processed_residues": 5670,
+        "total_wall_seconds": 4.692281750001712,
+        "unique_encoded_sequences": 17
+      },
+      "hardware": {
+        "device": "cpu",
+        "gpu": null,
+        "gpu_total_memory_bytes": null
+      },
+      "inference_executed": true,
+      "method_metadata": {
+        "device": "cpu",
+        "input_tracks": "sequence only",
+        "max_residues": 1022,
+        "model": "esm2",
+        "offline": true,
+        "precision_policy": "float32 weights; no autocast",
+        "repository": "facebook/esm2_t6_8M_UR50D",
+        "representation": "Final adapter output; residue mean; BOS/EOS/PAD excluded",
+        "requested_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+        "resolved_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+        "torch_num_interop_threads": 3,
+        "torch_num_threads": 2,
+        "truncation": false,
+        "unused_checkpoint_heads": "Masked language model head excluded; no additional pooler initialized",
+        "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+      },
+      "physical_execution_note": "References once, baseline units, then extra CDSs; exact-sequence cache shared, no separate-condition reruns",
+      "result": {
+        "claim_scope": "Distinct documented-family recovery per parent; more represented CDS units is not higher per-unit accuracy",
+        "common_scored_parent_ids": [
+          "ncbi-AF298787.1"
+        ],
+        "conditions": {
+          "all_cds": {
+            "abstentions": [
+              {
+                "parent_id": "ncbi-AF298787.1",
+                "reason": "unknown_documented_family_annotations",
+                "subset": "full"
+              }
+            ],
+            "full": {
+              "complete_family_recovery_rate": null,
+              "coverage": 0.0,
+              "documented_family_recall_at_k": null,
+              "requested_parents": 1,
+              "rows": [],
+              "scored_parents": 0
+            },
+            "matched": {
+              "complete_family_recovery_rate": 0.0,
+              "coverage": 1.0,
+              "documented_family_recall_at_k": 0.5,
+              "requested_parents": 1,
+              "rows": [
+                {
+                  "all_documented_families_recovered": 0,
+                  "archetype": "multi_cds",
+                  "budget_saturated": false,
+                  "distinct_expected_families": 2,
+                  "distinct_recovered_families": 1,
+                  "documented_family_recall_at_k": 0.5,
+                  "expected_families": [
+                    "gfp_like_homologs",
+                    "omp_decarboxylase_homologs"
+                  ],
+                  "parent_id": "ncbi-AF298787.1",
+                  "recovered_families": [
+                    "gfp_like_homologs"
+                  ],
+                  "reference_ids": [
+                    "uniprot-P83690",
+                    "uniprot-Q9U6Y3",
+                    "uniprot-Q8ISF8",
+                    "uniprot-Q9U6Y8",
+                    "uniprot-Q9U6Y4"
+                  ],
+                  "returned_hits": 5
+                }
+              ],
+              "scored_parents": 1
+            },
+            "status": "scored"
+          },
+          "longest_cds": {
+            "abstentions": [
+              {
+                "parent_id": "ncbi-AF298787.1",
+                "reason": "unknown_documented_family_annotations",
+                "subset": "full"
+              }
+            ],
+            "full": {
+              "complete_family_recovery_rate": null,
+              "coverage": 0.0,
+              "documented_family_recall_at_k": null,
+              "requested_parents": 1,
+              "rows": [],
+              "scored_parents": 0
+            },
+            "matched": {
+              "complete_family_recovery_rate": 1.0,
+              "coverage": 1.0,
+              "documented_family_recall_at_k": 1.0,
+              "requested_parents": 1,
+              "rows": [
+                {
+                  "all_documented_families_recovered": 1,
+                  "archetype": "multi_cds",
+                  "budget_saturated": false,
+                  "distinct_expected_families": 2,
+                  "distinct_recovered_families": 2,
+                  "documented_family_recall_at_k": 1.0,
+                  "expected_families": [
+                    "gfp_like_homologs",
+                    "omp_decarboxylase_homologs"
+                  ],
+                  "parent_id": "ncbi-AF298787.1",
+                  "recovered_families": [
+                    "gfp_like_homologs",
+                    "omp_decarboxylase_homologs"
+                  ],
+                  "reference_ids": [
+                    "uniprot-P25971",
+                    "uniprot-P08244",
+                    "uniprot-Q9U6Y4",
+                    "uniprot-Q8ISF8",
+                    "uniprot-O26232"
+                  ],
+                  "returned_hits": 5
+                }
+              ],
+              "scored_parents": 1
+            },
+            "status": "scored"
+          }
+        },
+        "matched_per_unit_abstentions": [],
+        "matched_per_unit_control": [
+          {
+            "comparison": "identical unit scores in longest and all-CDS conditions; not additional independent evidence",
+            "expected_family": "omp_decarboxylase_homologs",
+            "family_retrieved": true,
+            "parent_id": "ncbi-AF298787.1",
+            "reference_ids": [
+              "uniprot-P25971",
+              "uniprot-P08244",
+              "uniprot-Q9U6Y4",
+              "uniprot-Q8ISF8",
+              "uniprot-O26232"
+            ],
+            "unit_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+          }
+        ],
+        "paired_condition_comparison": {
+          "direction": "all-CDS minus longest-CDS",
+          "endpoints": {
+            "full": {
+              "all_documented_families_recovered": {
+                "bootstrap_replicates": 2000,
+                "ci_lower": null,
+                "ci_upper": null,
+                "confidence_level": 0.95,
+                "direction": "right minus left",
+                "excluded_unpaired_query_ids": [],
+                "independent_clusters": 0,
+                "min_independent_clusters": 8,
+                "paired_cluster_mean_difference": null,
+                "paired_query_ids": [],
+                "seed": 20261105,
+                "status": "insufficient_independent_clusters",
+                "unit": "Equal-weight independent-group mean of paired query proportions"
+              },
+              "documented_family_recall_at_k": {
+                "bootstrap_replicates": 2000,
+                "ci_lower": null,
+                "ci_upper": null,
+                "confidence_level": 0.95,
+                "direction": "right minus left",
+                "excluded_unpaired_query_ids": [],
+                "independent_clusters": 0,
+                "min_independent_clusters": 8,
+                "paired_cluster_mean_difference": null,
+                "paired_query_ids": [],
+                "seed": 20261105,
+                "status": "insufficient_independent_clusters",
+                "unit": "Equal-weight independent-group mean of paired query proportions"
+              }
+            },
+            "matched": {
+              "all_documented_families_recovered": {
+                "bootstrap_replicates": 2000,
+                "ci_lower": null,
+                "ci_upper": null,
+                "confidence_level": 0.95,
+                "direction": "right minus left",
+                "excluded_unpaired_query_ids": [],
+                "independent_clusters": 1,
+                "min_independent_clusters": 8,
+                "paired_cluster_mean_difference": -1,
+                "paired_query_ids": [
+                  "ncbi-AF298787.1"
+                ],
+                "seed": 20261105,
+                "status": "insufficient_independent_clusters",
+                "unit": "Equal-weight independent-group mean of paired query proportions"
+              },
+              "documented_family_recall_at_k": {
+                "bootstrap_replicates": 2000,
+                "ci_lower": null,
+                "ci_upper": null,
+                "confidence_level": 0.95,
+                "direction": "right minus left",
+                "excluded_unpaired_query_ids": [],
+                "independent_clusters": 1,
+                "min_independent_clusters": 8,
+                "paired_cluster_mean_difference": -0.5,
+                "paired_query_ids": [
+                  "ncbi-AF298787.1"
+                ],
+                "seed": 20261105,
+                "status": "insufficient_independent_clusters",
+                "unit": "Equal-weight independent-group mean of paired query proportions"
+              }
+            }
+          },
+          "excluded_budget_saturated_parent_ids": [],
+          "limitation": "Equal-weight reviewed parent clusters; family coverage gains do not establish per-unit accuracy gains"
+        },
+        "panel_sha256": "da22014317a7f0cd6ba76d7ed75543e9220d386446159bf90519694c9a33776c",
+        "schema_version": "multi-cds-results-1"
+      },
+      "unit_failures": []
+    }
+  },
+  "panel": {
+    "input_fingerprints": {
+      "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207": {
+        "construct_id": "ncbi-AF298787.1",
+        "family": "omp_decarboxylase_homologs",
+        "feature_id": "ncbi-AF298787.1-f-036e9d3cdc9d09cdb207",
+        "independence_group": "natural-origin-taxon-559292",
+        "input_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207",
+        "length_aa": 267,
+        "sequence_sha256": "16ffd3dfd8480989df378d9161f820f099b3f05b38030190194acaf25252a822",
+        "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+      },
+      "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714": {
+        "construct_id": "ncbi-AF298787.1",
+        "family": "gfp_like_homologs",
+        "feature_id": "ncbi-AF298787.1-f-eb7f4497fb14c5bda714",
+        "independence_group": "natural-origin-taxon-6100",
+        "input_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714",
+        "length_aa": 238,
+        "sequence_sha256": "dc215e92b61ef5c25772ef4e52fee03b87d1f4550590aa6e036b0823e5cfca75",
+        "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+      },
+      "uniprot-O26232": {
+        "construct_id": "uniprot-O26232",
+        "family": "omp_decarboxylase_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-187420",
+        "input_id": "uniprot-O26232",
+        "length_aa": 228,
+        "sequence_sha256": "a22d74520f1eb1b63ae30e06e8c00630ea7a8247b60817808c3cd9285df9253f",
+        "source_sha256": "561172d4ac4b94f38f9e57e050f6a0d57c0bf1ff1b4c8995b2a0d345362ce000"
+      },
+      "uniprot-P03962": {
+        "construct_id": "uniprot-P03962",
+        "family": "omp_decarboxylase_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-559292",
+        "input_id": "uniprot-P03962",
+        "length_aa": 267,
+        "sequence_sha256": "ce750d1bae7a71ff05c0a27b181fd3f8ddb48d850c6093dd191b58be512406cd",
+        "source_sha256": "c6b9ddec19e7fa9b957bb9f6abcc2f65ab4863ce84bed0e09f1309426740d52c"
+      },
+      "uniprot-P08244": {
+        "construct_id": "uniprot-P08244",
+        "family": "omp_decarboxylase_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-83333",
+        "input_id": "uniprot-P08244",
+        "length_aa": 245,
+        "sequence_sha256": "29d27a8e12107d092d8b2f04f5380a99915efa231443767c0541b7069a933635",
+        "source_sha256": "9998b08583673185fb52fc790e60b70b3926fe5bed7795710b4298bfbd42b043"
+      },
+      "uniprot-P08659": {
+        "construct_id": "uniprot-P08659",
+        "family": "coleopteran_luciferase_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-7054",
+        "input_id": "uniprot-P08659",
+        "length_aa": 550,
+        "sequence_sha256": "abda0b3a5aa96aaa72c6b8e345ebbb67db0936532456cd861c94257224f9babc",
+        "source_sha256": "20da1035e697f9af9b15600d307f3904e87cb2bb888b4b3531dbd32b59e91166"
+      },
+      "uniprot-P13129": {
+        "construct_id": "uniprot-P13129",
+        "family": "coleopteran_luciferase_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-7051",
+        "input_id": "uniprot-P13129",
+        "length_aa": 548,
+        "sequence_sha256": "81d666c952ded7b2e5bf91ccf915d96c43cb31b3a6558060052f7ef9ec530e9b",
+        "source_sha256": "23a3614c684047080e428c512addf48bc47864783822d0709656b5b6f1fa4341"
+      },
+      "uniprot-P25971": {
+        "construct_id": "uniprot-P25971",
+        "family": "omp_decarboxylase_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-224308",
+        "input_id": "uniprot-P25971",
+        "length_aa": 239,
+        "sequence_sha256": "422db3b3e63587065108ccf8c63c5b96eb526b3493e0113b23ad266a37478dad",
+        "source_sha256": "d36ebc825c58801ee0cd74f738e5afe0b2c9a173482fbb1fcc12638ab7ce4e9d"
+      },
+      "uniprot-P27652": {
+        "construct_id": "uniprot-P27652",
+        "family": "renilla_luciferase_lineage",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-6136",
+        "input_id": "uniprot-P27652",
+        "length_aa": 311,
+        "sequence_sha256": "625219b0991e13f0c0179a03a5de369949f26291677872011dbc0643a431ecc4",
+        "source_sha256": "98ce02c9e11cda656dbd96ab2aff46fbd7585bc45c9153537271dc2df635f27d"
+      },
+      "uniprot-P42212": {
+        "construct_id": "uniprot-P42212",
+        "family": "gfp_like_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-6100",
+        "input_id": "uniprot-P42212",
+        "length_aa": 238,
+        "sequence_sha256": "44f2688342a00e4b01e82be5e655b26499f981515d5da9a6076315627355b403",
+        "source_sha256": "bad091bb0e7eee638b73c88238d5c7ce6f469a126d5074915115e811d2f21039"
+      },
+      "uniprot-P83690": {
+        "construct_id": "uniprot-P83690",
+        "family": "gfp_like_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-105610",
+        "input_id": "uniprot-P83690",
+        "length_aa": 221,
+        "sequence_sha256": "dc8c9f005a6147696c4943ae781cdb26d3e36b020c1cbb76984d09520e5e9763",
+        "source_sha256": "c0a15c66b078570a99c7beed3d7bbb8b0394df51e98971ace3fcd986f37ceb37"
+      },
+      "uniprot-Q01158": {
+        "construct_id": "uniprot-Q01158",
+        "family": "coleopteran_luciferase_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-7052",
+        "input_id": "uniprot-Q01158",
+        "length_aa": 548,
+        "sequence_sha256": "b5c5aa13940327ae20fe89236b821301715a7e6d8da689811efb39f188ad4f6b",
+        "source_sha256": "c1295f88339857537fe5c73d65b5fb5de5d651c43c27227b16984e8875eb0af4"
+      },
+      "uniprot-Q26304": {
+        "construct_id": "uniprot-Q26304",
+        "family": "coleopteran_luciferase_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-27446",
+        "input_id": "uniprot-Q26304",
+        "length_aa": 548,
+        "sequence_sha256": "09c93ba257a6bf314c88111acfcae1c644bd1919ac9761dbdcfbc8ad1f7bb301",
+        "source_sha256": "03e9f7bce6662cc2a310b5a247c56eafc77a0899b76702381337b213e5b762fd"
+      },
+      "uniprot-Q27757": {
+        "construct_id": "uniprot-Q27757",
+        "family": "coleopteran_luciferase_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-1710587",
+        "input_id": "uniprot-Q27757",
+        "length_aa": 545,
+        "sequence_sha256": "1543c58bb5ca2a148a89c0d026bb93d3dad3d544db46510a02fe5bcffd40101c",
+        "source_sha256": "9c2b825cdb2ab77c506c6865e0d13089b844645c8b8c53457ab23bda062c504e"
+      },
+      "uniprot-Q8ISF8": {
+        "construct_id": "uniprot-Q8ISF8",
+        "family": "gfp_like_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-6118",
+        "input_id": "uniprot-Q8ISF8",
+        "length_aa": 231,
+        "sequence_sha256": "7e513be6ea94496befe621b65095a927fac92d321fe21f46fdb3c6332da0257d",
+        "source_sha256": "c27eb2c56a5378a57d2de2616d1d18ab8cb4a6182619f717f54250f832da3638"
+      },
+      "uniprot-Q9U6Y3": {
+        "construct_id": "uniprot-Q9U6Y3",
+        "family": "gfp_like_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-86521",
+        "input_id": "uniprot-Q9U6Y3",
+        "length_aa": 266,
+        "sequence_sha256": "fe4d6973729da73ce0d8bb93397b9ed80410764c939ec8dd95362b1b2a878a76",
+        "source_sha256": "d3cd73591835b5b6dc158c6543fecf87ad9fefc2ef9e3da15504e3296e96eb12"
+      },
+      "uniprot-Q9U6Y4": {
+        "construct_id": "uniprot-Q9U6Y4",
+        "family": "gfp_like_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-105402",
+        "input_id": "uniprot-Q9U6Y4",
+        "length_aa": 231,
+        "sequence_sha256": "6de05b2c8ad5084018adf2cce4447ed8946d74a895446dd2a4ab8ff614c1ed49",
+        "source_sha256": "9224eb5fefc1cd0bd6834ae2079952a84a50197d650c685a8d59fab5823f1cef"
+      },
+      "uniprot-Q9U6Y6": {
+        "construct_id": "uniprot-Q9U6Y6",
+        "family": "gfp_like_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-105399",
+        "input_id": "uniprot-Q9U6Y6",
+        "length_aa": 229,
+        "sequence_sha256": "8ce547de70aa424ecb959a3cc468472d134b4859bfefe291082fb4ce890f7184",
+        "source_sha256": "a14008d840a489d4a32c4b22275fdc48fe41b42b9fa0e6c77af57360446f030f"
+      },
+      "uniprot-Q9U6Y8": {
+        "construct_id": "uniprot-Q9U6Y8",
+        "family": "gfp_like_homologs",
+        "feature_id": null,
+        "independence_group": "natural-origin-taxon-86600",
+        "input_id": "uniprot-Q9U6Y8",
+        "length_aa": 225,
+        "sequence_sha256": "016abb252860c3952220cc3698048f23bc7983664b322b933a62df0b328e0301",
+        "source_sha256": "1a7399f9b87685cdf69b5b885ac3acbce44d139fac6df7bcc1ab289306a8e074"
+      }
+    },
+    "merge_policy": "maximum per reference across all eligible CDS scores, then one stable top-five parent ranking",
+    "panel_sha256": "da22014317a7f0cd6ba76d7ed75543e9220d386446159bf90519694c9a33776c",
+    "parent_ids": [
+      "ncbi-AF298787.1"
+    ],
+    "parents": {
+      "ncbi-AF298787.1": {
+        "all_component_sequence_sha256": [
+          "16ffd3dfd8480989df378d9161f820f099b3f05b38030190194acaf25252a822",
+          "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+          "dc215e92b61ef5c25772ef4e52fee03b87d1f4550590aa6e036b0823e5cfca75"
+        ],
+        "archetype": "multi_cds",
+        "baseline_unit_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207",
+        "budget_saturated": false,
+        "documented_family_by_unit": {
+          "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207": "omp_decarboxylase_homologs",
+          "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714": "gfp_like_homologs"
+        },
+        "eligible_cds_count": 2,
+        "eligible_reference_ids": [
+          "uniprot-O26232",
+          "uniprot-P08244",
+          "uniprot-P08659",
+          "uniprot-P13129",
+          "uniprot-P25971",
+          "uniprot-P27652",
+          "uniprot-P83690",
+          "uniprot-Q01158",
+          "uniprot-Q26304",
+          "uniprot-Q27757",
+          "uniprot-Q8ISF8",
+          "uniprot-Q9U6Y3",
+          "uniprot-Q9U6Y4",
+          "uniprot-Q9U6Y6",
+          "uniprot-Q9U6Y8"
+        ],
+        "eligible_unit_ids": [
+          "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207",
+          "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+        ],
+        "full_abstention_reason": "unknown_documented_family_annotations",
+        "full_expected_families": [
+          "gfp_like_homologs",
+          "omp_decarboxylase_homologs"
+        ],
+        "independence_cluster": "parent-cluster-2dcaa11ffc8e4dc56836",
+        "matched_abstention_reason": null,
+        "matched_supported_families": [
+          "gfp_like_homologs",
+          "omp_decarboxylase_homologs"
+        ],
+        "model_label_eligible_cds_coverage": 0.6666666666666666,
+        "parsed_cds_count": 3,
+        "parsed_cds_coverage": 1.0,
+        "reference_exclusions": [
+          {
+            "reasons": [
+              "reviewer_linked_parent_component_group"
+            ],
+            "reference_id": "uniprot-P03962"
+          },
+          {
+            "reasons": [
+              "reviewer_linked_parent_component_group"
+            ],
+            "reference_id": "uniprot-P42212"
+          }
+        ],
+        "reviewed_groups": [
+          "natural-origin-taxon-559292",
+          "natural-origin-taxon-6100"
+        ],
+        "source_cds_count": 3,
+        "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1",
+        "unit_exclusions": [
+          {
+            "reason": "Family annotation is missing, unknown or unapproved",
+            "unit_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-ef946cc14dacd09a8980"
+          }
+        ],
+        "unit_ids": [
+          "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207",
+          "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714",
+          "ncbi-AF298787.1/ncbi-AF298787.1-u-ef946cc14dacd09a8980"
+        ],
+        "unknown_family_unit_ids": [
+          "ncbi-AF298787.1/ncbi-AF298787.1-u-ef946cc14dacd09a8980"
+        ],
+        "unsupported_documented_families": []
+      }
+    },
+    "protocol_sha256": "aec6d1aff7e902a8906140c5afbc64751cf6b95281b380fea7018de3b4903682",
+    "protocol_version": "1.1",
+    "reference_ids": [
+      "uniprot-O26232",
+      "uniprot-P03962",
+      "uniprot-P08244",
+      "uniprot-P08659",
+      "uniprot-P13129",
+      "uniprot-P25971",
+      "uniprot-P27652",
+      "uniprot-P42212",
+      "uniprot-P83690",
+      "uniprot-Q01158",
+      "uniprot-Q26304",
+      "uniprot-Q27757",
+      "uniprot-Q8ISF8",
+      "uniprot-Q9U6Y3",
+      "uniprot-Q9U6Y4",
+      "uniprot-Q9U6Y6",
+      "uniprot-Q9U6Y8"
+    ],
+    "retrieval_budget": 5,
+    "schema_version": "multi-cds-panel-1",
+    "status": "frozen",
+    "top_k": 5
+  },
+  "resource_bound_measurement": {
+    "command": [
+      "env",
+      "HF_HOME=/workspace/iri-construct-screening-2026/results/week2/model-cache",
+      "HF_HUB_OFFLINE=1",
+      "TRANSFORMERS_OFFLINE=1",
+      "OMP_NUM_THREADS=2",
+      ".venv-models/bin/python",
+      "scripts/execute_cleared_retrieval.py",
+      "--stage",
+      "E2",
+      "--output",
+      "results/cleared-2026-11-11/E2/run01"
+    ],
+    "exit_code": 0,
+    "gpu_seconds": null,
+    "limits": {
+      "process_rss_bytes": 6442450944,
+      "wall_seconds": 1800
+    },
+    "monetary_cost": null,
+    "os_peak_process_rss_bytes": 568172544,
+    "process_cpu_seconds": 8.467883,
+    "rss_policy": "20ms sampling with termination; OS high-water mark checked after exit",
+    "sampled_peak_process_rss_bytes": 567861248,
+    "stop_reason": null,
+    "wall_seconds": 6.411425980000786
+  },
+  "reuse_validation": {
+    "conditions_identical": true,
+    "new_model_calls": 0,
+    "resource_measurement": {
+      "command": [
+        ".venv/bin/python",
+        "scripts/execute_cleared_retrieval.py",
+        "--stage",
+        "E2",
+        "--reuse-e3",
+        "results/cleared-2026-11-11/E3/run01",
+        "--output",
+        "results/cleared-2026-11-11/E2/reuse01"
+      ],
+      "exit_code": 0,
+      "gpu_seconds": null,
+      "limits": {
+        "process_rss_bytes": 6442450944,
+        "wall_seconds": 1800
+      },
+      "monetary_cost": null,
+      "os_peak_process_rss_bytes": 36188160,
+      "process_cpu_seconds": 1.529099,
+      "rss_policy": "20ms sampling with termination; OS high-water mark checked after exit",
+      "sampled_peak_process_rss_bytes": 36261888,
+      "stop_reason": null,
+      "wall_seconds": 1.4063661110012617
+    }
+  },
+  "stage": "E2",
+  "status": "completed_supported_subset_descriptive"
+}

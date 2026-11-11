@@ -1,0 +1,27 @@
+{
+  "clearance": "https://github.com/khgng026/iri-construct-screening-2026/pull/11#issuecomment-6800553713",
+  "held_methods": [
+    "esmc"
+  ],
+  "held_tiers": [
+    "tier2",
+    "tier3"
+  ],
+  "input_sha256": "8d5f3dc169dc83da685cb15a5fc3b6ffd7df95e65ca95553bf72ebb5c5edbc61",
+  "methods": [
+    "esm2"
+  ],
+  "original_execution_freeze_sha256": "8abbc3586599ec2a7be157571409a7dd34776d8f31a2da72527d9cb701824660",
+  "panel_sha256": "da22014317a7f0cd6ba76d7ed75543e9220d386446159bf90519694c9a33776c",
+  "resource_limits": {
+    "cpu": true,
+    "proteins": 64,
+    "residues": 65536,
+    "rss_bytes": 6442450944,
+    "wall_seconds": 1800
+  },
+  "reviewed_proposal_config": "config/week2/E2.proposed.json",
+  "reviewed_proposal_config_sha256": "b6246bb6a348cc689b2d0b2e05f0c5319936f591ca5b69cef73e94cb87ef7405",
+  "schema_version": "cleared-partial-stage-execution-1",
+  "stage": "E2"
+}
