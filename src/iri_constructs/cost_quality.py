@@ -105,7 +105,11 @@ def records_from_report(value):
             'metrics': {'coverage': method.get('coverage'),
                 'documented_family_recall_at_k': overall.get('documented_family_recall_at_k'),
                 'complete_family_recovery_rate': overall.get('all_documented_families_recovered_rate'),
-                'independent_groups': len({r['independence_group'] for r in rows if 'independence_group' in r}) if rows else None,
+                # A legacy protein-group count cannot establish independent
+                # construct observations. Preserve null when the conservative
+                # parent/group/copy clusters were not recorded.
+                'independent_groups': (len({r['independence_cluster'] for r in rows})
+                                       if rows and all(r.get('independence_cluster') for r in rows) else None),
                 'scored_observations': method.get('scored_queries'), 'requested_observations': method.get('requested_queries')},
             'scored_observation_ids': [r['query_id'] for r in rows if 'query_id' in r],
             'costs': {'cold_load_seconds':model.get('loading_resources', {}).get('wall_seconds'),
@@ -142,6 +146,14 @@ def _normalize(record, min_independent_groups):
     scored, requested = metrics['scored_observations'], metrics['requested_observations']
     if scored is not None and requested is not None and scored > requested:
         raise InputError('Scored observations exceed the recorded requested denominator')
+    if scored is not None:
+        for key in ('independent_groups', 'budget_saturated_observations'):
+            if metrics[key] is not None and metrics[key] > scored:
+                raise InputError('Recorded subgroup count exceeds scored observations: ' + key)
+    if scored is not None and requested is not None and metrics['coverage'] is not None:
+        if not requested or not math.isclose(metrics['coverage'], scored / requested,
+                                            rel_tol=1e-9, abs_tol=1e-12):
+            raise InputError('Recorded coverage disagrees with the scored/requested denominator')
     if scored == 0 and any(metrics[k] is not None for k in
         ('documented_family_recall_at_k','complete_family_recovery_rate')):
         raise InputError('No-observation agreement metrics must remain null')

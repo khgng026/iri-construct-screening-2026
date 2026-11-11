@@ -12,7 +12,8 @@ from datetime import date
 import hashlib
 import json
 
-from .pilot_scoring import freeze_panel, rank_scores, score_rankings, validate_panel
+from .pilot_scoring import (freeze_panel, query_independence_clusters, rank_scores,
+                            score_rankings, validate_panel)
 from .runtime import InputError, require_text
 
 
@@ -122,7 +123,8 @@ def _make_tier(base, name, removals, policy_status, policy_sha256=None):
         'eligible_queries': len(panel['query_ids'])-len(exclusions),
         'eligible_query_ids': [q for q in panel['query_ids'] if q not in exclusions],
         'query_parent_count': len({panel['input_fingerprints'][q]['construct_id'] for q in panel['query_ids']}),
-        'query_independence_group_count': len({panel['input_fingerprints'][q]['independence_group'] for q in panel['query_ids']})}
+        'query_independence_group_count': len({panel['input_fingerprints'][q]['independence_group'] for q in panel['query_ids']}),
+        'query_independence_cluster_count': len(set(query_independence_clusters(panel).values()))}
 
 
 def _add_pairs(removals, policy, rule):

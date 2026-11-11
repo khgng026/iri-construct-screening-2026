@@ -17,7 +17,7 @@ from .fusion import compare_case, validate_case
 from .metrics import cosine, mean_pool, reviewed_labels
 from .model_adapters import ESM2_REVISION, LocalAdapter, prepare_device
 from .pilot_scoring import (freeze_panel, load_scoring_config, paired_cluster_bootstrap,
-                            rank_scores, score_rankings)
+                            query_independence_clusters, rank_scores, score_rankings)
 from .runtime import (InputError, Measure, digest_file, failure, local_output,
                       read_json, run_metadata, write_json)
 
@@ -147,7 +147,7 @@ def _fusion_panel(inputs, proteins, labels, query_ids, reference_ids, archetypes
 
 def _compare_methods(methods, panel, config):
     comparisons = []
-    clusters = {q: panel['input_fingerprints'][q]['independence_group'] for q in panel['query_ids']}
+    clusters = query_independence_clusters(panel)
     for left, right in itertools.combinations(methods, 2):
         a = {r['query_id']: r['documented_family_recall_at_k'] for r in methods[left].get('rows', []) if not r.get('budget_saturated')}
         b = {r['query_id']: r['documented_family_recall_at_k'] for r in methods[right].get('rows', []) if not r.get('budget_saturated')}
@@ -203,8 +203,11 @@ def run_pilot_experiment(protocol_path, inputs_path, output_path, *, device='cpu
 
 def _execute(config, inputs_path, output, report, device, allow_download, adapter_factory):
     inputs, proteins, provenance, exclusions = load_proteins(Path(inputs_path))
+    evidence_kind = inputs.get('evidence_kind', 'unclassified')
+    if evidence_kind not in ('admitted_research', 'fictional_software_fixture', 'unclassified'):
+        raise InputError('Unknown evidence_kind; distinguish admitted research from software fixtures')
     report.update(provenance=provenance, input_exclusions=exclusions,
-                  inputs=[p.provenance() for p in proteins.values()])
+                  inputs=[p.provenance() for p in proteins.values()], evidence_kind=evidence_kind)
     labels, label_exclusions = reviewed_labels(inputs, proteins)
     report['label_exclusions'] = label_exclusions
     archetypes = {source['record_id']: source['archetype'] for source in provenance['sources']}
@@ -297,11 +300,12 @@ def _execute(config, inputs_path, output, report, device, allow_download, adapte
     for method in methods.values():
         common &= {row['query_id'] for row in method.get('rows', [])}
     report['common_scored_query_ids'] = sorted(common)
-    report['scientific_scores_produced'] = any(method.get('scored_queries', 0) for method in methods.values())
+    report['scores_produced'] = any(method.get('scored_queries', 0) for method in methods.values())
+    report['scientific_scores_produced'] = report['scores_produced'] and evidence_kind == 'admitted_research'
     report['status'] = ('ok' if methods and all(method['status'] == 'ok' for method in methods.values())
-                        else 'partial' if report['scientific_scores_produced'] else 'blocked_no_scientific_scores')
+                        else 'partial' if report['scores_produced'] else 'blocked_no_scientific_scores')
     eligible = {q for q in panel['query_ids'] if q not in panel['query_exclusions']}
-    if (report['scientific_scores_produced'] and eligible and
+    if (report['scores_produced'] and eligible and
             set(panel.get('budget_saturated_query_ids', [])) == eligible):
         report['status'] = 'descriptive_only_budget_saturated_panel'
     report['limitations'].extend([

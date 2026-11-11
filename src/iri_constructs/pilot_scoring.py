@@ -25,6 +25,36 @@ def _hash(value) -> str:
                                      allow_nan=False).encode('utf-8')).hexdigest()
 
 
+def _query_clusters(query_ids, fingerprints):
+    """Conservatively join query observations with documented shared provenance.
+
+    Distinct protein-family groups do not make two CDSs from one construct
+    independent. Exact query copies and indirect parent/group links likewise
+    belong to one connected cluster, fixed before any method is scored.
+    """
+    components, tokens_by_query = [], {}
+    for qid in sorted(query_ids):
+        fp = fingerprints[qid]
+        tokens = {'parent:' + fp['construct_id'],
+                  'group:' + fp['independence_group'],
+                  'sequence:' + fp['sequence_sha256']}
+        tokens_by_query[qid] = tokens.copy()
+        for component in list(components):
+            if tokens & component:
+                tokens |= component
+                components.remove(component)
+        components.append(tokens)
+    return {qid: 'query-cluster-' + _hash(sorted(next(
+                c for c in components if c & tokens_by_query[qid])))[:20]
+            for qid in sorted(query_ids)}
+
+
+def query_independence_clusters(panel):
+    """Derive cluster membership from frozen evidence, including legacy panels."""
+    validate_panel(panel)
+    return _query_clusters(panel['query_ids'], panel['input_fingerprints'])
+
+
 def load_scoring_config(path: str | Path) -> dict:
     config = read_json(Path(path))
     validate_scoring_config(config)
@@ -133,6 +163,9 @@ def freeze_panel(config: dict, proteins: dict, labels: dict, query_ids=None,
         'top_k': config['top_k'], 'retrieval_budget': config['retrieval_budget'],
         'tie_policy': 'descending method score, then ascending stable reference ID',
         'claim_scope': 'Reviewed annotation-family recovery only; no biological-function inference'}
+    panel['query_independence_clusters'] = _query_clusters(queries, fingerprints)
+    panel['query_cluster_rules'] = ['shared_source_parent', 'reviewed_independence_group',
+                                    'exact_query_sequence_copy', 'transitive_links']
     panel['panel_sha256'] = _hash(panel)
     return panel
 
@@ -196,6 +229,7 @@ def score_rankings(rankings: dict, panel: dict, labels: dict, *, component_famil
     before truncating one parent-level ranking to the frozen total budget.
     """
     validate_panel(panel)
+    clusters = query_independence_clusters(panel)
     if not isinstance(rankings, dict) or set(rankings) - set(panel['query_ids']):
         raise InputError('Rankings contain queries outside the frozen panel')
     for iid, fingerprint in panel['input_fingerprints'].items():
@@ -234,6 +268,7 @@ def score_rankings(rankings: dict, panel: dict, labels: dict, *, component_famil
         fp = panel['input_fingerprints'][qid]
         rows.append({'query_id': qid, 'construct_id': fp['construct_id'], 'archetype': fp['archetype'],
             'independence_group': fp['independence_group'], 'expected_families': sorted(expected),
+            'independence_cluster': clusters[qid],
             'budget_saturated': qid in panel.get('budget_saturated_query_ids', []),
             'retrieved_families': sorted(retrieved), 'reference_ids': hits,
             'family_hit_at_k': int(fp['family'] in retrieved),

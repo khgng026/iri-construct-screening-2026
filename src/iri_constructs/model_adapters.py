@@ -18,6 +18,13 @@ MODEL_REPOS = {
 ESM2_REVISION = 'c731040fcd8d73dceaa04b0a8e6329b345b0f5df'
 
 
+def _validate_snapshot_revision(snapshot: Path, requested: str) -> None:
+    if re.fullmatch('[0-9a-f]{40}', snapshot.name) is None:
+        raise InputError('Model cache did not resolve an immutable snapshot revision')
+    if re.fullmatch('[0-9a-f]{40}', requested) and snapshot.name != requested:
+        raise InputError('Resolved model snapshot differs from the pinned requested revision')
+
+
 class Adapter(Protocol):
     metadata: dict
     device: str
@@ -61,8 +68,7 @@ class LocalAdapter:
             snapshot = Path(snapshot_download(MODEL_REPOS[name], revision=revision,
                 local_files_only=offline, allow_patterns=['config.json', 'tokenizer_config.json',
                     'tokenizer.json', 'vocab.txt', 'special_tokens_map.json', 'model.safetensors']))
-            if re.fullmatch('[0-9a-f]{40}', snapshot.name) is None:
-                raise InputError('Model cache did not resolve an immutable snapshot revision')
+            _validate_snapshot_revision(snapshot, revision)
             self.tokenizer = AutoTokenizer.from_pretrained(snapshot, local_files_only=True)
             self.model, loading = AutoModel.from_pretrained(snapshot, local_files_only=True,
                 add_pooling_layer=False, output_loading_info=True)
@@ -84,8 +90,7 @@ class LocalAdapter:
             snapshot = Path(snapshot_download(MODEL_REPOS[name], revision=revision,
                                              local_files_only=offline,
                                              allow_patterns=['data/weights/' + weight]))
-            if re.fullmatch('[0-9a-f]{40}', snapshot.name) is None:
-                raise InputError('Model cache did not resolve an immutable snapshot revision')
+            _validate_snapshot_revision(snapshot, revision)
             self.metadata['resolved_revision'] = snapshot.name
             self.metadata['weight_sha256'] = digest_file(snapshot / 'data' / 'weights' / weight)
             # SDK 3.2.1 builders otherwise resolve mutable main internally. Bind just the
