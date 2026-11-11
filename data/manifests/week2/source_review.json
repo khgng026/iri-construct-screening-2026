@@ -1,0 +1,2773 @@
+{
+  "counts_by_proposed_archetype": {
+    "backbone_heavy": 3,
+    "multi_cds": 11,
+    "single_cds": 4
+  },
+  "evidence_kind": "preparatory_source_integrity_and_annotation_review",
+  "generated_at_utc": "2026-11-11T14:46:13.217289+00:00",
+  "identical_parent_sequence_groups": [],
+  "identical_validated_component_groups": [
+    [
+      {
+        "protein_accession_version": "AAA89082.1",
+        "source_id": "ncbi-U47295.2",
+        "source_ordinal_1based": 4
+      },
+      {
+        "protein_accession_version": "AAA89084.1",
+        "source_id": "ncbi-U47296.2",
+        "source_ordinal_1based": 5
+      },
+      {
+        "protein_accession_version": "AAV52869.1",
+        "source_id": "ncbi-AY738222.1",
+        "source_ordinal_1based": 3
+      }
+    ],
+    [
+      {
+        "protein_accession_version": "AAA89083.1",
+        "source_id": "ncbi-U47295.2",
+        "source_ordinal_1based": 10
+      },
+      {
+        "protein_accession_version": "AAA89085.1",
+        "source_id": "ncbi-U47296.2",
+        "source_ordinal_1based": 12
+      },
+      {
+        "protein_accession_version": "AAW66993.1",
+        "source_id": "ncbi-AY864931.1",
+        "source_ordinal_1based": 10
+      },
+      {
+        "protein_accession_version": "AAV52870.1",
+        "source_id": "ncbi-AY738222.1",
+        "source_ordinal_1based": 8
+      },
+      {
+        "protein_accession_version": "AAG34530.1",
+        "source_id": "ncbi-AF298787.1",
+        "source_ordinal_1based": 10
+      }
+    ],
+    [
+      {
+        "protein_accession_version": "AIC82337.1",
+        "source_id": "ncbi-KJ541668.1",
+        "source_ordinal_1based": 6
+      },
+      {
+        "protein_accession_version": "AIC82345.1",
+        "source_id": "ncbi-KJ541670.1",
+        "source_ordinal_1based": 6
+      }
+    ],
+    [
+      {
+        "protein_accession_version": "AIC82338.1",
+        "source_id": "ncbi-KJ541668.1",
+        "source_ordinal_1based": 8
+      },
+      {
+        "protein_accession_version": "AIC82346.1",
+        "source_id": "ncbi-KJ541670.1",
+        "source_ordinal_1based": 8
+      }
+    ],
+    [
+      {
+        "protein_accession_version": "AIC82340.1",
+        "source_id": "ncbi-KJ541668.1",
+        "source_ordinal_1based": 17
+      },
+      {
+        "protein_accession_version": "AIC82348.1",
+        "source_id": "ncbi-KJ541670.1",
+        "source_ordinal_1based": 17
+      }
+    ],
+    [
+      {
+        "protein_accession_version": "AFV59760.1",
+        "source_id": "ncbi-JX560321.2",
+        "source_ordinal_1based": 6
+      },
+      {
+        "protein_accession_version": "AAB59737.1",
+        "source_id": "ncbi-J01749.1",
+        "source_ordinal_1based": 39
+      }
+    ]
+  ],
+  "limitations": [
+    "Candidate count is not independent sample size; shared components and vector lineage must be excluded prospectively.",
+    "Preparatory QA is allowed by current mission; scoring needs separate actual delegated scientific clearance.",
+    "Source feature/translation agreement does not establish biological truth or protein function.",
+    "iGEM annotations without provided translations remain unsupported for protein export; no ORFs or missing sequences are inferred.",
+    "150-250 target deliberately deferred until rights, annotation quality, family evidence and independent reference coverage justify expansion."
+  ],
+  "new_scoring_admission_count": 0,
+  "original_source_bytes_committed": false,
+  "preparatory_QA_eligible_count": 18,
+  "record_count": 22,
+  "records": [
+    {
+      "accession_version": "U47295.2",
+      "attribution_references": [
+        {
+          "authors": "Groskreutz,D.J. and Schenborn,E.T.",
+          "journal": "Submitted (26-JAN-1996) D.J. Groskreutz, R&D, Promega Corporation, 5445 East Cheryl Parkway, Madison, WI 53711, USA",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        },
+        {
+          "authors": "Kenefick,K.",
+          "journal": "Submitted (05-MAR-2001) Technical Writing, Promega Corporation, 2800 Woods Hollow Road, Madison, WI 53711-5399, USA",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        }
+      ],
+      "benign_scope_proposal": "Ordinary cloning/expression/reporter vector in preselected scope; source CDS products and original references retained for case-specific review. Antibiotic markers and viral-derived regulatory elements, where present, are not omitted.",
+      "candidate_selected": true,
+      "cds_count": 2,
+      "cds_evidence": [
+        {
+          "gene": "luc+",
+          "location": "[87:1740](+)",
+          "product": "luciferase",
+          "protein_accession_version": "AAA89082.1",
+          "segments": [
+            {
+              "end0": 1740,
+              "start0": 87,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 4,
+          "translation_length_aa": 550,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43",
+          "translation_state": "known"
+        },
+        {
+          "gene": "AmpR",
+          "location": "[3079:3940](-)",
+          "product": "beta-lactamase",
+          "protein_accession_version": "AAA89083.1",
+          "segments": [
+            {
+              "end0": 3940,
+              "start0": 3079,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 10,
+          "translation_length_aa": 286,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 13,
+      "feature_types": {
+        "CDS": 2,
+        "gene": 2,
+        "misc_feature": 1,
+        "primer_bind": 3,
+        "regulatory": 2,
+        "rep_origin": 2,
+        "source": 1
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_U47295.2.gb",
+      "proposed_archetype": "multi_cds",
+      "record_locus_date": "16-NOV-2005",
+      "record_title": "Cloning vector pGL3-Basic, complete sequence",
+      "related_lineage_proposals": [
+        "pGL3-vector-lineage"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "Name-matched archive lead for Addgene 212936; not an identity-verified substitute",
+      "sequence_length_nt": 4818,
+      "sequence_sha256": "b74ba12e561ffd73a69dda255c2652d549bbaf606e534b0e30cc857eaec46c0e",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-U47295.2",
+      "source_retrieval": {
+        "bytes": 9994,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=U47295.2&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:47.154122+00:00",
+        "sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=U47295.2&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/U47295.2",
+      "status": "READY_FOR_REVIEW",
+      "topology": "circular",
+      "validated_source_translation_count": 2
+    },
+    {
+      "accession_version": "U47296.2",
+      "attribution_references": [
+        {
+          "authors": "Groskreutz,D.J. and Schenborn,E.T.",
+          "journal": "Submitted (26-JAN-1996) D.J. Groskreutz, R&D, Promega Corporation, 5445 East Cheryl Parkway, Madison, WI 53711, USA",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        },
+        {
+          "authors": "Kenefick,K.",
+          "journal": "Submitted (05-MAR-2001) Technical Writing, Promega Corporation, 2800 Woods Hollow Road, Madison, WI 53711-5399, USA",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        }
+      ],
+      "benign_scope_proposal": "Ordinary cloning/expression/reporter vector in preselected scope; source CDS products and original references retained for case-specific review. Antibiotic markers and viral-derived regulatory elements, where present, are not omitted.",
+      "candidate_selected": true,
+      "cds_count": 2,
+      "cds_evidence": [
+        {
+          "gene": "luc+",
+          "location": "[279:1932](+)",
+          "product": "luciferase",
+          "protein_accession_version": "AAA89084.1",
+          "segments": [
+            {
+              "end0": 1932,
+              "start0": 279,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 5,
+          "translation_length_aa": 550,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43",
+          "translation_state": "known"
+        },
+        {
+          "gene": "AmpR",
+          "location": "[3517:4378](-)",
+          "product": "beta-lactamase",
+          "protein_accession_version": "AAA89085.1",
+          "segments": [
+            {
+              "end0": 4378,
+              "start0": 3517,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 12,
+          "translation_length_aa": 286,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 15,
+      "feature_types": {
+        "CDS": 2,
+        "gene": 2,
+        "misc_feature": 1,
+        "primer_bind": 3,
+        "regulatory": 4,
+        "rep_origin": 2,
+        "source": 1
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_U47296.2.gb",
+      "proposed_archetype": "multi_cds",
+      "record_locus_date": "16-NOV-2005",
+      "record_title": "Cloning vector pGL3-Control, complete sequence",
+      "related_lineage_proposals": [
+        "pGL3-vector-lineage"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "Alternate firefly reporter; not Luciferase-pcDNA3",
+      "sequence_length_nt": 5256,
+      "sequence_sha256": "b4c76510248cf9c1e5bb7583f5506b21bd439a67411cccda670cc6e2a4cdb021",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-U47296.2",
+      "source_retrieval": {
+        "bytes": 10718,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=U47296.2&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:47.955203+00:00",
+        "sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=U47296.2&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/U47296.2",
+      "status": "READY_FOR_REVIEW",
+      "topology": "circular",
+      "validated_source_translation_count": 2
+    },
+    {
+      "accession_version": "AY864931.1",
+      "attribution_references": [
+        {
+          "authors": "Paguio,A., Almond,B. and Browning,J.",
+          "journal": "Unpublished",
+          "pubmed_id": "",
+          "title": "pGL4 Luciferase Reporter Vectors Technical Manual, TM259"
+        },
+        {
+          "authors": "Paguio,A., Almond,B. and Browning,J.",
+          "journal": "Submitted (28-DEC-2004) Scientific Communications, Promega Corporation, 2800 Woods Hollow Rd., Madison, WI 53711, USA",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        }
+      ],
+      "benign_scope_proposal": "Ordinary cloning/expression/reporter vector in preselected scope; source CDS products and original references retained for case-specific review. Antibiotic markers and viral-derived regulatory elements, where present, are not omitted.",
+      "candidate_selected": true,
+      "cds_count": 3,
+      "cds_evidence": [
+        {
+          "gene": null,
+          "location": "[99:1035](+)",
+          "product": "luciferase hRluc",
+          "protein_accession_version": "AAW66991.1",
+          "segments": [
+            {
+              "end0": 1035,
+              "start0": 99,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 3,
+          "translation_length_aa": 311,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "4c6107c417e1304f537ade1d01c1037999badb3b7298d249165870266fbee498",
+          "translation_state": "known"
+        },
+        {
+          "gene": null,
+          "location": "[1778:2816](+)",
+          "product": "synthetic hygromycin resistance protein",
+          "protein_accession_version": "AAW66992.1",
+          "segments": [
+            {
+              "end0": 2816,
+              "start0": 1778,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 6,
+          "translation_length_aa": 345,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "1616972fc762e99a5c350b9ba28997edb65d3fc4a0043f6aa96187699eaffa3a",
+          "translation_state": "known"
+        },
+        {
+          "gene": null,
+          "location": "[4002:4863](-)",
+          "product": "synthetic beta-lactamase",
+          "protein_accession_version": "AAW66993.1",
+          "segments": [
+            {
+              "end0": 4863,
+              "start0": 4002,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 10,
+          "translation_length_aa": 286,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 12,
+      "feature_types": {
+        "CDS": 3,
+        "misc_feature": 4,
+        "primer_bind": 2,
+        "regulatory": 1,
+        "rep_origin": 1,
+        "source": 1
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_AY864931.1.gb",
+      "proposed_archetype": "multi_cds",
+      "record_locus_date": "31-JAN-2005",
+      "record_title": "Luciferase reporter vector pGL4.76[hRluc/Hygro], complete sequence",
+      "related_lineage_proposals": [
+        "pGL4-vector-lineage"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "Renilla-family alternative, not RLuc8 or a Nano-lantern fusion",
+      "sequence_length_nt": 5121,
+      "sequence_sha256": "f1968dd9ee947617bdf1635e4d3db95559b3ffaf66ed2972609699bf6e984b4a",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-AY864931.1",
+      "source_retrieval": {
+        "bytes": 10536,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AY864931.1&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:48.335898+00:00",
+        "sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AY864931.1&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/AY864931.1",
+      "status": "READY_FOR_REVIEW",
+      "topology": "circular",
+      "validated_source_translation_count": 3
+    },
+    {
+      "accession_version": "U55762.1",
+      "attribution_references": [
+        {
+          "authors": "Cormack,B.P., Valdivia,R.H. and Falkow,S.",
+          "journal": "Gene 173 (1 SPEC NO), 33-38 (1996)",
+          "pubmed_id": "8707053",
+          "title": "FACS-optimized mutants of the green fluorescent protein (GFP)"
+        },
+        {
+          "authors": "Kitts,P.A.",
+          "journal": "Unpublished",
+          "pubmed_id": "",
+          "title": "pEGFP-N1 complete sequence"
+        },
+        {
+          "authors": "Kitts,P.A.",
+          "journal": "Submitted (17-APR-1996) Paul A. Kitts, CLONTECH Laboratories, Inc., 1020 East Meadow Circle, Palo Alto, CA 94303-4230, USA",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        }
+      ],
+      "benign_scope_proposal": "Ordinary cloning/expression/reporter vector in preselected scope; source CDS products and original references retained for case-specific review. Antibiotic markers and viral-derived regulatory elements, where present, are not omitted.",
+      "candidate_selected": true,
+      "cds_count": 2,
+      "cds_evidence": [
+        {
+          "gene": "egfp",
+          "location": "[678:1398](+)",
+          "product": "enhanced green fluorescent protein",
+          "protein_accession_version": "AAB02574.1",
+          "segments": [
+            {
+              "end0": 1398,
+              "start0": 678,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 3,
+          "translation_length_aa": 239,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "1041d381511cdf4e0dff50ee0f331e26d76b6d8bf0a95e4ad6a5ead87a0f2fc8",
+          "translation_state": "known"
+        },
+        {
+          "gene": null,
+          "location": "[2628:3423](+)",
+          "product": "neomycin phosphotransferase",
+          "protein_accession_version": "AAB02575.1",
+          "segments": [
+            {
+              "end0": 3423,
+              "start0": 2628,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 4,
+          "translation_length_aa": 264,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "0afa388d22fe22895c0561fcb0566d89c4f2f9368842f2157ec283616f08cb91",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 4,
+      "feature_types": {
+        "CDS": 2,
+        "gene": 1,
+        "source": 1
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_U55762.1.gb",
+      "proposed_archetype": "multi_cds",
+      "record_locus_date": "22-AUG-2003",
+      "record_title": "Cloning vector pEGFP-N1, complete sequence, enhanced green fluorescent protein (egfp) and neomycin phosphotransferase genes, complete cds",
+      "related_lineage_proposals": [],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "EGFP-containing vector; NOT the bicistronic pYIC or EGFP-LC3 fusion",
+      "sequence_length_nt": 4733,
+      "sequence_sha256": "63918e4dcae6eed7f21a2d430f8b24a7172acc9a174e307d933550034189efde",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-U55762.1",
+      "source_retrieval": {
+        "bytes": 9370,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=U55762.1&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:48.856798+00:00",
+        "sha256": "bf6a633fce38b828ed369628f45bed5755db623fac938772bcf9efd3f5f2481d",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=U55762.1&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/U55762.1",
+      "status": "READY_FOR_REVIEW",
+      "topology": "circular",
+      "validated_source_translation_count": 2
+    },
+    {
+      "accession_version": "AY738222.1",
+      "attribution_references": [
+        {
+          "authors": "Almond,B. and Chauvin,F.",
+          "journal": "Unpublished",
+          "pubmed_id": "",
+          "title": "pGL4 Luciferase Reporter Vectors Technical Manual, TM259, Promega Corporation"
+        },
+        {
+          "authors": "Almond,B. and Chauvin,F.",
+          "journal": "Submitted (31-AUG-2004) Scientific Communications, Promega Corporation, 2800 Woods Hollow Rd., Madison, WI 53711, USA",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        }
+      ],
+      "benign_scope_proposal": "Ordinary cloning/expression/reporter vector in preselected scope; source CDS products and original references retained for case-specific review. Antibiotic markers and viral-derived regulatory elements, where present, are not omitted.",
+      "candidate_selected": true,
+      "cds_count": 2,
+      "cds_evidence": [
+        {
+          "gene": null,
+          "location": "[99:1752](+)",
+          "product": "luciferase luc2",
+          "protein_accession_version": "AAV52869.1",
+          "segments": [
+            {
+              "end0": 1752,
+              "start0": 99,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 3,
+          "translation_length_aa": 550,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43",
+          "translation_state": "known"
+        },
+        {
+          "gene": "ampR",
+          "location": "[3123:3984](-)",
+          "product": "synthetic beta-lactamase",
+          "protein_accession_version": "AAV52870.1",
+          "segments": [
+            {
+              "end0": 3984,
+              "start0": 3123,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 8,
+          "translation_length_aa": 286,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 10,
+      "feature_types": {
+        "CDS": 2,
+        "gene": 1,
+        "misc_feature": 2,
+        "primer_bind": 2,
+        "regulatory": 1,
+        "rep_origin": 1,
+        "source": 1
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_AY738222.1.gb",
+      "proposed_archetype": "multi_cds",
+      "record_locus_date": "08-NOV-2004",
+      "record_title": "Firefly luciferase reporter vector pGL4.10[luc2], complete sequence",
+      "related_lineage_proposals": [
+        "pGL4-vector-lineage"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "Single firefly reporter alternative; NOT the dual-luciferase pGL4Luc-RLuc",
+      "sequence_length_nt": 4242,
+      "sequence_sha256": "dbae8d0a25b6c237322455c9d81d6e7711a0effb03b067b97742dc864a945f59",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-AY738222.1",
+      "source_retrieval": {
+        "bytes": 8900,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AY738222.1&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:49.237855+00:00",
+        "sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AY738222.1&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/AY738222.1",
+      "status": "READY_FOR_REVIEW",
+      "topology": "circular",
+      "validated_source_translation_count": 2
+    },
+    {
+      "accession_version": "KJ170897.1",
+      "attribution_references": [
+        {
+          "authors": "Tsai,Y., Liu,M.-C., Li,Z.-S. and Liaw,S.-J.",
+          "journal": "Unpublished",
+          "pubmed_id": "",
+          "title": "The RNA chaperone Hfq is involved in stress tolerance and virulence in uropathogenic Proteus mirabilis"
+        },
+        {
+          "authors": "Tsai,Y., Liu,M.-C., Li,Z.-S. and Liaw,S.-J.",
+          "journal": "Submitted (21-JAN-2014) Department of Clinical Laboratory Sciences and Medical Biotechnology, College of Medicine, National Taiwan University, 1 Chang-Te St., Taipei 100, Taiwan",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        }
+      ],
+      "candidate_selected": true,
+      "cds_count": 2,
+      "cds_evidence": [
+        {
+          "gene": null,
+          "location": "[1729:2653](-)",
+          "product": "catechol 2,3-dioxygenase",
+          "protein_accession_version": "AHX26621.1",
+          "segments": [
+            {
+              "end0": 2653,
+              "start0": 1729,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 3,
+          "translation_length_aa": 307,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "9b7abb0c36ee625d32bc070c68e1e53d42198dca4bc7d749f98607ad1906a10f",
+          "translation_state": "known"
+        },
+        {
+          "gene": null,
+          "location": "[3214:4093](+)",
+          "product": "AraC",
+          "protein_accession_version": "AHX26622.1",
+          "segments": [
+            {
+              "end0": 4093,
+              "start0": 3214,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 5,
+          "translation_length_aa": 292,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "79d8a2ecb0a76a6668b182b1eb7f2f0d40337212c1b706de535824003d1ec743",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": false,
+      "failure_class": "HOLD_context_review_source_publication_association",
+      "family_panel_approved": false,
+      "feature_count": 5,
+      "feature_types": {
+        "CDS": 2,
+        "regulatory": 1,
+        "rep_origin": 1,
+        "source": 1
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_KJ170897.1.gb",
+      "record_locus_date": "23-APR-2014",
+      "record_title": "Cloning vector pACYC184-ara-xylE, complete sequence",
+      "related_lineage_proposals": [],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "selection_caveat": "Benign regulatory/enzymatic cassette candidate; NOT the plant dual-luc reporter",
+      "sequence_length_nt": 6369,
+      "sequence_sha256": "9ea6f70e162652c51c7d28b921063769f0744f335aeb0e1ac8ebed1a2f25ed65",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_exclusion_basis": "Original cited study concerns virulence in uropathogenic Proteus mirabilis; reporter-vector identity does not itself establish hazard, but this source association needs specialist/scope review under T02.",
+      "source_id": "ncbi-KJ170897.1",
+      "source_retrieval": {
+        "bytes": 10789,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KJ170897.1&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:49.988207+00:00",
+        "sha256": "fd60029247a734157a60bfd00cc63613c6b600f7c41e7b3c9ad15898392b226e",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KJ170897.1&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/KJ170897.1",
+      "status": "HOLD",
+      "topology": "circular",
+      "validated_source_translation_count": 2
+    },
+    {
+      "accession_version": "AF298787.1",
+      "architecture_caveat": "Fusion-ready vector is not an independently validated completed fusion; no reviewed fusion boundary asserted",
+      "attribution_references": [
+        {
+          "authors": "Gueldener,U. and Hegemann,J.H.",
+          "journal": "Unpublished",
+          "pubmed_id": "",
+          "title": "A second generation of GFP-vectors for subcelluar localization studies in budding yeast"
+        },
+        {
+          "authors": "Gueldener,U. and Hegemann,J.H.",
+          "journal": "Submitted (23-AUG-2000) Institut fuer Mikrobiologie, Heinrich-Heine-Universitaet, Universtitaetsstr. 1, Duesseldorf 40225, Germany",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        }
+      ],
+      "benign_scope_proposal": "Ordinary cloning/expression/reporter vector in preselected scope; source CDS products and original references retained for case-specific review. Antibiotic markers and viral-derived regulatory elements, where present, are not omitted.",
+      "candidate_selected": true,
+      "cds_count": 3,
+      "cds_evidence": [
+        {
+          "gene": "URA3",
+          "location": "[416:1220](+)",
+          "product": "orotidine-5'-phosphate decarboxylase",
+          "protein_accession_version": "AAG34528.1",
+          "segments": [
+            {
+              "end0": 1220,
+              "start0": 416,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 3,
+          "translation_length_aa": 267,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "16ffd3dfd8480989df378d9161f820f099b3f05b38030190194acaf25252a822",
+          "translation_state": "known"
+        },
+        {
+          "gene": "EGFP3",
+          "location": "[2270:2987](-)",
+          "product": "enhanced green fluorescent protein 3",
+          "protein_accession_version": "AAG34529.1",
+          "segments": [
+            {
+              "end0": 2987,
+              "start0": 2270,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 6,
+          "translation_length_aa": 238,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "dc215e92b61ef5c25772ef4e52fee03b87d1f4550590aa6e036b0823e5cfca75",
+          "translation_state": "known"
+        },
+        {
+          "gene": "AmpR",
+          "location": "[4656:5517](-)",
+          "product": "ampicillin resistance protein",
+          "protein_accession_version": "AAG34530.1",
+          "segments": [
+            {
+              "end0": 5517,
+              "start0": 4656,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 10,
+          "translation_length_aa": 286,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 11,
+      "feature_types": {
+        "CDS": 3,
+        "gene": 3,
+        "misc_feature": 1,
+        "regulatory": 2,
+        "rep_origin": 1,
+        "source": 1
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_AF298787.1.gb",
+      "proposed_archetype": "multi_cds",
+      "record_locus_date": "26-NOV-2000",
+      "record_title": "C-terminal GFP fusion vector pUG35, complete sequence",
+      "related_lineage_proposals": [],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "GFP fusion-ready vector; NOT a verified EGFP-LC3 fusion",
+      "sequence_length_nt": 6231,
+      "sequence_sha256": "be541f481f70bc097b9ad86dde29555d7d8828726d08d1b2dd5a7d4aa8f54839",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-AF298787.1",
+      "source_retrieval": {
+        "bytes": 11590,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AF298787.1&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:50.468638+00:00",
+        "sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AF298787.1&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/AF298787.1",
+      "status": "READY_FOR_REVIEW",
+      "topology": "circular",
+      "validated_source_translation_count": 3
+    },
+    {
+      "accession_version": "KJ541668.1",
+      "architecture_caveat": "Fusion-ready vector is not an independently validated completed fusion; no reviewed fusion boundary asserted",
+      "attribution_references": [
+        {
+          "authors": "Gagoski,D., Mureev,S., Giles,N., Johnston,W., Dahmer-Heath,M., Skalamera,D., Gonda,T.J. and Alexandrov,K.",
+          "journal": "J. Biotechnol. 195, 1-7 (2015)",
+          "pubmed_id": "25529348",
+          "title": "Gateway-compatible vectors for high-throughput protein expression in pro- and eukaryotic cell-free systems"
+        },
+        {
+          "authors": "Mureev,S.",
+          "journal": "Submitted (06-MAR-2014) Institute for Molecular Bioscience - Molecular Cell Biology Division, University of Queensland, 306 Carmody Rd, St Lucia, QLD 4072, Australia",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        }
+      ],
+      "candidate_selected": true,
+      "cds_count": 4,
+      "cds_evidence": [
+        {
+          "gene": "ccdB",
+          "location": "[330:636](-)",
+          "product": "ccdB",
+          "protein_accession_version": "AIC82337.1",
+          "segments": [
+            {
+              "end0": 636,
+              "start0": 330,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 6,
+          "translation_length_aa": 101,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "6e91f0a6f45fbc1a48f83962b1b5d9ed4c905a8cd214d0856b2468a0abde6a8e",
+          "translation_state": "known"
+        },
+        {
+          "gene": "Cat",
+          "location": "[977:1637](-)",
+          "product": "chloramphenicol acetyl transferase",
+          "protein_accession_version": "AIC82338.1",
+          "segments": [
+            {
+              "end0": 1637,
+              "start0": 977,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 8,
+          "translation_length_aa": 219,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "dcd7a2cbc614b32c121bfe75ab252ba625595f122a993fb4dba56566156b7533",
+          "translation_state": "known"
+        },
+        {
+          "gene": "eGFP",
+          "location": "[<2036:>2744](+)",
+          "product": "eGFP",
+          "protein_accession_version": "AIC82339.1",
+          "segments": [],
+          "source_ordinal_1based": 12,
+          "translation_length_aa": null,
+          "translation_reason": "Fuzzy or unknown boundary; original location retained in audit",
+          "translation_sha256": null,
+          "translation_state": "ambiguous"
+        },
+        {
+          "gene": "Bla",
+          "location": "[4284:5145](-)",
+          "product": "beta-lactamase",
+          "protein_accession_version": "AIC82340.1",
+          "segments": [
+            {
+              "end0": 5145,
+              "start0": 4284,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 17,
+          "translation_length_aa": 286,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "afee9ed1e9ee7e1aa0395094bc0affbd00e38a44c9d9dae4e00ec82c509790d2",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": false,
+      "failure_class": "T02_source_annotated_toxin_component_excluded",
+      "family_panel_approved": false,
+      "feature_count": 18,
+      "feature_types": {
+        "CDS": 4,
+        "gene": 4,
+        "misc_feature": 2,
+        "misc_recomb": 2,
+        "regulatory": 5,
+        "source": 1
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_KJ541668.1.gb",
+      "record_locus_date": "20-JAN-2016",
+      "record_title": "Cell-free gateway cloning vector C-term eGFP 8xHis pCellFree_G04, complete sequence",
+      "related_lineage_proposals": [
+        "pCellFree-vector-lineage"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "selection_caveat": "Fusion/tag architecture candidate; NOT Renilla-GFP Nano-lantern",
+      "sequence_length_nt": 5275,
+      "sequence_sha256": "9e259f442c5838bdccab63f375c1e2eafe355ad0521ba9cf6cd2763975173548",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_exclusion_basis": "Source-annotated toxin-based selection component conflicts with current T02 toxin-exclusion rule; do not include solely because the vector title is ordinary cloning.",
+      "source_id": "ncbi-KJ541668.1",
+      "source_retrieval": {
+        "bytes": 11927,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KJ541668.1&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:50.884716+00:00",
+        "sha256": "b349054b42d711b65b93ef58adadc6ed6cf53645e072ec03f333366d8e3e83d8",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KJ541668.1&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/KJ541668.1",
+      "status": "HOLD",
+      "topology": "circular",
+      "validated_source_translation_count": 3
+    },
+    {
+      "accession_version": "KJ541670.1",
+      "architecture_caveat": "Fusion-ready vector is not an independently validated completed fusion; no reviewed fusion boundary asserted",
+      "attribution_references": [
+        {
+          "authors": "Gagoski,D., Mureev,S., Giles,N., Johnston,W., Dahmer-Heath,M., Skalamera,D., Gonda,T.J. and Alexandrov,K.",
+          "journal": "J. Biotechnol. 195, 1-7 (2015)",
+          "pubmed_id": "25529348",
+          "title": "Gateway-compatible vectors for high-throughput protein expression in pro- and eukaryotic cell-free systems"
+        },
+        {
+          "authors": "Mureev,S.",
+          "journal": "Submitted (06-MAR-2014) Institute for Molecular Bioscience - Molecular Cell Biology Division, University of Queensland, 306 Carmody Rd, St Lucia, QLD 4072, Australia",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        }
+      ],
+      "candidate_selected": true,
+      "cds_count": 4,
+      "cds_evidence": [
+        {
+          "gene": "CcdB",
+          "location": "[330:636](-)",
+          "product": "ccdB",
+          "protein_accession_version": "AIC82345.1",
+          "segments": [
+            {
+              "end0": 636,
+              "start0": 330,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 6,
+          "translation_length_aa": 101,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "6e91f0a6f45fbc1a48f83962b1b5d9ed4c905a8cd214d0856b2468a0abde6a8e",
+          "translation_state": "known"
+        },
+        {
+          "gene": "Cat",
+          "location": "[977:1637](-)",
+          "product": "chloramphenicol acetyl transferase",
+          "protein_accession_version": "AIC82346.1",
+          "segments": [
+            {
+              "end0": 1637,
+              "start0": 977,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 8,
+          "translation_length_aa": 219,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "dcd7a2cbc614b32c121bfe75ab252ba625595f122a993fb4dba56566156b7533",
+          "translation_state": "known"
+        },
+        {
+          "gene": "mcherry",
+          "location": "[<2036:>2735](+)",
+          "product": "mcherry",
+          "protein_accession_version": "AIC82347.1",
+          "segments": [],
+          "source_ordinal_1based": 12,
+          "translation_length_aa": null,
+          "translation_reason": "Fuzzy or unknown boundary; original location retained in audit",
+          "translation_sha256": null,
+          "translation_state": "ambiguous"
+        },
+        {
+          "gene": "Bla",
+          "location": "[4275:5136](-)",
+          "product": "beta-lactamase",
+          "protein_accession_version": "AIC82348.1",
+          "segments": [
+            {
+              "end0": 5136,
+              "start0": 4275,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 17,
+          "translation_length_aa": 286,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "afee9ed1e9ee7e1aa0395094bc0affbd00e38a44c9d9dae4e00ec82c509790d2",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": false,
+      "failure_class": "T02_source_annotated_toxin_component_excluded",
+      "family_panel_approved": false,
+      "feature_count": 18,
+      "feature_types": {
+        "CDS": 4,
+        "gene": 4,
+        "misc_feature": 2,
+        "misc_recomb": 2,
+        "regulatory": 5,
+        "source": 1
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_KJ541670.1.gb",
+      "record_locus_date": "20-JAN-2016",
+      "record_title": "Cell-free gateway cloning vector C-term mcherry 8xHis pCellFree_G06, complete sequence",
+      "related_lineage_proposals": [
+        "pCellFree-vector-lineage"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "selection_caveat": "Tagged fluorescent vector; NOT a Renilla-FLAG-firefly fusion",
+      "sequence_length_nt": 5266,
+      "sequence_sha256": "5c2536ec1bfe34c69c989baf8ef8d27e23c46c0dcf929b4ae2ca1be380f60cc7",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_exclusion_basis": "Source-annotated toxin-based selection component conflicts with current T02 toxin-exclusion rule; do not include solely because the vector title is ordinary cloning.",
+      "source_id": "ncbi-KJ541670.1",
+      "source_retrieval": {
+        "bytes": 11940,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KJ541670.1&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:51.318725+00:00",
+        "sha256": "b028133afbac8db440d462fe012e3f29fe2b169b9c527d4aeaeb13931c80a475",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KJ541670.1&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/KJ541670.1",
+      "status": "HOLD",
+      "topology": "circular",
+      "validated_source_translation_count": 3
+    },
+    {
+      "accession_version": "PP098727.1",
+      "attribution_references": [
+        {
+          "authors": "Zhou,M.",
+          "journal": "Unpublished",
+          "pubmed_id": "",
+          "title": "Type III secretion system effector YfiD inhibits the activation of host poly(ADP-ribose) polymerase-1 to promote bacterial infection"
+        },
+        {
+          "authors": "Zhou,M.",
+          "journal": "Submitted (07-JAN-2024) ECUST, Meilong Road, Xuhui, Shanghai 200237, China",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        }
+      ],
+      "candidate_selected": true,
+      "cds_count": 1,
+      "cds_evidence": [
+        {
+          "gene": null,
+          "location": "[112:832](+)",
+          "product": "green fluorescence protein",
+          "protein_accession_version": "WUF06606.1",
+          "segments": [
+            {
+              "end0": 832,
+              "start0": 112,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 2,
+          "translation_length_aa": 239,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "5347cde2d96407db73c84ba1871ab6c73216bf47dd4c0a4e8cc3e6fa27fb0e61",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": false,
+      "failure_class": "HOLD_context_review_source_publication_association",
+      "family_panel_approved": false,
+      "feature_count": 2,
+      "feature_types": {
+        "CDS": 1,
+        "source": 1
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_PP098727.1.gb",
+      "record_locus_date": "29-JAN-2024",
+      "record_title": "Cloning vector pETDuet-1-GFP, complete sequence",
+      "related_lineage_proposals": [],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "selection_caveat": "Additional public multi-cassette candidate pending GenBank feature audit",
+      "sequence_length_nt": 6104,
+      "sequence_sha256": "09fdd863544ff4f5c74573fe6bd439f3256f557ed42d80353ce4432e689688f2",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_exclusion_basis": "Original cited study concerns Type III effectors in bacterial infection; fluorescent reporter annotation does not resolve source-context eligibility under T02 and requires specialist/scope review.",
+      "source_id": "ncbi-PP098727.1",
+      "source_retrieval": {
+        "bytes": 9469,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=PP098727.1&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:51.706601+00:00",
+        "sha256": "b3fb78b206d4f7107f07c701481d3e4e15676041c08a2a3ac8b125c452c78167",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=PP098727.1&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/PP098727.1",
+      "status": "HOLD",
+      "topology": "circular",
+      "validated_source_translation_count": 1
+    },
+    {
+      "accession_version": "JX560321.2",
+      "attribution_references": [
+        {
+          "authors": "Silva-Rocha,R., Martinez-Garcia,E., Chavarria,M., Calles,B., Arce-Rodriguez,A., de las Heras,A., Paez-Espino,D., Durante-Rodriguez,G., Kim,J., Nikel,P.I., Platero,R. and de Lorenzo,V.",
+          "journal": "Unpublished",
+          "pubmed_id": "",
+          "title": "The Standard European Vector Architecture (SEVA): a coherent platform for analysis and deployment of complex prokaryotic phenotypes"
+        },
+        {
+          "authors": "Silva-Rocha,R., Martinez-Garcia,E., Chavarria,M., Calles,B., Arce-Rodriguez,A., de las Heras,A., Paez-Espino,D., Durante-Rodriguez,G., Kim,J., Nikel,P.I., Platero,R. and de Lorenzo,V.",
+          "journal": "Submitted (28-AUG-2012) Systems Biology Program, Centro Nacional de Biotecnologia-CSIC, C/ Darwin 3, Campus de Cantoblanco, Madrid, Madrid 28049, Spain",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        },
+        {
+          "authors": "Silva-Rocha,R., Martinez-Garcia,E., Chavarria,M., Calles,B., Arce-Rodriguez,A., de las Heras,A., Paez-Espino,D., Durante-Rodriguez,G., Kim,J., Nikel,P.I., Platero,R. and de Lorenzo,V.",
+          "journal": "Submitted (25-SEP-2014) Systems Biology Program, Centro Nacional de Biotecnologia-CSIC, C/ Darwin 3, Campus de Cantoblanco, Madrid, Madrid 28049, Spain",
+          "pubmed_id": "",
+          "title": "Direct Submission"
+        }
+      ],
+      "benign_scope_proposal": "Ordinary cloning/expression/reporter vector in preselected scope; source CDS products and original references retained for case-specific review. Antibiotic markers and viral-derived regulatory elements, where present, are not omitted.",
+      "candidate_selected": true,
+      "cds_count": 1,
+      "cds_evidence": [
+        {
+          "gene": "bla",
+          "location": "[413:1274](+)",
+          "product": "beta-lactamase",
+          "protein_accession_version": "AFV59760.1",
+          "segments": [
+            {
+              "end0": 1274,
+              "start0": 413,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 6,
+          "translation_length_aa": 286,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 9,
+      "feature_types": {
+        "CDS": 1,
+        "gene": 1,
+        "misc_feature": 1,
+        "primer_bind": 2,
+        "regulatory": 2,
+        "rep_origin": 1,
+        "source": 1
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_JX560321.2.gb",
+      "proposed_archetype": "backbone_heavy",
+      "record_locus_date": "25-SEP-2014",
+      "record_title": "Cloning vector pSEVA111, complete sequence",
+      "related_lineage_proposals": [],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "Additional public modular backbone candidate; not one of the Addgene pilot plasmids",
+      "sequence_length_nt": 2094,
+      "sequence_sha256": "277e20bb1f9697038c488689004e7b38a344d4837001ea711315f50a8f05da4c",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-JX560321.2",
+      "source_retrieval": {
+        "bytes": 6170,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=JX560321.2&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:52.102179+00:00",
+        "sha256": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=JX560321.2&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/JX560321.2",
+      "status": "READY_FOR_REVIEW",
+      "topology": "circular",
+      "validated_source_translation_count": 1
+    },
+    {
+      "accession_version": "J01749.1",
+      "attribution_references": [
+        {
+          "authors": "Sutcliffe,J.G.",
+          "journal": "Proc. Natl. Acad. Sci. U.S.A. 75 (8), 3737-3741 (1978)",
+          "pubmed_id": "358200",
+          "title": "Nucleotide sequence of the ampicillin resistance gene of Escherichia coli plasmid pBR322"
+        },
+        {
+          "authors": "Sutcliffe,J.G.",
+          "journal": "Cold Spring Harb. Symp. Quant. Biol. 43 (Pt 1), 77-90 (1979)",
+          "pubmed_id": "383387",
+          "title": "Complete nucleotide sequence of the Escherichia coli plasmid pBR322"
+        },
+        {
+          "authors": "Reed,R.R., Young,R.A., Steitz,J.A., Grindley,N.D. and Guyer,M.S.",
+          "journal": "Proc. Natl. Acad. Sci. U.S.A. 76 (10), 4882-4886 (1979)",
+          "pubmed_id": "388421",
+          "title": "Transposition of the Escherichia coli insertion element gamma generates a five-base-pair repeat"
+        },
+        {
+          "authors": "Covarrubias,L., Cervantes,L., Covarrubias,A., Soberon,X., Vichido,I., Blanco,A., Kupersztoch-Portnoy,Y.M. and Bolivar,F.",
+          "journal": "Gene 13 (1), 25-35 (1981)",
+          "pubmed_id": "6263753",
+          "title": "Construction and characterization of new cloning vehicles. V. Mobilization and coding properties of pBR322 and several deletion derivatives including pBR327 and pBR328"
+        },
+        {
+          "authors": "Marians,K.J., Soeller,W. and Zipursky,S.L.",
+          "journal": "J. Biol. Chem. 257 (10), 5656-5662 (1982)",
+          "pubmed_id": "6279609",
+          "title": "Maximal limits of the Escherichia coli replication factor Y effector site sequences in pBR322 DNA"
+        },
+        {
+          "authors": "Brosius,J., Cate,R.L. and Perlmutter,A.P.",
+          "journal": "J. Biol. Chem. 257 (15), 9205-9210 (1982)",
+          "pubmed_id": "6178738",
+          "title": "Precise location of two promoters for the beta-lactamase gene of pBR322. S1 mapping of ribonucleic acid isolated from Escherichia coli or synthesized in vitro"
+        },
+        {
+          "authors": "Van Dyke,M.W., Hertzberg,R.P. and Dervan,P.B.",
+          "journal": "Proc. Natl. Acad. Sci. U.S.A. 79 (18), 5470-5474 (1982)",
+          "pubmed_id": "6291045",
+          "title": "Map of distamycin, netropsin, and actinomycin binding sites on heterogeneous DNA: DNA cleavage-inhibition patterns with methidiumpropyl-EDTA.Fe(II)"
+        },
+        {
+          "authors": "Peden,K.W. and Nathans,D.",
+          "journal": "Proc. Natl. Acad. Sci. U.S.A. 79 (23), 7214-7217 (1982)",
+          "pubmed_id": "6760191",
+          "title": "Local mutagenesis within deletion loops of DNA heteroduplexes"
+        },
+        {
+          "authors": "Peden,K.W.",
+          "journal": "Gene 22 (2-3), 277-280 (1983)",
+          "pubmed_id": "6307828",
+          "title": "Revised sequence of the tetracycline-resistance gene of pBR322"
+        },
+        {
+          "authors": "Watabe,H., Iino,T., Kaneko,T., Shibata,T. and Ando,T.",
+          "journal": "J. Biol. Chem. 258 (8), 4663-4665 (1983)",
+          "pubmed_id": "6300094",
+          "title": "A new class of site-specific endodeoxyribonucleases. Endo.Sce I isolated from a eukaryote, Saccharomyces cerevisiae"
+        },
+        {
+          "authors": "Livneh,Z.",
+          "journal": "Proc. Natl. Acad. Sci. U.S.A. 80 (1), 237-241 (1983)",
+          "pubmed_id": "6337373",
+          "title": "Directed mutagenesis method for analysis of mutagen specificity: application to ultraviolet-induced mutagenesis"
+        },
+        {
+          "authors": "Mascharak,P.K., Sugiura,Y., Kuwahara,J., Suzuki,T. and Lippard,S.J.",
+          "journal": "Proc. Natl. Acad. Sci. U.S.A. 80 (22), 6795-6798 (1983)",
+          "pubmed_id": "6196777",
+          "title": "Alteration and activation of sequence-specific cleavage of DNA by bleomycin in the presence of the antitumor drug cis-diamminedichloroplatinum(II)"
+        },
+        {
+          "authors": "Schultz,P.G. and Dervan,P.B.",
+          "journal": "Proc. Natl. Acad. Sci. U.S.A. 80 (22), 6834-6837 (1983)",
+          "pubmed_id": "6417654",
+          "title": "Sequence-specific double-strand cleavage of DNA by penta-N-methylpyrrolecarboxamide-EDTA X Fe(II)"
+        },
+        {
+          "authors": "Sutcliffe,J.G.",
+          "journal": "Unpublished",
+          "pubmed_id": "",
+          "title": ""
+        },
+        {
+          "authors": "Fuller,R.S., Funnell,B.E. and Kornberg,A.",
+          "journal": "Cell 38 (3), 889-900 (1984)",
+          "pubmed_id": "6091903",
+          "title": "The dnaA protein complex with the E. coli chromosomal replication origin (oriC) and other DNA sites"
+        },
+        {
+          "authors": "Lathe,R., Kieny,M.P., Skory,S. and Lecocq,J.P.",
+          "journal": "DNA 3 (2), 173-182 (1984)",
+          "pubmed_id": "6327214",
+          "title": "Linker tailing: unphosphorylated linker oligonucleotides for joining DNA termini"
+        },
+        {
+          "authors": "Heusterspreute,M. and Davison,J.",
+          "journal": "DNA 3 (3), 259-268 (1984)",
+          "pubmed_id": "6086259",
+          "title": "Restriction site bank vectors. II. DNA sequence analysis of plasmid pJRD158"
+        },
+        {
+          "authors": "Abarzua,P., Soeller,W. and Marians,K.J.",
+          "journal": "J. Biol. Chem. 259 (22), 14286-14292 (1984)",
+          "pubmed_id": "6209275",
+          "title": "Mutational analysis of primosome assembly sites. I. Distinct classes of mutants in the pBR322 Escherichia coli factor Y DNA effector sequences"
+        },
+        {
+          "authors": "Soeller,W., Abarzua,P. and Marians,K.J.",
+          "journal": "J. Biol. Chem. 259 (22), 14293-14300 (1984)",
+          "pubmed_id": "6150042",
+          "title": "Mutational analysis of primosome assembly sites. II. Role of secondary structure in the formation of active sites"
+        },
+        {
+          "authors": "Van Dyke,M.M. and Dervan,P.B.",
+          "journal": "Science 225 (4667), 1122-1127 (1984)",
+          "pubmed_id": "6089341",
+          "title": "Echinomycin binding sites on DNA"
+        },
+        {
+          "authors": "Pouwels,P.H., Enger-Valk,B.E. and Brammar,W.J.",
+          "journal": "(in) CLONING VECTORS. Elsevier Scientific Publishing, Amsterdam (1985)",
+          "pubmed_id": "",
+          "title": ""
+        },
+        {
+          "authors": "Watson,N.",
+          "journal": "Gene 70 (2), 399-403 (1988)",
+          "pubmed_id": "3063608",
+          "title": "A new revision of the sequence of plasmid pBR322"
+        },
+        {
+          "authors": "Gilbert,W.",
+          "journal": "Unpublished",
+          "pubmed_id": "",
+          "title": "Obtained from VecBase 3.0"
+        }
+      ],
+      "benign_scope_proposal": "Ordinary cloning/expression/reporter vector in preselected scope; source CDS products and original references retained for case-specific review. Antibiotic markers and viral-derived regulatory elements, where present, are not omitted.",
+      "candidate_selected": true,
+      "cds_count": 3,
+      "cds_evidence": [
+        {
+          "gene": "tet",
+          "location": "[85:1276](+)",
+          "product": "tetracycline resistance protein",
+          "protein_accession_version": "AAB59735.1",
+          "segments": [
+            {
+              "end0": 1276,
+              "start0": 85,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 11,
+          "translation_length_aa": 396,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "27caae7e0153afb364b0f12c8ac82367a49ed6fe094a33d168867c622554ad90",
+          "translation_state": "known"
+        },
+        {
+          "gene": null,
+          "location": "[1914:2106](+)",
+          "product": "ROP protein",
+          "protein_accession_version": "AAB59736.1",
+          "segments": [
+            {
+              "end0": 2106,
+              "start0": 1914,
+              "strand": 1
+            }
+          ],
+          "source_ordinal_1based": 27,
+          "translation_length_aa": 63,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "b999d6315c7a7034af5f3cc095c13b30ba58e106d10c8a7810f3b026c2f45295",
+          "translation_state": "known"
+        },
+        {
+          "gene": "bla",
+          "location": "[3292:4153](-)",
+          "product": "beta-lactamase",
+          "protein_accession_version": "AAB59737.1",
+          "segments": [
+            {
+              "end0": 4153,
+              "start0": 3292,
+              "strand": -1
+            }
+          ],
+          "source_ordinal_1based": 39,
+          "translation_length_aa": 286,
+          "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+          "translation_sha256": "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468",
+          "translation_state": "known"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 50,
+      "feature_types": {
+        "CDS": 3,
+        "gene": 2,
+        "mat_peptide": 1,
+        "misc_binding": 15,
+        "misc_difference": 3,
+        "misc_feature": 5,
+        "mobile_element": 1,
+        "old_sequence": 6,
+        "regulatory": 6,
+        "rep_origin": 1,
+        "repeat_region": 4,
+        "sig_peptide": 1,
+        "source": 2
+      },
+      "original_path": "results/week2/curation/raw_sources/NCBI_J01749.1.gb",
+      "proposed_archetype": "backbone_heavy",
+      "record_locus_date": "30-SEP-2008",
+      "record_title": "Cloning vector pBR322, complete sequence",
+      "related_lineage_proposals": [],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "exact_source_conflicting_notice_found": false,
+        "limitations": "NCBI imposes no distribution restrictions on molecular data and does not accept submitter-requested restrictions; submitter intellectual-property caveat remains. Not CC0, patent clearance or permission for public project release.",
+        "local_analysis_proposal": "permitted_under_NCBI_molecular_data_usage_policy",
+        "policy_key": "ncbi_policy",
+        "private_copy_proposal": "permitted_under_NCBI_molecular_data_usage_policy_subject_to_submitter_IP_and_exact_record_notices"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "Historical E1 source independently fetched; this does not create a new experimental observation",
+      "sequence_length_nt": 4361,
+      "sequence_sha256": "536042a7485bdabdf49c4d21a306213a098d77d19bdba57a1c6adc76ce2b8372",
+      "source": "NCBI",
+      "source_admitted_for_scoring": false,
+      "source_id": "ncbi-J01749.1",
+      "source_retrieval": {
+        "bytes": 24806,
+        "cache_hit": true,
+        "content_type": "text/plain",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=J01749.1&rettype=gbwithparts&retmode=text",
+        "retrieved_at_utc": "2026-11-11T03:41:52.515232+00:00",
+        "sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=J01749.1&rettype=gbwithparts&retmode=text"
+      },
+      "source_rights_notice_lines": [],
+      "source_type": "complete_plasmid",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/J01749.1",
+      "status": "READY_FOR_REVIEW",
+      "topology": "circular",
+      "validated_source_translation_count": 3
+    },
+    {
+      "annotation_coordinate_scope": "Original raw intervals retained as deposited; coordinate indexing convention unverified, no normalized coordinate claim until documented",
+      "annotation_original_path": "results/week2/curation/raw_sources/BBa_25FDWALN.features.json",
+      "annotation_retrieval": {
+        "bytes": 7261,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/212662e7-3789-4650-9b7a-5415bf8d7fb4/sequence-features?page=1&pageSize=100",
+        "retrieved_at_utc": "2026-11-11T03:42:11.944743+00:00",
+        "sha256": "3252ccc672f98c8c4afe2ff1fbc9463e8e06eab4066fa1a6fde109f6240bc789",
+        "url": "https://api.registry.igem.org/v1/parts/212662e7-3789-4650-9b7a-5415bf8d7fb4/sequence-features?page=1&pageSize=100"
+      },
+      "attribution_source_as_deposited": null,
+      "benign_scope_proposal": "Source-deposited ordinary reporter, pigment or coating description retained verbatim for review; no experimental safety guarantee. Case-specific review is required before scoring.",
+      "candidate_selected": true,
+      "cds_evidence": [
+        {
+          "label": "cI857",
+          "locations_as_deposited": [
+            {
+              "end": 798,
+              "start": 88
+            }
+          ],
+          "source_feature_id": "df604cec-3d12-47a1-88e8-f25603db9179",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "phlF",
+          "locations_as_deposited": [
+            {
+              "end": 1626,
+              "start": 1027
+            }
+          ],
+          "source_feature_id": "b588d5b3-124a-4340-a898-b4bf066be388",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "sfGFP",
+          "locations_as_deposited": [
+            {
+              "end": 3225,
+              "start": 2512
+            }
+          ],
+          "source_feature_id": "da3aca58-2aba-4c4a-bbeb-01344d555c46",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "description_evidence": "This device is composed of three main parts: FourU, CI857 and PhlF. All three parts cooperate with each other to render green fluorescence at 25\u2103 whereas red fluorescence at 37\u2103 through interaction with promoters and RBS.",
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 24,
+      "feature_types": {
+        "CDS": 3,
+        "Operator": 1,
+        "Promoter": 3,
+        "Reporter": 1,
+        "Ribosome Entry Site": 3,
+        "Sequence Feature": 2,
+        "Start Codon": 4,
+        "Stop Codon": 4,
+        "Terminator": 3
+      },
+      "license_uuid": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+      "original_path": "results/week2/curation/raw_sources/BBa_25FDWALN.json",
+      "proposed_archetype": "multi_cds",
+      "record_title": "T7 promoter-RBS-CI857-T7 ter-R promoter-FourU-PhlF-mRFP1-T7 ter-PhlF promoter-RBS-sfGFP-T7 ter",
+      "related_lineage_proposals": [],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "attribution": {
+          "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "part_id": "BBa_25FDWALN",
+          "provider": "iGEM Registry",
+          "source_credit_as_deposited": null,
+          "title": "T7 promoter-RBS-CI857-T7 ter-R promoter-FourU-PhlF-mRFP1-T7 ter-PhlF promoter-RBS-sfGFP-T7 ter",
+          "url": "https://registry.igem.org/parts/bba-25fdwaln"
+        },
+        "license": "CC-BY-4.0",
+        "limitations": "Preserve creator/source credits and modification notice on derived artifacts; API status is not experimental validation. No public release in this task.",
+        "local_analysis_proposal": "permitted_with_attribution",
+        "policy_key": "igem_license",
+        "private_copy_proposal": "permitted_with_attribution"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "Multi-component red/green fluorescence device; examine reported coding features, not just design text.",
+      "sequence_length_nt": 3339,
+      "sequence_sha256": "d127cca93da0e78195d07037aced7678e4eca94a0dffa3ec2762cdb8ae978d4b",
+      "source": "iGEM",
+      "source_admitted_for_scoring": false,
+      "source_annotations_caveat": "CDS role and label are deposited annotations, not validated translation, family/function evidence or reviewed fusion boundaries",
+      "source_cds_feature_count": 3,
+      "source_created_at": "2025-10-07T19:51:39.225Z",
+      "source_id": "BBa_25FDWALN",
+      "source_retrieval": {
+        "bytes": 4178,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/slugs/bba-25fdwaln",
+        "retrieved_at_utc": "2026-11-11T03:41:59.289810+00:00",
+        "sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb",
+        "url": "https://api.registry.igem.org/v1/parts/slugs/bba-25fdwaln"
+      },
+      "source_type": "cassette_or_part",
+      "source_updated_at": "2025-10-09T02:21:27.437Z",
+      "source_url": "https://registry.igem.org/parts/bba-25fdwaln",
+      "status": "READY_FOR_REVIEW",
+      "topology": null,
+      "validated_source_translation_count": 0
+    },
+    {
+      "annotation_coordinate_scope": "Original raw intervals retained as deposited; coordinate indexing convention unverified, no normalized coordinate claim until documented",
+      "annotation_original_path": "results/week2/curation/raw_sources/BBa_252QAUN3.features.json",
+      "annotation_retrieval": {
+        "bytes": 6343,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/fc31b0a3-9759-4ed6-9169-4280f15ec341/sequence-features?page=1&pageSize=100",
+        "retrieved_at_utc": "2026-11-11T03:42:37.925044+00:00",
+        "sha256": "edf34cb11d7dfa5dd054fc79a96848d33150a3746b28882bc8854b66e734a205",
+        "url": "https://api.registry.igem.org/v1/parts/fc31b0a3-9759-4ed6-9169-4280f15ec341/sequence-features?page=1&pageSize=100"
+      },
+      "attribution_source_as_deposited": null,
+      "benign_scope_proposal": "Source-deposited ordinary reporter, pigment or coating description retained verbatim for review; no experimental safety guarantee. Case-specific review is required before scoring.",
+      "candidate_selected": true,
+      "cds_evidence": [
+        {
+          "label": "BBa_K1687001",
+          "locations_as_deposited": [
+            {
+              "end": 1080,
+              "start": 4
+            }
+          ],
+          "source_feature_id": "2643ab4d-9e15-41c8-ae7f-79015fae5f7e",
+          "strand": "reverse",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "LacI",
+          "locations_as_deposited": [
+            {
+              "end": 1083,
+              "start": 4
+            }
+          ],
+          "source_feature_id": "ecee5be6-1784-45d2-8026-25abedb09be7",
+          "strand": "reverse",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "YF1",
+          "locations_as_deposited": [
+            {
+              "end": 2642,
+              "start": 1515
+            }
+          ],
+          "source_feature_id": "c3731605-55a2-44b1-b3dc-64ffcd053a93",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "FixJ",
+          "locations_as_deposited": [
+            {
+              "end": 3289,
+              "start": 2672
+            }
+          ],
+          "source_feature_id": "b4087008-f778-4a03-a0eb-e94207edce60",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "description_evidence": "This composite part is designed as a basic blue light-regulated system.It encodes the LacI repressor and drives GFP expression from the Fixk2 promoter. The system is expected to be weakly activated in the dark by the phosphorylated FixJ protein. However, in the absence of a dedicated operator for LacI to bind, the LacI repressor does not contribute to light-dependent regulation. Consequently, the system relies solely on the YF1/FixJ module for blue light response, which is expected to result in a limited dynamic range between blue light and dark conditions.",
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 21,
+      "feature_types": {
+        "CDS": 4,
+        "Promoter": 4,
+        "Ribosome Entry Site": 2,
+        "Start Codon": 4,
+        "Stop Codon": 4,
+        "Tag": 2,
+        "Terminator": 1
+      },
+      "license_uuid": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+      "original_path": "results/week2/curation/raw_sources/BBa_252QAUN3.json",
+      "proposed_archetype": "multi_cds",
+      "record_title": "lacI promoter-LacI-T7 promoter-RBS-YF1-FixJ-Fixk2-GFP-T7 terminator",
+      "related_lineage_proposals": [
+        "YF1-FixJ-reporter-lineage"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "attribution": {
+          "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "part_id": "BBa_252QAUN3",
+          "provider": "iGEM Registry",
+          "source_credit_as_deposited": null,
+          "title": "lacI promoter-LacI-T7 promoter-RBS-YF1-FixJ-Fixk2-GFP-T7 terminator",
+          "url": "https://registry.igem.org/parts/bba-252qaun3"
+        },
+        "license": "CC-BY-4.0",
+        "limitations": "Preserve creator/source credits and modification notice on derived artifacts; API status is not experimental validation. No public release in this task.",
+        "local_analysis_proposal": "permitted_with_attribution",
+        "policy_key": "igem_license",
+        "private_copy_proposal": "permitted_with_attribution"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "Multi-regulator green reporter; related to 25B5R4ZL.",
+      "sequence_length_nt": 4512,
+      "sequence_sha256": "e031ffaa77ae32fcc1823a0f1c2a0f625316f51fba7817082baf758b0e3eee93",
+      "source": "iGEM",
+      "source_admitted_for_scoring": false,
+      "source_annotations_caveat": "CDS role and label are deposited annotations, not validated translation, family/function evidence or reviewed fusion boundaries",
+      "source_cds_feature_count": 4,
+      "source_created_at": "2025-10-09T08:09:32.562Z",
+      "source_id": "BBa_252QAUN3",
+      "source_retrieval": {
+        "bytes": 5662,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/slugs/bba-252qaun3",
+        "retrieved_at_utc": "2026-11-11T03:42:25.129593+00:00",
+        "sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b",
+        "url": "https://api.registry.igem.org/v1/parts/slugs/bba-252qaun3"
+      },
+      "source_type": "cassette_or_part",
+      "source_updated_at": "2025-10-09T08:33:31.587Z",
+      "source_url": "https://registry.igem.org/parts/bba-252qaun3",
+      "status": "READY_FOR_REVIEW",
+      "topology": null,
+      "validated_source_translation_count": 0
+    },
+    {
+      "annotation_coordinate_scope": "Original raw intervals retained as deposited; coordinate indexing convention unverified, no normalized coordinate claim until documented",
+      "annotation_original_path": "results/week2/curation/raw_sources/BBa_26NKZH8J.features.json",
+      "annotation_retrieval": {
+        "bytes": 1537,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/8d2dbd0e-67a9-423e-a901-c3b824a91a85/sequence-features?page=1&pageSize=100",
+        "retrieved_at_utc": "2026-11-11T03:43:03.978245+00:00",
+        "sha256": "4614f291e91b9bf9bdafe2601d64dc9a0da8ab2346fc812218e76926cf75307d",
+        "url": "https://api.registry.igem.org/v1/parts/8d2dbd0e-67a9-423e-a901-c3b824a91a85/sequence-features?page=1&pageSize=100"
+      },
+      "architecture_caveat": "Source description documents fusion/tag intent; precise full-fusion CDS translation and amino-acid boundaries unreviewed. Not counted as validated tagged_fusion coverage.",
+      "attribution_source_as_deposited": "Biobrick BBa_J428035",
+      "benign_scope_proposal": "Source-deposited ordinary reporter, pigment or coating description retained verbatim for review; no experimental safety guarantee. Case-specific review is required before scoring.",
+      "candidate_selected": true,
+      "cds_evidence": [
+        {
+          "label": "mCerulean3",
+          "locations_as_deposited": [
+            {
+              "end": 839,
+              "start": 123
+            }
+          ],
+          "source_feature_id": "1f1531ca-5361-4f8b-adf5-c7fd776120f6",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "description_evidence": "This part contains the mCerulean3 gene fused with a 6\u00d7His tag at its C-terminus, under the control of a T7 promoter and a lacI operator. In *E. coli* BL21(DE3), the T7 RNA polymerase drives high-level expression of mCerulean3-6\u00d7His upon IPTG induction. mCerulean3 is an engineered cyan fluorescent protein with excitation/emission maxima at 433/480 nm. It exhibits low acid sensitivity, enhanced photostability, and good thermal stability, making it an excellent FRET donor and fusion tag for live-cell imaging, protein localization, and biosensing applications. The 6\u00d7His tag enables efficient purification via Ni-NTA affinity chromatography.",
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 5,
+      "feature_types": {
+        "CDS": 1,
+        "Promoter": 1,
+        "Protein Binding Site": 1,
+        "Ribosome Entry Site": 1,
+        "Terminator": 1
+      },
+      "license_uuid": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+      "original_path": "results/week2/curation/raw_sources/BBa_26NKZH8J.json",
+      "proposed_archetype": "single_cds",
+      "record_title": "T7 promoter-lac operater-RBS-mCerulean3-6 \u00d7 his-T7 terminator",
+      "related_lineage_proposals": [],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "attribution": {
+          "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "part_id": "BBa_26NKZH8J",
+          "provider": "iGEM Registry",
+          "source_credit_as_deposited": "Biobrick BBa_J428035",
+          "title": "T7 promoter-lac operater-RBS-mCerulean3-6 \u00d7 his-T7 terminator",
+          "url": "https://registry.igem.org/parts/bba-26nkzh8j"
+        },
+        "license": "CC-BY-4.0",
+        "limitations": "Preserve creator/source credits and modification notice on derived artifacts; API status is not experimental validation. No public release in this task.",
+        "local_analysis_proposal": "permitted_with_attribution",
+        "policy_key": "igem_license",
+        "private_copy_proposal": "permitted_with_attribution"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "mCerulean3 with C-terminal His6 tag; confirm actual annotated fusion bounds.",
+      "sequence_length_nt": 974,
+      "sequence_sha256": "90613c7c770160a0605f5933f569a4b957dac9e9a7f8d2010389851adb40bdd4",
+      "source": "iGEM",
+      "source_admitted_for_scoring": false,
+      "source_annotations_caveat": "CDS role and label are deposited annotations, not validated translation, family/function evidence or reviewed fusion boundaries",
+      "source_cds_feature_count": 1,
+      "source_created_at": "2026-10-13T08:37:02.243Z",
+      "source_id": "BBa_26NKZH8J",
+      "source_retrieval": {
+        "bytes": 3250,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/slugs/bba-26nkzh8j",
+        "retrieved_at_utc": "2026-11-11T03:42:51.370047+00:00",
+        "sha256": "9c650d69c3bcd6b466357f3b3febd3a9a351d5e3a508751ddbcb3ad7eb76334b",
+        "url": "https://api.registry.igem.org/v1/parts/slugs/bba-26nkzh8j"
+      },
+      "source_type": "cassette_or_part",
+      "source_updated_at": "2026-10-13T08:38:49.421Z",
+      "source_url": "https://registry.igem.org/parts/bba-26nkzh8j",
+      "status": "READY_FOR_REVIEW",
+      "topology": "Linear",
+      "validated_source_translation_count": 0
+    },
+    {
+      "annotation_coordinate_scope": "Original raw intervals retained as deposited; coordinate indexing convention unverified, no normalized coordinate claim until documented",
+      "annotation_original_path": "results/week2/curation/raw_sources/BBa_25NPQIRU.features.json",
+      "annotation_retrieval": {
+        "bytes": 4826,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/7fe40453-1f71-4903-9abc-87ab3fff3610/sequence-features?page=1&pageSize=100",
+        "retrieved_at_utc": "2026-11-11T03:43:30.165631+00:00",
+        "sha256": "6e683e909a5c44304d79b207f48de098cbb0a7c06756b0b7ea7f3d61422253ef",
+        "url": "https://api.registry.igem.org/v1/parts/7fe40453-1f71-4903-9abc-87ab3fff3610/sequence-features?page=1&pageSize=100"
+      },
+      "attribution_source_as_deposited": null,
+      "benign_scope_proposal": "Source-deposited ordinary reporter, pigment or coating description retained verbatim for review; no experimental safety guarantee. Case-specific review is required before scoring.",
+      "candidate_selected": true,
+      "cds_evidence": [
+        {
+          "label": "gfaspurple",
+          "locations_as_deposited": [
+            {
+              "end": 867,
+              "start": 205
+            }
+          ],
+          "source_feature_id": "4a713d9b-ebde-4c7d-a89e-01d996da8409",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "lacI",
+          "locations_as_deposited": [
+            {
+              "end": 5630,
+              "start": 4548
+            }
+          ],
+          "source_feature_id": "711fc9f7-6d60-41f1-b9ea-f6c4c8b55b5e",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "description_evidence": "GfasPurple is a protein-based chromoprotein engineered for stable coloration in synthetic biology systems. It is designed to serve as a cofactor-free purple biopigment that maintains color intensity under ambient light without requiring external cofactors. The protein exhibits high stability under elevated temperatures and oxidative/reductive conditions, maintaining its chromatic properties in challenging environments. These characteristics make GfasPurple suitable for visual reporting applications in biosensing and as a durable colorant for industrial biotechnology. We cloned the *gfaspurple* into the pET-28a(+) vector to expand the functional characterization of the existing part BBa\\_K1033919 through comprehensive analysis of its thermal resistance and redox tolerance.",
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 16,
+      "feature_types": {
+        "CDS": 2,
+        "Operator": 1,
+        "Promoter": 2,
+        "Ribosome Entry Site": 1,
+        "Start Codon": 2,
+        "Stop Codon": 3,
+        "Tag": 3,
+        "Terminator": 2
+      },
+      "license_uuid": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+      "original_path": "results/week2/curation/raw_sources/BBa_25NPQIRU.json",
+      "proposed_archetype": "multi_cds",
+      "record_title": "pET-28(+)-gfaspurple",
+      "related_lineage_proposals": [
+        "GfasPurple-construct-cassette"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "attribution": {
+          "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "part_id": "BBa_25NPQIRU",
+          "provider": "iGEM Registry",
+          "source_credit_as_deposited": null,
+          "title": "pET-28(+)-gfaspurple",
+          "url": "https://registry.igem.org/parts/bba-25npqiru"
+        },
+        "license": "CC-BY-4.0",
+        "limitations": "Preserve creator/source credits and modification notice on derived artifacts; API status is not experimental validation. No public release in this task.",
+        "local_analysis_proposal": "permitted_with_attribution",
+        "policy_key": "igem_license",
+        "private_copy_proposal": "permitted_with_attribution"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "GfasPurple full plasmid candidate, family-linked to 25UIP3DW.",
+      "sequence_length_nt": 6016,
+      "sequence_sha256": "d9da437c41fad511bc0cec59f5d10d2c9bc88d59fb2aa3a7e123eb8571776518",
+      "source": "iGEM",
+      "source_admitted_for_scoring": false,
+      "source_annotations_caveat": "CDS role and label are deposited annotations, not validated translation, family/function evidence or reviewed fusion boundaries",
+      "source_cds_feature_count": 2,
+      "source_created_at": "2025-10-06T05:46:50.885Z",
+      "source_id": "BBa_25NPQIRU",
+      "source_retrieval": {
+        "bytes": 7336,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/slugs/bba-25npqiru",
+        "retrieved_at_utc": "2026-11-11T03:43:17.034653+00:00",
+        "sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c",
+        "url": "https://api.registry.igem.org/v1/parts/slugs/bba-25npqiru"
+      },
+      "source_type": "cassette_or_part",
+      "source_updated_at": "2025-10-07T02:48:59.799Z",
+      "source_url": "https://registry.igem.org/parts/bba-25npqiru",
+      "status": "READY_FOR_REVIEW",
+      "topology": null,
+      "validated_source_translation_count": 0
+    },
+    {
+      "annotation_coordinate_scope": "Original raw intervals retained as deposited; coordinate indexing convention unverified, no normalized coordinate claim until documented",
+      "annotation_original_path": "results/week2/curation/raw_sources/BBa_25ULGTE2.features.json",
+      "annotation_retrieval": {
+        "bytes": 6062,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/680f7efb-8095-4d01-9baf-ceffd234b39f/sequence-features?page=1&pageSize=100",
+        "retrieved_at_utc": "2026-11-11T03:43:55.854821+00:00",
+        "sha256": "01723c3a81cf2a094759cb69f856edfadcda20666b08f439499c15f93c3d8428",
+        "url": "https://api.registry.igem.org/v1/parts/680f7efb-8095-4d01-9baf-ceffd234b39f/sequence-features?page=1&pageSize=100"
+      },
+      "attribution_source_as_deposited": null,
+      "benign_scope_proposal": "Source-deposited ordinary reporter, pigment or coating description retained verbatim for review; no experimental safety guarantee. Case-specific review is required before scoring.",
+      "candidate_selected": true,
+      "cds_evidence": [
+        {
+          "label": "KanR",
+          "locations_as_deposited": [
+            {
+              "end": 1375,
+              "start": 563
+            }
+          ],
+          "source_feature_id": "f45f28ee-4f89-47c6-861b-4c9605381901",
+          "strand": "reverse",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "rop",
+          "locations_as_deposited": [
+            {
+              "end": 2706,
+              "start": 2518
+            }
+          ],
+          "source_feature_id": "1d011b39-54c0-4785-89ed-f74185213555",
+          "strand": "reverse",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "LacI",
+          "locations_as_deposited": [
+            {
+              "end": 4597,
+              "start": 3518
+            }
+          ],
+          "source_feature_id": "96b636df-4c24-4b69-a549-37fff89a34d2",
+          "strand": "reverse",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "TyrBm",
+          "locations_as_deposited": [
+            {
+              "end": 6078,
+              "start": 5188
+            }
+          ],
+          "source_feature_id": "6f2e9cda-0c8e-4176-9cb3-60c5dcbfece9",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "description_evidence": "This plasmid is driven by the T7 promoter and expresses Tyrosinase from *Bacillus megaterium* (TyrBm). TyrBm converts L-Tyrosine into L-DOPA, then transforms L-DOPA into Dopaquinone and ultimately forms eumelanin through oxidation, providing a strategy for the formation of natural black pigments.",
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 20,
+      "feature_types": {
+        "CDS": 4,
+        "Origin Of Replication": 2,
+        "Promoter": 2,
+        "Protein Binding Site": 1,
+        "Ribosome Entry Site": 1,
+        "Start Codon": 2,
+        "Stop Codon": 4,
+        "Tag": 3,
+        "Terminator": 1
+      },
+      "license_uuid": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+      "original_path": "results/week2/curation/raw_sources/BBa_25ULGTE2.json",
+      "proposed_archetype": "backbone_heavy",
+      "record_title": "pET-28a(+)-TyrBm",
+      "related_lineage_proposals": [
+        "TyrBm-construct-cassette"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "attribution": {
+          "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "part_id": "BBa_25ULGTE2",
+          "provider": "iGEM Registry",
+          "source_credit_as_deposited": null,
+          "title": "pET-28a(+)-TyrBm",
+          "url": "https://registry.igem.org/parts/bba-25ulgte2"
+        },
+        "license": "CC-BY-4.0",
+        "limitations": "Preserve creator/source credits and modification notice on derived artifacts; API status is not experimental validation. No public release in this task.",
+        "local_analysis_proposal": "permitted_with_attribution",
+        "policy_key": "igem_license",
+        "private_copy_proposal": "permitted_with_attribution"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "TyrBm pigmentation plasmid candidate, family-linked to 25ECYPMT.",
+      "sequence_length_nt": 6235,
+      "sequence_sha256": "2a81241c542a4da0283ee558f190a214498749c8c8e22e8645f0936bd60b276e",
+      "source": "iGEM",
+      "source_admitted_for_scoring": false,
+      "source_annotations_caveat": "CDS role and label are deposited annotations, not validated translation, family/function evidence or reviewed fusion boundaries",
+      "source_cds_feature_count": 4,
+      "source_created_at": "2025-10-08T07:39:15.716Z",
+      "source_id": "BBa_25ULGTE2",
+      "source_retrieval": {
+        "bytes": 7235,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/slugs/bba-25ulgte2",
+        "retrieved_at_utc": "2026-11-11T03:43:42.769969+00:00",
+        "sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e",
+        "url": "https://api.registry.igem.org/v1/parts/slugs/bba-25ulgte2"
+      },
+      "source_type": "complete_plasmid",
+      "source_updated_at": "2025-10-08T14:25:51.203Z",
+      "source_url": "https://registry.igem.org/parts/bba-25ulgte2",
+      "status": "READY_FOR_REVIEW",
+      "topology": "Circular",
+      "validated_source_translation_count": 0
+    },
+    {
+      "annotation_coordinate_scope": "Original raw intervals retained as deposited; coordinate indexing convention unverified, no normalized coordinate claim until documented",
+      "annotation_original_path": "results/week2/curation/raw_sources/BBa_25B5R4ZL.features.json",
+      "annotation_retrieval": {
+        "bytes": 7549,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/d5ea38da-c1fe-415e-8fa1-cb67b886131e/sequence-features?page=1&pageSize=100",
+        "retrieved_at_utc": "2026-11-11T03:44:21.811813+00:00",
+        "sha256": "b99764a16b53134013859b53b79e051dbe4050e7006058c7a3954f979a05a75c",
+        "url": "https://api.registry.igem.org/v1/parts/d5ea38da-c1fe-415e-8fa1-cb67b886131e/sequence-features?page=1&pageSize=100"
+      },
+      "attribution_source_as_deposited": null,
+      "benign_scope_proposal": "Source-deposited ordinary reporter, pigment or coating description retained verbatim for review; no experimental safety guarantee. Case-specific review is required before scoring.",
+      "candidate_selected": true,
+      "cds_evidence": [
+        {
+          "label": "YF1",
+          "locations_as_deposited": [
+            {
+              "end": 1173,
+              "start": 46
+            }
+          ],
+          "source_feature_id": "aaf2b209-ad76-48e9-969e-329f767ad8b2",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "FixJ",
+          "locations_as_deposited": [
+            {
+              "end": 1820,
+              "start": 1203
+            }
+          ],
+          "source_feature_id": "79725ab0-ca75-4c61-a67f-b27768b9bf98",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "GFP1-11",
+          "locations_as_deposited": [
+            {
+              "end": 3002,
+              "start": 2313
+            }
+          ],
+          "source_feature_id": "f4e26aa2-c6a7-45e7-960b-34344831f058",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "OptoLacI(D)",
+          "locations_as_deposited": [
+            {
+              "end": 8176,
+              "start": 6686
+            }
+          ],
+          "source_feature_id": "8c4c2b08-a104-4ce0-b8e7-e9dd5f21688d",
+          "strand": "reverse",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "BBa_25BHXP3N",
+          "locations_as_deposited": [
+            {
+              "end": 8176,
+              "start": 6686
+            }
+          ],
+          "source_feature_id": "bce8c865-7979-4c92-b2f5-b174fa593edb",
+          "strand": "reverse",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "description_evidence": "This composite part is designed to function as a dual-layer, blue light-regulated system. It encodes the photoswitchable repressor OptoLacI(D), which binds to the downstream LacO3 operator site under blue light to block transcription of the *gfp* reporter gene. In darkness, OptoLacI(D) releases LacO3, allowing expression to be activated by the FixJ/FixK2 pathway. This dual regulatory mechanism, combining transcriptional activation and direct repression, is designed to significantly enhance the system's dynamic range by ensuring high expression in darkness.",
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 25,
+      "feature_types": {
+        "CDS": 5,
+        "Operator": 3,
+        "Promoter": 3,
+        "Ribosome Entry Site": 3,
+        "Start Codon": 4,
+        "Stop Codon": 4,
+        "Tag": 2,
+        "Terminator": 1
+      },
+      "license_uuid": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+      "original_path": "results/week2/curation/raw_sources/BBa_25B5R4ZL.json",
+      "proposed_archetype": "multi_cds",
+      "record_title": "pET-28a(+)-OptoLacI(D)-YF1-FixJ-Fixk2-LacO3-GFP",
+      "related_lineage_proposals": [
+        "YF1-FixJ-reporter-lineage"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "attribution": {
+          "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "part_id": "BBa_25B5R4ZL",
+          "provider": "iGEM Registry",
+          "source_credit_as_deposited": null,
+          "title": "pET-28a(+)-OptoLacI(D)-YF1-FixJ-Fixk2-LacO3-GFP",
+          "url": "https://registry.igem.org/parts/bba-25b5r4zl"
+        },
+        "license": "CC-BY-4.0",
+        "limitations": "Preserve creator/source credits and modification notice on derived artifacts; API status is not experimental validation. No public release in this task.",
+        "local_analysis_proposal": "permitted_with_attribution",
+        "policy_key": "igem_license",
+        "private_copy_proposal": "permitted_with_attribution"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "Optogenetic green reporter plasmid; shared YF1/FixJ lineage with 252QAUN3.",
+      "sequence_length_nt": 8562,
+      "sequence_sha256": "a963dc5468870eccc70434328a994dda5767571aed50abe6b9a571c6d14d3fca",
+      "source": "iGEM",
+      "source_admitted_for_scoring": false,
+      "source_annotations_caveat": "CDS role and label are deposited annotations, not validated translation, family/function evidence or reviewed fusion boundaries",
+      "source_cds_feature_count": 5,
+      "source_created_at": "2025-10-06T02:43:34.680Z",
+      "source_id": "BBa_25B5R4ZL",
+      "source_retrieval": {
+        "bytes": 9858,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/slugs/bba-25b5r4zl",
+        "retrieved_at_utc": "2026-11-11T03:44:08.861104+00:00",
+        "sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047",
+        "url": "https://api.registry.igem.org/v1/parts/slugs/bba-25b5r4zl"
+      },
+      "source_type": "complete_plasmid",
+      "source_updated_at": "2025-10-09T06:50:29.735Z",
+      "source_url": "https://registry.igem.org/parts/bba-25b5r4zl",
+      "status": "READY_FOR_REVIEW",
+      "topology": "Circular",
+      "validated_source_translation_count": 0
+    },
+    {
+      "annotation_coordinate_scope": "Original raw intervals retained as deposited; coordinate indexing convention unverified, no normalized coordinate claim until documented",
+      "annotation_original_path": "results/week2/curation/raw_sources/BBa_25K8XDBD.features.json",
+      "annotation_retrieval": {
+        "bytes": 2430,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/d0e076f6-ac25-46ec-ad20-73ce650b18ae/sequence-features?page=1&pageSize=100",
+        "retrieved_at_utc": "2026-11-11T03:44:47.798372+00:00",
+        "sha256": "6f8d5d09a606cc32b5fbb936a8cf699390239de467b01769d6e5c90a5d763817",
+        "url": "https://api.registry.igem.org/v1/parts/d0e076f6-ac25-46ec-ad20-73ce650b18ae/sequence-features?page=1&pageSize=100"
+      },
+      "architecture_caveat": "Source description documents fusion/tag intent; precise full-fusion CDS translation and amino-acid boundaries unreviewed. Not counted as validated tagged_fusion coverage.",
+      "attribution_source_as_deposited": null,
+      "benign_scope_proposal": "Source-deposited ordinary reporter, pigment or coating description retained verbatim for review; no experimental safety guarantee. Case-specific review is required before scoring. Engineered BslA-dCBM coating fusion is held from any scored study pending specialist/scope confirmation; no hazardous function inferred.",
+      "candidate_selected": true,
+      "cds_evidence": [
+        {
+          "label": "BslA-dCBM",
+          "locations_as_deposited": [
+            {
+              "end": 948,
+              "start": 88
+            }
+          ],
+          "source_feature_id": "f3573b84-8699-456f-a91e-0774bdc69843",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "description_evidence": "This device is designed for the inducible, high-yield expression of the BslA-dCBM fusion protein in *E. coli* BL21(DE3). Upon induction with IPTG, the device directs the robust production of the BslA-dCBM. BslA-dCBM is a recombinant hydrophobic fusion protein that is derived from *Bacillus subtilis* biofilm-surface layer protein A (BslA) engineered with a double cellulose-binding module (dCBM) at its C-terminus. It is designed to function as a biodegradable and recyclable hydrophobic coating for bacterial cellulose. When applied via spray-coating, BslA-dCBM binds efficiently to cellulose fibers through dCBM, forming a uniform protein layer which significantly enhances textile hydrophobicity.",
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 8,
+      "feature_types": {
+        "CDS": 1,
+        "Operator": 1,
+        "Promoter": 1,
+        "Ribosome Entry Site": 1,
+        "Start Codon": 1,
+        "Stop Codon": 1,
+        "Tag": 1,
+        "Terminator": 1
+      },
+      "license_uuid": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+      "original_path": "results/week2/curation/raw_sources/BBa_25K8XDBD.json",
+      "proposed_archetype": "single_cds",
+      "record_title": "T7 promoter-RBS-BslA-dCBM-T7 terminator",
+      "related_lineage_proposals": [],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "attribution": {
+          "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "part_id": "BBa_25K8XDBD",
+          "provider": "iGEM Registry",
+          "source_credit_as_deposited": null,
+          "title": "T7 promoter-RBS-BslA-dCBM-T7 terminator",
+          "url": "https://registry.igem.org/parts/bba-25k8xdbd"
+        },
+        "license": "CC-BY-4.0",
+        "limitations": "Preserve creator/source credits and modification notice on derived artifacts; API status is not experimental validation. No public release in this task.",
+        "local_analysis_proposal": "permitted_with_attribution",
+        "policy_key": "igem_license",
+        "private_copy_proposal": "permitted_with_attribution"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "BslA-dCBM engineered coating fusion; manual benign-scope confirmation before admission.",
+      "sequence_length_nt": 1086,
+      "sequence_sha256": "6c415dd0b8fbe167de1655002b284aeafb76fdb4b898c209a20ed118ec9f4d2c",
+      "source": "iGEM",
+      "source_admitted_for_scoring": false,
+      "source_annotations_caveat": "CDS role and label are deposited annotations, not validated translation, family/function evidence or reviewed fusion boundaries",
+      "source_cds_feature_count": 1,
+      "source_created_at": "2025-10-08T13:47:15.645Z",
+      "source_id": "BBa_25K8XDBD",
+      "source_retrieval": {
+        "bytes": 2345,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/slugs/bba-25k8xdbd",
+        "retrieved_at_utc": "2026-11-11T03:44:34.893836+00:00",
+        "sha256": "37abbb3adf5e81dcb3fec808552d404a76dbf519f232c99d25997634765c353b",
+        "url": "https://api.registry.igem.org/v1/parts/slugs/bba-25k8xdbd"
+      },
+      "source_type": "cassette_or_part",
+      "source_updated_at": "2025-10-09T06:23:41.500Z",
+      "source_url": "https://registry.igem.org/parts/bba-25k8xdbd",
+      "status": "READY_FOR_REVIEW",
+      "topology": null,
+      "validated_source_translation_count": 0
+    },
+    {
+      "annotation_coordinate_scope": "Original raw intervals retained as deposited; coordinate indexing convention unverified, no normalized coordinate claim until documented",
+      "annotation_original_path": "results/week2/curation/raw_sources/BBa_26BQEN31.features.json",
+      "annotation_retrieval": {
+        "bytes": 1214,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/dbd6935d-66ac-46c3-bd1f-1f76e94cba3c/sequence-features?page=1&pageSize=100",
+        "retrieved_at_utc": "2026-11-11T03:45:13.282811+00:00",
+        "sha256": "67eab79134beb689ea7b7cfc40134d4023c5d3c20117494749b89dad3ce39111",
+        "url": "https://api.registry.igem.org/v1/parts/dbd6935d-66ac-46c3-bd1f-1f76e94cba3c/sequence-features?page=1&pageSize=100"
+      },
+      "attribution_source_as_deposited": "Designed by Team WIST (iGEM 2026). Assembled from the six listed parts; PyeaR trimmed of its native SD and ATG.",
+      "benign_scope_proposal": "Source-deposited ordinary reporter, pigment or coating description retained verbatim for review; no experimental safety guarantee. Case-specific review is required before scoring.",
+      "candidate_selected": true,
+      "cds_evidence": [
+        {
+          "label": "superfolder GFP",
+          "locations_as_deposited": [
+            {
+              "end": 878,
+              "start": 165
+            }
+          ],
+          "source_feature_id": "175640e2-d635-496c-a9a4-1f982dc0cb82",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        },
+        {
+          "label": "lacZ",
+          "locations_as_deposited": [
+            {
+              "end": 3974,
+              "start": 903
+            }
+          ],
+          "source_feature_id": "54f51164-4b3b-4930-9a86-799080a5e24a",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "description_evidence": "Assembly standards: not RFC\\[10], on an EcoRI site at 3921, and not Type IIS / RFC 1000, on a SapI site at 177. RFC 1000 compatibility turns on BsaI and SapI alone, and there is no BsaI site. Both blocking sites are inherited from the lacZ and sfGFP reference parts, and neither crosses a junction, so the assembly introduces none of its own. The insert also carries three BbsI sites at 558, 2427 and 3693 and two BsmBI sites at 1538 and 2490, all inside sfGFP or lacZ; neither enzyme belongs to the standard, so neither affects the verdict.",
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 4,
+      "feature_types": {
+        "CDS": 2,
+        "Terminator": 2
+      },
+      "license_uuid": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+      "original_path": "results/week2/curation/raw_sources/BBa_26BQEN31.json",
+      "proposed_archetype": "multi_cds",
+      "record_title": "pSense-Nit-dual insert: nitrate-inducible sfGFP + lacZ reporter",
+      "related_lineage_proposals": [],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "attribution": {
+          "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "part_id": "BBa_26BQEN31",
+          "provider": "iGEM Registry",
+          "source_credit_as_deposited": "Designed by Team WIST (iGEM 2026). Assembled from the six listed parts; PyeaR trimmed of its native SD and ATG.",
+          "title": "pSense-Nit-dual insert: nitrate-inducible sfGFP + lacZ reporter",
+          "url": "https://registry.igem.org/parts/bba-26bqen31"
+        },
+        "license": "CC-BY-4.0",
+        "limitations": "Preserve creator/source credits and modification notice on derived artifacts; API status is not experimental validation. No public release in this task.",
+        "local_analysis_proposal": "permitted_with_attribution",
+        "policy_key": "igem_license",
+        "private_copy_proposal": "permitted_with_attribution"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "Nitrate-responsive sfGFP/lacZ insert; not a whole plasmid. Validate each CDS feature.",
+      "sequence_length_nt": 4106,
+      "sequence_sha256": "f93cd75170773560aaf441a5e6ec19ab2beb7d82e009ad05d40bc673a9e0bb80",
+      "source": "iGEM",
+      "source_admitted_for_scoring": false,
+      "source_annotations_caveat": "CDS role and label are deposited annotations, not validated translation, family/function evidence or reviewed fusion boundaries",
+      "source_cds_feature_count": 2,
+      "source_created_at": "2026-09-12T00:23:13.197Z",
+      "source_id": "BBa_26BQEN31",
+      "source_retrieval": {
+        "bytes": 5952,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/slugs/bba-26bqen31",
+        "retrieved_at_utc": "2026-11-11T03:45:00.291161+00:00",
+        "sha256": "58652d7fc29e10897ef76e329d87e3bef8e7202fe6ba07fb4b69e09faa4364bc",
+        "url": "https://api.registry.igem.org/v1/parts/slugs/bba-26bqen31"
+      },
+      "source_type": "cassette_or_part",
+      "source_updated_at": "2026-10-21T07:37:53.612Z",
+      "source_url": "https://registry.igem.org/parts/bba-26bqen31",
+      "status": "READY_FOR_REVIEW",
+      "topology": "Linear",
+      "validated_source_translation_count": 0
+    },
+    {
+      "annotation_coordinate_scope": "Original raw intervals retained as deposited; coordinate indexing convention unverified, no normalized coordinate claim until documented",
+      "annotation_original_path": "results/week2/curation/raw_sources/BBa_25UIP3DW.features.json",
+      "annotation_retrieval": {
+        "bytes": 3644,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/cc096d74-1200-4248-a8d3-3418b4e2435b/sequence-features?page=1&pageSize=100",
+        "retrieved_at_utc": "2026-11-11T03:45:40.323771+00:00",
+        "sha256": "44f7ed470600dd88c1ca55b1bb406d73c53a9251d0a0adc8a59acb51071e6ccf",
+        "url": "https://api.registry.igem.org/v1/parts/cc096d74-1200-4248-a8d3-3418b4e2435b/sequence-features?page=1&pageSize=100"
+      },
+      "attribution_source_as_deposited": null,
+      "benign_scope_proposal": "Source-deposited ordinary reporter, pigment or coating description retained verbatim for review; no experimental safety guarantee. Case-specific review is required before scoring.",
+      "candidate_selected": true,
+      "cds_evidence": [
+        {
+          "label": "gfaspurple",
+          "locations_as_deposited": [
+            {
+              "end": 867,
+              "start": 205
+            }
+          ],
+          "source_feature_id": "4696328f-2b5c-4a0f-b77b-73e0e0a3d2ae",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "description_evidence": "GfasPurple is a protein-based chromoprotein engineered for stable coloration in synthetic biology systems. It is designed to serve as a cofactor-free purple biopigment that maintains color intensity under ambient light without requiring external cofactors. The protein exhibits high stability under elevated temperatures and oxidative/reductive conditions, maintaining its chromatic properties in challenging environments. These characteristics make GfasPurple suitable for visual reporting applications in biosensing and as a durable colorant for industrial biotechnology. We cloned the *gfaspurple* into the pET-28a(+) vector to expand the functional characterization of the existing part BBa\\_K5357010 through comprehensive analysis of its thermal resistance and redox tolerance",
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 12,
+      "feature_types": {
+        "CDS": 1,
+        "Operator": 1,
+        "Promoter": 1,
+        "Protein Binding Site": 1,
+        "Ribosome Entry Site": 1,
+        "Start Codon": 2,
+        "Stop Codon": 1,
+        "Tag": 3,
+        "Terminator": 1
+      },
+      "license_uuid": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+      "original_path": "results/week2/curation/raw_sources/BBa_25UIP3DW.json",
+      "proposed_archetype": "single_cds",
+      "record_title": "T7 promoter-gfaspurple-T7 ter",
+      "related_lineage_proposals": [
+        "GfasPurple-construct-cassette"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "attribution": {
+          "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "part_id": "BBa_25UIP3DW",
+          "provider": "iGEM Registry",
+          "source_credit_as_deposited": null,
+          "title": "T7 promoter-gfaspurple-T7 ter",
+          "url": "https://registry.igem.org/parts/bba-25uip3dw"
+        },
+        "license": "CC-BY-4.0",
+        "limitations": "Preserve creator/source credits and modification notice on derived artifacts; API status is not experimental validation. No public release in this task.",
+        "local_analysis_proposal": "permitted_with_attribution",
+        "policy_key": "igem_license",
+        "private_copy_proposal": "permitted_with_attribution"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "GfasPurple expression cassette, related to 25NPQIRU; not independent protein reference.",
+      "sequence_length_nt": 1002,
+      "sequence_sha256": "cf5d56c52340f072516f287f63df6ec76db6e429afa4f5d44ef3518b17bb1f45",
+      "source": "iGEM",
+      "source_admitted_for_scoring": false,
+      "source_annotations_caveat": "CDS role and label are deposited annotations, not validated translation, family/function evidence or reviewed fusion boundaries",
+      "source_cds_feature_count": 1,
+      "source_created_at": "2025-10-09T04:36:10.514Z",
+      "source_id": "BBa_25UIP3DW",
+      "source_retrieval": {
+        "bytes": 2333,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/slugs/bba-25uip3dw",
+        "retrieved_at_utc": "2026-11-11T03:45:26.845119+00:00",
+        "sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd",
+        "url": "https://api.registry.igem.org/v1/parts/slugs/bba-25uip3dw"
+      },
+      "source_type": "cassette_or_part",
+      "source_updated_at": "2025-10-09T04:58:08.902Z",
+      "source_url": "https://registry.igem.org/parts/bba-25uip3dw",
+      "status": "READY_FOR_REVIEW",
+      "topology": null,
+      "validated_source_translation_count": 0
+    },
+    {
+      "annotation_coordinate_scope": "Original raw intervals retained as deposited; coordinate indexing convention unverified, no normalized coordinate claim until documented",
+      "annotation_original_path": "results/week2/curation/raw_sources/BBa_25ECYPMT.features.json",
+      "annotation_retrieval": {
+        "bytes": 3645,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/97677892-e1cf-4431-b9b8-c17c82eb36e7/sequence-features?page=1&pageSize=100",
+        "retrieved_at_utc": "2026-11-11T03:46:06.254053+00:00",
+        "sha256": "c46edece74b796210ecefff8d24111e02c569fcd8044aa8d4a852bb6b8bc439d",
+        "url": "https://api.registry.igem.org/v1/parts/97677892-e1cf-4431-b9b8-c17c82eb36e7/sequence-features?page=1&pageSize=100"
+      },
+      "attribution_source_as_deposited": null,
+      "benign_scope_proposal": "Source-deposited ordinary reporter, pigment or coating description retained verbatim for review; no experimental safety guarantee. Case-specific review is required before scoring.",
+      "candidate_selected": true,
+      "cds_evidence": [
+        {
+          "label": "TyrBm",
+          "locations_as_deposited": [
+            {
+              "end": 1095,
+              "start": 205
+            }
+          ],
+          "source_feature_id": "1dbefc9a-210d-4c27-889a-f9f713ddc9a2",
+          "strand": "forward",
+          "translation_reason": "No source-provided translation qualifier in this API feature; no protein synthesized",
+          "translation_state": "unknown"
+        }
+      ],
+      "cloud_copy_permitted_by_scientific_review": false,
+      "description_evidence": "This TyrBm expression device is driven by the T7 promoter and expresses Tyrosinase from *Bacillus megaterium* (TyrBm). TyrBm converts L-Tyrosine into L-DOPA, then transforms L-DOPA into Dopaquinone and ultimately forms eumelanin through oxidation, providing a strategy for the formation of natural black pigments.",
+      "eligible_for_preparatory_QA": true,
+      "family_panel_approved": false,
+      "feature_count": 12,
+      "feature_types": {
+        "CDS": 1,
+        "Operator": 1,
+        "Promoter": 1,
+        "Protein Binding Site": 1,
+        "Ribosome Entry Site": 1,
+        "Start Codon": 2,
+        "Stop Codon": 1,
+        "Tag": 3,
+        "Terminator": 1
+      },
+      "license_uuid": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+      "original_path": "results/week2/curation/raw_sources/BBa_25ECYPMT.json",
+      "proposed_archetype": "single_cds",
+      "record_title": "T7 promoter-RBS-TyrBm-T7 terminator",
+      "related_lineage_proposals": [
+        "TyrBm-construct-cassette"
+      ],
+      "reviewer_role": "Codex evidence preparer; not delegated clearance",
+      "rights_evidence": {
+        "attribution": {
+          "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "part_id": "BBa_25ECYPMT",
+          "provider": "iGEM Registry",
+          "source_credit_as_deposited": null,
+          "title": "T7 promoter-RBS-TyrBm-T7 terminator",
+          "url": "https://registry.igem.org/parts/bba-25ecypmt"
+        },
+        "license": "CC-BY-4.0",
+        "limitations": "Preserve creator/source credits and modification notice on derived artifacts; API status is not experimental validation. No public release in this task.",
+        "local_analysis_proposal": "permitted_with_attribution",
+        "policy_key": "igem_license",
+        "private_copy_proposal": "permitted_with_attribution"
+      },
+      "run_authorized": false,
+      "scoring_status": "HOLD_pending_actual_delegated_source_and_stage_clearance",
+      "selection_caveat": "TyrBm tyrosinase expression cassette, related to 25ULGTE2; not independent protein reference.",
+      "sequence_length_nt": 1227,
+      "sequence_sha256": "75548b60616ce462852ae039d201b7cd704d4c94684d136f6f190d2b634c01a6",
+      "source": "iGEM",
+      "source_admitted_for_scoring": false,
+      "source_annotations_caveat": "CDS role and label are deposited annotations, not validated translation, family/function evidence or reviewed fusion boundaries",
+      "source_cds_feature_count": 1,
+      "source_created_at": "2025-10-08T13:45:50.315Z",
+      "source_id": "BBa_25ECYPMT",
+      "source_retrieval": {
+        "bytes": 2095,
+        "cache_hit": true,
+        "content_type": "application/json; charset=utf-8",
+        "final_url": "https://api.registry.igem.org/v1/parts/slugs/bba-25ecypmt",
+        "retrieved_at_utc": "2026-11-11T03:45:53.138902+00:00",
+        "sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c",
+        "url": "https://api.registry.igem.org/v1/parts/slugs/bba-25ecypmt"
+      },
+      "source_type": "cassette_or_part",
+      "source_updated_at": "2025-10-09T10:49:32.674Z",
+      "source_url": "https://registry.igem.org/parts/bba-25ecypmt",
+      "status": "READY_FOR_REVIEW",
+      "topology": null,
+      "validated_source_translation_count": 0
+    }
+  ],
+  "rights_evidence": {
+    "igem_license": {
+      "bytes": 405,
+      "cache_hit": true,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://api.registry.igem.org/v1/licenses/d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+      "metadata": {
+        "default": true,
+        "description": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.",
+        "icon": null,
+        "osiApproved": false,
+        "spdxID": "cc-by-4.0",
+        "title": "Creative Commons Attribution 4.0 International",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "uuid": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6"
+      },
+      "path": "results/week2/curation/raw_sources/igem_license.original",
+      "retrieved_at_utc": "2026-11-11T03:41:46.014156+00:00",
+      "sha256": "8e7369a041e34980cda0c91430120b112b9c2b5aed6074c262f818d5fbbfe0cd",
+      "url": "https://api.registry.igem.org/v1/licenses/d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6"
+    },
+    "ncbi_policy": {
+      "bytes": 38974,
+      "cache_hit": true,
+      "content_type": "text/html",
+      "final_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "path": "results/week2/curation/raw_sources/ncbi_policy.original",
+      "retrieved_at_utc": "2026-11-11T03:41:44.839285+00:00",
+      "sha256": "c99a36bb9daa8c6d14dc505a11a860a8a9cca7a5c94bf5c3961542decf563dad",
+      "url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+    }
+  },
+  "schema_version": "week2-source-review-proposal-1",
+  "scientific_clearance_issued": false,
+  "scope": "Existing 11 GenBank + ten iGEM selection and independently fetched historical pBR322; no automatic scored-panel expansion"
+}

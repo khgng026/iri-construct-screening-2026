@@ -1,0 +1,102 @@
+{
+  "schema_version": "week2-supplemental-source-proposal-1",
+  "status": "READY_FOR_SEPARATE_REVIEW",
+  "source_pool": "Supplemental preparatory QA example; outside the original 21-candidate scored authorization",
+  "source_admitted_for_scoring": false,
+  "new_scientific_clearance": false,
+  "original_source_bytes_committed": false,
+  "record_id": "MK448012.1",
+  "source_retrieval": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=MK448012.1&rettype=gbwithparts&retmode=text",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=MK448012.1&rettype=gbwithparts&retmode=text",
+    "sha256": "038fe3d5fb47562aca2003bc20a06a91809ccab8380221d4573976214b952c07",
+    "bytes": 13979,
+    "retrieved_at_utc": "2026-11-11T03:42:48.559479+00:00",
+    "content_type": "text/plain",
+    "cache_hit": false
+  },
+  "source_evidence": {
+    "record_title": "Cloning vector pCHX50, complete sequence",
+    "record_locus_date": "15-MAY-2019",
+    "topology": "circular",
+    "sequence_length_nt": 7632,
+    "sequence_sha256": "477048fbbdfb4a6b67701e4a823c7be4a1852960bd9ad41e8757e943e4f54073",
+    "feature_count": 27,
+    "feature_types": {
+      "CDS": 1,
+      "misc_binding": 1,
+      "misc_feature": 21,
+      "primer_bind": 2,
+      "regulatory": 1,
+      "source": 1
+    },
+    "cds_count": 1,
+    "validated_source_translation_count": 1,
+    "cds_evidence": [
+      {
+        "source_ordinal_1based": 4,
+        "protein_accession_version": "QCO92761.1",
+        "product": "3xUbVR-tTA-Dendra2",
+        "gene": null,
+        "location": "[717:3195](+)",
+        "segments": [
+          {
+            "start0": 717,
+            "end0": 3195,
+            "strand": 1
+          }
+        ],
+        "translation_state": "known",
+        "translation_reason": "Source annotated translation verified against exact CDS coordinates/table",
+        "translation_length_aa": 825,
+        "translation_sha256": "d8cfdeb2f3156d904d46719133bddac5a2407c77f631541842ec72199f16a453"
+      }
+    ],
+    "source_rights_notice_lines": [],
+    "attribution_references": [
+      {
+        "authors": "Chassin,H., Muller,M., Tigges,M., Scheller,L., Lang,M. and Fussenegger,M.",
+        "title": "A modular degron library for synthetic circuits in mammalian cells",
+        "journal": "Nat Commun 10 (1), 2013 (2019)",
+        "pubmed_id": "31043592"
+      },
+      {
+        "authors": "Chassin,H., Mueller,M., Tigges,M., Scheller,L., Lang,M. and Fussenegger,M.",
+        "title": "Direct Submission",
+        "journal": "Submitted (28-JAN-2019) D-BSSE, ETH Zurich, Mattenstrasse 26, Basel 4058, Switzerland",
+        "pubmed_id": ""
+      }
+    ]
+  },
+  "proposed_archetype": "tagged_fusion",
+  "source_type": "complete_plasmid",
+  "rights_and_scope_proposal": {
+    "policy_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+    "local_analysis_proposal": "Permitted molecular-data analysis; exact file has no conflicting notice; subject to submitter IP caveat.",
+    "private_copy_proposal": "No raw file or annotation dump committed by this task; requires separate recorded clearance before adding original source bytes."
+  },
+  "benign_scope_proposal": "Source and original citation document an ordinary modular degron/synthetic mammalian circuit reporter. Includes TetR/VP16 transactivator and hCMV/SV40-derived regulatory annotations; source-scope review is proposed, not granted. No hazard classification or biological function inferred.",
+  "source_paper": {
+    "title": "A modular degron library for synthetic circuits in mammalian cells",
+    "doi": "10.1038/s41467-019-09974-5",
+    "pubmed_id": "31043592",
+    "source_reference_verified_from_exact_record": true
+  },
+  "annotated_boundaries": {
+    "full_CDS_nt_0based_half_open": [
+      717,
+      3195
+    ],
+    "source_Dendra2_misc_feature_nt_0based_half_open": [
+      2454,
+      3192
+    ],
+    "boundary_status": "Source intervals retained as annotation evidence; no isolated target exported or fusion/retrieval case admitted."
+  },
+  "limitations": [
+    "The only formal CDS is the full 3xUbVR-tTA-Dendra2 fusion; NeoR_CDS and AmpR_CDS appear solely as misc_feature notes and cannot become extra CDS proteins.",
+    "825aa full fusion fits the existing1022-residue cap; this is format eligibility, not scientific approval.",
+    "One supplemental source fills a preparatory architecture gap, not independent family diversity or validated retrieval generalization.",
+    "Any scored use requires an explicitly scoped updated panel and actual delegated scientific review."
+  ]
+}

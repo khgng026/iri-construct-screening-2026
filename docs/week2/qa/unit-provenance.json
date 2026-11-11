@@ -1,0 +1,372 @@
+{
+  "evidence_kind": "preparatory_source_QA",
+  "model_interface": {
+    "alphabet": "canonical_amino_acids",
+    "max_residues": 1022,
+    "molecule_type": "protein",
+    "status": "sequence_preflight_only_not_inference_or_scientific_admission"
+  },
+  "schema_version": "week2-unit-provenance-1",
+  "units": [
+    {
+      "feature_ids": [
+        "ncbi-U47295.2-f-b2052ad5b0d017c1f14c"
+      ],
+      "input_id": "ncbi-U47295.2/ncbi-U47295.2-u-b2052ad5b0d017c1f14c",
+      "length_aa": 550,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43",
+      "source_id": "ncbi-U47295.2",
+      "source_segments": [
+        {
+          "end0": 1740,
+          "start0": 87,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03",
+      "unit_id": "ncbi-U47295.2-u-b2052ad5b0d017c1f14c"
+    },
+    {
+      "feature_ids": [
+        "ncbi-U47295.2-f-ba63004675712b9101a4"
+      ],
+      "input_id": "ncbi-U47295.2/ncbi-U47295.2-u-ba63004675712b9101a4",
+      "length_aa": 286,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+      "source_id": "ncbi-U47295.2",
+      "source_segments": [
+        {
+          "end0": 3940,
+          "start0": 3079,
+          "strand": -1
+        }
+      ],
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03",
+      "unit_id": "ncbi-U47295.2-u-ba63004675712b9101a4"
+    },
+    {
+      "feature_ids": [
+        "ncbi-U47296.2-f-77ab90493b42e6f7e4e7"
+      ],
+      "input_id": "ncbi-U47296.2/ncbi-U47296.2-u-77ab90493b42e6f7e4e7",
+      "length_aa": 286,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+      "source_id": "ncbi-U47296.2",
+      "source_segments": [
+        {
+          "end0": 4378,
+          "start0": 3517,
+          "strand": -1
+        }
+      ],
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d",
+      "unit_id": "ncbi-U47296.2-u-77ab90493b42e6f7e4e7"
+    },
+    {
+      "feature_ids": [
+        "ncbi-U47296.2-f-c9d2927018255ccfba74"
+      ],
+      "input_id": "ncbi-U47296.2/ncbi-U47296.2-u-c9d2927018255ccfba74",
+      "length_aa": 550,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43",
+      "source_id": "ncbi-U47296.2",
+      "source_segments": [
+        {
+          "end0": 1932,
+          "start0": 279,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d",
+      "unit_id": "ncbi-U47296.2-u-c9d2927018255ccfba74"
+    },
+    {
+      "feature_ids": [
+        "ncbi-AY864931.1-f-b938a4ebef482f176b6b"
+      ],
+      "input_id": "ncbi-AY864931.1/ncbi-AY864931.1-u-b938a4ebef482f176b6b",
+      "length_aa": 286,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+      "source_id": "ncbi-AY864931.1",
+      "source_segments": [
+        {
+          "end0": 4863,
+          "start0": 4002,
+          "strand": -1
+        }
+      ],
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7",
+      "unit_id": "ncbi-AY864931.1-u-b938a4ebef482f176b6b"
+    },
+    {
+      "feature_ids": [
+        "ncbi-AY864931.1-f-cfa1199e479fa95e41ed"
+      ],
+      "input_id": "ncbi-AY864931.1/ncbi-AY864931.1-u-cfa1199e479fa95e41ed",
+      "length_aa": 311,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "4c6107c417e1304f537ade1d01c1037999badb3b7298d249165870266fbee498",
+      "source_id": "ncbi-AY864931.1",
+      "source_segments": [
+        {
+          "end0": 1035,
+          "start0": 99,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7",
+      "unit_id": "ncbi-AY864931.1-u-cfa1199e479fa95e41ed"
+    },
+    {
+      "feature_ids": [
+        "ncbi-AY864931.1-f-d25311bb87a27321f139"
+      ],
+      "input_id": "ncbi-AY864931.1/ncbi-AY864931.1-u-d25311bb87a27321f139",
+      "length_aa": 345,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "1616972fc762e99a5c350b9ba28997edb65d3fc4a0043f6aa96187699eaffa3a",
+      "source_id": "ncbi-AY864931.1",
+      "source_segments": [
+        {
+          "end0": 2816,
+          "start0": 1778,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7",
+      "unit_id": "ncbi-AY864931.1-u-d25311bb87a27321f139"
+    },
+    {
+      "feature_ids": [
+        "ncbi-U55762.1-f-19863cb9a9722e562f34"
+      ],
+      "input_id": "ncbi-U55762.1/ncbi-U55762.1-u-19863cb9a9722e562f34",
+      "length_aa": 239,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "1041d381511cdf4e0dff50ee0f331e26d76b6d8bf0a95e4ad6a5ead87a0f2fc8",
+      "source_id": "ncbi-U55762.1",
+      "source_segments": [
+        {
+          "end0": 1398,
+          "start0": 678,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "bf6a633fce38b828ed369628f45bed5755db623fac938772bcf9efd3f5f2481d",
+      "unit_id": "ncbi-U55762.1-u-19863cb9a9722e562f34"
+    },
+    {
+      "feature_ids": [
+        "ncbi-U55762.1-f-70faa03334048bef16be"
+      ],
+      "input_id": "ncbi-U55762.1/ncbi-U55762.1-u-70faa03334048bef16be",
+      "length_aa": 264,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "0afa388d22fe22895c0561fcb0566d89c4f2f9368842f2157ec283616f08cb91",
+      "source_id": "ncbi-U55762.1",
+      "source_segments": [
+        {
+          "end0": 3423,
+          "start0": 2628,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "bf6a633fce38b828ed369628f45bed5755db623fac938772bcf9efd3f5f2481d",
+      "unit_id": "ncbi-U55762.1-u-70faa03334048bef16be"
+    },
+    {
+      "feature_ids": [
+        "ncbi-AY738222.1-f-9135892e4732286155be"
+      ],
+      "input_id": "ncbi-AY738222.1/ncbi-AY738222.1-u-9135892e4732286155be",
+      "length_aa": 550,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43",
+      "source_id": "ncbi-AY738222.1",
+      "source_segments": [
+        {
+          "end0": 1752,
+          "start0": 99,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951",
+      "unit_id": "ncbi-AY738222.1-u-9135892e4732286155be"
+    },
+    {
+      "feature_ids": [
+        "ncbi-AY738222.1-f-bbdba04a67333ae13a32"
+      ],
+      "input_id": "ncbi-AY738222.1/ncbi-AY738222.1-u-bbdba04a67333ae13a32",
+      "length_aa": 286,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+      "source_id": "ncbi-AY738222.1",
+      "source_segments": [
+        {
+          "end0": 3984,
+          "start0": 3123,
+          "strand": -1
+        }
+      ],
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951",
+      "unit_id": "ncbi-AY738222.1-u-bbdba04a67333ae13a32"
+    },
+    {
+      "feature_ids": [
+        "ncbi-AF298787.1-f-036e9d3cdc9d09cdb207"
+      ],
+      "input_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207",
+      "length_aa": 267,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "16ffd3dfd8480989df378d9161f820f099b3f05b38030190194acaf25252a822",
+      "source_id": "ncbi-AF298787.1",
+      "source_segments": [
+        {
+          "end0": 1220,
+          "start0": 416,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1",
+      "unit_id": "ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+    },
+    {
+      "feature_ids": [
+        "ncbi-AF298787.1-f-eb7f4497fb14c5bda714"
+      ],
+      "input_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714",
+      "length_aa": 238,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "dc215e92b61ef5c25772ef4e52fee03b87d1f4550590aa6e036b0823e5cfca75",
+      "source_id": "ncbi-AF298787.1",
+      "source_segments": [
+        {
+          "end0": 2987,
+          "start0": 2270,
+          "strand": -1
+        }
+      ],
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1",
+      "unit_id": "ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+    },
+    {
+      "feature_ids": [
+        "ncbi-AF298787.1-f-ef946cc14dacd09a8980"
+      ],
+      "input_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-ef946cc14dacd09a8980",
+      "length_aa": 286,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700",
+      "source_id": "ncbi-AF298787.1",
+      "source_segments": [
+        {
+          "end0": 5517,
+          "start0": 4656,
+          "strand": -1
+        }
+      ],
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1",
+      "unit_id": "ncbi-AF298787.1-u-ef946cc14dacd09a8980"
+    },
+    {
+      "feature_ids": [
+        "ncbi-JX560321.2-f-139d46592fb30d8a7eec"
+      ],
+      "input_id": "ncbi-JX560321.2/ncbi-JX560321.2-u-139d46592fb30d8a7eec",
+      "length_aa": 286,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468",
+      "source_id": "ncbi-JX560321.2",
+      "source_segments": [
+        {
+          "end0": 1274,
+          "start0": 413,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd",
+      "unit_id": "ncbi-JX560321.2-u-139d46592fb30d8a7eec"
+    },
+    {
+      "feature_ids": [
+        "ncbi-J01749.1-f-45fec3a34a1435f32eee"
+      ],
+      "input_id": "ncbi-J01749.1/ncbi-J01749.1-u-45fec3a34a1435f32eee",
+      "length_aa": 63,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "b999d6315c7a7034af5f3cc095c13b30ba58e106d10c8a7810f3b026c2f45295",
+      "source_id": "ncbi-J01749.1",
+      "source_segments": [
+        {
+          "end0": 2106,
+          "start0": 1914,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6",
+      "unit_id": "ncbi-J01749.1-u-45fec3a34a1435f32eee"
+    },
+    {
+      "feature_ids": [
+        "ncbi-J01749.1-f-64d2ebed8b1795ab2bc2"
+      ],
+      "input_id": "ncbi-J01749.1/ncbi-J01749.1-u-64d2ebed8b1795ab2bc2",
+      "length_aa": 396,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "27caae7e0153afb364b0f12c8ac82367a49ed6fe094a33d168867c622554ad90",
+      "source_id": "ncbi-J01749.1",
+      "source_segments": [
+        {
+          "end0": 1276,
+          "start0": 85,
+          "strand": 1
+        }
+      ],
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6",
+      "unit_id": "ncbi-J01749.1-u-64d2ebed8b1795ab2bc2"
+    },
+    {
+      "feature_ids": [
+        "ncbi-J01749.1-f-da3f5bc934ba3cd9e0c7"
+      ],
+      "input_id": "ncbi-J01749.1/ncbi-J01749.1-u-da3f5bc934ba3cd9e0c7",
+      "length_aa": 286,
+      "scientific_admission": false,
+      "selected_interface_eligibility": "eligible_sequence_preflight",
+      "sequence_sha256": "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468",
+      "source_id": "ncbi-J01749.1",
+      "source_segments": [
+        {
+          "end0": 4153,
+          "start0": 3292,
+          "strand": -1
+        }
+      ],
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6",
+      "unit_id": "ncbi-J01749.1-u-da3f5bc934ba3cd9e0c7"
+    }
+  ]
+}
