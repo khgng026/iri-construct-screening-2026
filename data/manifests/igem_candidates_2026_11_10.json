@@ -1,0 +1,166 @@
+{
+  "schema_version": "igem-new-candidate-review-1",
+  "review_date_utc": "2026-11-10",
+  "user_instruction": "User authorized up to ten new suitable accessible constructs beyond existing eleven GenBank candidates; no Addgene authenticated access.",
+  "prior_ncbis_untouched": true,
+  "retired_addgene_reactivation": false,
+  "scientific_scope": "Public benign fluorescent reporters, multi-gene devices, tagged constructs, pigment enzyme expression; source parts are not necessarily complete plasmids.",
+  "approval_contract": "Candidates only until anonymous API confirms published sequence plus source metadata, licensing, benign scope and annotations. Separate T02 scientific admission needed. T07 pre-score family/ref approval not waived.",
+  "candidate_count": 14,
+  "candidates": [
+    {
+      "part_id": "BBa_25FDWALN",
+      "slug": "bba-25fdwaln",
+      "title": "Temperature-dependent mRFP1/sfGFP reporter device",
+      "proposed_archetype": "multi_cds",
+      "caveat": "Two fluorescent reporters with CI857/PhlF regulation; avoid treating same-family proteins as independent.",
+      "source_url": "https://registry.igem.org/parts/bba-25fdwaln",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_252QAUN3",
+      "slug": "bba-252qaun3",
+      "title": "Light-responsive LacI/YF1/FixJ/GFP device",
+      "proposed_archetype": "multi_cds",
+      "caveat": "Multi-part regulatory GFP device; check actual distinct coding features.",
+      "source_url": "https://registry.igem.org/parts/bba-252qaun3",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_26NKZH8J",
+      "slug": "bba-26nkzh8j",
+      "title": "mCerulean3–6xHis T7 expression cassette",
+      "proposed_archetype": "tagged_fusion",
+      "caveat": "Small tagged fluorescent coding construct, not whole plasmid.",
+      "source_url": "https://registry.igem.org/parts/bba-26nkzh8j",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_25NPQIRU",
+      "slug": "bba-25npqiru",
+      "title": "pET-28 GfasPurple chromoprotein plasmid",
+      "proposed_archetype": "backbone_heavy",
+      "caveat": "Full colored-protein expression plasmid; verify source labels.",
+      "source_url": "https://registry.igem.org/parts/bba-25npqiru",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_25ULGTE2",
+      "slug": "bba-25ulgte2",
+      "title": "pET-28 TyrBm tyrosinase pigment plasmid",
+      "proposed_archetype": "backbone_heavy",
+      "caveat": "Pigment biosynthesis, ordinary benign enzyme; verify precise full plasmid.",
+      "source_url": "https://registry.igem.org/parts/bba-25ulgte2",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_K4046704",
+      "slug": "bba-k4046704",
+      "title": "hUBC–tdTomato reporter cassette",
+      "proposed_archetype": "single_reporter",
+      "caveat": "Reporter cassette, not full plasmid; verify component annotations.",
+      "source_url": "https://registry.igem.org/parts/bba-k4046704",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_K3084001",
+      "slug": "bba-k3084001",
+      "title": "sfGFP–PETase secretion reporter cassette",
+      "proposed_archetype": "tagged_fusion",
+      "caveat": "Check if complete fusion exists in deposited source before fusion evaluation.",
+      "source_url": "https://registry.igem.org/parts/bba-k3084001",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_K1758354",
+      "slug": "bba-k1758354",
+      "title": "Nickel-responsive sfGFP reporter cassette",
+      "proposed_archetype": "single_reporter",
+      "caveat": "Inducible fluorescent reporter; not full plasmid.",
+      "source_url": "https://registry.igem.org/parts/bba-k1758354",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_25B5R4ZL",
+      "slug": "bba-25b5r4zl",
+      "title": "pET-28 OptoLacI/YF1/FixJ/GFP light device",
+      "proposed_archetype": "multi_cds",
+      "caveat": "Related to 252QAUN3; assign shared independence cluster.",
+      "source_url": "https://registry.igem.org/parts/bba-25b5r4zl",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_25K8XDBD",
+      "slug": "bba-25k8xdbd",
+      "title": "BslA–dCBM fusion coating reporter unit",
+      "proposed_archetype": "tagged_fusion",
+      "caveat": "Confirm benign material coating context, not pathogen/adhesion or unknown biofilm function.",
+      "source_url": "https://registry.igem.org/parts/bba-25k8xdbd",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_26BQEN31",
+      "slug": "bba-26bqen31",
+      "title": "Nitrite sensor dual reporter insert",
+      "proposed_archetype": "multi_cds",
+      "caveat": "Candidate only: validate harmless components, sequence annotations and role.",
+      "source_url": "https://registry.igem.org/parts/bba-26bqen31",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_K2507008",
+      "slug": "bba-k2507008",
+      "title": "J23105/thsr/PphsA342/sfGFP reporter cassette",
+      "proposed_archetype": "multi_cds",
+      "caveat": "Catalog description mismatch; manual feature check required.",
+      "source_url": "https://registry.igem.org/parts/bba-k2507008",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_25UIP3DW",
+      "slug": "bba-25uip3dw",
+      "title": "T7 GfasPurple reporter expression cassette",
+      "proposed_archetype": "single_reporter",
+      "caveat": "Related GfasPurple sequence to 25NPQIRU; not independent.",
+      "source_url": "https://registry.igem.org/parts/bba-25uip3dw",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    },
+    {
+      "part_id": "BBa_25ECYPMT",
+      "slug": "bba-25ecypmt",
+      "title": "T7 TyrBm tyrosinase expression cassette",
+      "proposed_archetype": "single_reporter",
+      "caveat": "Related to 25ULGTE2; not independent.",
+      "source_url": "https://registry.igem.org/parts/bba-25ecypmt",
+      "audit_status": "PENDING_API_VERIFICATION",
+      "selection_approved": false,
+      "source_admitted_for_scoring": false
+    }
+  ]
+}
