@@ -18,9 +18,21 @@ class ClearedCacheTests(unittest.TestCase):
             for name in names:
                 (root / name).write_text('{}')
             (root / 'cache-checksums.json').write_text(json.dumps({name: hashlib.sha256((root / name).read_bytes()).hexdigest() for name in names}))
-            module.verify_score_cache(root)
+            # Empty fictional cache must never pass the immutable experimental anchor.
+            with self.assertRaises((module.InputError, KeyError)):
+                module.verify_score_cache(root)
             for name in names:
                 (root / name).write_text('{"changed": true}')
                 with self.assertRaises(module.InputError):
                     module.verify_score_cache(root)
                 (root / name).write_text('{}')
+
+    def test_mandatory_gates_survive_optimized_python(self):
+        import subprocess, sys
+        script = str(Path(__file__).resolve().parents[1]/'scripts/execute_cleared_retrieval.py')
+        code = "import runpy; m=runpy.run_path(%r); m['validate_authorization']({'review_comment_id':6800553713}, 'E3')" % script
+        result = subprocess.run([sys.executable, '-O', '-c', code], capture_output=True, text=True)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn('InputError', result.stderr)
+        with self.assertRaises(module.InputError):
+            module.freeze_model({'resolved_revision':'wrong','weight_sha256':'wrong'},Path('unused'))
