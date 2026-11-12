@@ -52,9 +52,14 @@ with tempfile.TemporaryDirectory() as tmp:
     (root/'docs/week2/review-freeze.json').write_text(json.dumps(f))
     m['verify_original_freeze'].__globals__['ROOT']=root
     m['verify_original_freeze'].__globals__['EXPECTED_REVIEW_FREEZE_SHA256']=f['freeze_sha256']
-    m['verify_original_freeze']()
+    d={'authority_freeze_sha256':f['freeze_sha256'],'stages':{'E2':['source']},'artifacts':{'source':f['artifacts']['source']['sha256']}}
+    (root/'dependencies.json').write_text(json.dumps(d))
+    g=m['verify_stage_dependencies'].__globals__
+    g['DEPENDENCIES_PATH']='dependencies.json'
+    g['EXPECTED_DEPENDENCIES_SHA256']=m['digest_file'](root/'dependencies.json')
+    m['verify_stage_dependencies']('E2')
     (root/'source').write_text('changed')
-    m['verify_original_freeze']()
+    m['verify_stage_dependencies']('E2')
 """,
         ]
         for check in checks:
@@ -80,3 +85,77 @@ with tempfile.TemporaryDirectory() as tmp:
         self.assertEqual(len(all_hits), 3)  # one shared catalogue, no duplicate budget credit
         with self.assertRaises(module.InputError):
             analysis.attributed_hits({'a':{'r1':float('nan')}}, families, refs)
+
+    def test_stage_dependencies_ignore_held_assets_but_require_live_inputs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paths = ['source', 'reference', 'config', 'esm2-weight', 'E3-source']
+            for name in paths:
+                (root/name).write_text(name)
+            artifacts = {name: {'sha256': module.digest_file(root/name)} for name in paths}
+            artifacts['held-esmc-weight'] = {'sha256':'held'}
+            artifacts['held-igem-original'] = {'sha256':'held'}
+            freeze = {'artifacts':artifacts}
+            freeze['freeze_sha256'] = module._hash(freeze)
+            (root/'docs/week2').mkdir(parents=True)
+            (root/'docs/week2/review-freeze.json').write_text(json.dumps(freeze))
+            deps = {'authority_freeze_sha256':freeze['freeze_sha256'],
+                    'stages':{'E2':['source','reference','config','esm2-weight'],
+                              'E2-replay':['source','reference','config'],
+                              'E3':paths},
+                    'artifacts':{name:v['sha256'] for name,v in artifacts.items() if name in paths}}
+            contract = root/'dependencies.json'
+            contract.write_text(json.dumps(deps))
+            with patch.multiple(module, ROOT=root, DEPENDENCIES_PATH='dependencies.json',
+                                EXPECTED_REVIEW_FREEZE_SHA256=freeze['freeze_sha256'],
+                                EXPECTED_DEPENDENCIES_SHA256=module.digest_file(contract)):
+                for stage in ('E2','E3'):
+                    module.verify_stage_dependencies(stage)  # held originals never existed
+                (root/'esm2-weight').unlink()
+                module.verify_stage_dependencies('E2', reuse_e3=True)
+                with self.assertRaisesRegex(module.InputError, 'Missing stage dependency'):
+                    module.verify_stage_dependencies('E2')
+                for name in ('source','reference','config'):
+                    with self.subTest(required=name):
+                        (root/name).write_text('changed')
+                        with self.assertRaisesRegex(module.InputError, 'Changed stage dependency'):
+                            module.verify_stage_dependencies('E2', reuse_e3=True)
+                        (root/name).unlink()
+                        with self.assertRaisesRegex(module.InputError, 'Missing stage dependency'):
+                            module.verify_stage_dependencies('E2', reuse_e3=True)
+                        (root/name).write_text(name)
+                contract.write_text('{}')
+                with self.assertRaisesRegex(module.InputError, 'Changed stage dependency manifest'):
+                    module.verify_stage_dependencies('E2', reuse_e3=True)
+        actual = json.loads((module.ROOT/module.DEPENDENCIES_PATH).read_text())
+        for names in actual['stages'].values():
+            self.assertFalse(any('esmc' in n.lower() or 'BBa_' in n for n in names))
+        self.assertFalse(any('model-cache' in n for n in actual['stages']['E2-replay']))
+        for stage, count in [('E2',1), ('E2-replay',1), ('E3',3)]:
+            self.assertEqual(sum('/raw_sources/NCBI_' in n for n in actual['stages'][stage]), count)
+
+    def test_normalized_alignment_mutation_rejected_against_verified_inputs(self):
+        try:
+            import Bio
+        except ImportError:
+            self.skipTest('optional Biopython alignment dependency')
+        spec = importlib.util.spec_from_file_location('analysis', Path(__file__).resolve().parents[1] / 'scripts/analyze_cleared_pilot.py')
+        analysis = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(analysis)
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ref = root/'R.json'
+            ref.write_text(json.dumps({'sequence':{'value':'AA'}}))
+            raw = {'q':{'uniprot-R':4.0}}
+            anchor = {'reproducibility':{'canonical_score_matrix_sha256':{'alignment-scores.json':module._hash(raw)}},
+                      'panel':{'input_fingerprints':{'uniprot-R':{'source_sha256':module.digest_file(ref),
+                           'sequence_sha256':hashlib.sha256(b'AA').hexdigest()}}}}
+            cache = {'raw_scores':raw, 'normalized_scores':{'q':{'uniprot-R':0.5}}}
+            self.assertEqual(analysis.verified_normalized_alignment(cache, anchor, root), cache['normalized_scores'])
+            cache['normalized_scores']['q']['uniprot-R'] = 0.9
+            with self.assertRaisesRegex(module.InputError, 'normalized alignment scores'):
+                analysis.verified_normalized_alignment(cache, anchor, root)
+            cache['normalized_scores']['q']['uniprot-R'] = 0.5
+            ref.write_text(json.dumps({'sequence':{'value':'CC'}}))
+            with self.assertRaisesRegex(module.InputError, 'reference source'):
+                analysis.verified_normalized_alignment(cache, anchor, root)

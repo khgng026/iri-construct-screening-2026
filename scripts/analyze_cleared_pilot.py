@@ -37,6 +37,31 @@ def attributed_hits(scores, families, reference_families, k=5, balanced=False):
         rows.append({'reference_id': r, 'winning_component': winner, 'reference_family': reference_families[r], 'component_family': families[winner], 'component_attributed_correct': reference_families[r] == families[winner]})
     return rows
 
+def verified_normalized_alignment(align, anchor, reference_dir):
+    """Recompute reference-self normalization; cached sensitivity values are untrusted."""
+    from Bio.Align import PairwiseAligner, substitution_matrices
+    canonical = hashlib.sha256(json.dumps(align['raw_scores'], sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+    require(canonical == anchor['reproducibility']['canonical_score_matrix_sha256']['alignment-scores.json'], 'Changed alignment score matrix')
+    aligner = PairwiseAligner(mode='local')
+    aligner.substitution_matrix = substitution_matrices.load('BLOSUM62')
+    require(hashlib.sha256(aligner.substitution_matrix.tobytes()).hexdigest() == 'd10711235ef2ec971c60125a267e55e181338dd0d3f3146d77513b92f8750ecc', 'Changed BLOSUM62 matrix')
+    aligner.open_gap_score = -10.0
+    aligner.extend_gap_score = -0.5
+    aligner.epsilon = 1e-6
+    denominators = {}
+    for rid in sorted({r for row in align['raw_scores'].values() for r in row}):
+        path = reference_dir / (rid.removeprefix('uniprot-') + '.json')
+        fp = anchor['panel']['input_fingerprints'][rid]
+        require(path.is_file() and digest_file(path) == fp['source_sha256'], 'Changed alignment reference source: ' + rid)
+        sequence = json.loads(path.read_text())['sequence']['value']
+        require(hashlib.sha256(sequence.encode()).hexdigest() == fp['sequence_sha256'], 'Changed alignment reference sequence: ' + rid)
+        value = float(aligner.score(sequence, sequence))
+        require(math.isfinite(value) and value > 0, 'Invalid reference self score')
+        denominators[rid] = value
+    normalized = {q: {r: value / denominators[r] for r, value in row.items()} for q, row in align['raw_scores'].items()}
+    require(align.get('normalized_scores') == normalized, 'Cached normalized alignment scores differ from verified recomputation')
+    return normalized
+
 def analyze_e4(out):
     e3path = ROOT / 'docs/results/cleared-2026-11-11/E3.json'
     require(digest_file(e3path) == E3_SHA, 'Changed approved E3 evidence')
@@ -93,12 +118,11 @@ def analyze_e2(out):
             'matching_component_family_count': len({h['reference_family'] for h in hits if h['component_attributed_correct']})})
     diagnostic['reference_composition'] = {f: sum((rf[r] == f for r in next(iter(scores.values())))) for f in set(rf.values())}
     align = json.loads((cache / 'alignment-scores.json').read_text())
-    canonical = hashlib.sha256(json.dumps(align['raw_scores'], sort_keys=True, separators=(',', ':')).encode()).hexdigest()
-    require(canonical == immutable_e3()['reproducibility']['canonical_score_matrix_sha256']['alignment-scores.json'], 'Changed alignment score matrix')
+    normalized = verified_normalized_alignment(align, immutable_e3(), ROOT / 'results/week2/references/raw_references')
     diagnostic['alignment_normalization_sensitivity'] = {
         'scope': 'Predeclared reference-self normalization; ranking diagnostic only, no substituted primary endpoint',
         'query_top5_overlap': {q: len(set(sorted(row, key=lambda r:(-row[r],r))[:5]) &
-            set(sorted(align['normalized_scores'][q], key=lambda r:(-align['normalized_scores'][q][r],r))[:5]))
+            set(sorted(normalized[q], key=lambda r:(-normalized[q][r],r))[:5]))
             for q, row in align['raw_scores'].items()}}
     write_json(out / 'E2.attribution.json', diagnostic)
 

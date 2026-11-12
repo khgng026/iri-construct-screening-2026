@@ -17,19 +17,32 @@ from iri_constructs.multi_cds import load_multi_cds_inputs, freeze_multi_cds_pan
 EXPECTED_REVIEW_FREEZE_SHA256 = 'c90d063f7f17c9f929af2fddb4e3fe9bc719c9a4cae5c36f66b238f968e47c2e'
 
 def verify_original_freeze():
-    import subprocess
+    """Check the complete historical authority digest without requiring its assets."""
     freeze = json.loads((ROOT / 'docs/week2/review-freeze.json').read_text())
     require(_hash({k:v for k,v in freeze.items() if k != 'freeze_sha256'}) == freeze['freeze_sha256'], 'Changed original freeze')
     require(freeze['freeze_sha256'] == EXPECTED_REVIEW_FREEZE_SHA256, 'Review freeze differs from approved scope')
-    for name, record in freeze['artifacts'].items():
-        path = ROOT / name
-        # README is a maintained entry point; its reviewed version remains in Git.
-        if path.is_file() and name != 'README.md':
-            require(digest_file(path) == record['sha256'], 'Changed frozen artifact: ' + name)
-        else:
-            require(name == 'README.md' or name.startswith('docs/runs/week2-2026-11-11/'), 'Missing scientific input: ' + name)
-            original = subprocess.check_output(['git','show','3fb426231347873269c655c25cc67bdd4ce1ebca:' + name], cwd=ROOT)
-            require(hashlib.sha256(original).hexdigest() == record['sha256'], 'Archived evidence mismatch')
+    return freeze
+
+DEPENDENCIES_PATH = 'config/execution_2026_11_11/retrieval-dependencies.v1.json'
+EXPECTED_DEPENDENCIES_SHA256 = '9d9dbbcc4b79369bc7c68255531edca2bf974e1c252ce7b8eca1c562515c29b9'
+
+def verify_stage_dependencies(stage, *, reuse_e3=False):
+    freeze = verify_original_freeze()
+    require(stage in ('E2', 'E3') and (not reuse_e3 or stage == 'E2'), 'Unapproved dependency scope')
+    path = ROOT / DEPENDENCIES_PATH
+    require(path.is_file() and digest_file(path) == EXPECTED_DEPENDENCIES_SHA256, 'Changed stage dependency manifest')
+    dependencies = json.loads(path.read_text())
+    require(dependencies['authority_freeze_sha256'] == freeze['freeze_sha256'], 'Dependency authority mismatch')
+    mode = 'E2-replay' if reuse_e3 else stage
+    for name in dependencies['stages'][mode]:
+        expected = dependencies['artifacts'][name]
+        if name in freeze['artifacts']:
+            require(expected == freeze['artifacts'][name]['sha256'], 'Dependency differs from original authority: ' + name)
+        live = ROOT / name
+        require(live.is_file(), 'Missing stage dependency: ' + name)
+        require(digest_file(live) == expected, 'Changed stage dependency: ' + name)
+    return {'mode': mode, 'manifest_sha256': EXPECTED_DEPENDENCIES_SHA256,
+            'authority_freeze_sha256': freeze['freeze_sha256']}
 
 def require(condition, message):
     if not condition:
@@ -85,7 +98,7 @@ def main():
     a.output.mkdir(parents=True, exist_ok=False)
     proposal = ROOT / 'data/manifests/week2/references/reference_proposal.json'
     require(digest_file(proposal) == '627fb59b5e8b6a0b307447d2e22355fc75449bb02c21c3063468004948928349', 'Cleared execution validation failed')
-    verify_original_freeze()
+    dependency_scope = verify_stage_dependencies(a.stage, reuse_e3=bool(a.reuse_e3))
     refs = json.loads(proposal.read_text())
     auth = json.loads((ROOT / 'docs/oversight/EXPERIMENT_RUN_AUTHORIZATION.json').read_text())
     require(auth['review_comment_id'] == 6800553713, 'Cleared execution validation failed')
@@ -144,7 +157,7 @@ def main():
         require(panel['parents']['ncbi-AF298787.1']['eligible_reference_ids'] == expected, 'Cleared execution validation failed')
     ids = set(reference_ids) | {q['query_id'] for q in queries}
     require(len(ids) <= 64 and sum((len(proteins[i].sequence) for i in ids)) <= 65536, 'Cleared execution validation failed')
-    write_json(a.output / 'execution-freeze.json', {'protocol': cfg, 'panel': panel, 'clearance': URL, 'proposal_sha256': digest_file(proposal), 'input_sha256': digest_file(ip), 'source_provenance': prov, 'input_fingerprints': {i: proteins[i].provenance() for i in sorted(ids)}})
+    write_json(a.output / 'execution-freeze.json', {'protocol': cfg, 'panel': panel, 'clearance': URL, 'dependency_scope': dependency_scope, 'proposal_sha256': digest_file(proposal), 'input_sha256': digest_file(ip), 'source_provenance': prov, 'input_fingerprints': {i: proteins[i].provenance() for i in sorted(ids)}})
     report = run_metadata(a.stage + '_cleared_descriptive', cfg)
     report.update(clearance=URL, evidence_kind='admitted_research', panel_sha256=panel['panel_sha256'], methods={}, inference_executed=False)
     if not a.reuse_e3:

@@ -81,7 +81,9 @@ Source sequences, full qualifiers, embeddings, weights and full logs remain in
 ignored private storage. Public accessibility does not itself grant redistribution
 rights. Source-free manifests retain original identities and checksums. The
 historical review freeze and removed duplicate diagnostics are recoverable at
-reviewed commit `3fb4262`; the launcher verifies the exact historical bytes for
-archived diagnostics and this evolving README. Other scientific inputs remain
-required locally. Earlier dated reports are historical snapshots; current results
+reviewed commit `3fb4262`. The launcher preserves the complete original authority
+digest and checks a separately pinned dependency inventory for the selected stage.
+Replay requires its source/reference/cache evidence, without model weights;
+inference additionally requires the pinned ESM-2 weights. Held ESM-C and iGEM
+originals are not required. Earlier dated reports are historical snapshots; current results
 are linked above.
