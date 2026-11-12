@@ -51,6 +51,8 @@ def verify_score_cache(path):
             raise InputError('Cached score evidence changed')
 
     anchor = immutable_e3()
+    require(digest_file(path / 'execution-freeze.json') == anchor['execution_freeze_sha256'], 'Cached execution/source configuration differs from immutable evidence')
+    require(digest_file(path / 'report.json') == anchor['local_report_sha256'], 'Cached report differs from immutable evidence')
     scores = json.loads((path / 'esm2-scores.json').read_text())
     canonical = hashlib.sha256(json.dumps(scores, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
     require(canonical == anchor['reproducibility']['canonical_score_matrix_sha256']['esm2-scores.json'], 'Score matrix differs from immutable experimental evidence')
@@ -187,7 +189,7 @@ def main():
         write_json(a.output / 'unit-scores.json', execution['unit_scores'])
     if a.stage == 'E2':
         require(all((c['matched']['scored_parents'] == 1 for c in report['methods']['esm2']['result']['conditions'].values())), 'Cleared execution validation failed')
-    report.update(status='completed_descriptive_partial_method_pilot' if a.stage == 'E3' else 'completed_supported_subset_descriptive', inference_executed=not bool(a.reuse_e3), scientific_scores_produced=True, confidence_interval=None, confidence_interval_reason='fewer_than_eight_independent_parents', limitations=['Molecular-family retrieval only; no functional validation or population/model-winner claim.', 'ESM-C, strictertiers,Renilla and formalE4 remainHOLD.', 'E2 full documented-family endpoint unresolved; AmpR retained as unknown source component.'])
+    report.update(status='completed_descriptive_partial_method_pilot' if a.stage == 'E3' else 'completed_supported_subset_descriptive', inference_executed=not bool(a.reuse_e3), scientific_scores_produced=True, confidence_interval=None, confidence_interval_reason='fewer_than_eight_independent_parents', limitations=['Molecular-family retrieval only; no functional validation or population/model-winner claim.', 'ESM-C, stricter tiers and Renilla remain HOLD; E4 is separately cleared for matched original E3 only.', 'E2 full documented-family endpoint unresolved; AmpR retained as unknown source component.'])
     write_json(a.output / 'report.json', report)
     if a.stage == 'E3':
         write_json(a.output / 'cache-checksums.json', {name: digest_file(a.output / name) for name in ['report.json', 'execution-freeze.json', 'esm2-scores.json']})
