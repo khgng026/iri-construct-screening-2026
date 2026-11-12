@@ -157,7 +157,7 @@ def main():
         start = time.process_time()
         with Measure() as load:
             adapter = LocalAdapter('esm2', prepare_device('cpu', cfg['seed']), ESM2_REVISION, offline=True)
-        require(adapter.metadata['weight_sha256'] == '24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189', 'Cleared execution validation failed')
+        freeze_model(adapter.metadata, a.output / 'model-freeze.json')
         cached = _CachedAdapter(adapter)
         with Measure() as measure:
             vectors, details = _vectors(cached, proteins, ids)

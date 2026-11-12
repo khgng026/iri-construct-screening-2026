@@ -40,6 +40,8 @@ class ClearedCacheTests(unittest.TestCase):
         checks = [
             "m['validate_authorization']({'review_comment_id':6800553713}, 'E3')",
             "m['freeze_model']({'resolved_revision':'wrong','weight_sha256':'wrong'}, __import__('pathlib').Path('unused'))",
+            "m['freeze_model']({'resolved_revision':m['ESM2_REVISION'],'weight_sha256':'wrong'}, __import__('pathlib').Path('unused'))",
+            "m['validate_authorization']({'review_comment_id':6800553713,'review_comment_url':m['URL'],'review_freeze_sha256':'c90d063f7f17c9f929af2fddb4e3fe9bc719c9a4cae5c36f66b238f968e47c2e','decisions':{'E3':'HOLD'}}, 'E3')",
             """import tempfile,json
 from pathlib import Path
 with tempfile.TemporaryDirectory() as tmp:
