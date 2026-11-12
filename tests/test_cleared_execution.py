@@ -60,3 +60,20 @@ with tempfile.TemporaryDirectory() as tmp:
                 result = subprocess.run([sys.executable, '-O', '-c', code], capture_output=True, text=True)
                 self.assertNotEqual(result.returncode, 0)
                 self.assertIn('InputError', result.stderr)
+
+    def test_exploratory_balanced_merge_retains_shared_budget_and_component_origin(self):
+        spec = importlib.util.spec_from_file_location('analysis', Path(__file__).resolve().parents[1] / 'scripts/analyze_cleared_pilot.py')
+        analysis = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(analysis)
+        scores = {'a': {'r1': 0.8, 'r2': 0.1, 'r3': 0.2},
+                  'b': {'r1': 90, 'r2': 100, 'r3': 99}}
+        families = {'a':'A', 'b':'B'}
+        refs = {'r1':'A', 'r2':'B', 'r3':'B'}
+        hits = analysis.attributed_hits(scores, families, refs, k=2, balanced=True)
+        self.assertEqual([(h['reference_id'],h['winning_component']) for h in hits], [('r1','a'),('r2','b')])
+        self.assertTrue(all(h['component_attributed_correct'] for h in hits))
+        self.assertEqual(hits, analysis.attributed_hits(dict(reversed(list(scores.items()))), families, refs, k=2, balanced=True))
+        all_hits = analysis.attributed_hits(scores, families, refs, k=5, balanced=True)
+        self.assertEqual(len(all_hits), 3)  # one shared catalogue, no duplicate budget credit
+        with self.assertRaises(module.InputError):
+            analysis.attributed_hits({'a':{'r1':float('nan')}}, families, refs)

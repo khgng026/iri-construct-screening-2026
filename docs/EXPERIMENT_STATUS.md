@@ -21,6 +21,16 @@ E2 preserves the frozen maximum-per-reference merge rule. GFP hits dominate the 
 
 Literal source-longest is unsupported AmpR (286 aa), while eligible-longest is URA3 (267 aa); EGFP3 is 238 aa. Two of three source CDSs have accepted supported labels. AmpR remains in source/unknown-family coverage and leakage exclusions. Full construct-family recall and population-level claims are unavailable.
 
+## Exploratory E2 diagnosis and bounded improvement
+
+[Component attribution](results/analysis-2026-11-12/E2.attribution.json) explains the unexpected result without changing E2: the baseline returns three correct URA3-family hits and two off-family GFP hits, while all five merged hits originate from GFP and match GFP. Each condition therefore recovers **one** family through its corresponding component, despite primary parent-family recovery of 2/2 versus 1/2. The actual representations still contain one versus two eligible documented proteins.
+
+The eligible catalogue has six GFP, three OMP-decarboxylase, five beetle-luciferase and one Renilla reference. All six GFP references outrank the first OMP reference in the maximum-score merge; OMP first appears at **K=7**. This diagnoses the fixed five-hit budget and asymmetric score scales; changing K is an exploratory sensitivity, not a revised result. Cosine scores are already vector-normalized but are not calibrated across query proteins. Componentwise rank normalization recovers both corresponding families at K=5; it discards magnitude and can also promote poor matches. The predeclared alignment self-normalization changes two of URA3's top-five identities and none for the other three queries, demonstrating that normalization also changes method rankings.
+
+One bounded improvement, [stable round-robin component merging](results/analysis-2026-11-12/balanced_merge.prospective.json), allocates the **same five total unique references** across component rankings. The algorithm and prospective status were recorded before its cached exploratory calculation. On this one parent it recovers both corresponding families; one later off-family hit remains. This is a mechanism check after observing the original outcome, not evidence of general benefit or a new confirmatory benchmark. Original maximum-score merging and all frozen scores remain unchanged. The focused regression checks shared budget, deduplication, stable ordering, component origin and invalid scores. Prospective primary evaluation requires delegated clearance.
+
+Reproduce diagnostics with `.venv/bin/python scripts/analyze_cleared_pilot.py --stage E2`; exact cached E3/E2 matrices must pass the immutable evidence check. No new inference, reference substitution or model calls occur.
+
 ## Actual computation and concise E4 evidence
 
 | Actual work | Measured cost |
