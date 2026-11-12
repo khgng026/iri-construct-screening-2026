@@ -51,6 +51,7 @@ with tempfile.TemporaryDirectory() as tmp:
     f['freeze_sha256']=m['_hash'](f)
     (root/'docs/week2/review-freeze.json').write_text(json.dumps(f))
     m['verify_original_freeze'].__globals__['ROOT']=root
+    m['verify_original_freeze'].__globals__['EXPECTED_REVIEW_FREEZE_SHA256']=f['freeze_sha256']
     m['verify_original_freeze']()
     (root/'source').write_text('changed')
     m['verify_original_freeze']()

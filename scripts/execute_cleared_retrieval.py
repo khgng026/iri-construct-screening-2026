@@ -14,10 +14,13 @@ from iri_constructs.extension_experiments import _vector_scores
 from iri_constructs.model_adapters import LocalAdapter, prepare_device, ESM2_REVISION
 from iri_constructs.multi_cds import load_multi_cds_inputs, freeze_multi_cds_panel, produce_multi_cds_scores, score_multi_cds, compare_multi_cds_conditions
 
+EXPECTED_REVIEW_FREEZE_SHA256 = 'c90d063f7f17c9f929af2fddb4e3fe9bc719c9a4cae5c36f66b238f968e47c2e'
+
 def verify_original_freeze():
     import subprocess
     freeze = json.loads((ROOT / 'docs/week2/review-freeze.json').read_text())
     require(_hash({k:v for k,v in freeze.items() if k != 'freeze_sha256'}) == freeze['freeze_sha256'], 'Changed original freeze')
+    require(freeze['freeze_sha256'] == EXPECTED_REVIEW_FREEZE_SHA256, 'Review freeze differs from approved scope')
     for name, record in freeze['artifacts'].items():
         path = ROOT / name
         # README is a maintained entry point; its reviewed version remains in Git.
