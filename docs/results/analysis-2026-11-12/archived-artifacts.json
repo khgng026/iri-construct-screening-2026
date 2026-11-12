@@ -1,0 +1,37 @@
+[
+  {
+    "path": "docs/runs/week2-2026-11-11/technical/curated-2/report.json",
+    "sha256": "305ccc7cabf207aa8badf3930148fc8d4ada7d99cff4a9cd5922bbc9d2983254",
+    "immutable_git_commit": "3fb426231347873269c655c25cc67bdd4ce1ebca"
+  },
+  {
+    "path": "docs/runs/week2-2026-11-11/technical/supplemental-2/report.json",
+    "sha256": "e193cfb8d2f51f0f35ba2796f5a9831b4375b53104160ecacfa9f54a678c743a",
+    "immutable_git_commit": "3fb426231347873269c655c25cc67bdd4ce1ebca"
+  },
+  {
+    "path": "docs/runs/week2-2026-11-11/technical/tests.txt",
+    "sha256": "0e74f914d3c383a86f5e5b6f5c63b647d5bb788b21dac37ab89dc4fcf8721ca9",
+    "immutable_git_commit": "3fb426231347873269c655c25cc67bdd4ce1ebca"
+  },
+  {
+    "path": "docs/runs/week2-2026-11-11/clean-checkout/tests.txt",
+    "sha256": "2e864c073c52f4c143e6ec2f4e7be5322f32c93837041637433121fb917b39aa",
+    "immutable_git_commit": "3fb426231347873269c655c25cc67bdd4ce1ebca"
+  },
+  {
+    "path": "docs/runs/week2-2026-11-11/dependency-free-tests.txt",
+    "sha256": "6c3d81f5136a1fc3e2dc010684c5fa3e2f0c7d47e7966318b26ac5bc7607f460",
+    "immutable_git_commit": "3fb426231347873269c655c25cc67bdd4ce1ebca"
+  },
+  {
+    "path": "docs/runs/week2-2026-11-11/parser-final-tests.txt",
+    "sha256": "74118c380173b51b47ac391326849c54573824ee7c32c3bbc2ab8ab9d44fab15",
+    "immutable_git_commit": "3fb426231347873269c655c25cc67bdd4ce1ebca"
+  },
+  {
+    "path": "docs/runs/week2-2026-11-11/curation-final-tests.txt",
+    "sha256": "e9b69b71af51be370e64fff307796a55fe8cb8f525f6bee74b23a48c2b898a90",
+    "immutable_git_commit": "3fb426231347873269c655c25cc67bdd4ce1ebca"
+  }
+]

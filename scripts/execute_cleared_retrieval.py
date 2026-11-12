@@ -14,6 +14,19 @@ from iri_constructs.extension_experiments import _vector_scores
 from iri_constructs.model_adapters import LocalAdapter, prepare_device, ESM2_REVISION
 from iri_constructs.multi_cds import load_multi_cds_inputs, freeze_multi_cds_panel, produce_multi_cds_scores, score_multi_cds, compare_multi_cds_conditions
 
+def verify_original_freeze():
+    import subprocess
+    freeze = json.loads((ROOT / 'docs/week2/review-freeze.json').read_text())
+    require(_hash({k:v for k,v in freeze.items() if k != 'freeze_sha256'}) == freeze['freeze_sha256'], 'Changed original freeze')
+    for name, record in freeze['artifacts'].items():
+        path = ROOT / name
+        if path.is_file():
+            require(digest_file(path) == record['sha256'], 'Changed frozen artifact: ' + name)
+        else:
+            require(name.startswith('docs/runs/week2-2026-11-11/'), 'Missing scientific input: ' + name)
+            original = subprocess.check_output(['git','show','3fb426231347873269c655c25cc67bdd4ce1ebca:' + name], cwd=ROOT)
+            require(hashlib.sha256(original).hexdigest() == record['sha256'], 'Archived evidence mismatch')
+
 def require(condition, message):
     if not condition:
         raise InputError(message)
@@ -66,8 +79,7 @@ def main():
     a.output.mkdir(parents=True, exist_ok=False)
     proposal = ROOT / 'data/manifests/week2/references/reference_proposal.json'
     require(digest_file(proposal) == '627fb59b5e8b6a0b307447d2e22355fc75449bb02c21c3063468004948928349', 'Cleared execution validation failed')
-    from iri_constructs.review_freeze import verify_review_freeze
-    verify_review_freeze(ROOT, json.loads((ROOT / 'docs/week2/review-freeze.json').read_text()))
+    verify_original_freeze()
     refs = json.loads(proposal.read_text())
     auth = json.loads((ROOT / 'docs/oversight/EXPERIMENT_RUN_AUTHORIZATION.json').read_text())
     require(auth['review_comment_id'] == 6800553713, 'Cleared execution validation failed')
