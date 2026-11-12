@@ -1,0 +1,416 @@
+{
+  "additional_independent_reference": {
+    "accession": "O58462",
+    "evidence": "Reviewed Swiss-Prot monofunctional OMP decarboxylase, EC 4.1.1.23; natural archaeal origin rather than a query/vector derivative. Curated functional assertion includes homology evidence, not independent wet-lab validation.",
+    "family_proposal": "omp_decarboxylase_homologs",
+    "length_aa": 208,
+    "lineage_group": "natural-origin-taxon-70601",
+    "organism": "Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3)",
+    "original_sha256": "a31843af945087f53c4717fbe4cba7a93e4151c12de51534b557c5a4061e60a4",
+    "reference_id": "uniprot-O58462",
+    "rights": "UniProt CC BY 4.0; attribution/accession retained; existing license evidence data/manifests/week2/references/reference_proposal.json",
+    "role": "One prospective reference only; does not add a query parent or independent cluster",
+    "sequence_sha256": "3804f013b6e3aa5de05165ae645430f0d65a3330764bda7cf2161c2405cad513",
+    "source_url": "https://rest.uniprot.org/uniprotkb/O58462.json"
+  },
+  "existing_candidates": [
+    {
+      "archetype": "multi_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 2,
+      "scored_expansion": false,
+      "source_id": "ncbi-U47295.2"
+    },
+    {
+      "archetype": "multi_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 2,
+      "scored_expansion": false,
+      "source_id": "ncbi-U47296.2"
+    },
+    {
+      "archetype": "multi_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 3,
+      "scored_expansion": false,
+      "source_id": "ncbi-AY864931.1"
+    },
+    {
+      "archetype": "multi_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 2,
+      "scored_expansion": false,
+      "source_id": "ncbi-U55762.1"
+    },
+    {
+      "archetype": "multi_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 2,
+      "scored_expansion": false,
+      "source_id": "ncbi-AY738222.1"
+    },
+    {
+      "archetype": null,
+      "preparatory_eligible": false,
+      "provided_validated_proteins": 2,
+      "scored_expansion": false,
+      "source_id": "ncbi-KJ170897.1"
+    },
+    {
+      "archetype": "multi_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 3,
+      "scored_expansion": false,
+      "source_id": "ncbi-AF298787.1"
+    },
+    {
+      "archetype": null,
+      "preparatory_eligible": false,
+      "provided_validated_proteins": 3,
+      "scored_expansion": false,
+      "source_id": "ncbi-KJ541668.1"
+    },
+    {
+      "archetype": null,
+      "preparatory_eligible": false,
+      "provided_validated_proteins": 3,
+      "scored_expansion": false,
+      "source_id": "ncbi-KJ541670.1"
+    },
+    {
+      "archetype": null,
+      "preparatory_eligible": false,
+      "provided_validated_proteins": 1,
+      "scored_expansion": false,
+      "source_id": "ncbi-PP098727.1"
+    },
+    {
+      "archetype": "backbone_heavy",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 1,
+      "scored_expansion": false,
+      "source_id": "ncbi-JX560321.2"
+    },
+    {
+      "archetype": "backbone_heavy",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 3,
+      "scored_expansion": false,
+      "source_id": "ncbi-J01749.1"
+    },
+    {
+      "archetype": "multi_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 0,
+      "scored_expansion": false,
+      "source_id": "BBa_25FDWALN"
+    },
+    {
+      "archetype": "multi_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 0,
+      "scored_expansion": false,
+      "source_id": "BBa_252QAUN3"
+    },
+    {
+      "archetype": "single_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 0,
+      "scored_expansion": false,
+      "source_id": "BBa_26NKZH8J"
+    },
+    {
+      "archetype": "multi_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 0,
+      "scored_expansion": false,
+      "source_id": "BBa_25NPQIRU"
+    },
+    {
+      "archetype": "backbone_heavy",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 0,
+      "scored_expansion": false,
+      "source_id": "BBa_25ULGTE2"
+    },
+    {
+      "archetype": "multi_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 0,
+      "scored_expansion": false,
+      "source_id": "BBa_25B5R4ZL"
+    },
+    {
+      "archetype": "single_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 0,
+      "scored_expansion": false,
+      "source_id": "BBa_25K8XDBD"
+    },
+    {
+      "archetype": "multi_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 0,
+      "scored_expansion": false,
+      "source_id": "BBa_26BQEN31"
+    },
+    {
+      "archetype": "single_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 0,
+      "scored_expansion": false,
+      "source_id": "BBa_25UIP3DW"
+    },
+    {
+      "archetype": "single_cds",
+      "preparatory_eligible": true,
+      "provided_validated_proteins": 0,
+      "scored_expansion": false,
+      "source_id": "BBa_25ECYPMT"
+    }
+  ],
+  "existing_unique_translation_groups": [
+    [
+      {
+        "covered_by_current_family_proposal": true,
+        "product": "luciferase",
+        "protein_id": "AAA89082.1",
+        "source_id": "ncbi-U47295.2"
+      },
+      {
+        "covered_by_current_family_proposal": true,
+        "product": "luciferase",
+        "protein_id": "AAA89084.1",
+        "source_id": "ncbi-U47296.2"
+      },
+      {
+        "covered_by_current_family_proposal": true,
+        "product": "luciferase luc2",
+        "protein_id": "AAV52869.1",
+        "source_id": "ncbi-AY738222.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "beta-lactamase",
+        "protein_id": "AAA89083.1",
+        "source_id": "ncbi-U47295.2"
+      },
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "beta-lactamase",
+        "protein_id": "AAA89085.1",
+        "source_id": "ncbi-U47296.2"
+      },
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "synthetic beta-lactamase",
+        "protein_id": "AAW66993.1",
+        "source_id": "ncbi-AY864931.1"
+      },
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "synthetic beta-lactamase",
+        "protein_id": "AAV52870.1",
+        "source_id": "ncbi-AY738222.1"
+      },
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "ampicillin resistance protein",
+        "protein_id": "AAG34530.1",
+        "source_id": "ncbi-AF298787.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": true,
+        "product": "luciferase hRluc",
+        "protein_id": "AAW66991.1",
+        "source_id": "ncbi-AY864931.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "synthetic hygromycin resistance protein",
+        "protein_id": "AAW66992.1",
+        "source_id": "ncbi-AY864931.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": true,
+        "product": "enhanced green fluorescent protein",
+        "protein_id": "AAB02574.1",
+        "source_id": "ncbi-U55762.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "neomycin phosphotransferase",
+        "protein_id": "AAB02575.1",
+        "source_id": "ncbi-U55762.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "catechol 2,3-dioxygenase",
+        "protein_id": "AHX26621.1",
+        "source_id": "ncbi-KJ170897.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "AraC",
+        "protein_id": "AHX26622.1",
+        "source_id": "ncbi-KJ170897.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": true,
+        "product": "orotidine-5'-phosphate decarboxylase",
+        "protein_id": "AAG34528.1",
+        "source_id": "ncbi-AF298787.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": true,
+        "product": "enhanced green fluorescent protein 3",
+        "protein_id": "AAG34529.1",
+        "source_id": "ncbi-AF298787.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "ccdB",
+        "protein_id": "AIC82337.1",
+        "source_id": "ncbi-KJ541668.1"
+      },
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "ccdB",
+        "protein_id": "AIC82345.1",
+        "source_id": "ncbi-KJ541670.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "chloramphenicol acetyl transferase",
+        "protein_id": "AIC82338.1",
+        "source_id": "ncbi-KJ541668.1"
+      },
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "chloramphenicol acetyl transferase",
+        "protein_id": "AIC82346.1",
+        "source_id": "ncbi-KJ541670.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "beta-lactamase",
+        "protein_id": "AIC82340.1",
+        "source_id": "ncbi-KJ541668.1"
+      },
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "beta-lactamase",
+        "protein_id": "AIC82348.1",
+        "source_id": "ncbi-KJ541670.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "green fluorescence protein",
+        "protein_id": "WUF06606.1",
+        "source_id": "ncbi-PP098727.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "beta-lactamase",
+        "protein_id": "AFV59760.1",
+        "source_id": "ncbi-JX560321.2"
+      },
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "beta-lactamase",
+        "protein_id": "AAB59737.1",
+        "source_id": "ncbi-J01749.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "tetracycline resistance protein",
+        "protein_id": "AAB59735.1",
+        "source_id": "ncbi-J01749.1"
+      }
+    ],
+    [
+      {
+        "covered_by_current_family_proposal": false,
+        "product": "ROP protein",
+        "protein_id": "AAB59736.1",
+        "source_id": "ncbi-J01749.1"
+      }
+    ]
+  ],
+  "limitations": [
+    "Ten iGEM candidates lack provided translations; native exports inspected previously did not repair this.",
+    "Four original GenBank candidates remain held for annotation limitations.",
+    "Three firefly constructs encode one identical reporter; marker/backbone sharing also connects parents.",
+    "Distinct source accessions or translations alone do not establish independent clusters."
+  ],
+  "new_scored_panel": false,
+  "renilla_reviewed_search": {
+    "accessions": [
+      "P27652"
+    ],
+    "conclusion": "Only the already excluded ancestor was found. No added independent Renilla positive; exclusion retained. Search scope is reviewed UniProt, not all possible literature.",
+    "original_response_sha256": "24fe2e0ce18f3b464c1a38811c7e6af30dd8805bf03a89fb3afe068965f3c809",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=%28protein_name%3Aluciferase%29+AND+%28taxonomy_name%3ARenilla%29+AND+%28reviewed%3Atrue%29&format=json&size=50"
+  },
+  "status": "PROSPECTIVE_EXPANSION_REQUIRES_SEPARATE_REVIEW",
+  "supplemental_sources": [
+    {
+      "accession": "AF234299.1",
+      "archetype": "tagged_fusion",
+      "benign_context": "Annotated research reporter vector; source regulatory and resistance-marker annotations retained, no engineering or functional validation",
+      "original_sha256": "2a56e2ae5eaaffcddb1e7bd7266047fe60b778253ede1fcacae6251ccda1c480",
+      "private_cache_path": "results/independence-2026-11-12/pCAMBIA1303.gb",
+      "proposal": "E1 annotation preservation only; no invented fusion component boundaries or new family truth",
+      "relatedness_limit": "Shared reporter ancestry/backbone/markers preclude treating accession count as independent clusters",
+      "rights": "NCBI molecular-data policy; no conflicting notice found; submitter IP caveat; private analysis only, no public source release",
+      "rights_policy": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "sequence_sha256": "04531a81f4348f2f2218caf14ec512ca6b98311a9db3b8b99179a13492f7748f",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/AF234299.1",
+      "title": "Binary vector pCAMBIA-1303, complete sequence"
+    },
+    {
+      "accession": "MK448012.1",
+      "archetype": "tagged_fusion",
+      "benign_context": "Annotated research reporter vector; source regulatory and resistance-marker annotations retained, no engineering or functional validation",
+      "original_sha256": "038fe3d5fb47562aca2003bc20a06a91809ccab8380221d4573976214b952c07",
+      "private_cache_path": "results/week2/supplemental-fusion/raw_sources/MK448012.1.gb",
+      "proposal": "E1 annotation preservation only; no invented fusion component boundaries or new family truth",
+      "relatedness_limit": "Shared reporter ancestry/backbone/markers preclude treating accession count as independent clusters",
+      "rights": "NCBI molecular-data policy; no conflicting notice found; submitter IP caveat; private analysis only, no public source release",
+      "rights_policy": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "sequence_sha256": "477048fbbdfb4a6b67701e4a823c7be4a1852960bd9ad41e8757e943e4f54073",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/MK448012.1",
+      "title": "Cloning vector pCHX50, complete sequence"
+    }
+  ]
+}

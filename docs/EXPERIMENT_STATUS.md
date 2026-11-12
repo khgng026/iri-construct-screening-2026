@@ -52,6 +52,16 @@ CPU, two intra-op/three inter-op threads, float32, deterministic seed 20261105, 
 
 ESM-C scored retrieval, tiers 2/3, Renilla, other non-cleared sources and the supplemental fusion remain HOLD.
 
+## Independent evidence and exact prospective review
+
+The [bounded audit](results/analysis-2026-11-12/independence-audit.json) rechecks all 22 acquired source hashes, groups identical provided translations and retains the ten iGEM translation gaps and four GenBank holds. Reviewed-UniProt Renilla search returned only P27652, the known excluded ancestor: **no independent positive gained**. Ordinary luciferase activity from another molecular lineage is insufficient to relabel it.
+
+One additional natural, reviewed monofunctional OMP-decarboxylase reference, **O58462** (Pyrococcus horikoshii, 208 aa), has a distinct sequence and natural taxonomic origin. Its family evidence includes curated homology assertions, not an independently demonstrated new biological result. The reference is **proposed, unscored**, with original JSON and sequence hashes, attribution and private-cache provenance.
+
+The targeted pCAMBIA-1303 source **AF234299.1** adds a genuine GUS/GFP fusion architecture and four source-validated translations. Together with previously prepared **MK448012.1**, it supports two new E1-only proposals. Neither record supplies complete independently reviewed protein-family/boundary truth for a new decomposition retrieval comparison. Shared reporter ancestry/backbones/markers also prevent declaring two new independent clusters. No sequences or full qualifiers are committed.
+
+**Single delegated review request:** review [panel v2](../data/manifests/prospective-2026-11-12/panel.v2.json), canonical proposal hash `f9111dd17ec028fdc170552aacc8af7275fccaf46d1e9712e3f7a681bdc0d70b`. Requested scope: E1 source-annotation preservation on the two exact supplemental records; E3 reference-composition sensitivity on the existing four queries with the 18-entry catalogue; E2 same AF298787 supported subset with original primary merge plus the separately proposed round-robin/component-attributed diagnostic. Exact new reference, original exclusions, per-query eligibility, model/weight identity, five-hit budget, seed and resource limits are frozen. This does **not** request fusion retrieval, ESM-C, Renilla or tier 2/3. All changed scored comparisons remain **HOLD pending actual external ChatGPT clearance**; no approval is manufactured. Reproduce preparation with `.venv/bin/python scripts/audit_independent_evidence.py` after restoring the hash-identified private provider originals. This expansion does not solve the independent-query sample-size shortfall.
+
 ## Reproduce and maintain
 
 E1 uses the existing extension runner and separately admitted manifests:
