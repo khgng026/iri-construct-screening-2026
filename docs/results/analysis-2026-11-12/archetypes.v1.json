@@ -1,0 +1,55 @@
+{
+  "original_E3_sha256": "f13e363599c4173ea7973301a696600d7dcf15c742e3d572e8c2b82ea87f1a53",
+  "rows": [
+    {
+      "archetype": "multi_cds",
+      "family_recall_at_5": 1.0,
+      "method": "alignment_raw",
+      "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+    },
+    {
+      "archetype": "multi_cds",
+      "family_recall_at_5": 1.0,
+      "method": "alignment_raw",
+      "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+    },
+    {
+      "archetype": "multi_cds",
+      "family_recall_at_5": 1.0,
+      "method": "alignment_raw",
+      "query_id": "ncbi-U47295.2/ncbi-U47295.2-u-b2052ad5b0d017c1f14c"
+    },
+    {
+      "archetype": "multi_cds",
+      "family_recall_at_5": 1.0,
+      "method": "alignment_raw",
+      "query_id": "ncbi-U55762.1/ncbi-U55762.1-u-19863cb9a9722e562f34"
+    },
+    {
+      "archetype": "multi_cds",
+      "family_recall_at_5": 1.0,
+      "method": "esm2",
+      "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+    },
+    {
+      "archetype": "multi_cds",
+      "family_recall_at_5": 1.0,
+      "method": "esm2",
+      "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+    },
+    {
+      "archetype": "multi_cds",
+      "family_recall_at_5": 1.0,
+      "method": "esm2",
+      "query_id": "ncbi-U47295.2/ncbi-U47295.2-u-b2052ad5b0d017c1f14c"
+    },
+    {
+      "archetype": "multi_cds",
+      "family_recall_at_5": 1.0,
+      "method": "esm2",
+      "query_id": "ncbi-U55762.1/ncbi-U55762.1-u-19863cb9a9722e562f34"
+    }
+  ],
+  "schema_version": "derived-archetype-report-1",
+  "score_matrices_unchanged": true
+}

@@ -1,0 +1,17 @@
+{
+  "E3_sha256": "f13e363599c4173ea7973301a696600d7dcf15c742e3d572e8c2b82ea87f1a53",
+  "E4_protocol_sha256": "41587c43d414a53cbe9d39dcba0df4fcfd7361d5719e5b1eec732557b5d6655e",
+  "clearance": "https://github.com/khgng026/iri-construct-screening-2026/pull/11#issuecomment-6815404726",
+  "confidence_interval": null,
+  "decision": "CLEAR_FOR_E4_DESCRIPTIVE_MATCHED_E3_ONLY",
+  "excluded": [
+    "E2",
+    "fixture measurements",
+    "ESM-C"
+  ],
+  "methods": [
+    "alignment_raw",
+    "esm2"
+  ],
+  "panel_sha256": "b5e27b38c9d8ed36236dfb84040df147ed2f0bcc3c7b7848c0c30353c8637852"
+}

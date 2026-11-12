@@ -1,0 +1,52 @@
+{
+  "conclusion": "Equal observed family-recall endpoints in four queries; ESM-2 inference/pooling used more method-work time in this run, plus separate initialization. No general winner/equivalence claim.",
+  "execution": {
+    "E3_sha256": "f13e363599c4173ea7973301a696600d7dcf15c742e3d572e8c2b82ea87f1a53",
+    "E4_protocol_sha256": "41587c43d414a53cbe9d39dcba0df4fcfd7361d5719e5b1eec732557b5d6655e",
+    "clearance": "https://github.com/khgng026/iri-construct-screening-2026/pull/11#issuecomment-6815404726",
+    "confidence_interval": null,
+    "decision": "CLEAR_FOR_E4_DESCRIPTIVE_MATCHED_E3_ONLY",
+    "excluded": [
+      "E2",
+      "fixture measurements",
+      "ESM-C"
+    ],
+    "methods": [
+      "alignment_raw",
+      "esm2"
+    ],
+    "panel_sha256": "b5e27b38c9d8ed36236dfb84040df147ed2f0bcc3c7b7848c0c30353c8637852"
+  },
+  "inference_vs_alignment_work_ratio": 22.0677548126449,
+  "limitations": [
+    "Different implementation initialization is not symmetrically measured; alignment initialization remains null.",
+    "RSS is absolute process memory, including prior work/imports; not incremental model memory.",
+    "OS cache uncontrolled; two dependence clusters; no significance or hardware-independent efficiency."
+  ],
+  "rows": [
+    {
+      "calls": 79,
+      "coverage": 1.0,
+      "family_recall_at_5": 1.0,
+      "load_seconds": null,
+      "method": "alignment_raw",
+      "processed_residues": null,
+      "returned_hits": 20,
+      "sampled_work_RSS_bytes": 210960384,
+      "work_seconds": 0.08554455099874758,
+      "wrong_family_hits": 3
+    },
+    {
+      "calls": 21,
+      "coverage": 1.0,
+      "family_recall_at_5": 1.0,
+      "load_seconds": 4.005749302999902,
+      "method": "esm2",
+      "processed_residues": 6964,
+      "returned_hits": 20,
+      "sampled_work_RSS_bytes": 612429824,
+      "work_seconds": 1.887776176998159,
+      "wrong_family_hits": 3
+    }
+  ]
+}
