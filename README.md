@@ -1,8 +1,8 @@
 # IRI Fall 2026: annotated construct decomposition
 
 The cleared E1–E4 descriptive pilot has run. Read the [current results, limitations,
-workflow status and handoff](docs/EXPERIMENT_STATUS.md). PR #11 remains open for
-review; the study has not established a general decomposition benefit.
+workflow status and handoff](docs/EXPERIMENT_STATUS.md). [PR #11](https://github.com/khgng026/iri-construct-screening-2026/pull/11) was merged on November 13, 2026;
+the study has not established a general decomposition benefit.
 
 The research question is whether converting documented benign DNA constructs
 into traceable protein components improves protein-family retrieval. Existing
