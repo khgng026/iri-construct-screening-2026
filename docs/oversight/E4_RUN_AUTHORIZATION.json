@@ -1,0 +1,12 @@
+{
+  "schema_version": "recorded-E4-clearance-1",
+  "review_comment_url": "https://github.com/khgng026/iri-construct-screening-2026/pull/11#issuecomment-6815404726",
+  "review_comment_id": 6815404726,
+  "recorded_at": "2026-11-12T05:19:59Z",
+  "review_comment_body_sha256": "b0cd96884ffbbd2c373b4ac4f333aa875364734eb81aacd11de6f2e76e7f1fb0",
+  "decision": "CLEAR_FOR_E4_DESCRIPTIVE_MATCHED_E3_ONLY",
+  "reviewed_head": "3fb426231347873269c655c25cc67bdd4ce1ebca",
+  "E3_sha256": "f13e363599c4173ea7973301a696600d7dcf15c742e3d572e8c2b82ea87f1a53",
+  "E4_protocol_sha256": "41587c43d414a53cbe9d39dcba0df4fcfd7361d5719e5b1eec732557b5d6655e",
+  "scope": "Source-free descriptive analysis of original matched E3 alignment and ESM-2 only; not expanded panels or new inference."
+}

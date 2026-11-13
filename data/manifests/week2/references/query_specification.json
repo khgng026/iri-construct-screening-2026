@@ -1,0 +1,115 @@
+{
+  "schema_version": "week2-query-specification-1",
+  "status": "PROPOSAL_NOT_SCIENTIFIC_CLEARANCE",
+  "scope": "Four supported molecular query proposals across three parent constructs, plus one explicit unsupported Renilla query; no automatic expansion to the full candidate pool.",
+  "queries": [
+    {
+      "source_id": "ncbi-U47295.2",
+      "protein_accession_version": "AAA89082.1",
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "lineage_group": "natural-origin-taxon-7054",
+      "known_ancestor_accessions": [
+        "P08659"
+      ],
+      "proposal_role": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "family_evidence": {
+        "basis": "The exact U47295.2 source documents luc+ luciferase; its validated550-aa protein fingerprint equals the independently deposited AY738222.1 product explicitly annotated in a Firefly luciferase reporter vector. Curated P08659 anchors coleopteran luciferase homology and source lineage, and is excluded from positives. The other beetle luciferases require both reviewed protein identity, Coleoptera lineage and curated AMP-binding/Pfam evidence; AMP-binding domains alone do not define this family.",
+        "supporting_sources": [
+          "https://www.uniprot.org/uniprotkb/P08659/entry",
+          "https://www.ncbi.nlm.nih.gov/nuccore/AY738222.1"
+        ],
+        "decision_status": "Proposed from documented source protein identity and external curated molecular-family evidence; requires actual delegated scientific review. No model output or tuned identity cutoff used."
+      }
+    },
+    {
+      "source_id": "ncbi-U55762.1",
+      "protein_accession_version": "AAB02574.1",
+      "proposed_family": "gfp_like_homologs",
+      "lineage_group": "natural-origin-taxon-6100",
+      "known_ancestor_accessions": [
+        "P42212"
+      ],
+      "proposal_role": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "family_evidence": {
+        "basis": "U55762.1 documents egfp/enhanced GFP and cites original GFP mutant study PMID8707053. Reviewed natural GFP source P42212 and InterProIPR000786 document the molecular family. GFP color/fluorescence function is not a family split. Aequorea GFP is an ancestry anchor, not an independent positive.",
+        "supporting_sources": [
+          "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000786/",
+          "https://www.uniprot.org/uniprotkb/P42212/entry",
+          "https://pubmed.ncbi.nlm.nih.gov/8707053/",
+          "https://pubmed.ncbi.nlm.nih.gov/12325128/"
+        ],
+        "decision_status": "Proposed from documented source protein identity and external curated molecular-family evidence; requires actual delegated scientific review. No model output or tuned identity cutoff used."
+      }
+    },
+    {
+      "source_id": "ncbi-AF298787.1",
+      "protein_accession_version": "AAG34528.1",
+      "proposed_family": "omp_decarboxylase_homologs",
+      "lineage_group": "natural-origin-taxon-559292",
+      "known_ancestor_accessions": [
+        "P03962",
+        "P42212"
+      ],
+      "proposal_role": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "family_evidence": {
+        "basis": "Exact source AF298787.1 annotates URA3/orotidine-5-prime-phosphate decarboxylase and supplies a validated267-aa translation. Reviewed P03962 independently identifies S.cerevisiaeURA3 as the PF00215/OMP-decarboxylase molecular family; K12,B.subtilis168 and methanogenic archaeal homologs have the same reviewed family evidence. Yeast source anchor P03962 is excluded. This is a proposed biological assignment requiring review, not proof from growth-selection phenotype.",
+        "supporting_sources": [
+          "https://www.uniprot.org/uniprotkb/P03962/entry",
+          "https://www.ebi.ac.uk/interpro/entry/pfam/PF00215/"
+        ],
+        "decision_status": "Proposed from documented source protein identity and external curated molecular-family evidence; requires actual delegated scientific review. No model output or tuned identity cutoff used."
+      }
+    },
+    {
+      "source_id": "ncbi-AF298787.1",
+      "protein_accession_version": "AAG34529.1",
+      "proposed_family": "gfp_like_homologs",
+      "lineage_group": "natural-origin-taxon-6100",
+      "known_ancestor_accessions": [
+        "P03962",
+        "P42212"
+      ],
+      "proposal_role": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "family_evidence": {
+        "basis": "Exact source AF298787.1 documents EGFP3 with a source-validated238-aa translation, distinct from its URA3 and AmpR components. Curated GFP homolog-family evidence as above applies to the proposed molecular class, not protein function. Parent-wide ancestor exclusions include both yeastURA3 and AequoreaGFP for every component condition.",
+        "supporting_sources": [
+          "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000786/",
+          "https://www.uniprot.org/uniprotkb/P42212/entry",
+          "https://pubmed.ncbi.nlm.nih.gov/8707053/",
+          "https://pubmed.ncbi.nlm.nih.gov/12325128/"
+        ],
+        "decision_status": "Proposed from documented source protein identity and external curated molecular-family evidence; requires actual delegated scientific review. No model output or tuned identity cutoff used."
+      }
+    },
+    {
+      "source_id": "ncbi-AY864931.1",
+      "protein_accession_version": "AAW66991.1",
+      "proposed_family": "renilla_luciferase_lineage",
+      "lineage_group": "natural-origin-taxon-6136",
+      "known_ancestor_accessions": [
+        "P27652"
+      ],
+      "proposal_role": "HOLD_NO_INDEPENDENT_POSITIVE",
+      "family_evidence": {
+        "basis": "Exact source AY864931.1 records hRluc and the original note Renilla luciferase. Curated P27652 independently documents the Renilla sequence/alpha-beta-hydrolase lineage; it is the source ancestor and is excluded, leaving no independent same-lineage positive in this bounded catalogue. This class is not merged into firefly luciferases solely because both emit light.",
+        "supporting_sources": [
+          "https://www.uniprot.org/uniprotkb/P27652/entry",
+          "https://www.ncbi.nlm.nih.gov/nuccore/AY864931.1"
+        ],
+        "decision_status": "Proposed from documented source protein identity and external curated molecular-family evidence; requires actual delegated scientific review. No model output or tuned identity cutoff used."
+      }
+    }
+  ],
+  "deduplication_policy": "One luc+ representative U47295.2; U47296.2 and AY738222.1 have identical validated reporter fingerprint9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43 and are not additional independent queries. Same-parent CDSs are correlated.",
+  "excluded_from_query_panel": {
+    "four_T02_HOLD_sources": [
+      "ncbi-KJ541668.1",
+      "ncbi-KJ541670.1",
+      "ncbi-KJ170897.1",
+      "ncbi-PP098727.1"
+    ],
+    "igem": "No source-provided translations; no inferred protein queries.",
+    "supplemental_fusion": "MK448012.1 remains a separate preparatory schema example outside this prospective panel and the original21candidate experimental authorization.",
+    "backbone_sources": "pBR322 and pSEVA111 retained for source QA; no reviewed independent protein-family reference proposal in this bounded set."
+  }
+}

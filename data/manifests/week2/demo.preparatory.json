@@ -1,0 +1,28 @@
+{
+  "schema_version": "week2-source-inputs-1",
+  "evidence_kind": "preparatory_QA_only",
+  "scientific_scoring_authorized": false,
+  "records": [
+    {
+      "source_id": "ncbi-J01749.1",
+      "source": "NCBI",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nuccore/J01749.1",
+      "path": "../../approved_public/J01749.1.gb",
+      "format": "genbank",
+      "sequence_id": "J01749.1",
+      "molecule_type": "dna",
+      "checksum_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6",
+      "accession": "J01749",
+      "accession_version": "1",
+      "archetype": "backbone_heavy",
+      "source_type": "complete_plasmid",
+      "sequence_length_nt": 4361,
+      "feature_count": 50,
+      "source_admitted_for_scoring": false,
+      "rights_evidence": {
+        "historical_manifest": "data/manifests/pilot_execution_2026_11_06/records/ncbi-J01749.1.json",
+        "scope": "Existing private-project source hosting permission; this demo is preparatory QA, not a new scored experimental observation."
+      }
+    }
+  ]
+}

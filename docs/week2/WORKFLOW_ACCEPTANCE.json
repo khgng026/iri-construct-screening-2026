@@ -1,0 +1,873 @@
+{
+  "schema_version": "iri-workflow-extract-1",
+  "source": "planning/4-week-workflow.xlsx",
+  "sha256": "a41e36482988920a2683565e381404a6beee4c7b8135b6f90744ffb463659059",
+  "sheets": {
+    "Overview": [
+      {
+        "A1": "IRI Fall 2026 | Four-Week MVP Workflow"
+      },
+      {
+        "A2": "Planning assumption: 80 hours total (20 hours/week), including 2 hours/week of parallel technical practice. Built from the proposal's MVP: decompose complex public synthetic constructs into model-ready units and evaluate an existing pretrained model."
+      },
+      {
+        "A4": "Project question",
+        "B4": "Does preprocessing complex, annotated benign constructs into model-ready units improve an existing pretrained model's ability to characterize the construct, compared with passing the intact record?"
+      },
+      {
+        "A5": "Core approach",
+        "B5": "Integration and evaluation only. No model training/fine-tuning. Use public, benign constructs with provenance; keep uncertain annotations explicit."
+      },
+      {
+        "A6": "Hours budget",
+        "B6": "20 hours per week \u00d7 4 weeks = 80 hours. Weekly task estimates total 18 hours; the Technical Skills tab allocates the remaining 2 hours/week."
+      },
+      {
+        "A8": "Week",
+        "B8": "Milestone",
+        "C8": "Core deliverable",
+        "D8": "Task hours",
+        "E8": "Parallel skill hours",
+        "F8": "Exit gate"
+      },
+      {
+        "A9": "1",
+        "B9": "Define & prepare",
+        "C9": "Scope, data rules, schema, environment, model feasibility, pilot dataset",
+        "E9": "2",
+        "F9": "Proceed when model interface, schema, benchmark labels, and pilot data are viable."
+      },
+      {
+        "A10": "2",
+        "B10": "Build parser",
+        "C10": "Validated input parsing, normalized annotations, model-ready units, tests",
+        "E10": "2",
+        "F10": "Proceed when units preserve provenance and pass sample QA."
+      },
+      {
+        "A11": "3",
+        "B11": "Integrate & evaluate",
+        "C11": "Paired raw/preprocessed model runs, scoring, error analysis, one bounded fix",
+        "E11": "2",
+        "F11": "Proceed when paired benchmark is reproducible and failure modes are understood."
+      },
+      {
+        "A12": "4",
+        "B12": "Validate & deliver",
+        "C12": "CLI, docs, clean rerun, final metrics, demo, handoff",
+        "E12": "2",
+        "F12": "MVP complete when criteria on the MVP Criteria tab are met or gaps are documented."
+      },
+      {
+        "A14": "Scope guardrails",
+        "B14": "Keep the MVP limited to public, benign records and existing model inference. Treat this as a research characterization aid, not an autonomous safety decision. Fragment completion, red-teaming, sub-segment reference indexing, training, and production deployment are future work."
+      },
+      {
+        "A16": "How to use this workbook",
+        "B16": "Start with Weekly To-Dos. Each task has prerequisite IDs and follow-on IDs. Update Status as work progresses. Technical Skills is a separate parallel learning plan; its 2 hours/week are included in the 80-hour budget."
+      }
+    ],
+    "Weekly To-Dos": [
+      {
+        "A1": "Weekly To-Dos"
+      },
+      {
+        "A2": "Task hours total 18/week. Reserve 2 additional hours/week for the Technical Skills plan so the total stays within ~80 hours."
+      },
+      {
+        "A4": "Task ID",
+        "B4": "Week",
+        "C4": "Category",
+        "D4": "Task",
+        "E4": "Details / approach",
+        "F4": "Est. hours",
+        "G4": "Status",
+        "H4": "Priority",
+        "I4": "Must finish first (IDs)",
+        "J4": "Unblocks / follow-on (IDs)",
+        "K4": "Definition of done",
+        "L4": "Progress notes (updated 2026-10-29)"
+      },
+      {
+        "A5": "T01",
+        "B5": "1",
+        "C5": "Scope & planning",
+        "D5": "Write MVP question, scope, and acceptance criteria",
+        "E5": "Define the smallest useful demonstration: parse complex public constructs into model-ready units and compare model characterization before vs. after preprocessing.",
+        "F5": "1",
+        "G5": "Done",
+        "H5": "Critical",
+        "I5": "None",
+        "J5": "T02, T03, T04, T07",
+        "K5": "One-page scope and measurable exit criteria agreed.",
+        "L5": "Approved 2026-10-29 (scope baseline v1.0): MVP question, research boundaries and MVP-01\u201307 acceptance criteria agreed by researcher. This approves the plan, not MVP performance; model/baseline feasibility and dataset evidence remain future tasks."
+      },
+      {
+        "A6": "T02",
+        "B6": "1",
+        "C6": "Data governance",
+        "D6": "Set public-data and safety rules",
+        "E6": "Specify public sources, benign inclusion criteria, provenance/license capture, exclusions, and a rule against customer/proprietary data.",
+        "F6": "1",
+        "G6": "Done",
+        "H6": "Critical",
+        "I6": "T01",
+        "J6": "T06, T08",
+        "K6": "Written data checklist and provenance fields.",
+        "L6": "Approved 2026-10-28 and reaffirmed 2026-10-29: T02 public/benign-only governance policy v1.0 is finalized. No individual record, reuse license, source or release is preapproved; T06/T08 must apply checklist per candidate."
+      },
+      {
+        "A7": "T03",
+        "B7": "1",
+        "C7": "Data & schema",
+        "D7": "Define construct archetypes and normalized output schema",
+        "E7": "Define fields for parent construct, feature label, coordinates/strand when available, annotation source, model-ready unit, and unknown/ambiguous status. Cover single CDS, multi-gene cassette, tagged fusion, and backbone-heavy constructs.",
+        "F7": "2",
+        "G7": "Done",
+        "H7": "Critical",
+        "I7": "T01",
+        "J7": "T06, T10, T11, T12",
+        "K7": "Schema documented with 2-3 benign examples.",
+        "L7": "Approved 2026-10-29: four archetypes, normalized construct/feature/unit schema v0.1 and three fictional benign examples accepted as the Week 1 baseline. This is schema sign-off, not validation against real records; pilot refinements require versioning."
+      },
+      {
+        "A8": "T04",
+        "B8": "1",
+        "C8": "Engineering setup",
+        "D8": "Create repository and reproducible environment",
+        "E8": "Set up Git, project structure, dependency file/environment, configuration, logging conventions, and a minimal test command.",
+        "F8": "2",
+        "G8": "Done",
+        "H8": "Critical",
+        "I8": "T01",
+        "J8": "T05, T10, T13, T15",
+        "K8": "Fresh environment can run a hello-world/test command.",
+        "L8": "Approved 2026-10-29: private GitHub repository, reproducible Python scaffold, config/logging, smoke command, 11 unit tests and passing GitHub Actions accepted. No deployed service or full sequence parser is claimed."
+      },
+      {
+        "A9": "T05",
+        "B9": "1",
+        "C9": "Model integration",
+        "D9": "Run a pretrained model feasibility spike",
+        "E9": "Select one existing model/interface suitable for the intended characterization task; confirm input/output format, limits, runtime, and whether outputs can be evaluated against public annotations. Do not train or fine-tune.",
+        "F9": "3",
+        "G9": "In progress",
+        "H9": "Critical",
+        "I9": "T04",
+        "J9": "T07, T15, T16",
+        "K9": "Small benign example runs end-to-end with recorded outputs and limitations.",
+        "L9": "2026-10-29 (user-reported local run): ESM-2 facebook/esm2_t6_8M_UR50D processed public GFP P42212 (238 amino acids) and returned [1,240,320] embeddings. Still needed: measured runtime, environment/limits, interpretation/evaluation suitability, and committed T05 report; not yet complete. | 2026-11-05: reviewed local-input parsing, fusion/probe and modular model-comparison implementation added; prior probe evidence retained. Reviewed fusion/family panel and controlled model runs remain pending; T05 stays In progress."
+      },
+      {
+        "A10": "T06",
+        "B10": "1",
+        "C10": "Dataset",
+        "D10": "Build candidate inventory of public benign constructs",
+        "E10": "Identify records from public repositories and classify candidates by archetype. Record source, accession/link, license or reuse notes, and known annotations.",
+        "F10": "3",
+        "G10": "In progress",
+        "H10": "High",
+        "I10": "T02, T03",
+        "J10": "T08, T09",
+        "K10": "Candidate inventory with coverage across target archetypes.",
+        "L10": "2026-11-05: T06 discovery inventory implemented on feature branch: 20 public metadata candidates (4 backbone, 6 principal-reporter, 3 multi-reporter, 7 tagged/fusion); ten prioritized for pilot review. Zero source records approved; exact files/versions, permissions, annotations and checksums remain pending.\n2026-11-06 UTC: Researcher selected the exact ten pilot identities, including pGreen2x35SLUC; pUC19c optional after its own review. Original inventory/queue archived unchanged; zero source files admitted. Prospective 150-250 expansion remains conditional on pilot assessment."
+      },
+      {
+        "A11": "T07",
+        "B11": "1",
+        "C11": "Evaluation design",
+        "D11": "Define reference labels and benchmark metrics",
+        "E11": "Choose labels that are actually supported by public annotations and the selected model. Predefine coverage, annotation agreement/classification metrics where valid, per-archetype breakdown, failure rate, and runtime.",
+        "F11": "2",
+        "G11": "In progress",
+        "H11": "Critical",
+        "I11": "T01, T03, T05",
+        "J11": "T08, T17",
+        "K11": "Benchmark protocol with metric definitions and caveats.",
+        "L11": "2026-11-05: T07 a priori protocol/configs and shared frozen-panel scoring implemented. Distinguishes annotation preservation, family retrieval and biological function; fixed total hit budget, alignment comparator, leakage controls and paired cluster uncertainty. Design frozen before real-data scores; researcher review/panel admission still pending.\n2026-11-06 UTC: T07 v1.0 approved in principle and frozen unchanged. Versioned v1.1 E1-E4 implemented/tested: annotation quality, longest/all-CDS five-hit parent comparison, reviewed reference tiers and strict measured cost reporting. Scientific validation pending reviewed inputs; no real scores or winner."
+      },
+      {
+        "A12": "T08",
+        "B12": "1",
+        "C12": "Dataset & QA",
+        "D12": "Curate and manually spot-check a pilot set",
+        "E12": "Create a small pilot set of benign public records, verify annotations/provenance, and note missing or ambiguous labels before scaling.",
+        "F12": "4",
+        "G12": "Blocked",
+        "H12": "High",
+        "I12": "T02, T06, T07",
+        "J12": "T09, T14, T17",
+        "K12": "Pilot manifest, reference annotations, and QA notes complete.",
+        "L12": "2026-11-05: T08 reviewed pilot preparation/annotation audit implemented and tested on fictional software fixtures. Ten-record metadata-only queue covers all archetypes, zero admitted. Actual A/preparation attempts returned no_inputs, B-D blocked before parsing/inference. Scientific pilot validation awaits human T02 approvals and local source files.\n2026-11-06 UTC: Exact approved selection is metadata only. E1 no_inputs, E2/E3 blocked_no_reviewed_inputs, E4 blocked_no_measurements; zero real parsing/inference. T02 file/permission/annotation/family reviews and independent references required. See docs/coordination/CODEX_STATUS.md."
+      },
+      {
+        "A13": "T09",
+        "B13": "2",
+        "C13": "Dataset",
+        "D13": "Expand curated dataset toward 150-250 constructs",
+        "E13": "Increase coverage across the selected archetypes while maintaining public-source provenance and consistent inclusion rules. If annotation quality is too uneven, prioritize a smaller well-labeled set and document the trade-off.",
+        "F13": "4",
+        "G13": "Not started",
+        "H13": "Critical",
+        "I13": "T06, T08",
+        "J13": "T15, T17, T18",
+        "K13": "Versioned dataset manifest with counts by archetype and known limitations.",
+        "L13": "Not started (Week 2): no real curated benchmark yet. Expand approved benign pilot toward 150-250 records only after T06/T08."
+      },
+      {
+        "A14": "T10",
+        "B14": "2",
+        "C14": "Parsing",
+        "D14": "Implement record ingestion and validation",
+        "E14": "Support the selected input formats (for example, annotated GenBank and/or FASTA), validate basic record structure, and emit clear errors for malformed or unsupported inputs.",
+        "F14": "3",
+        "G14": "Not started",
+        "H14": "Critical",
+        "I14": "T03, T04",
+        "J14": "T11, T12, T13",
+        "K14": "Parser handles representative benign fixtures and reports invalid inputs cleanly.",
+        "L14": "Not started (Week 2): only metadata schema checks exist, not GenBank/FASTA ingestion. Build parsers and safe malformed-input tests after schema approval."
+      },
+      {
+        "A15": "T11",
+        "B15": "2",
+        "C15": "Annotation normalization",
+        "D15": "Map existing annotations into standardized feature labels",
+        "E15": "Normalize available feature annotations and metadata into the schema; preserve source evidence and label missing/ambiguous annotations rather than inventing labels.",
+        "F15": "4",
+        "G15": "Not started",
+        "H15": "Critical",
+        "I15": "T03, T10",
+        "J15": "T12, T17",
+        "K15": "Standardized feature table generated for pilot records.",
+        "L15": "Not started (Week 2): feature types specified in draft schema, but no real feature-annotation mapping or pilot feature table implemented."
+      },
+      {
+        "A16": "T12",
+        "B16": "2",
+        "C16": "Preprocessing",
+        "D16": "Decompose constructs into model-ready units",
+        "E16": "Create a deterministic representation of annotated units with stable parent-child IDs and provenance so each unit can be traced back to its source record. Do not attempt biological reconstruction or generative completion.",
+        "F16": "4",
+        "G16": "Not started",
+        "H16": "Critical",
+        "I16": "T10, T11",
+        "J16": "T13, T14, T16",
+        "K16": "Preprocessor emits units and a machine-readable manifest for pilot examples.",
+        "L16": "Not started (Week 2): model-ready units are represented in fictional JSON examples; no actual construct decomposition/preprocessing engine yet."
+      },
+      {
+        "A17": "T13",
+        "B17": "2",
+        "C17": "Testing & observability",
+        "D17": "Add parser tests, logs, and provenance checks",
+        "E17": "Test expected and malformed benign inputs; verify parent IDs, feature counts, provenance, and deterministic outputs.",
+        "F17": "2",
+        "G17": "Not started",
+        "H17": "High",
+        "I17": "T10, T12",
+        "J17": "T18, T22",
+        "K17": "Automated tests pass and logs make failures diagnosable.",
+        "L17": "Not started (Week 2): 11 scaffold metadata/schema tests and logging exist from T04; parser-specific tests, provenance checks and deterministic-output tests await T10/T12."
+      },
+      {
+        "A18": "T14",
+        "B18": "2",
+        "C18": "Quality assurance",
+        "D18": "Review sample outputs and revise schema if needed",
+        "E18": "Inspect a stratified sample across archetypes, record systematic parsing/annotation gaps, and freeze the schema for the benchmark unless a blocking issue is found.",
+        "F18": "1",
+        "G18": "Not started",
+        "H18": "High",
+        "I18": "T09, T12",
+        "J18": "T17, T18",
+        "K18": "QA checklist completed; schema changes recorded.",
+        "L18": "Not started (Week 2): no curated pilot parser outputs to inspect. Next: review stratified outputs, log issues and freeze schema changes."
+      },
+      {
+        "A19": "T15",
+        "B19": "3",
+        "C19": "Model integration",
+        "D19": "Implement baseline runner for intact constructs",
+        "E19": "Run the selected pretrained model on intact benign records and save inputs, outputs, model/version metadata, and run configuration for reproducibility.",
+        "F19": "3",
+        "G19": "Not started",
+        "H19": "Critical",
+        "I19": "T04, T05, T09",
+        "J19": "T18",
+        "K19": "Baseline outputs stored in a consistent machine-readable format.",
+        "L19": "Not started (Week 3): no model selected and no intact-construct baseline outputs saved. Needs T05 and curated dataset."
+      },
+      {
+        "A20": "T16",
+        "B20": "3",
+        "C20": "Model integration",
+        "D20": "Implement runner for preprocessed units",
+        "E20": "Run the same model/version on the parser's model-ready units and aggregate unit-level outputs to the parent-construct level where appropriate.",
+        "F20": "3",
+        "G20": "Not started",
+        "H20": "Critical",
+        "I20": "T05, T12, T15",
+        "J20": "T18",
+        "K20": "Preprocessed outputs are traceable to each source construct.",
+        "L20": "Not started (Week 3): no preprocessed-unit model runner or output aggregation. Requires selected model, parsed units and baseline runner."
+      },
+      {
+        "A21": "T17",
+        "B21": "3",
+        "C21": "Evaluation",
+        "D21": "Implement benchmark scoring against reference annotations",
+        "E21": "Join model outputs to the curated reference labels; compute only metrics supported by the label design, and report coverage/abstentions separately from accuracy-like metrics.",
+        "F21": "3",
+        "G21": "Not started",
+        "H21": "Critical",
+        "I21": "T07, T09, T11, T14",
+        "J21": "T18",
+        "K21": "Scoring script produces overall and per-archetype summaries.",
+        "L21": "Not started (Week 3): no reference-label scoring script or metrics. Requires agreed labels, vetted examples and normalized annotations."
+      },
+      {
+        "A22": "T18",
+        "B22": "3",
+        "C22": "Evaluation",
+        "D22": "Run paired raw-versus-preprocessed benchmark",
+        "E22": "Evaluate the same benign records under both input conditions using a fixed model/version and saved configuration; preserve run logs and output artifacts.",
+        "F22": "4",
+        "G22": "Not started",
+        "H22": "Critical",
+        "I22": "T13, T14, T15, T16, T17",
+        "J22": "T19, T20, T25",
+        "K22": "Paired results table and reproducible run record are available.",
+        "L22": "Not started (Week 3): no paired model evaluation or numerical results; depends on runnable baseline, preprocessing and scoring pipeline."
+      },
+      {
+        "A23": "T19",
+        "B23": "3",
+        "C23": "Error analysis",
+        "D23": "Stratify results and inspect failure cases",
+        "E23": "Compare results by construct archetype; classify parser failures, missing annotations, model input limitations, and evaluation-label ambiguity.",
+        "F23": "2",
+        "G23": "Not started",
+        "H23": "High",
+        "I23": "T18",
+        "J23": "T20, T26",
+        "K23": "Failure taxonomy and prioritized issues documented.",
+        "L23": "Not started (Week 3): no benchmark results or failure cases. Draft failure taxonomy after T18 per-archetype evaluation."
+      },
+      {
+        "A24": "T20",
+        "B24": "3",
+        "C24": "Iteration",
+        "D24": "Make one bounded preprocessing improvement",
+        "E24": "Fix the highest-impact, low-risk issue identified in error analysis; avoid expanding into model training, fragment reconstruction, or new model architectures.",
+        "F24": "2",
+        "G24": "Not started",
+        "H24": "High",
+        "I24": "T19",
+        "J24": "T21",
+        "K24": "One focused change with a regression test and a short rationale.",
+        "L24": "Not started (Week 3): no experimental issue selected for remediation. Choose one bounded fix only after observed failure analysis."
+      },
+      {
+        "A25": "T21",
+        "B25": "3",
+        "C25": "Regression testing",
+        "D25": "Run regression benchmark on the fixed pipeline",
+        "E25": "Re-run the benchmark and compare with the prior run to check that the targeted fix helps without introducing regressions.",
+        "F25": "1",
+        "G25": "Not started",
+        "H25": "High",
+        "I25": "T20",
+        "J25": "T22, T24, T25",
+        "K25": "Before/after comparison saved.",
+        "L25": "Not started (Week 3): regression benchmarking cannot begin before T20 fix and a saved baseline comparison."
+      },
+      {
+        "A26": "T22",
+        "B26": "4",
+        "C26": "Packaging",
+        "D26": "Add stable command-line entry point and configuration",
+        "E26": "Provide a small CLI/config interface for input path, output path, and run settings; produce predictable outputs and useful error messages.",
+        "F26": "3",
+        "G26": "Not started",
+        "H26": "Critical",
+        "I26": "T13, T21",
+        "J26": "T23, T24",
+        "K26": "A user can run the pipeline on a benign example with one documented command.",
+        "L26": "Not started (Week 4): smoke test is available, but no stable end-to-end pipeline CLI. Add documented input/output flags once parsers and evaluation exist."
+      },
+      {
+        "A27": "T23",
+        "B27": "4",
+        "C27": "Documentation",
+        "D27": "Write README and safe end-to-end demo",
+        "E27": "Document scope, installation, input/output schema, limitations, provenance, and a benign demonstration dataset. Explain that outputs are research characterization, not a standalone safety decision.",
+        "F27": "2",
+        "G27": "Not started",
+        "H27": "High",
+        "I27": "T22",
+        "J27": "T27",
+        "K27": "README and demo instructions work from a clean checkout.",
+        "L27": "Not started (Week 4): initial README and fictional schema examples exist, but no safe end-to-end model demo yet. Finish after T22."
+      },
+      {
+        "A28": "T24",
+        "B28": "4",
+        "C28": "Reproducibility",
+        "D28": "Lock environment and test clean rerun",
+        "E28": "Pin dependencies/model version where possible, document hardware assumptions, and run the documented workflow from a clean environment.",
+        "F28": "2",
+        "G28": "Not started",
+        "H28": "High",
+        "I28": "T21, T22",
+        "J28": "T25",
+        "K28": "Clean rerun succeeds or any environment limitations are explicit.",
+        "L28": "Not started (Week 4): T04 has a dependency-light environment/CI smoke test; full model versions, hardware limits and clean pipeline rerun not yet pinned."
+      },
+      {
+        "A29": "T25",
+        "B29": "4",
+        "C29": "Final evaluation",
+        "D29": "Run final benchmark and summarize results",
+        "E29": "Run the final version against the frozen benign evaluation set and report overall/per-archetype metrics, coverage, runtime, and uncertainty/limitations.",
+        "F29": "3",
+        "G29": "Not started",
+        "H29": "Critical",
+        "I29": "T18, T21, T24",
+        "J29": "T26, T27",
+        "K29": "Final metrics table and plots or concise summary are saved.",
+        "L29": "Not started (Week 4): no frozen dataset or final benchmark metrics. Run only after T18/T21/T24."
+      },
+      {
+        "A30": "T26",
+        "B30": "4",
+        "C30": "Analysis & limitations",
+        "D30": "Write failure analysis and next-step recommendations",
+        "E30": "Summarize where preprocessing helps, where it does not, data/label caveats, and which proposal extensions should remain future work.",
+        "F30": "3",
+        "G30": "Not started",
+        "H30": "High",
+        "I30": "T19, T25",
+        "J30": "T27",
+        "K30": "Limitations and future-work section is complete.",
+        "L30": "Not started (Week 4): no empirical failures or conclusions available. Draft limitations and next steps from T19 and T25 evidence."
+      },
+      {
+        "A31": "T27",
+        "B31": "4",
+        "C31": "Delivery",
+        "D31": "Prepare demo and final project report",
+        "E31": "Show the input-to-units-to-model-to-evaluation workflow and present evidence against the MVP acceptance criteria.",
+        "F31": "3",
+        "G31": "Not started",
+        "H31": "Critical",
+        "I31": "T23, T25, T26",
+        "J31": "T28",
+        "K31": "Demo, final report, and artifact links are ready.",
+        "L31": "Not started (Week 4): initial project documents are in GitHub, but no final demo, report or evaluated outcome exists."
+      },
+      {
+        "A32": "T28",
+        "B32": "4",
+        "C32": "Handoff & buffer",
+        "D32": "Final cleanup, handoff checklist, and contingency fixes",
+        "E32": "Resolve small blocking issues, verify repo/data manifests, list known bugs, and record what is explicitly out of scope.",
+        "F32": "2",
+        "G32": "Not started",
+        "H32": "Medium",
+        "I32": "T27",
+        "J32": "None",
+        "K32": "Repository and handoff checklist are complete.",
+        "L32": "Not started (Week 4): repository foundation exists; final cleanup, manifest verification, known-bugs list and handoff depend on completed demo/report."
+      },
+      {
+        "A34": "Weekly hour check",
+        "B34": "Task hours",
+        "C34": "Skill hours",
+        "D34": "Total"
+      },
+      {
+        "A35": "Week 1",
+        "C35": "2"
+      },
+      {
+        "A36": "Week 2",
+        "C36": "2"
+      },
+      {
+        "A37": "Week 3",
+        "C37": "2"
+      },
+      {
+        "A38": "Week 4",
+        "C38": "2"
+      }
+    ],
+    "Technical Skills": [
+      {
+        "A1": "Technical Skills to Practice in Parallel"
+      },
+      {
+        "A2": "These are deliberately separate from the deliverable checklist. Practice 2 hours/week (8 hours total); use the project tasks as the practical exercise."
+      },
+      {
+        "A4": "Week",
+        "B4": "Skill / knowledge area",
+        "C4": "Hours",
+        "D4": "What to practice",
+        "E4": "Linked tasks",
+        "F4": "Evidence of learning",
+        "G4": "Suggested reference"
+      },
+      {
+        "A5": "1",
+        "B5": "Python and reproducible project setup",
+        "C5": "2",
+        "D5": "Practice pathlib/file I/O, dictionaries and data classes for record metadata, structured logging, Git commits, and running a minimal test suite.",
+        "E5": "T03-T05, T08",
+        "F5": "A small script reads a benign fixture, validates required fields, and records a reproducible run.",
+        "G5": "Python standard-library docs; pytest getting-started guide; project environment tooling docs."
+      },
+      {
+        "A6": "2",
+        "B6": "Bioinformatics records and annotation semantics",
+        "C6": "2",
+        "D6": "Learn the difference between FASTA sequence-only records and annotated GenBank records; inspect feature tables, coordinates, strand, qualifiers, and missing/ambiguous annotations using benign examples.",
+        "E6": "T10-T14",
+        "F6": "Explain the schema and manually verify a few parsed records against their public annotations.",
+        "G6": "Biopython SeqIO and GenBank feature documentation; basic molecular biology quickstart recommended in the proposal."
+      },
+      {
+        "A7": "3",
+        "B7": "Pretrained-model inference and evaluation",
+        "C7": "2",
+        "D7": "Practice calling a pretrained model without fine-tuning, tracking model/version/configuration, respecting input limits, saving outputs, and distinguishing model coverage from label agreement.",
+        "E7": "T05, T15-T21",
+        "F7": "One repeatable paired run produces comparable outputs and a short metric summary.",
+        "G7": "Documentation for the selected model/library; scikit-learn metric documentation if classification metrics fit the label design."
+      },
+      {
+        "A8": "4",
+        "B8": "Testing, metrics, and packaging",
+        "C8": "2",
+        "D8": "Review unit/integration tests, regression testing, CLI argument design, pinned environments, and interpreting precision/recall/F1 or other metrics only when labels support them.",
+        "E8": "T13, T17, T21-T28",
+        "F8": "A clean-checkout demo runs from documented instructions and reports limitations clearly.",
+        "G8": "pytest docs; Python packaging/CLI documentation; reproducibility checklist."
+      },
+      {
+        "A11": "Cross-cutting knowledge",
+        "B11": "Basic molecular biology literacy (CDS, promoters, terminators, tags, linkers, backbones) and comfort with command-line tools/environment management are useful throughout. Familiarity with BLAST/DIAMOND/HMMER is background context, not a separate MVP workstream unless the chosen evaluation requires a baseline."
+      }
+    ],
+    "Dependency Map": [
+      {
+        "A1": "Task Dependency Map"
+      },
+      {
+        "A2": "Prerequisites are tasks that must be complete first. Follow-on IDs are tasks that depend on this task or become easier after it."
+      },
+      {
+        "A4": "Task ID",
+        "B4": "Week",
+        "C4": "Task",
+        "D4": "Prerequisites",
+        "E4": "Follow-on tasks",
+        "F4": "Dependency note"
+      },
+      {
+        "A5": "T01",
+        "B5": "1",
+        "C5": "Write MVP question, scope, and acceptance criteria",
+        "D5": "None",
+        "E5": "T02, T03, T04, T07",
+        "F5": "Start here"
+      },
+      {
+        "A6": "T02",
+        "B6": "1",
+        "C6": "Set public-data and safety rules",
+        "D6": "T01",
+        "E6": "T06, T08",
+        "F6": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A7": "T03",
+        "B7": "1",
+        "C7": "Define construct archetypes and normalized output schema",
+        "D7": "T01",
+        "E7": "T06, T10, T11, T12",
+        "F7": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A8": "T04",
+        "B8": "1",
+        "C8": "Create repository and reproducible environment",
+        "D8": "T01",
+        "E8": "T05, T10, T13, T15",
+        "F8": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A9": "T05",
+        "B9": "1",
+        "C9": "Run a pretrained model feasibility spike",
+        "D9": "T04",
+        "E9": "T07, T15, T16",
+        "F9": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A10": "T06",
+        "B10": "1",
+        "C10": "Build candidate inventory of public benign constructs",
+        "D10": "T02, T03",
+        "E10": "T08, T09",
+        "F10": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A11": "T07",
+        "B11": "1",
+        "C11": "Define reference labels and benchmark metrics",
+        "D11": "T01, T03, T05",
+        "E11": "T08, T17",
+        "F11": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A12": "T08",
+        "B12": "1",
+        "C12": "Curate and manually spot-check a pilot set",
+        "D12": "T02, T06, T07",
+        "E12": "T09, T14, T17",
+        "F12": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A13": "T09",
+        "B13": "2",
+        "C13": "Expand curated dataset toward 150-250 constructs",
+        "D13": "T06, T08",
+        "E13": "T15, T17, T18",
+        "F13": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A14": "T10",
+        "B14": "2",
+        "C14": "Implement record ingestion and validation",
+        "D14": "T03, T04",
+        "E14": "T11, T12, T13",
+        "F14": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A15": "T11",
+        "B15": "2",
+        "C15": "Map existing annotations into standardized feature labels",
+        "D15": "T03, T10",
+        "E15": "T12, T17",
+        "F15": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A16": "T12",
+        "B16": "2",
+        "C16": "Decompose constructs into model-ready units",
+        "D16": "T10, T11",
+        "E16": "T13, T14, T16",
+        "F16": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A17": "T13",
+        "B17": "2",
+        "C17": "Add parser tests, logs, and provenance checks",
+        "D17": "T10, T12",
+        "E17": "T18, T22",
+        "F17": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A18": "T14",
+        "B18": "2",
+        "C18": "Review sample outputs and revise schema if needed",
+        "D18": "T09, T12",
+        "E18": "T17, T18",
+        "F18": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A19": "T15",
+        "B19": "3",
+        "C19": "Implement baseline runner for intact constructs",
+        "D19": "T04, T05, T09",
+        "E19": "T18",
+        "F19": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A20": "T16",
+        "B20": "3",
+        "C20": "Implement runner for preprocessed units",
+        "D20": "T05, T12, T15",
+        "E20": "T18",
+        "F20": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A21": "T17",
+        "B21": "3",
+        "C21": "Implement benchmark scoring against reference annotations",
+        "D21": "T07, T09, T11, T14",
+        "E21": "T18",
+        "F21": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A22": "T18",
+        "B22": "3",
+        "C22": "Run paired raw-versus-preprocessed benchmark",
+        "D22": "T13, T14, T15, T16, T17",
+        "E22": "T19, T20, T25",
+        "F22": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A23": "T19",
+        "B23": "3",
+        "C23": "Stratify results and inspect failure cases",
+        "D23": "T18",
+        "E23": "T20, T26",
+        "F23": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A24": "T20",
+        "B24": "3",
+        "C24": "Make one bounded preprocessing improvement",
+        "D24": "T19",
+        "E24": "T21",
+        "F24": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A25": "T21",
+        "B25": "3",
+        "C25": "Run regression benchmark on the fixed pipeline",
+        "D25": "T20",
+        "E25": "T22, T24, T25",
+        "F25": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A26": "T22",
+        "B26": "4",
+        "C26": "Add stable command-line entry point and configuration",
+        "D26": "T13, T21",
+        "E26": "T23, T24",
+        "F26": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A27": "T23",
+        "B27": "4",
+        "C27": "Write README and safe end-to-end demo",
+        "D27": "T22",
+        "E27": "T27",
+        "F27": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A28": "T24",
+        "B28": "4",
+        "C28": "Lock environment and test clean rerun",
+        "D28": "T21, T22",
+        "E28": "T25",
+        "F28": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A29": "T25",
+        "B29": "4",
+        "C29": "Run final benchmark and summarize results",
+        "D29": "T18, T21, T24",
+        "E29": "T26, T27",
+        "F29": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A30": "T26",
+        "B30": "4",
+        "C30": "Write failure analysis and next-step recommendations",
+        "D30": "T19, T25",
+        "E30": "T27",
+        "F30": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A31": "T27",
+        "B31": "4",
+        "C31": "Prepare demo and final project report",
+        "D31": "T23, T25, T26",
+        "E31": "T28",
+        "F31": "Do not start until prerequisite tasks are complete."
+      },
+      {
+        "A32": "T28",
+        "B32": "4",
+        "C32": "Final cleanup, handoff checklist, and contingency fixes",
+        "D32": "T27",
+        "E32": "None",
+        "F32": "End-of-MVP task"
+      }
+    ],
+    "MVP Criteria": [
+      {
+        "A1": "MVP Acceptance Criteria & Scope Guardrails"
+      },
+      {
+        "A2": "Use this tab in Week 1 to agree what 'done' means; revisit in Week 4. Keep stretch goals from displacing the core deliverable."
+      },
+      {
+        "A4": "ID",
+        "B4": "Area",
+        "C4": "Acceptance criterion / guardrail",
+        "D4": "Target"
+      },
+      {
+        "A5": "MVP-01",
+        "B5": "Core functionality",
+        "C5": "Accepts documented public benign construct records in the selected format(s) and validates them.",
+        "D5": "Must pass"
+      },
+      {
+        "A6": "MVP-02",
+        "B6": "Decomposition",
+        "C6": "Emits normalized, model-ready units with stable parent-child identifiers and provenance.",
+        "D6": "Must pass"
+      },
+      {
+        "A7": "MVP-03",
+        "B7": "Annotation handling",
+        "C7": "Preserves available public annotations and explicitly marks unknown/ambiguous features instead of guessing.",
+        "D7": "Must pass"
+      },
+      {
+        "A8": "MVP-04",
+        "B8": "Coverage",
+        "C8": "Evaluation set represents single CDS, multi-gene cassette, tagged fusion, and backbone-heavy constructs where public annotations allow.",
+        "D8": "Must pass"
+      },
+      {
+        "A9": "MVP-05",
+        "B9": "Paired evaluation",
+        "C9": "Compares the same pretrained model on intact and preprocessed benign constructs using a fixed version/configuration.",
+        "D9": "Must pass"
+      },
+      {
+        "A10": "MVP-06",
+        "B10": "Reporting",
+        "C10": "Reports coverage, supported agreement/classification metrics, per-archetype results, runtime, and failure modes.",
+        "D10": "Must pass"
+      },
+      {
+        "A11": "MVP-07",
+        "B11": "Reproducibility",
+        "C11": "Tests, environment/configuration, CLI, README, and a benign end-to-end demo are included.",
+        "D11": "Must pass"
+      },
+      {
+        "A12": "SCOPE-01",
+        "B12": "Out of scope",
+        "C12": "No model training/fine-tuning, proprietary/customer data, hazardous sequence collection, generative completion, or production deployment.",
+        "D12": "Keep out of MVP"
+      },
+      {
+        "A13": "SCOPE-02",
+        "B13": "Future extensions",
+        "C13": "Fragment completion, sub-segment reference indexing, red-team evaluation, and public benchmark release are not required for the four-week MVP.",
+        "D13": "Future work"
+      }
+    ]
+  },
+  "note": "Historical workbook preserved; current verified status is recorded separately in docs/week2/TASK_STATUS.json."
+}

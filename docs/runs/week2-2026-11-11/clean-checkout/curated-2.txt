@@ -1,0 +1,19 @@
+INFO iri_constructs event=week2_source_qa source_id=ncbi-U47295.2 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=ncbi-U47296.2 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=ncbi-AY864931.1 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=ncbi-U55762.1 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=ncbi-AY738222.1 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=ncbi-AF298787.1 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=ncbi-JX560321.2 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=ncbi-J01749.1 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=BBa_25FDWALN status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=BBa_252QAUN3 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=BBa_26NKZH8J status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=BBa_25NPQIRU status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=BBa_25ULGTE2 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=BBa_25B5R4ZL status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=BBa_25K8XDBD status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=BBa_26BQEN31 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=BBa_25UIP3DW status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_source_qa source_id=BBa_25ECYPMT status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_preparatory_qa status=prepared_for_review prepared=18 blocked=0 proteins=18 scientific_admission=false

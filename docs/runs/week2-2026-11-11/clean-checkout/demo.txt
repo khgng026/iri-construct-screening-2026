@@ -1,0 +1,2 @@
+INFO iri_constructs event=week2_source_qa source_id=ncbi-J01749.1 status=prepared_for_review failure_class=none
+INFO iri_constructs event=week2_preparatory_qa status=prepared_for_review prepared=1 blocked=0 proteins=3 scientific_admission=false

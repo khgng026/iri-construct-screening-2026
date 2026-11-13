@@ -69,6 +69,26 @@ class PilotExecutionTests(unittest.TestCase):
         self.assertTrue(all(m['scored_queries']==4 for m in result['methods'].values()))
         self.assertEqual(result['models']['esm2']['unique_forward_calls'],4)
         self.assertEqual(len({m['panel_sha256'] for m in result['methods'].values()}),1)
+        self.assertTrue(result['scores_produced'])
+        self.assertFalse(result['scientific_scores_produced'])
+        self.assertEqual(result['evidence_kind'], 'unclassified')
+
+    def test_explicit_fictional_scores_are_not_promoted_to_scientific_results(self):
+        self.inputs['evidence_kind'] = 'fictional_software_fixture'
+        result = self.run_numbers()
+        self.assertEqual(result['status'], 'ok')
+        self.assertTrue(result['scores_produced'])
+        self.assertFalse(result['scientific_scores_produced'])
+        self.assertEqual(result['evidence_kind'], 'fictional_software_fixture')
+
+    def test_unknown_evidence_kind_blocks_before_any_adapter_call(self):
+        self.inputs['evidence_kind'] = 'invented-approval-category'
+        def forbidden(*args, **kwargs):
+            self.fail('Invalid evidence classification must block before model loading')
+        result = self.run_numbers(factory=forbidden)
+        self.assertEqual(result['status'], 'blocked')
+        self.assertFalse(result['scientific_scores_produced'])
+        self.assertFalse(result['inference_executed'])
 
     def test_pending_empty_inputs_never_load_model(self):
         self.inputs_path.write_text(json.dumps({'schema_version':'t05-inputs-1','records':[]}),encoding='utf-8')

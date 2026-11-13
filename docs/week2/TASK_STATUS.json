@@ -1,0 +1,212 @@
+{
+  "schema_version": "iri-task-status-1",
+  "assessment_date": "2026-11-11",
+  "timezone": "America/New_York",
+  "authority": "Current researcher mission; original workbook criteria retained in WORKFLOW_ACCEPTANCE.json.",
+  "week2_exit_gate": "Technical implementation/source QA complete for prepared subset; overall scientific benchmark admission remains incomplete.",
+  "tasks": [
+    {
+      "task_id": "T01",
+      "week": 1,
+      "status": "completed",
+      "completed_work": "Approved question/scope preserved.",
+      "remaining_condition": null
+    },
+    {
+      "task_id": "T02",
+      "week": 1,
+      "status": "completed",
+      "completed_work": "Merged T02 v1.2 delegation active; source-specific gates retained.",
+      "remaining_condition": null
+    },
+    {
+      "task_id": "T03",
+      "week": 1,
+      "status": "completed",
+      "completed_work": "Original T03 v0.1 schema preserved and technically validated on actual records.",
+      "remaining_condition": null
+    },
+    {
+      "task_id": "T04",
+      "week": 1,
+      "status": "completed",
+      "completed_work": "Core clean environment, tests and separate pinned CPU model environment available.",
+      "remaining_condition": null
+    },
+    {
+      "task_id": "T05",
+      "week": 1,
+      "status": "partially_completed",
+      "completed_work": "Both pretrained interfaces validated offline on fictional fixtures.",
+      "remaining_condition": "No newly cleared biological-source feasibility result."
+    },
+    {
+      "task_id": "T06",
+      "week": 1,
+      "status": "completed",
+      "completed_work": "Bounded exact-source inventory and per-record evidence replace metadata-only readiness.",
+      "remaining_condition": null
+    },
+    {
+      "task_id": "T07",
+      "week": 1,
+      "status": "partially_completed",
+      "completed_work": "Frozen endpoints retained; dependence/evidence/denominator defects corrected.",
+      "remaining_condition": "Source labels and independent reference proposal await actual delegated review."
+    },
+    {
+      "task_id": "T08",
+      "week": 1,
+      "status": "partially_completed",
+      "completed_work": "Eighteen main sources and separate genuine fusion underwent technical source QA.",
+      "remaining_condition": "No new scientific source admission or stage clearance."
+    },
+    {
+      "task_id": "T09",
+      "week": 2,
+      "status": "partially_completed",
+      "completed_work": "22 source records inspected; 18 preparatory records and four source HOLDs; versioned manifests and coverage.",
+      "remaining_condition": "150\u2013250 expansion deferred for quality; scientific dataset admission remains pending."
+    },
+    {
+      "task_id": "T10",
+      "week": 2,
+      "status": "completed",
+      "completed_work": "Content-based GenBank/FASTA ingestion, exact identities/checksums and clean failure handling validated.",
+      "remaining_condition": null
+    },
+    {
+      "task_id": "T11",
+      "week": 2,
+      "status": "completed",
+      "completed_work": "Normalized source feature tables retain qualifiers, strands, multipart coordinates and unknowns.",
+      "remaining_condition": null
+    },
+    {
+      "task_id": "T12",
+      "week": 2,
+      "status": "completed",
+      "completed_work": "Deterministic source-annotated units, provenance, model-interface preflight and metadata abstentions produced.",
+      "remaining_condition": null
+    },
+    {
+      "task_id": "T13",
+      "week": 2,
+      "status": "completed",
+      "completed_work": "Structured logs and regressions cover ingestion, provenance, determinism and scoring defects.",
+      "remaining_condition": null
+    },
+    {
+      "task_id": "T14",
+      "week": 2,
+      "status": "partially_completed",
+      "completed_work": "Stratified technical QA and unchanged T03 v0.1 schema freeze completed.",
+      "remaining_condition": "Benchmark-ready scientific panel freeze awaits source/reference clearance; supplemental fusion outside original scored scope."
+    },
+    {
+      "task_id": "T15",
+      "week": 3,
+      "status": "partially_completed",
+      "completed_work": "Existing minimally processed runner and exact model interfaces validated with software fixtures.",
+      "remaining_condition": "No real admitted baseline outputs for new panel."
+    },
+    {
+      "task_id": "T16",
+      "week": 3,
+      "status": "partially_completed",
+      "completed_work": "Existing unit runner/parent aggregation validated with fixtures and source-preparation exports.",
+      "remaining_condition": "No biological unit inference on new panel."
+    },
+    {
+      "task_id": "T17",
+      "week": 3,
+      "status": "partially_completed",
+      "completed_work": "Scoring implemented and audited; correlated-CDS, evidence classification and cost-denominator bugs fixed.",
+      "remaining_condition": "No cleared real-data scoring panel."
+    },
+    {
+      "task_id": "T18",
+      "week": 3,
+      "status": "blocked",
+      "completed_work": null,
+      "remaining_condition": "Actual panel-bound ChatGPT scientific clearance absent; no paired biological runs."
+    },
+    {
+      "task_id": "T19",
+      "week": 3,
+      "status": "partially_completed",
+      "completed_work": "Source annotation, dependence and interface limitations analyzed.",
+      "remaining_condition": "T18 empirical model error analysis unavailable."
+    },
+    {
+      "task_id": "T20",
+      "week": 3,
+      "status": "blocked",
+      "completed_work": null,
+      "remaining_condition": "Depends on T18/T19 empirical findings. Engineering fixes are not relabeled as a post-experiment preprocessing improvement."
+    },
+    {
+      "task_id": "T21",
+      "week": 3,
+      "status": "blocked",
+      "completed_work": null,
+      "remaining_condition": "No scientific before/after baseline or cleared T20 experiment."
+    },
+    {
+      "task_id": "T22",
+      "week": 4,
+      "status": "partially_completed",
+      "completed_work": "Documented one-command actual-source preparatory CLI demo works.",
+      "remaining_condition": "T21 scientific regression prerequisite remains blocked; no final scored end-to-end CLI claim."
+    },
+    {
+      "task_id": "T23",
+      "week": 4,
+      "status": "partially_completed",
+      "completed_work": "README, safe actual-source preprocessing demo and component documentation updated.",
+      "remaining_condition": "Full scientific demo awaits scoring clearance."
+    },
+    {
+      "task_id": "T24",
+      "week": 4,
+      "status": "partially_completed",
+      "completed_work": "Clean core environment, exact offline model snapshots, dependency inventories and deterministic technical reruns verified.",
+      "remaining_condition": "No clean biological benchmark rerun until T21/scientific clearance."
+    },
+    {
+      "task_id": "T25",
+      "week": 4,
+      "status": "blocked",
+      "completed_work": null,
+      "remaining_condition": "No cleared final biological benchmark."
+    },
+    {
+      "task_id": "T26",
+      "week": 4,
+      "status": "partially_completed",
+      "completed_work": "Source-level findings and bounded next steps documented.",
+      "remaining_condition": "Empirical retrieval findings remain unanswered."
+    },
+    {
+      "task_id": "T27",
+      "week": 4,
+      "status": "partially_completed",
+      "completed_work": "Technical report, reproducible artifacts and review packet prepared.",
+      "remaining_condition": "Final scored study/demo remains incomplete."
+    },
+    {
+      "task_id": "T28",
+      "week": 4,
+      "status": "partially_completed",
+      "completed_work": "Source-safe artifact checks, preserved histories and handoff delivered.",
+      "remaining_condition": "Final study cleanup depends on scientific completion."
+    }
+  ],
+  "superseded_readiness_snapshots": [
+    "README Week1 zero-source status",
+    "docs/coordination/EXPERIMENT_EXECUTION_READINESS_2026_11_10.md pre-merge snapshot",
+    "docs/runs/execution-assessment-2026-11-10 PR9-open observation (historically correct; PR9 is now merged)"
+  ],
+  "new_scientific_execution_clearance": false,
+  "frozen_workbook_modified": false
+}

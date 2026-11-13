@@ -1,0 +1,65 @@
+{
+  "artifacts_sha256": {
+    "data/manifests/week2/inputs.preparatory.json": "77cbcd1177771617c73151f33a59b9cc1763ed04a0340736af05a85a801034da",
+    "data/manifests/week2/source_review.json": "1201f720fd312a6f359674f3d50a5494a56bf98df661a2eff402304b9f742655",
+    "docs/week1/T03_archetypes_and_schema.md": "b8953b9f2834cf811c97ee32c013d7ef8b69af01ce4c0d6184f8f2ae31152196",
+    "docs/week2/qa/feature-provenance.json": "df5a624e3642fc08ed9c853b4ecc1be54526138b738987d24734ba2380485962",
+    "docs/week2/qa/fusion-report.json": "e193cfb8d2f51f0f35ba2796f5a9831b4375b53104160ecacfa9f54a678c743a",
+    "docs/week2/qa/main-report.json": "305ccc7cabf207aa8badf3930148fc8d4ada7d99cff4a9cd5922bbc9d2983254",
+    "docs/week2/qa/unit-provenance.json": "9a7f649ced8fff03f64a68e9a77fc106bff9bf60c966f1a6b0756f440868a659",
+    "scripts/curate_week2_dataset.py": "8bfd372223e98ff28d7a495f8f65c0710fa3564fa7ec3040c807af6e60572577",
+    "scripts/validate_week2.py": "3efba395e7e93cc0b0f7052d4637d86f746d07bb932a811c5d16bc21275dce85",
+    "src/iri_constructs/annotations.py": "f86f50683b45ea02487b01bb330b3f03baa3d6aae069334ec22be95b67fb465b",
+    "src/iri_constructs/bench_inputs.py": "ec9d29821577411b8691bfcbff3d5a74d255953bdbd897729071d84ae7012cdc",
+    "src/iri_constructs/dataset_curation.py": "f9d0d47a29a6634e90dfeab15a0da230d4a221a0ea035ec9a237bbe53c4f20d4",
+    "src/iri_constructs/schema_check.py": "a36ba98f94ad5b9bcd52137e39f9050ff2fd2b0184e9f3b6b10d9ef0ab52ec08",
+    "src/iri_constructs/week2_pipeline.py": "afdf5b212f42098490346c07e52468554d87323bf57132c885415280f2b919ad"
+  },
+  "determinism_runs": [
+    {
+      "byte_identical_artifacts": {
+        "annotation-audit.json": "be973567734d57ed23b045464c7c58845cde50690e5b51bda968ac6ce541e1a2",
+        "feature-provenance.json": "df5a624e3642fc08ed9c853b4ecc1be54526138b738987d24734ba2380485962",
+        "normalized.json": "21f9f7cce40ba1ceaeef8f1a2928b70c36b4e0f02d12818e69a4bbd4dd53cacf",
+        "report.json": "305ccc7cabf207aa8badf3930148fc8d4ada7d99cff4a9cd5922bbc9d2983254",
+        "unit-provenance.json": "9a7f649ced8fff03f64a68e9a77fc106bff9bf60c966f1a6b0756f440868a659",
+        "units.fasta": "90480081719e5c2da9bf9437b71935701949e46b0750812fbe1a9303c7e7dae7"
+      },
+      "content_sha256": "d01b9e4996a8299ba41096456ebde7cdd0eb6e78427e8fbebcac00bf04f2bfb1",
+      "first": "results/week2/qa-integrated-final01",
+      "input_manifest_sha256": "77cbcd1177771617c73151f33a59b9cc1763ed04a0340736af05a85a801034da",
+      "prepared_records": 18,
+      "repeat": "results/week2/qa-integrated-final02",
+      "source_features": 271,
+      "validated_source_proteins": 18
+    },
+    {
+      "byte_identical_artifacts": {
+        "annotation-audit.json": "cd5241756b6f3ec2d4528741fa7598e600d9b647484294c2fce2fad90559a331",
+        "feature-provenance.json": "db2162e52617f25a5ffb12e9e0800f8e28310aa496b4b5225d52f5be5a5e0d27",
+        "normalized.json": "f17017a116180d2a3917e6adfa5599cd3431d4921f6addaa7acbacf45a26c0cb",
+        "report.json": "e193cfb8d2f51f0f35ba2796f5a9831b4375b53104160ecacfa9f54a678c743a",
+        "unit-provenance.json": "a97bd66a6dcfd56c6a74b7a43c476df895f573b50687d6b09c9c0fa03da82457",
+        "units.fasta": "bbe6d45bbd404018ed1cba2a6d557e8637d6341326ed25378f2a5cef04c99f43"
+      },
+      "content_sha256": "be32f32e4fb76e5db724e5fe6600b931af3e2db1953354029fa8c60a92cb217d",
+      "first": "results/week2/qa-supplemental-final03",
+      "input_manifest_sha256": "480f27a78ee42aa766c6832d9d88b97ecbb9459c31535fbab158ac242925c24b",
+      "prepared_records": 1,
+      "repeat": "results/week2/qa-supplemental-final04",
+      "source_features": 27,
+      "validated_source_proteins": 1
+    }
+  ],
+  "freeze_scope": "Technical T03 representation and source-QA evidence only; not scientific/source/panel admission.",
+  "known_limits": [
+    "No new E1-E4 experimental scoring or biological model inference.",
+    "Registry indexing conventions remain unverified and source-provided translations absent.",
+    "Supplemental fusion remains outside the original scored candidate pool.",
+    "Representative model inputs and family-reference panels need actual separate scientific clearance."
+  ],
+  "new_scientific_clearance": false,
+  "original_schema_changed": false,
+  "representation_schema_version": "0.1",
+  "schema_version": "iri-week2-technical-schema-freeze-1"
+}

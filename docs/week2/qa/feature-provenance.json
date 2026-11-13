@@ -1,0 +1,5086 @@
+{
+  "evidence_kind": "preparatory_source_QA",
+  "features": [
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-278ec39841d0215c0570",
+      "feature_label": "other",
+      "location": {
+        "end0": 4818,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "b30b5674420d72bba65569018bea882d56bc0a55f7e1210448cce4c0c65fd04e",
+      "segments": [
+        {
+          "end0": 4818,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "source",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-2b561bbb7650998c97db",
+      "feature_label": "other",
+      "location": {
+        "end0": 4527,
+        "start0": 4071,
+        "strand": 1
+      },
+      "original_annotation_sha256": "bcbfad2e3bd4d77baa2dff47111fdb9dde92a20cb132c54a7a91c21eee06a486",
+      "segments": [
+        {
+          "end0": 4527,
+          "start0": 4071,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "rep_origin",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-310880b84083ebcca17a",
+      "feature_label": "other",
+      "location": {
+        "end0": 111,
+        "start0": 88,
+        "strand": -1
+      },
+      "original_annotation_sha256": "436597d37a52e03227bab36373041aa924028da2272d3ed9ab83fe80ed491dcc",
+      "segments": [
+        {
+          "end0": 111,
+          "start0": 88,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-548551b805a44290142a",
+      "feature_label": "other",
+      "location": {
+        "end0": 58,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "24a48a23d22a463c05779b57b08b706298c1518f6ac0e8b1ef1ed982b31f7473",
+      "segments": [
+        {
+          "end0": 58,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-664fd915e3fb13501605",
+      "feature_label": "other",
+      "location": {
+        "end0": 1993,
+        "start0": 1771,
+        "strand": 1
+      },
+      "original_annotation_sha256": "3b1e9e2a53f6993917ea448aa82617c321b75501d77cc07ee90b54a25239d748",
+      "segments": [
+        {
+          "end0": 1993,
+          "start0": 1771,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-67f7926c47ef0eb1c7fd",
+      "feature_label": "other",
+      "location": {
+        "end0": 2318,
+        "start0": 2317,
+        "strand": 1
+      },
+      "original_annotation_sha256": "66b2656ee8bbf92933dc740b0b5c648795dbbf323722705f227d55badfb83e5d",
+      "segments": [
+        {
+          "end0": 2318,
+          "start0": 2317,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "rep_origin",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-7ca9e56da8de31519f12",
+      "feature_label": "other",
+      "location": {
+        "end0": 2080,
+        "start0": 2060,
+        "strand": -1
+      },
+      "original_annotation_sha256": "2c14f7dc5e7368dc1485097739397b55ea7e0d3a656998795eb3a03c0e217fb3",
+      "segments": [
+        {
+          "end0": 2080,
+          "start0": 2060,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-86f9a78d7000acc946cb",
+      "feature_label": "other",
+      "location": {
+        "end0": 3940,
+        "start0": 3079,
+        "strand": -1
+      },
+      "original_annotation_sha256": "08c6973b69ddb646c8130d6c3632d122c2692266928c5f49b8520a2d2a4d2b04",
+      "segments": [
+        {
+          "end0": 3940,
+          "start0": 3079,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-b2052ad5b0d017c1f14c",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 1740,
+        "start0": 87,
+        "strand": 1
+      },
+      "original_annotation_sha256": "f7e9b414920c4b7acd2bfe2841aa4207f3eac3328243e356c63b68e404841dd5",
+      "segments": [
+        {
+          "end0": 1740,
+          "start0": 87,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-ba63004675712b9101a4",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 3940,
+        "start0": 3079,
+        "strand": -1
+      },
+      "original_annotation_sha256": "5b9ea8c3947bddb8b99283b92c4b280e2f6b7f0f243ada29503fdc7213b763db",
+      "segments": [
+        {
+          "end0": 3940,
+          "start0": 3079,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-c574fe21ec7a9dd3913f",
+      "feature_label": "other",
+      "location": {
+        "end0": 4779,
+        "start0": 4759,
+        "strand": 1
+      },
+      "original_annotation_sha256": "cb62615ce6419a57f33dce29a416b7abe611fef2c7df077bc086a341634f7fa1",
+      "segments": [
+        {
+          "end0": 4779,
+          "start0": 4759,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-e0cb7feb8769dfb8d7f5",
+      "feature_label": "other",
+      "location": {
+        "end0": 4811,
+        "start0": 4657,
+        "strand": 1
+      },
+      "original_annotation_sha256": "6678f1edf1d0306a5a844813f7fa87335b20a92084425a0ac9bd76ac9bc5b3ab",
+      "segments": [
+        {
+          "end0": 4811,
+          "start0": 4657,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47295.2-f-f47ff9b64eb76eb9810f",
+      "feature_label": "other",
+      "location": {
+        "end0": 1740,
+        "start0": 87,
+        "strand": 1
+      },
+      "original_annotation_sha256": "6231400340ee80ef0339702b8b07079f29803e4148e268904798219e2f9f9b3a",
+      "segments": [
+        {
+          "end0": 1740,
+          "start0": 87,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-U47295.2",
+      "source_sha256": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-18401871360b28362cc3",
+      "feature_label": "other",
+      "location": {
+        "end0": 5256,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "5a1f2d7fe444aed23965d54f1888221d6868ef7810c7d430632eaa5e625f43ef",
+      "segments": [
+        {
+          "end0": 5256,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "source",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-1ccddd0981759113c14a",
+      "feature_label": "other",
+      "location": {
+        "end0": 1932,
+        "start0": 279,
+        "strand": 1
+      },
+      "original_annotation_sha256": "d75063105ce3e11936474b738c039c3048ac713e26683ab201dcdb65814e0a97",
+      "segments": [
+        {
+          "end0": 1932,
+          "start0": 279,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-1f6999599680ecadced2",
+      "feature_label": "other",
+      "location": {
+        "end0": 41,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "d84f82e14e694206dc35a260c0eaeba613f018aeb885b6662aa2a00149f35dd6",
+      "segments": [
+        {
+          "end0": 41,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-242c3cbdb7d75f382cfe",
+      "feature_label": "other",
+      "location": {
+        "end0": 2441,
+        "start0": 2204,
+        "strand": 1
+      },
+      "original_annotation_sha256": "639f74c6572ea16c49a06999df0d8b883a2da812c4430a691adb31ccdb2ab6d2",
+      "segments": [
+        {
+          "end0": 2441,
+          "start0": 2204,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-4762bfc447b8a0f04f42",
+      "feature_label": "other",
+      "location": {
+        "end0": 4965,
+        "start0": 4509,
+        "strand": 1
+      },
+      "original_annotation_sha256": "3f6bb6ace8cdbea1cb724460841c4e7451fa72ed4871c437c41a05c575dd3c3d",
+      "segments": [
+        {
+          "end0": 4965,
+          "start0": 4509,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "rep_origin",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-6b3fd2bcc704e7dfb9b4",
+      "feature_label": "other",
+      "location": {
+        "end0": 2185,
+        "start0": 1963,
+        "strand": 1
+      },
+      "original_annotation_sha256": "e56508abadfefbd7aa4dcda78e42998aadb38289557bbe98099755abaae8e03a",
+      "segments": [
+        {
+          "end0": 2185,
+          "start0": 1963,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-7410ab15e8eee700c6fa",
+      "feature_label": "other",
+      "location": {
+        "end0": 2518,
+        "start0": 2498,
+        "strand": -1
+      },
+      "original_annotation_sha256": "44b9715a85481c7a6b636abb15ef5a74021148bdc9749151439c77099daf1909",
+      "segments": [
+        {
+          "end0": 2518,
+          "start0": 2498,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-7493de6d8b0be62c1bd6",
+      "feature_label": "other",
+      "location": {
+        "end0": 303,
+        "start0": 280,
+        "strand": -1
+      },
+      "original_annotation_sha256": "7a777bdf9aa6a86ed47ea78f46e0e2915efeb2dead1379a1c3199ef2a0d6003d",
+      "segments": [
+        {
+          "end0": 303,
+          "start0": 280,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-77ab90493b42e6f7e4e7",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 4378,
+        "start0": 3517,
+        "strand": -1
+      },
+      "original_annotation_sha256": "930cfb67f4aaee16edf6bdc24dee3cd6dafcde6234a8a29902d4238a7b2af644",
+      "segments": [
+        {
+          "end0": 4378,
+          "start0": 3517,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-8f8e04ebe18e13889841",
+      "feature_label": "other",
+      "location": {
+        "end0": 5217,
+        "start0": 5197,
+        "strand": 1
+      },
+      "original_annotation_sha256": "5aafaaa854aa399cacd067fc2e0bfe7c72d0dce13da6ff82b230fa3405382635",
+      "segments": [
+        {
+          "end0": 5217,
+          "start0": 5197,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-a5e86473540e906f60e5",
+      "feature_label": "other",
+      "location": {
+        "end0": 250,
+        "start0": 47,
+        "strand": 1
+      },
+      "original_annotation_sha256": "bb5fb4becf7c2b2beff6d0ce2a2f20d65d3eb7908b5913e26abaf6722621ad4a",
+      "segments": [
+        {
+          "end0": 250,
+          "start0": 47,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-bfa2754df4354e92b94b",
+      "feature_label": "other",
+      "location": {
+        "end0": 5249,
+        "start0": 5095,
+        "strand": 1
+      },
+      "original_annotation_sha256": "4fc5bcfcfa750daebca083d7116b40f33393eaf0864fbac00b52af666872f7e2",
+      "segments": [
+        {
+          "end0": 5249,
+          "start0": 5095,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-c0db6bc7eefb344ce918",
+      "feature_label": "other",
+      "location": {
+        "end0": 2756,
+        "start0": 2755,
+        "strand": 1
+      },
+      "original_annotation_sha256": "5d5d262eb0abadd76541d9e773f9decfd8cc1b7e1000d24fc3616c17eeb0ada8",
+      "segments": [
+        {
+          "end0": 2756,
+          "start0": 2755,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "rep_origin",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-c9d2927018255ccfba74",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 1932,
+        "start0": 279,
+        "strand": 1
+      },
+      "original_annotation_sha256": "1e6d08796908f6442e8a255934d77f6bdce899ddc275e413e31d404466735ff3",
+      "segments": [
+        {
+          "end0": 1932,
+          "start0": 279,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U47296.2-f-f5ce8f4040909927f009",
+      "feature_label": "other",
+      "location": {
+        "end0": 4378,
+        "start0": 3517,
+        "strand": -1
+      },
+      "original_annotation_sha256": "066f032c99b064f7a17f7efcd47b8f0ca98fb906dadc01b6ec5c95b623bf0a58",
+      "segments": [
+        {
+          "end0": 4378,
+          "start0": 3517,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-U47296.2",
+      "source_sha256": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-07525329ea56eb6e4788",
+      "feature_label": "other",
+      "location": {
+        "end0": 70,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "f5ba8075802e21251065d955966d40f5d3c472e7c784ede4c13908798bdc1b50",
+      "segments": [
+        {
+          "end0": 70,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-17258fd06d63683432b9",
+      "feature_label": "other",
+      "location": {
+        "end0": 5089,
+        "start0": 5069,
+        "strand": 1
+      },
+      "original_annotation_sha256": "6ec2319eebf6815cb44bd8c9be6863832f8c577e3770964c162c483e85a205e3",
+      "segments": [
+        {
+          "end0": 5089,
+          "start0": 5069,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-25b9427658cf5ca9c6cd",
+      "feature_label": "other",
+      "location": {
+        "end0": 1754,
+        "start0": 1335,
+        "strand": 1
+      },
+      "original_annotation_sha256": "d0682080953af2dc8dff5799190df9e0268305a2b7710b6b859224de23b06e5e",
+      "segments": [
+        {
+          "end0": 1754,
+          "start0": 1335,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-5c6ce0b28d34f5c623be",
+      "feature_label": "other",
+      "location": {
+        "end0": 5121,
+        "start0": 4967,
+        "strand": 1
+      },
+      "original_annotation_sha256": "73ce6205116235a749cdc369ea4fc1d2ad808e225ab4da39726b218e1ed4b478",
+      "segments": [
+        {
+          "end0": 5121,
+          "start0": 4967,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-77a3372e7becd2a8ce92",
+      "feature_label": "other",
+      "location": {
+        "end0": 2888,
+        "start0": 2839,
+        "strand": 1
+      },
+      "original_annotation_sha256": "2f6c3e80f5b2e8751349e07c38bc72168bb69d25ae839883562cf7838fd8dc60",
+      "segments": [
+        {
+          "end0": 2888,
+          "start0": 2839,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-8146fca844786658ea8d",
+      "feature_label": "other",
+      "location": {
+        "end0": 5121,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "be420a7f14dca220fbb6c94095bcd26a08f63ad4b0a3869442fe1e98c31251cd",
+      "segments": [
+        {
+          "end0": 5121,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "source",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-8b6f9f1e3735160bf981",
+      "feature_label": "other",
+      "location": {
+        "end0": 1288,
+        "start0": 1066,
+        "strand": 1
+      },
+      "original_annotation_sha256": "6c3dd297e8dda6280b2dfa28e02bcc92695895f19a62075efeee5af3008c1dd3",
+      "segments": [
+        {
+          "end0": 1288,
+          "start0": 1066,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-ac0375874a9094848d8c",
+      "feature_label": "other",
+      "location": {
+        "end0": 3212,
+        "start0": 3211,
+        "strand": 1
+      },
+      "original_annotation_sha256": "dfa0c4a9e9ac35b190dc504120c01ae8f951fce2d69237f9d50390f52f25ace4",
+      "segments": [
+        {
+          "end0": 3212,
+          "start0": 3211,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "rep_origin",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-b938a4ebef482f176b6b",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 4863,
+        "start0": 4002,
+        "strand": -1
+      },
+      "original_annotation_sha256": "3400d8ada424f9c1d808880540dc7b3c0d70a3daa24bc68c8d51992832de5a50",
+      "segments": [
+        {
+          "end0": 4863,
+          "start0": 4002,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-cfa1199e479fa95e41ed",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 1035,
+        "start0": 99,
+        "strand": 1
+      },
+      "original_annotation_sha256": "f5eba517cdbbc1b77380ac53fd31a0f3160193063c757004ecd136af5c09e7c5",
+      "segments": [
+        {
+          "end0": 1035,
+          "start0": 99,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-d0ee4e6a2cae977cf1cf",
+      "feature_label": "other",
+      "location": {
+        "end0": 2974,
+        "start0": 2954,
+        "strand": 1
+      },
+      "original_annotation_sha256": "596a0cde15268fc2c000a6e531087909345e8371d4ceb010899e9cfc5769716b",
+      "segments": [
+        {
+          "end0": 2974,
+          "start0": 2954,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY864931.1-f-d25311bb87a27321f139",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 2816,
+        "start0": 1778,
+        "strand": 1
+      },
+      "original_annotation_sha256": "593dcc1ba68fe01325fa7ffa3f5e73d48efc4d95c1bfff95e513966e7721bab9",
+      "segments": [
+        {
+          "end0": 2816,
+          "start0": 1778,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-AY864931.1",
+      "source_sha256": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U55762.1-f-01230382ab7a13de2ead",
+      "feature_label": "other",
+      "location": {
+        "end0": 1398,
+        "start0": 678,
+        "strand": 1
+      },
+      "original_annotation_sha256": "206af9fb253e8fad0eb3b650b27ce36da25c952fc3bda65d92ed1f3500c5d25d",
+      "segments": [
+        {
+          "end0": 1398,
+          "start0": 678,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-U55762.1",
+      "source_sha256": "bf6a633fce38b828ed369628f45bed5755db623fac938772bcf9efd3f5f2481d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U55762.1-f-19863cb9a9722e562f34",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 1398,
+        "start0": 678,
+        "strand": 1
+      },
+      "original_annotation_sha256": "6b85824f8c0ee8fd770c9677e2296c860b81911b60ced1cab69566ea0299e230",
+      "segments": [
+        {
+          "end0": 1398,
+          "start0": 678,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-U55762.1",
+      "source_sha256": "bf6a633fce38b828ed369628f45bed5755db623fac938772bcf9efd3f5f2481d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U55762.1-f-248f4d9d245939bf9434",
+      "feature_label": "other",
+      "location": {
+        "end0": 4733,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "c1cbbdf1fe01bdc98f2d210e58453229738ed1d056f807a9bafca9f0fbcdd9a3",
+      "segments": [
+        {
+          "end0": 4733,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "source",
+      "source_id": "ncbi-U55762.1",
+      "source_sha256": "bf6a633fce38b828ed369628f45bed5755db623fac938772bcf9efd3f5f2481d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-U55762.1-f-70faa03334048bef16be",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 3423,
+        "start0": 2628,
+        "strand": 1
+      },
+      "original_annotation_sha256": "8dc69c780d5d98a42fb5ab06ae2e15415aaa0b94bfc1e3a865da000d35fbdde6",
+      "segments": [
+        {
+          "end0": 3423,
+          "start0": 2628,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-U55762.1",
+      "source_sha256": "bf6a633fce38b828ed369628f45bed5755db623fac938772bcf9efd3f5f2481d"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY738222.1-f-4294ef4e46ceeee6d193",
+      "feature_label": "other",
+      "location": {
+        "end0": 2008,
+        "start0": 1786,
+        "strand": 1
+      },
+      "original_annotation_sha256": "849e9eaaa513ebb823aefacab95c4349da9fd51de9ee3548bd81a1eb708de502",
+      "segments": [
+        {
+          "end0": 2008,
+          "start0": 1786,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-AY738222.1",
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY738222.1-f-46a80b46eac2f7038fca",
+      "feature_label": "other",
+      "location": {
+        "end0": 70,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "04cab461630fee8f9ebd982b9b1660a4bf0d15cb9c1833a095f37cfa7e871801",
+      "segments": [
+        {
+          "end0": 70,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-AY738222.1",
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY738222.1-f-712ee3802bcef845a77d",
+      "feature_label": "other",
+      "location": {
+        "end0": 4242,
+        "start0": 4088,
+        "strand": 1
+      },
+      "original_annotation_sha256": "430539b10ced1fd26c1641ebc5d8af3fe528401f894d91b03161600a7ae91d52",
+      "segments": [
+        {
+          "end0": 4242,
+          "start0": 4088,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-AY738222.1",
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY738222.1-f-76af0672b42c805231fe",
+      "feature_label": "other",
+      "location": {
+        "end0": 3984,
+        "start0": 3123,
+        "strand": -1
+      },
+      "original_annotation_sha256": "d87ce4fc3ce3a0a3613272c234a1428b392c045931a19aacf3943ce6e9f36c4a",
+      "segments": [
+        {
+          "end0": 3984,
+          "start0": 3123,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-AY738222.1",
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY738222.1-f-9135892e4732286155be",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 1752,
+        "start0": 99,
+        "strand": 1
+      },
+      "original_annotation_sha256": "cca98d11ab0c071770c4d6da6584dce788adf09cf200c453254fbbecc6c5b8f0",
+      "segments": [
+        {
+          "end0": 1752,
+          "start0": 99,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-AY738222.1",
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY738222.1-f-bbdba04a67333ae13a32",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 3984,
+        "start0": 3123,
+        "strand": -1
+      },
+      "original_annotation_sha256": "846e71242733ded7d6ddafcbf8f2bf6c1823f6b1698872c57f77fe3d042b0b7e",
+      "segments": [
+        {
+          "end0": 3984,
+          "start0": 3123,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-AY738222.1",
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY738222.1-f-cbe29257c65e42940239",
+      "feature_label": "other",
+      "location": {
+        "end0": 2095,
+        "start0": 2075,
+        "strand": 1
+      },
+      "original_annotation_sha256": "f4727572c9237ec88700799e40d9b61d7fb98812260daeef83cd3cce3e9ab107",
+      "segments": [
+        {
+          "end0": 2095,
+          "start0": 2075,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-AY738222.1",
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY738222.1-f-dd6888a095f2d33d66fb",
+      "feature_label": "other",
+      "location": {
+        "end0": 2333,
+        "start0": 2332,
+        "strand": 1
+      },
+      "original_annotation_sha256": "d94265a625f257da15412eeddf4546660903620f84f93a3b7c24fab4c694a6f7",
+      "segments": [
+        {
+          "end0": 2333,
+          "start0": 2332,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "rep_origin",
+      "source_id": "ncbi-AY738222.1",
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY738222.1-f-fbcf08339579bb6dacf7",
+      "feature_label": "other",
+      "location": {
+        "end0": 4242,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "034424965ca4f2a7dd00fdb3b70764306f61d70df3a503d11b56963c0242b217",
+      "segments": [
+        {
+          "end0": 4242,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "source",
+      "source_id": "ncbi-AY738222.1",
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AY738222.1-f-feedc9a4a4de439094d1",
+      "feature_label": "other",
+      "location": {
+        "end0": 4210,
+        "start0": 4190,
+        "strand": -1
+      },
+      "original_annotation_sha256": "f4edb13bd61e90b15ec26bd5609773e8195b40e67b823bcd4ef025d7161e59d6",
+      "segments": [
+        {
+          "end0": 4210,
+          "start0": 4190,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-AY738222.1",
+      "source_sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AF298787.1-f-036e9d3cdc9d09cdb207",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 1220,
+        "start0": 416,
+        "strand": 1
+      },
+      "original_annotation_sha256": "37a1c9dd197790b0ac189d138b4eb9bc588e0a25a1b67d811bc2d41b739e8288",
+      "segments": [
+        {
+          "end0": 1220,
+          "start0": 416,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-AF298787.1",
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AF298787.1-f-128db72495fa706eb586",
+      "feature_label": "other",
+      "location": {
+        "end0": 3443,
+        "start0": 3050,
+        "strand": 1
+      },
+      "original_annotation_sha256": "9807c540fb3e74d271a6481dce3a7694c7371895bc105c813ac7e9cd3d169144",
+      "segments": [
+        {
+          "end0": 3443,
+          "start0": 3050,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-AF298787.1",
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AF298787.1-f-53c11621dad14f5e3030",
+      "feature_label": "other",
+      "location": {
+        "end0": 2987,
+        "start0": 2270,
+        "strand": -1
+      },
+      "original_annotation_sha256": "5ec99ed46c3d2a29912ac306d19ee9ba1073659c6bbf7247f63c31d2a313ac4f",
+      "segments": [
+        {
+          "end0": 2987,
+          "start0": 2270,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-AF298787.1",
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AF298787.1-f-5f394a3005e11284ac0e",
+      "feature_label": "other",
+      "location": {
+        "end0": 6170,
+        "start0": 5655,
+        "strand": 1
+      },
+      "original_annotation_sha256": "6ff20263fb05d62a844e2d2e7686dfb2ca6fb51956d145dd18e45dd7fbefc223",
+      "segments": [
+        {
+          "end0": 6170,
+          "start0": 5655,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-AF298787.1",
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AF298787.1-f-9b8d7cd448a9915de384",
+      "feature_label": "other",
+      "location": {
+        "end0": 5517,
+        "start0": 4656,
+        "strand": -1
+      },
+      "original_annotation_sha256": "3ca19a766a69fc00b584f4cf09025ee94dfcfb43698c10997ec0ff864d5b3c37",
+      "segments": [
+        {
+          "end0": 5517,
+          "start0": 4656,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-AF298787.1",
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AF298787.1-f-b28bb5f8ec08642bd785",
+      "feature_label": "other",
+      "location": {
+        "end0": 6231,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "47eacf645043eb88157047609e4cfd0c34e59aa69d22c492dcaf958f886a0d60",
+      "segments": [
+        {
+          "end0": 6231,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "source",
+      "source_id": "ncbi-AF298787.1",
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AF298787.1-f-b54441f7c6a3d2221947",
+      "feature_label": "other",
+      "location": {
+        "end0": 1220,
+        "start0": 416,
+        "strand": 1
+      },
+      "original_annotation_sha256": "cb1c354b063862bc91ad5cb49c697a0f9746591c4d437f9b12790f3ff277e7e4",
+      "segments": [
+        {
+          "end0": 1220,
+          "start0": 416,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-AF298787.1",
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AF298787.1-f-c80b408e73adb44885d7",
+      "feature_label": "other",
+      "location": {
+        "end0": 2262,
+        "start0": 2003,
+        "strand": 1
+      },
+      "original_annotation_sha256": "0e21b447d8785e424bd28e6f0e24c705592c0acc33c4a7420ef16061f0fc2c2a",
+      "segments": [
+        {
+          "end0": 2262,
+          "start0": 2003,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-AF298787.1",
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AF298787.1-f-e83ed134adfbf57f9c95",
+      "feature_label": "other",
+      "location": {
+        "end0": 3954,
+        "start0": 3881,
+        "strand": 1
+      },
+      "original_annotation_sha256": "6c5ed9d701b1ef0acac26cfc7d1c2e44400882062b91a66943d900ebc8c999bc",
+      "segments": [
+        {
+          "end0": 3954,
+          "start0": 3881,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "rep_origin",
+      "source_id": "ncbi-AF298787.1",
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AF298787.1-f-eb7f4497fb14c5bda714",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 2987,
+        "start0": 2270,
+        "strand": -1
+      },
+      "original_annotation_sha256": "ee863abd3fcfe30219ac00a0aaf1ef878a8a8903ebfbaeced2e3d41338b99451",
+      "segments": [
+        {
+          "end0": 2987,
+          "start0": 2270,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-AF298787.1",
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-AF298787.1-f-ef946cc14dacd09a8980",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 5517,
+        "start0": 4656,
+        "strand": -1
+      },
+      "original_annotation_sha256": "04620eba9fff7d9b2d0b1acdf95e6189897024bdc7f004e77ed4c4a241a5a32b",
+      "segments": [
+        {
+          "end0": 5517,
+          "start0": 4656,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-AF298787.1",
+      "source_sha256": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-JX560321.2-f-139d46592fb30d8a7eec",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 1274,
+        "start0": 413,
+        "strand": 1
+      },
+      "original_annotation_sha256": "b84e0d37375c4c5418e853d87d860a3e69c62862c47eaf56c3c1a17ff76d6375",
+      "segments": [
+        {
+          "end0": 1274,
+          "start0": 413,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-JX560321.2",
+      "source_sha256": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-JX560321.2-f-1ef5cd2dab16f4f22c9f",
+      "feature_label": "other",
+      "location": {
+        "end0": 144,
+        "start0": 120,
+        "strand": -1
+      },
+      "original_annotation_sha256": "6edd2425ebab2d485e04026641e6526e5bf9249368a8bb29bb0ad742bb92cbd6",
+      "segments": [
+        {
+          "end0": 144,
+          "start0": 120,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-JX560321.2",
+      "source_sha256": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-JX560321.2-f-3db8a5293bd2dec04c44",
+      "feature_label": "other",
+      "location": {
+        "end0": 2093,
+        "start0": 1988,
+        "strand": 1
+      },
+      "original_annotation_sha256": "4b2142e6c3fcf0fd652e4fdd1baa7fbd2fddef68e2736194971c7dc20ad9f870",
+      "segments": [
+        {
+          "end0": 2093,
+          "start0": 1988,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-JX560321.2",
+      "source_sha256": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-JX560321.2-f-77a03164df78635befb0",
+      "feature_label": "other",
+      "location": {
+        "end0": 1974,
+        "start0": 1582,
+        "strand": 1
+      },
+      "original_annotation_sha256": "57a0dc7d2aa36170b5f08c873fcfaaf0e1d95c95cb3197b2884badfdb414dd3f",
+      "segments": [
+        {
+          "end0": 1974,
+          "start0": 1582,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "rep_origin",
+      "source_id": "ncbi-JX560321.2",
+      "source_sha256": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-JX560321.2-f-87ae4a23686ecba0ef7a",
+      "feature_label": "other",
+      "location": {
+        "end0": 2094,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "5977fddc6ae3efa4f2e2e9c685e03fe0e43f14fd8776874ec3f955a834a89588",
+      "segments": [
+        {
+          "end0": 2094,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "source",
+      "source_id": "ncbi-JX560321.2",
+      "source_sha256": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-JX560321.2-f-9aa9970cc5ebefa2bd5b",
+      "feature_label": "other",
+      "location": {
+        "end0": 253,
+        "start0": 150,
+        "strand": 1
+      },
+      "original_annotation_sha256": "9a5cfd9aa97ff82e5cac095d3779936776bd9b6dac720808a8233ab22548a161",
+      "segments": [
+        {
+          "end0": 253,
+          "start0": 150,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-JX560321.2",
+      "source_sha256": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-JX560321.2-f-9fbdf8d79d39db7499e5",
+      "feature_label": "other",
+      "location": {
+        "end0": 1274,
+        "start0": 413,
+        "strand": 1
+      },
+      "original_annotation_sha256": "15bd8b4468ed321be333778d51804a7b1030138b64154a2f1ef79eb5dd90eecc",
+      "segments": [
+        {
+          "end0": 1274,
+          "start0": 413,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-JX560321.2",
+      "source_sha256": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-JX560321.2-f-b4ffea9621015dafe1e9",
+      "feature_label": "other",
+      "location": {
+        "end0": 1574,
+        "start0": 1328,
+        "strand": 1
+      },
+      "original_annotation_sha256": "80ae94332dde46887bf930554b361433b58386b5c594532e8eee3022b8e22e03",
+      "segments": [
+        {
+          "end0": 1574,
+          "start0": 1328,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-JX560321.2",
+      "source_sha256": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-JX560321.2-f-fec3dddbd48603953ce6",
+      "feature_label": "other",
+      "location": {
+        "end0": 32,
+        "start0": 8,
+        "strand": 1
+      },
+      "original_annotation_sha256": "df40d245caa6a927dd3a9fa91ee8c509d4f5fd09574f79ab7c91e7df5b70bbea",
+      "segments": [
+        {
+          "end0": 32,
+          "start0": 8,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "primer_bind",
+      "source_id": "ncbi-JX560321.2",
+      "source_sha256": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-05175a75cdf50c8b72d3",
+      "feature_label": "other",
+      "location": {
+        "end0": 4361,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "7ab4f34a58c26f0f9df9a96c3a5226fb50e72117ee9cb4ca8730fc18514ff0f0",
+      "segments": [
+        {
+          "end0": 4361,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "source",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-0dc1f66ccccd06661e2e",
+      "feature_label": "other",
+      "location": {
+        "end0": 4299,
+        "start0": 4295,
+        "strand": -1
+      },
+      "original_annotation_sha256": "9d005a46b1579334c8b2b1c3b4f0662a0b5a68481f1e824851bd73d3280e338f",
+      "segments": [
+        {
+          "end0": 4299,
+          "start0": 4295,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-104bdccff81d43812af1",
+      "feature_label": "other",
+      "location": {
+        "end0": 4361,
+        "start0": 3147,
+        "strand": 1
+      },
+      "original_annotation_sha256": "51c52815b1c6b65eba553ba01b64d2b96e8e19d05a29c14c5ae8711000bd5837",
+      "segments": [
+        {
+          "end0": 4361,
+          "start0": 3147,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "mobile_element",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-108ccc96e3691e32f793",
+      "feature_label": "other",
+      "location": {
+        "end0": 426,
+        "start0": 425,
+        "strand": 1
+      },
+      "original_annotation_sha256": "8f3b07e9116f68fcba3ed4bd40c24cec5c797b19da1bbb75073c55cf9e2cc1b8",
+      "segments": [
+        {
+          "end0": 426,
+          "start0": 425,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_difference",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-17b8caf57fce177ec89f",
+      "feature_label": "other",
+      "location": {
+        "end0": 4288,
+        "start0": 4284,
+        "strand": -1
+      },
+      "original_annotation_sha256": "9cfb9f75bdb9902324f85acd8f5f9c88022e539a17f8eade84513711b250e70d",
+      "segments": [
+        {
+          "end0": 4288,
+          "start0": 4284,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-1fc78f674f6d319000cf",
+      "feature_label": "other",
+      "location": {
+        "end0": 2730,
+        "start0": 2729,
+        "strand": 1
+      },
+      "original_annotation_sha256": "8e577a62b91bfc0c14e39f849c42310dd450cbcdc74e777177704d4cfed0a886",
+      "segments": [
+        {
+          "end0": 2730,
+          "start0": 2729,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "old_sequence",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-2a2c0ec4ade13c348dfb",
+      "feature_label": "other",
+      "location": {
+        "end0": 4165,
+        "start0": 4160,
+        "strand": -1
+      },
+      "original_annotation_sha256": "25d021971e2bb83b1264bd0e543acc4662d9ece9009b069e9edb872d0ad6b6f8",
+      "segments": [
+        {
+          "end0": 4165,
+          "start0": 4160,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-2c45fd88491f165e6744",
+      "feature_label": "other",
+      "location": {
+        "end0": 4271,
+        "start0": 4267,
+        "strand": -1
+      },
+      "original_annotation_sha256": "af6f1e44b5071e86f61a4c7ee08ba4d1e8830f83110c992f9bd832365f198721",
+      "segments": [
+        {
+          "end0": 4271,
+          "start0": 4267,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-3217f1c79a6a2460c330",
+      "feature_label": "other",
+      "location": {
+        "end0": 2249,
+        "start0": 2244,
+        "strand": -1
+      },
+      "original_annotation_sha256": "4c3708c1e8847fa90d20ed3a2d9b52ddf84cb2e19962fcdaa5578548ad00cf73",
+      "segments": [
+        {
+          "end0": 2249,
+          "start0": 2244,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "repeat_region",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-345c23f2aa6c0ecec1f4",
+      "feature_label": "other",
+      "location": {
+        "end0": 4283,
+        "start0": 4279,
+        "strand": -1
+      },
+      "original_annotation_sha256": "f177d84295b1e1ca582542b745b183739119108654bedf136e9e00ef0bfb31f7",
+      "segments": [
+        {
+          "end0": 4283,
+          "start0": 4279,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-45fec3a34a1435f32eee",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 2106,
+        "start0": 1914,
+        "strand": 1
+      },
+      "original_annotation_sha256": "5f0e4563fc6546c7a88f4e2e7914cee8d06befd10b7b14f67a9089cfca7b6205",
+      "segments": [
+        {
+          "end0": 2106,
+          "start0": 1914,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-47a34525075cda11f6f2",
+      "feature_label": "other",
+      "location": {
+        "end0": 472,
+        "start0": 468,
+        "strand": 1
+      },
+      "original_annotation_sha256": "0780646b5829fa2be65c77ef06f0c3f0d7ebb29c777878304789e69c9be9c176",
+      "segments": [
+        {
+          "end0": 472,
+          "start0": 468,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-4dc736e31e977e01c95d",
+      "feature_label": "other",
+      "location": {
+        "end0": 4153,
+        "start0": 3292,
+        "strand": -1
+      },
+      "original_annotation_sha256": "d8c2e6048035e81a201f27f8f1dd1e4ea3db14267b72636a89d1d9d9fc8949b3",
+      "segments": [
+        {
+          "end0": 4153,
+          "start0": 3292,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-521b9ddbdf5abf7517e6",
+      "feature_label": "other",
+      "location": {
+        "end0": 1276,
+        "start0": 85,
+        "strand": 1
+      },
+      "original_annotation_sha256": "d51f330d16a6af3862e4574d80e032f057156351331590ecc61fc70afdaa073b",
+      "segments": [
+        {
+          "end0": 1276,
+          "start0": 85,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "gene",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-524f34cc6edef95ca7fd",
+      "feature_label": "other",
+      "location": {
+        "end0": 2535,
+        "start0": 2534,
+        "strand": 1
+      },
+      "original_annotation_sha256": "15fb2c0ee22d548a99b8a6e3cfb14ce22e7e5d71ea066cc111050a96a9cd5628",
+      "segments": [
+        {
+          "end0": 2535,
+          "start0": 2534,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "rep_origin",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-56161a8483665f29ff5d",
+      "feature_label": "other",
+      "location": {
+        "end0": 1914,
+        "start0": 1912,
+        "strand": 1
+      },
+      "original_annotation_sha256": "ff7ece0c911f8eb9add406c0c7454eebd7cc807d2218cc18fa44684cfd4eab8e",
+      "segments": [
+        {
+          "end0": 1914,
+          "start0": 1912,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_difference",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-5a49cc6d3325caffd7dd",
+      "feature_label": "other",
+      "location": {
+        "end0": 2414,
+        "start0": 2350,
+        "strand": -1
+      },
+      "original_annotation_sha256": "9f174ee6e7c074cdda58941f536e8b0b657846e22923876208832f01afab1d35",
+      "segments": [
+        {
+          "end0": 2414,
+          "start0": 2350,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-64d2ebed8b1795ab2bc2",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 1276,
+        "start0": 85,
+        "strand": 1
+      },
+      "original_annotation_sha256": "e82f926a96a2269dc5444adcdb24f48a667db927c8d5a25656fee0fef9ea4680",
+      "segments": [
+        {
+          "end0": 1276,
+          "start0": 85,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-6c70262644b8bb6a0298",
+      "feature_label": "other",
+      "location": {
+        "end0": 49,
+        "start0": 42,
+        "strand": 1
+      },
+      "original_annotation_sha256": "c12d1532197457999c3fec55cc4ba83ca78cd5178d4042b28bce8e3505ecfd87",
+      "segments": [
+        {
+          "end0": 49,
+          "start0": 42,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-6ddc35e6d8255f57141a",
+      "feature_label": "other",
+      "location": {
+        "end0": 1792,
+        "start0": 1787,
+        "strand": -1
+      },
+      "original_annotation_sha256": "4eb30c634783f0e25e96cba377dd00fe1b17d96886e96c45f41a1506b79a5dbd",
+      "segments": [
+        {
+          "end0": 1792,
+          "start0": 1787,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "repeat_region",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-709a0886d9fae4a03d5a",
+      "feature_label": "other",
+      "location": {
+        "end0": 1893,
+        "start0": 1891,
+        "strand": 1
+      },
+      "original_annotation_sha256": "cd12157a28b3be8f3ecf17efd7628b3c06a23112e1871130ec0e5eda5b88b344",
+      "segments": [
+        {
+          "end0": 1893,
+          "start0": 1891,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "old_sequence",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-79198d948da952c6753e",
+      "feature_label": "other",
+      "location": {
+        "end0": 4334,
+        "start0": 4330,
+        "strand": -1
+      },
+      "original_annotation_sha256": "e20a3d11bcf66c22c7528694e71acd9c359aee79094b2cf47ff824e3777a648b",
+      "segments": [
+        {
+          "end0": 4334,
+          "start0": 4330,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-79b898166b64be6dc947",
+      "feature_label": "other",
+      "location": {
+        "end0": 4320,
+        "start0": 4316,
+        "strand": -1
+      },
+      "original_annotation_sha256": "75cedba264e313321960bc39a40432bc119f135e27eed76e8ea00ab687f49bc2",
+      "segments": [
+        {
+          "end0": 4320,
+          "start0": 4316,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-7a5b0076baf275465759",
+      "feature_label": "other",
+      "location": {
+        "end0": 1909,
+        "start0": 1904,
+        "strand": 1
+      },
+      "original_annotation_sha256": "f3421c52187c7d63d0705767bf5165eaf7280250aabb03c88f02ed571e215fdc",
+      "segments": [
+        {
+          "end0": 1909,
+          "start0": 1904,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-7f5813a278aefd5e9c4b",
+      "feature_label": "other",
+      "location": {
+        "end0": 3185,
+        "start0": 3147,
+        "strand": 1
+      },
+      "original_annotation_sha256": "f483a62332b3f828edc021da40e572d9f3c8b3d5e1c37df7c3c0ea520d2feb2b",
+      "segments": [
+        {
+          "end0": 3185,
+          "start0": 3147,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "repeat_region",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-823d731f313b6aadb89f",
+      "feature_label": "other",
+      "location": {
+        "end0": 70,
+        "start0": 66,
+        "strand": 1
+      },
+      "original_annotation_sha256": "3c01aa422332aec61c9d96d7d00a8cccd1dd55a6646d846e55195a148e3b175d",
+      "segments": [
+        {
+          "end0": 70,
+          "start0": 66,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-82f9a4a3a9228a79e9e8",
+      "feature_label": "other",
+      "location": {
+        "end0": 33,
+        "start0": 26,
+        "strand": -1
+      },
+      "original_annotation_sha256": "f86ce900cfc1e7fb28606c52a4704dfd60f9b2b7774a9b47dfe62941b8b6ad24",
+      "segments": [
+        {
+          "end0": 33,
+          "start0": 26,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-84c35cb87801023e710e",
+      "feature_label": "other",
+      "location": {
+        "end0": 42,
+        "start0": 38,
+        "strand": 1
+      },
+      "original_annotation_sha256": "d5b7b3390d70dad74f9e472b3bdd2d92d0f3ad05c432a3c9fe5c0a03c0c443b9",
+      "segments": [
+        {
+          "end0": 42,
+          "start0": 38,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-88a42c1eaf5b5984830f",
+      "feature_label": "other",
+      "location": {
+        "end0": 142,
+        "start0": 140,
+        "strand": -1
+      },
+      "original_annotation_sha256": "ab2f1b2830b2205d61bc137cd469e4eeb57e90b21b31f46091ad99bbf791043b",
+      "segments": [
+        {
+          "end0": 142,
+          "start0": 140,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-8ad92f8d25a2c05269b7",
+      "feature_label": "other",
+      "location": {
+        "end0": 1762,
+        "start0": 0,
+        "strand": 1
+      },
+      "original_annotation_sha256": "d7c4a25e91bc169258a279c1aef553c75ecbc19b9ae386978d33aec5569cdf52",
+      "segments": [
+        {
+          "end0": 1762,
+          "start0": 0,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "source",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-8c9a5cadc474f0735ca9",
+      "feature_label": "other",
+      "location": {
+        "end0": 2729,
+        "start0": 2728,
+        "strand": 1
+      },
+      "original_annotation_sha256": "052c0f29a3ce17a0529169602a2673ec55b52134180e095d480ca6ef03453c4d",
+      "segments": [
+        {
+          "end0": 2729,
+          "start0": 2728,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "old_sequence",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-90df179e120fc7050f44",
+      "feature_label": "other",
+      "location": {
+        "end0": 2730,
+        "start0": 2728,
+        "strand": 1
+      },
+      "original_annotation_sha256": "f5d056ac0740ca1f6e444df04d4f5167f172d5c48c563917eed9e9f0b9fb2968",
+      "segments": [
+        {
+          "end0": 2730,
+          "start0": 2728,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "old_sequence",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-932342e1357ef5fa5cb9",
+      "feature_label": "other",
+      "location": {
+        "end0": 414,
+        "start0": 410,
+        "strand": 1
+      },
+      "original_annotation_sha256": "9adb820cef2b6d72f9dec995bf4ba2bb73402a27738e435b30cdb8e1374cdfab",
+      "segments": [
+        {
+          "end0": 414,
+          "start0": 410,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-9cf10e9851e38b87d161",
+      "feature_label": "other",
+      "location": {
+        "end0": 1892,
+        "start0": 1890,
+        "strand": 1
+      },
+      "original_annotation_sha256": "1ff15939c1b06629488aa49dfce10e98eb45ccd430a9b4cfdd5536756702da4b",
+      "segments": [
+        {
+          "end0": 1892,
+          "start0": 1890,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_difference",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-a41f84b4da7bc66bef64",
+      "feature_label": "other",
+      "location": {
+        "end0": 1519,
+        "start0": 1514,
+        "strand": -1
+      },
+      "original_annotation_sha256": "4a031ca0e7f248066b736dcef6fab2b0e5b746aea50ff05d3aada28ea78543bf",
+      "segments": [
+        {
+          "end0": 1519,
+          "start0": 1514,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "repeat_region",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-a6f91d7be6d1615284b9",
+      "feature_label": "other",
+      "location": {
+        "end0": 27,
+        "start0": 23,
+        "strand": 1
+      },
+      "original_annotation_sha256": "cff120e5dd4b44acdaede5125eab69139c79d79e43270b2684540a9dd894cb66",
+      "segments": [
+        {
+          "end0": 27,
+          "start0": 23,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-acf8b49cf7efb5913335",
+      "feature_label": "other",
+      "location": {
+        "end0": 56,
+        "start0": 52,
+        "strand": 1
+      },
+      "original_annotation_sha256": "bf4a3c258ea725f5ac31ebccc2d7d6768bbcd5307b162064ecd8b56933aff8ef",
+      "segments": [
+        {
+          "end0": 56,
+          "start0": 52,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-ae55aa634ac63fe162fa",
+      "feature_label": "other",
+      "location": {
+        "end0": 83,
+        "start0": 79,
+        "strand": 1
+      },
+      "original_annotation_sha256": "5c0a9269c679e9367da5a3a414f8afac01ccb06863ecbe3ffae2760a708e8302",
+      "segments": [
+        {
+          "end0": 83,
+          "start0": 79,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-b7c2ce81bd7f45d2af96",
+      "feature_label": "other",
+      "location": {
+        "end0": 4153,
+        "start0": 4084,
+        "strand": -1
+      },
+      "original_annotation_sha256": "31bae25537bfae97710f3edffe9538c368246bf16fa3484c7e77e30523969a80",
+      "segments": [
+        {
+          "end0": 4153,
+          "start0": 4084,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "sig_peptide",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-b803729067a528d8b578",
+      "feature_label": "other",
+      "location": {
+        "end0": 4314,
+        "start0": 4310,
+        "strand": -1
+      },
+      "original_annotation_sha256": "29049b3f1af65c04bb952de33a7f6fcb43251b158d9cdb3f274ad80e445cbabc",
+      "segments": [
+        {
+          "end0": 4314,
+          "start0": 4310,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-bff63de89e79d89e5b53",
+      "feature_label": "other",
+      "location": {
+        "end0": 2447,
+        "start0": 2438,
+        "strand": 1
+      },
+      "original_annotation_sha256": "a51f0aa19cee47ebd4ed8faa3b5d527de12141c8e0691bb7481ec156dc659810",
+      "segments": [
+        {
+          "end0": 2447,
+          "start0": 2438,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_binding",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-c1150515d5908e49b221",
+      "feature_label": "other",
+      "location": {
+        "end0": 147,
+        "start0": 145,
+        "strand": 1
+      },
+      "original_annotation_sha256": "e8eaebeac0936682d239f01ce5925cd41a68be427589f2f1e247fe7cb0d0672f",
+      "segments": [
+        {
+          "end0": 147,
+          "start0": 145,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-d747a6bb52644da79081",
+      "feature_label": "other",
+      "location": {
+        "end0": 1915,
+        "start0": 1913,
+        "strand": 1
+      },
+      "original_annotation_sha256": "240bfc1b7040b817101380555ba32bd1f255db7981698bd7b8e2fa143d0f88c9",
+      "segments": [
+        {
+          "end0": 1915,
+          "start0": 1913,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "old_sequence",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-da3f5bc934ba3cd9e0c7",
+      "feature_label": "CDS",
+      "location": {
+        "end0": 4153,
+        "start0": 3292,
+        "strand": -1
+      },
+      "original_annotation_sha256": "e538e1e946400974ca74b5735ab3d5e039142a0000e2b488625d5d98860b9545",
+      "segments": [
+        {
+          "end0": 4153,
+          "start0": 3292,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "CDS",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-e38dd90c892fd6e46541",
+      "feature_label": "other",
+      "location": {
+        "end0": 1910,
+        "start0": 1904,
+        "strand": 1
+      },
+      "original_annotation_sha256": "66e64ed200fbcf45b773e12727ea232b486e15cfcde90f597954fce04e0dcdac",
+      "segments": [
+        {
+          "end0": 1910,
+          "start0": 1904,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-e778fe2adcd86cac605e",
+      "feature_label": "other",
+      "location": {
+        "end0": 1762,
+        "start0": 1635,
+        "strand": 1
+      },
+      "original_annotation_sha256": "91a3316678809d98622b9f34b8010cd3a4591df36a1b3761489487bfb39c0b51",
+      "segments": [
+        {
+          "end0": 1762,
+          "start0": 1635,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-e7a0afe5904e8ed69d9b",
+      "feature_label": "other",
+      "location": {
+        "end0": 2167,
+        "start0": 2010,
+        "strand": 1
+      },
+      "original_annotation_sha256": "0a6ebee30db7397a864231f7aea0723d9ebc1c3878ef9be0c376efadcbd19094",
+      "segments": [
+        {
+          "end0": 2167,
+          "start0": 2010,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "misc_feature",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-e9f0519af50524536d6f",
+      "feature_label": "other",
+      "location": {
+        "end0": 4084,
+        "start0": 3295,
+        "strand": -1
+      },
+      "original_annotation_sha256": "f4d9c5d422289877084560ab775b56aa915a3d4f31f5e450aaf4e1c84a2370d0",
+      "segments": [
+        {
+          "end0": 4084,
+          "start0": 3295,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "mat_peptide",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-f0c7d58d0c0973f7da0d",
+      "feature_label": "other",
+      "location": {
+        "end0": 4194,
+        "start0": 4187,
+        "strand": -1
+      },
+      "original_annotation_sha256": "b39ac488f255d38350b133ada5e3104802ac3e184f9fc9fb833f0e34b62ae5eb",
+      "segments": [
+        {
+          "end0": 4194,
+          "start0": 4187,
+          "strand": -1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "regulatory",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "known",
+      "feature_id": "ncbi-J01749.1-f-fefa3d01efbda0eead8e",
+      "feature_label": "other",
+      "location": {
+        "end0": 528,
+        "start0": 525,
+        "strand": 1
+      },
+      "original_annotation_sha256": "bdf7271a3a70accdc4ed831cda8ca210d7142f711420e4f4e041229d69bd05ac",
+      "segments": [
+        {
+          "end0": 528,
+          "start0": 525,
+          "strand": 1
+        }
+      ],
+      "source_feature_id": "<unknown id>",
+      "source_feature_type": "old_sequence",
+      "source_id": "ncbi-J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-181bd35d906dd496975a",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "f60997af9b9b667123344ad2da411363aa441394ef50a39d0809deb6069af1d3",
+      "segments": [],
+      "source_feature_id": "246e699a-4ae8-4456-a0cb-cf37b4e9b3d1",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-1bb8bd4e0cbb8eaea3bd",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "19ee7666a73726d564ac6167a96c9ab5b1f03a606572473418d24c9c4a06020a",
+      "segments": [],
+      "source_feature_id": "b79042e2-a7e4-45fc-9719-23027712f553",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-1d652d6e26344a9fd73c",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "a5c934fdbd28df9af5f44dfe828b1f912e645356322e3fe37dcb539e29c51442",
+      "segments": [],
+      "source_feature_id": "81cb29a7-2c1e-4555-bf8a-e6e2375a3199",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-39e526a5ef5c0cd22447",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "db6df23d9548527624febcdec7c02db80fcffbe2e4448abc6b4f25a86e19bfc9",
+      "segments": [],
+      "source_feature_id": "a0e7f8a8-65a8-4db0-aca1-8c8446554fc9",
+      "source_feature_type": "Sequence Feature",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-3d9ac36327a65c765c4b",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "706cea142eb899617ca11fa08d83aca04e8dae6be19168dd88ae18e2cae4b7e9",
+      "segments": [],
+      "source_feature_id": "3c8f89f6-3846-42e7-b52b-3c84c345eb2b",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-43db638bfac6410a4f6e",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "5e003ce469c666fbe952a3e4d3d3fbcc7e77d9e35378d23a786fcbf1e067ec18",
+      "segments": [],
+      "source_feature_id": "9802ad0a-ce23-4637-9345-67b14b229cd3",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-57c95a80c243f76cfe81",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "93fd45a8321e4413681f68b6bd0a77e2338389e6beb434937ffb50590f1ef681",
+      "segments": [],
+      "source_feature_id": "df604cec-3d12-47a1-88e8-f25603db9179",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-5b7aefec9e2f1a9d396f",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "187330dbd800d072e1e3ea3dea3b83a1e8d968220353ed596de44f51c9974eb1",
+      "segments": [],
+      "source_feature_id": "f7f9704e-8dd4-4dc2-9963-436a0643938b",
+      "source_feature_type": "Sequence Feature",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-620cac57ba1ebe1d8ff6",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "306a89cb9beebf1b8d96eea16dfb8e5ed3038771d425b5cb0c93e1a1915f7845",
+      "segments": [],
+      "source_feature_id": "ef9c11dc-26eb-43a3-8989-425ec83bb6ca",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-638bf280247a3c967557",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "a805cfde5b1ea1c1733ed4fe37e75a04f144cae379ac3cc073ee4193cb0b2193",
+      "segments": [],
+      "source_feature_id": "7f26733d-2cf9-4685-b60e-6cd5840637a7",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-677835b48666d4efa3ac",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "dee12fee71b6a9f6f2e2badacfba32cb39274d1505aedd3ba77b2e4e806f83aa",
+      "segments": [],
+      "source_feature_id": "ae7ff6dd-c3be-41d8-9f4f-b5b657aac95c",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-69035f181d7d22cdf785",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "33a54a8de889b34a687a710320430141cc2417eb56566b26f8f6e162508f9c1d",
+      "segments": [],
+      "source_feature_id": "defdd46e-0ae2-4cd3-a284-feac3aa1e71e",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-6b68500aa2b7a8e3d00d",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "bee7017bb50ba6fd01affe1659dcd42be1ce33b3a923878f9fcc34865ad256ce",
+      "segments": [],
+      "source_feature_id": "b588d5b3-124a-4340-a898-b4bf066be388",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-6f59cddc308ba9c3461e",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "854af970ab8034d8bcf035a642922c398e2b184c3f5c011f30974e4168e52de4",
+      "segments": [],
+      "source_feature_id": "d41e6270-13e3-4145-b18f-5793405f71ab",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-70923bd392aed5df07b8",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "9a74598afa4a07bf2ec27c02a014820ac15c60184dd8f2e1b4fa5b8c269d2283",
+      "segments": [],
+      "source_feature_id": "734a2171-024f-4c3d-9b22-36b17e31a644",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-72f7b61fd033689c1d4a",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "8dab3aa8eede94fd9663e551ea021f2783d64cf95a3a805b5b03b067859efb63",
+      "segments": [],
+      "source_feature_id": "88899234-9e2d-4126-bf2b-2c1a090369f1",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-94558b10c8323c4debaf",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "46ab3f5d1bc788d07a5224be74a2f8fc2f7759dfd36939e72ea900cfde5218e6",
+      "segments": [],
+      "source_feature_id": "2cc49127-4236-4bef-ba89-224918274bbd",
+      "source_feature_type": "Operator",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-a0459c572b06f0a4eee7",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "b7c68d1538ddb45b0d7b813f0ff57bb2644ab9c05166b928988097851f5db0cc",
+      "segments": [],
+      "source_feature_id": "296f3e2f-dbc0-4608-a91c-cb9e1ee09ddb",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-ad46d84c8ad7cc8de9b7",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "b3b08cf33ee11dad1c939c88e40e5c6a464e29985a6b3fce1679d0d04772ba51",
+      "segments": [],
+      "source_feature_id": "8cd0334e-8d6f-4ce3-8578-855e9893a9ab",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-af98df0024944e9ca660",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "af5aead9f03b039a8839abdcd04391d744768c1c97452e6c5d0db3ade6324896",
+      "segments": [],
+      "source_feature_id": "d54f441f-352e-4b80-aff4-4cd2eb1117dd",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-b1f802690c08ebf831cb",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "a33c9ae1ff568a616dbb928262624db425ea079a81f4459185c0846c807f607d",
+      "segments": [],
+      "source_feature_id": "cca060cd-c5c7-4afd-b494-394a185b692f",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-cfe9c5a571e1e2794060",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "9179687c9285cbe3566f5521dc85c7504a3ee8e46efcc3af7fe2792027218217",
+      "segments": [],
+      "source_feature_id": "6d20d7a6-97fa-42b3-9093-6226111463bd",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-d3282aa9cc2944282831",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "3746f199f0057c715b60318014f24f4fc0803f07c2498636d912f2ed150d9269",
+      "segments": [],
+      "source_feature_id": "fde132ae-b3f8-4855-a8f4-24923f0b5d9b",
+      "source_feature_type": "Reporter",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25FDWALN-f-fc91968d78dd1dc23ee7",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "aeec1501928972c1f60c7b18acacfbec2fdb53a14618d9ce7fe05475a6b6e1ba",
+      "segments": [],
+      "source_feature_id": "da3aca58-2aba-4c4a-bbeb-01344d555c46",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25FDWALN",
+      "source_sha256": "1fc58609364fcd2f6bf16bdf5d6a820e25245af0ce30218b6d43bf689c259bcb"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-054bda5d7e3d1eb61e6b",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "09bacdd22870d36efbd2ddfe00613c56d1a2f3db81a7ae36c905768131df6ac0",
+      "segments": [],
+      "source_feature_id": "ae7fcff6-cd66-4b0a-aa7d-0901ff4b55bc",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-1bbd6ced019475d1a896",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "bd4dee93efc30b33c9baf1e6b54bfaff46f0a744b2c313baee1c2fbc53e7bf36",
+      "segments": [],
+      "source_feature_id": "dc2e04fa-8951-443d-873b-41088df11bd6",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-22615dacacf89533a0b9",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "377633ba16b8c466a41efe1bbd259e504644283268b8382e56eedf2eec2ac87e",
+      "segments": [],
+      "source_feature_id": "7336ce05-b1aa-41a5-94e3-9ef8e093189d",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-435114a65b94e21a59f7",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "35d6e4fcc9fc398da25cfdafe4cc50d3167722ad59ac7d0927c28754398d6632",
+      "segments": [],
+      "source_feature_id": "b4087008-f778-4a03-a0eb-e94207edce60",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-47c6fd55b5932f1feb94",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "389342fa66b095e4fe86b19b28aeb7cdc4e07bfc9bc6e81a53cbf89e8c5e1af8",
+      "segments": [],
+      "source_feature_id": "ecee5be6-1784-45d2-8026-25abedb09be7",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-49ddbbce19a7eb3ee128",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "cc1288a2873b0a48688075311fddd36d1b34c9c4d26123ef086d774f465a89ef",
+      "segments": [],
+      "source_feature_id": "97b8fcbb-4037-4763-a454-367cea2c69ed",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-609315aedfd24a4ae04d",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "5e75738f7464767b7ad5c7c8b41f04d78c5b3b7181d43569818a32777825a04a",
+      "segments": [],
+      "source_feature_id": "2643ab4d-9e15-41c8-ae7f-79015fae5f7e",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-6ca3b5c719a83ae81c1f",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "865020c815856a8a3f5b5af22a2d6088ef6a0969c13ac4bf1e76ad522c902ea5",
+      "segments": [],
+      "source_feature_id": "591d40cb-162f-4a62-aef1-194248edc308",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-6caba624807667cb43b3",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "f2099f7812e3e3c05b4996a1227f51e81c782600438016f9f6c3941348c034ef",
+      "segments": [],
+      "source_feature_id": "f3c4bb3e-b7d3-4654-b9a6-ca77eb6291ec",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-6cf40f594a9c9a72803d",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "1e8f026f41fe7e4a8ae9d7e63a606ac24ed64f6e0127b440730f2d8b75c24c10",
+      "segments": [],
+      "source_feature_id": "d552fe52-173c-4330-8373-ce47cdcd1516",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-78bd33cefe84181a6746",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "46e0679dc2962af004cce8375b936b052e46532b46be116f7a3c54e78d83e331",
+      "segments": [],
+      "source_feature_id": "11944907-8cf1-4b4a-817f-1e1ba0e27a70",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-7d8590d4b96546c4699d",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "2897a6ff5e459bdf9ba9de5e72dd804b1ac5a83e00ff5138d35ae25407a3b468",
+      "segments": [],
+      "source_feature_id": "dd966b27-4f4a-42d4-957f-5fe5b2c0a2a2",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-80f32e7f526508b9c4d9",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "02a36666889d93d0afd5d1c7b7d96cb8f7df3f5c59c8002efa88da161cea6ebb",
+      "segments": [],
+      "source_feature_id": "7118b421-6bd1-4432-b141-53fb91ac8403",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-82bb3bfad8d24ec8ebe5",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "a458c21f3356e08f9ae49640e7853ac82fa4a1b9b350a2e592684e91f7d921f0",
+      "segments": [],
+      "source_feature_id": "bd38abc0-80b2-4141-a1ae-fa5cb55b2655",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-9f09456cf8e984d55453",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "7a66560bbee5d72f06fdfc86ddd047f018a680349f60be9006637abf96d695e6",
+      "segments": [],
+      "source_feature_id": "7674c5cd-9ab5-4ebf-a33e-180c6b68f8a7",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-a76150560a1089ba6ceb",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "b15c75aab13331fafd52fb4ca2004119c33196d9a9480d819623c4114df40bd8",
+      "segments": [],
+      "source_feature_id": "1e285d8a-523e-498f-ac96-4c8f5e468288",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-ba6e75388a5971813d84",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "4737c4c31096043899d3665e3c788df0ada148a92c75517f42c6457b6a87ff47",
+      "segments": [],
+      "source_feature_id": "753be463-23a2-481a-98af-9f3f48e50d3d",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-eedd87068a5a61eae03d",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "f73ceb8cecd0f4372726420e4df7c22c7d2122016a17e6e3f6aee12697b40bf1",
+      "segments": [],
+      "source_feature_id": "c7de624a-7f0d-4e44-940f-07dedb6734ed",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-f7c2d28aceffb921c4d0",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "4d61990d4dd9c360cb95abb3ed02983b2a85419870012a939e65d82a830804f2",
+      "segments": [],
+      "source_feature_id": "706fe3a8-b454-4b32-ba6e-f2b31819791d",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-fc4157a6481f182fb59c",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "f15c4644a1418e49fb6047afc26900a5b2730aafc50f420bb53b65c1af7b6f17",
+      "segments": [],
+      "source_feature_id": "c3731605-55a2-44b1-b3dc-64ffcd053a93",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_252QAUN3-f-fc9c29e183c4c450f7c5",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "5661f6965af1c44a4bf13e397330be1039703adc27b1f85c46ddfc46e228452f",
+      "segments": [],
+      "source_feature_id": "29321123-ed8f-4af0-94e9-dc89d9dab676",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_252QAUN3",
+      "source_sha256": "75630107d31731b913d7998a93b1f4788fa463ff1a9b51332d0644691320754b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_26NKZH8J-f-1e1d0e251e026d9d2a31",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "196eea786d2ef21a2e4179537b270f9458a71586826799c7eaec2218c28a5d5f",
+      "segments": [],
+      "source_feature_id": "5cfe2875-b98c-44e1-8115-c7c9908bd5d5",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_26NKZH8J",
+      "source_sha256": "9c650d69c3bcd6b466357f3b3febd3a9a351d5e3a508751ddbcb3ad7eb76334b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_26NKZH8J-f-494228d662ec33c2b760",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "5e83dccc5ed72453301339612f54fe4b3161751c5b324be1724a84fe4d42376e",
+      "segments": [],
+      "source_feature_id": "23de4cdc-7f4c-4899-927c-d715dc5c5802",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_26NKZH8J",
+      "source_sha256": "9c650d69c3bcd6b466357f3b3febd3a9a351d5e3a508751ddbcb3ad7eb76334b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_26NKZH8J-f-8d1b3352608cdfa3e926",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "b711e319a118d6e40bd13e77cb1ec2111bd9650672f66ed39eaa3a3f4f62b70f",
+      "segments": [],
+      "source_feature_id": "692dee2d-56f3-4abd-98cd-9fc489af0225",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_26NKZH8J",
+      "source_sha256": "9c650d69c3bcd6b466357f3b3febd3a9a351d5e3a508751ddbcb3ad7eb76334b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_26NKZH8J-f-d32b0664a479ade17114",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "9d6f86df1d9ff15c2268ff2db42522335dfa4178dad7f9e6d6e6ec50c818655a",
+      "segments": [],
+      "source_feature_id": "1f1531ca-5361-4f8b-adf5-c7fd776120f6",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_26NKZH8J",
+      "source_sha256": "9c650d69c3bcd6b466357f3b3febd3a9a351d5e3a508751ddbcb3ad7eb76334b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_26NKZH8J-f-e7e0e44a6369e453abbc",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "5af526ee8876137c6d5c95400e13b9c94351694d069bc24ae3833457e6b63ef3",
+      "segments": [],
+      "source_feature_id": "9a0279f8-2427-486f-ba94-601a9821158e",
+      "source_feature_type": "Protein Binding Site",
+      "source_id": "BBa_26NKZH8J",
+      "source_sha256": "9c650d69c3bcd6b466357f3b3febd3a9a351d5e3a508751ddbcb3ad7eb76334b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-07365648c71cd41f70af",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "bc5c02ac5b0c397c7145017212be830d9f5cdada2d85b94db10640f1317459fc",
+      "segments": [],
+      "source_feature_id": "05a53919-4797-48b8-a5ce-c109ce944411",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-0bb289f477a04f63e4b9",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "7837f55a7910729fa0ef2868ed7ae75244044cc0414878a4b9822cd8107a5f0b",
+      "segments": [],
+      "source_feature_id": "c06f48e7-7d5e-4234-928d-4da0b5784fa7",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-150f01caab5c5396b4d2",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "87b72f997d3e5edbe266964b09db6a7d0eaf858800f54e5fb468629bf4adb0e0",
+      "segments": [],
+      "source_feature_id": "95349977-b14c-4d71-9913-a56897f4e6b4",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-1cd7d39d0dd56296187d",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "41d3df6cde815deeac1e2289f4a0ff9c8264ecadc9cce3604f47c35285d69336",
+      "segments": [],
+      "source_feature_id": "edbf2816-6cdd-4f4b-b6ed-5dde39b0b1c3",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-264cdfdfda6331c6005f",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "81f6c15483539bfac4add0ef5f39172d1689d667b56622574bb8067bf6192911",
+      "segments": [],
+      "source_feature_id": "6212235d-1bf0-401c-955d-a440e7577515",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-7afd2e86cd6437914076",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "e8bf97269d84781ee473203b807ad4f50a30ceb0b25f0b32e90f416ded6228bc",
+      "segments": [],
+      "source_feature_id": "bb554233-45ef-4ede-adaa-fc704eb31eb9",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-7b2bc355337bde55be1c",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "9af5a9fdc624bb314f4cf4238050112b0afd98c4cafd1176aaa513795daa669d",
+      "segments": [],
+      "source_feature_id": "e118e7ce-f795-49ef-952f-f59a4919df84",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-7d36da1fa7b4ccdf6aa7",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "185623b09424967ea24dbbec18da3ae10750b17292d6e3bea3465ab295a9bf4d",
+      "segments": [],
+      "source_feature_id": "0e78b547-430a-40c1-9eb4-aa8fd6d26865",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-8123f94916ef5cff6b4e",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "9469a83977970bff36c9ff4a587d12bc0c145f270e308c85b175abb3950571b8",
+      "segments": [],
+      "source_feature_id": "e3e84989-7d03-436a-9850-f2dfca63bce5",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-8e882cf69feb490ae487",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "02a056a9c7e1d5e335d6ed5e167559b50773b77f2a1f09a95c358986c02dad4d",
+      "segments": [],
+      "source_feature_id": "a1a7e587-ea9c-4ab7-a819-46ee25b2d935",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-9622634d753733ea4e09",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "e665945b2dc19c9993875bc96ea24914802bb2c4dacf8f281d6f65bf153ae084",
+      "segments": [],
+      "source_feature_id": "4bd55cd5-4c18-4e86-9a31-ad815fa0f98c",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-a681e2b30e0a4a1f41c7",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "8e315bf94c1e7eba60cb943ef2916132a398b41a40968f2512db19a4c7098285",
+      "segments": [],
+      "source_feature_id": "11768554-93de-40a1-9779-30d25b9109ef",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-c71997ac492ad8743b89",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "39e570f0d4392d5d84f035cdb232c287b7912985f9981cb68f0cd19b39dad337",
+      "segments": [],
+      "source_feature_id": "50dd9a09-0d2e-48ae-94bc-68fa09d12ddc",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-d43b6dc06c76d1fb0a3f",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "3c02af4971e3361654b9b373105a63b7c1bf5f5e194d34554e592d6b320d4197",
+      "segments": [],
+      "source_feature_id": "711fc9f7-6d60-41f1-b9ea-f6c4c8b55b5e",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-dad0434194f70c34567d",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "e84efbb275be9ea10c39288c0d2d8641f1d7f3939f477326a82317f8c8fa0f22",
+      "segments": [],
+      "source_feature_id": "4a713d9b-ebde-4c7d-a89e-01d996da8409",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25NPQIRU-f-fb2b39a8fee046ff646a",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "e28a41500d1d8de41231b5fd435ae98bc2067047843bd3bd08033100d68e524b",
+      "segments": [],
+      "source_feature_id": "f4360fcd-0981-42f5-bbaa-11cfc863f4b8",
+      "source_feature_type": "Operator",
+      "source_id": "BBa_25NPQIRU",
+      "source_sha256": "0080411737cf5c90f3d9a7de4a67bb09935de4f14c815fffb87ff99ac3c72f5c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-1cd0c788614247adadae",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "382a26035a6085ec7804dfaf49e3d4d73e5daa25f0adf4d5bcf6d79fc2802984",
+      "segments": [],
+      "source_feature_id": "71b4b2a6-89d6-41e8-b24f-a1edb4bac628",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-1e246f176ef8bd8e1ec7",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "9f9c2fd428805d2ba9c9c47e485c72db6665a0065fe3d8610cde4fbffee8008d",
+      "segments": [],
+      "source_feature_id": "f45f28ee-4f89-47c6-861b-4c9605381901",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-20b62845322f2191e88c",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "a858206ba4f47eb9b6ef85aafe03f6d74727c7f8de00801d3dc676039315c0b2",
+      "segments": [],
+      "source_feature_id": "e84d2ac6-e631-4ee1-a27b-dce6a0df750f",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-29af03a4db3975162fcc",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "0eb95871214bdd6d40486579afe2c1cab15d6ddbe34ac3689196610b842de0fe",
+      "segments": [],
+      "source_feature_id": "1d011b39-54c0-4785-89ed-f74185213555",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-379db42e5049aed29138",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "efd4c983f4dadd93509dd0af0198b9dbc1c7371a9d4943086aef71b55329732e",
+      "segments": [],
+      "source_feature_id": "631026cd-1cb2-41e9-a5aa-d53c6b237702",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-3e05cbe07545e3ebf43b",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "00de9557b3023edd208e321da910b69018cdb3c5276b774d974050013824e4d9",
+      "segments": [],
+      "source_feature_id": "75e075de-588d-488c-9e64-d32422ac5175",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-3f818c414f8bb3677d9c",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "f1bfc6425d66bb73e9d9683917579b328d69ca80c88ac60d78d8832705081772",
+      "segments": [],
+      "source_feature_id": "42b60610-b5fa-4e5d-b4a2-48dd94f5b137",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-6b9f68486e0a9ce26660",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "73ed4667ee07af6ce71f8a901c3b2bd414384415d4d35f1ec59e9977de842e83",
+      "segments": [],
+      "source_feature_id": "6f2e9cda-0c8e-4176-9cb3-60c5dcbfece9",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-719bbc56eef59daf4e40",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "a316dd236b03b89b5359a1442719b5ed51ede9bc8aceac1dbc5c5356468e4ac8",
+      "segments": [],
+      "source_feature_id": "d0286fff-392e-42e0-a1fb-ff6f4828e1f4",
+      "source_feature_type": "Origin Of Replication",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-782feed577cdccd9e547",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "eb0daba70382669b50363684279aa1f7a7f61a449a1855c77e05e33526e72c54",
+      "segments": [],
+      "source_feature_id": "35bf717a-ec50-48e5-8bf2-9e5d7422b3e1",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-8c16b9870011ed9e64c0",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "09e575a3df1ea03f3eb969b7d747d8fa70ce7696d0194ea4c5cb2e3c0f7dba9b",
+      "segments": [],
+      "source_feature_id": "cac8041f-89bd-4bf9-ac48-a723b8d53161",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-a2e08dc1e05caa5f514e",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "a656ecbd68a5ead21c16039c8eae0be93e81f908bc18df8d09470da9f99c03b4",
+      "segments": [],
+      "source_feature_id": "79866c0c-72fe-4c98-ad4c-60d0079b053d",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-a367b3282643113da2d1",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "d0e70ec1824ffc379ab57e6b2984802e696aa51291da931676b2335b23895a6a",
+      "segments": [],
+      "source_feature_id": "953c70d6-a95f-4c05-b81c-ded3993f2236",
+      "source_feature_type": "Protein Binding Site",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-a5891f0b6e72e239118a",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "06fbd026e4e97cea0624b67cc58fcc058f621b6a1732261e74b6e464d7d08ef8",
+      "segments": [],
+      "source_feature_id": "96b636df-4c24-4b69-a549-37fff89a34d2",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-acd6a3df2d6c4bf67a06",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "de917e66580237eb171633c006bea6f791b3a1ef1257ce385c538c6296c4f76d",
+      "segments": [],
+      "source_feature_id": "4a8fc064-17eb-4a48-b0a2-b2fca3182c3f",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-ad4c3c4dea27ccdec8f7",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "de88710de3767f2f31615455074ce7e9803b87e4fcc2cf92bbcecd7673942bbe",
+      "segments": [],
+      "source_feature_id": "1e6de181-0c93-4288-93c1-110b5c8fadfb",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-b9db9cda51466dd48f1d",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "d0393de7fbed57f0b20209b86fb4894e371dbe2a67c194e697e96e6659ee1a8a",
+      "segments": [],
+      "source_feature_id": "2578822c-11c3-4843-b9d4-249d1abb9df8",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-ce406ca5a3b2c37fde3c",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "dbdd0d1ea19cf4a9e5bc5f7a4a782bbf5b06e4d78ebc4609c4dac2633f1efb9f",
+      "segments": [],
+      "source_feature_id": "be49668f-fea4-4330-90f2-ef5399f291c5",
+      "source_feature_type": "Origin Of Replication",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-ddc29ce9d4a15f5bc121",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "db8773bd260aad6ef32e2ae3ba9eb91d835f81a29e64a0293e8faa86a5cbf9db",
+      "segments": [],
+      "source_feature_id": "7565d168-1a04-4249-a89e-7c58e839b7c1",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ULGTE2-f-ea8ebe0d3b001c818ab9",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "69cf38b093d5e5cec0eaf6d2d00c54c0751ae464bc2f0fe4be6b3f7c22fb7698",
+      "segments": [],
+      "source_feature_id": "07a810d4-546b-44d0-889b-6d59768eae15",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25ULGTE2",
+      "source_sha256": "272d6a7f4d1f88364484653260d9f8af8c71e27f3c6bc2173450355d287e0c6e"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-0c49eb78a7ec024fbc43",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "5fc3b4ba3a01a4ca2e57fe679f22bd605c2bf91eedebfb4223f8c54f7ea763b0",
+      "segments": [],
+      "source_feature_id": "bce8c865-7979-4c92-b2f5-b174fa593edb",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-0e230d80f0be1a3b132f",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "7dc6164da2fd5961a09a98975af3cdecd01b32f00afe382949965d8a35cfb46a",
+      "segments": [],
+      "source_feature_id": "a11b4c46-7d58-4265-bd79-cd50aeb986ea",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-175c16b57c455c863363",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "b05d769694283ce1a3b10e9ab2c4cc7e1bf91dc6e796ca5befc9ea9699f1b749",
+      "segments": [],
+      "source_feature_id": "f4e26aa2-c6a7-45e7-960b-34344831f058",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-202065ca8c422e2dc9f0",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "085413a4ee0359f54879f88e1246f91d8d35719779815227efbc17207de5fbeb",
+      "segments": [],
+      "source_feature_id": "9ac73925-cb42-4e12-96a4-6169c3d0d441",
+      "source_feature_type": "Operator",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-2043a78c315f6c348995",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "a3b225cd5101c5e16f106ffd5107e1c5fc4dd89b2b9ce5b0f352c9aedb5750c4",
+      "segments": [],
+      "source_feature_id": "58911f84-6868-44ae-8768-a4a45cc0eb14",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-2611c95146f9246d5f68",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "e52d8b34f8b2db140c2142ccf0e83cdc09c4315f5e2c5b361002fb062248c730",
+      "segments": [],
+      "source_feature_id": "4a55f561-a819-4c8b-a765-2f4f186b0e47",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-2bd9d8403bc38d23f17b",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "ec87a9bfac763d6421f67fdc0938bc0c54bc088d0a3884802ab7e82aef60b3ac",
+      "segments": [],
+      "source_feature_id": "c43dbe06-83e4-47fc-b60b-98d80ac16138",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-2e48b615fc5b97b47789",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "f653cac7ec7da1a49a842cfcd9c37aa6c1d25e07383e72b4bf1a04eb4fd4060b",
+      "segments": [],
+      "source_feature_id": "65bd4c63-e2cd-4422-b1cb-93e4154cef17",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-41d8453db974ee3812ed",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "21c0baf3958c373ab93fdfdedd02d0468b09e3d96ca3bd2a393b0ae6224af483",
+      "segments": [],
+      "source_feature_id": "54fe760b-8945-4b4a-841b-847d264e390e",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-492a2a9eec9ca4a8420f",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "60c9dc00beb7b335384119b6b23d45a0562c7704e055e4a2b54e67011f01bc8a",
+      "segments": [],
+      "source_feature_id": "abd2aed1-3517-495e-9f3a-8b30c04ae668",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-4be5bfec9cb316a7939c",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "810b3d9627722bb80e437b5ee7e711b083face7394166225fc315bb01b17dd75",
+      "segments": [],
+      "source_feature_id": "9e6dba2f-2ccb-47da-9052-b733b62d2736",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-57fd19177e7edec796e1",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "8f88f49e698c1849cbb686c08766553863218c3ef56e32d1ff886cfc4a6e6197",
+      "segments": [],
+      "source_feature_id": "e7e36686-9539-48d7-85a4-80571ded7989",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-632d5e71de5bc794f0dc",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "7af2a4e86c3f9d42b17b32731319d593024dd29fe4f8b936169368028f6c1349",
+      "segments": [],
+      "source_feature_id": "18235fa2-52a5-4d57-97c2-0d52635d08fa",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-6cc71a693787d0034f6f",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "f0b3d05edd3699a52d29788b7f4e5b7810b55a60d76a9f3dce2c0fd255bc5327",
+      "segments": [],
+      "source_feature_id": "c8835a8c-2929-42f0-9f0d-8e99a26ee037",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-788bada2d3a220113877",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "dcf35b6ab3a263ae3410241438998a9af6e3cd7807baea8ac76e8a92828b2f40",
+      "segments": [],
+      "source_feature_id": "79725ab0-ca75-4c61-a67f-b27768b9bf98",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-855cef2bd5ea2386089a",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "dbbfa2307664b8a7d20ae256d73f943ea964924325b69fe296c1d52339492dea",
+      "segments": [],
+      "source_feature_id": "c59b410f-5d8f-4a56-9193-5f1e6f41d601",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-88241b1ca14973f19a57",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "2e00e3250143cea2b61670a15a9402a686a1787b354b0ed5685bb35dfff6423f",
+      "segments": [],
+      "source_feature_id": "adcad8cb-5fb0-47a4-95e3-18df27d54a58",
+      "source_feature_type": "Operator",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-8d06c42a73dbd78c86db",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "ac998f8ebe260304e2e852ca7b13f51ec2c8da56cd51c7d76f77b45a793e5751",
+      "segments": [],
+      "source_feature_id": "aaf2b209-ad76-48e9-969e-329f767ad8b2",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-9034f0a9aa2b1566743a",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "56246c21db4ba069025ea138de2baaf98b28889ccc4f06b82bf12166f0e28d66",
+      "segments": [],
+      "source_feature_id": "8c4c2b08-a104-4ce0-b8e7-e9dd5f21688d",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-a6e341a4a62b663fd98a",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "184775afddb77e973880da419a5640d81016fc74f0c673fdd73402b13e13dfad",
+      "segments": [],
+      "source_feature_id": "77ae03ba-51f6-4a6c-bc8b-2920a7149c3f",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-c9e310673dbc4392cdf1",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "6f0a483d4a9f231e005160b26328e89d51c46116291f16d621e1952321de66e4",
+      "segments": [],
+      "source_feature_id": "96f589fe-a6ee-48cc-b802-676ed115255d",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-cd1ce4f00f862b35808a",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "03d9e872225abd124ade5b8ece6a1d4eaef477068f1c50839d8282fcdceae43f",
+      "segments": [],
+      "source_feature_id": "d89621f3-a59b-4e75-8145-4b3b32a24a81",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-d79b52dee1f67eb8a383",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "88cc1604cb83b0c9bc819886baae56d702fcf2dda94adb6589d395cc22bf24a3",
+      "segments": [],
+      "source_feature_id": "b599c2e5-567d-4000-bc75-3e9f65f71291",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-e5cb93a07cf4ae097372",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "d7b2bd64418a6e287ccb222e6aa0d3a629470129e188e3f138ca692f46f70eb5",
+      "segments": [],
+      "source_feature_id": "6eb46dbf-6f6b-4b36-8258-df865f074699",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25B5R4ZL-f-edf70805ab37a99c935a",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "6a6f847919244f5e8380a8dfc934835b77e6dd124ac5e60221d4a6f07669cebe",
+      "segments": [],
+      "source_feature_id": "40453cb0-f3a7-421f-b74d-f67e05d9b2c1",
+      "source_feature_type": "Operator",
+      "source_id": "BBa_25B5R4ZL",
+      "source_sha256": "27e9982eb7249eb4329081ec4f9e74b737a369671e1ee43f7c629d9543d32047"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25K8XDBD-f-3d1e107f5519e85edadc",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "0b645a7239287dce273181ec5bd239be8cf0b2f057e521bd04e72de0e28af5ab",
+      "segments": [],
+      "source_feature_id": "f862a4a9-9628-4451-96c0-f39bea7a94b7",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_25K8XDBD",
+      "source_sha256": "37abbb3adf5e81dcb3fec808552d404a76dbf519f232c99d25997634765c353b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25K8XDBD-f-431031dfdb6e3727b9e2",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "646e9bde1726ad751395c8aa73bf11d36ad43bdaa1fd31784fc55d81aba5d8e5",
+      "segments": [],
+      "source_feature_id": "a4f75e36-30bd-46ca-8d53-f47eac2981c9",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25K8XDBD",
+      "source_sha256": "37abbb3adf5e81dcb3fec808552d404a76dbf519f232c99d25997634765c353b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25K8XDBD-f-46967e628e33ecb2c1bf",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "ba1a22059a5e2f8879484a30dea18d3c446e0043baa49e2b8f127a63305e7395",
+      "segments": [],
+      "source_feature_id": "d5f71114-c941-4656-82a5-cadfa6713459",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25K8XDBD",
+      "source_sha256": "37abbb3adf5e81dcb3fec808552d404a76dbf519f232c99d25997634765c353b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25K8XDBD-f-4a585f3a8df0397de538",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "c2cf87a4eb8e4bdc4163db69de8da40b2bd068004616e74d4293173d5b131354",
+      "segments": [],
+      "source_feature_id": "673f1a90-6f60-42cc-80ae-06731f4e1fa5",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25K8XDBD",
+      "source_sha256": "37abbb3adf5e81dcb3fec808552d404a76dbf519f232c99d25997634765c353b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25K8XDBD-f-530b30e7ae080add3f2c",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "cac20873e6ae119166b5395e5e9111a7c108f6ea056e0acfd382a7b08309b228",
+      "segments": [],
+      "source_feature_id": "9028cd76-d568-4180-8d09-442e56b04b62",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_25K8XDBD",
+      "source_sha256": "37abbb3adf5e81dcb3fec808552d404a76dbf519f232c99d25997634765c353b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25K8XDBD-f-6275076e55e7010e9588",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "24dab587d2164e8176d718a0c1622310fa4224d9d50028c6ea9b29dbfd96b342",
+      "segments": [],
+      "source_feature_id": "f3573b84-8699-456f-a91e-0774bdc69843",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25K8XDBD",
+      "source_sha256": "37abbb3adf5e81dcb3fec808552d404a76dbf519f232c99d25997634765c353b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25K8XDBD-f-aa544c457899120be738",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "bbca9affd6835767ccb04125e9838b95094e2d669de0abf1ae0ba828530f2cd0",
+      "segments": [],
+      "source_feature_id": "f5b6782b-6619-4813-ad18-ab8a734ab424",
+      "source_feature_type": "Operator",
+      "source_id": "BBa_25K8XDBD",
+      "source_sha256": "37abbb3adf5e81dcb3fec808552d404a76dbf519f232c99d25997634765c353b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25K8XDBD-f-c127ea0f35c36a25e846",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "519ad83fbd46a42d9d226ac391d2dbd37d232963995d5443802b55527a72dab9",
+      "segments": [],
+      "source_feature_id": "20a7909a-a4b1-4012-a2f8-3b0a721a82e3",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25K8XDBD",
+      "source_sha256": "37abbb3adf5e81dcb3fec808552d404a76dbf519f232c99d25997634765c353b"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_26BQEN31-f-17c99ab528528a76bfaf",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "12d1e6db7f3dcc417a40903ea7ab1d5ec6da1c735c164c18f4851bac6eb74ca7",
+      "segments": [],
+      "source_feature_id": "175640e2-d635-496c-a9a4-1f982dc0cb82",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_26BQEN31",
+      "source_sha256": "58652d7fc29e10897ef76e329d87e3bef8e7202fe6ba07fb4b69e09faa4364bc"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_26BQEN31-f-7d8ff04ea1bf167fb3a4",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "0fbd61e25d223cd861f67fc1383422138d0a8120c49921165a2325e54ecb9155",
+      "segments": [],
+      "source_feature_id": "54f51164-4b3b-4930-9a86-799080a5e24a",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_26BQEN31",
+      "source_sha256": "58652d7fc29e10897ef76e329d87e3bef8e7202fe6ba07fb4b69e09faa4364bc"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_26BQEN31-f-944a1c97004d03b2c762",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "42bad11a508a5f1dfe81abecc0fe73d31f6591c6536251dd465f9a980b5aea7d",
+      "segments": [],
+      "source_feature_id": "122b5af8-ab79-4034-bf91-3326d8221fda",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_26BQEN31",
+      "source_sha256": "58652d7fc29e10897ef76e329d87e3bef8e7202fe6ba07fb4b69e09faa4364bc"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_26BQEN31-f-cc40496c9498b260168a",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "11687069ec8ff80873c12c50409dc7a9cef8d6c5391e7b4892e727ebbf50a472",
+      "segments": [],
+      "source_feature_id": "c7bee5dd-dbf1-4f0a-acf7-5bcd68b8ccd0",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_26BQEN31",
+      "source_sha256": "58652d7fc29e10897ef76e329d87e3bef8e7202fe6ba07fb4b69e09faa4364bc"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-0340a65ae2a4a3947f9e",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "8e49f4691ad7749fd45032fcd9be0a280afe14fe2e891900520d4458f1e44e51",
+      "segments": [],
+      "source_feature_id": "bb8b6333-7b36-4755-814d-dbf698546cd3",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-098f1a6003d0e23f3fc2",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "d8c38ffd12b241be7e4ac391ef13f51c7afef71d11b89efd886c360d55e2ba44",
+      "segments": [],
+      "source_feature_id": "4696328f-2b5c-4a0f-b77b-73e0e0a3d2ae",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-3429a48f24cd725f9ce1",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "00b3158304c33d2f983ee142b4c8e293042714d630e22a72a79a9164a3160090",
+      "segments": [],
+      "source_feature_id": "ce1ab8ce-9db5-4903-b229-abd190ad8b57",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-50d79b9ff970117cf43c",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "540d4690a554f9e12aedba18e5e243f4ea5aecbf8c03194f8442fe0215b04546",
+      "segments": [],
+      "source_feature_id": "6d429a80-ba61-4c2d-95a1-cbec6de9da52",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-8089974945425270ec10",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "3a72e86b4d071e35790fe0da0f1ff4a533c7755d9a815280aa8a891be651a532",
+      "segments": [],
+      "source_feature_id": "e40eb664-5491-45f1-adfb-70e46c72bffa",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-9238a12d59078f3782eb",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "ec665359e8360c379441aacd1b188eef1da044bdba276dde72cc8f511ec1f5d1",
+      "segments": [],
+      "source_feature_id": "b375414f-2a71-4fb9-bc02-55e07bc66279",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-94bd37a3c020d73b99b0",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "49af5f35e39a40f5a5d82c09656bb887a71e19e83cb8806d085e3fb7a31c2934",
+      "segments": [],
+      "source_feature_id": "80971ecf-607b-4484-acb7-54cfe60cdc35",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-9d2250a17b107f518a4c",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "b980ff9fc125b0c3683ff77da710c62fbf0be16f57c268aa66a4645f750a10b2",
+      "segments": [],
+      "source_feature_id": "1ef52166-8c34-4cf4-8bb0-825f74d97f03",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-ab0c50c6a7555b1ebfaa",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "86fc87ef9c2bb1f3e145f17d81b79ee5fbccc5c057c8f6e12ec3dc44f34f1380",
+      "segments": [],
+      "source_feature_id": "807d89f5-417d-43e4-8d08-124b9eab4881",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-ab3742bcf3f0c5aba200",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "debe88c820bbc8fc3be70f3facfbd4cecd0f50f2af2acc0e52222a6ac3f1039f",
+      "segments": [],
+      "source_feature_id": "c927e9d2-cfee-4d75-a2b3-d89ecc462f95",
+      "source_feature_type": "Protein Binding Site",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-b04626545afdaf60310f",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "ed177d1d752110e2b00da16f7ba58f211271f19fa1159c72108216f9a0b53aa7",
+      "segments": [],
+      "source_feature_id": "ccf9f19a-415a-4d43-acc7-2be381027259",
+      "source_feature_type": "Operator",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25UIP3DW-f-da1e222066162578fe62",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "b3f7edd1552be31acdd3a109a5685f2ec2613b454de30be43197662416975be7",
+      "segments": [],
+      "source_feature_id": "d0b80f9f-b907-472a-a020-800f1daf13ff",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25UIP3DW",
+      "source_sha256": "77d4bd769e4dc29967f6456f9109b1ed21d5e2fc9728e3be39f33907da952fbd"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-1c0220ca9c382846a9b1",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "0d2414137c236141faf380088d2dd3cee7811da637290dc6efa8f2da5d24237a",
+      "segments": [],
+      "source_feature_id": "a4358de0-f77d-4486-bfd4-b84eb865a5a4",
+      "source_feature_type": "Promoter",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-1d394df44df5ea638cb6",
+      "feature_label": "CDS",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "440c11e260e96f2aae5378514fd619f971c108cdb816077f02def173da176fef",
+      "segments": [],
+      "source_feature_id": "1dbefc9a-210d-4c27-889a-f9f713ddc9a2",
+      "source_feature_type": "CDS",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-3dfb074a6c3173ef7a2d",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "3f835b99143014acf796017a80c0a57ec1aa72bebb3b4219ffd028d741d33fdc",
+      "segments": [],
+      "source_feature_id": "2d3a25bf-671e-40ee-baab-ce2d6e717d53",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-67618259b6269081370a",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "fab5420f523f2f923e1d6bc86bf231fd88c540ec276ab0622dd4298ca3c204e3",
+      "segments": [],
+      "source_feature_id": "8f92a9bc-6fc3-4d9f-a8cc-a860cd875797",
+      "source_feature_type": "Protein Binding Site",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-75bfb8cb2698d55d720a",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "4ce24297b8b4f26dbaf78e0161bc19222f04405ce69f65a8f377417e672d16eb",
+      "segments": [],
+      "source_feature_id": "879f9b86-10f7-408b-8108-4fd3ac5783e6",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-86e4af9eeccb8f75c3a9",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "4c28afa0ff8a5e2ffd794e10d090e4eb11b48103d2b972eae5bd8896642b18f8",
+      "segments": [],
+      "source_feature_id": "b6eacc24-96aa-4a22-8e41-f4be21a9ee81",
+      "source_feature_type": "Start Codon",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-8b77819c1ef71b879cf0",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "a2042a77a87b9d2526e565e995bf90a0eb759a18579f5129dd4a75ac9ff94c30",
+      "segments": [],
+      "source_feature_id": "1136fea1-b281-4e82-90a8-cff23ebc5f5d",
+      "source_feature_type": "Operator",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-933b7f5d592fcfc68868",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "909d49c7696a2bcf83555a74f43070d3865ddcf43ec78f2267cbf528ef77eaff",
+      "segments": [],
+      "source_feature_id": "921f32f6-dfbe-421c-872d-c7213f04427c",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-9373ab1050a4803e5991",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "ab2c3ab5a194ad797dcdbb585dbf86b8e33ff342c26823ab4b635ab2ab6e5c67",
+      "segments": [],
+      "source_feature_id": "5d923c5d-310c-488d-aad9-19c75c1a00cb",
+      "source_feature_type": "Terminator",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-ad1b7e994f1709c0756d",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "7a37a3b1784408f7e424f26063cf6d7f1bfb485b5d85c0d80233a1817a555939",
+      "segments": [],
+      "source_feature_id": "c3f43e58-6bca-4234-9a95-ff9d14c5f3e8",
+      "source_feature_type": "Tag",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-b3c0787bb6d1aca6b855",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "5c9fb8252851fe7f79c9beaf12d0282f5036b71ef64614f1c19e848e72a0c918",
+      "segments": [],
+      "source_feature_id": "d7e09cd1-0944-42bc-8466-b0ae0f09ca47",
+      "source_feature_type": "Stop Codon",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    },
+    {
+      "annotation_status": "ambiguous",
+      "feature_id": "BBa_25ECYPMT-f-cd6bd48a901e507dea12",
+      "feature_label": "other",
+      "location": {
+        "end0": null,
+        "start0": null,
+        "strand": null
+      },
+      "original_annotation_sha256": "154aa8409b0f3247142bf51e27eb365ff01a464f3de804e1ed84dc353577d9f0",
+      "segments": [],
+      "source_feature_id": "461e5089-120d-4468-b133-1c5ec8a0cf5a",
+      "source_feature_type": "Ribosome Entry Site",
+      "source_id": "BBa_25ECYPMT",
+      "source_sha256": "fe3bbc5a72ec0a1972d95175fb5a1234e5d52131f8f10a1cc052b8292c78321c"
+    }
+  ],
+  "schema_version": "week2-feature-provenance-1"
+}

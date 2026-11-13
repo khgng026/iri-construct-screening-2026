@@ -1,0 +1,543 @@
+{
+  "clearance": "https://github.com/khgng026/iri-construct-screening-2026/pull/11#issuecomment-6800553713",
+  "evidence_kind": "admitted_source_annotation_agreement_only",
+  "experiment": "E1",
+  "historical_control": {
+    "audit_failures": [],
+    "full_local_report": "results/cleared-2026-11-11/E1/control/report.json",
+    "full_report_sha256": "6d79f41d240590f544574bdf1d2a0f197802bf7f566faddf92e516f1f22efea4",
+    "input_sha256": "22e271c544164479e2d9e297d7d83b6d48ef34c60044467bbec771c37188a373",
+    "overall": {
+      "counts": {
+        "conflicting_qualifier_cds": 0,
+        "erroneous_invention_count": 0,
+        "exceptional_cds": 0,
+        "expected_model_abstention_cds": 0,
+        "fuzzy_location_features": 0,
+        "invalid_location_features": 0,
+        "invented_feature_count": 0,
+        "justified_model_abstention_cds": 0,
+        "missing_location_features": 0,
+        "missing_translation_cds": 0,
+        "mixed_strand_features": 0,
+        "multipart_features": 0,
+        "observable_features": 48,
+        "preserved_observable_qualifiers": 48,
+        "remote_location_features": 0,
+        "retained_observable_features": 48,
+        "reverse_strand_features": 19,
+        "source_aligned_exported_cds": 3,
+        "source_ambiguous_features": 0,
+        "source_cds": 3,
+        "source_features": 50,
+        "source_issue_features": 0,
+        "source_noncoding_features": 47,
+        "source_unknown_features": 0,
+        "translation_conflict_cds": 0,
+        "uncertainty_preserved_features": 0,
+        "uncertainty_required_features": 0,
+        "unknown_strand_features": 0,
+        "unsupported_feature_label_count": 0,
+        "unsupported_length_cds": 0,
+        "unsupported_protein_export_count": 0,
+        "usable_model_input_cds": 3,
+        "validated_source_translation_cds": 3,
+        "withheld_annotation_cds": 0
+      },
+      "metrics": {
+        "confirmed_source_aligned_translation_rate": {
+          "denominator": 3,
+          "numerator": 3,
+          "value": 1.0
+        },
+        "conflicting_qualifier_cds_rate": {
+          "denominator": 3,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "justified_model_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "value": null
+        },
+        "missing_translation_rate": {
+          "denominator": 3,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "observable_feature_preservation": {
+          "denominator": 48,
+          "numerator": 48,
+          "value": 1.0
+        },
+        "observable_qualifier_preservation": {
+          "denominator": 48,
+          "numerator": 48,
+          "value": 1.0
+        },
+        "source_ambiguous_feature_rate": {
+          "denominator": 48,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "source_uncertainty_preservation": {
+          "denominator": 0,
+          "numerator": 0,
+          "value": null
+        },
+        "source_unknown_feature_rate": {
+          "denominator": 48,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "useful_model_input_rate": {
+          "denominator": 3,
+          "numerator": 3,
+          "value": 1.0
+        }
+      },
+      "quality_strata": {
+        "well_annotated": 1
+      },
+      "record_justified_abstention_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "value": null
+      },
+      "record_usable_model_input_rate": {
+        "denominator": 1,
+        "numerator": 1,
+        "value": 1.0
+      },
+      "records": 1,
+      "withheld_reasons": {}
+    },
+    "parser_failure_summary": {
+      "attempted_records": 1,
+      "erroneous_invention_count": 0,
+      "failed_records": 0
+    },
+    "record_count": 1,
+    "records": [
+      {
+        "archetype": "backbone_heavy",
+        "construct_id": "ncbi-J01749.1",
+        "failed_checks": [],
+        "observable_features": 48,
+        "quality_stratum": "well_annotated",
+        "retained_observable_features": 48,
+        "source_cds": 3,
+        "source_preservation": {
+          "ambiguous_cds": 0,
+          "ambiguous_features": 0,
+          "annotated_proteins_emitted": 3,
+          "annotated_translations_verified": 3,
+          "coordinate_agreement_features": 50,
+          "feature_parent_links_valid": 50,
+          "missing_translation_cds": 0,
+          "original_locations_preserved": 50,
+          "original_qualifiers_preserved": 50,
+          "retained_features": 50,
+          "retained_noncoding_features": 47,
+          "source_cds": 3,
+          "source_features": 50,
+          "source_noncoding_features": 47,
+          "strand_agreement_features": 50,
+          "unit_parent_links_valid": 50,
+          "unknown_features": 0,
+          "withheld_cds": 0
+        },
+        "status": "audited",
+        "validated_source_translations": 3
+      }
+    ],
+    "resources": {
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_evaluation_extension.py",
+        "--protocol",
+        "config/execution_2026_11_11/E1.json",
+        "--inputs",
+        "data/manifests/execution_2026_11_11/E1.control.inputs.json",
+        "--output",
+        "results/cleared-2026-11-11/E1/control"
+      ],
+      "exit_code": 0,
+      "gpu_seconds": null,
+      "limits": {
+        "process_rss_bytes": 6442450944,
+        "wall_seconds": 1800
+      },
+      "monetary_cost": null,
+      "os_peak_process_rss_bytes": 35831808,
+      "process_cpu_seconds": 0.5304059999999999,
+      "rss_policy": "20ms sampling with termination; OS high-water mark checked after exit",
+      "sampled_peak_process_rss_bytes": 35901440,
+      "stop_reason": null,
+      "wall_seconds": 0.3578971160004585
+    },
+    "status": "ok"
+  },
+  "new_sources": {
+    "audit_failures": [],
+    "full_local_report": "results/cleared-2026-11-11/E1/new/report.json",
+    "full_report_sha256": "7b7b73db4f4ce7a29eca9d5a790978a2009dc6938b3f4440570efeea8382f514",
+    "input_sha256": "dcb0d72b398b370e73f691488dc40dfff0f03deed0c35d031053e148343047e4",
+    "overall": {
+      "counts": {
+        "conflicting_qualifier_cds": 0,
+        "erroneous_invention_count": 0,
+        "exceptional_cds": 0,
+        "expected_model_abstention_cds": 0,
+        "fuzzy_location_features": 0,
+        "invalid_location_features": 0,
+        "invented_feature_count": 0,
+        "justified_model_abstention_cds": 0,
+        "missing_location_features": 0,
+        "missing_translation_cds": 0,
+        "mixed_strand_features": 0,
+        "multipart_features": 0,
+        "observable_features": 67,
+        "preserved_observable_qualifiers": 67,
+        "remote_location_features": 0,
+        "retained_observable_features": 67,
+        "reverse_strand_features": 17,
+        "source_aligned_exported_cds": 15,
+        "source_ambiguous_features": 0,
+        "source_cds": 15,
+        "source_features": 74,
+        "source_issue_features": 0,
+        "source_noncoding_features": 59,
+        "source_unknown_features": 0,
+        "translation_conflict_cds": 0,
+        "uncertainty_preserved_features": 0,
+        "uncertainty_required_features": 0,
+        "unknown_strand_features": 0,
+        "unsupported_feature_label_count": 0,
+        "unsupported_length_cds": 0,
+        "unsupported_protein_export_count": 0,
+        "usable_model_input_cds": 15,
+        "validated_source_translation_cds": 15,
+        "withheld_annotation_cds": 0
+      },
+      "metrics": {
+        "confirmed_source_aligned_translation_rate": {
+          "denominator": 15,
+          "numerator": 15,
+          "value": 1.0
+        },
+        "conflicting_qualifier_cds_rate": {
+          "denominator": 15,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "justified_model_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "value": null
+        },
+        "missing_translation_rate": {
+          "denominator": 15,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "observable_feature_preservation": {
+          "denominator": 67,
+          "numerator": 67,
+          "value": 1.0
+        },
+        "observable_qualifier_preservation": {
+          "denominator": 67,
+          "numerator": 67,
+          "value": 1.0
+        },
+        "source_ambiguous_feature_rate": {
+          "denominator": 67,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "source_uncertainty_preservation": {
+          "denominator": 0,
+          "numerator": 0,
+          "value": null
+        },
+        "source_unknown_feature_rate": {
+          "denominator": 67,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "useful_model_input_rate": {
+          "denominator": 15,
+          "numerator": 15,
+          "value": 1.0
+        }
+      },
+      "quality_strata": {
+        "well_annotated": 7
+      },
+      "record_justified_abstention_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "value": null
+      },
+      "record_usable_model_input_rate": {
+        "denominator": 7,
+        "numerator": 7,
+        "value": 1.0
+      },
+      "records": 7,
+      "withheld_reasons": {}
+    },
+    "parser_failure_summary": {
+      "attempted_records": 7,
+      "erroneous_invention_count": 0,
+      "failed_records": 0
+    },
+    "record_count": 7,
+    "records": [
+      {
+        "archetype": "multi_cds",
+        "construct_id": "ncbi-U47295.2",
+        "failed_checks": [],
+        "observable_features": 12,
+        "quality_stratum": "well_annotated",
+        "retained_observable_features": 12,
+        "source_cds": 2,
+        "source_preservation": {
+          "ambiguous_cds": 0,
+          "ambiguous_features": 0,
+          "annotated_proteins_emitted": 2,
+          "annotated_translations_verified": 2,
+          "coordinate_agreement_features": 13,
+          "feature_parent_links_valid": 13,
+          "missing_translation_cds": 0,
+          "original_locations_preserved": 13,
+          "original_qualifiers_preserved": 13,
+          "retained_features": 13,
+          "retained_noncoding_features": 11,
+          "source_cds": 2,
+          "source_features": 13,
+          "source_noncoding_features": 11,
+          "strand_agreement_features": 13,
+          "unit_parent_links_valid": 13,
+          "unknown_features": 0,
+          "withheld_cds": 0
+        },
+        "status": "audited",
+        "validated_source_translations": 2
+      },
+      {
+        "archetype": "multi_cds",
+        "construct_id": "ncbi-U47296.2",
+        "failed_checks": [],
+        "observable_features": 14,
+        "quality_stratum": "well_annotated",
+        "retained_observable_features": 14,
+        "source_cds": 2,
+        "source_preservation": {
+          "ambiguous_cds": 0,
+          "ambiguous_features": 0,
+          "annotated_proteins_emitted": 2,
+          "annotated_translations_verified": 2,
+          "coordinate_agreement_features": 15,
+          "feature_parent_links_valid": 15,
+          "missing_translation_cds": 0,
+          "original_locations_preserved": 15,
+          "original_qualifiers_preserved": 15,
+          "retained_features": 15,
+          "retained_noncoding_features": 13,
+          "source_cds": 2,
+          "source_features": 15,
+          "source_noncoding_features": 13,
+          "strand_agreement_features": 15,
+          "unit_parent_links_valid": 15,
+          "unknown_features": 0,
+          "withheld_cds": 0
+        },
+        "status": "audited",
+        "validated_source_translations": 2
+      },
+      {
+        "archetype": "multi_cds",
+        "construct_id": "ncbi-AY864931.1",
+        "failed_checks": [],
+        "observable_features": 11,
+        "quality_stratum": "well_annotated",
+        "retained_observable_features": 11,
+        "source_cds": 3,
+        "source_preservation": {
+          "ambiguous_cds": 0,
+          "ambiguous_features": 0,
+          "annotated_proteins_emitted": 3,
+          "annotated_translations_verified": 3,
+          "coordinate_agreement_features": 12,
+          "feature_parent_links_valid": 12,
+          "missing_translation_cds": 0,
+          "original_locations_preserved": 12,
+          "original_qualifiers_preserved": 12,
+          "retained_features": 12,
+          "retained_noncoding_features": 9,
+          "source_cds": 3,
+          "source_features": 12,
+          "source_noncoding_features": 9,
+          "strand_agreement_features": 12,
+          "unit_parent_links_valid": 12,
+          "unknown_features": 0,
+          "withheld_cds": 0
+        },
+        "status": "audited",
+        "validated_source_translations": 3
+      },
+      {
+        "archetype": "multi_cds",
+        "construct_id": "ncbi-U55762.1",
+        "failed_checks": [],
+        "observable_features": 3,
+        "quality_stratum": "well_annotated",
+        "retained_observable_features": 3,
+        "source_cds": 2,
+        "source_preservation": {
+          "ambiguous_cds": 0,
+          "ambiguous_features": 0,
+          "annotated_proteins_emitted": 2,
+          "annotated_translations_verified": 2,
+          "coordinate_agreement_features": 4,
+          "feature_parent_links_valid": 4,
+          "missing_translation_cds": 0,
+          "original_locations_preserved": 4,
+          "original_qualifiers_preserved": 4,
+          "retained_features": 4,
+          "retained_noncoding_features": 2,
+          "source_cds": 2,
+          "source_features": 4,
+          "source_noncoding_features": 2,
+          "strand_agreement_features": 4,
+          "unit_parent_links_valid": 4,
+          "unknown_features": 0,
+          "withheld_cds": 0
+        },
+        "status": "audited",
+        "validated_source_translations": 2
+      },
+      {
+        "archetype": "multi_cds",
+        "construct_id": "ncbi-AY738222.1",
+        "failed_checks": [],
+        "observable_features": 9,
+        "quality_stratum": "well_annotated",
+        "retained_observable_features": 9,
+        "source_cds": 2,
+        "source_preservation": {
+          "ambiguous_cds": 0,
+          "ambiguous_features": 0,
+          "annotated_proteins_emitted": 2,
+          "annotated_translations_verified": 2,
+          "coordinate_agreement_features": 10,
+          "feature_parent_links_valid": 10,
+          "missing_translation_cds": 0,
+          "original_locations_preserved": 10,
+          "original_qualifiers_preserved": 10,
+          "retained_features": 10,
+          "retained_noncoding_features": 8,
+          "source_cds": 2,
+          "source_features": 10,
+          "source_noncoding_features": 8,
+          "strand_agreement_features": 10,
+          "unit_parent_links_valid": 10,
+          "unknown_features": 0,
+          "withheld_cds": 0
+        },
+        "status": "audited",
+        "validated_source_translations": 2
+      },
+      {
+        "archetype": "multi_cds",
+        "construct_id": "ncbi-AF298787.1",
+        "failed_checks": [],
+        "observable_features": 10,
+        "quality_stratum": "well_annotated",
+        "retained_observable_features": 10,
+        "source_cds": 3,
+        "source_preservation": {
+          "ambiguous_cds": 0,
+          "ambiguous_features": 0,
+          "annotated_proteins_emitted": 3,
+          "annotated_translations_verified": 3,
+          "coordinate_agreement_features": 11,
+          "feature_parent_links_valid": 11,
+          "missing_translation_cds": 0,
+          "original_locations_preserved": 11,
+          "original_qualifiers_preserved": 11,
+          "retained_features": 11,
+          "retained_noncoding_features": 8,
+          "source_cds": 3,
+          "source_features": 11,
+          "source_noncoding_features": 8,
+          "strand_agreement_features": 11,
+          "unit_parent_links_valid": 11,
+          "unknown_features": 0,
+          "withheld_cds": 0
+        },
+        "status": "audited",
+        "validated_source_translations": 3
+      },
+      {
+        "archetype": "backbone_heavy",
+        "construct_id": "ncbi-JX560321.2",
+        "failed_checks": [],
+        "observable_features": 8,
+        "quality_stratum": "well_annotated",
+        "retained_observable_features": 8,
+        "source_cds": 1,
+        "source_preservation": {
+          "ambiguous_cds": 0,
+          "ambiguous_features": 0,
+          "annotated_proteins_emitted": 1,
+          "annotated_translations_verified": 1,
+          "coordinate_agreement_features": 9,
+          "feature_parent_links_valid": 9,
+          "missing_translation_cds": 0,
+          "original_locations_preserved": 9,
+          "original_qualifiers_preserved": 9,
+          "retained_features": 9,
+          "retained_noncoding_features": 8,
+          "source_cds": 1,
+          "source_features": 9,
+          "source_noncoding_features": 8,
+          "strand_agreement_features": 9,
+          "unit_parent_links_valid": 9,
+          "unknown_features": 0,
+          "withheld_cds": 0
+        },
+        "status": "audited",
+        "validated_source_translations": 1
+      }
+    ],
+    "resources": {
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_evaluation_extension.py",
+        "--protocol",
+        "config/execution_2026_11_11/E1.json",
+        "--inputs",
+        "data/manifests/execution_2026_11_11/E1.new.inputs.json",
+        "--output",
+        "results/cleared-2026-11-11/E1/new"
+      ],
+      "exit_code": 0,
+      "gpu_seconds": null,
+      "limits": {
+        "process_rss_bytes": 6442450944,
+        "wall_seconds": 1800
+      },
+      "monetary_cost": null,
+      "os_peak_process_rss_bytes": 36192256,
+      "process_cpu_seconds": 0.53336,
+      "rss_policy": "20ms sampling with termination; OS high-water mark checked after exit",
+      "sampled_peak_process_rss_bytes": 36257792,
+      "stop_reason": null,
+      "wall_seconds": 0.3769704129999809
+    },
+    "status": "ok"
+  }
+}

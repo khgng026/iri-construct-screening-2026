@@ -1,0 +1,485 @@
+{
+  "bootstrap_limit": "At most3parent constructs among4proposed-supported queries; may be fewer independent groups after shared-vector review. Below minimum8; no comparative CI justified.",
+  "identical_component_groups_from_source_review": [
+    [
+      {
+        "protein_accession_version": "AAA89082.1",
+        "source_id": "ncbi-U47295.2",
+        "source_ordinal_1based": 4
+      },
+      {
+        "protein_accession_version": "AAA89084.1",
+        "source_id": "ncbi-U47296.2",
+        "source_ordinal_1based": 5
+      },
+      {
+        "protein_accession_version": "AAV52869.1",
+        "source_id": "ncbi-AY738222.1",
+        "source_ordinal_1based": 3
+      }
+    ],
+    [
+      {
+        "protein_accession_version": "AAA89083.1",
+        "source_id": "ncbi-U47295.2",
+        "source_ordinal_1based": 10
+      },
+      {
+        "protein_accession_version": "AAA89085.1",
+        "source_id": "ncbi-U47296.2",
+        "source_ordinal_1based": 12
+      },
+      {
+        "protein_accession_version": "AAW66993.1",
+        "source_id": "ncbi-AY864931.1",
+        "source_ordinal_1based": 10
+      },
+      {
+        "protein_accession_version": "AAV52870.1",
+        "source_id": "ncbi-AY738222.1",
+        "source_ordinal_1based": 8
+      },
+      {
+        "protein_accession_version": "AAG34530.1",
+        "source_id": "ncbi-AF298787.1",
+        "source_ordinal_1based": 10
+      }
+    ],
+    [
+      {
+        "protein_accession_version": "AIC82337.1",
+        "source_id": "ncbi-KJ541668.1",
+        "source_ordinal_1based": 6
+      },
+      {
+        "protein_accession_version": "AIC82345.1",
+        "source_id": "ncbi-KJ541670.1",
+        "source_ordinal_1based": 6
+      }
+    ],
+    [
+      {
+        "protein_accession_version": "AIC82338.1",
+        "source_id": "ncbi-KJ541668.1",
+        "source_ordinal_1based": 8
+      },
+      {
+        "protein_accession_version": "AIC82346.1",
+        "source_id": "ncbi-KJ541670.1",
+        "source_ordinal_1based": 8
+      }
+    ],
+    [
+      {
+        "protein_accession_version": "AIC82340.1",
+        "source_id": "ncbi-KJ541668.1",
+        "source_ordinal_1based": 17
+      },
+      {
+        "protein_accession_version": "AIC82348.1",
+        "source_id": "ncbi-KJ541670.1",
+        "source_ordinal_1based": 17
+      }
+    ],
+    [
+      {
+        "protein_accession_version": "AFV59760.1",
+        "source_id": "ncbi-JX560321.2",
+        "source_ordinal_1based": 6
+      },
+      {
+        "protein_accession_version": "AAB59737.1",
+        "source_id": "ncbi-J01749.1",
+        "source_ordinal_1based": 39
+      }
+    ]
+  ],
+  "panel_proposal_sha256": "f51457db5f7c991d58a37b11dc700c7a63a5be06cef0dccb870b4620360339f3",
+  "parent_component_coverage": {
+    "ncbi-AF298787.1": {
+      "full_documented_family_set_status": "HOLD_unreviewed_component_families",
+      "proposed_eligible_longest_translation_aa": 267,
+      "proposed_supported_component_count": 2,
+      "proposed_supported_distinct_families": [
+        "gfp_like_homologs",
+        "omp_decarboxylase_homologs"
+      ],
+      "scientific_clearance": false,
+      "source_documented_cds_count": 3,
+      "source_longest_translation_aa": 286,
+      "unsupported_components": [
+        {
+          "length_aa": 286,
+          "product": "ampicillin resistance protein",
+          "protein_accession_version": "AAG34530.1",
+          "reason": "No supported family/reference proposal; preserved outside the supported-subset denominator",
+          "translation_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700"
+        }
+      ],
+      "validated_source_translation_count": 3
+    },
+    "ncbi-AY864931.1": {
+      "full_documented_family_set_status": "HOLD_unreviewed_component_families",
+      "proposed_eligible_longest_translation_aa": 311,
+      "proposed_supported_component_count": 1,
+      "proposed_supported_distinct_families": [
+        "renilla_luciferase_lineage"
+      ],
+      "scientific_clearance": false,
+      "source_documented_cds_count": 3,
+      "source_longest_translation_aa": 345,
+      "unsupported_components": [
+        {
+          "length_aa": 345,
+          "product": "synthetic hygromycin resistance protein",
+          "protein_accession_version": "AAW66992.1",
+          "reason": "No supported family/reference proposal; preserved outside the supported-subset denominator",
+          "translation_sha256": "1616972fc762e99a5c350b9ba28997edb65d3fc4a0043f6aa96187699eaffa3a"
+        },
+        {
+          "length_aa": 286,
+          "product": "synthetic beta-lactamase",
+          "protein_accession_version": "AAW66993.1",
+          "reason": "No supported family/reference proposal; preserved outside the supported-subset denominator",
+          "translation_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700"
+        }
+      ],
+      "validated_source_translation_count": 3
+    },
+    "ncbi-U47295.2": {
+      "full_documented_family_set_status": "HOLD_unreviewed_component_families",
+      "proposed_eligible_longest_translation_aa": 550,
+      "proposed_supported_component_count": 1,
+      "proposed_supported_distinct_families": [
+        "coleopteran_luciferase_homologs"
+      ],
+      "scientific_clearance": false,
+      "source_documented_cds_count": 2,
+      "source_longest_translation_aa": 550,
+      "unsupported_components": [
+        {
+          "length_aa": 286,
+          "product": "beta-lactamase",
+          "protein_accession_version": "AAA89083.1",
+          "reason": "No supported family/reference proposal; preserved outside the supported-subset denominator",
+          "translation_sha256": "496a5ac4795e7e649bef8b6c9e38a1b930d05b31fa22e212e372b873b6cf9700"
+        }
+      ],
+      "validated_source_translation_count": 2
+    },
+    "ncbi-U55762.1": {
+      "full_documented_family_set_status": "HOLD_unreviewed_component_families",
+      "proposed_eligible_longest_translation_aa": 239,
+      "proposed_supported_component_count": 1,
+      "proposed_supported_distinct_families": [
+        "gfp_like_homologs"
+      ],
+      "scientific_clearance": false,
+      "source_documented_cds_count": 2,
+      "source_longest_translation_aa": 264,
+      "unsupported_components": [
+        {
+          "length_aa": 264,
+          "product": "neomycin phosphotransferase",
+          "protein_accession_version": "AAB02575.1",
+          "reason": "No supported family/reference proposal; preserved outside the supported-subset denominator",
+          "translation_sha256": "0afa388d22fe22895c0561fcb0566d89c4f2f9368842f2157ec283616f08cb91"
+        }
+      ],
+      "validated_source_translation_count": 2
+    }
+  },
+  "query_exclusions": [
+    {
+      "budget_saturated": false,
+      "competing_count": 12,
+      "competing_reference_ids_proposed": [
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P27652",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "eligible_count": 15,
+      "eligible_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "parent_id": "ncbi-AF298787.1",
+      "positive_count": 3,
+      "positive_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P08244",
+        "uniprot-P25971"
+      ],
+      "proposed_family": "omp_decarboxylase_homologs",
+      "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207",
+      "removed_references": {
+        "uniprot-P03962": [
+          "shared_origin_or_vector_lineage",
+          "documented_query_ancestor"
+        ],
+        "uniprot-P42212": [
+          "documented_query_ancestor"
+        ]
+      },
+      "scientific_clearance": false,
+      "scoring_performed": false,
+      "support_status": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "top_k": 5
+    },
+    {
+      "budget_saturated": false,
+      "competing_count": 9,
+      "competing_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757"
+      ],
+      "eligible_count": 15,
+      "eligible_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "parent_id": "ncbi-AF298787.1",
+      "positive_count": 6,
+      "positive_reference_ids_proposed": [
+        "uniprot-P83690",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "proposed_family": "gfp_like_homologs",
+      "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714",
+      "removed_references": {
+        "uniprot-P03962": [
+          "documented_query_ancestor"
+        ],
+        "uniprot-P42212": [
+          "shared_origin_or_vector_lineage",
+          "documented_query_ancestor"
+        ]
+      },
+      "scientific_clearance": false,
+      "scoring_performed": false,
+      "support_status": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "top_k": 5
+    },
+    {
+      "budget_saturated": false,
+      "competing_count": 16,
+      "competing_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P42212",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "eligible_count": 16,
+      "eligible_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P42212",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "parent_id": "ncbi-AY864931.1",
+      "positive_count": 0,
+      "positive_reference_ids_proposed": [],
+      "proposed_family": "renilla_luciferase_lineage",
+      "query_id": "ncbi-AY864931.1/ncbi-AY864931.1-u-cfa1199e479fa95e41ed",
+      "removed_references": {
+        "uniprot-P27652": [
+          "shared_origin_or_vector_lineage",
+          "documented_query_ancestor"
+        ]
+      },
+      "scientific_clearance": false,
+      "scoring_performed": false,
+      "support_status": "HOLD_NO_INDEPENDENT_POSITIVE_OR_COMPETITOR",
+      "top_k": 5
+    },
+    {
+      "budget_saturated": false,
+      "competing_count": 12,
+      "competing_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-P42212",
+        "uniprot-P83690",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "eligible_count": 16,
+      "eligible_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-P42212",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "parent_id": "ncbi-U47295.2",
+      "positive_count": 4,
+      "positive_reference_ids_proposed": [
+        "uniprot-P13129",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757"
+      ],
+      "proposed_family": "coleopteran_luciferase_homologs",
+      "query_id": "ncbi-U47295.2/ncbi-U47295.2-u-b2052ad5b0d017c1f14c",
+      "removed_references": {
+        "uniprot-P08659": [
+          "shared_origin_or_vector_lineage",
+          "documented_query_ancestor"
+        ]
+      },
+      "scientific_clearance": false,
+      "scoring_performed": false,
+      "support_status": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "top_k": 5
+    },
+    {
+      "budget_saturated": false,
+      "competing_count": 10,
+      "competing_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757"
+      ],
+      "eligible_count": 16,
+      "eligible_reference_ids_proposed": [
+        "uniprot-O26232",
+        "uniprot-P03962",
+        "uniprot-P08244",
+        "uniprot-P08659",
+        "uniprot-P13129",
+        "uniprot-P25971",
+        "uniprot-P27652",
+        "uniprot-P83690",
+        "uniprot-Q01158",
+        "uniprot-Q26304",
+        "uniprot-Q27757",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "parent_id": "ncbi-U55762.1",
+      "positive_count": 6,
+      "positive_reference_ids_proposed": [
+        "uniprot-P83690",
+        "uniprot-Q8ISF8",
+        "uniprot-Q9U6Y3",
+        "uniprot-Q9U6Y4",
+        "uniprot-Q9U6Y6",
+        "uniprot-Q9U6Y8"
+      ],
+      "proposed_family": "gfp_like_homologs",
+      "query_id": "ncbi-U55762.1/ncbi-U55762.1-u-19863cb9a9722e562f34",
+      "removed_references": {
+        "uniprot-P42212": [
+          "shared_origin_or_vector_lineage",
+          "documented_query_ancestor"
+        ]
+      },
+      "scientific_clearance": false,
+      "scoring_performed": false,
+      "support_status": "PROPOSED_SUPPORTED_PENDING_REVIEW",
+      "top_k": 5
+    }
+  ],
+  "schema_version": "week2-reference-exclusion-evidence-1",
+  "scientific_clearance": false,
+  "scoring_performed": false,
+  "source_manifest_sha256": "1201f720fd312a6f359674f3d50a5494a56bf98df661a2eff402304b9f742655",
+  "strict_tier3_status": "HOLD_no_independently_reviewed_pre_score_relatedness_policy"
+}

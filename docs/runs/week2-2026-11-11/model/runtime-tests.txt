@@ -1,0 +1,30 @@
+test_bad_model_shapes_and_nonfinite_fail (test_model_runtime.ModelRuntimeValidationTests.test_bad_model_shapes_and_nonfinite_fail) ... ok
+test_cli_refuses_scientific_inputs_and_unsupported_models (test_model_runtime.ModelRuntimeValidationTests.test_cli_refuses_scientific_inputs_and_unsupported_models) ... usage: python -m unittest [-h] --output OUTPUT [--models MODELS]
+                          [--esm2-revision ESM2_REVISION]
+                          [--esmc-revision ESMC_REVISION] [--allow-download]
+                          [--threads THREADS]
+python -m unittest: error: unrecognized arguments: --inputs anything.fasta
+usage: python -m unittest [-h] --output OUTPUT [--models MODELS]
+                          [--esm2-revision ESM2_REVISION]
+                          [--esmc-revision ESMC_REVISION] [--allow-download]
+                          [--threads THREADS]
+python -m unittest: error: --models must be distinct members of esm2,esmc
+usage: python -m unittest [-h] --output OUTPUT [--models MODELS]
+                          [--esm2-revision ESM2_REVISION]
+                          [--esmc-revision ESMC_REVISION] [--allow-download]
+                          [--threads THREADS]
+python -m unittest: error: --models must be distinct members of esm2,esmc
+usage: python -m unittest [-h] --output OUTPUT [--models MODELS]
+                          [--esm2-revision ESM2_REVISION]
+                          [--esmc-revision ESMC_REVISION] [--allow-download]
+                          [--threads THREADS]
+python -m unittest: error: --models must be distinct members of esm2,esmc
+ok
+test_missing_model_is_blocked_and_source_free (test_model_runtime.ModelRuntimeValidationTests.test_missing_model_is_blocked_and_source_free) ... ok
+test_pinned_revision_mismatch_and_mutable_snapshot_are_rejected (test_model_runtime.ModelRuntimeValidationTests.test_pinned_revision_mismatch_and_mutable_snapshot_are_rejected) ... ok
+test_pooling_is_per_residue_and_finite (test_model_runtime.ModelRuntimeValidationTests.test_pooling_is_per_residue_and_finite) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.830s
+
+OK

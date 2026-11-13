@@ -86,7 +86,7 @@ def _cost_record(report, method, tier_name, panel, result, costs, config):
         'method_thread_settings':{k:v for k,v in report['models'].get(method,{}).get('metadata',{}).items() if 'threads' in k},
         'metrics':{'coverage':result.get('coverage'),'documented_family_recall_at_k':result.get('overall',{}).get('documented_family_recall_at_k'),
                    'complete_family_recovery_rate':result.get('overall',{}).get('all_documented_families_recovered_rate'),
-                   'independent_groups':len({r['independence_group'] for r in rows}),
+                   'independent_groups':len({r['independence_cluster'] for r in rows}),
                    'scored_observations':len(rows),'requested_observations':len(panel['query_ids']),
                    'budget_saturated_observations':sum(r.get('budget_saturated',False) for r in rows)},
         'costs':costs}

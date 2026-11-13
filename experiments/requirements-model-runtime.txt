@@ -1,0 +1,5 @@
+# Validated CPU model runtime, Python 3.11. Historical direct pins are retained.
+-r requirements-esm-sdk.txt
+# esm==3.2.1 imports its Forge SDK client at package import time even for local
+# encoders, but does not declare this dependency. No remote client is invoked.
+httpx==0.28.1

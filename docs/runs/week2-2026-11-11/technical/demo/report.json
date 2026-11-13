@@ -1,0 +1,62 @@
+{
+  "blocked_records": 0,
+  "content_sha256": "f8483f77fe9cf9671d55190f03b82822c313222e66c363500abd05febe11ece1",
+  "coverage_by_archetype_proposed": {
+    "backbone_heavy": 1
+  },
+  "declared_lineage_groups": {},
+  "duplicate_parent_sequence_groups": [],
+  "duplicate_protein_sequence_groups": [],
+  "evidence_kind": "preparatory_source_QA",
+  "exported_annotated_proteins": 3,
+  "inference_executed": false,
+  "input_manifest_sha256": "d0afbc0b79b9d1c83da36bff18f603ba80df33a765d2c427ee1e28b67a038cf9",
+  "limitations": [
+    "Source agreement and deterministic preparation are not biological validation or experimental E1 scores.",
+    "Candidate archetypes and lineage groups remain proposals; no family/reference panel is approved here.",
+    "Missing source translations remain withheld; no ORFs or missing sequences are inferred.",
+    "Original annotations and protein sequences remain in ignored local artifacts."
+  ],
+  "prepared_records": 1,
+  "protein_interface_coverage": {
+    "eligible_sequence_preflight": 3
+  },
+  "records": [
+    {
+      "annotation_states": {
+        "known": 50
+      },
+      "archetype_proposed": "backbone_heavy",
+      "coordinate_convention": "GenBank: 1-based inclusive source; normalized 0-based half-open",
+      "deterministic": true,
+      "format": "genbank",
+      "related_lineage_proposals": [],
+      "schema_errors": [],
+      "scientific_admission": false,
+      "scored_experiment_executed": false,
+      "sequence_sha256": "536042a7485bdabdf49c4d21a306213a098d77d19bdba57a1c6adc76ce2b8372",
+      "source_cds_count": 3,
+      "source_content_sha256": "de9226ab7de976ca3d9e53794cb37ab3f5b0c3cc727d6b52886eb1ad409e4d71",
+      "source_feature_count": 50,
+      "source_id": "ncbi-J01749.1",
+      "source_record_id": "J01749.1",
+      "source_sha256": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6",
+      "source_type": "complete_plasmid",
+      "status": "prepared_for_review",
+      "unsupported_unit_reasons": {
+        "Noncoding/source feature retained as unsupported metadata": 47
+      },
+      "validated_annotated_protein_count": 3
+    }
+  ],
+  "requested_records": 1,
+  "schema": {
+    "source_schema_sha256": "b8953b9f2834cf811c97ee32c013d7ef8b69af01ce4c0d6184f8f2ae31152196",
+    "status": "technical_validation_only_pending_scientific_admission",
+    "version": "0.1"
+  },
+  "schema_version": "week2-source-QA-1",
+  "scientific_admission": false,
+  "scientific_scores_produced": false,
+  "status": "prepared_for_review"
+}

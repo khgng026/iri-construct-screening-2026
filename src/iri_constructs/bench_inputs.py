@@ -111,26 +111,53 @@ def reviewed_sources(config_path: Path) -> tuple[dict, list[ReviewedSource], dic
                                   'review_status', 'licensing_status', 'safety_review')} for s in sources]}
 
 
-def read_source(source: ReviewedSource):
+def detect_record_format(path: Path) -> str:
+    """Recognize supported text records by content, never by filename alone."""
+    try:
+        with Path(path).open(encoding='utf-8-sig') as handle:
+            first = next((line.strip() for line in handle if line.strip()), '')
+    except (OSError, UnicodeError) as exc:
+        raise InputError('Sequence file is unreadable or is not supported UTF-8 text') from exc
+    if first.startswith('>'):
+        return 'fasta'
+    if first.startswith('LOCUS '):
+        return 'genbank'
+    raise InputError('Unsupported or unrecognized record format; expected FASTA or GenBank')
+
+
+def parse_sequence_record(path: Path, record_format: str, sequence_id: str,
+                          molecule: str, expected_sha256: str):
+    """Read one exact record; callers separately enforce admission or preparation scope.
+
+    This shared ingestion operation grants no scientific source approval. It is
+    also used by the preparatory Week 2 QA runner, which never invokes scoring.
+    """
     from Bio import SeqIO
     import warnings
-    expected = source.review['checksum_sha256'].lower()
-    if digest_file(source.path).lower() != expected:
+    expected = expected_sha256.lower()
+    try:
+        original_digest = digest_file(path).lower()
+    except OSError as exc:
+        raise InputError('Sequence file is missing or unreadable') from exc
+    if original_digest != expected:
         raise InputError('Source checksum changed after review validation; no parsing performed')
+    detected = detect_record_format(path)
+    if record_format != detected:
+        raise InputError('Declared format disagrees with the sequence record content')
     try:
         # Parser warnings can contain raw annotation/sequence text. Treat them as controlled failures.
         with warnings.catch_warnings():
             warnings.simplefilter('error')
-            with source.path.open(encoding='utf-8-sig') as handle:
-                records = list(SeqIO.parse(handle, source.format))
-    except (ValueError, Warning) as exc:
+            with Path(path).open(encoding='utf-8-sig') as handle:
+                records = list(SeqIO.parse(handle, record_format))
+    except (OSError, UnicodeError, ValueError, Warning) as exc:
         raise InputError('Malformed sequence record or annotation; inspect the local source file') from exc
-    if digest_file(source.path).lower() != expected:
+    if digest_file(path).lower() != expected:
         raise InputError('Source checksum changed while parsing; no record admitted')
     ids = [r.id for r in records]
     if len(ids) != len(set(ids)):
         raise InputError('Duplicate sequence IDs in source file')
-    matches = [r for r in records if r.id == source.sequence_id]
+    matches = [r for r in records if r.id == sequence_id]
     if len(matches) != 1:
         raise InputError('sequence_id must match exactly one source record')
     record = matches[0]
@@ -138,7 +165,14 @@ def read_source(source: ReviewedSource):
         sequence = str(record.seq).upper()
     except Exception as exc:
         raise InputError('Source contains undefined sequence content') from exc
-    validate_sequence(sequence, source.molecule)
+    validate_sequence(sequence, molecule)
+    return record
+
+
+def read_source(source: ReviewedSource):
+    record = parse_sequence_record(source.path, source.format, source.sequence_id,
+                                   source.molecule, source.review['checksum_sha256'])
+    sequence = str(record.seq).upper()
     if source.molecule == 'dna' and len(sequence) != int(source.review['sequence_length_nt']):
         raise InputError('DNA length does not match T02 source metadata')
     if source.format == 'genbank':

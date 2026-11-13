@@ -1,0 +1,38 @@
+{
+  "base_protocol": "docs/week1/T07_benchmark_protocol.md",
+  "base_protocol_version": "1.0",
+  "bootstrap_replicates": 2000,
+  "budget_scope": "five total references per parent or matched query; never five per CDS",
+  "comparison_policy": "identical panel/task/budget/configuration/hardware/software/cache conditions; incompatible records remain separate",
+  "derived_from_protocol_file": "config/extensions/E4.json",
+  "derived_from_protocol_sha256": "500212e017b54e685ac478688e1bf67679796c19599e74e0ae209a331129d0ee",
+  "design_status": "design_frozen_pending_admission",
+  "extension": "E4",
+  "frozen_design_on": "2026-11-05",
+  "hypothesis": "Characterization quality must be assessed jointly with measured loading, inference, memory and processing cost.",
+  "max_residues": 1022,
+  "measurement_policy": {
+    "cache_policy": "exact-sequence-within-run",
+    "missing_resources": "null, never invented",
+    "model_execution": "sequential",
+    "precision": "float32",
+    "timing_scope": "cold load separately from inference/pooling/host transfer"
+  },
+  "min_independent_clusters": 8,
+  "model_revisions": {
+    "esm2": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "esmc": "7f10b20ae75017b2dbc884070e03434515709a8d"
+  },
+  "models": [],
+  "oversight_reference_sha": "4fd825691f5441f88fd0419996689f8bb76a98d9",
+  "plot_policy": "only actual admitted research measurements; no automatic winner",
+  "prospective_program_id": "iri-week2-review-proposal-2026-11-11",
+  "protocol_id": "iri-real-construct-extensions",
+  "protocol_version": "1.1",
+  "retrieval_budget": 5,
+  "schema_version": "t07-extensions-1",
+  "scientific_execution_clearance": "pending_separate_ChatGPT_review",
+  "seed": 20261105,
+  "source_admission": "T02 exact-record gates plus independently reviewed family evidence; selection approval is not source approval",
+  "top_k": 5
+}

@@ -1,0 +1,6 @@
+{
+  "method": "round-robin per-component ranked references, deduplicate, total K=5; stable unit/reference ordering",
+  "primary_endpoint": "Unchanged historical E2; any future replacement requires separate clearance",
+  "scores_sha256": "d9ba4ae882a156a113b573ad00c550c328fa628da750aac39b830809af931591",
+  "status": "PROSPECTIVE_PRIMARY_EVALUATION_PENDING_CLEARANCE"
+}

@@ -1,0 +1,272 @@
+{
+  "alignment_normalization_sensitivity": {
+    "query_top5_overlap": {
+      "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207": 3,
+      "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714": 5,
+      "ncbi-U47295.2/ncbi-U47295.2-u-b2052ad5b0d017c1f14c": 5,
+      "ncbi-U55762.1/ncbi-U55762.1-u-19863cb9a9722e562f34": 5
+    },
+    "scope": "Predeclared reference-self normalization; ranking diagnostic only, no substituted primary endpoint"
+  },
+  "budget_sensitivity": [
+    {
+      "k": 1,
+      "matching_component_family_count": 1,
+      "parent_family_count": 1
+    },
+    {
+      "k": 2,
+      "matching_component_family_count": 1,
+      "parent_family_count": 1
+    },
+    {
+      "k": 3,
+      "matching_component_family_count": 1,
+      "parent_family_count": 1
+    },
+    {
+      "k": 4,
+      "matching_component_family_count": 1,
+      "parent_family_count": 1
+    },
+    {
+      "k": 5,
+      "matching_component_family_count": 1,
+      "parent_family_count": 1
+    },
+    {
+      "k": 6,
+      "matching_component_family_count": 1,
+      "parent_family_count": 1
+    },
+    {
+      "k": 7,
+      "matching_component_family_count": 2,
+      "parent_family_count": 2
+    },
+    {
+      "k": 8,
+      "matching_component_family_count": 2,
+      "parent_family_count": 2
+    },
+    {
+      "k": 9,
+      "matching_component_family_count": 2,
+      "parent_family_count": 2
+    },
+    {
+      "k": 10,
+      "matching_component_family_count": 2,
+      "parent_family_count": 2
+    },
+    {
+      "k": 11,
+      "matching_component_family_count": 2,
+      "parent_family_count": 2
+    },
+    {
+      "k": 12,
+      "matching_component_family_count": 2,
+      "parent_family_count": 2
+    },
+    {
+      "k": 13,
+      "matching_component_family_count": 2,
+      "parent_family_count": 2
+    },
+    {
+      "k": 14,
+      "matching_component_family_count": 2,
+      "parent_family_count": 2
+    },
+    {
+      "k": 15,
+      "matching_component_family_count": 2,
+      "parent_family_count": 2
+    }
+  ],
+  "conditions": {
+    "all": {
+      "families_recovered_through_matching_component": [
+        "gfp_like_homologs"
+      ],
+      "hits": [
+        {
+          "component_attributed_correct": true,
+          "component_family": "gfp_like_homologs",
+          "reference_family": "gfp_like_homologs",
+          "reference_id": "uniprot-P83690",
+          "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+        },
+        {
+          "component_attributed_correct": true,
+          "component_family": "gfp_like_homologs",
+          "reference_family": "gfp_like_homologs",
+          "reference_id": "uniprot-Q9U6Y3",
+          "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+        },
+        {
+          "component_attributed_correct": true,
+          "component_family": "gfp_like_homologs",
+          "reference_family": "gfp_like_homologs",
+          "reference_id": "uniprot-Q8ISF8",
+          "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+        },
+        {
+          "component_attributed_correct": true,
+          "component_family": "gfp_like_homologs",
+          "reference_family": "gfp_like_homologs",
+          "reference_id": "uniprot-Q9U6Y8",
+          "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+        },
+        {
+          "component_attributed_correct": true,
+          "component_family": "gfp_like_homologs",
+          "reference_family": "gfp_like_homologs",
+          "reference_id": "uniprot-Q9U6Y4",
+          "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+        }
+      ],
+      "parent_families_returned": [
+        "gfp_like_homologs"
+      ]
+    },
+    "longest": {
+      "families_recovered_through_matching_component": [
+        "omp_decarboxylase_homologs"
+      ],
+      "hits": [
+        {
+          "component_attributed_correct": true,
+          "component_family": "omp_decarboxylase_homologs",
+          "reference_family": "omp_decarboxylase_homologs",
+          "reference_id": "uniprot-P25971",
+          "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+        },
+        {
+          "component_attributed_correct": true,
+          "component_family": "omp_decarboxylase_homologs",
+          "reference_family": "omp_decarboxylase_homologs",
+          "reference_id": "uniprot-P08244",
+          "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+        },
+        {
+          "component_attributed_correct": false,
+          "component_family": "omp_decarboxylase_homologs",
+          "reference_family": "gfp_like_homologs",
+          "reference_id": "uniprot-Q9U6Y4",
+          "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+        },
+        {
+          "component_attributed_correct": false,
+          "component_family": "omp_decarboxylase_homologs",
+          "reference_family": "gfp_like_homologs",
+          "reference_id": "uniprot-Q8ISF8",
+          "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+        },
+        {
+          "component_attributed_correct": true,
+          "component_family": "omp_decarboxylase_homologs",
+          "reference_family": "omp_decarboxylase_homologs",
+          "reference_id": "uniprot-O26232",
+          "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+        }
+      ],
+      "parent_families_returned": [
+        "gfp_like_homologs",
+        "omp_decarboxylase_homologs"
+      ]
+    }
+  },
+  "evidence_kind": "exploratory_cached_score_attribution_not_replacement_primary",
+  "exploratory_balanced_hits": [
+    {
+      "component_attributed_correct": true,
+      "component_family": "omp_decarboxylase_homologs",
+      "reference_family": "omp_decarboxylase_homologs",
+      "reference_id": "uniprot-P25971",
+      "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+    },
+    {
+      "component_attributed_correct": true,
+      "component_family": "gfp_like_homologs",
+      "reference_family": "gfp_like_homologs",
+      "reference_id": "uniprot-P83690",
+      "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+    },
+    {
+      "component_attributed_correct": true,
+      "component_family": "omp_decarboxylase_homologs",
+      "reference_family": "omp_decarboxylase_homologs",
+      "reference_id": "uniprot-P08244",
+      "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+    },
+    {
+      "component_attributed_correct": true,
+      "component_family": "gfp_like_homologs",
+      "reference_family": "gfp_like_homologs",
+      "reference_id": "uniprot-Q9U6Y3",
+      "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+    },
+    {
+      "component_attributed_correct": false,
+      "component_family": "omp_decarboxylase_homologs",
+      "reference_family": "gfp_like_homologs",
+      "reference_id": "uniprot-Q9U6Y4",
+      "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+    }
+  ],
+  "exploratory_rank_normalized_hits": [
+    {
+      "component_attributed_correct": true,
+      "component_family": "omp_decarboxylase_homologs",
+      "reference_family": "omp_decarboxylase_homologs",
+      "reference_id": "uniprot-P25971",
+      "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+    },
+    {
+      "component_attributed_correct": true,
+      "component_family": "gfp_like_homologs",
+      "reference_family": "gfp_like_homologs",
+      "reference_id": "uniprot-P83690",
+      "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+    },
+    {
+      "component_attributed_correct": true,
+      "component_family": "omp_decarboxylase_homologs",
+      "reference_family": "omp_decarboxylase_homologs",
+      "reference_id": "uniprot-P08244",
+      "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207"
+    },
+    {
+      "component_attributed_correct": true,
+      "component_family": "gfp_like_homologs",
+      "reference_family": "gfp_like_homologs",
+      "reference_id": "uniprot-Q9U6Y3",
+      "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+    },
+    {
+      "component_attributed_correct": true,
+      "component_family": "gfp_like_homologs",
+      "reference_family": "gfp_like_homologs",
+      "reference_id": "uniprot-Q8ISF8",
+      "winning_component": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714"
+    }
+  ],
+  "reference_composition": {
+    "coleopteran_luciferase_homologs": 5,
+    "gfp_like_homologs": 6,
+    "omp_decarboxylase_homologs": 3,
+    "renilla_luciferase_lineage": 1
+  },
+  "score_scale_by_component": {
+    "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207": {
+      "maximum": 0.9669434540259053,
+      "minimum": 0.7628154029060644
+    },
+    "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714": {
+      "maximum": 0.9889271465847689,
+      "minimum": 0.754504264554993
+    }
+  }
+}

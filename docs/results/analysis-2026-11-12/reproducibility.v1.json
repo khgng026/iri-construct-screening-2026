@@ -1,0 +1,71 @@
+{
+  "schema_version": "clean-reproducibility-1",
+  "source_commit": "282c093",
+  "checkout": "Fresh local clone with Git history, no source modifications; exact private week2/cleared caches restored by symlink read access. Separate previously installed pinned parsing environment; no clean model reinstall or new model inference claimed.",
+  "python": "3.12.14",
+  "dependencies": {
+    "biopython": "1.86",
+    "psutil": "7.1.3",
+    "numpy": "2.5.4"
+  },
+  "commands": [
+    "python3 -S scripts/analyze_cleared_pilot.py --stage E4",
+    "/workspace/iri-week2-clean-env/bin/python scripts/validate_week2.py --inputs data/manifests/week2/demo.preparatory.json --output results/clean-demo",
+    "/workspace/iri-week2-clean-env/bin/python scripts/run_bounded_stage.py --output results/final-replay.resources.json -- /workspace/iri-week2-clean-env/bin/python -O scripts/execute_cleared_retrieval.py --stage E2 --reuse-e3 results/cleared-2026-11-11/E3/run01 --output results/final-replay",
+    "/workspace/iri-week2-clean-env/bin/python -m unittest discover -s tests -v",
+    "python3 -S -m unittest discover -s tests -v"
+  ],
+  "results": {
+    "E4_and_derived_archetypes_byte_identical": true,
+    "E2_conditions_identical": true,
+    "new_model_calls": 0,
+    "preparatory_demo": "prepared 1 historical source, 3 validated proteins; not new scoring admission",
+    "full_tests": {
+      "run": 249,
+      "passed": 244,
+      "skipped": 5
+    },
+    "dependency_free_tests": {
+      "run": 249,
+      "passed": 190,
+      "skipped": 59
+    },
+    "historical_release_verifier": "passed"
+  },
+  "replay_resource_measurement": {
+    "command": [
+      "/workspace/iri-week2-clean-env/bin/python",
+      "-O",
+      "scripts/execute_cleared_retrieval.py",
+      "--stage",
+      "E2",
+      "--reuse-e3",
+      "results/cleared-2026-11-11/E3/run01",
+      "--output",
+      "results/final-replay"
+    ],
+    "exit_code": 0,
+    "gpu_seconds": null,
+    "limits": {
+      "process_rss_bytes": 6442450944,
+      "wall_seconds": 1800
+    },
+    "monetary_cost": null,
+    "os_peak_process_rss_bytes": 45707264,
+    "process_cpu_seconds": 1.690312,
+    "rss_policy": "20ms sampling with termination; OS high-water mark checked after exit",
+    "sampled_peak_process_rss_bytes": 45641728,
+    "stop_reason": null,
+    "wall_seconds": 1.5148613810015377
+  },
+  "retained_model_evidence": "Original approved E3 full biological repeat already matched canonical raw alignment and ESM2 matrices; unchanged cached weights were not redundantly rerun for this reporting/validation update.",
+  "limitations": [
+    "Restored exact private caches are required to replay scores; source-free E4 needs only committed data.",
+    "Clean parsing environment does not prove fresh model install portability.",
+    "Replay resource costs are verification/scoring costs, not independent encoder timing."
+  ],
+  "transcript_sha256": {
+    "final-tests.txt": "af3e0ece71146aef871633747c36a20fda81186e5a97552ac21799d9637d5475",
+    "final-dependency-free-tests.txt": "9944a3d2f3c6d61906d5fa1e2edf94d1db62259d7e358243966b512d2d5d030e"
+  }
+}

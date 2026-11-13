@@ -1,0 +1,1 @@
+Verified: 1 exact E1 source, 9 HOLD records, preserved run evidence, zero retrieval scores.

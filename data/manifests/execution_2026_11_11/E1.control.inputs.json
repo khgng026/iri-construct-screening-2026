@@ -1,0 +1,19 @@
+{
+  "schema_version": "t05-inputs-1",
+  "review_manifest": "e1_sources.csv",
+  "records": [
+    {
+      "input_id": "ncbi-J01749.1",
+      "record_id": "ncbi-J01749.1",
+      "path": "../../../results/week2/curation/raw_sources/NCBI_J01749.1.gb",
+      "format": "genbank",
+      "molecule_type": "dna",
+      "sequence_id": "J01749.1"
+    }
+  ],
+  "families": [],
+  "reference_ids": [],
+  "evidence_kind": "admitted_research",
+  "execution_clearance": "https://github.com/khgng026/iri-construct-screening-2026/pull/11#issuecomment-6800553713",
+  "observation_scope": "historical_control_repeat"
+}

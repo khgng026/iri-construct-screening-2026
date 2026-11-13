@@ -1,0 +1,211 @@
+{
+  "biological_inference_executed": false,
+  "device": "cpu",
+  "evidence_kind": "fictional_software_fixture_only",
+  "final_report_path": "results/week2/model-runtime/final-offline/report.json",
+  "final_report_sha256": "f665293a0d91f9080ee47f2b0d5733482be544d43bf1d876f859904fa3fb3c07",
+  "fixture": {
+    "device": "cpu",
+    "downloads_allowed": false,
+    "fixture_kind": "canonical alphabet in order, no biological source",
+    "fixture_length": 20,
+    "fixture_sha256": "5a52efc76a4a4ceb3c992ff17426b3545634646080bb6acec132c47c278c9846",
+    "models": [
+      "esm2",
+      "esmc"
+    ],
+    "seed": 20261105,
+    "threads": 2
+  },
+  "limitations": [
+    "Only a20-residue alphabetical software fixture was encoded. No source records, family labels, biological retrieval scores or E1-E4 measurements are implied.",
+    "Models initialized sequentially in one process. Weight files were offline cached; OS cache was uncontrolled. Initialization is not an independently measured cold-system experiment.",
+    "ESM2 and ESMC embedding coordinates and magnitudes are not directly comparable.",
+    "Resource measurements are CPU process time and sampled absolute process RSS at20ms; no GPU time or allocator measurement applies.",
+    "The SDK checkpoint provider alias resolves to the retained original-format legacy model, not the newer model recommended on its model card.",
+    "Original protocol configs and prior results remain unchanged; this identity freeze can inform a prospectively reviewed new run config only.",
+    "The captured provider third-party notice covers dependency licenses and is not complete independent evidence of model-weight rights. Retain the applicable provider model terms; no weights redistributed."
+  ],
+  "logical_cpu_count": 3,
+  "max_residues": 1022,
+  "model_adapter_sha256": "cda6e1b0961a8cc78e0582c298fc9c8d4a27d684e13c0500b206771f01614cad",
+  "models": [
+    {
+      "biological_inference_executed": false,
+      "contract": {
+        "embedding_width": 320,
+        "finite": true,
+        "mean_pool_verified": true,
+        "representation_sha256": "c01ed1939496307eee59584313dab483d221fb8957d51410383c43e34267491e",
+        "residue_count": 20
+      },
+      "deterministic_repeat": true,
+      "first_fixture_forward": {
+        "memory_scope": "Absolute process RSS; CUDA allocator only. Sampling may miss brief peaks.",
+        "process_cpu_seconds": 0.025720318999999492,
+        "rss_sampling_interval_seconds": 0.02,
+        "sampled_peak_process_rss_bytes": 480026624,
+        "wall_seconds": 0.01831369900000368
+      },
+      "fixture_forward_calls": 2,
+      "floating_parameter_dtypes": [
+        "torch.float32"
+      ],
+      "load": {
+        "memory_scope": "Absolute process RSS; CUDA allocator only. Sampling may miss brief peaks.",
+        "process_cpu_seconds": 2.7084040449999995,
+        "rss_sampling_interval_seconds": 0.02,
+        "sampled_peak_process_rss_bytes": 445276160,
+        "wall_seconds": 3.126877706000002
+      },
+      "model": {
+        "device": "cpu",
+        "input_tracks": "sequence only",
+        "max_residues": 1022,
+        "model": "esm2",
+        "offline": true,
+        "precision_policy": "float32 weights; no autocast",
+        "repository": "facebook/esm2_t6_8M_UR50D",
+        "representation": "Final adapter output; residue mean; BOS/EOS/PAD excluded",
+        "requested_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+        "resolved_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+        "torch_num_interop_threads": 3,
+        "torch_num_threads": 2,
+        "truncation": false,
+        "unused_checkpoint_heads": "Masked language model head excluded; no additional pooler initialized",
+        "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+      },
+      "name": "esm2",
+      "repeat_contract": {
+        "embedding_width": 320,
+        "finite": true,
+        "mean_pool_verified": true,
+        "representation_sha256": "c01ed1939496307eee59584313dab483d221fb8957d51410383c43e34267491e",
+        "residue_count": 20
+      },
+      "repeat_fixture_forward": {
+        "memory_scope": "Absolute process RSS; CUDA allocator only. Sampling may miss brief peaks.",
+        "process_cpu_seconds": 0.016703565000000253,
+        "rss_sampling_interval_seconds": 0.02,
+        "sampled_peak_process_rss_bytes": 480595968,
+        "wall_seconds": 0.008754508999999189
+      },
+      "requested_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+      "status": "software_fixture_validated",
+      "unsupported_input_rejection": {
+        "ambiguous": true,
+        "empty": true,
+        "over_cap": true
+      }
+    },
+    {
+      "biological_inference_executed": false,
+      "contract": {
+        "embedding_width": 960,
+        "finite": true,
+        "mean_pool_verified": true,
+        "representation_sha256": "0065be56d03d3edaabc3767a91c29e5ae08ace5a41c60fa72cfc9fa8b1df02a7",
+        "residue_count": 20
+      },
+      "deterministic_repeat": true,
+      "first_fixture_forward": {
+        "memory_scope": "Absolute process RSS; CUDA allocator only. Sampling may miss brief peaks.",
+        "process_cpu_seconds": 0.655294542,
+        "rss_sampling_interval_seconds": 0.02,
+        "sampled_peak_process_rss_bytes": 1807491072,
+        "wall_seconds": 0.3301902089999942
+      },
+      "fixture_forward_calls": 2,
+      "floating_parameter_dtypes": [
+        "torch.float32"
+      ],
+      "load": {
+        "memory_scope": "Absolute process RSS; CUDA allocator only. Sampling may miss brief peaks.",
+        "process_cpu_seconds": 9.677775482999998,
+        "rss_sampling_interval_seconds": 0.02,
+        "sampled_peak_process_rss_bytes": 3115356160,
+        "wall_seconds": 8.166076007000001
+      },
+      "model": {
+        "device": "cpu",
+        "input_tracks": "sequence only",
+        "max_residues": 1022,
+        "model": "esmc",
+        "offline": true,
+        "precision_policy": "float32 weights; no autocast",
+        "repository": "EvolutionaryScale/esmc-300m-2024-12",
+        "representation": "Final adapter output; residue mean; BOS/EOS/PAD excluded",
+        "requested_revision": "7f10b20ae75017b2dbc884070e03434515709a8d",
+        "resolved_revision": "7f10b20ae75017b2dbc884070e03434515709a8d",
+        "torch_num_interop_threads": 3,
+        "torch_num_threads": 2,
+        "truncation": false,
+        "weight_sha256": "323dff9fbf3fef297a74f4f18b6528e6f2e599b0bcf72b6927516804015becea"
+      },
+      "name": "esmc",
+      "repeat_contract": {
+        "embedding_width": 960,
+        "finite": true,
+        "mean_pool_verified": true,
+        "representation_sha256": "0065be56d03d3edaabc3767a91c29e5ae08ace5a41c60fa72cfc9fa8b1df02a7",
+        "residue_count": 20
+      },
+      "repeat_fixture_forward": {
+        "memory_scope": "Absolute process RSS; CUDA allocator only. Sampling may miss brief peaks.",
+        "process_cpu_seconds": 0.6893520300000002,
+        "rss_sampling_interval_seconds": 0.02,
+        "sampled_peak_process_rss_bytes": 1809178624,
+        "wall_seconds": 0.34409400299999504
+      },
+      "requested_revision": "7f10b20ae75017b2dbc884070e03434515709a8d",
+      "status": "software_fixture_validated",
+      "unsupported_input_rejection": {
+        "ambiguous": true,
+        "empty": true,
+        "over_cap": true
+      }
+    }
+  ],
+  "packages": {
+    "biopython": "1.86",
+    "esm": "3.2.1",
+    "huggingface-hub": "0.28.1",
+    "numpy": "1.26.4",
+    "psutil": "7.1.3",
+    "torch": "2.3.0+cpu",
+    "transformers": "4.48.1"
+  },
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "precision": "float32; no autocast",
+  "provider_alias_evidence": {
+    "artifact_sha256": {
+      "README.md": "85ed403af006f4830424e0de1c2810f39cb0d1aa825eaa93380ae3724288dfe6",
+      "THIRD_PARTY_NOTICE.md": "5bff8515ba4e0f53abdc43714c180b79c5b606160497d98de741a369cb9b6a23",
+      "config.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "card_license": [
+      "mit",
+      "other"
+    ],
+    "decision_scope": "Local noncommercial research software validation; no model-weight redistribution; provider model card identifies retained legacy SDK checkpoint.",
+    "gated": false,
+    "http_status": 200,
+    "license_link": "https://github.com/Biohub/esm/blob/main/THIRD_PARTY_NOTICE.md",
+    "metadata_sha256": "55c80bed24c5dfb8a8d6c75c25ab98fd19229a24a9b3c9b17874ed133afca5eb",
+    "metadata_url": "https://huggingface.co/api/models/biohub/esmc-300m-2024-12",
+    "observed_at_utc": "2026-11-11T03:45:01.630370+00:00",
+    "private": false,
+    "provider_revision": "7f10b20ae75017b2dbc884070e03434515709a8d",
+    "requested_repository": "EvolutionaryScale/esmc-300m-2024-12",
+    "resolved_provider_repository": "biohub/esmc-300m-2024-12",
+    "scientific_clearance": false
+  },
+  "python": "3.11.17",
+  "schema_version": "iri-week2-model-freeze-1",
+  "scientific_clearance": false,
+  "seed": 20261105,
+  "status": "software_interfaces_validated_not_scientific_execution_clearance",
+  "torch_interop_threads": 3,
+  "torch_intraop_threads": 2,
+  "validation_cli_sha256": "6caa15d0b6f94c1ebb4d1cb71dfd47895ec913c388e3c88af443f04735ec5526"
+}

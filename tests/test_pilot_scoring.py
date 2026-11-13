@@ -11,7 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 from iri_constructs.bench_inputs import ProteinInput
 from iri_constructs.pilot_scoring import (freeze_panel, load_scoring_config,
-    paired_cluster_bootstrap, rank_scores, score_rankings, validate_scoring_config)
+    paired_cluster_bootstrap, query_independence_clusters, rank_scores, score_rankings,
+    validate_scoring_config)
 from iri_constructs.runtime import InputError
 
 
@@ -152,6 +153,54 @@ class PilotScoringTests(unittest.TestCase):
 
 
 class PairedUncertaintyTests(unittest.TestCase):
+    def test_eight_cds_from_one_construct_are_one_cluster_not_eight(self):
+        from iri_constructs.pilot_experiments import _compare_methods
+        queries = ['q' + str(i) for i in range(8)]
+        references = ['r' + str(i) for i in range(6)]
+        proteins = {iid: ProteinInput(iid, 'one-parent' if iid in queries else iid,
+                                      'A' * (i + 3) + 'C', 'fictional')
+                    for i, iid in enumerate(queries + references)}
+        labels = {iid: dict(input_id=iid, family='one' if i % 2 else 'two',
+                           evidence='Fictional regression metadata only',
+                           independence_group='different-protein-group-' + iid,
+                           annotation_status='known', review_status='approved')
+                  for i, iid in enumerate(queries + references)}
+        panel = freeze_panel(configuration(), proteins, labels, queries, references)
+        self.assertEqual(len(set(query_independence_clusters(panel).values())), 1)
+        methods = {name: {'rows': [{'query_id': q, 'documented_family_recall_at_k': value,
+                                   'budget_saturated': False} for q in queries]}
+                   for name, value in [('fictional-a', 0.0), ('fictional-b', 1.0)]}
+        paired = _compare_methods(methods, panel, configuration())[0]
+        self.assertEqual(paired['independent_clusters'], 1)
+        self.assertEqual(paired['paired_cluster_mean_difference'], 1.0)
+        self.assertEqual(paired['status'], 'insufficient_independent_clusters')
+        self.assertIsNone(paired['ci_lower'])
+
+    def test_indirect_parent_group_and_exact_copy_links_form_one_cluster(self):
+        proteins = {iid: ProteinInput(iid, parent, sequence, 'fictional')
+                    for iid, parent, sequence in [('a', 'parent-one', 'AAA'),
+                                                  ('b', 'parent-one', 'CCC'),
+                                                  ('c', 'parent-two', 'DDD'),
+                                                  ('d', 'parent-three', 'DDD'),
+                                                  ('e', 'parent-four', 'EEE')]}
+        labels = {iid: dict(input_id=iid, family='one',
+                           evidence='Fictional regression metadata only',
+                           independence_group='shared-b-c' if iid in 'bc' else iid,
+                           annotation_status='known', review_status='approved') for iid in proteins}
+        panel = freeze_panel(configuration(), proteins, labels)
+        clusters = query_independence_clusters(panel)
+        self.assertEqual(len({clusters[q] for q in 'abcd'}), 1)
+        self.assertNotEqual(clusters['a'], clusters['e'])
+        reversed_panel = freeze_panel(configuration(), dict(reversed(list(proteins.items()))), labels)
+        self.assertEqual(clusters, query_independence_clusters(reversed_panel))
+        # Archived panels without the additional metadata still use the same
+        # deterministic interpretation of their original frozen fingerprints.
+        legacy = {k: v for k, v in panel.items() if k not in
+                  ('query_independence_clusters', 'query_cluster_rules', 'panel_sha256')}
+        legacy['panel_sha256'] = hashlib.sha256(json.dumps(
+            legacy, sort_keys=True, separators=(',', ':'), allow_nan=False).encode()).hexdigest()
+        self.assertEqual(clusters, query_independence_clusters(legacy))
+
     def test_cluster_bootstrap_is_seeded_and_uses_group_weight(self):
         left = {str(i): .25 for i in range(10)}
         right = {str(i): .75 for i in range(10)}

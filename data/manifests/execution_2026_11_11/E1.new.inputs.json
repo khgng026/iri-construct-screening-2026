@@ -1,0 +1,67 @@
+{
+  "schema_version": "t05-inputs-1",
+  "review_manifest": "e1_sources.csv",
+  "records": [
+    {
+      "input_id": "ncbi-U47295.2",
+      "record_id": "ncbi-U47295.2",
+      "path": "../../../results/week2/curation/raw_sources/NCBI_U47295.2.gb",
+      "format": "genbank",
+      "molecule_type": "dna",
+      "sequence_id": "U47295.2"
+    },
+    {
+      "input_id": "ncbi-U47296.2",
+      "record_id": "ncbi-U47296.2",
+      "path": "../../../results/week2/curation/raw_sources/NCBI_U47296.2.gb",
+      "format": "genbank",
+      "molecule_type": "dna",
+      "sequence_id": "U47296.2"
+    },
+    {
+      "input_id": "ncbi-AY864931.1",
+      "record_id": "ncbi-AY864931.1",
+      "path": "../../../results/week2/curation/raw_sources/NCBI_AY864931.1.gb",
+      "format": "genbank",
+      "molecule_type": "dna",
+      "sequence_id": "AY864931.1"
+    },
+    {
+      "input_id": "ncbi-U55762.1",
+      "record_id": "ncbi-U55762.1",
+      "path": "../../../results/week2/curation/raw_sources/NCBI_U55762.1.gb",
+      "format": "genbank",
+      "molecule_type": "dna",
+      "sequence_id": "U55762.1"
+    },
+    {
+      "input_id": "ncbi-AY738222.1",
+      "record_id": "ncbi-AY738222.1",
+      "path": "../../../results/week2/curation/raw_sources/NCBI_AY738222.1.gb",
+      "format": "genbank",
+      "molecule_type": "dna",
+      "sequence_id": "AY738222.1"
+    },
+    {
+      "input_id": "ncbi-AF298787.1",
+      "record_id": "ncbi-AF298787.1",
+      "path": "../../../results/week2/curation/raw_sources/NCBI_AF298787.1.gb",
+      "format": "genbank",
+      "molecule_type": "dna",
+      "sequence_id": "AF298787.1"
+    },
+    {
+      "input_id": "ncbi-JX560321.2",
+      "record_id": "ncbi-JX560321.2",
+      "path": "../../../results/week2/curation/raw_sources/NCBI_JX560321.2.gb",
+      "format": "genbank",
+      "molecule_type": "dna",
+      "sequence_id": "JX560321.2"
+    }
+  ],
+  "families": [],
+  "reference_ids": [],
+  "evidence_kind": "admitted_research",
+  "execution_clearance": "https://github.com/khgng026/iri-construct-screening-2026/pull/11#issuecomment-6800553713",
+  "observation_scope": "seven_new_source_annotation_observations"
+}

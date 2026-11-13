@@ -130,6 +130,21 @@ class ExtensionExecutionTests(unittest.TestCase):
         self.assertEqual(result['models']['esmc']['status'],'blocked')
         self.assertNotIn('PRIVATE_ERROR_DETAILS',json.dumps(result))
 
+    def test_same_parent_queries_share_uncertainty_and_e4_cluster_count(self):
+        for qid in ('q1', 'q2'):
+            old = self.proteins[qid]
+            self.proteins[qid] = ProteinInput(qid, 'one-shared-parent', old.sequence, old.source_sha256)
+        result = self.run_fixture()
+        tier = result['reference_tiers']['tiers']['tier1_t07_invariants']
+        self.assertEqual(tier['query_independence_group_count'], 2)
+        self.assertEqual(tier['query_independence_cluster_count'], 1)
+        comparisons = result['tiers']['tier1_t07_invariants']['paired_comparisons']
+        self.assertTrue(comparisons)
+        self.assertTrue(all(c['independent_clusters'] == 1 for c in comparisons))
+        records = json.loads((self.output / 'cost-quality-records.json').read_text())['records']
+        self.assertTrue(records)
+        self.assertTrue(all(r['metrics']['independent_groups'] == 1 for r in records))
+
     def test_empty_reviewed_input_configuration_never_loads_sources_or_weights(self):
         self.input_path.write_text(json.dumps({'records':[]}),encoding='utf-8')
         with patch('iri_constructs.extension_experiments.reviewed_sources',side_effect=AssertionError('source read')):

@@ -138,6 +138,18 @@ class CostQualityTests(unittest.TestCase):
         with self.assertRaises(InputError):
             summarize_cost_quality([self.a,other])
 
+    def test_coverage_and_cluster_denominators_cannot_contradict_counts(self):
+        for change in ({'coverage': .5}, {'independent_groups': 9},
+                       {'budget_saturated_observations': 9}):
+            record = copy.deepcopy(self.a)
+            record['metrics'].update(change)
+            with self.subTest(change=change), self.assertRaises(InputError):
+                summarize_cost_quality([record])
+        # Explicitly missing coverage remains missing rather than imputed.
+        record = copy.deepcopy(self.a)
+        record['metrics']['coverage'] = None
+        self.assertIsNone(summarize_cost_quality([record])['rows'][0]['metrics']['coverage'])
+
     def test_legacy_adapter_keeps_unknown_context_unclassified(self):
         report={'methods':{'fixture':{'status':'ok','overall':{'documented_family_recall_at_k':1.0}}},
                 'sequence':'SHOULD NOT BE COPIED'}
@@ -147,6 +159,15 @@ class CostQualityTests(unittest.TestCase):
         self.assertNotIn('sequence',str(records))
         self.assertIsNone(summarize_cost_quality(records)['rows'][0]['costs']['cold_load_seconds'])
         self.assertEqual(records_from_report({'records':[self.a]}),[self.a])
+
+    def test_legacy_protein_groups_do_not_establish_independent_constructs(self):
+        report = {'methods': {'fixture': {
+            'rows': [{'query_id': str(i), 'construct_id': 'one-parent',
+                      'independence_group': 'protein-' + str(i)} for i in range(8)]}}}
+        self.assertIsNone(records_from_report(report)[0]['metrics']['independent_groups'])
+        for row in report['methods']['fixture']['rows']:
+            row['independence_cluster'] = 'one-parent-cluster'
+        self.assertEqual(records_from_report(report)[0]['metrics']['independent_groups'], 1)
 
     def test_empty_report_and_fixture_records_never_write_research_plot(self):
         protocol=json.loads((ROOT/'config'/'extensions'/'E4.json').read_text())

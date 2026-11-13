@@ -1,0 +1,24 @@
+{
+  "frozen_proposal_sha256": "6f8d36a86eb6632b93ec61a5b7c14e2e7b5253bdd68ea62fa398753d485f4cb8",
+  "review_comment_url": "https://github.com/khgng026/iri-construct-screening-2026/pull/11#issuecomment-6800553713",
+  "review_freeze_sha256": "c90d063f7f17c9f929af2fddb4e3fe9bc719c9a4cae5c36f66b238f968e47c2e",
+  "schema_version": "iri-cleared-execution-1",
+  "source_copy_approval": false,
+  "source_sha256": {
+    "AF298787.1": "af3c8c17d0ce8880ec85099d94d5bd024e58c65b627ed06fdd88071bc195fcd1",
+    "AY738222.1": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951",
+    "AY864931.1": "97a2403d3753a590a5d3d07d955c7f0f87cb7352f34a975c6a379b72b5d498b7",
+    "J01749.1": "7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6",
+    "JX560321.2": "c67437dd96e56a523542294f2b0c0f42832598e0ae08c8161678bd0e88eebafd",
+    "U47295.2": "3349e937dad28b6c8afefb6afcc778ffe158f43b7c0b2a816a5a052365384e03",
+    "U47296.2": "c8303c417f0fb27bb22ba0f35aa07437833f7ba56c8a86e6f7b2eb32ee0e975d",
+    "U55762.1": "bf6a633fce38b828ed369628f45bed5755db623fac938772bcf9efd3f5f2481d"
+  },
+  "stages": {
+    "E1": "CLEAR_FOR_E1",
+    "E2": "CLEAR_FOR_E2_SUPPORTED_SUBSET_DESCRIPTIVE",
+    "E3": "CLEAR_FOR_E3_TIER1_DESCRIPTIVE_ALIGNMENT_ESM2",
+    "E4": "HOLD"
+  },
+  "verified_at_utc": "2026-11-11T16:04:03.360484+00:00"
+}
