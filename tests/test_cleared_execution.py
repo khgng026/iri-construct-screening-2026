@@ -69,6 +69,18 @@ with tempfile.TemporaryDirectory() as tmp:
                 self.assertNotEqual(result.returncode, 0)
                 self.assertIn('InputError', result.stderr)
 
+        # Keep both acceptance and rejection paths covered under -O in routine CI.
+        cases = [
+            'ClearedCacheTests.test_stage_dependencies_ignore_held_assets_but_require_live_inputs',
+            'ClearedCacheTests.test_normalized_alignment_mutation_rejected_against_verified_inputs',
+            'ClearedCacheTests.test_saved_score_or_provenance_tampering_blocks_reuse',
+        ]
+        code = "import sys, unittest; sys.path.insert(0, %r); unittest.main(module='test_cleared_execution', argv=%r)" % (
+            str(Path(__file__).resolve().parent), ['optimized-regressions', *cases])
+        flags = ['-O', *(['-S'] if sys.flags.no_site else [])]
+        result = subprocess.run([sys.executable, *flags, '-c', code], capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
     def test_exploratory_balanced_merge_retains_shared_budget_and_component_origin(self):
         spec = importlib.util.spec_from_file_location('analysis', Path(__file__).resolve().parents[1] / 'scripts/analyze_cleared_pilot.py')
         analysis = importlib.util.module_from_spec(spec)
@@ -111,6 +123,12 @@ with tempfile.TemporaryDirectory() as tmp:
                                 EXPECTED_DEPENDENCIES_SHA256=module.digest_file(contract)):
                 for stage in ('E2','E3'):
                     module.verify_stage_dependencies(stage)  # held originals never existed
+                (root/'E3-source').unlink()
+                module.verify_stage_dependencies('E2')
+                module.verify_stage_dependencies('E2', reuse_e3=True)
+                with self.assertRaisesRegex(module.InputError, 'Missing stage dependency: E3-source'):
+                    module.verify_stage_dependencies('E3')
+                (root/'E3-source').write_text('E3-source')
                 (root/'esm2-weight').unlink()
                 module.verify_stage_dependencies('E2', reuse_e3=True)
                 with self.assertRaisesRegex(module.InputError, 'Missing stage dependency'):
