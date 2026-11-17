@@ -110,6 +110,8 @@ def main(argv=None):
     parser.add_argument('--cache', type=Path, default=ROOT / 'data' / 'raw' / 'component_study_v1' / 'uniprot')
     parser.add_argument('--private', type=Path, default=ROOT / 'results' / 'component_study_v1' / 'panel.private.json')
     parser.add_argument('--freeze', type=Path, default=ROOT / 'docs' / 'results' / 'component-study-v1' / 'panel.freeze.json')
+    parser.add_argument('--reuse-freeze', type=Path, help='use the reference panel of this earlier freeze unchanged')
+    parser.add_argument('--reuse-private', type=Path, help='private panel belonging to --reuse-freeze')
     args = parser.parse_args(argv)
     args.cache.mkdir(parents=True, exist_ok=True)
     table = json.loads((HERE / 'families.v1.json').read_text())
@@ -164,8 +166,19 @@ def main(argv=None):
                                  'evidence': contained or fragments}
 
     # ---- references: reviewed members, seeded order, no lineage copies ----
-    panel, family_report = {}, {}
-    for family, rule in families.items():
+    panel, family_report, reused = {}, {}, None
+    if args.reuse_freeze:
+        reused = json.loads(args.reuse_freeze.read_text())
+        private = json.loads(args.reuse_private.read_text())
+        if private['panel_sha256'] != reused['panel_sha256'] or reused['families_sha256'] != file_sha(HERE / 'families.v1.json'):
+            raise SystemExit('Reused panel does not match its freeze or the family table')
+        panel, family_report = private['references'], reused['families']
+        # The earlier lineage exclusion did not know these units: drop any that is a near copy of a reference.
+        for digest, label in labels.items():
+            sequence = next(s for s in sequences.values() if sha(s) == digest)
+            label['near_copy_of_reference'] = any(
+                near_copy(aligner.stats(sequence, ref['sequence'])) for ref in panel.values() if ref['family'] in label['families'])
+    for family, rule in ({} if reused else families).items():
         clauses = ['reviewed:true'] + [f'xref:pfam-{p}' for p in rule.get('pfam_all', [])]
         if rule.get('similarity_contains'):
             clauses.append('cc_similarity:"' + rule['similarity_contains'].replace('"', '') + '"')
@@ -219,11 +232,12 @@ def main(argv=None):
         exported = r['extraction_state'] == 'exported'
         label = labels[r['protein_sha256']] if exported else {'label_class': None, 'families': [], 'evidence': {}}
         eligible = exported and int(r['length_aa']) <= MAX_RESIDUES
-        supported_families = sorted(set(label['families']) & scorable)
+        supported_families = [] if label.get('near_copy_of_reference') else sorted(set(label['families']) & scorable)
         unit = {'unit_id': r['unit_id'], 'construct_id': r['construct_id'], 'extraction_state': r['extraction_state'],
                 'reason_code': r['reason_code'], 'length_aa': int(r['length_aa']) if exported else None,
                 'sequence_sha256': r['protein_sha256'] or None, 'eligible': eligible,
                 'label_class': label['label_class'], 'families': label['families'],
+                'near_copy_of_reference': bool(label.get('near_copy_of_reference')),
                 'label_evidence': label['evidence'], 'supported': eligible and bool(supported_families),
                 'supported_families': supported_families if eligible else []}
         units.append(unit)
@@ -262,6 +276,7 @@ def main(argv=None):
         'bundle': {name: file_sha(args.bundle / name) for name in ('units.tsv', 'features.tsv', 'proteins.fasta', 'normalized.json')},
         'thresholds': {'identity': IDENTITY, 'coverage': COVERAGE, 'references_per_family': PER_FAMILY,
                        'max_residues': MAX_RESIDUES, 'seed': SEED, 'budget_k': 5},
+        'reference_panel_reused_from': reused['panel_sha256'] if reused else None,
         'families': family_report, 'reference_ids': sorted(panel),
         'reference_family': {r: panel[r]['family'] for r in sorted(panel)},
         'units': units, 'parents': parents,

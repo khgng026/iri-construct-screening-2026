@@ -50,6 +50,10 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('--cache', type=Path, default=ROOT / 'data' / 'raw' / 'component_study_v1' / 'ncbi')
     parser.add_argument('--manifest', type=Path, default=ROOT / 'docs' / 'results' / 'component-study-v1' / 'acquisition.json')
+    parser.add_argument('--seed', type=int, default=SEED)
+    parser.add_argument('--size', type=int, default=SAMPLE_SIZE)
+    parser.add_argument('--exclude', type=Path, action='append', default=[],
+                        help='acquisition manifest whose records must not be drawn again')
     args = parser.parse_args(argv)
     args.cache.mkdir(parents=True, exist_ok=True)
     ids, count, start = [], None, 0
@@ -60,7 +64,9 @@ def main(argv=None):
         ids.extend(page['idlist'])
         start += 5000
     ids = sorted(set(ids), key=int)
-    sample = sorted(random.Random(SEED).sample(ids, SAMPLE_SIZE), key=int)
+    excluded = {gi for path in args.exclude for f in json.loads(path.read_text())['files'] for gi in f['requested_gi']}
+    pool = [i for i in ids if i not in excluded]
+    sample = sorted(random.Random(args.seed).sample(pool, args.size), key=int)
     files = []
     for number, offset in enumerate(range(0, len(sample), BATCH), 1):
         path = args.cache / f'batch_{number:02d}.gb'
@@ -77,8 +83,9 @@ def main(argv=None):
     retrieved = datetime.now(timezone.utc).date().isoformat()
     manifest = {
         'schema_version': 'component-study-acquisition-1', 'source': 'NCBI GenBank (nuccore) via E-utilities EFetch',
-        'query': QUERY, 'query_result_count': len(ids), 'seed': SEED, 'sample_size': SAMPLE_SIZE,
-        'sampling_rule': 'random.Random(seed).sample(numerically sorted unique GI list, sample_size)',
+        'query': QUERY, 'query_result_count': len(ids), 'seed': args.seed, 'sample_size': args.size,
+        'excluded_previously_sampled': len(excluded),
+        'sampling_rule': 'random.Random(seed).sample(numerically sorted unique GI list minus excluded, sample_size)',
         'retrieved_on': retrieved, 'rettype': 'gbwithparts', 'terms_note': TERMS,
         'storage': 'Original records are in an ignored private cache; this manifest is source-free.',
         'files': files, 'records': sum(len(f['accession_versions']) for f in files)}
