@@ -136,14 +136,20 @@ merged by turn-taking rather than by raw maximum score. That benefit is one of
 **coverage**: it comes from asking about more components and costs proportionally
 more model work. Nothing here shows that preprocessing improves how the model
 represents any individual protein; per-unit retrieval is unchanged by
-construction. On this panel a conventional alignment baseline equals or exceeds
-ESM-2 8M on every endpoint at lower measured cost, so the study gives no reason
-to prefer the small language model for this task.
+construction. On this panel the conventional alignment baseline equals or
+exceeds ESM-2 8M per protein and under round-robin merging; it is worse only
+under maximum-score merging (135 against 151), because raw alignment scores grow
+with protein length. The study therefore gives no reason to prefer the small
+language model for this task. Run times here (25 s against 35 s) describe this
+134-reference panel only: alignment work grows with queries × references,
+embedding work with the number of sequences.
 
 ## Limits that matter
 
 - Six dependence clusters; common markers recur across most vectors. Descriptive
-  only. 78 distinct supported sequences; the 68 single-family ones span 21 families.
+  only. The 78 distinct supported sequences are variants of just 30 curated
+  anchor proteins in 24 families (the 68 single-family ones: 27 anchors, 21
+  families), so per-unit counts overstate the number of independent observations.
 - Labels require ≥ 0.90 identity to a curated anchor, so only well-known
   components are scored; homologs of declared families outside that threshold
   and all undeclared families are `unknown`. The scored set is easier and

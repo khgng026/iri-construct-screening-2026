@@ -139,8 +139,8 @@ distinct multi-protein public vectors, keeping every validated protein recovered
 the documented family of 178 of 185 components within five hits, against 106 for
 the best single protein — a coverage gain from asking more queries, dependent on
 how per-protein rankings are merged, with no change in how any single protein is
-represented, and no advantage of ESM-2 8M over alignment. It is descriptive, not
-a population estimate.
+represented, and no per-protein advantage of ESM-2 8M over alignment. It is
+descriptive, not a population estimate.
 
 Model packages are optional (`pip install '.[model]'`) and used only by
 `experiments/component_study_v1/`.

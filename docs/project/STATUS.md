@@ -40,7 +40,8 @@ All review recorded here is agent self-review.
 
   The gain is coverage from asking more queries (3.2× model calls) and depends
   on the merge rule. Per-unit retrieval is identical across conditions. Alignment
-  matches or exceeds ESM-2 8M everywhere. Whole fusion proteins are where
+  matches or exceeds ESM-2 8M per protein and under round-robin; under
+  maximum-score merging it is worse, because raw alignment scores grow with length. Whole fusion proteins are where
   mean-pooled ESM-2 fails (3 of 8 family slots against 7 of 8). Six dependence
   clusters, so no population claim. Model revision `c731040f…5df`, weight
   SHA-256 `24c5fa47…4189`, identical to the historical runs.
@@ -49,8 +50,8 @@ All review recorded here is agent self-review.
 
 - That preprocessing changes how the model represents any individual protein.
   It cannot under this design; the study measures coverage and aggregation.
-- Any population-level rate. Components recur across vectors; 78 distinct
-  supported sequences.
+- Any population-level rate. Components recur across vectors; the 78 distinct
+  supported sequences are variants of 30 anchor proteins.
 - Behavior on plasmid-editor exports with missing or inconsistent translations
   (fixtures only).
 - Anything about noncoding content or the 230 exported proteins without a
