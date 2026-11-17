@@ -13,7 +13,7 @@ All review recorded here is agent self-review.
 | Toolkit U1–U5 | **Done.** Installed API and `iri-constructs preprocess` CLI, output bundle, fixtures, tests, clean-wheel gate. [Release assessment](RELEASE_ASSESSMENT.md): R1–R7 pass on Python 3.10–3.13 (Linux); Windows and macOS not run |
 | Research U6 | **Done as a pre-registered study plus one pre-registered extension.** [Component-coverage study v1](../results/component-study-v1/README.md) and [extension 1](../results/component-study-v1/extension-1/README.md): specifications and labels frozen before scoring; ESM-2 8M and alignment scored; the extension replicates v1 on unseen unit sets |
 | Documentation | README shows working commands; superseded directories carry notices; this ledger and HISTORY.md are current |
-| Open pull request | [#13](https://github.com/khgng026/iri-construct-screening-2026/pull/13), draft, branch `claude/gifted-gauss-i9jbhz`. Not merged; merging needs the researcher |
+| Delivery | Merged to `main` in [#13](https://github.com/khgng026/iri-construct-screening-2026/pull/13) (merge commit `7ced746`, 2026-11-17), by the researcher, with CI green. The toolkit and the study are on the default branch; no pull request is open |
 
 ## Evidence
 
@@ -77,7 +77,7 @@ silently. The historical E2/E3 private caches remain unavailable, as before.
 ## Next useful task
 
 Decide between the two follow-ups the v1 results motivate (details and
-recommendation in the study README and the pull request):
+recommendation in the study READMEs under `docs/results/component-study-v1/`):
 
 1. **Fusion proteins.** The oracle diagnostic shows the loss is entirely due to
    pooling over unrelated sequence and is fully recoverable in principle. The

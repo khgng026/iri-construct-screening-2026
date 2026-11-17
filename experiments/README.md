@@ -1,8 +1,19 @@
 # T05 local feasibility experiments
 
-T01–T04 are approved; T05 remains in progress. These modules support the four-week
-MVP and the parallel skills exercises. They do not complete the later dataset,
-paired benchmark, scoring or release tasks. No model is trained or fine-tuned.
+> **Historical — superseded.** This page describes the pre-reset T05 feasibility
+> experiment interface, from before the toolkit-first reset. The delivered,
+> installed preprocessing toolkit is `iri-constructs` (see the top-level
+> [README](../README.md) and [docs/project/STATUS.md](../docs/project/STATUS.md));
+> the current component-coverage research lives in
+> [experiments/component_study_v1](component_study_v1/) with its results under
+> [docs/results/component-study-v1](../docs/results/component-study-v1/README.md).
+> The commands below are retained for reproducing the historical T05 runs and are
+> not the toolkit's interface. Statements such as "T05 remains in progress" or the
+> Python/environment notes describe their own time, not the current state.
+
+These modules support the four-week MVP and the parallel skills exercises. They do
+not complete the later dataset, paired benchmark, scoring or release tasks. No
+model is trained or fine-tuned.
 
 ## Environment and commands
 
