@@ -174,8 +174,9 @@ def main(argv=None):
             raise SystemExit('Reused panel does not match its freeze or the family table')
         panel, family_report = private['references'], reused['families']
         # The earlier lineage exclusion did not know these units: drop any that is a near copy of a reference.
+        by_digest = {sha(s): s for s in set(sequences.values())}
         for digest, label in labels.items():
-            sequence = next(s for s in sequences.values() if sha(s) == digest)
+            sequence = by_digest[digest]
             label['near_copy_of_reference'] = any(
                 near_copy(aligner.stats(sequence, ref['sequence'])) for ref in panel.values() if ref['family'] in label['families'])
     for family, rule in ({} if reused else families).items():
@@ -237,9 +238,10 @@ def main(argv=None):
                 'reason_code': r['reason_code'], 'length_aa': int(r['length_aa']) if exported else None,
                 'sequence_sha256': r['protein_sha256'] or None, 'eligible': eligible,
                 'label_class': label['label_class'], 'families': label['families'],
-                'near_copy_of_reference': bool(label.get('near_copy_of_reference')),
                 'label_evidence': label['evidence'], 'supported': eligible and bool(supported_families),
                 'supported_families': supported_families if eligible else []}
+        if reused:   # extra field only for a reused panel, so a v1 rebuild reproduces the committed freeze hash
+            unit['near_copy_of_reference'] = bool(label.get('near_copy_of_reference'))
         units.append(unit)
         by_parent.setdefault(r['construct_id'], []).append(unit)
     parents = []
@@ -276,7 +278,6 @@ def main(argv=None):
         'bundle': {name: file_sha(args.bundle / name) for name in ('units.tsv', 'features.tsv', 'proteins.fasta', 'normalized.json')},
         'thresholds': {'identity': IDENTITY, 'coverage': COVERAGE, 'references_per_family': PER_FAMILY,
                        'max_residues': MAX_RESIDUES, 'seed': SEED, 'budget_k': 5},
-        'reference_panel_reused_from': reused['panel_sha256'] if reused else None,
         'families': family_report, 'reference_ids': sorted(panel),
         'reference_family': {r: panel[r]['family'] for r in sorted(panel)},
         'units': units, 'parents': parents,
@@ -292,6 +293,8 @@ def main(argv=None):
             'analysis_sets': {s: sum(p['analysis_set'] == s for p in parents) for s in ('multi_unit', 'single_unit', 'no_supported_component')},
             'alignment_calls_for_labels_and_exclusions': aligner.calls},
         'status': 'frozen_before_scoring'}
+    if reused:
+        freeze['reference_panel_reused_from'] = reused['panel_sha256']
     freeze['panel_sha256'] = sha(json.dumps(freeze, sort_keys=True, separators=(',', ':')))
     args.freeze.parent.mkdir(parents=True, exist_ok=True)
     args.freeze.write_text(json.dumps(freeze, indent=1, sort_keys=True) + '\n')
