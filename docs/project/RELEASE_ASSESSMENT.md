@@ -2,11 +2,11 @@
 
 Assessed 2026-11-17 against [SCOPE.md](SCOPE.md) R1–R7 and the
 [contract](TOOLKIT_CONTRACT.md). Agent self-review; no independent review is
-claimed. Commands were run on Linux x86-64 with Python 3.11, 3.12 and 3.13.
+claimed. Commands were run on Linux x86-64 with Python 3.10, 3.11, 3.12 and 3.13.
 
 | Criterion | Result | Evidence |
 | --- | --- | --- |
-| R1 wheel installs and runs outside the checkout | Pass | `scripts/verify_wheel_install.py`: wheel built, installed in a fresh venv in a temporary directory, imported from `site-packages`, CLI and API exercised there. Passed on 3.11.18, 3.12.3, 3.13.18 with Biopython 1.88 resolved from the index (development used 1.86) |
+| R1 wheel installs and runs outside the checkout | Pass | `scripts/verify_wheel_install.py`: wheel built, installed in a fresh venv in a temporary directory, imported from `site-packages`, CLI and API exercised there. Passed on 3.10.20, 3.11.18, 3.12.3, 3.13.18 with Biopython 1.88 resolved from the index (development used 1.86) |
 | R2 `preprocess` single and batch forms | Pass | Installed CLI: single file exit 0; fixture directory exit 2 with seven records written |
 | R3 semantics, qualifiers, hashes, parent links, ordered locations | Pass | `test_single_file_bundle_is_complete_and_traceable`, `test_edge_cases_…`: every table row resolves to its original annotation; origin-spanning and reverse joins keep source order; original feature type kept beside the label |
 | R4 validated translations, stable reason codes, independence from labels and model limits | Pass | Reason codes declared in `EXPECTED.json` by construction and matched; 1,100-residue protein exported and only flagged |
@@ -26,8 +26,9 @@ samples) processed with no record-level failure and no parser warning; 2,338 of
 
 ## Not verified, or known gaps
 
-- **Python 3.10** is declared supported but was not available locally; the CI
-  job added with this release runs the gate on 3.10 and 3.12.
+- **Continuous integration** has a new `wheel` job (Python 3.10 and 3.12). It was
+  still queued on GitHub when this assessment was written, so its hosted result
+  is not recorded here; the same gate passed locally on all four versions.
 - **Windows and macOS** were not run. Paths use `pathlib`; `resource` (peak
   memory in `run.json`) is absent on Windows and is recorded as null there.
 - **Plasmid-editor exports** (missing or inconsistent translations, nonstandard

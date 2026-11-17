@@ -48,7 +48,8 @@ def main(argv=None):
         if stray:
             raise SystemExit(f'Wheel contains files outside the package: {stray[:5]}')
         evidence.update(wheel=wheel.name, wheel_files=len(names))
-        venv.EnvBuilder(with_pip=True, clear=True).create(work / 'env')
+        # Symlinks as `python -m venv` does on POSIX; relocatable Python builds break when copied.
+        venv.EnvBuilder(with_pip=True, clear=True, symlinks=os.name != 'nt').create(work / 'env')
         python = work / 'env' / ('Scripts' if os.name == 'nt' else 'bin') / 'python'
         command = python.parent / 'iri-constructs'
         run([python, '-m', 'pip', 'install', '--quiet', wheel])

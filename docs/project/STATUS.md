@@ -10,7 +10,7 @@ All review recorded here is agent self-review.
 
 | Area | State |
 | --- | --- |
-| Toolkit U1–U5 | **Done.** Installed API and `iri-constructs preprocess` CLI, output bundle, fixtures, tests, clean-wheel gate. [Release assessment](RELEASE_ASSESSMENT.md): R1–R7 pass on Python 3.11–3.13; 3.10, Windows and macOS not run locally |
+| Toolkit U1–U5 | **Done.** Installed API and `iri-constructs preprocess` CLI, output bundle, fixtures, tests, clean-wheel gate. [Release assessment](RELEASE_ASSESSMENT.md): R1–R7 pass on Python 3.10–3.13 (Linux); Windows and macOS not run |
 | Research U6 | **Done as a pre-registered study plus one pre-registered extension.** [Component-coverage study v1](../results/component-study-v1/README.md) and [extension 1](../results/component-study-v1/extension-1/README.md): specifications and labels frozen before scoring; ESM-2 8M and alignment scored; the extension replicates v1 on unseen unit sets |
 | Documentation | README shows working commands; superseded directories carry notices; this ledger and HISTORY.md are current |
 | Open pull request | [#13](https://github.com/khgng026/iri-construct-screening-2026/pull/13), draft, branch `claude/gifted-gauss-i9jbhz`. Not merged; merging needs the researcher |
@@ -89,7 +89,7 @@ recommendation in the study README and the pull request):
 2. **A harder, larger reference tier** so that alignment is no longer at ceiling
    and the model can be distinguished from it.
 
-Smaller in-scope items: run the wheel gate on Python 3.10 in CI (job added);
+Smaller in-scope items: confirm the hosted CI result of the new wheel job;
 obtain a modest public sample of plasmid-editor exports under suitable terms to
 replace fixture-only coverage of missing translations.
 
@@ -102,7 +102,7 @@ python scripts/verify_wheel_install.py
 
 Study commands are listed at the end of the
 [study README](../results/component-study-v1/README.md). Environment of this
-checkpoint: Linux x86-64; toolkit Python 3.11–3.13 with Biopython 1.86 (dev) and
+checkpoint: Linux x86-64; toolkit Python 3.10–3.13 with Biopython 1.86 (dev) and
 1.88 (wheel gate); model environment Python 3.11, torch 2.3.0 CPU,
 transformers 4.48.1, huggingface-hub 0.28.1, numpy 1.26.4.
 
