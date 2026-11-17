@@ -1,3 +1,5 @@
+> **Historical snapshot — superseded.** This page describes the project on the date it was written. Current status and authority: [docs/project/STATUS.md](../project/STATUS.md). Nothing below is an active requirement.
+
 # Current decision reference (2026-11-10)
 
 The older Addgene-centered checklist below is historical following merged PRs #7/#8 and the researcher's decision to retire nine Addgene candidates. For current experimental-run readiness, see [current readiness assessment](EXPERIMENT_EXECUTION_READINESS_2026_11_10.md), [T02 v1.2 delegated approval](../oversight/T02_V1_2_DELEGATED_REVIEW.md), and [T07 v1.2 scoring addendum](../oversight/T07_V1_2_DELEGATED_EVALUATION_SIGNOFF.md). **No new scored run is approved by those documents.**

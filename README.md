@@ -1,112 +1,164 @@
-# IRI constructs: annotation-guided preprocessing toolkit
+# iri-constructs: annotation-guided preprocessing of annotated DNA constructs
 
-The current priority is an installable toolkit that converts annotated GenBank
-records into traceable features, validated protein units and clear diagnostics.
-The biological approach remains source-guided extraction. Missing annotations stay
-explicit, and noncoding features remain metadata.
+`iri-constructs` reads annotated GenBank records and writes traceable features,
+**validated** protein units and plain diagnostics. It reuses what the source
+record documents. A protein is exported only when the record's own
+`/translation` agrees with the documented coordinates, frame and translation
+table; everything else is kept and explained. Nothing is predicted.
 
-Start with the [active scope and release criteria](docs/project/SCOPE.md),
-[current status](docs/project/STATUS.md), [implementation plan](docs/project/PLAN.md),
-[standing autonomy rules](docs/project/AUTONOMY.md) and
-[target API/CLI contract](docs/project/TOOLKIT_CONTRACT.md). These supersede the old
-workbook and per-panel approval workflow for new toolkit work. Root
-[AGENTS.md](AGENTS.md) directs agent work. E2–E4, a large benchmark and a positive
-model-performance result are not toolkit release gates.
+It needs no review manifest, family labels, reference panel, model, Git checkout
+or network access.
 
-The target `iri-constructs preprocess input.gb --out output/` command is **not yet
-implemented**. Current checkout commands below are available; public installed
-API/CLI, batch/export improvements and clean-wheel acceptance are the next work.
-
-## Prior research and available checkout commands
-
-The original E1–E4 descriptive pilot ran and [PR #11](https://github.com/khgng026/iri-construct-screening-2026/pull/11)
-was merged on November 13, 2026. Its [report](docs/EXPERIMENT_STATUS.md) and the
-separate [panel-v2 annotation/alignment evidence](docs/results/panel-v2-2026-11-13/README.md)
-are historical observations. General decomposition benefit remains unresolved.
-
-The research question is whether converting documented benign DNA constructs
-into traceable protein components improves protein-family retrieval. Existing
-protein models receive validated annotated proteins, never whole-plasmid DNA,
-inferred ORFs or concatenated separate proteins. No model is trained or tuned.
-
-The original E2 endpoint gives longest eligible CDS 2/2 supported parent families
-and all eligible CDSs 1/2. Component attribution exposes off-family baseline
-credit and competition for the shared five-hit budget. E3 alignment and pinned
-ESM-2 each recover 4/4 query families. E4 separates ESM-2 loading from inference
-and alignment work. Four queries, three parents and two dependence clusters cannot
-establish a winner, equivalence or a population effect. Function prediction and
-autonomous safety decisions are outside this evidence.
-
-## Install and test
-
-Python 3.10+ supports dependency-free checks. Parsing uses the separately pinned
-optional requirements; model execution uses its recorded environment and exact
-cached checkpoint. Installation requires ordinary package-provider access.
+## Install and run
 
 ```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements-parsing.txt
-.venv/bin/python scripts/smoke_test.py
-.venv/bin/python -m unittest discover -s tests -v
+python -m pip install .            # from a checkout; Python 3.10+, installs Biopython
 ```
-
-The smoke command is a fictional metadata check. Tests do not establish new
-biological evidence or clear new panels. Model setup is documented in
-[the experiment interface](experiments/README.md), with exact run commands and
-resource measurements in the current handoff.
-
-## Source-free reproducible results demo
-
-From a clean checkout, the standard library is sufficient to reconstruct the
-cleared E4 table and derived E3 archetype report from committed approved evidence:
 
 ```bash
-python3 scripts/analyze_cleared_pilot.py --stage E4
+iri-constructs preprocess plasmid.gb --out out/
 ```
-
-Outputs are versioned under `docs/results/analysis-2026-11-12/`. Exact approved E3
-and E4 protocol hashes are checked before calculation. No downloads, private
-sequences or model inference occur. This demonstrates reporting, not an independent
-biological rerun.
-
-The existing annotation-to-unit demo uses the separately admitted historical
-pBR322 snapshot and produces ignored preparatory outputs:
 
 ```bash
-.venv/bin/python scripts/validate_week2.py \
-  --inputs data/manifests/week2/demo.preparatory.json --output results/demo-new
+iri-constructs preprocess a.gb b.gbk more_records/ --out batch_out/ --max-model-residues 1022
 ```
 
-For E1 parsing and E2/E3 retrieval/replay commands, use the
-[reproduction instructions](docs/EXPERIMENT_STATUS.md#reproduce-and-maintain).
-Restore the exact hash-identified private source/reference/model caches first.
-Missing or modified scientific inputs block execution. Use a fresh run directory.
-Cached-score reuse verifies the immutable committed experimental fingerprints;
-it performs zero additional model calls and is not a new independent observation.
+Inputs can be single-record files, multi-record files, nucleotide FASTA
+(sequence only; no annotations are invented) and directories (their `.gb`,
+`.gbk`, `.gbff`, `.genbank`, `.fasta`, `.fa`, `.fna` files, not recursive).
+A fictional example set is in [`examples/synthetic/`](examples/README.md):
 
-## Active rules and historical evidence
+```bash
+iri-constructs preprocess examples/synthetic --out demo_out/ --max-model-residues 1022
+```
 
-- [Scope](docs/project/SCOPE.md), [contract](docs/project/TOOLKIT_CONTRACT.md) and
-  [autonomy](docs/project/AUTONOMY.md) define active release criteria and authority.
-- [Original four-week workbook](planning/4-week-workflow.xlsx) is historical;
-  [history index](docs/project/HISTORY.md) explains superseded dependencies and rules.
-- [T02](docs/week1/T02_data_governance.md) and [T07](docs/week1/T07_benchmark_protocol.md),
-  their versioned addenda and actual [authorization](docs/oversight/EXPERIMENT_RUN_AUTHORIZATION.json)
-  document historical source admission, frozen panels and execution.
-- [E4 clearance](docs/oversight/E4_RUN_AUTHORIZATION.json) records the actual narrow
-  external delegated decision; exploratory diagnostics do not amend primary criteria.
-- [Original results](docs/results/cleared-2026-11-11/) remain unchanged.
-- [Prospective panel v2](data/manifests/prospective-2026-11-12/panel.v2.json) is prepared,
-  with subsequent E1/alignment-only runs recorded in its [evidence index](docs/results/panel-v2-2026-11-13/README.md).
-  Its ESM-2 comparison was not run. Its frozen proposal is not the authority for new toolkit work.
+That batch deliberately contains one malformed record and one non-sequence
+file, so it finishes with exit status 2 and still writes the other seven records.
 
-Source sequences, full qualifiers, embeddings, weights and full logs remain in
-ignored private storage. Public accessibility does not itself grant redistribution
-rights. Source-free manifests retain original identities and checksums. The
-historical review freeze and removed duplicate diagnostics are recoverable at
-reviewed commit `3fb4262`. The launcher preserves the complete original authority
-digest and checks a separately pinned dependency inventory for the selected stage.
-Replay requires its source/reference/cache evidence, without model weights;
-inference additionally requires the pinned ESM-2 weights. Held ESM-C and iGEM
-originals are not required for those historical stages. New toolkit work follows
-the active policy and must not inherit historical cache/approval dependencies.
+From Python:
+
+```python
+from iri_constructs import PreprocessOptions, preprocess_files
+
+result = preprocess_files(["plasmid.gb"], "out/", options=PreprocessOptions(model_max_residues=1022))
+result.exit_code                 # 0, 2 or 1 as below; the library never exits the process
+result.proteins                  # {unit_id: validated source protein}
+for record in result.failed_records:
+    print(record.input_name, record.failure.code, record.failure.message)
+```
+
+`preprocess_file`, `process_inputs` (no files written), `write_bundle`, the
+result dataclasses and `PreprocessError`/`OutputError` are importable from
+`iri_constructs`.
+
+## What you get
+
+| File | Content |
+| --- | --- |
+| `normalized.json` | Constructs, features and units with stable IDs, parent links, source hashes, original feature type beside the normalized label |
+| `annotations.json` | Original qualifiers and every source location part (including fuzzy and remote parts), keyed by the same IDs |
+| `proteins.fasta` | Validated source translations only; header carries unit, construct, feature, length and SHA-256 |
+| `features.tsv`, `units.tsv` | One row per source feature / per unit: strand, ordered segments, extraction state, reason code |
+| `report.json` | Counts, per-record status, warnings, failures, every reason code with its meaning |
+| `run.json` | Timestamps, paths, versions. The only file that differs between identical runs |
+
+Conventions: coordinates are zero-based half-open with strand; a joined or
+origin-spanning feature keeps its **ordered segment list** (`[1497:1563](+);[0:57](+)`)
+and is never flattened to a bounding interval. TSV is UTF-8, tab separated, one
+header row; tab, newline and backslash inside a value are written `\t`, `\n`,
+`\\`; an unknown value is empty; segments are joined by `;`. IDs are
+`<record id>-f-<digest>` / `-u-<digest>` from the feature's own content, so they
+do not depend on file order or on what else is in the batch.
+
+Each feature has one unit. `extraction_state` is `exported` (validated protein),
+`withheld` (a CDS that is not exported, with a reason) or `metadata_only`
+(noncoding feature, kept as metadata).
+
+## What happens when the input is imperfect
+
+| Situation | Outcome |
+| --- | --- |
+| CDS without `/translation` | `withheld`, `missing_translation`. No translation is synthesized |
+| Translation disagrees with the coordinates | `withheld`, `translation_mismatch` |
+| Coordinates are not a complete CDS (no stop, partial codon, no start) | `withheld`, `incomplete_cds`; the detail says which defect and whether the translation still agrees in frame |
+| Partial/fuzzy boundary (`<1..300`) | `withheld`, `location_fuzzy`; the uncertain location is kept as written |
+| `/pseudo`, `/transl_except`, `/exception` | `withheld`, `exceptional_cds_annotation` |
+| Repeated `/translation`, `/product`, `/gene`, … | `withheld`, `conflicting_cds_qualifiers` |
+| Remote, `order(...)`, between-bases or out-of-range location | feature kept with the matching `location_*` code |
+| Identical duplicate features | both kept; the second gets a `-dup2` suffix and a warning |
+| Protein longer than a model limit | **still exported**; `model_compatibility` says `exceeds_max_residues` |
+| Record without usable ID (tool export) | ID from the file name plus a content digest |
+| Same record twice in a batch | processed once, second marked `skipped_duplicate` |
+| Different records with the same ID | both kept, IDs disambiguated by content digest |
+| Malformed record in a multi-record file | that record fails with a code; the others are processed |
+| File that is not GenBank/FASTA, or empty | that input fails; the batch continues |
+| Output directory exists and is not empty | refused. `--overwrite` replaces a previous bundle only, never other files |
+| Output directory would contain an input | refused |
+
+Exit status: **0** every record processed; **2** some records failed and usable
+output was written; **1** invalid invocation, unsafe output location or no
+usable record. Withholding a unit is an expected outcome and never changes the
+exit status.
+
+## Limits
+
+- It reproduces source annotations. Agreement between a translation and its
+  coordinates is not evidence that the annotation is biologically right, that
+  the protein is functional, or of anything about safety.
+- No gene prediction, no inferred translations, no domain splitting. A fusion
+  annotated as one CDS is one protein; separate CDSs are never concatenated.
+- Noncoding features are metadata only. On 200 public vector records an average
+  of one third of the construct length lay inside exported CDSs.
+- Records were validated on NCBI GenBank flat files and on fictional fixtures.
+  Exports from plasmid editors are covered by fixtures, not by a public sample.
+- Qualifier values are preserved as parsed by Biopython (line wrapping is
+  joined), not as raw text.
+
+## Develop and verify
+
+```bash
+python -m pip install -e . && python -m unittest discover -s tests
+```
+
+```bash
+python scripts/verify_wheel_install.py
+```
+
+The second command is the release gate: it builds the wheel, installs it into a
+fresh environment outside the checkout, checks that no model package is pulled
+in, runs the CLI and reruns the toolkit tests against the installed copy with
+sockets disabled. See the [release assessment](docs/project/RELEASE_ASSESSMENT.md).
+
+## Research use
+
+The question behind the toolkit is whether representing all annotated components
+of a construct improves a fixed model's characterization of them compared with a
+single-protein reduction. The current evidence is the pre-registered
+[component-coverage study v1](docs/results/component-study-v1/README.md): on 110
+distinct multi-protein public vectors, keeping every validated protein recovered
+the documented family of 178 of 185 components within five hits, against 106 for
+the best single protein — a coverage gain from asking more queries, dependent on
+how per-protein rankings are merged, with no change in how any single protein is
+represented, and no advantage of ESM-2 8M over alignment. It is descriptive, not
+a population estimate.
+
+Model packages are optional (`pip install '.[model]'`) and used only by
+`experiments/component_study_v1/`.
+
+## Project documents
+
+[Scope](docs/project/SCOPE.md) · [status](docs/project/STATUS.md) ·
+[contract](docs/project/TOOLKIT_CONTRACT.md) · [plan](docs/project/PLAN.md) ·
+[autonomy and data rules](docs/project/AUTONOMY.md) · [agent instructions](AGENTS.md)
+
+Earlier work — the E1–E4 pilot ([report](docs/EXPERIMENT_STATUS.md)), panel v2
+([index](docs/results/panel-v2-2026-11-13/README.md)), the T01–T28 workbook and
+per-panel approval records — is historical. [HISTORY.md](docs/project/HISTORY.md)
+says what each superseded document is; their results and conditions are
+unchanged. Historical runners (`scripts/parse_annotations.py`,
+`scripts/execute_cleared_retrieval.py`, …) still enforce their original review
+manifests and private caches and are kept for reproduction only.
+
+Public records, reference sequences, embeddings and weights stay in ignored
+private storage. Only the fictional fixtures and the previously reviewed
+`data/approved_public/J01749.1.gb` are committed.

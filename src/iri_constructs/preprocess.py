@@ -577,9 +577,10 @@ def write_bundle(result: BatchResult, output_dir, *, run_metadata: Mapping | Non
     _check_output(output_dir, [i.path for i in result.inputs], result.options.overwrite)
     documents = bundle_documents(result)
     documents['run.json'] = _dump({'schema_version': BUNDLE_SCHEMA, **dict(run_metadata or {})})
-    output_dir.parent.mkdir(parents=True, exist_ok=True)
-    staging = Path(tempfile.mkdtemp(prefix=f'.{output_dir.name}.tmp-', dir=output_dir.parent))
+    staging = None
     try:
+        output_dir.parent.mkdir(parents=True, exist_ok=True)
+        staging = Path(tempfile.mkdtemp(prefix=f'.{output_dir.name}.tmp-', dir=output_dir.parent))
         for name, text in documents.items():
             (staging / name).write_text(text, encoding='utf-8', newline='\n')
         if output_dir.exists():
@@ -590,8 +591,11 @@ def write_bundle(result: BatchResult, output_dir, *, run_metadata: Mapping | Non
             staging.rmdir()
         else:
             os.replace(staging, output_dir)
+    except OSError as exc:
+        raise OutputError(f'Cannot write the output bundle to {output_dir} ({type(exc).__name__}: {exc.strerror or exc})') from exc
     finally:
-        shutil.rmtree(staging, ignore_errors=True)
+        if staging is not None:
+            shutil.rmtree(staging, ignore_errors=True)
     return BatchResult(result.options, result.inputs, result.records, output_dir)
 
 

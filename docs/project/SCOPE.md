@@ -15,7 +15,7 @@ Reuse source annotations. Normalize construct/feature/unit relationships, exact 
 ## Release acceptance
 
 - R1: wheel installs in a fresh supported Python environment; installed API and CLI work outside the checkout without `.git`, legacy project files or model packages.
-- R2: `iri-constructs preprocess input.gb --out output/` and a documented batch form produce the contract outputs. These commands are the target interface, not yet implemented at this reset.
+- R2: `iri-constructs preprocess input.gb --out output/` and a documented batch form produce the contract outputs. These commands were the target interface at the reset and are implemented as of v0.1.0 (see [release assessment](RELEASE_ASSESSMENT.md)).
 - R3: original feature semantics, qualifiers, source hash, parent links and ordered locations are preserved; feature-type normalization retains the original source type.
 - R4: known translations are validated, unsupported units carry stable reason codes, and supported units are exported independently of benchmark label availability and model length limits.
 - R5: single-record and multi-record files, reverse strands, joined locations, missing translations, ambiguous annotations and malformed inputs have meaningful automated coverage. Partial batches retain successful records.

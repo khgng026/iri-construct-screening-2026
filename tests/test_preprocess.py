@@ -223,6 +223,24 @@ class PreprocessTests(unittest.TestCase):
         self.assertEqual(extracted, result.proteins)
         self.assertEqual({f['feature_id'] for f in document['features']}, {f.feature_id for f in result.records[0].features})
 
+    def test_real_public_record_pbr322(self):
+        # The one public record committed with a documented sharing basis (data/approved_public/README.md).
+        source = ROOT / 'data' / 'approved_public' / 'J01749.1.gb'
+        if not source.is_file():
+            self.skipTest('Committed pBR322 record is only present in the checkout')
+        result = self.api.preprocess_file(source, self.tmp / 'out', options=self.api.PreprocessOptions(model_max_residues=1022))
+        self.assertEqual(result.exit_code, 0)
+        record = result.records[0]
+        self.assertEqual((record.construct_id, record.construct['topology'], record.construct['sequence_length_nt']),
+                         ('J01749.1', 'circular', 4361))
+        self.assertEqual(record.construct['source_input']['sha256'],
+                         '7660b0fe95a91d492b102192dc72924508a69fda762988aa0923b3d5cc2073f6')
+        self.assertEqual(len(record.features), 50)
+        exported = {f.names['gene']: u for f, u in zip(record.features, record.units) if u.extraction_state == 'exported'}
+        self.assertEqual({gene: u.length_aa for gene, u in exported.items()}, {'tet': 396, None: 63, 'bla': 286})  # ROP has no /gene
+        self.assertEqual(next(f.strand for f in record.features if f.names['gene'] == 'bla' and f.source_feature_type == 'CDS'), '-')
+        self.assertEqual(result.summary()['cds_withheld'], 0)
+
     # -- safety of the output location ---------------------------------------------------
     def test_output_location_is_protected(self):
         api = self.api
@@ -246,6 +264,10 @@ class PreprocessTests(unittest.TestCase):
         with self.assertRaises(api.OutputError):          # an input inside the output directory is refused
             api.preprocess_files([source], work, options=api.PreprocessOptions(overwrite=True))
         self.assertEqual(Path(source).read_bytes(), original)
+        blocker = self.tmp / 'a_file'
+        blocker.write_text('not a directory')
+        with self.assertRaises(api.OutputError):          # unwritable location: a clean error, not a traceback
+            api.preprocess_files([FIXTURES / 'single_cds.gb'], blocker / 'out')
         with self.assertRaises(api.PreprocessError):
             api.preprocess_files([self.tmp / 'missing.gb'], self.tmp / 'new')
         self.assertFalse((self.tmp / 'new').exists())
