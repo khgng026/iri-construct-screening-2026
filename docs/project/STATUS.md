@@ -11,7 +11,7 @@ All review recorded here is agent self-review.
 | Area | State |
 | --- | --- |
 | Toolkit U1–U5 | **Done.** Installed API and `iri-constructs preprocess` CLI, output bundle, fixtures, tests, clean-wheel gate. [Release assessment](RELEASE_ASSESSMENT.md): R1–R7 pass on Python 3.11–3.13; 3.10, Windows and macOS not run locally |
-| Research U6 | **Done as a pre-registered study.** [Component-coverage study v1](../results/component-study-v1/README.md): specification and panel frozen before scoring; ESM-2 8M and alignment scored; results descriptive |
+| Research U6 | **Done as a pre-registered study plus one pre-registered extension.** [Component-coverage study v1](../results/component-study-v1/README.md) and [extension 1](../results/component-study-v1/extension-1/README.md): specifications and labels frozen before scoring; ESM-2 8M and alignment scored; the extension replicates v1 on unseen unit sets |
 | Documentation | README shows working commands; superseded directories carry notices; this ledger and HISTORY.md are current |
 | Open pull request | [#13](https://github.com/khgng026/iri-construct-screening-2026/pull/13), draft, branch `claude/gifted-gauss-i9jbhz`. Not merged; merging needs the researcher |
 
@@ -24,9 +24,11 @@ All review recorded here is agent self-review.
   Repository suite: 271 tests, 266 pass, 5 optional historical skips. The 251
   tests that existed before this work pass unchanged;
   `scripts/verify_pilot_release.py` passes.
-- **Real records.** A seeded sample of 200 NCBI vector records: 200 processed,
-  0 failed, 488 of 528 CDSs exported, 36 withheld for partial boundaries, 4 for
-  exceptional annotations, 12 exported proteins over the 1022-residue model limit.
+- **Real records.** Two disjoint seeded samples of NCBI vector records, 1,000 in
+  all: 1,000 processed, 0 failed, no parser warning; 2,338 of 2,491 CDSs
+  exported (93.9%); 153 withheld (138 partial boundaries, 12 exceptional
+  annotations, 3 non-canonical translations); 47 exported proteins over the
+  1022-residue model limit.
 - **Study v1** (110 distinct multi-protein parents, 185 supported components,
   five hits per parent; components recovered through their own unit):
 
@@ -45,6 +47,13 @@ All review recorded here is agent self-review.
   mean-pooled ESM-2 fails (3 of 8 family slots against 7 of 8). Six dependence
   clusters, so no population claim. Model revision `c731040f…5df`, weight
   SHA-256 `24c5fa47…4189`, identical to the historical runs.
+- **Extension 1** (363 distinct unit sets not seen in v1, 614 components): the
+  same five rows give 200, 352, 509, 588, 599 for ESM-2 and 209, 362, 474, 605,
+  613 for alignment. With 20 dependence clusters the paired cluster bootstrap
+  gives round-robin − longest supported = +0.12 [0.04, 0.20] and maximum merge −
+  longest supported = +0.05 [−0.08, 0.17] (ESM-2). Fusion-class family slots
+  over both samples: ESM-2 28 of 53, alignment 50 of 53; an exploratory oracle
+  cut to the anchor-aligned segment recovers 53 of 53.
 
 ## What is not established
 
@@ -70,10 +79,13 @@ silently. The historical E2/E3 private caches remain unavailable, as before.
 Decide between the two follow-ups the v1 results motivate (details and
 recommendation in the study README and the pull request):
 
-1. **Fusion proteins.** Test whether scoring whole fusion CDSs with a
-   local/residue-level comparison, or splitting them at documented domain
-   boundaries, recovers the families that mean pooling loses. Needs a purpose-built
-   set of documented fusions (v1 has ten sequences) and is a scope expansion.
+1. **Fusion proteins.** The oracle diagnostic shows the loss is entirely due to
+   pooling over unrelated sequence and is fully recoverable in principle. The
+   open question is whether boundaries can be found *without* the answer key
+   (source domain annotations, or a residue-level/local comparison in the
+   manner of EBA/PEbA) and whether that beats plain local alignment, which
+   already recovers 50 of 53. This is domain-aware decomposition: a scope
+   expansion that needs the researcher's decision.
 2. **A harder, larger reference tier** so that alignment is no longer at ceiling
    and the model can be distinguished from it.
 
@@ -98,5 +110,6 @@ transformers 4.48.1, huggingface-hub 0.28.1, numpy 1.26.4.
 
 `c27d261` normalization core split · `10b8fcf` API and CLI · `2814371` fixtures,
 tests, wheel gate · `17ea54b` study specification and panel freeze (before
-scoring) · `e8e4a9d` study results · later commits on the branch: documentation,
-CI and notices.
+scoring) · `e8e4a9d` study results · `f12d8cf` documentation, CI, notices ·
+`b2fe310` extension specification (before fetching) · later commits: extension
+freeze and results.

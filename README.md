@@ -107,8 +107,8 @@ exit status.
   the protein is functional, or of anything about safety.
 - No gene prediction, no inferred translations, no domain splitting. A fusion
   annotated as one CDS is one protein; separate CDSs are never concatenated.
-- Noncoding features are metadata only. On 200 public vector records an average
-  of one third of the construct length lay inside exported CDSs.
+- Noncoding features are metadata only. On 1,000 public vector records an
+  average of one third of the construct length lay inside exported CDSs.
 - Records were validated on NCBI GenBank flat files and on fictional fixtures.
   Exports from plasmid editors are covered by fixtures, not by a public sample.
 - Qualifier values are preserved as parsed by Biopython (line wrapping is
@@ -134,13 +134,16 @@ sockets disabled. See the [release assessment](docs/project/RELEASE_ASSESSMENT.m
 The question behind the toolkit is whether representing all annotated components
 of a construct improves a fixed model's characterization of them compared with a
 single-protein reduction. The current evidence is the pre-registered
-[component-coverage study v1](docs/results/component-study-v1/README.md): on 110
-distinct multi-protein public vectors, keeping every validated protein recovered
-the documented family of 178 of 185 components within five hits, against 106 for
-the best single protein — a coverage gain from asking more queries, dependent on
-how per-protein rankings are merged, with no change in how any single protein is
-represented, and no per-protein advantage of ESM-2 8M over alignment. It is
-descriptive, not a population estimate.
+[component-coverage study v1](docs/results/component-study-v1/README.md) and its
+[extension](docs/results/component-study-v1/extension-1/README.md). On 110 and
+then 363 distinct multi-protein public vectors, keeping every validated protein
+recovered the documented family of 96% of supported components within five hits,
+against 57% for the best single protein — a coverage gain from asking more
+queries, dependent on how per-protein rankings are merged, with no change in how
+any single protein is represented and no per-protein advantage of ESM-2 8M over
+alignment. Fusions kept as one protein are the clear weak point for the
+embedding model. The scope of these statements is the sampled NCBI vector
+records and 28 well-known protein families.
 
 Model packages are optional (`pip install '.[model]'`) and used only by
 `experiments/component_study_v1/`.

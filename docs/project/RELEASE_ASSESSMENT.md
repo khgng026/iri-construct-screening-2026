@@ -20,8 +20,9 @@ including all toolkit tests, skip without it). Installed-wheel run: 14 toolkit
 tests, 13 pass, 1 skip (the pBR322 record is only in the checkout). The 251
 pre-existing tests pass unchanged, and `scripts/verify_pilot_release.py` passes.
 
-Real records: 200 of 200 sampled NCBI vector records processed with no
-record-level failure and no parser warning; 488 of 528 CDSs exported.
+Real records: 1,000 of 1,000 sampled NCBI vector records (two disjoint seeded
+samples) processed with no record-level failure and no parser warning; 2,338 of
+2,491 CDSs exported.
 
 ## Not verified, or known gaps
 
@@ -37,7 +38,7 @@ record-level failure and no parser warning; 488 of 528 CDSs exported.
   the API call, not by an OS-level sandbox.
 - A CDS whose coordinates omit the stop codon is withheld even when its
   translation matches in frame (`incomplete_cds`, with
-  `in_frame_translation_agrees`). None occurred in the 200 real records, so no
+  `in_frame_translation_agrees`). None occurred in the 1,000 real records, so no
   relaxing option was added; if tool exports make this common, it is the first
   behavior to revisit.
 - Qualifier text is preserved as parsed (wrapped lines joined), not byte for byte.

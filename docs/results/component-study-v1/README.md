@@ -126,6 +126,18 @@ an accidental match to another expected family is rare; with the four families
 of the historical panel it was likely. The earlier complication was a property
 of a very small catalogue, and attribution remains the safer endpoint.
 
+## Extension 1 (added later the same day)
+
+A [pre-registered extension](extension-1/README.md) repeated the comparison on
+800 further records with this panel unchanged. On 363 unit sets not seen here
+the proportions are nearly identical (ESM-2: 33%, 57%, 83%, 96% of 614
+components for the four conditions), the round-robin gain over the best single
+protein survives a conservative cluster bootstrap (+0.12 [0.04, 0.20], 20
+clusters) while the maximum-merge gain does not, and the fusion observation
+holds on new sequences (ESM-2 28 of 53 family slots over both samples,
+alignment 50 of 53). An exploratory oracle cut recovers all 53, which locates
+the loss in mean pooling over unrelated sequence.
+
 ## Answer supported by this run
 
 Keeping every validated annotated protein lets a fixed model retrieve the

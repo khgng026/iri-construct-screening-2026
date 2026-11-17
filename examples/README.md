@@ -29,10 +29,11 @@ exported proteins and 6 withheld CDSs, exit status 2.
   record in Git; its source, hash and sharing basis are in
   [`data/approved_public/README.md`](../data/approved_public/README.md). The
   test-suite uses it as an integration check (50 features, 3 of 3 CDSs exported).
-- A seeded sample of 200 NCBI vector records was processed for the
-  [component-coverage study](../docs/results/component-study-v1/README.md):
-  200 of 200 records processed, 488 of 528 CDSs exported, 36 withheld for
-  partial boundaries and 4 for exceptional annotations. Those records are held
+- Two disjoint seeded samples of NCBI vector records (200 and 800) were
+  processed for the [component-coverage study](../docs/results/component-study-v1/README.md):
+  1,000 of 1,000 records processed, 2,338 of 2,491 CDSs exported, 138 withheld
+  for partial boundaries, 12 for exceptional annotations and 3 for non-canonical
+  residues in the source translation. Those records are held
   in an ignored private cache with a recorded acquisition manifest (accessions,
   hashes, retrieval date, NCBI terms note); they are not redistributed here.
   Source-level review: NCBI GenBank cloning/expression vector records, used

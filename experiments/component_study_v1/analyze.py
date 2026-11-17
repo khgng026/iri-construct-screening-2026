@@ -228,6 +228,8 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('--scores', type=Path, default=ROOT / 'results' / 'component_study_v1')
     parser.add_argument('--record', type=Path, default=ROOT / 'docs' / 'results' / 'component-study-v1')
+    parser.add_argument('--compact', action='store_true',
+                        help='omit per-parent budget-sensitivity rows and indentation (large samples)')
     args = parser.parse_args(argv)
     freeze = json.loads((args.record / 'panel.freeze.json').read_text())
     results = {'schema_version': 'component-study-results-1', 'panel_sha256': freeze['panel_sha256'],
@@ -238,7 +240,11 @@ def main(argv=None):
             raise SystemExit('Scores do not belong to the committed freeze')
         record = json.loads((args.record / f'scoring.{method}.json').read_text())
         results['methods'][method] = {'score_matrix_sha256': record['score_matrix_sha256'], **evaluate(freeze, private['scores'])}
-    (args.record / 'results.json').write_text(json.dumps(results, indent=1, sort_keys=True) + '\n')
+    if args.compact:
+        for method in results['methods'].values():
+            for row in method['parent_rows']:
+                row.pop('budget_sensitivity', None)
+    (args.record / 'results.json').write_text(json.dumps(results, indent=None if args.compact else 1, sort_keys=True) + '\n')
     for method, r in results['methods'].items():
         print('==', method)
         print(' per-unit', json.dumps(r['per_unit']['all_supported']))
