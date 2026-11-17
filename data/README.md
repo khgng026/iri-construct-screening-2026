@@ -1,5 +1,7 @@
-# Data: fictional examples only
+# Data and provenance
 
-The `manifests/` and `examples/` folders contain only invented metadata for schema and testing demonstrations. No real accessions, sequences, evidence of biological function, or model outputs are stored here.
+`examples/` contains fictional schema examples. `manifests/` also contains real public-source identities, hashes, annotations and historical review/run metadata. `approved_public/J01749.1.gb` is the previously approved exact historical pBR322 snapshot. These artifacts are not all fictional, and source annotations are not independent biological-function evidence.
 
-T02 data-governance policy v1.0 was approved on 2026-10-28 and documents source selection, benign eligibility, licensing, and provenance checks. This policy approval does not approve any individual record. Add real public benign records only after the record-specific T02 checklist, permission, and safety reviews have been completed in T06/T08. Downloaded `.gb`, `.fasta` or related sequence data belong outside Git in ignored local directories. No user/customer/proprietary data are allowed.
+New work follows [standing autonomy/data rules](../docs/project/AUTONOMY.md). Routine suitable public benign inputs can be reviewed by the agent under those rules without another per-record researcher or external-AI approval. Record source identity, hashes, relevant terms/notices and limitations. Use ignored private caches for permitted inputs/derived artifacts. Do not commit raw biological records, full annotations or embeddings without an established sharing basis and applicable publication authority. The existing historical approved snapshot is retained; `.gitignore` exceptions are not broadened by this reset.
+
+The [toolkit contract](../docs/project/TOOLKIT_CONTRACT.md) separates parsing/provenance capture from research-dataset admission. New local preprocessing will not require historical T02 approval CSVs, family labels or reference panels. That interface is planned, not yet implemented. Historical manifests retain their original meaning and paths; see [history index](../docs/project/HISTORY.md).

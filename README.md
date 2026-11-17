@@ -1,8 +1,28 @@
-# IRI Fall 2026: annotated construct decomposition
+# IRI constructs: annotation-guided preprocessing toolkit
 
-The cleared E1–E4 descriptive pilot has run. Read the [current results, limitations,
-workflow status and handoff](docs/EXPERIMENT_STATUS.md). [PR #11](https://github.com/khgng026/iri-construct-screening-2026/pull/11) was merged on November 13, 2026;
-the study has not established a general decomposition benefit.
+The current priority is an installable toolkit that converts annotated GenBank
+records into traceable features, validated protein units and clear diagnostics.
+The biological approach remains source-guided extraction. Missing annotations stay
+explicit, and noncoding features remain metadata.
+
+Start with the [active scope and release criteria](docs/project/SCOPE.md),
+[current status](docs/project/STATUS.md), [implementation plan](docs/project/PLAN.md),
+[standing autonomy rules](docs/project/AUTONOMY.md) and
+[target API/CLI contract](docs/project/TOOLKIT_CONTRACT.md). These supersede the old
+workbook and per-panel approval workflow for new toolkit work. Root
+[AGENTS.md](AGENTS.md) directs agent work. E2–E4, a large benchmark and a positive
+model-performance result are not toolkit release gates.
+
+The target `iri-constructs preprocess input.gb --out output/` command is **not yet
+implemented**. Current checkout commands below are available; public installed
+API/CLI, batch/export improvements and clean-wheel acceptance are the next work.
+
+## Prior research and available checkout commands
+
+The original E1–E4 descriptive pilot ran and [PR #11](https://github.com/khgng026/iri-construct-screening-2026/pull/11)
+was merged on November 13, 2026. Its [report](docs/EXPERIMENT_STATUS.md) and the
+separate [panel-v2 annotation/alignment evidence](docs/results/panel-v2-2026-11-13/README.md)
+are historical observations. General decomposition benefit remains unresolved.
 
 The research question is whether converting documented benign DNA constructs
 into traceable protein components improves protein-family retrieval. Existing
@@ -64,18 +84,21 @@ Missing or modified scientific inputs block execution. Use a fresh run directory
 Cached-score reuse verifies the immutable committed experimental fingerprints;
 it performs zero additional model calls and is not a new independent observation.
 
-## Evidence and governance
+## Active rules and historical evidence
 
-- [Original four-week workbook](planning/4-week-workflow.xlsx) defines task criteria.
+- [Scope](docs/project/SCOPE.md), [contract](docs/project/TOOLKIT_CONTRACT.md) and
+  [autonomy](docs/project/AUTONOMY.md) define active release criteria and authority.
+- [Original four-week workbook](planning/4-week-workflow.xlsx) is historical;
+  [history index](docs/project/HISTORY.md) explains superseded dependencies and rules.
 - [T02](docs/week1/T02_data_governance.md) and [T07](docs/week1/T07_benchmark_protocol.md),
   their versioned addenda and actual [authorization](docs/oversight/EXPERIMENT_RUN_AUTHORIZATION.json)
-  govern source admission, frozen panels, labels and scored execution.
+  document historical source admission, frozen panels and execution.
 - [E4 clearance](docs/oversight/E4_RUN_AUTHORIZATION.json) records the actual narrow
   external delegated decision; exploratory diagnostics do not amend primary criteria.
 - [Original results](docs/results/cleared-2026-11-11/) remain unchanged.
 - [Prospective panel v2](data/manifests/prospective-2026-11-12/panel.v2.json) is prepared,
-  unscored and pending actual delegated clearance. Renilla, ESM-C scored retrieval
-  and stricter relatedness tiers remain held.
+  with subsequent E1/alignment-only runs recorded in its [evidence index](docs/results/panel-v2-2026-11-13/README.md).
+  Its ESM-2 comparison was not run. Its frozen proposal is not the authority for new toolkit work.
 
 Source sequences, full qualifiers, embeddings, weights and full logs remain in
 ignored private storage. Public accessibility does not itself grant redistribution
@@ -85,5 +108,5 @@ reviewed commit `3fb4262`. The launcher preserves the complete original authorit
 digest and checks a separately pinned dependency inventory for the selected stage.
 Replay requires its source/reference/cache evidence, without model weights;
 inference additionally requires the pinned ESM-2 weights. Held ESM-C and iGEM
-originals are not required. Earlier dated reports are historical snapshots; current results
-are linked above.
+originals are not required for those historical stages. New toolkit work follows
+the active policy and must not inherit historical cache/approval dependencies.
