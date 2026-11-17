@@ -1,0 +1,51 @@
+{
+ "identity_definition": "identical aligned residues in the best local BLOSUM62 alignment / length of the shorter sequence",
+ "nearest_same_family_reference_identity": {
+  "max": 0.847,
+  "median": 0.3806,
+  "min": 0.2072,
+  "units_by_bin": {
+   "0.30-0.50": 29,
+   "0.50-0.70": 13,
+   "<0.30": 25,
+   ">=0.70": 1
+  }
+ },
+ "remote_only": {
+  "alignment": {
+   "identity_below_0.3": {
+    "hit_at_1": 52,
+    "hit_at_5": 52,
+    "median_first_rank": 1.0,
+    "units_with_a_remote_reference": 52,
+    "worst_first_rank": 1
+   },
+   "identity_below_0.4": {
+    "hit_at_1": 65,
+    "hit_at_5": 65,
+    "median_first_rank": 1,
+    "units_with_a_remote_reference": 65,
+    "worst_first_rank": 1
+   }
+  },
+  "esm2": {
+   "identity_below_0.3": {
+    "hit_at_1": 47,
+    "hit_at_5": 50,
+    "median_first_rank": 1.0,
+    "units_with_a_remote_reference": 52,
+    "worst_first_rank": 8
+   },
+   "identity_below_0.4": {
+    "hit_at_1": 60,
+    "hit_at_5": 60,
+    "median_first_rank": 1,
+    "units_with_a_remote_reference": 65,
+    "worst_first_rank": 29
+   }
+  }
+ },
+ "scope": "distinct supported single-family (full) units",
+ "status": "Exploratory; added after registered results were seen. Not a registered endpoint.",
+ "units": 68
+}
