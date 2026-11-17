@@ -1,5 +1,15 @@
 # Experimental results and research handoff — November 12, 2026
 
+> **Historical snapshot — superseded for current status.** This is the original
+> E1–E4 pilot scientific report, preserved as written. Its task table (T15–T28),
+> "partial" assessments and "next action is external review" describe November 12,
+> 2026, before the toolkit-first reset. The preprocessing toolkit has since been
+> delivered and released, and a separately versioned component-coverage study has
+> run; for the current state see [docs/project/STATUS.md](project/STATUS.md), and
+> for the new study [docs/results/component-study-v1/](results/component-study-v1/README.md).
+> The observations, denominators and frozen conditions below remain valid for the
+> runs they describe and are not changed.
+
 Authority: [actual ChatGPT delegated decision](https://github.com/khgng026/iri-construct-screening-2026/pull/11#issuecomment-6800553713), reviewed commit `32e0928`, evidence freeze `c90d063f…47c2e`. All original frozen inputs and criteria remain unchanged. Raw sequences, qualifiers, embeddings and full diagnostics remain private/ignored. This summary supersedes earlier readiness statements; their frozen audit trails are preserved.
 
 | Executed experiment | Actual observation |
