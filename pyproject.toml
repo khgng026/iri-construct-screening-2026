@@ -4,10 +4,22 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "iri-constructs"
-version = "0.1.0"
-description = "IRI Fall 2026 research metadata and benchmark scaffold"
+dynamic = ["version"]
+description = "Annotation-guided preprocessing of annotated DNA constructs into traceable, validated protein units"
+readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = ["biopython>=1.83"]
+
+[project.optional-dependencies]
+# Optional research demonstration only; core preprocessing never imports these.
+model = ["torch>=2.3", "transformers>=4.48", "huggingface-hub>=0.28"]
+measure = ["psutil>=5.9"]
+
+[project.scripts]
+iri-constructs = "iri_constructs.cli:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "iri_constructs.__version__"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
