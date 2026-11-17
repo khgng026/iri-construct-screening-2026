@@ -1,0 +1,28 @@
+# Toolkit delivery plan
+
+This is the authoritative active backlog. The old workbook/T01–T28 dependency map is historical. Read [scope](SCOPE.md), [contract](TOOLKIT_CONTRACT.md), [autonomy](AUTONOMY.md) and [status](STATUS.md). One substantial agent stretch should complete U1–U5 in sequence, repairing prerequisites without asking for routine reviews. U6 follows only if core release checks pass and time/resources permit. A model blocker never blocks U1–U5.
+
+## Implementation stretch
+
+| Order | Work | Completion evidence |
+| --- | --- | --- |
+| U1 | Expose one installed-package preprocessing API around existing normalization. Separate local parsing/provenance capture from research admission and family labels; use an optional caller-specific validator for benchmark policy. Define typed batch/record/unit outcomes and stable reason codes. Preserve existing conservative translation behavior. | A small supported local GenBank fixture processes through the public API without review CSVs, model imports or repository paths. Historical runners still use their own unchanged approval path. |
+| U2 | Generalize ingestion to multi-record files and batches, deterministic duplicate handling, user-selected output paths, per-record failures and explicit unit withholding. Keep compound/circular coordinates and full fusion proteins intact. Separate extraction from optional model-length compatibility. | Focused tests exercise reverse/joined/ambiguous/missing-translation cases, a malformed input next to a valid input, duplicate IDs, expected withholding and a valid protein above the selected model limit. Successful outputs survive partial batches; unsafe recovery is not claimed. |
+| U3 | Implement the accepted output bundle and `iri-constructs preprocess` CLI. Declare parsing dependencies in packaging; keep model libraries optional. Reduce thin wrappers to shared functions rather than duplicating normalization. Preserve the original source feature type and qualifiers. | Installed CLI/API produce documented JSON/FASTA/TSV outputs with IDs/provenance, useful help/errors and contract exit codes. No implicit network or source overwrite. |
+| U4 | Curate compact behavior-based examples. Use synthetic fixtures for precise edge cases and a modest set of suitable public records for integration; source-level rights review and private caches follow AUTONOMY.md. Reuse historical examples when suitable. | Deterministic semantic output comparisons, extraction/withholding counts and failure cases cover the contract. No mandatory dataset-size, independent-family or E1–E4 gate. Every committed real-data example has a documented sharing basis; otherwise test acquisition is optional and offline CI uses synthetic fixtures. |
+| U5 | Build/install a wheel in a fresh environment and run CLI, API, fixture batch and exports from outside the checkout. Add an automated clean-install check, update the real quick start and create a concise release assessment. | R1–R7 in SCOPE.md pass. Preprocessing does not depend on `.git`, research manifests, old commits, ignored caches or provider access. Keep useful legacy checks passing or document an intentional interface migration. Report actual failures/skips, not just test counts. |
+| U6 (optional) | Demonstrate the research bridge using exported units: compare longest eligible protein and all eligible proteins with the same fixed model/reference configuration on a supported small subset. Existing ESM-2 is the only current model target; download/cache is permitted within the active policy. | Export-to-model traceability and actual input/model/configuration versions, coverage, attribution, failures and resources recorded. Missing family evidence yields unsupported metrics, not invented truth. Model absence does not downgrade toolkit readiness. No requirement for a positive result or general claim. |
+
+## Research usefulness
+
+The toolkit must produce reusable inputs and provenance for the question: does representing all annotated components improve characterization relative to a valid minimally processed protein baseline? U1–U5 establish extraction correctness and usability. U6 can show integration and a small paired observation; it cannot settle population-level improvement. Keep source-annotation agreement, number of represented components and independent retrieval accuracy distinct. Whole-plasmid DNA is not a valid ESM-2 baseline. Full construct-family recall remains unsupported where source components have unknown family labels.
+
+Exploratory aggregation adjustments may be run and labeled within scope. They must not silently replace an earlier primary outcome. Any stronger independent evaluation is a follow-on research study, not a toolkit release prerequisite.
+
+## Execution and handoff
+
+Use cohesive commits for the public API/CLI, batch/export behavior, and packaging/tests/docs. Keep one work branch or a clearly documented stack; open/update a reviewable PR and attach test evidence. Do not pause between U1–U5 for approval. At meaningful checkpoints update STATUS.md with completed evidence, remaining failures and next task. If a material exception requires the researcher, isolate it and continue other tasks. Stop adding features when the contract passes; deliver the working artifacts and limitations rather than extending the benchmark.
+
+## Deferred backlog
+
+Domain-aware decomposition; sliding windows; gene prediction or synthesis of missing translations; residue-level embedding alignments/PEbA/EBA/PLMSearch; additional model families; large-scale construct/family benchmarks; strict reference-relatedness tiers; formal E4 cost-quality rankings; public data release; service deployment. Preserve prior work for later use without making it an active dependency.

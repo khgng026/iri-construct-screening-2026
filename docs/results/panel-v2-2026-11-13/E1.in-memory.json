@@ -1,0 +1,356 @@
+{
+  "biopython": "1.86",
+  "limitations": [
+    "Source-annotation agreement is not independent biological truth.",
+    "Not an independent retrieval, decomposition benefit, model inference or fusion-boundary experiment.",
+    "Exact source bytes were processed in memory and not persisted.",
+    "This helper-level run does not reproduce the full production CLI output or its file-based admission path."
+  ],
+  "max_residues": 1022,
+  "method": "In-memory exact NCBI source, normalize_record then audit_quality; no raw source, qualifier, protein or sidecar files saved. Not the production CLI.",
+  "panel_canonical_sha256": "f9111dd17ec028fdc170552aacc8af7275fccaf46d1e9712e3f7a681bdc0d70b",
+  "python": "3.12.14",
+  "records": [
+    {
+      "construct_id": "ncbi-AF234299.1",
+      "counts": {
+        "conflicting_qualifier_cds": 0,
+        "erroneous_invention_count": 0,
+        "exceptional_cds": 0,
+        "expected_model_abstention_cds": 0,
+        "fuzzy_location_features": 0,
+        "invalid_location_features": 0,
+        "invented_feature_count": 0,
+        "justified_model_abstention_cds": 0,
+        "missing_location_features": 0,
+        "missing_translation_cds": 0,
+        "mixed_strand_features": 0,
+        "multipart_features": 0,
+        "observable_features": 17,
+        "preserved_observable_qualifiers": 17,
+        "remote_location_features": 0,
+        "retained_observable_features": 17,
+        "reverse_strand_features": 7,
+        "source_aligned_exported_cds": 4,
+        "source_ambiguous_features": 0,
+        "source_cds": 4,
+        "source_features": 18,
+        "source_issue_features": 0,
+        "source_noncoding_features": 14,
+        "source_unknown_features": 0,
+        "translation_conflict_cds": 0,
+        "uncertainty_preserved_features": 0,
+        "uncertainty_required_features": 0,
+        "unknown_strand_features": 0,
+        "unsupported_feature_label_count": 0,
+        "unsupported_length_cds": 0,
+        "unsupported_protein_export_count": 0,
+        "usable_model_input_cds": 4,
+        "validated_source_translation_cds": 4,
+        "withheld_annotation_cds": 0
+      },
+      "failed_checks": [],
+      "metrics": {
+        "confirmed_source_aligned_translation_rate": {
+          "denominator": 4,
+          "numerator": 4,
+          "value": 1.0
+        },
+        "conflicting_qualifier_cds_rate": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "justified_model_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "value": null
+        },
+        "missing_translation_rate": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "observable_feature_preservation": {
+          "denominator": 17,
+          "numerator": 17,
+          "value": 1.0
+        },
+        "observable_qualifier_preservation": {
+          "denominator": 17,
+          "numerator": 17,
+          "value": 1.0
+        },
+        "source_ambiguous_feature_rate": {
+          "denominator": 17,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "source_uncertainty_preservation": {
+          "denominator": 0,
+          "numerator": 0,
+          "value": null
+        },
+        "source_unknown_feature_rate": {
+          "denominator": 17,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "useful_model_input_rate": {
+          "denominator": 4,
+          "numerator": 4,
+          "value": 1.0
+        }
+      },
+      "quality_stratum": "well_annotated",
+      "source_checksum_binding": true,
+      "source_preservation_audit_status": "agrees_with_source",
+      "source_preservation_counts": {
+        "ambiguous_cds": 0,
+        "ambiguous_features": 0,
+        "annotated_proteins_emitted": 4,
+        "annotated_translations_verified": 4,
+        "coordinate_agreement_features": 18,
+        "feature_parent_links_valid": 18,
+        "missing_translation_cds": 0,
+        "original_locations_preserved": 18,
+        "original_qualifiers_preserved": 18,
+        "retained_features": 18,
+        "retained_noncoding_features": 14,
+        "source_cds": 4,
+        "source_features": 18,
+        "source_noncoding_features": 14,
+        "strand_agreement_features": 18,
+        "unit_parent_links_valid": 18,
+        "unknown_features": 0,
+        "withheld_cds": 0
+      },
+      "status": "audited"
+    },
+    {
+      "construct_id": "ncbi-MK448012.1",
+      "counts": {
+        "conflicting_qualifier_cds": 0,
+        "erroneous_invention_count": 0,
+        "exceptional_cds": 0,
+        "expected_model_abstention_cds": 0,
+        "fuzzy_location_features": 0,
+        "invalid_location_features": 0,
+        "invented_feature_count": 0,
+        "justified_model_abstention_cds": 0,
+        "missing_location_features": 0,
+        "missing_translation_cds": 0,
+        "mixed_strand_features": 0,
+        "multipart_features": 0,
+        "observable_features": 26,
+        "preserved_observable_qualifiers": 26,
+        "remote_location_features": 0,
+        "retained_observable_features": 26,
+        "reverse_strand_features": 6,
+        "source_aligned_exported_cds": 1,
+        "source_ambiguous_features": 0,
+        "source_cds": 1,
+        "source_features": 27,
+        "source_issue_features": 0,
+        "source_noncoding_features": 26,
+        "source_unknown_features": 0,
+        "translation_conflict_cds": 0,
+        "uncertainty_preserved_features": 0,
+        "uncertainty_required_features": 0,
+        "unknown_strand_features": 0,
+        "unsupported_feature_label_count": 0,
+        "unsupported_length_cds": 0,
+        "unsupported_protein_export_count": 0,
+        "usable_model_input_cds": 1,
+        "validated_source_translation_cds": 1,
+        "withheld_annotation_cds": 0
+      },
+      "failed_checks": [],
+      "metrics": {
+        "confirmed_source_aligned_translation_rate": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "conflicting_qualifier_cds_rate": {
+          "denominator": 1,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "justified_model_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "value": null
+        },
+        "missing_translation_rate": {
+          "denominator": 1,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "observable_feature_preservation": {
+          "denominator": 26,
+          "numerator": 26,
+          "value": 1.0
+        },
+        "observable_qualifier_preservation": {
+          "denominator": 26,
+          "numerator": 26,
+          "value": 1.0
+        },
+        "source_ambiguous_feature_rate": {
+          "denominator": 26,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "source_uncertainty_preservation": {
+          "denominator": 0,
+          "numerator": 0,
+          "value": null
+        },
+        "source_unknown_feature_rate": {
+          "denominator": 26,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "useful_model_input_rate": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        }
+      },
+      "quality_stratum": "well_annotated",
+      "source_checksum_binding": true,
+      "source_preservation_audit_status": "agrees_with_source",
+      "source_preservation_counts": {
+        "ambiguous_cds": 0,
+        "ambiguous_features": 0,
+        "annotated_proteins_emitted": 1,
+        "annotated_translations_verified": 1,
+        "coordinate_agreement_features": 27,
+        "feature_parent_links_valid": 27,
+        "missing_translation_cds": 0,
+        "original_locations_preserved": 27,
+        "original_qualifiers_preserved": 27,
+        "retained_features": 27,
+        "retained_noncoding_features": 26,
+        "source_cds": 1,
+        "source_features": 27,
+        "source_noncoding_features": 26,
+        "strand_agreement_features": 27,
+        "unit_parent_links_valid": 27,
+        "unknown_features": 0,
+        "withheld_cds": 0
+      },
+      "status": "audited"
+    }
+  ],
+  "review_file": "docs/coordination/PANEL_V2_AI_REVIEW_2026_11_13.md",
+  "review_sha256": "580bf33de5ef79baa765bf76d6ef796e27e4cd6422f31e1a804e49d74e871385",
+  "run_kind": "panel_v2_in_memory_E1_annotation_quality_helper",
+  "summary": {
+    "counts": {
+      "conflicting_qualifier_cds": 0,
+      "erroneous_invention_count": 0,
+      "exceptional_cds": 0,
+      "expected_model_abstention_cds": 0,
+      "fuzzy_location_features": 0,
+      "invalid_location_features": 0,
+      "invented_feature_count": 0,
+      "justified_model_abstention_cds": 0,
+      "missing_location_features": 0,
+      "missing_translation_cds": 0,
+      "mixed_strand_features": 0,
+      "multipart_features": 0,
+      "observable_features": 43,
+      "preserved_observable_qualifiers": 43,
+      "remote_location_features": 0,
+      "retained_observable_features": 43,
+      "reverse_strand_features": 13,
+      "source_aligned_exported_cds": 5,
+      "source_ambiguous_features": 0,
+      "source_cds": 5,
+      "source_features": 45,
+      "source_issue_features": 0,
+      "source_noncoding_features": 40,
+      "source_unknown_features": 0,
+      "translation_conflict_cds": 0,
+      "uncertainty_preserved_features": 0,
+      "uncertainty_required_features": 0,
+      "unknown_strand_features": 0,
+      "unsupported_feature_label_count": 0,
+      "unsupported_length_cds": 0,
+      "unsupported_protein_export_count": 0,
+      "usable_model_input_cds": 5,
+      "validated_source_translation_cds": 5,
+      "withheld_annotation_cds": 0
+    },
+    "metrics": {
+      "confirmed_source_aligned_translation_rate": {
+        "denominator": 5,
+        "numerator": 5,
+        "value": 1.0
+      },
+      "conflicting_qualifier_cds_rate": {
+        "denominator": 5,
+        "numerator": 0,
+        "value": 0.0
+      },
+      "justified_model_abstention_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "value": null
+      },
+      "missing_translation_rate": {
+        "denominator": 5,
+        "numerator": 0,
+        "value": 0.0
+      },
+      "observable_feature_preservation": {
+        "denominator": 43,
+        "numerator": 43,
+        "value": 1.0
+      },
+      "observable_qualifier_preservation": {
+        "denominator": 43,
+        "numerator": 43,
+        "value": 1.0
+      },
+      "source_ambiguous_feature_rate": {
+        "denominator": 43,
+        "numerator": 0,
+        "value": 0.0
+      },
+      "source_uncertainty_preservation": {
+        "denominator": 0,
+        "numerator": 0,
+        "value": null
+      },
+      "source_unknown_feature_rate": {
+        "denominator": 43,
+        "numerator": 0,
+        "value": 0.0
+      },
+      "useful_model_input_rate": {
+        "denominator": 5,
+        "numerator": 5,
+        "value": 1.0
+      }
+    },
+    "quality_strata": {
+      "well_annotated": 2
+    },
+    "record_justified_abstention_rate": {
+      "denominator": 0,
+      "numerator": 0,
+      "value": null
+    },
+    "record_usable_model_input_rate": {
+      "denominator": 2,
+      "numerator": 2,
+      "value": 1.0
+    },
+    "records": 2,
+    "withheld_reasons": {}
+  },
+  "timestamp_utc": "2026-11-13T14:35:34.592667+00:00"
+}

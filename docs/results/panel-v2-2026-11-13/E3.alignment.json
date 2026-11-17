@@ -1,0 +1,406 @@
+{
+  "configuration": {
+    "algorithm": "Biopython PairwiseAligner local affine-gap scoring",
+    "epsilon": 1e-06,
+    "extend_gap_score": -0.5,
+    "gap_cost": "open + (length - 1) * extend",
+    "matrix_alphabet": "ARNDCQEGHILKMFPSTWYVBZX*",
+    "matrix_sha256": "d10711235ef2ec971c60125a267e55e181338dd0d3f3146d77513b92f8750ecc",
+    "max_residues": 1022,
+    "normalization": "Raw primary; reference-self score normalization predeclared sensitivity",
+    "open_gap_score": -10.0,
+    "selected_algorithm": "Gotoh local alignment algorithm",
+    "substitution_matrix": "BLOSUM62"
+  },
+  "freeze_sha256": "00c487200404e58f4a6aefd029b6db8df9d70aa3adac7a20201f242d80910d4d",
+  "limitations": [
+    "Alignment only; no matched ESM-2 execution.",
+    "Four queries, three parents, two dependence clusters; descriptive only.",
+    "Reference composition sensitivity, not a new independent-query benchmark.",
+    "No raw source, protein or score matrix is persisted."
+  ],
+  "normalization_score_matrix_sha256": "0cbc11c3b943ba7d9d1c830e00eab4bcb44b5e19d1eb3ba0c46b904f9bb77c3e",
+  "normalized_sensitivity": {
+    "abstentions": [],
+    "claim_scope": "Reviewed annotation-family recovery only; no biological-function inference",
+    "coverage": 1.0,
+    "eligible_queries": 4,
+    "false_family_claim_scope": "Wrong reviewed-family labels among bounded returned references, not a biological or operational screening false-positive rate",
+    "false_family_hit_count": 2,
+    "false_family_hit_fraction": 0.1,
+    "macro_construct_documented_family_recall_at_k": 1.0,
+    "overall": {
+      "all_documented_families_recovered_rate": 1,
+      "documented_family_observations": 4,
+      "documented_family_recall_at_k": 1.0,
+      "family_hit_at_k": 1,
+      "micro_documented_family_recall_at_k": 1.0,
+      "recovered_family_observations": 4,
+      "returned_hits": 20,
+      "scored_queries": 4
+    },
+    "panel_sha256": "cf2bfc3813df43ea32a56edf46c871fa933d8eb59ff87bbf04332bb9beeec072",
+    "per_archetype": {
+      "unknown": {
+        "all_documented_families_recovered_rate": 1,
+        "documented_family_observations": 4,
+        "documented_family_recall_at_k": 1.0,
+        "family_hit_at_k": 1,
+        "recovered_family_observations": 4,
+        "returned_hits": 20,
+        "scored_queries": 4
+      }
+    },
+    "per_construct": {
+      "ncbi-AF298787.1": {
+        "all_documented_families_recovered_rate": 1,
+        "documented_family_observations": 2,
+        "documented_family_recall_at_k": 1.0,
+        "family_hit_at_k": 1,
+        "recovered_family_observations": 2,
+        "returned_hits": 10,
+        "scored_queries": 2
+      },
+      "ncbi-U47295.2": {
+        "all_documented_families_recovered_rate": 1,
+        "documented_family_observations": 1,
+        "documented_family_recall_at_k": 1.0,
+        "family_hit_at_k": 1,
+        "recovered_family_observations": 1,
+        "returned_hits": 5,
+        "scored_queries": 1
+      },
+      "ncbi-U55762.1": {
+        "all_documented_families_recovered_rate": 1,
+        "documented_family_observations": 1,
+        "documented_family_recall_at_k": 1.0,
+        "family_hit_at_k": 1,
+        "recovered_family_observations": 1,
+        "returned_hits": 5,
+        "scored_queries": 1
+      }
+    },
+    "queries_with_false_family_match_rate": 0.5,
+    "requested_queries": 4,
+    "returned_hit_denominator": 20,
+    "rows": [
+      {
+        "all_documented_families_recovered": 1,
+        "archetype": "unknown",
+        "budget_saturated": false,
+        "construct_id": "ncbi-AF298787.1",
+        "documented_family_count": 1,
+        "documented_family_recall_at_k": 1.0,
+        "expected_families": [
+          "omp_decarboxylase_homologs"
+        ],
+        "false_family_hit_count": 1,
+        "family_hit_at_k": 1,
+        "independence_cluster": "query-cluster-d149c5b3a8764ef68328",
+        "independence_group": "natural-origin-taxon-559292",
+        "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207",
+        "recovered_family_count": 1,
+        "reference_ids": [
+          "uniprot-O58462",
+          "uniprot-P25971",
+          "uniprot-P08244",
+          "uniprot-O26232",
+          "uniprot-Q9U6Y8"
+        ],
+        "retrieved_families": [
+          "gfp_like_homologs",
+          "omp_decarboxylase_homologs"
+        ],
+        "returned_hit_denominator": 5,
+        "returned_hits": 5
+      },
+      {
+        "all_documented_families_recovered": 1,
+        "archetype": "unknown",
+        "budget_saturated": false,
+        "construct_id": "ncbi-AF298787.1",
+        "documented_family_count": 1,
+        "documented_family_recall_at_k": 1.0,
+        "expected_families": [
+          "gfp_like_homologs"
+        ],
+        "false_family_hit_count": 0,
+        "family_hit_at_k": 1,
+        "independence_cluster": "query-cluster-d149c5b3a8764ef68328",
+        "independence_group": "natural-origin-taxon-6100",
+        "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714",
+        "recovered_family_count": 1,
+        "reference_ids": [
+          "uniprot-Q9U6Y8",
+          "uniprot-Q9U6Y3",
+          "uniprot-Q9U6Y6",
+          "uniprot-P83690",
+          "uniprot-Q8ISF8"
+        ],
+        "retrieved_families": [
+          "gfp_like_homologs"
+        ],
+        "returned_hit_denominator": 5,
+        "returned_hits": 5
+      },
+      {
+        "all_documented_families_recovered": 1,
+        "archetype": "unknown",
+        "budget_saturated": false,
+        "construct_id": "ncbi-U47295.2",
+        "documented_family_count": 1,
+        "documented_family_recall_at_k": 1.0,
+        "expected_families": [
+          "coleopteran_luciferase_homologs"
+        ],
+        "false_family_hit_count": 1,
+        "family_hit_at_k": 1,
+        "independence_cluster": "query-cluster-ece1143ce343618d3f50",
+        "independence_group": "natural-origin-taxon-7054",
+        "query_id": "ncbi-U47295.2/ncbi-U47295.2-u-b2052ad5b0d017c1f14c",
+        "recovered_family_count": 1,
+        "reference_ids": [
+          "uniprot-Q01158",
+          "uniprot-P13129",
+          "uniprot-Q26304",
+          "uniprot-Q27757",
+          "uniprot-P08244"
+        ],
+        "retrieved_families": [
+          "coleopteran_luciferase_homologs",
+          "omp_decarboxylase_homologs"
+        ],
+        "returned_hit_denominator": 5,
+        "returned_hits": 5
+      },
+      {
+        "all_documented_families_recovered": 1,
+        "archetype": "unknown",
+        "budget_saturated": false,
+        "construct_id": "ncbi-U55762.1",
+        "documented_family_count": 1,
+        "documented_family_recall_at_k": 1.0,
+        "expected_families": [
+          "gfp_like_homologs"
+        ],
+        "false_family_hit_count": 0,
+        "family_hit_at_k": 1,
+        "independence_cluster": "query-cluster-d149c5b3a8764ef68328",
+        "independence_group": "natural-origin-taxon-6100",
+        "query_id": "ncbi-U55762.1/ncbi-U55762.1-u-19863cb9a9722e562f34",
+        "recovered_family_count": 1,
+        "reference_ids": [
+          "uniprot-Q9U6Y3",
+          "uniprot-P83690",
+          "uniprot-Q9U6Y6",
+          "uniprot-Q9U6Y8",
+          "uniprot-Q8ISF8"
+        ],
+        "retrieved_families": [
+          "gfp_like_homologs"
+        ],
+        "returned_hit_denominator": 5,
+        "returned_hits": 5
+      }
+    ],
+    "scored_queries": 4,
+    "status": "scored"
+  },
+  "pairwise_score_calls": 66,
+  "panel_sha256": "cf2bfc3813df43ea32a56edf46c871fa933d8eb59ff87bbf04332bb9beeec072",
+  "raw_primary": {
+    "abstentions": [],
+    "claim_scope": "Reviewed annotation-family recovery only; no biological-function inference",
+    "coverage": 1.0,
+    "eligible_queries": 4,
+    "false_family_claim_scope": "Wrong reviewed-family labels among bounded returned references, not a biological or operational screening false-positive rate",
+    "false_family_hit_count": 2,
+    "false_family_hit_fraction": 0.1,
+    "macro_construct_documented_family_recall_at_k": 1.0,
+    "overall": {
+      "all_documented_families_recovered_rate": 1,
+      "documented_family_observations": 4,
+      "documented_family_recall_at_k": 1.0,
+      "family_hit_at_k": 1,
+      "micro_documented_family_recall_at_k": 1.0,
+      "recovered_family_observations": 4,
+      "returned_hits": 20,
+      "scored_queries": 4
+    },
+    "panel_sha256": "cf2bfc3813df43ea32a56edf46c871fa933d8eb59ff87bbf04332bb9beeec072",
+    "per_archetype": {
+      "unknown": {
+        "all_documented_families_recovered_rate": 1,
+        "documented_family_observations": 4,
+        "documented_family_recall_at_k": 1.0,
+        "family_hit_at_k": 1,
+        "recovered_family_observations": 4,
+        "returned_hits": 20,
+        "scored_queries": 4
+      }
+    },
+    "per_construct": {
+      "ncbi-AF298787.1": {
+        "all_documented_families_recovered_rate": 1,
+        "documented_family_observations": 2,
+        "documented_family_recall_at_k": 1.0,
+        "family_hit_at_k": 1,
+        "recovered_family_observations": 2,
+        "returned_hits": 10,
+        "scored_queries": 2
+      },
+      "ncbi-U47295.2": {
+        "all_documented_families_recovered_rate": 1,
+        "documented_family_observations": 1,
+        "documented_family_recall_at_k": 1.0,
+        "family_hit_at_k": 1,
+        "recovered_family_observations": 1,
+        "returned_hits": 5,
+        "scored_queries": 1
+      },
+      "ncbi-U55762.1": {
+        "all_documented_families_recovered_rate": 1,
+        "documented_family_observations": 1,
+        "documented_family_recall_at_k": 1.0,
+        "family_hit_at_k": 1,
+        "recovered_family_observations": 1,
+        "returned_hits": 5,
+        "scored_queries": 1
+      }
+    },
+    "queries_with_false_family_match_rate": 0.5,
+    "requested_queries": 4,
+    "returned_hit_denominator": 20,
+    "rows": [
+      {
+        "all_documented_families_recovered": 1,
+        "archetype": "unknown",
+        "budget_saturated": false,
+        "construct_id": "ncbi-AF298787.1",
+        "documented_family_count": 1,
+        "documented_family_recall_at_k": 1.0,
+        "expected_families": [
+          "omp_decarboxylase_homologs"
+        ],
+        "false_family_hit_count": 1,
+        "family_hit_at_k": 1,
+        "independence_cluster": "query-cluster-d149c5b3a8764ef68328",
+        "independence_group": "natural-origin-taxon-559292",
+        "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-036e9d3cdc9d09cdb207",
+        "recovered_family_count": 1,
+        "reference_ids": [
+          "uniprot-O58462",
+          "uniprot-P08244",
+          "uniprot-P25971",
+          "uniprot-O26232",
+          "uniprot-Q01158"
+        ],
+        "retrieved_families": [
+          "coleopteran_luciferase_homologs",
+          "omp_decarboxylase_homologs"
+        ],
+        "returned_hit_denominator": 5,
+        "returned_hits": 5
+      },
+      {
+        "all_documented_families_recovered": 1,
+        "archetype": "unknown",
+        "budget_saturated": false,
+        "construct_id": "ncbi-AF298787.1",
+        "documented_family_count": 1,
+        "documented_family_recall_at_k": 1.0,
+        "expected_families": [
+          "gfp_like_homologs"
+        ],
+        "false_family_hit_count": 0,
+        "family_hit_at_k": 1,
+        "independence_cluster": "query-cluster-d149c5b3a8764ef68328",
+        "independence_group": "natural-origin-taxon-6100",
+        "query_id": "ncbi-AF298787.1/ncbi-AF298787.1-u-eb7f4497fb14c5bda714",
+        "recovered_family_count": 1,
+        "reference_ids": [
+          "uniprot-Q9U6Y3",
+          "uniprot-Q9U6Y6",
+          "uniprot-Q9U6Y8",
+          "uniprot-P83690",
+          "uniprot-Q8ISF8"
+        ],
+        "retrieved_families": [
+          "gfp_like_homologs"
+        ],
+        "returned_hit_denominator": 5,
+        "returned_hits": 5
+      },
+      {
+        "all_documented_families_recovered": 1,
+        "archetype": "unknown",
+        "budget_saturated": false,
+        "construct_id": "ncbi-U47295.2",
+        "documented_family_count": 1,
+        "documented_family_recall_at_k": 1.0,
+        "expected_families": [
+          "coleopteran_luciferase_homologs"
+        ],
+        "false_family_hit_count": 1,
+        "family_hit_at_k": 1,
+        "independence_cluster": "query-cluster-ece1143ce343618d3f50",
+        "independence_group": "natural-origin-taxon-7054",
+        "query_id": "ncbi-U47295.2/ncbi-U47295.2-u-b2052ad5b0d017c1f14c",
+        "recovered_family_count": 1,
+        "reference_ids": [
+          "uniprot-Q01158",
+          "uniprot-P13129",
+          "uniprot-Q26304",
+          "uniprot-Q27757",
+          "uniprot-P08244"
+        ],
+        "retrieved_families": [
+          "coleopteran_luciferase_homologs",
+          "omp_decarboxylase_homologs"
+        ],
+        "returned_hit_denominator": 5,
+        "returned_hits": 5
+      },
+      {
+        "all_documented_families_recovered": 1,
+        "archetype": "unknown",
+        "budget_saturated": false,
+        "construct_id": "ncbi-U55762.1",
+        "documented_family_count": 1,
+        "documented_family_recall_at_k": 1.0,
+        "expected_families": [
+          "gfp_like_homologs"
+        ],
+        "false_family_hit_count": 0,
+        "family_hit_at_k": 1,
+        "independence_cluster": "query-cluster-d149c5b3a8764ef68328",
+        "independence_group": "natural-origin-taxon-6100",
+        "query_id": "ncbi-U55762.1/ncbi-U55762.1-u-19863cb9a9722e562f34",
+        "recovered_family_count": 1,
+        "reference_ids": [
+          "uniprot-Q9U6Y3",
+          "uniprot-Q9U6Y6",
+          "uniprot-P83690",
+          "uniprot-Q9U6Y8",
+          "uniprot-Q8ISF8"
+        ],
+        "retrieved_families": [
+          "gfp_like_homologs"
+        ],
+        "returned_hit_denominator": 5,
+        "returned_hits": 5
+      }
+    ],
+    "scored_queries": 4,
+    "status": "scored"
+  },
+  "raw_score_matrix_sha256": "0d1747cdb0de2b4aab8db15ac4f09f72d619ff8e76db10deaa2a0fe091a0a1e8",
+  "reference_self_score_calls": 18,
+  "resources": {
+    "memory_scope": "Absolute process RSS; CUDA allocator only. Sampling may miss brief peaks.",
+    "rss_sampling_interval_seconds": 0.02,
+    "sampled_peak_process_rss_bytes": 39452672,
+    "wall_seconds": 0.09737744700032636
+  },
+  "stage": "E3_panel_v2_alignment_only"
+}

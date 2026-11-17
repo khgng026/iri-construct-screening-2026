@@ -1,0 +1,10 @@
+# Panel-v2 historical evidence index
+
+These artifacts were produced locally in the earlier November 13 work and are preserved here in the toolkit-first workflow update. This update did not run new biological experiments. Review and handoff chronology are in [the handoff](../../coordination/PANEL_V2_HANDOFF_2026_11_13.md), [E1 review](../../coordination/PANEL_V2_AI_REVIEW_2026_11_13.md) and [alignment-only follow-up review](../../coordination/PANEL_V2_ALIGNMENT_REVIEW_2026_11_13.md). Later user authorization allowed the agent to review evidence itself; the current standing rules are in [AUTONOMY.md](../../project/AUTONOMY.md).
+
+- [E1.in-memory.json](E1.in-memory.json): source-preservation helper audit of AF234299.1 and MK448012.1; 43/43 observable features/qualifiers, 5/5 source-aligned translations, zero detected inventions. This used existing normalization/quality helpers, not the file-based production admission CLI.
+- [E3.alignment.freeze.json](E3.alignment.freeze.json): exact four-query, 18-reference alignment-only execution freeze saved before scoring; original exclusions retained with O58462 added.
+- [E3.alignment.json](E3.alignment.json): expected-family retrieval 4/4 at five hits, 2/20 wrong-family hits; normalized sensitivity has the same aggregates. Two conservative dependence clusters; no population claim or matched ESM-2/E4 execution.
+- [E1 runner](../../../scripts/panel_v2_e1_in_memory.py) and [alignment runner](../../../scripts/panel_v2_alignment_in_memory.py): historical, network-dependent exact-provider-byte checks; source/protein content stays in memory, source-free summaries are saved. They are retained for provenance, not promoted to the new general CLI.
+
+Prior repeats matched E1 evidence fields except timestamp and alignment score hashes/rankings. This reset verifies file bindings without treating missing original private caches or optional checkpoint availability as a blocker to the toolkit. No raw sequences, full qualifiers, embeddings or weights are added by these artifacts.
