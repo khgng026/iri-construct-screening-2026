@@ -26,9 +26,9 @@ samples) processed with no record-level failure and no parser warning; 2,338 of
 
 ## Not verified, or known gaps
 
-- **Continuous integration** has a new `wheel` job (Python 3.10 and 3.12). It was
-  still queued on GitHub when this assessment was written, so its hosted result
-  is not recorded here; the same gate passed locally on all four versions.
+- **Continuous integration.** The hosted run for commit `1b8d520` passed all four
+  jobs: `test`, `parsing`, `wheel (3.10)` and `wheel (3.12)`. Hosted runs cover
+  Ubuntu only.
 - **Windows and macOS** were not run. Paths use `pathlib`; `resource` (peak
   memory in `run.json`) is absent on Windows and is recorded as null there.
 - **Plasmid-editor exports** (missing or inconsistent translations, nonstandard

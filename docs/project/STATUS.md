@@ -89,8 +89,8 @@ recommendation in the study README and the pull request):
 2. **A harder, larger reference tier** so that alignment is no longer at ceiling
    and the model can be distinguished from it.
 
-Smaller in-scope items: confirm the hosted CI result of the new wheel job;
-obtain a modest public sample of plasmid-editor exports under suitable terms to
+Hosted CI (test, parsing, wheel on Python 3.10 and 3.12) passed for commit `1b8d520`.
+Smaller in-scope item: obtain a modest public sample of plasmid-editor exports under suitable terms to
 replace fixture-only coverage of missing translations.
 
 ## Reproduce
