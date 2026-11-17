@@ -8,16 +8,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from .runtime import InputError, digest_file, read_json, require_text
+from .sequences import AA, DNA, validate_sequence  # noqa: F401  (re-exported for existing callers)
 from .validate_manifest import validate_manifest
-
-AA = frozenset('ACDEFGHIKLMNPQRSTVWY')
-DNA = frozenset('ACGTRYSWKMBDHVN')
-
-
-def validate_sequence(sequence: str, molecule: str) -> None:
-    alphabet = AA if molecule == 'protein' else DNA if molecule == 'dna' else None
-    if alphabet is None or not sequence or set(sequence) - alphabet:
-        raise InputError('Empty sequence or unsupported alphabet; protein inference requires canonical amino acids')
 
 
 @dataclass(frozen=True)
