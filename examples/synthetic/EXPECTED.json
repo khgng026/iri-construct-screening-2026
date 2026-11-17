@@ -1,0 +1,38 @@
+{
+  "Exported": {
+    "exp": "translation_validated"
+  },
+  "FIXEDGE.1": {
+    "alt_table": "translation_validated",
+    "beyond": "location_out_of_bounds",
+    "dup": "noncoding_metadata",
+    "fwd": "translation_validated",
+    "mismatch": "translation_mismatch",
+    "noncanon": "noncanonical_translation_residues",
+    "nostop": "incomplete_cds",
+    "notrans": "missing_translation",
+    "ordered": "location_unsupported_operator",
+    "partial5": "location_fuzzy",
+    "pseudo": "exceptional_cds_annotation",
+    "remote": "location_remote",
+    "rev": "translation_validated",
+    "revjoin": "translation_validated",
+    "site": "location_zero_length",
+    "wrap": "translation_validated"
+  },
+  "FIXLONG.1": {
+    "long": "translation_validated"
+  },
+  "FIXMULTIA.1": {
+    "multiA": "translation_validated"
+  },
+  "FIXMULTIC.1": {
+    "multiC1": "translation_validated",
+    "multiC2": "translation_validated"
+  },
+  "FIXSINGLE.1": {
+    "fixA": "translation_validated",
+    "fixP": "noncoding_metadata",
+    "fixT": "noncoding_metadata"
+  }
+}

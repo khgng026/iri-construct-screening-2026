@@ -1,0 +1,52 @@
+{
+ "bounds": {
+  "rss_gib": 6,
+  "wall_seconds": 1800
+ },
+ "device": "cpu",
+ "distinct_query_sequences": 248,
+ "method": "esm2",
+ "note": "Wall time and RSS describe this run on this machine only; OS caches were not controlled.",
+ "panel_sha256": "c31e5e93d31387248ef48c35b9f94705a6269bbabba79cfd3fd67ec310f6aa9e",
+ "peak_rss_kib": 568972,
+ "references": 134,
+ "schema_version": "component-study-scoring-1",
+ "score_matrix_sha256": "35e099c38e8d94410141dadd67cf317612e1307cba34af8cd88b2bd84b5dc17b",
+ "score_pairs": 33232,
+ "stage_wall_seconds": 34.664,
+ "work": {
+  "cosine_seconds": 2.21,
+  "load_seconds": 0.853,
+  "model": {
+   "device": "cpu",
+   "input_tracks": "sequence only",
+   "max_residues": 1022,
+   "model": "esm2",
+   "offline": true,
+   "precision_policy": "float32 weights; no autocast",
+   "repository": "facebook/esm2_t6_8M_UR50D",
+   "representation": "Final adapter output; residue mean; BOS/EOS/PAD excluded",
+   "requested_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+   "resolved_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+   "torch_num_interop_threads": 4,
+   "torch_num_threads": 2,
+   "truncation": false,
+   "unused_checkpoint_heads": "Masked language model head excluded; no additional pooler initialized",
+   "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+  },
+  "seed": 20261117,
+  "stages": {
+   "queries": {
+    "model_calls": 248,
+    "residues": 75526,
+    "seconds": 17.989
+   },
+   "references": {
+    "model_calls": 134,
+    "residues": 46228,
+    "seconds": 12.767
+   }
+  },
+  "torch_threads": 2
+ }
+}

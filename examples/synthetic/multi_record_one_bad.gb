@@ -1,0 +1,76 @@
+LOCUS       FIXMULTIA                153 bp    DNA     linear   SYN 17-NOV-2026
+DEFINITION  Fictional software fixture; not a biological record.
+ACCESSION   FIXMULTIA
+VERSION     FIXMULTIA.1
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+FEATURES             Location/Qualifiers
+     source          1..153
+                     /organism="synthetic construct"
+                     /mol_type="other DNA"
+     CDS             1..123
+                     /gene="multiA"
+                     /product="fictional protein multiA"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MYKYYFRCQEENPLVCDDVASKFWDRTNHIPFFHDRCGEN"
+ORIGIN
+        1 atgtacaaat actacttccg ttgccaggaa gaaaacccgc tggtttgcga cgacgttgct
+       61 tctaaattct gggaccgtac caaccacatc ccgttcttcc acgaccgttg cggtgaaaac
+      121 taaatcaggt tattcatctg gattggggaa gct
+//
+LOCUS       FIXBROKEN                 93 bp    DNA     linear   SYN 17-NOV-2026
+DEFINITION  Fictional software fixture; not a biological record.
+ACCESSION   FIXBROKEN
+VERSION     FIXBROKEN.1
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+FEATURES             Location/Qualifiers
+     source          1..93
+                     /organism="synthetic construct"
+                     /mol_type="other DNA"
+     CDS             garbage(63
+                     /gene="broken"
+                     /product="fictional protein broken"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MKTIPQLSPWGLVVSFAHRG"
+ORIGIN
+        1 atgaaaacca tcccgcagct gtctccgtgg ggtctggttg tttctttcgc tcaccgtggt
+       61 taacaatata acgtccttat atccgtgtta cta
+//
+LOCUS       FIXMULTIC                297 bp    DNA     linear   SYN 17-NOV-2026
+DEFINITION  Fictional software fixture; not a biological record.
+ACCESSION   FIXMULTIC
+VERSION     FIXMULTIC.1
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+FEATURES             Location/Qualifiers
+     source          1..297
+                     /organism="synthetic construct"
+                     /mol_type="other DNA"
+     CDS             1..108
+                     /gene="multiC1"
+                     /product="fictional protein multiC1"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MIQTAERILLFPLTGCVFWCWPDRESCPPNHPKKH"
+     CDS             complement(139..267)
+                     /gene="multiC2"
+                     /product="fictional protein multiC2"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MYSARHNIWCRRKWSFGANECEKRGSFSSDLGTSLASSYNWH"
+ORIGIN
+        1 atgatccaga ccgctgaacg tatcctgctg ttcccgctga ccggttgcgt tttctggtgc
+       61 tggccggacc gtgaatcttg cccgccgaac cacccgaaaa aacactaacc tcagaaccaa
+      121 ttcacgccgt ggaaactctt agtgccagtt gtaagaagaa gccagagagg tacccaggtc
+      181 agaagagaaa gaaccacgtt tttcgcattc gttagcaccg aaagaccatt tacgacggca
+      241 ccagatgttg tgacgagcag agtacattat aatcatcagt gccattcata tgtaaca
+//

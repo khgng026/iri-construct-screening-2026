@@ -1,0 +1,31 @@
+LOCUS       FIXSINGLE                288 bp    DNA     linear   SYN 17-NOV-2026
+DEFINITION  Fictional software fixture; not a biological record.
+ACCESSION   FIXSINGLE
+VERSION     FIXSINGLE.1
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+FEATURES             Location/Qualifiers
+     source          1..288
+                     /organism="synthetic construct"
+                     /mol_type="other DNA"
+     promoter        1..40
+                     /gene="fixP"
+                     /note="fictional promoter"
+     CDS             41..223
+                     /gene="fixA"
+                     /product="fictional protein fixA"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MDYGPPFKTQEGQVLTHNWYAQPHRPRSAILKGYVGYEVKGLDNC
+                     HNTPLVCRPGHTTDT"
+     terminator      254..288
+                     /gene="fixT"
+ORIGIN
+        1 cacccggcgt aagggtattc cgccccacaa aaccagcgga atggactacg gtccgccgtt
+       61 caaaacccag gaaggtcagg ttctgaccca caactggtac gctcagccgc accgtccgcg
+      121 ttctgctatc ctgaaaggtt acgttggtta cgaagttaaa ggtctggaca actgccacaa
+      181 caccccgctg gtttgccgtc cgggtcacac caccgacacc taacccatgt ttgacgtcac
+      241 aacgtgattc ttttttacaa agcgcgcgaa gttatactgc cggagacg
+//

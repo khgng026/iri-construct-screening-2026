@@ -1,0 +1,35 @@
+{
+ "bounds": {
+  "rss_gib": 6,
+  "wall_seconds": 1800
+ },
+ "device": "cpu",
+ "distinct_query_sequences": 248,
+ "method": "alignment",
+ "note": "Wall time and RSS describe this run on this machine only; OS caches were not controlled.",
+ "panel_sha256": "c31e5e93d31387248ef48c35b9f94705a6269bbabba79cfd3fd67ec310f6aa9e",
+ "peak_rss_kib": 51516,
+ "references": 134,
+ "schema_version": "component-study-scoring-1",
+ "score_matrix_sha256": "35da814aee3c906a08f232023e32315b7b145e32d1c2b954126d4cdb4c49d3d2",
+ "score_pairs": 33232,
+ "stage_wall_seconds": 25.061,
+ "work": {
+  "configuration": {
+   "algorithm": "Biopython PairwiseAligner local affine-gap scoring",
+   "epsilon": 1e-06,
+   "extend_gap_score": -0.5,
+   "gap_cost": "open + (length - 1) * extend",
+   "matrix_alphabet": "ARNDCQEGHILKMFPSTWYVBZX*",
+   "matrix_sha256": "d10711235ef2ec971c60125a267e55e181338dd0d3f3146d77513b92f8750ecc",
+   "max_residues": 1022,
+   "normalization": "Raw primary; reference-self score normalization predeclared sensitivity",
+   "open_gap_score": -10.0,
+   "selected_algorithm": "Gotoh local alignment algorithm",
+   "substitution_matrix": "BLOSUM62"
+  },
+  "pairwise_score_calls": 33232,
+  "score_used": "raw local alignment score (the historical primary); normalized values are not used",
+  "seconds": 24.957
+ }
+}

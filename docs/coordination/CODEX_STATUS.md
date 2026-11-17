@@ -1,3 +1,5 @@
+> **Historical snapshot — superseded.** This page describes the project on the date it was written. Current status and authority: [docs/project/STATUS.md](../project/STATUS.md). Nothing below is an active requirement.
+
 # Current Week 2 handoff — November 11, 2026
 
 The autonomous mission has delivered actual source curation, deterministic

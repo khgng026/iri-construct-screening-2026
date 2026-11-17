@@ -1,0 +1,124 @@
+LOCUS       FIXEDGE                 1563 bp    DNA     circular SYN 17-NOV-2026
+DEFINITION  Fictional software fixture; not a biological record.
+ACCESSION   FIXEDGE
+VERSION     FIXEDGE.1
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+FEATURES             Location/Qualifiers
+     source          1..1563
+                     /organism="synthetic construct"
+                     /mol_type="other DNA"
+     CDS             88..240
+                     /gene="fwd"
+                     /product="fictional protein fwd"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MDPKWNWTIKVEAKWKFHGAKCWFHVSHLSTEPKFPADSAGSVNR
+                     CIKLT"
+     CDS             complement(271..408)
+                     /gene="rev"
+                     /product="fictional protein rev"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MGNVSVRRQEVDCGPGQLHPKQDEFVDTGECYGSTFCKWKLYDGY
+                     "
+     CDS             439..531
+                     /gene="notrans"
+                     /product="fictional protein notrans"
+                     /codon_start=1
+                     /transl_table=11
+     CDS             562..654
+                     /gene="mismatch"
+                     /product="fictional protein mismatch"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MHYWGAKPYNAYSQNSKWRSKYYFEYFLIW"
+     CDS             685..774
+                     /gene="nostop"
+                     /product="fictional protein nostop"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MCDCVQKARQAEYIQCVVSLHDEEFNPCQK"
+     CDS             805..897
+                     /gene="pseudo"
+                     /product="fictional protein pseudo"
+                     /codon_start=1
+                     /transl_table=11
+                     /pseudo=""
+                     /translation="MRQVCCELKPTNYRCAVNQFHHQEDERCTP"
+     CDS             928..1020
+                     /gene="noncanon"
+                     /product="fictional protein noncanon"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MFYTIYHWPYXKTCLGCWIEYHVWCCADQY"
+     CDS             1051..1116
+                     /gene="alt_table"
+                     /product="fictional protein alt_table"
+                     /codon_start=1
+                     /transl_table=4
+                     /translation="MWKPQCSYFFQYLAFHDRADS"
+     CDS             <1147..1239
+                     /gene="partial5"
+                     /product="fictional protein partial5"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="TCTRHNADNTAPLKNKWYCVWACQSFYAGD"
+     CDS             complement(join(1270..1332,1358..1417))
+                     /gene="revjoin"
+                     /product="fictional protein revjoin"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MGFQADINFKQAWGKESQTTVCHNRAFEVNHKCEVGNPQT"
+     misc_feature    1448..1467
+                     /gene="dup"
+                     /note="fictional duplicate"
+     misc_feature    1448..1467
+                     /gene="dup"
+                     /note="fictional duplicate"
+     misc_feature    1452^1453
+                     /gene="site"
+                     /note="fictional between-bases site"
+     misc_feature    order(1448..1452,1458..1462)
+                     /gene="ordered"
+     misc_feature    FIXREMOTE.1:1..12
+                     /gene="remote"
+     CDS             join(1498..1563,1..57)
+                     /gene="wrap"
+                     /product="fictional protein wrap"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MLKVNHVYYVHDEVQCCFYERYIRIHTKLKNLPKKNWSNT"
+     misc_feature    1558..1603
+                     /gene="beyond"
+ORIGIN
+        1 atccgtatcc acaccaaact gaaaaacctg ccgaaaaaaa actggtctaa cacctaagcg
+       61 tggtgattga acggattcaa cttcaatatg gacccgaaat ggaactggac catcaaagtt
+      121 gaagctaaat ggaaattcca cggtgctaaa tgctggttcc acgtttctca cctgtctacc
+      181 gaaccgaaat tcccggctga ctctgctggt tctgttaacc gttgcatcaa actgacctaa
+      241 acgccctttc agattgaact tttattatta ttagtaaccg tcgtacagtt tccatttgca
+      301 gaaggtagaa ccgtagcatt caccggtgtc aacgaattcg tcctgtttcg ggtgcagctg
+      361 acccggaccg cagtcaactt cctgacgacg aacagaaacg ttacccatat ggaaacagac
+      421 gtgcaaaatg cagctagcat gaacttctgg cagaccctgt gcttctctcc ggctgaccag
+      481 gaaaaccgtg acccgcgtga ccacccgtgc taccgtggtt gccacccgta atgtttggtc
+      541 gaggtatcgg ttccctacca aatgaaagac gaccagctga aatggggtat caaatgcttc
+      601 aacaaactga tccgttcttg ccacgcttgg cgtgaccgtt tcccggaatt ctaaagaata
+      661 cggatcctgt cgctaaggat ccgcatgtgc gactgcgttc agaaagctcg tcaggctgaa
+      721 tacatccagt gcgttgtttc tctgcacgac gaagaattca acccgtgcca gaaatatgag
+      781 cccttgcggg tagtcaggcc ggctatgcgt caggtttgct gcgaactgaa accgaccaac
+      841 taccgttgcg ctgttaacca gttccaccac caggaagacg aacgttgcac cccgtaatac
+      901 caaagaaaca ggtaccgcgt cgccaggatg ttctacacca tctaccactg gccgtacctg
+      961 aaaacctgcc tgggttgctg gatcgaatac cacgtttggt gctgcgctga ccagtactaa
+     1021 cgctaaggga agtgccggaa accgtaccta atgtgaaaac cgcagtgctc ttacttcttc
+     1081 cagtacctgg ctttccacga ccgtgctgac tcttaatcgc acaggcgggc tggccttttc
+     1141 gtcagtacct gcacccgtca caacgctgac aacaccgctc cgctgaaaaa caaatggtac
+     1201 tgcgtttggg cttgccagtc tttctacgct ggtgactaac caggttaaat tggtagggta
+     1261 cggtgcgcgt taggtctgcg ggttaccaac ttcgcatttg tggttaactt cgaaagcacg
+     1321 gttgtggcaa acaacggatt taggtcccac ttagcctggt ggtctgagat tctttacccc
+     1381 aagcctgttt gaagttgatg tcagcctgga aacccatgag aaggtaatgc catgcccgtg
+     1441 agccatctat gcattgtcca gttcacccgt ttggtcgcaa atcaaaccgt agggcctatg
+     1501 ctgaaagtta accacgttta ctacgttcac gacgaagttc agtgctgctt ctacgaacgt
+     1561 tac
+//

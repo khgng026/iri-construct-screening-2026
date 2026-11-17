@@ -1,0 +1,23 @@
+LOCUS       Exported                 132 bp    DNA     linear   SYN 17-NOV-2026
+DEFINITION  Fictional software fixture; not a biological record.
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+FEATURES             Location/Qualifiers
+     source          1..132
+                     /organism="synthetic construct"
+                     /mol_type="other DNA"
+     CDS             1..102
+                     /gene="exp"
+                     /product="fictional protein exp"
+                     /codon_start=1
+                     /transl_table=11
+                     /translation="MSVHNQQVQCACEYFEVGHHTNELLRYHPQHSH"
+ORIGIN
+        1 atgtctgttc acaaccagca ggttcagtgc gcttgcgaat acttcgaagt tggtcaccac
+       61 accaacgaac tgctgcgtta ccacccgcag cactctcact aagttcagga acggttccgc
+      121 ccccagctat aa
+//

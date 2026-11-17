@@ -1,0 +1,71 @@
+{
+ "by_label_class": {
+  "embedded": {
+   "family_slots": 35,
+   "found_whole_lost_by_segment": 0,
+   "lost_whole_recovered_by_segment": 15,
+   "median_segment_fraction_of_protein": 0.481,
+   "oracle_segment_hit_at_1": 35,
+   "oracle_segment_hit_at_5": 35,
+   "whole_protein_hit_at_1": 15,
+   "whole_protein_hit_at_5": 20
+  },
+  "full": {
+   "family_slots": 189,
+   "found_whole_lost_by_segment": 0,
+   "lost_whole_recovered_by_segment": 0,
+   "median_segment_fraction_of_protein": 1.0,
+   "oracle_segment_hit_at_1": 186,
+   "oracle_segment_hit_at_5": 186,
+   "whole_protein_hit_at_1": 186,
+   "whole_protein_hit_at_5": 186
+  },
+  "multi_family": {
+   "family_slots": 18,
+   "found_whole_lost_by_segment": 0,
+   "lost_whole_recovered_by_segment": 10,
+   "median_segment_fraction_of_protein": 0.451,
+   "oracle_segment_hit_at_1": 18,
+   "oracle_segment_hit_at_5": 18,
+   "whole_protein_hit_at_1": 5,
+   "whole_protein_hit_at_5": 8
+  }
+ },
+ "fusion_classes_by_run": {
+  "extension": {
+   "family_slots": 39,
+   "found_whole_lost_by_segment": 0,
+   "lost_whole_recovered_by_segment": 17,
+   "median_segment_fraction_of_protein": 0.464,
+   "oracle_segment_hit_at_1": 39,
+   "oracle_segment_hit_at_5": 39,
+   "whole_protein_hit_at_1": 17,
+   "whole_protein_hit_at_5": 22
+  },
+  "v1": {
+   "family_slots": 14,
+   "found_whole_lost_by_segment": 0,
+   "lost_whole_recovered_by_segment": 8,
+   "median_segment_fraction_of_protein": 0.481,
+   "oracle_segment_hit_at_1": 14,
+   "oracle_segment_hit_at_5": 14,
+   "whole_protein_hit_at_1": 3,
+   "whole_protein_hit_at_5": 6
+  }
+ },
+ "fusion_classes_total": {
+  "family_slots": 53,
+  "found_whole_lost_by_segment": 0,
+  "lost_whole_recovered_by_segment": 25,
+  "median_segment_fraction_of_protein": 0.464,
+  "oracle_segment_hit_at_1": 53,
+  "oracle_segment_hit_at_5": 53,
+  "whole_protein_hit_at_1": 20,
+  "whole_protein_hit_at_5": 28
+ },
+ "fusion_slots_still_missed_by_segment": [],
+ "interpretation": "Upper bound on what within-protein splitting could recover for mean-pooled ESM-2 8M; not a method.",
+ "model_calls_for_segments": 186,
+ "scope": "distinct supported sequences of v1 and extension 1; one row per (sequence, labeled family)",
+ "status": "Exploratory oracle diagnostic; the segment boundary comes from the label alignment (the answer key)."
+}

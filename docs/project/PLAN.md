@@ -1,6 +1,6 @@
 # Toolkit delivery plan
 
-This is the authoritative active backlog. The old workbook/T01–T28 dependency map is historical. Read [scope](SCOPE.md), [contract](TOOLKIT_CONTRACT.md), [autonomy](AUTONOMY.md) and [status](STATUS.md). One substantial agent stretch should complete U1–U5 in sequence, repairing prerequisites without asking for routine reviews. U6 follows only if core release checks pass and time/resources permit. A model blocker never blocks U1–U5.
+**Progress (2026-11-17): U1–U5 are complete and U6 was carried out as a pre-registered study; see [STATUS.md](STATUS.md) for evidence and the next task.** This is the authoritative active backlog. The old workbook/T01–T28 dependency map is historical. Read [scope](SCOPE.md), [contract](TOOLKIT_CONTRACT.md), [autonomy](AUTONOMY.md) and [status](STATUS.md). One substantial agent stretch should complete U1–U5 in sequence, repairing prerequisites without asking for routine reviews. U6 follows only if core release checks pass and time/resources permit. A model blocker never blocks U1–U5.
 
 ## Implementation stretch
 

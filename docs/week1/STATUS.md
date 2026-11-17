@@ -1,3 +1,5 @@
+> **Historical snapshot — superseded.** This page describes the project on the date it was written. Current status and authority: [docs/project/STATUS.md](../project/STATUS.md). Nothing below is an active requirement.
+
 # Project status - 2026-11-06 UTC
 
 ## T07 v1.1 update (2026-11-06 UTC)

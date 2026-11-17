@@ -1,0 +1,552 @@
+{
+ "methods": {
+  "alignment": {
+   "fusion_classes_v1_plus_extension": {
+    "embedded": {
+     "extension_new": {
+      "distinct_sequences": 29,
+      "family_slots": 29,
+      "family_slots_hit_at_5": 28,
+      "hit_at_5": 28
+     },
+     "v1": {
+      "distinct_sequences": 6,
+      "family_slots": 6,
+      "family_slots_hit_at_5": 6,
+      "hit_at_5": 6
+     }
+    },
+    "family_slots_hit_at_5_total": 50,
+    "family_slots_total": 53,
+    "multi_family": {
+     "extension_new": {
+      "distinct_sequences": 5,
+      "family_slots": 10,
+      "family_slots_hit_at_5": 9,
+      "hit_at_5": 5
+     },
+     "v1": {
+      "distinct_sequences": 4,
+      "family_slots": 8,
+      "family_slots_hit_at_5": 7,
+      "hit_at_5": 4
+     }
+    }
+   },
+   "paired_cluster_bootstrap": {
+    "intervals": {
+     "all_max_minus_single_longest_supported": {
+      "ci_lower": -0.125,
+      "ci_upper": 0.1015,
+      "independent_clusters": 20,
+      "paired_cluster_mean_difference": 0.0015,
+      "status": "estimated",
+      "unit": "Equal-weight independent-group mean of paired query proportions"
+     },
+     "all_round_robin_minus_all_max": {
+      "ci_lower": 0.025,
+      "ci_upper": 0.2539,
+      "independent_clusters": 20,
+      "paired_cluster_mean_difference": 0.1269,
+      "status": "estimated",
+      "unit": "Equal-weight independent-group mean of paired query proportions"
+     },
+     "all_round_robin_minus_single_longest": {
+      "ci_lower": 0.414,
+      "ci_upper": 0.7487,
+      "independent_clusters": 20,
+      "paired_cluster_mean_difference": 0.5848,
+      "status": "estimated",
+      "unit": "Equal-weight independent-group mean of paired query proportions"
+     },
+     "all_round_robin_minus_single_longest_supported": {
+      "ci_lower": 0.052,
+      "ci_upper": 0.2159,
+      "independent_clusters": 20,
+      "paired_cluster_mean_difference": 0.1284,
+      "status": "estimated",
+      "unit": "Equal-weight independent-group mean of paired query proportions"
+     }
+    },
+    "note": "Each dependence cluster has equal weight, however many parents it holds; 95% percentile interval. Population: records matching the fixed NCBI query. One cluster holds most parents, so the equal-weight cluster mean differs from the per-parent mean.",
+    "replicates": 2000,
+    "seed": 20261118
+   },
+   "per_unit_new_sequences": {
+    "embedded": {
+     "distinct_sequences": 29,
+     "family_slots": 29,
+     "family_slots_hit_at_5": 28,
+     "hit_at_1": 28,
+     "hit_at_5": 28
+    },
+    "full": {
+     "distinct_sequences": 121,
+     "family_slots": 121,
+     "family_slots_hit_at_5": 121,
+     "hit_at_1": 121,
+     "hit_at_5": 121
+    },
+    "multi_family": {
+     "distinct_sequences": 5,
+     "family_slots": 10,
+     "family_slots_hit_at_5": 9,
+     "hit_at_1": 5,
+     "hit_at_5": 5
+    }
+   },
+   "replication_on_unseen_unit_sets": {
+    "conditions": {
+     "all_max": {
+      "components_recovered": {
+       "denominator": 614,
+       "numerator": 474,
+       "value": 0.772
+      },
+      "families_recovered_origin_agnostic": {
+       "denominator": 607,
+       "numerator": 478,
+       "value": 0.7875
+      },
+      "family_recoveries_without_attribution": 5,
+      "hit_composition": {
+       "attributed_correct": 1532,
+       "attributed_wrong": 18,
+       "from_unlabeled_unit": 265
+      },
+      "mean_attributed_recall": 0.8337,
+      "mean_distinct_origin_units": 1.5785,
+      "mean_family_recall_origin_agnostic": 0.8441,
+      "parents_where_one_unit_owns_all_hits": 173,
+      "parents_with_every_component_recovered": {
+       "denominator": 363,
+       "numerator": 248,
+       "value": 0.6832
+      }
+     },
+     "all_round_robin": {
+      "components_recovered": {
+       "denominator": 614,
+       "numerator": 605,
+       "value": 0.9853
+      },
+      "families_recovered_origin_agnostic": {
+       "denominator": 607,
+       "numerator": 594,
+       "value": 0.9786
+      },
+      "family_recoveries_without_attribution": 1,
+      "hit_composition": {
+       "attributed_correct": 1100,
+       "attributed_wrong": 16,
+       "from_unlabeled_unit": 699
+      },
+      "mean_attributed_recall": 0.9855,
+      "mean_distinct_origin_units": 2.8926,
+      "mean_family_recall_origin_agnostic": 0.9816,
+      "parents_where_one_unit_owns_all_hits": 0,
+      "parents_with_every_component_recovered": {
+       "denominator": 363,
+       "numerator": 355,
+       "value": 0.978
+      }
+     },
+     "single_longest": {
+      "components_recovered": {
+       "denominator": 614,
+       "numerator": 209,
+       "value": 0.3404
+      },
+      "families_recovered_origin_agnostic": {
+       "denominator": 607,
+       "numerator": 221,
+       "value": 0.3641
+      },
+      "family_recoveries_without_attribution": 9,
+      "hit_composition": {
+       "attributed_correct": 945,
+       "attributed_wrong": 105,
+       "from_unlabeled_unit": 765
+      },
+      "mean_attributed_recall": 0.3565,
+      "mean_distinct_origin_units": 1,
+      "mean_family_recall_origin_agnostic": 0.3783,
+      "parents_where_one_unit_owns_all_hits": 363,
+      "parents_with_every_component_recovered": {
+       "denominator": 363,
+       "numerator": 64,
+       "value": 0.1763
+      }
+     },
+     "single_longest_supported": {
+      "components_recovered": {
+       "denominator": 614,
+       "numerator": 362,
+       "value": 0.5896
+      },
+      "families_recovered_origin_agnostic": {
+       "denominator": 607,
+       "numerator": 365,
+       "value": 0.6013
+      },
+      "family_recoveries_without_attribution": 0,
+      "hit_composition": {
+       "attributed_correct": 1659,
+       "attributed_wrong": 156,
+       "from_unlabeled_unit": 0
+      },
+      "mean_attributed_recall": 0.7068,
+      "mean_distinct_origin_units": 1,
+      "mean_family_recall_origin_agnostic": 0.7126,
+      "parents_where_one_unit_owns_all_hits": 363,
+      "parents_with_every_component_recovered": {
+       "denominator": 363,
+       "numerator": 168,
+       "value": 0.4628
+      }
+     }
+    },
+    "dependence_clusters": 20,
+    "largest_cluster_sizes": [
+     332,
+     9,
+     3,
+     2,
+     2
+    ],
+    "mean_ceiling_recall": 0.9991,
+    "paired_attributed_recall": {
+     "all_max_minus_single_longest": {
+      "better": 237,
+      "equal": 120,
+      "mean_difference": 0.4772,
+      "worse": 6
+     },
+     "all_max_minus_single_longest_supported": {
+      "better": 114,
+      "equal": 240,
+      "mean_difference": 0.1269,
+      "worse": 9
+     },
+     "all_round_robin_minus_all_max": {
+      "better": 112,
+      "equal": 246,
+      "mean_difference": 0.1518,
+      "worse": 5
+     },
+     "all_round_robin_minus_single_longest": {
+      "better": 296,
+      "equal": 67,
+      "mean_difference": 0.6291,
+      "worse": 0
+     },
+     "all_round_robin_minus_single_longest_supported": {
+      "better": 192,
+      "equal": 168,
+      "mean_difference": 0.2787,
+      "worse": 3
+     }
+    },
+    "parents": 363,
+    "per_unit_ceiling": {
+     "denominator": 614,
+     "numerator": 613,
+     "value": 0.9984
+    },
+    "query_cost": {
+     "all_over_single": {
+      "model_calls": 3.05,
+      "residues": 2.24
+     },
+     "all_units": {
+      "model_calls": 1107,
+      "residues": 326299
+     },
+     "single_longest": {
+      "model_calls": 363,
+      "residues": 145676
+     }
+    },
+    "supported_components": 614
+   },
+   "single_unit_control_all_conditions_identical": true
+  },
+  "esm2": {
+   "fusion_classes_v1_plus_extension": {
+    "embedded": {
+     "extension_new": {
+      "distinct_sequences": 29,
+      "family_slots": 29,
+      "family_slots_hit_at_5": 17,
+      "hit_at_5": 17
+     },
+     "v1": {
+      "distinct_sequences": 6,
+      "family_slots": 6,
+      "family_slots_hit_at_5": 3,
+      "hit_at_5": 3
+     }
+    },
+    "family_slots_hit_at_5_total": 28,
+    "family_slots_total": 53,
+    "multi_family": {
+     "extension_new": {
+      "distinct_sequences": 5,
+      "family_slots": 10,
+      "family_slots_hit_at_5": 5,
+      "hit_at_5": 4
+     },
+     "v1": {
+      "distinct_sequences": 4,
+      "family_slots": 8,
+      "family_slots_hit_at_5": 3,
+      "hit_at_5": 2
+     }
+    }
+   },
+   "paired_cluster_bootstrap": {
+    "intervals": {
+     "all_max_minus_single_longest_supported": {
+      "ci_lower": -0.075,
+      "ci_upper": 0.1667,
+      "independent_clusters": 20,
+      "paired_cluster_mean_difference": 0.0465,
+      "status": "estimated",
+      "unit": "Equal-weight independent-group mean of paired query proportions"
+     },
+     "all_round_robin_minus_all_max": {
+      "ci_lower": 0.0052,
+      "ci_upper": 0.158,
+      "independent_clusters": 20,
+      "paired_cluster_mean_difference": 0.0691,
+      "status": "estimated",
+      "unit": "Equal-weight independent-group mean of paired query proportions"
+     },
+     "all_round_robin_minus_single_longest": {
+      "ci_lower": 0.3916,
+      "ci_upper": 0.7458,
+      "independent_clusters": 20,
+      "paired_cluster_mean_difference": 0.5719,
+      "status": "estimated",
+      "unit": "Equal-weight independent-group mean of paired query proportions"
+     },
+     "all_round_robin_minus_single_longest_supported": {
+      "ci_lower": 0.0389,
+      "ci_upper": 0.2028,
+      "independent_clusters": 20,
+      "paired_cluster_mean_difference": 0.1155,
+      "status": "estimated",
+      "unit": "Equal-weight independent-group mean of paired query proportions"
+     }
+    },
+    "note": "Each dependence cluster has equal weight, however many parents it holds; 95% percentile interval. Population: records matching the fixed NCBI query. One cluster holds most parents, so the equal-weight cluster mean differs from the per-parent mean.",
+    "replicates": 2000,
+    "seed": 20261118
+   },
+   "per_unit_new_sequences": {
+    "embedded": {
+     "distinct_sequences": 29,
+     "family_slots": 29,
+     "family_slots_hit_at_5": 17,
+     "hit_at_1": 14,
+     "hit_at_5": 17
+    },
+    "full": {
+     "distinct_sequences": 121,
+     "family_slots": 121,
+     "family_slots_hit_at_5": 119,
+     "hit_at_1": 119,
+     "hit_at_5": 119
+    },
+    "multi_family": {
+     "distinct_sequences": 5,
+     "family_slots": 10,
+     "family_slots_hit_at_5": 5,
+     "hit_at_1": 3,
+     "hit_at_5": 4
+    }
+   },
+   "replication_on_unseen_unit_sets": {
+    "conditions": {
+     "all_max": {
+      "components_recovered": {
+       "denominator": 614,
+       "numerator": 509,
+       "value": 0.829
+      },
+      "families_recovered_origin_agnostic": {
+       "denominator": 607,
+       "numerator": 506,
+       "value": 0.8336
+      },
+      "family_recoveries_without_attribution": 1,
+      "hit_composition": {
+       "attributed_correct": 1249,
+       "attributed_wrong": 63,
+       "from_unlabeled_unit": 503
+      },
+      "mean_attributed_recall": 0.8593,
+      "mean_distinct_origin_units": 1.9697,
+      "mean_family_recall_origin_agnostic": 0.862,
+      "parents_where_one_unit_owns_all_hits": 72,
+      "parents_with_every_component_recovered": {
+       "denominator": 363,
+       "numerator": 277,
+       "value": 0.7631
+      }
+     },
+     "all_round_robin": {
+      "components_recovered": {
+       "denominator": 614,
+       "numerator": 588,
+       "value": 0.9577
+      },
+      "families_recovered_origin_agnostic": {
+       "denominator": 607,
+       "numerator": 581,
+       "value": 0.9572
+      },
+      "family_recoveries_without_attribution": 3,
+      "hit_composition": {
+       "attributed_correct": 1061,
+       "attributed_wrong": 55,
+       "from_unlabeled_unit": 699
+      },
+      "mean_attributed_recall": 0.9648,
+      "mean_distinct_origin_units": 2.8926,
+      "mean_family_recall_origin_agnostic": 0.9646,
+      "parents_where_one_unit_owns_all_hits": 0,
+      "parents_with_every_component_recovered": {
+       "denominator": 363,
+       "numerator": 339,
+       "value": 0.9339
+      }
+     },
+     "single_longest": {
+      "components_recovered": {
+       "denominator": 614,
+       "numerator": 200,
+       "value": 0.3257
+      },
+      "families_recovered_origin_agnostic": {
+       "denominator": 607,
+       "numerator": 212,
+       "value": 0.3493
+      },
+      "family_recoveries_without_attribution": 12,
+      "hit_composition": {
+       "attributed_correct": 873,
+       "attributed_wrong": 177,
+       "from_unlabeled_unit": 765
+      },
+      "mean_attributed_recall": 0.3443,
+      "mean_distinct_origin_units": 1,
+      "mean_family_recall_origin_agnostic": 0.3682,
+      "parents_where_one_unit_owns_all_hits": 363,
+      "parents_with_every_component_recovered": {
+       "denominator": 363,
+       "numerator": 63,
+       "value": 0.1736
+      }
+     },
+     "single_longest_supported": {
+      "components_recovered": {
+       "denominator": 614,
+       "numerator": 352,
+       "value": 0.5733
+      },
+      "families_recovered_origin_agnostic": {
+       "denominator": 607,
+       "numerator": 354,
+       "value": 0.5832
+      },
+      "family_recoveries_without_attribution": 2,
+      "hit_composition": {
+       "attributed_correct": 1498,
+       "attributed_wrong": 317,
+       "from_unlabeled_unit": 0
+      },
+      "mean_attributed_recall": 0.6937,
+      "mean_distinct_origin_units": 1,
+      "mean_family_recall_origin_agnostic": 0.6988,
+      "parents_where_one_unit_owns_all_hits": 363,
+      "parents_with_every_component_recovered": {
+       "denominator": 363,
+       "numerator": 167,
+       "value": 0.4601
+      }
+     }
+    },
+    "dependence_clusters": 20,
+    "largest_cluster_sizes": [
+     332,
+     9,
+     3,
+     2,
+     2
+    ],
+    "mean_ceiling_recall": 0.9816,
+    "paired_attributed_recall": {
+     "all_max_minus_single_longest": {
+      "better": 266,
+      "equal": 89,
+      "mean_difference": 0.515,
+      "worse": 8
+     },
+     "all_max_minus_single_longest_supported": {
+      "better": 160,
+      "equal": 183,
+      "mean_difference": 0.1656,
+      "worse": 20
+     },
+     "all_round_robin_minus_all_max": {
+      "better": 69,
+      "equal": 290,
+      "mean_difference": 0.1055,
+      "worse": 4
+     },
+     "all_round_robin_minus_single_longest": {
+      "better": 294,
+      "equal": 69,
+      "mean_difference": 0.6205,
+      "worse": 0
+     },
+     "all_round_robin_minus_single_longest_supported": {
+      "better": 188,
+      "equal": 172,
+      "mean_difference": 0.2711,
+      "worse": 3
+     }
+    },
+    "parents": 363,
+    "per_unit_ceiling": {
+     "denominator": 614,
+     "numerator": 599,
+     "value": 0.9756
+    },
+    "query_cost": {
+     "all_over_single": {
+      "model_calls": 3.05,
+      "residues": 2.24
+     },
+     "all_units": {
+      "model_calls": 1107,
+      "residues": 326299
+     },
+     "single_longest": {
+      "model_calls": 363,
+      "residues": 145676
+     }
+    },
+    "supported_components": 614
+   },
+   "single_unit_control_all_conditions_identical": true
+  }
+ },
+ "multi_unit_parents_in_extension": 505,
+ "multi_unit_parents_removed_because_unit_set_seen_in_v1": 114,
+ "panel_sha256": "ab3879e28535463f8aa8ee66bab65263060bcf480aabce9aa25eeafdbb9642b6",
+ "reference_panel_reused_from": "c31e5e93d31387248ef48c35b9f94705a6269bbabba79cfd3fd67ec310f6aa9e",
+ "schema_version": "component-study-extension-1",
+ "spec": "experiments/component_study_v1/SPEC_EXTENSION.md"
+}
