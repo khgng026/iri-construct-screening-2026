@@ -24,11 +24,9 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
-import hmac
 import io
 import json
 import re
-import secrets
 import time
 import urllib.parse
 import urllib.request
