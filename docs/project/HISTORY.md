@@ -1,6 +1,6 @@
 # Historical records and superseded instructions
 
-Active planning and authority live in [SCOPE.md](SCOPE.md), [AUTONOMY.md](AUTONOMY.md), [TOOLKIT_CONTRACT.md](TOOLKIT_CONTRACT.md), [PLAN.md](PLAN.md), [STATUS.md](STATUS.md) and root [AGENTS.md](../../AGENTS.md).
+Active research planning and authority live in [SCOPE.md](SCOPE.md), [AUTONOMY.md](AUTONOMY.md), [PLAN.md](PLAN.md), [STATUS.md](STATUS.md) and root [AGENTS.md](../../AGENTS.md). The [toolkit contract](TOOLKIT_CONTRACT.md) describes the existing annotation-aware package.
 
 The following are retained for provenance and reproduction, not active release requirements or instructions for new toolkit work:
 
@@ -18,3 +18,7 @@ Files referenced by hashes remain at their original paths and byte content. Hist
 `docs/week1`, `docs/week2`, `docs/coordination`, `docs/oversight` and `docs/runs` each carry a `README.md` notice saying their contents are historical. The three dated status pages that are not bound by any recorded checksum (`docs/week1/STATUS.md`, `docs/coordination/CODEX_STATUS.md`, `docs/coordination/DECISIONS_NEEDED.md`) also carry a one-line banner. Checksum-bound files (for example `docs/week1/T02_data_governance.md`, `T07_benchmark_protocol.md`, `docs/week2/COMPLETION_REPORT.md`, `TASK_STATUS.json`) and the original scientific report `docs/EXPERIMENT_STATUS.md` were left byte-for-byte unchanged; the directory notices and this index are their redirect.
 
 New work lives elsewhere: the toolkit in `src/iri_constructs/preprocess.py` and `cli.py`; the separately versioned [component-coverage study v1](../results/component-study-v1/README.md) in `experiments/component_study_v1/` and `docs/results/component-study-v1/`. That study uses its own specification, labels, panel and endpoint. It does not re-score or amend E2/E3, whose historical parent-family endpoint and "longest eligible" baseline remain as recorded.
+
+## Research scope reset, November 22, 2026
+
+The active research scope supersedes the toolkit-first research plan and its restrictions on sequence-only decomposition and model comparisons. The former scope, plan, status, and agent instructions remain available in Git history; completed studies, release evidence, and frozen records retain their original content and meaning.

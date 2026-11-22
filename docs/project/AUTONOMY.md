@@ -1,12 +1,12 @@
 # Standing autonomy and data policy
 
-Effective November 16, 2026 (America/New_York), under the researcher's instruction to implement the toolkit-first workflow reset. This is the standing authority for new work within [scope](SCOPE.md). No additional routine experiment, source-record or separate ChatGPT signoff is required. User instructions take precedence.
+Updated November 22, 2026. This policy governs work within the active [research scope](SCOPE.md). No additional routine experiment, source-record or separate ChatGPT signoff is required. User instructions take precedence.
 
 ## Proceed autonomously
 
-- Inspect, implement, refactor, test, document and package the existing annotation-to-protein approach; fix prerequisite issues; create commits and reviewable PRs.
+- Inspect, implement, evaluate and document the active research workstreams and existing toolkit; fix prerequisites; create commits and reviewable PRs.
 - Process suitable user-supplied and public benign research records; discover a modest number of examples when required for behavior coverage. Review source-specific annotations and notices, record evidence and proceed when the source guidance and record facts support use. Source-level review can be reused unless terms or record-specific facts change.
-- Install public development/parsing dependencies in isolated environments. Download the already selected public ESM-2 8M checkpoint and its required runtime for optional demonstrations, verify its immutable revision and weight hash, and record use terms. Do not introduce a new model family or make a model run a prerequisite for core work.
+- Install suitable public dependencies in isolated environments. Select pretrained models appropriate to the active research scope, verify versions and weight hashes, and record use terms. No model training or fine-tuning is required by the scope.
 - Cache suitable source records, annotations, derived proteins and approved model files in ignored private project storage when source/model terms support that use. A private execution cache is distinct from committing or publishing data. No raw biological inputs or embeddings in Git unless redistribution suitability and the user's publication authority are established; existing historical approved files remain as recorded.
 - Run regression, exploratory and descriptive evaluation within scope; choose useful examples and version new runs without per-panel approval. Invalid records or unsupported metrics are reported individually. A disputed family label blocks that metric, not extraction of otherwise valid source annotations.
 
