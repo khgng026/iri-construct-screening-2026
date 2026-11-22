@@ -9,6 +9,31 @@ from pathlib import Path
 from .verify import _covered, _location
 
 
+def _source_location(strand, spans, length):
+    """Strand and sorted forward spans for a raw source feature.
+
+    Unlike the answer-key ``_location``, this tolerates segments that share or touch a
+    boundary, as a programmed ribosomal frameshift CDS does (``join(a..b,b..c)`` reads one
+    slippery base in two frames). Such a CDS is a real source annotation the toolkit keeps
+    rather than flattens, so the checker must summarise it, not abort the whole run on it.
+    """
+    if strand not in (-1, 1):
+        raise ValueError('expected strand -1 or 1')
+    if not isinstance(spans, list) or not spans:
+        raise ValueError('missing spans')
+    ordered = []
+    for start, end in spans:
+        if not (type(start) is int and type(end) is int and 0 <= start < end <= length):
+            raise ValueError('span outside construct or empty')
+        ordered.append((start, end))
+    ordered.sort()
+    return strand, ordered
+
+
+def _overlapping(spans):
+    return any(a[1] > b[0] for a, b in zip(spans, spans[1:]))
+
+
 def _expected_records(acquisition, findings):
     expected = {}
     files = 0
@@ -29,20 +54,29 @@ def _expected_records(acquisition, findings):
     return expected, files
 
 
-def _named_regions(record):
+def _named_regions(record, findings):
     named = {}
     for feature in record['named_subregions']:
         if feature['location_status'] != 'exact' or feature['strand'] not in ('+', '-'):
             continue
-        locus = _location({'strand': {'+': 1, '-': -1}[feature['strand']], 'spans': feature['segments']},
-                          record['length'], 'named subregion')
+        try:
+            locus = _source_location({'+': 1, '-': -1}[feature['strand']], feature['segments'], record['length'])
+        except (ValueError, TypeError, KeyError):
+            findings['invalid_named_subregion_locations'] += 1
+            continue
         for family in feature['named_families']:
             named.setdefault(family, []).append(locus)
     return named
 
 
 def _count_regions(record, unit, named_regions, counts, findings):
-    parent = _location({'strand': unit['strand'], 'spans': unit['segments']}, record['length'], 'exported CDS')
+    try:
+        parent = _source_location(unit['strand'], unit['segments'], record['length'])
+    except (ValueError, TypeError, KeyError):
+        findings['invalid_exported_cds_locations'] += 1
+        return
+    if _overlapping(parent[1]):
+        counts['exported_cds_with_frameshift_segments'] += 1
     for family, evidence in unit['anchor_evidence'].items():
         counts['anchor_regions'] += 1
         retranslated = evidence['dna_region_retranslates'] is True
@@ -105,7 +139,7 @@ def check_audit(acquisition, audit):
             continue
         if key in expected and record['batch_file'] != expected[key]:
             findings['records_in_unexpected_batch'] += 1
-        named_regions = _named_regions(record)
+        named_regions = _named_regions(record, findings)
         proteins = set()
         for unit in record['cds']:
             if unit['extraction_state'] != 'exported':

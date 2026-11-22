@@ -395,7 +395,9 @@ def audit(run: Path):
                            'segments': [[s['start0'], s['end0']] for s in feature.segments],
                            'segment_strands': sorted({s['strand'] for s in feature.segments}),
                            'extraction_state': unit.extraction_state, 'reason_code': unit.reason_code,
-                           'length_aa': unit.length_aa, 'deposited_names_families': sorted(primary),
+                           'length_aa': unit.length_aa, 'codon_start': int(qualifiers.get('codon_start', ['1'])[0]),
+                           'transl_table': int(qualifiers.get('transl_table', ['11'])[0]),
+                           'deposited_names_families': sorted(primary),
                            'deposited_note_families': sorted(note), 'deposited_fusion_or_tag_term': tagged,
                            'product_text_sha256': sha(_names(qualifiers, PRIMARY_NAMES))}
                     frozen = frozen_units.get(unit.unit_id)
@@ -419,11 +421,9 @@ def audit(run: Path):
                         # occurrence's coordinates, so build a fresh per-occurrence dict and never write
                         # back into the shared cache: a repeated protein in another construct must not
                         # overwrite this record's saved location.
-                        codon_start = int(qualifiers.get('codon_start', ['1'])[0])
-                        table_id = int(qualifiers.get('transl_table', ['11'])[0])
-                        positions = transcript_positions(feature.segments, codon_start)
-                        coding = coding_dna(dna, feature.segments, codon_start)
-                        anchor_evidence = occurrence_anchor_evidence(evidence['families'], protein, positions, coding, table_id)
+                        positions = transcript_positions(feature.segments, row['codon_start'])
+                        coding = coding_dna(dna, feature.segments, row['codon_start'])
+                        anchor_evidence = occurrence_anchor_evidence(evidence['families'], protein, positions, coding, row['transl_table'])
                         row['anchor_evidence'] = anchor_evidence
                         for ev in anchor_evidence.values():
                             checks['anchor_regions'] += 1
@@ -438,3 +438,224 @@ def audit(run: Path):
                  'checks': dict(checks), 'constructs': constructs}
     write(run / 'audit.private.json', audit_doc, exclusive=False)
     print(json.dumps(dict(checks), indent=1))
+
+
+# ---------------------------------------------------------------------- shortlist
+
+def _overlap(a, b):
+    return sum(max(0, min(y, d) - max(x, c)) for x, y in a for c, d in b)
+
+
+def _bases(spans):
+    return sum(end - start for start, end in spans)
+
+
+def _cds_transcript_index(cds):
+    """Forward coordinate -> position in the CDS coding sequence (5'->3', after codon_start)."""
+    strand = cds['strand']
+    ranges = (range(s, e) for s, e in cds['segments'])
+    coords = [p for r in ranges for p in (r if strand == 1 else reversed(r))]
+    return {p: i for i, p in enumerate(coords[cds['codon_start'] - 1:])}
+
+
+def deposited_subregion_boundary(construct, cds, family, anchor_region):
+    """A deposited sub-feature inside this CDS that names the family and gives a usable location.
+
+    This boundary comes from the record itself, independent of the anchor alignment. Returns the
+    best such feature (by overlap with the anchor region) with whether it is codon-aligned, long
+    enough to score, and consistent with the anchor region, or None.
+    """
+    index = _cds_transcript_index(cds)
+    strand_text = {1: '+', -1: '-'}[cds['strand']]
+    best = None
+    for sub in construct['named_subregions']:
+        if family not in sub['named_families'] or sub['strand'] not in (strand_text, '') or sub['location_status'] != 'exact':
+            continue
+        covered = [p for a, b in sub['segments'] for p in range(a, b)]
+        if not covered or any(p not in index for p in covered):
+            continue  # a named feature that is not wholly inside this CDS is not a subregion boundary for it
+        first, last = min(index[p] for p in covered), max(index[p] for p in covered)
+        residues = [first // 3, (last + 1) // 3]
+        spans = sorted([list(s) for s in sub['segments']])
+        candidate = {
+            'feature_index': sub['feature_index'], 'type': sub['type'], 'spans': spans, 'residues': residues,
+            'codon_aligned': first % 3 == 0 and (last + 1) % 3 == 0,
+            'long_enough': residues[1] - residues[0] >= MIN_RESIDUES,
+            'overlaps_anchor_region': _overlap(spans, anchor_region) >= COVERAGE * min(_bases(spans), _bases(anchor_region))}
+        candidate['usable'] = candidate['codon_aligned'] and candidate['long_enough']
+        if best is None or _overlap(spans, anchor_region) > _overlap(best['spans'], anchor_region):
+            best = candidate
+    return best
+
+
+def eligible_components(construct, scorable):
+    """Whole-CDS components with a validated translation, an independent family label and no name conflict."""
+    components = []
+    for cds in construct['cds']:
+        if cds['extraction_state'] != 'exported' or cds['strand'] is None or len(cds['segment_strands']) != 1:
+            continue
+        deposited = set(cds['deposited_names_families']) | set(cds['deposited_note_families'])
+        for family, ev in sorted(cds.get('anchor_evidence', {}).items()):
+            if family not in scorable or cds['near_copy_of_reference'].get(family):
+                continue
+            if family in cds['deposited_names_families']:
+                name = 'deposited_name_agrees'
+            elif family in cds['deposited_note_families']:
+                name = 'deposited_note_agrees'
+            elif deposited and cds['label_class'] != 'multi_family':
+                continue  # deposited name names a different family for this single-label CDS
+            else:
+                name = 'deposited_name_partner' if deposited else 'deposited_name_silent'
+            fusion = cds['label_class'] in ('embedded', 'multi_family')
+            component = {'feature_index': cds['feature_index'], 'family': family, 'protein_sha256': cds['protein_sha256'],
+                         'spans': cds['segments'], 'strand': cds['strand'], 'length_aa': cds['length_aa'],
+                         'label_class': cds['label_class'], 'name_evidence': name, 'fusion_class': fusion,
+                         'over_model_limit': cds['length_aa'] > MAX_RESIDUES,
+                         'anchor': {k: ev[k] for k in ('anchor', 'identity', 'unit_coverage', 'anchor_coverage')}}
+            if fusion:
+                region = ev['dna_spans']
+                component['anchor_region'] = {'spans': region, 'residues': ev['unit_region_aa'],
+                                              'retranslates': ev['dna_region_retranslates'],
+                                              'usable': ev['unit_region_aa'][1] - ev['unit_region_aa'][0] >= MIN_RESIDUES
+                                              and ev['dna_region_retranslates']}
+                component['deposited_subregion'] = deposited_subregion_boundary(construct, cds, family, region)
+            components.append(component)
+    return components
+
+
+def archetype_of(construct, components):
+    cds_with_label = {c['feature_index'] for c in components}
+    fusion = [c for c in components if c['fusion_class']]
+    labelled_bases = sum(_bases(cds['segments']) for cds in construct['cds'] if cds['feature_index'] in cds_with_label)
+    fraction = labelled_bases / construct['length']
+    if not components:
+        return None
+    if fusion:
+        return 'tagged_fusion'
+    if len(cds_with_label) >= 2:
+        return 'multi_cds'
+    if fraction < 0.15 and len(construct['cds']) - len(cds_with_label) >= 1:
+        return 'backbone_heavy'
+    if len(construct['cds']) == 1:
+        return 'single_cds'
+    return 'single_label_other'
+
+
+def _groups(accessions, protein_sets):
+    """Connected components of records that share any eligible-component protein hash."""
+    parent = {a: a for a in accessions}
+
+    def root(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+    owner = {}
+    for accession in accessions:
+        for protein in protein_sets[accession]:
+            other = owner.setdefault(protein, accession)
+            parent[root(accession)] = root(other)
+    groups = defaultdict(list)
+    for accession in accessions:
+        groups[root(accession)].append(accession)
+    sizes = sorted((len(g) for g in groups.values()), reverse=True)
+    return {'records': len(accessions), 'related_groups': len(groups),
+            'largest_group': sizes[0] if sizes else 0, 'singleton_groups': sum(1 for s in sizes if s == 1)}
+
+
+def shortlist(run: Path):
+    """Metadata-only shortlist: independently reviewed benign records, with dependence-aware group counts."""
+    audited = read(run / 'audit.private.json')
+    acquisition = read(run / 'acquisition.private.json')
+    scorable = set(audited['scorable_families'])
+    pilot = {row['accession'] for row in read(Path(__file__).with_name('reporter_panel.json'))['constructs']}
+
+    protein_sets, rows, by_archetype = {}, [], defaultdict(set)
+    documented_fusion_records, anchor_only_fusion_records = set(), set()
+    documented_fusion_components = anchor_only_fusion_components = 0
+    whole_component_records = set()
+    for construct in audited['constructs']:
+        if construct['status'] != 'ok' or construct['accession'] in pilot:
+            continue
+        components = eligible_components(construct, scorable)
+        if not components:
+            continue
+        archetype = archetype_of(construct, components)
+        accession = construct['accession']
+        protein_sets[accession] = {c['protein_sha256'] for c in components}
+        whole_component_records.add(accession)
+        by_archetype[archetype].add(accession)
+        fusion_rows = []
+        for component in components:
+            if not component['fusion_class']:
+                continue
+            boundary = component['deposited_subregion']
+            documented = bool(boundary and boundary['usable'] and boundary['overlaps_anchor_region'])
+            if documented:
+                documented_fusion_components += 1
+                documented_fusion_records.add(accession)
+            else:
+                anchor_only_fusion_components += 1
+                anchor_only_fusion_records.add(accession)
+            fusion_rows.append({'family': component['family'], 'documented_boundary': documented,
+                                'anchor_region_usable': component['anchor_region']['usable']})
+        rows.append({'accession': accession, 'sample': construct['sample'], 'archetype': archetype,
+                     'eligible_components': len(components), 'fusion_components': fusion_rows})
+
+    # A record can hold both a documented-boundary fusion and an anchor-only one; report components and records.
+    categories = {
+        'independently_reviewed_records': _groups(sorted(whole_component_records), protein_sets),
+        'documented_fusion_boundary': _groups(sorted(documented_fusion_records), protein_sets),
+        'anchor_only_fusion': _groups(sorted(anchor_only_fusion_records), protein_sets),
+    }
+    by_archetype_summary = {a: _groups(sorted(accs), protein_sets) for a, accs in sorted(by_archetype.items())}
+    whole_corpus_protein_sets = {}
+    for construct in audited['constructs']:
+        if construct['status'] != 'ok':
+            continue
+        whole_corpus_protein_sets[construct['accession']] = {
+            cds['protein_sha256'] for cds in construct['cds'] if cds['extraction_state'] == 'exported'}
+    report = {
+        'schema': 'paired-corpus-shortlist-1',
+        'note': 'Metadata-only shortlist. Benign public vectors as deposited; no sequence or qualifier text here.',
+        'terms': {'ncbi': acquisition.get('ncbi_terms'), 'uniprot': acquisition.get('uniprot_terms')},
+        'independent_label_source': 'UniProtKB/Swiss-Prot reviewed family anchors (identity >= 0.90, anchor '
+                                    'coverage >= 0.80); deposited CDS names recorded separately.',
+        'audit_sha256': digest(run / 'audit.private.json'),
+        'excluded_reporter_pilot_records': sorted(pilot),
+        'component_counts': {'documented_fusion_boundary': documented_fusion_components,
+                             'anchor_only_fusion': anchor_only_fusion_components},
+        'categories': categories,
+        'by_archetype': by_archetype_summary,
+        'dependence_context': {
+            'note': 'Records sharing any identical exported protein are connected; common markers link most '
+                    'vectors, so record counts overstate independent cases.',
+            'whole_corpus': _groups(sorted(whole_corpus_protein_sets), whole_corpus_protein_sets),
+            'shortlist_pool': categories['independently_reviewed_records']},
+        'records': sorted(rows, key=lambda r: r['accession']),
+    }
+    write(run / 'shortlist.private.json', report, exclusive=False)
+    summary = {k: {'records': v['records'], 'related_groups': v['related_groups'], 'largest_group': v['largest_group']}
+               for k, v in categories.items()}
+    print(json.dumps({'component_counts': report['component_counts'], 'categories': summary,
+                      'by_archetype': {a: g['records'] for a, g in by_archetype_summary.items()},
+                      'whole_corpus_groups': report['dependence_context']['whole_corpus']}, indent=1))
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    sub = parser.add_subparsers(dest='stage', required=True)
+    for stage in ('acquire', 'audit', 'shortlist'):
+        command = sub.add_parser(stage)
+        command.add_argument('--run', type=Path, default=ROOT / 'results' / 'paired-corpus-batch-v1')
+    args = parser.parse_args()
+    if args.stage == 'acquire':
+        acquire(args.run)
+    elif args.stage == 'audit':
+        audit(args.run)
+    else:
+        shortlist(args.run)
+
+
+if __name__ == '__main__':
+    main()
