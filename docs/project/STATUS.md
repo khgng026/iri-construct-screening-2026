@@ -12,4 +12,6 @@ Updated November 22, 2026. The [research scope](SCOPE.md) and [plan](PLAN.md) de
 
 The paired verifier and two exploratory pilots are ready on `paired-research-pilot`. At two queries per construct, start-aware conversion recovered 4 of 7 documented components versus 3 of 7 for minimal conversion, with ten model calls in each arm. At four queries per construct both recovered 6 of 7. On the separate known-protein pilot, local alignment ranked the correct label first on 7 of 8 low-identity queries versus 5 of 8 for ESM-2.
 
-The next work is to expand the held-out construct set, document subregions for a fusion comparison, and build a stronger low-similarity panel. The [handoff](HANDOFF.md) records the run details, limits, reproduction commands, and work that can proceed in parallel.
+The reporter comparison v1 tested two more preprocessing arms. At the primary cap, Pyrodigal recovered 6 of 7 components with eight calls. Reordering the full candidate pool by start evidence recovered 4 of 7 with ten calls. Both results are exploratory. [Comparison and reproduction commands](../../experiments/paired_preprocessing/REPORTER_COMPARISON.md)
+
+The next work is to run the arms on a verified batch from the existing corpus and add a fusion segmentation arm when independent subregion labels are available. A stronger low-similarity panel can proceed in parallel. The [pilot handoff](HANDOFF.md) records the earlier runs and available artifacts.

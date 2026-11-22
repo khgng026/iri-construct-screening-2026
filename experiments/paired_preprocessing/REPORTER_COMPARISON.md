@@ -16,6 +16,24 @@ The translated candidates use the original model length rules. Report documented
 
 This is an exploratory comparison on the already studied reporter panel. A single component accounts for about fourteen recall points. The fusion labels here describe whole coding products. A separate experiment with independently documented subregions is needed to evaluate segmentation.
 
+## Results and next decision
+
+The comparison rules and code were committed before inference at `65e1abc`. Each table cell reports components recovered out of seven, followed by actual model calls across the five constructs.
+
+| Query cap per construct | Minimal | Start-aware filtering | Start ranking | Pyrodigal | Annotation-derived |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 | 1/7, 5 calls | 2/7, 5 calls | 2/7, 5 calls | 4/7, 5 calls | 5/7, 5 calls |
+| **2** | **3/7, 10 calls** | **4/7, 10 calls** | **4/7, 10 calls** | **6/7, 8 calls** | **6/7, 6 calls** |
+| 4 | 6/7, 20 calls | 6/7, 19 calls | 6/7, 20 calls | 7/7, 11 calls | 7/7, 7 calls |
+
+At the primary cap, Pyrodigal recovered three more components than the minimal arm. It used 2,486 input residues compared with 3,344 for the minimal arm. Pyrodigal generated 12 candidates across the panel, compared with 262 for the minimal arm. Its smaller pool was sufficient for all seven components at the largest cap. A recovery means a correct family call supported by the protocol's locus overlap rule. This endpoint does not require exact coding boundaries or reconstruction of a joined protein.
+
+Start ranking matched start-aware filtering on recall at every cap. It retained the original 262 candidates. In a post-run check of coverage before applying a cap, the filtered pool contained a covering candidate for six documented loci, while the minimal, ranked, and Pyrodigal pools covered all seven. A replay that counted only the first family call from each queried input gave the same recovery counts for every arm and cap. In this panel the primary differences came from which loci reached the model.
+
+Carry Pyrodigal forward as the leading comparator and retain start ranking as the control for reordering the same candidate pool. The larger evaluation should use independently verified records to establish where those gains persist. The pilot's small reporter panel and Pyrodigal's prokaryotic assumptions limit generalization across construct types.
+
+All three original arms reproduced their queries, predictions, and counts with the extended runner. The repository suite ran 281 tests with five optional skips. Both the dependency-free smoke check and historical evidence check passed. The private run report and supplementary replay totals are under `results/paired-reporter-comparison-v1/`.
+
 ## Reproduce
 
 First use the [original preparation commands](README.md#reproduce) to create the frozen inputs, or reuse the exact snapshots from a completed run. Use the same model environment with the pinned ESM-2 checkpoint cached. Install `pyrodigal==3.6.3` there for the gene-caller arm. Pyrodigal is an optional research dependency distributed under GPLv3. [Pyrodigal release](https://pypi.org/project/pyrodigal/3.6.3/)
