@@ -71,6 +71,17 @@ class VerificationTests(unittest.TestCase):
                         [_run('candidate', candidate, candidate)])
         self.assertEqual(report['runs']['baseline'][2]['overall']['recall'], 0)
         self.assertEqual(report['runs']['candidate'][1]['overall']['recall'], 1)
+        self.assertEqual(report['runs']['baseline'][2]['overall']['components_without_covering_query'], 1)
+        self.assertEqual(report['runs']['candidate'][1]['overall']['components_without_covering_query'], 0)
+
+    def test_matching_locus_without_correct_label_is_tracked_separately(self):
+        no_match = _trace('c', [_query('q', [[40, 70]])], [('q', 'unlabelled')])
+        report = verify(self.protocol, self.truth, _run('base', no_match, no_match),
+                        [_run('candidate', self.one, self.two)])
+        scores = report['runs']['base'][1]['overall']
+        self.assertEqual(scores['components_without_covering_query'], 1)
+        self.assertEqual(scores['covered_components_not_recovered'], 1)
+        self.assertEqual(scores['recovered_components'], 0)
 
     def test_failed_construct_is_a_miss_with_same_denominator(self):
         fail = _trace('c', [], [])

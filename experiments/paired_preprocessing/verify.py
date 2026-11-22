@@ -90,6 +90,11 @@ def _score_construct(truth, trace, cap, call_limit, overlap):
     _require(len(queries) <= cap, f'{construct_id}: query count exceeds cap {cap}')
     _require(_int(trace['candidate_count'], len(queries)), f'{construct_id}: invalid candidate count')
     query_loci = {qid: _location(row, length, qid) for qid, row in queries.items()}
+    covered_by_query = {
+        qid: {cid for cid, locus in loci.items() if _covered(locus, qlocus) >= overlap}
+        for qid, qlocus in query_loci.items()
+    }
+    covered = set().union(*covered_by_query.values())
     _require(all(_int(row['input_residues'], 1) for row in queries.values()),
              f'{construct_id}: invalid model input length')
     for field in ('preprocess_seconds', 'characterize_seconds'):
@@ -106,8 +111,7 @@ def _score_construct(truth, trace, cap, call_limit, overlap):
         _require(isinstance(label, str) and label.strip(), f'{construct_id}: empty predicted family')
         _require((qid, label) not in seen, f'{construct_id}: duplicate prediction for {qid!r}')
         seen.add((qid, label))
-        edges.append([cid for cid, component in sorted(components.items())
-                      if component['family'] == label and _covered(loci[cid], query_loci[qid]) >= overlap])
+        edges.append(sorted(cid for cid in covered_by_query[qid] if components[cid]['family'] == label))
     recovered = _match(edges)
     return {
         'construct_id': construct_id,
@@ -116,6 +120,9 @@ def _score_construct(truth, trace, cap, call_limit, overlap):
         'eligible_components': len(components),
         'recovered_components': len(recovered),
         'recovered_component_ids': sorted(recovered),
+        'covered_component_ids': sorted(covered),
+        'components_without_covering_query': len(components) - len(covered),
+        'covered_components_not_recovered': len(covered) - len(recovered),
         'candidate_count': trace['candidate_count'],
         'queries': len(queries),
         'input_residues': sum(query['input_residues'] for query in queries.values()),
@@ -128,7 +135,8 @@ def _score_construct(truth, trace, cap, call_limit, overlap):
 def _summarize(rows):
     out = {field: sum(row[field] for row in rows) for field in (
         'eligible_components', 'recovered_components', 'candidate_count', 'queries', 'input_residues',
-        'returned_predictions', 'preprocess_seconds', 'characterize_seconds')}
+        'returned_predictions', 'preprocess_seconds', 'characterize_seconds',
+        'components_without_covering_query', 'covered_components_not_recovered')}
     out['constructs'] = len(rows)
     out['failed_constructs'] = sum(row['status'] == 'failed' for row in rows)
     n = out['eligible_components']
