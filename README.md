@@ -1,4 +1,8 @@
-# iri-constructs: annotation-guided preprocessing of annotated DNA constructs
+# Construct preprocessing for function-based screening
+
+The research project investigates whether preprocessing unannotated synthetic DNA constructs into model-ready units improves identification of documented protein components, including in the low-similarity regime. See the [research scope](docs/project/SCOPE.md) and [parallel workstreams](docs/project/PLAN.md). The package described below is the existing annotation-aware toolkit; it helps prepare evaluation material but does not solve sequence-only decomposition.
+
+## Existing toolkit: iri-constructs
 
 `iri-constructs` reads annotated GenBank records and writes traceable features,
 **validated** protein units and plain diagnostics. It reuses what the source
@@ -131,22 +135,9 @@ sockets disabled. See the [release assessment](docs/project/RELEASE_ASSESSMENT.m
 
 ## Research use
 
-The question behind the toolkit is whether representing all annotated components
-of a construct improves a fixed model's characterization of them compared with a
-single-protein reduction. The current evidence is the pre-registered
-[component-coverage study v1](docs/results/component-study-v1/README.md) and its
-[extension](docs/results/component-study-v1/extension-1/README.md). On 110 and
-then 363 distinct multi-protein public vectors, keeping every validated protein
-recovered the documented family of 96% of supported components within five hits,
-against 57% for the best single protein — a coverage gain from asking more
-queries, dependent on how per-protein rankings are merged, with no change in how
-any single protein is represented and no per-protein advantage of ESM-2 8M over
-alignment. Fusions kept as one protein are the clear weak point for the
-embedding model. The scope of these statements is the sampled NCBI vector
-records and 28 well-known protein families.
+The toolkit helps build a traceable answer key and an annotation-derived comparison. The current research compares sequence-only approaches with a model-compatible baseline at matched budgets or across budget curves, and requires a separate low-similarity evaluation. See the [scope](docs/project/SCOPE.md) and [plan](docs/project/PLAN.md).
 
-Model packages are optional (`pip install '.[model]'`) and used only by
-`experiments/component_study_v1/`.
+The earlier [component study](docs/results/component-study-v1/README.md) and [extension](docs/results/component-study-v1/extension-1/README.md) remain evidence of their original conditions: greater coverage came with more queries, and an oracle segmentation result motivated further fusion research. They do not establish the outcome of the new study.
 
 ## Project documents
 

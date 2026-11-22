@@ -1,6 +1,6 @@
 # Preprocessing toolkit v0.1 contract
 
-**Implemented in v0.1.0 (2026-11-17).** The API and CLI below exist; see the [README](../../README.md) for working commands and the [release assessment](RELEASE_ASSESSMENT.md) for evidence and gaps. The text below is the contract they were built to. It was written as the accepted target contract for the implementation stretch. Keep the biological extraction approach unchanged. Reuse `normalize_record` and strengthen its surrounding interface rather than adding a second normalizer.
+**Implemented in v0.1.0 (2026-11-17).** The API and CLI below exist; see the [README](../../README.md) for working commands and the [release assessment](RELEASE_ASSESSMENT.md) for evidence and gaps. The text below is the contract they were built to. It was written as the accepted target contract for the implementation stretch. This contract applies to the existing annotation-aware interface; separately developed sequence-only research approaches are governed by the [active research scope](SCOPE.md).
 
 ## Public interface
 
