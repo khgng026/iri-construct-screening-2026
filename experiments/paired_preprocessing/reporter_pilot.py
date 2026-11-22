@@ -17,6 +17,7 @@ MODEL_HASH = '24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189'
 MAX_RESIDUES = 1022
 MIN_RESIDUES = 30
 AMINO_ACIDS = frozenset('ACDEFGHIKLMNPQRSTVWY')
+PYRODIGAL_VERSION = '3.6.3'
 
 
 def read(path):
@@ -106,6 +107,22 @@ def prepare(sources, panel, output):
     write(output / 'evaluator' / 'annotation-units.json', annotation_units)
 
 
+def _append_chunks(units, protein, coding_start, strand):
+    """Use the translated residues' span, including when a candidate is split for the model."""
+    for offset in range(0, len(protein), MAX_RESIDUES):
+        chunk = protein[offset:offset + MAX_RESIDUES]
+        if len(chunk) < MIN_RESIDUES:
+            continue
+        start = coding_start + strand * offset * 3
+        end = start + strand * len(chunk) * 3
+        units.append({'id': f'q{len(units) + 1}', 'strand': strand, 'spans': [sorted((start, end))],
+                      'protein': chunk})
+
+
+def _length_order(unit):
+    return -len(unit['protein']), unit['spans'], -unit['strand'], unit['id']
+
+
 def _candidates(sequence, start_aware):
     from Bio.Seq import Seq
 
@@ -121,16 +138,37 @@ def _candidates(sequence, start_aware):
                 # The alternative starts at the first methionine of each block.
                 index = stop_free.find('M') if start_aware else 0
                 if index >= 0 and not set(stop_free) - AMINO_ACIDS:
-                    for left in range(start + index, end, MAX_RESIDUES):
-                        right = min(left + MAX_RESIDUES, end)
-                        if right - left < MIN_RESIDUES:
-                            continue
-                        a, b = offset + left * 3, offset + right * 3
-                        span = [a, b] if strand == 1 else [length - b, length - a]
-                        units.append({'id': f'q{len(units) + 1}', 'strand': strand, 'spans': [span],
-                                      'protein': translated[left:right]})
+                    anchor = offset + (start + index) * 3
+                    _append_chunks(units, stop_free[index:], anchor if strand == 1 else length - anchor, strand)
                 start = end + 1
-    return sorted(units, key=lambda unit: (-len(unit['protein']), unit['spans'], -unit['strand'], unit['id']))
+    return sorted(units, key=_length_order)
+
+
+def _rank_by_start(units):
+    """Prefer an early start without trimming or dropping any candidate."""
+    def score(unit):
+        protein = unit['protein']
+        first_start = protein.find('M')
+        penalty = MIN_RESIDUES if first_start < 0 else min(first_start, MIN_RESIDUES)
+        return len(protein) - penalty
+
+    # Stable ties keep the original length and coordinate order.
+    return sorted(units, key=score, reverse=True)
+
+
+def _gene_caller_candidates(sequence, finder):
+    units = []
+    for gene in finder.find_genes(sequence.encode('ascii')):
+        protein = gene.translate(include_stop=False)
+        if not protein or set(protein) - AMINO_ACIDS:
+            continue
+        # Pyrodigal gives forward coordinates that are one-based and inclusive.
+        start, end, strand = gene.begin - 1, gene.end, gene.strand
+        remainder = end - start - len(protein) * 3
+        if not (0 <= start < end <= len(sequence) and strand in (-1, 1) and 0 <= remainder <= 3):
+            raise ValueError('Pyrodigal translation and source coordinates disagree')
+        _append_chunks(units, protein, start if strand == 1 else end, strand)
+    return sorted(units, key=_length_order)
 
 
 def _predictions(selected, model, references, limit):
@@ -157,13 +195,28 @@ def _predictions(selected, model, references, limit):
 
 
 def run(method, inputs, references, protocol, output):
+    input_sha256 = digest(inputs)
+    if (method != 'annotation_reference' and 'sequence_input_sha256' in protocol and
+            input_sha256 != protocol['sequence_input_sha256']):
+        raise ValueError('Sequence input differs from the fixed characterization protocol')
+    if digest(references) != protocol['reference_panel_sha256']:
+        raise ValueError('Reference panel differs from the fixed characterization protocol')
+
+    finder = None
+    if method == 'gene_caller':
+        try:
+            import pyrodigal
+        except ImportError as error:
+            raise ValueError(f'The gene_caller arm requires pyrodigal=={PYRODIGAL_VERSION}') from error
+        if pyrodigal.__version__ != PYRODIGAL_VERSION:
+            raise ValueError(f'The gene_caller arm requires pyrodigal=={PYRODIGAL_VERSION}')
+        finder = pyrodigal.GeneFinder(meta=True, closed=False, mask=False)
+
     import torch
     from Bio import SeqIO
     from iri_constructs.metrics import mean_pool
     from iri_constructs.model_adapters import ESM2_REVISION, LocalAdapter, prepare_device
 
-    if digest(references) != protocol['reference_panel_sha256']:
-        raise ValueError('Reference panel differs from the fixed characterization protocol')
     input_records = (read(inputs) if method == 'annotation_reference' else
                      {r.id: str(r.seq) for r in SeqIO.parse(inputs, 'fasta')})
     torch.set_num_threads(2)
@@ -174,13 +227,22 @@ def run(method, inputs, references, protocol, output):
             raise ValueError('Pinned model weights differ')
         vectors = [(ref['family'], mean_pool(model.residues(ref['sequence']))) for ref in read(references)]
         run_data = {'schema': SCHEMA, 'method': method, 'characterization_id': protocol['characterization_id'],
-                    'tiers': [], 'input_sha256': digest(inputs), 'model': model.metadata}
+                    'tiers': [], 'input_sha256': input_sha256, 'model': model.metadata}
+        if finder is not None:
+            run_data['gene_caller'] = {'engine': 'pyrodigal', 'version': PYRODIGAL_VERSION,
+                                       'meta': True, 'closed': False, 'mask': False}
         for cap in protocol['query_caps']:
             traces = []
             for key, original in sorted(input_records.items()):
                 started = time.perf_counter()
-                units = (sorted(original, key=lambda u: (-len(u['protein']), u['id']))
-                         if method == 'annotation_reference' else _candidates(original, method == 'start_aware'))
+                if method == 'annotation_reference':
+                    units = sorted(original, key=lambda u: (-len(u['protein']), u['id']))
+                elif finder is not None:
+                    units = _gene_caller_candidates(original, finder)
+                else:
+                    units = _candidates(original, method == 'start_aware')
+                    if method == 'start_ranked':
+                        units = _rank_by_start(units)
                 usable = [unit for unit in units if MIN_RESIDUES <= len(unit['protein']) <= MAX_RESIDUES]
                 selected = usable[:cap]
                 prepared = time.perf_counter()
@@ -206,7 +268,8 @@ def main():
         command.add_argument('--panel', type=Path, default=Path(__file__).with_name('reporter_panel.json'))
         command.add_argument('--out', type=Path, required=True)
     execute = sub.add_parser('run')
-    execute.add_argument('--method', choices=('minimal', 'start_aware', 'annotation_reference'), required=True)
+    execute.add_argument('--method', choices=('minimal', 'start_aware', 'start_ranked',
+                                              'gene_caller', 'annotation_reference'), required=True)
     execute.add_argument('--inputs', type=Path, required=True)
     execute.add_argument('--references', type=Path, required=True)
     execute.add_argument('--protocol', type=Path, required=True)
