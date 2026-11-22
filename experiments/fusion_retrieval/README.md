@@ -72,6 +72,9 @@ https://github.com/nk-008120/plasmid-pilot-benchmark
 
 ## Next experiment
 
+[Approach inventory and exact missing comparisons](APPROACHES.md) distinguishes
+completed work, code-only candidates and the pending frozen study.
+
 1. Recover complete existing chunk scores and reproduce max/RR from them.
 2. Define consensus and one weighted rule on separate development cases.
 3. Freeze one rule; compare whole, max, RR and alignment with the same references
