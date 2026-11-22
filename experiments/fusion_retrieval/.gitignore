@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+configs/
+private/
+*.npy
+*.npz
+*.fasta
+*.faa
+*.gb

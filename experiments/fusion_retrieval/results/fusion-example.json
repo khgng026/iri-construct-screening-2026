@@ -1,0 +1,226 @@
+[
+  {
+    "item_id": "synth_real:syn_B2GDS5_motifless_fusion_40",
+    "sequence_sha256": "b0e682653f02607efee3f3b31f4f536bdf690433c869c227e80b770d106bfd12",
+    "payload": "B2GDS5",
+    "split": "evaluation",
+    "stratum": "0.50-0.70",
+    "threshold": 1.0,
+    "model": "esm2_650m",
+    "arm": "whole",
+    "aggregation": "max_score",
+    "budget": 5,
+    "n_targets": 1,
+    "n_references": 1204,
+    "n_allowed": 1204,
+    "best_identity_left": 1.0,
+    "hit": 1,
+    "rr": 0.5,
+    "target_rank_in_output": 2,
+    "rank_semantics": "first target rank in actual fixed output",
+    "review_slots": 5,
+    "unique_returns": 5,
+    "non_target_returns": 4,
+    "abstained": 0,
+    "n_segments": 1,
+    "sequence_coverage": 1.0,
+    "max_target_span_coverage": 1.0,
+    "max_segment_target_purity": 0.6,
+    "fallback": 0,
+    "tie_disagreement": 0,
+    "returned_accessions": [
+      "Q82JL2",
+      "B2GDS5",
+      "A5U721",
+      "Q88XP6",
+      "A8YTZ7"
+    ],
+    "per_segment_worst_tie_ranks": [
+      2
+    ],
+    "segment_coordinates": [
+      [
+        0,
+        790
+      ]
+    ]
+  },
+  {
+    "item_id": "synth_real:syn_B2GDS5_motifless_fusion_40",
+    "sequence_sha256": "b0e682653f02607efee3f3b31f4f536bdf690433c869c227e80b770d106bfd12",
+    "payload": "B2GDS5",
+    "split": "evaluation",
+    "stratum": "0.50-0.70",
+    "threshold": 1.0,
+    "model": "esm2_650m",
+    "arm": "whole",
+    "aggregation": "round_robin",
+    "budget": 5,
+    "n_targets": 1,
+    "n_references": 1204,
+    "n_allowed": 1204,
+    "best_identity_left": 1.0,
+    "hit": 1,
+    "rr": 0.5,
+    "target_rank_in_output": 2,
+    "rank_semantics": "first target rank in actual fixed output",
+    "review_slots": 5,
+    "unique_returns": 5,
+    "non_target_returns": 4,
+    "abstained": 0,
+    "n_segments": 1,
+    "sequence_coverage": 1.0,
+    "max_target_span_coverage": 1.0,
+    "max_segment_target_purity": 0.6,
+    "fallback": 0,
+    "tie_disagreement": 0,
+    "returned_accessions": [
+      "Q82JL2",
+      "B2GDS5",
+      "A5U721",
+      "Q88XP6",
+      "A8YTZ7"
+    ],
+    "per_segment_worst_tie_ranks": [
+      2
+    ],
+    "segment_coordinates": [
+      [
+        0,
+        790
+      ]
+    ]
+  },
+  {
+    "item_id": "synth_real:syn_B2GDS5_motifless_fusion_40",
+    "sequence_sha256": "b0e682653f02607efee3f3b31f4f536bdf690433c869c227e80b770d106bfd12",
+    "payload": "B2GDS5",
+    "split": "evaluation",
+    "stratum": "0.50-0.70",
+    "threshold": 1.0,
+    "model": "esm2_650m",
+    "arm": "windows",
+    "aggregation": "max_score",
+    "budget": 5,
+    "n_targets": 1,
+    "n_references": 1204,
+    "n_allowed": 1204,
+    "best_identity_left": 1.0,
+    "hit": 1,
+    "rr": 1.0,
+    "target_rank_in_output": 1,
+    "rank_semantics": "first target rank in actual fixed output",
+    "review_slots": 5,
+    "unique_returns": 5,
+    "non_target_returns": 4,
+    "abstained": 0,
+    "n_segments": 5,
+    "sequence_coverage": 1.0,
+    "max_target_span_coverage": 0.6329113924050633,
+    "max_segment_target_purity": 1.0,
+    "fallback": 0,
+    "tie_disagreement": 0,
+    "returned_accessions": [
+      "B2GDS5",
+      "Q88XP6",
+      "Q03EG6",
+      "Q03Q17",
+      "A5VLG2"
+    ],
+    "per_segment_worst_tie_ranks": [
+      1,
+      1,
+      5,
+      427,
+      229
+    ],
+    "segment_coordinates": [
+      [
+        0,
+        300
+      ],
+      [
+        150,
+        450
+      ],
+      [
+        300,
+        600
+      ],
+      [
+        450,
+        750
+      ],
+      [
+        490,
+        790
+      ]
+    ]
+  },
+  {
+    "item_id": "synth_real:syn_B2GDS5_motifless_fusion_40",
+    "sequence_sha256": "b0e682653f02607efee3f3b31f4f536bdf690433c869c227e80b770d106bfd12",
+    "payload": "B2GDS5",
+    "split": "evaluation",
+    "stratum": "0.50-0.70",
+    "threshold": 1.0,
+    "model": "esm2_650m",
+    "arm": "windows",
+    "aggregation": "round_robin",
+    "budget": 5,
+    "n_targets": 1,
+    "n_references": 1204,
+    "n_allowed": 1204,
+    "best_identity_left": 1.0,
+    "hit": 1,
+    "rr": 1.0,
+    "target_rank_in_output": 1,
+    "rank_semantics": "first target rank in actual fixed output",
+    "review_slots": 5,
+    "unique_returns": 5,
+    "non_target_returns": 4,
+    "abstained": 0,
+    "n_segments": 5,
+    "sequence_coverage": 1.0,
+    "max_target_span_coverage": 0.6329113924050633,
+    "max_segment_target_purity": 1.0,
+    "fallback": 0,
+    "tie_disagreement": 0,
+    "returned_accessions": [
+      "B2GDS5",
+      "Q88XP6",
+      "Q82JL2",
+      "S5M744",
+      "Q827Y0"
+    ],
+    "per_segment_worst_tie_ranks": [
+      1,
+      1,
+      5,
+      427,
+      229
+    ],
+    "segment_coordinates": [
+      [
+        0,
+        300
+      ],
+      [
+        150,
+        450
+      ],
+      [
+        300,
+        600
+      ],
+      [
+        450,
+        750
+      ],
+      [
+        490,
+        790
+      ]
+    ]
+  }
+]

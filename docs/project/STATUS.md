@@ -113,3 +113,11 @@ tests, wheel gate · `17ea54b` study specification and panel freeze (before
 scoring) · `e8e4a9d` study results · `f12d8cf` documentation, CI, notices ·
 `b2fe310` extension specification (before fetching) · later commits: extension
 freeze and results.
+
+## Fusion evidence integration — November 22, 2026
+
+A review branch adds [fusion retrieval](../../experiments/fusion_retrieval/README.md):
+existing max/RR/whole-half code, original summary tables, a hash-checked saved-list
+replay and the measured upstream source pin. No new inference or toolkit change.
+The 12-query learned comparison and prospective aggregation test remain pending.
+Historical and shared-study denominators remain separate.
