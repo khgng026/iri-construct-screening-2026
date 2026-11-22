@@ -1,0 +1,991 @@
+{
+  "entries": [
+    {
+      "accession": "P13714",
+      "entry_version": 187,
+      "interpro": "IPR001236",
+      "label": "1.1.1.27",
+      "length": 320,
+      "role": "reference",
+      "sequence_version": 3,
+      "sha256": "c5d440295e4ab49ab77caf675dcd83d957ed5f90c0b9af0e6ee09398a04c24c5",
+      "taxon": 224308
+    },
+    {
+      "accession": "P07195",
+      "entry_version": 265,
+      "interpro": "IPR001236",
+      "label": "1.1.1.27",
+      "length": 334,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "8e6243dda6cb628412d9650d80763148742604dfe2f2f03e5782c827777400af",
+      "taxon": 9606
+    },
+    {
+      "accession": "Q27888",
+      "entry_version": 167,
+      "interpro": "IPR001236",
+      "label": "1.1.1.27",
+      "length": 333,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "5f0d41957e86b672d56a6488d2555794af11cd94983cdccca9f9b398befb13c6",
+      "taxon": 6239
+    },
+    {
+      "accession": "Q6DGK2",
+      "entry_version": 146,
+      "interpro": "IPR001236",
+      "label": "1.1.1.27",
+      "length": 334,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "08a6caa55002dbc356b804e7544a807aa59a5cd937dd9c22a9dfe50fb4206c93",
+      "taxon": 7955
+    },
+    {
+      "accession": "Q95028",
+      "entry_version": 191,
+      "interpro": "IPR001236",
+      "label": "1.1.1.27",
+      "length": 332,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "ecbec520f683cec2216c0b80502c1c242d897b2d0f69eec346ab5367365b9570",
+      "taxon": 7227
+    },
+    {
+      "accession": "P49814",
+      "entry_version": 180,
+      "interpro": "IPR001236",
+      "label": "1.1.1.37",
+      "length": 312,
+      "role": "reference",
+      "sequence_version": 3,
+      "sha256": "3bd96ea0ab167aa7ce34853f67ba44f39ca3c650cc50f65404d435679390742c",
+      "taxon": 224308
+    },
+    {
+      "accession": "P61889",
+      "entry_version": 179,
+      "interpro": "IPR001236",
+      "label": "1.1.1.37",
+      "length": 312,
+      "role": "reference",
+      "sequence_version": 1,
+      "sha256": "951046ba5936ed84b765a0998de640ca90e3d96b38eddc3938981b98f3949b3e",
+      "taxon": 83333
+    },
+    {
+      "accession": "O02640",
+      "entry_version": 172,
+      "interpro": "IPR001236",
+      "label": "1.1.1.37",
+      "length": 341,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "d7d43c486ea1b211778eb2d15e308599c158bd214bd9ae3a2309f227e679a509",
+      "taxon": 6239
+    },
+    {
+      "accession": "O82399",
+      "entry_version": 180,
+      "interpro": "IPR001236",
+      "label": "1.1.1.37",
+      "length": 354,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "c2f64f908110eb33219e3e7d546095e26b5f257632969bf84d1e50f8e730039b",
+      "taxon": 3702
+    },
+    {
+      "accession": "P17505",
+      "entry_version": 220,
+      "interpro": "IPR001236",
+      "label": "1.1.1.37",
+      "length": 334,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "a502e7a62a61fc1c7320e5fc0e4a9d3e51f393c7d3aee6c8c2f92bdf81ddb3d5",
+      "taxon": 559292
+    },
+    {
+      "accession": "Q42972",
+      "entry_version": 166,
+      "interpro": "IPR001236",
+      "label": "1.1.1.37",
+      "length": 356,
+      "role": "query",
+      "sequence_version": 3,
+      "sha256": "231a8c5e9dd29e4e4ce5ef7f5a975faebcde110993b006f9b484111af1c75dff",
+      "taxon": 39947
+    },
+    {
+      "accession": "P08200",
+      "entry_version": 208,
+      "interpro": "IPR019818",
+      "label": "1.1.1.42",
+      "length": 416,
+      "role": "reference",
+      "sequence_version": 1,
+      "sha256": "42155a6012693fa5bb26754f294a76cc865e4b0c9fe0b8fbbb22c7ebd05e8fed",
+      "taxon": 83333
+    },
+    {
+      "accession": "P39126",
+      "entry_version": 179,
+      "interpro": "IPR019818",
+      "label": "1.1.1.42",
+      "length": 423,
+      "role": "reference",
+      "sequence_version": 1,
+      "sha256": "c7ef2e1ded67fcc0f93a59ebcda53fe966785066bcba04ee46ad1d799ec8382a",
+      "taxon": 224308
+    },
+    {
+      "accession": "P21954",
+      "entry_version": 211,
+      "interpro": "IPR019818",
+      "label": "1.1.1.42",
+      "length": 428,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "3990c425f37ff90d9f0b7d97312aa108d2c38d4da2417fcbe20b4f65bba1184c",
+      "taxon": 559292
+    },
+    {
+      "accession": "Q8LPJ5",
+      "entry_version": 149,
+      "interpro": "IPR019818",
+      "label": "1.1.1.42",
+      "length": 485,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "1d1a660c266f4e3932c623682da425f3014912d2c42337d63fd8abc10c2651e6",
+      "taxon": 3702
+    },
+    {
+      "accession": "P05645",
+      "entry_version": 168,
+      "interpro": "IPR004429",
+      "label": "1.1.1.85",
+      "length": 365,
+      "role": "reference",
+      "sequence_version": 3,
+      "sha256": "5bb9a18466e1969ab6d007a3d6ae73dd8f75a32e8ac6d93944946d7e601d04fb",
+      "taxon": 224308
+    },
+    {
+      "accession": "P30125",
+      "entry_version": 195,
+      "interpro": "IPR004429",
+      "label": "1.1.1.85",
+      "length": 363,
+      "role": "reference",
+      "sequence_version": 3,
+      "sha256": "e71533a9b87a7bc1955edc7f0fe13d276b109b30c10314173dbae7656182cdc5",
+      "taxon": 83333
+    },
+    {
+      "accession": "P04173",
+      "entry_version": 201,
+      "interpro": "IPR004429",
+      "label": "1.1.1.85",
+      "length": 364,
+      "role": "query",
+      "sequence_version": 4,
+      "sha256": "085719293e2dad55f1c0ed87433a0984d0be71a560269bcd68b82d62ad881aa4",
+      "taxon": 559292
+    },
+    {
+      "accession": "P93832",
+      "entry_version": 169,
+      "interpro": "IPR004429",
+      "label": "1.1.1.85",
+      "length": 405,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "a5a10946fa15b85e9cfc9d2d2549d7595b544e12c06888ccc54cfa3375bc4b1f",
+      "taxon": 3702
+    },
+    {
+      "accession": "P06715",
+      "entry_version": 225,
+      "interpro": "IPR001100",
+      "label": "1.8.1.7",
+      "length": 450,
+      "role": "reference",
+      "sequence_version": 1,
+      "sha256": "59a417c2ca7b8ce12d38efd254cb7662dc181ff85d3fbf19ee759ac64da9394d",
+      "taxon": 83333
+    },
+    {
+      "accession": "P00390",
+      "entry_version": 274,
+      "interpro": "IPR001100",
+      "label": "1.8.1.7",
+      "length": 522,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "814d7e6114e40802ecf4cea971d5d98de724ce7451f094ffdee525c1371e301c",
+      "taxon": 9606
+    },
+    {
+      "accession": "P41921",
+      "entry_version": 214,
+      "interpro": "IPR001100",
+      "label": "1.8.1.7",
+      "length": 483,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "3756b32989fbc4823195130684afa3c70912b6261b244ddde158b01122ebc047",
+      "taxon": 559292
+    },
+    {
+      "accession": "P42770",
+      "entry_version": 186,
+      "interpro": "IPR001100",
+      "label": "1.8.1.7",
+      "length": 565,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "af69273f99d505f0d4dab74701b8e691d3ba49e9e0e695399ba81d718037026e",
+      "taxon": 3702
+    },
+    {
+      "accession": "P48642",
+      "entry_version": 174,
+      "interpro": "IPR001100",
+      "label": "1.8.1.7",
+      "length": 496,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "cfd221319bd0f19265269f358921c6bb82cf1610efe0c914a6b66835813c23b8",
+      "taxon": 39947
+    },
+    {
+      "accession": "Q93379",
+      "entry_version": 183,
+      "interpro": "IPR001100",
+      "label": "1.8.1.7",
+      "length": 473,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "e01da594c09a1db89fd8b64ff22f7d7330a782dfb8b78bc3081ec5586b310515",
+      "taxon": 6239
+    },
+    {
+      "accession": "P27302",
+      "entry_version": 200,
+      "interpro": "IPR005475",
+      "label": "2.2.1.1",
+      "length": 663,
+      "role": "reference",
+      "sequence_version": 5,
+      "sha256": "d7f79ce8bdb352a10c3a567c988cde9e8bbed03aa7aece246fb5595a8a5a11c5",
+      "taxon": 83333
+    },
+    {
+      "accession": "P45694",
+      "entry_version": 160,
+      "interpro": "IPR005475",
+      "label": "2.2.1.1",
+      "length": 667,
+      "role": "reference",
+      "sequence_version": 2,
+      "sha256": "2d8b2c68d662f228cb67facfc01190e41c28d1e0463603e526a4049d96759e46",
+      "taxon": 224308
+    },
+    {
+      "accession": "F4IW47",
+      "entry_version": 99,
+      "interpro": "IPR005475",
+      "label": "2.2.1.1",
+      "length": 741,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "46b29188deca65aa4815221fcd8a464beeee4f29f2e8dd3f8d1c7e7a559fa575",
+      "taxon": 3702
+    },
+    {
+      "accession": "P23254",
+      "entry_version": 228,
+      "interpro": "IPR005475",
+      "label": "2.2.1.1",
+      "length": 680,
+      "role": "query",
+      "sequence_version": 4,
+      "sha256": "49169d286a0d7c588f1fa626f16ccc06c933196c163cfca1fa0146341b59cbf3",
+      "taxon": 559292
+    },
+    {
+      "accession": "P29401",
+      "entry_version": 243,
+      "interpro": "IPR005475",
+      "label": "2.2.1.1",
+      "length": 623,
+      "role": "query",
+      "sequence_version": 3,
+      "sha256": "7537635d5a2dfd6b215796dbfdfb18cdd78fe52913a90a3b426ef989f7505019",
+      "taxon": 9606
+    },
+    {
+      "accession": "P00509",
+      "entry_version": 223,
+      "interpro": "IPR004839",
+      "label": "2.6.1.1",
+      "length": 396,
+      "role": "reference",
+      "sequence_version": 1,
+      "sha256": "ce1f3d587de57cc79eaf0f33d9e569d3e2480104200ef21b5879f3a7329d1a0c",
+      "taxon": 83333
+    },
+    {
+      "accession": "P53001",
+      "entry_version": 149,
+      "interpro": "IPR004839",
+      "label": "2.6.1.1",
+      "length": 393,
+      "role": "reference",
+      "sequence_version": 1,
+      "sha256": "11c9efdabd324804d58a3bc964ee26884c7e3badec3a2005157bf711179a75d6",
+      "taxon": 224308
+    },
+    {
+      "accession": "P23542",
+      "entry_version": 222,
+      "interpro": "IPR004839",
+      "label": "2.6.1.1",
+      "length": 418,
+      "role": "query",
+      "sequence_version": 3,
+      "sha256": "fd8c94d37d295be9822b09302ba280edb1344e490f2ecc37eb7a60815e7a6274",
+      "taxon": 559292
+    },
+    {
+      "accession": "P37833",
+      "entry_version": 149,
+      "interpro": "IPR004839",
+      "label": "2.6.1.1",
+      "length": 407,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "b4fb39aff564ed3c406d1f65e091489e770237021f1dae494edf53e5da085ad9",
+      "taxon": 39947
+    },
+    {
+      "accession": "P46248",
+      "entry_version": 181,
+      "interpro": "IPR004839",
+      "label": "2.6.1.1",
+      "length": 453,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "20a6dc4de7f1ee656147e0f37b9b6d1b46701a3be190e121795a5b28029c8e07",
+      "taxon": 3702
+    },
+    {
+      "accession": "Q22067",
+      "entry_version": 156,
+      "interpro": "IPR004839",
+      "label": "2.6.1.1",
+      "length": 408,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "ebab339b81c22d865ee8ba619bd619ed2e6f49932c0158ce7521c46f439e06a8",
+      "taxon": 6239
+    },
+    {
+      "accession": "Q8NHS2",
+      "entry_version": 154,
+      "interpro": "IPR004839",
+      "label": "2.6.1.1",
+      "length": 421,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "0480135abb2e6f75d7ee5115531c9894a7e9ce25e753b6556cfc89028158e2d8",
+      "taxon": 9606
+    },
+    {
+      "accession": "P0A959",
+      "entry_version": 135,
+      "interpro": "IPR004839",
+      "label": "2.6.1.2",
+      "length": 405,
+      "role": "reference",
+      "sequence_version": 1,
+      "sha256": "fc3fb38c635f09ec305993e899d475890ec3e337c6b60b50ee03c74eb5fba207",
+      "taxon": 83333
+    },
+    {
+      "accession": "P24298",
+      "entry_version": 225,
+      "interpro": "IPR004839",
+      "label": "2.6.1.2",
+      "length": 496,
+      "role": "query",
+      "sequence_version": 3,
+      "sha256": "06fd91812e67b4880f26ad8e817707233bd4ae087b96e4a2a5a820ed6fcf8803",
+      "taxon": 9606
+    },
+    {
+      "accession": "P52893",
+      "entry_version": 188,
+      "interpro": "IPR004839",
+      "label": "2.6.1.2",
+      "length": 592,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "c3e6acd081e15eca83379ae5b0dc19f2be288b1711346f443f12b89b49c19ac1",
+      "taxon": 559292
+    },
+    {
+      "accession": "Q6NYL5",
+      "entry_version": 112,
+      "interpro": "IPR004839",
+      "label": "2.6.1.2",
+      "length": 549,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "620c5e4c29120781d640b7577113facfab4695735fd898130815eabe3a942171",
+      "taxon": 7955
+    },
+    {
+      "accession": "P06986",
+      "entry_version": 208,
+      "interpro": "IPR001917",
+      "label": "2.6.1.9",
+      "length": 356,
+      "role": "reference",
+      "sequence_version": 2,
+      "sha256": "65537f08b184ff2724acfa05e74bd51f44cb341c8f4c022e03cff9d6943a9ed3",
+      "taxon": 83333
+    },
+    {
+      "accession": "P17731",
+      "entry_version": 165,
+      "interpro": "IPR001917",
+      "label": "2.6.1.9",
+      "length": 360,
+      "role": "reference",
+      "sequence_version": 3,
+      "sha256": "9b51a0bae5780aa9a4b69180216bfd3d53abb23015d052363814b24c531e6ae2",
+      "taxon": 224308
+    },
+    {
+      "accession": "P07172",
+      "entry_version": 190,
+      "interpro": "IPR001917",
+      "label": "2.6.1.9",
+      "length": 385,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "0e9f5ee3a53f0efb32d13eed31a18a5bd6c93ccd0ac870f50f31278a390ba483",
+      "taxon": 559292
+    },
+    {
+      "accession": "P0A799",
+      "entry_version": 150,
+      "interpro": "IPR001576",
+      "label": "2.7.2.3",
+      "length": 387,
+      "role": "reference",
+      "sequence_version": 2,
+      "sha256": "179943a8d2ca0ae079dc55d1068fe9ec172a6a24ff0ad0393f33e5b4dfc22728",
+      "taxon": 83333
+    },
+    {
+      "accession": "P40924",
+      "entry_version": 155,
+      "interpro": "IPR001576",
+      "label": "2.7.2.3",
+      "length": 394,
+      "role": "reference",
+      "sequence_version": 3,
+      "sha256": "72fc1bdd531e03ac88dc6a8f929c6e7bde5ed089095c8682e9837dbfea82ac65",
+      "taxon": 224308
+    },
+    {
+      "accession": "P00560",
+      "entry_version": 231,
+      "interpro": "IPR001576",
+      "label": "2.7.2.3",
+      "length": 416,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "008c43d87e5cde788e293d3e1be752a6fe6a16d91f6f777a362580e60ab5fcb5",
+      "taxon": 559292
+    },
+    {
+      "accession": "P07205",
+      "entry_version": 210,
+      "interpro": "IPR001576",
+      "label": "2.7.2.3",
+      "length": 417,
+      "role": "query",
+      "sequence_version": 3,
+      "sha256": "2e6b77f831b1e155dab8f173134df0d5710dac36d0c896e0f1c7fc7a11b5b816",
+      "taxon": 9606
+    },
+    {
+      "accession": "P50318",
+      "entry_version": 162,
+      "interpro": "IPR001576",
+      "label": "2.7.2.3",
+      "length": 478,
+      "role": "query",
+      "sequence_version": 3,
+      "sha256": "937fff4064ccc77da76218200f5f00de032034cd018e0f04d8fd1ab942fcb56b",
+      "taxon": 3702
+    },
+    {
+      "accession": "Q01604",
+      "entry_version": 180,
+      "interpro": "IPR001576",
+      "label": "2.7.2.3",
+      "length": 415,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "b2fada828c3fa6cdbdc97a6a63daf7420f0b436066ee1c48723da08877bdbd72",
+      "taxon": 7227
+    },
+    {
+      "accession": "P16304",
+      "entry_version": 193,
+      "interpro": "IPR000850",
+      "label": "2.7.4.3",
+      "length": 217,
+      "role": "reference",
+      "sequence_version": 2,
+      "sha256": "c8110f05a3aa8ba4e412810cd66eb005cb8bc45eb38b23fbdbbcab87923e6cd5",
+      "taxon": 224308
+    },
+    {
+      "accession": "P69441",
+      "entry_version": 173,
+      "interpro": "IPR000850",
+      "label": "2.7.4.3",
+      "length": 214,
+      "role": "reference",
+      "sequence_version": 1,
+      "sha256": "c7fb9fc96e9e0aabc1a454ba36086dc00a2fc71387e8d5fb44a50d830b27d697",
+      "taxon": 83333
+    },
+    {
+      "accession": "O82514",
+      "entry_version": 177,
+      "interpro": "IPR000850",
+      "label": "2.7.4.3",
+      "length": 246,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "723654893df73ee58e02d049e70cf505a9dd0f67e0fac36c8c1c66bde244af61",
+      "taxon": 3702
+    },
+    {
+      "accession": "P07170",
+      "entry_version": 238,
+      "interpro": "IPR000850",
+      "label": "2.7.4.3",
+      "length": 222,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "1f23c381ca08eaa47156ef8ec501d0dbc0c39dd8366ec174576a3e05d576f55b",
+      "taxon": 559292
+    },
+    {
+      "accession": "P34346",
+      "entry_version": 174,
+      "interpro": "IPR000850",
+      "label": "2.7.4.3",
+      "length": 251,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "27ae2d3fed300032a8338892e027b878e248ab930e88e385eff8d7b90e2b7d5f",
+      "taxon": 6239
+    },
+    {
+      "accession": "P54819",
+      "entry_version": 234,
+      "interpro": "IPR000850",
+      "label": "2.7.4.3",
+      "length": 239,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "21f80c531548da527b9c9985963e968ed738e4abd3d13a77e9e253b5eb5e3368",
+      "taxon": 9606
+    },
+    {
+      "accession": "Q08479",
+      "entry_version": 157,
+      "interpro": "IPR000850",
+      "label": "2.7.4.3",
+      "length": 241,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "5c8b527faeca0fa1fe212dd3e59cae4743f9384183b19149a1b6f029fdbf7d16",
+      "taxon": 39947
+    },
+    {
+      "accession": "Q1L8L9",
+      "entry_version": 127,
+      "interpro": "IPR000850",
+      "label": "2.7.4.3",
+      "length": 241,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "ca7b57d9dad0dc2c64c6d5fa8df94e1b290858a8625d1b616d80ffea24f3b8c0",
+      "taxon": 7955
+    },
+    {
+      "accession": "Q8IQG9",
+      "entry_version": 191,
+      "interpro": "IPR000850",
+      "label": "2.7.4.3",
+      "length": 229,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "9480773860adb7af4630973e843ec6f537b50798410b3131bb63a79f49eaa717",
+      "taxon": 7227
+    },
+    {
+      "accession": "P0A6P9",
+      "entry_version": 170,
+      "interpro": "IPR000941",
+      "label": "4.2.1.11",
+      "length": 432,
+      "role": "reference",
+      "sequence_version": 2,
+      "sha256": "427a9c2476c475ddd52e2c34117aff61006a9c1cc1efc2ed5e001064977b44c4",
+      "taxon": 83333
+    },
+    {
+      "accession": "P37869",
+      "entry_version": 195,
+      "interpro": "IPR000941",
+      "label": "4.2.1.11",
+      "length": 430,
+      "role": "reference",
+      "sequence_version": 4,
+      "sha256": "17074059f88441bd40cdabdf5b31348b5e9bb58d96c01410e2e61b8d5d535be8",
+      "taxon": 224308
+    },
+    {
+      "accession": "A6NNW6",
+      "entry_version": 126,
+      "interpro": "IPR000941",
+      "label": "4.2.1.11",
+      "length": 625,
+      "role": "query",
+      "sequence_version": 4,
+      "sha256": "c90e573b40f20af0aa5a84cfe5552c690e422b24c86e23771b796be8091aac48",
+      "taxon": 9606
+    },
+    {
+      "accession": "P00924",
+      "entry_version": 251,
+      "interpro": "IPR000941",
+      "label": "4.2.1.11",
+      "length": 437,
+      "role": "query",
+      "sequence_version": 3,
+      "sha256": "78e4db2834dfe93e67d6c4bdfe484f1aca634942e80be9e4522f59e7bb475061",
+      "taxon": 559292
+    },
+    {
+      "accession": "P15007",
+      "entry_version": 194,
+      "interpro": "IPR000941",
+      "label": "4.2.1.11",
+      "length": 500,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "5a4865a6347e5772df3792a1fbabc976bc7b208aa62f15b324dfe4b3ed2ae438",
+      "taxon": 7227
+    },
+    {
+      "accession": "P25696",
+      "entry_version": 186,
+      "interpro": "IPR000941",
+      "label": "4.2.1.11",
+      "length": 444,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "271de6e65a4e7fc3f2520a21643b36e1412465a68e394042bf1f6a0ade6e7a14",
+      "taxon": 3702
+    },
+    {
+      "accession": "Q08BC6",
+      "entry_version": 91,
+      "interpro": "IPR000941",
+      "label": "4.2.1.11",
+      "length": 576,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "ca2b4bc9082c9af35a8d496e17b0cc4d8405c4f2b5437cc8b803eb71b3480301",
+      "taxon": 7955
+    },
+    {
+      "accession": "Q27527",
+      "entry_version": 171,
+      "interpro": "IPR000941",
+      "label": "4.2.1.11",
+      "length": 434,
+      "role": "query",
+      "sequence_version": 3,
+      "sha256": "b69131dc96bd37e007227325a91d170986be99fa2b47df25778316d593a81021",
+      "taxon": 6239
+    },
+    {
+      "accession": "Q42971",
+      "entry_version": 159,
+      "interpro": "IPR000941",
+      "label": "4.2.1.11",
+      "length": 446,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "deeaf0fce8291e52819536b9ea29609c3bca9364356971bb8ba1c55163ab15d2",
+      "taxon": 39947
+    },
+    {
+      "accession": "P0A858",
+      "entry_version": 162,
+      "interpro": "IPR000652",
+      "label": "5.3.1.1",
+      "length": 255,
+      "role": "reference",
+      "sequence_version": 1,
+      "sha256": "aeeb761fbb18a00c155ec8c0da0185ffa0fe30cf4f46fbb93e1f91125ad8cb83",
+      "taxon": 83333
+    },
+    {
+      "accession": "P27876",
+      "entry_version": 170,
+      "interpro": "IPR000652",
+      "label": "5.3.1.1",
+      "length": 253,
+      "role": "reference",
+      "sequence_version": 3,
+      "sha256": "3897e098ada4751d9f38ff2e705cc3bc5393ec99479a8319858c0eaed6dcb3a1",
+      "taxon": 224308
+    },
+    {
+      "accession": "P00942",
+      "entry_version": 236,
+      "interpro": "IPR000652",
+      "label": "5.3.1.1",
+      "length": 248,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "a2bb45b1deb9d8a8c56aa33e2071b1ba1f8bd5ad72c050c1e28df73b7f04dac3",
+      "taxon": 559292
+    },
+    {
+      "accession": "P29613",
+      "entry_version": 187,
+      "interpro": "IPR000652",
+      "label": "5.3.1.1",
+      "length": 247,
+      "role": "query",
+      "sequence_version": 3,
+      "sha256": "07127ffeeca6e05ea6de041ffe9551f38c6126d1d6debc8f8b21d2ecdd9df870",
+      "taxon": 7227
+    },
+    {
+      "accession": "P48491",
+      "entry_version": 176,
+      "interpro": "IPR000652",
+      "label": "5.3.1.1",
+      "length": 254,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "6fba8526158e305213ff06f763bf9de425c07f3de3a4ec9cab7a30055e686b2a",
+      "taxon": 3702
+    },
+    {
+      "accession": "P48494",
+      "entry_version": 162,
+      "interpro": "IPR000652",
+      "label": "5.3.1.1",
+      "length": 253,
+      "role": "query",
+      "sequence_version": 3,
+      "sha256": "7acec3d9872eb8aeffdbbbbeb865393d60023baad0371e93716254e34625fb41",
+      "taxon": 39947
+    },
+    {
+      "accession": "P0A7Z0",
+      "entry_version": 148,
+      "interpro": "IPR004788",
+      "label": "5.3.1.6",
+      "length": 219,
+      "role": "reference",
+      "sequence_version": 1,
+      "sha256": "e64f09c4fa54fbdf09f094e68b4603ab012989c3f24d3c6174bc74358d691de9",
+      "taxon": 83333
+    },
+    {
+      "accession": "P49247",
+      "entry_version": 211,
+      "interpro": "IPR004788",
+      "label": "5.3.1.6",
+      "length": 311,
+      "role": "query",
+      "sequence_version": 3,
+      "sha256": "5ad5399d1a84fdafdba5cc7ff111dd73534cdfde03ed272b47f06b27464e42a2",
+      "taxon": 9606
+    },
+    {
+      "accession": "Q12189",
+      "entry_version": 197,
+      "interpro": "IPR004788",
+      "label": "5.3.1.6",
+      "length": 258,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "2efa302e5081a19b90c62cc20451f0efeb7bbe8264ed301c379b2c54087f336e",
+      "taxon": 559292
+    },
+    {
+      "accession": "P0A6T1",
+      "entry_version": 146,
+      "interpro": "IPR001672",
+      "label": "5.3.1.9",
+      "length": 549,
+      "role": "reference",
+      "sequence_version": 1,
+      "sha256": "a5e5fc08fb3028d1df90c8fc67c6b58fa2e2c8d8bd508d4f975ff22383a664e5",
+      "taxon": 83333
+    },
+    {
+      "accession": "P80860",
+      "entry_version": 163,
+      "interpro": "IPR001672",
+      "label": "5.3.1.9",
+      "length": 450,
+      "role": "reference",
+      "sequence_version": 4,
+      "sha256": "381b4233f18bf2962ff2ee495007f57e1a14a9395c8781b8c3a23c65d6774d1d",
+      "taxon": 224308
+    },
+    {
+      "accession": "P34795",
+      "entry_version": 172,
+      "interpro": "IPR001672",
+      "label": "5.3.1.9",
+      "length": 560,
+      "role": "query",
+      "sequence_version": 1,
+      "sha256": "84444c2ebdd35b532097ebe7b02106f49cb0d343b3bbc2d8942069e2de159558",
+      "taxon": 3702
+    },
+    {
+      "accession": "P42862",
+      "entry_version": 141,
+      "interpro": "IPR001672",
+      "label": "5.3.1.9",
+      "length": 567,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "8b99113ce4aa6aa030261583a99451da3afba1e4f6140722b623eb701126f2b1",
+      "taxon": 39947
+    },
+    {
+      "accession": "P52029",
+      "entry_version": 182,
+      "interpro": "IPR001672",
+      "label": "5.3.1.9",
+      "length": 558,
+      "role": "query",
+      "sequence_version": 2,
+      "sha256": "be1037876294ffa34c44c0b0a7b4002e85097a8766191c55395fa3c47c737a3f",
+      "taxon": 7227
+    }
+  ],
+  "excluded": {
+    "annotation_or_sequence_rules": 51,
+    "repeated_taxon_or_sequence_within_label": 55
+  },
+  "retrieved_on": "2026-11-22",
+  "schema": "benign-housekeeping-protein-pilot-1",
+  "source": "Reviewed UniProtKB/Swiss-Prot",
+  "sources_by_label": {
+    "1.1.1.27": {
+      "release": "2026_04",
+      "sha256": "dd302a9b60832f9780f548c83af5f7a0b05a20f8656f8cfbb404891998d1b14a",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A1.1.1.27+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "1.1.1.37": {
+      "release": "2026_04",
+      "sha256": "842ba71ce0139a794b0e2a0f8f7aea0456cb1ac0f2589a61b213d05fee9f5c35",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A1.1.1.37+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "1.1.1.42": {
+      "release": "2026_04",
+      "sha256": "371c22e1e40587f25f50e44f676c51aafe5bc8d44354ae03faab34e3ea557f9e",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A1.1.1.42+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "1.1.1.85": {
+      "release": "2026_04",
+      "sha256": "498a80965ee2f0f3986fb811c1d093b76401e564dcdefa159eb700f0a7b2b676",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A1.1.1.85+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "1.8.1.7": {
+      "release": "2026_04",
+      "sha256": "90d5c1354ab84a8bbb146abf5c43366b015556d34ffadf2c8ff353f75bbec254",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A1.8.1.7+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "2.2.1.1": {
+      "release": "2026_04",
+      "sha256": "0352e604fb923a00d389c834974f875891680b2c36179a3cf48d9d7fc909d369",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A2.2.1.1+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "2.6.1.1": {
+      "release": "2026_04",
+      "sha256": "70dd6c4bfc527e9ae842c89fab7b471410c27a6287b37e4be57ada340edf6feb",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A2.6.1.1+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "2.6.1.2": {
+      "release": "2026_04",
+      "sha256": "30b5cd1177b4f7b592b71e94ecea708563794703ca587ad50b4fb05e6bde3f4f",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A2.6.1.2+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "2.6.1.9": {
+      "release": "2026_04",
+      "sha256": "a52d5b3373a4acab27e4adea72b15032eec45c4f9c53c9454faf9ee304dd2da4",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A2.6.1.9+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "2.7.2.3": {
+      "release": "2026_04",
+      "sha256": "2ec061696938d8b072985f0c766ad1eb817cb1fed739fed16eeed559ce44f119",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A2.7.2.3+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "2.7.4.3": {
+      "release": "2026_04",
+      "sha256": "298485bd10ffce30e7e5b0860ac8aa0053bddb660831f60e879f35664cc81435",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A2.7.4.3+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "4.2.1.11": {
+      "release": "2026_04",
+      "sha256": "04bbb11e60f64d47dc5a972c92fc2a377d50dc8d7bea188363f884f7bbb8440c",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A4.2.1.11+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "5.3.1.1": {
+      "release": "2026_04",
+      "sha256": "d54029d88c50c1c85e2ea3c95ce53be93120ecef4ac4e3ff0034105c458b5de9",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A5.3.1.1+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "5.3.1.6": {
+      "release": "2026_04",
+      "sha256": "d29dd2f9a8f82f8a4c16bbcd61c21c6265052c815f95013a1b513b7c243f9880",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A5.3.1.6+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    },
+    "5.3.1.9": {
+      "release": "2026_04",
+      "sha256": "f82b9742e5af5ba4167ab19d7e5434d596d6410861a066a6ee97d4f3dcd075a5",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A5.3.1.9+AND+%28organism_id%3A83333+OR+organism_id%3A224308+OR+organism_id%3A3702+OR+organism_id%3A39947+OR+organism_id%3A559292+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9606%29&format=tsv&size=100&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cxref_interpro%2Cec%2Cversion%2Csequence_version%2Csequence"
+    }
+  },
+  "terms": "https://www.uniprot.org/help/license"
+}

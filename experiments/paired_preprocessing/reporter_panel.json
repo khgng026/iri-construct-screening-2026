@@ -1,0 +1,163 @@
+{
+  "construct_source": "NCBI GenBank nuccore EFetch, rettype=gb, retmode=text",
+  "construct_terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+  "constructs": [
+    {
+      "accession": "LC756334.1",
+      "archetype": "single_cds",
+      "id": "construct-01",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 1,
+          "source_product": "fluorescent protein mStayGold2"
+        }
+      ],
+      "sha256": "66f899004adf2f914da1f481d61949d692879da19f5c570977c7450f3ebe4ae1"
+    },
+    {
+      "accession": "PZ569447.1",
+      "archetype": "multi_cds",
+      "id": "construct-02",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "red fluorescent protein"
+        },
+        {
+          "family": "araC",
+          "feature_index": 6,
+          "source_product": "arabinose operon regulatory protein"
+        },
+        {
+          "family": "gfp_like",
+          "feature_index": 10,
+          "source_product": "superfolder green fluorescent protein"
+        }
+      ],
+      "sha256": "b99359fe3aab14f9b581d53031c98bbcd9eb7707b17938508ec4cc2b4e6fd632"
+    },
+    {
+      "accession": "LC756335.1",
+      "archetype": "tagged_fusion",
+      "id": "construct-03",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 1,
+          "source_product": "fluorescent protein td5StayGold"
+        }
+      ],
+      "sha256": "316d44ba8b6679dc6d38d03f0e1fc976b1c5e01d64f4e0e6c50044fd8d20a799"
+    },
+    {
+      "accession": "AF287729.1",
+      "archetype": "tagged_fusion",
+      "id": "construct-04",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "alpha-amylase GFP fusion protein"
+        }
+      ],
+      "sha256": "6cb6060c3ca0a319276b4a7c8538411ce64830cba202dcbe468dc72d0d909989"
+    },
+    {
+      "accession": "JX679608.1",
+      "archetype": "backbone_heavy",
+      "id": "construct-05",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "vYFPdel"
+        }
+      ],
+      "sha256": "e957194ab294acfb5664a92a1213ec006a8da1fff2ea61374686323624023044"
+    }
+  ],
+  "reference_source": {
+    "prepared_sha256": "4a54303a838221bb8712d78079193616a421909a4a8317852270ddae67abc4f4",
+    "provider": "UniProtKB/Swiss-Prot",
+    "release": "2026_04",
+    "response_sha256": "9e2000c7777820f5e4f46548eeb2e396cc45f7eeff761e01ce4ddf6101b4478b",
+    "terms_url": "https://www.uniprot.org/help/license",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+%28accession%3AP42212+OR+accession%3AQ9U6Y8+OR+accession%3AP0A9E0+OR+accession%3AP0A799+OR+accession%3AP0A6P9+OR+accession%3AP0A858+OR+accession%3AP0A6T1+OR+accession%3AP61889+OR+accession%3AP06986+OR+accession%3AP69441%29&format=tsv&size=20&fields=accession%2Cprotein_name%2Corganism_id%2Clength%2Cversion%2Csequence_version%2Csequence"
+  },
+  "references": [
+    {
+      "accession": "P06986",
+      "entry_version": 208,
+      "family": "hisat",
+      "sequence_sha256": "65537f08b184ff2724acfa05e74bd51f44cb341c8f4c022e03cff9d6943a9ed3",
+      "sequence_version": 2
+    },
+    {
+      "accession": "P0A6P9",
+      "entry_version": 170,
+      "family": "enolase",
+      "sequence_sha256": "427a9c2476c475ddd52e2c34117aff61006a9c1cc1efc2ed5e001064977b44c4",
+      "sequence_version": 2
+    },
+    {
+      "accession": "P0A6T1",
+      "entry_version": 146,
+      "family": "pgi",
+      "sequence_sha256": "a5e5fc08fb3028d1df90c8fc67c6b58fa2e2c8d8bd508d4f975ff22383a664e5",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P0A799",
+      "entry_version": 150,
+      "family": "pgk",
+      "sequence_sha256": "179943a8d2ca0ae079dc55d1068fe9ec172a6a24ff0ad0393f33e5b4dfc22728",
+      "sequence_version": 2
+    },
+    {
+      "accession": "P0A858",
+      "entry_version": 162,
+      "family": "tpi",
+      "sequence_sha256": "aeeb761fbb18a00c155ec8c0da0185ffa0fe30cf4f46fbb93e1f91125ad8cb83",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P0A9E0",
+      "entry_version": 156,
+      "family": "araC",
+      "sequence_sha256": "79d8a2ecb0a76a6668b182b1eb7f2f0d40337212c1b706de535824003d1ec743",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P42212",
+      "entry_version": 196,
+      "family": "gfp_like",
+      "sequence_sha256": "44f2688342a00e4b01e82be5e655b26499f981515d5da9a6076315627355b403",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P61889",
+      "entry_version": 179,
+      "family": "mdh",
+      "sequence_sha256": "951046ba5936ed84b765a0998de640ca90e3d96b38eddc3938981b98f3949b3e",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P69441",
+      "entry_version": 173,
+      "family": "adk",
+      "sequence_sha256": "c7fb9fc96e9e0aabc1a454ba36086dc00a2fc71387e8d5fb44a50d830b27d697",
+      "sequence_version": 1
+    },
+    {
+      "accession": "Q9U6Y8",
+      "entry_version": 87,
+      "family": "gfp_like",
+      "sequence_sha256": "016abb252860c3952220cc3698048f23bc7983664b322b933a62df0b328e0301",
+      "sequence_version": 1
+    }
+  ],
+  "retrieved_on": "2026-11-22",
+  "source_note": "Unmodified public deposited reporter sequences. Biological payloads are stored locally under ignored results paths."
+}
