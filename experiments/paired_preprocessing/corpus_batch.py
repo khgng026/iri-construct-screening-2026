@@ -273,9 +273,33 @@ def coding_dna(sequence: str, segments, codon_start):
     return ''.join(parts)[codon_start - 1:]
 
 
+def occurrence_anchor_evidence(cached_families, protein, positions, coding, table_id):
+    """Per-occurrence anchor evidence for one CDS, without mutating the shared cache.
+
+    ``unit_region_aa`` is the anchor hit in protein coordinates and is a property of the
+    protein itself, so it is cached and shared by every construct that carries this exact
+    protein. ``dna_spans`` and ``dna_region_retranslates`` are properties of *this* CDS
+    occurrence's coordinates. They must be written into a fresh dict, never back into the
+    cached entry: otherwise a later construct that repeats the same protein would overwrite
+    the location saved for this one (the counts can still pass because they are tallied as
+    each occurrence is computed, while the saved row keeps whichever write happened last).
+    """
+    from Bio.Seq import Seq
+
+    evidence = {}
+    for family, cached in cached_families.items():
+        start_aa, end_aa = cached['unit_region_aa']
+        peptide = str(Seq(coding[3 * start_aa:3 * end_aa]).translate(table=table_id))
+        retranslates = (peptide[1:] == protein[start_aa + 1:end_aa] if start_aa == 0
+                        else peptide == protein[start_aa:end_aa])
+        evidence[family] = {**cached, 'unit_region_aa': list(cached['unit_region_aa']),
+                            'dna_spans': protein_to_spans(positions, start_aa, end_aa),
+                            'dna_region_retranslates': retranslates}
+    return evidence
+
+
 def audit(run: Path):
     from Bio import SeqIO
-    from Bio.Seq import Seq
     from iri_constructs import process_inputs
 
     acquisition = read(run / 'acquisition.private.json')
@@ -383,7 +407,6 @@ def audit(run: Path):
                         checks['frozen_unit_match'] += row['frozen_unit_match']
                         evidence = label(protein)
                         row['label_class'] = evidence['label_class']
-                        row['anchor_evidence'] = evidence['families']
                         row['partial_anchor_evidence'] = evidence['partial']
                         row['near_copy_of_reference'] = evidence['near_copy_of_reference']
                         if frozen:
@@ -391,20 +414,20 @@ def audit(run: Path):
                                     sorted(frozen['families']) == sorted(evidence['families']))
                             row['frozen_label_match'] = same
                             checks['frozen_label_match'] += same
-                        # Map every anchor region back to the DNA and re-translate it as a self-check.
+                        # The anchor region in protein coordinates (unit_region_aa) is a property of the
+                        # protein and is cached. The DNA spans and the re-translation depend on THIS CDS
+                        # occurrence's coordinates, so build a fresh per-occurrence dict and never write
+                        # back into the shared cache: a repeated protein in another construct must not
+                        # overwrite this record's saved location.
                         codon_start = int(qualifiers.get('codon_start', ['1'])[0])
                         table_id = int(qualifiers.get('transl_table', ['11'])[0])
-                        segments = feature.segments
-                        positions = transcript_positions(segments, codon_start)
-                        coding = coding_dna(dna, segments, codon_start)
-                        for family, ev in evidence['families'].items():
-                            start_aa, end_aa = ev['unit_region_aa']
-                            ev['dna_spans'] = protein_to_spans(positions, start_aa, end_aa)
-                            peptide = str(Seq(coding[3 * start_aa:3 * end_aa]).translate(table=table_id))
-                            ok = peptide[1:] == protein[start_aa + 1:end_aa] if start_aa == 0 else peptide == protein[start_aa:end_aa]
-                            ev['dna_region_retranslates'] = ok
+                        positions = transcript_positions(feature.segments, codon_start)
+                        coding = coding_dna(dna, feature.segments, codon_start)
+                        anchor_evidence = occurrence_anchor_evidence(evidence['families'], protein, positions, coding, table_id)
+                        row['anchor_evidence'] = anchor_evidence
+                        for ev in anchor_evidence.values():
                             checks['anchor_regions'] += 1
-                            checks['anchor_regions_retranslate'] += ok
+                            checks['anchor_regions_retranslate'] += ev['dna_region_retranslates']
                     cds_rows.append(row)
                 constructs.append({'accession': record.source_record_id, 'sample': sample, 'status': 'ok',
                                    'batch_file': path.name, 'length': len(dna), 'topology': meta['topology'],
