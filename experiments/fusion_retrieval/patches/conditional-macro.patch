@@ -1,0 +1,29 @@
+--- a/src/pilot/benchmark.py
++++ b/src/pilot/benchmark.py
+@@ -275,10 +275,22 @@
+                 pairs, lambda v: sum(1 for x in v if x is not None and x <= depth) / len(v))
+             row["mrr_macro"] = macro_by_payload(
+                 pairs, lambda v: sum(1.0 / x for x in v if x is not None) / len(v))
+-            row["mean_rank_macro"] = macro_by_payload(
+-                pairs,
+-                lambda v: (sum(x for x in v if x is not None) / len([x for x in v if x is not None]))
+-                if any(x is not None for x in v) else 0.0, 2)
++            # Mean rank is conditional on a rank being defined. A payload with no
++            # defined rank must not contribute a fictitious rank zero (a perfect
++            # result would have rank one). Keep all-case recall/MRR above unchanged,
++            # and expose the coverage of this conditional macro statistic.
++            rank_groups: dict[str, list[int]] = {}
++            for accession, rank in pairs:
++                rank_groups.setdefault(accession, [])
++                if rank is not None:
++                    rank_groups[accession].append(rank)
++            payload_means = [sum(v) / len(v) for v in rank_groups.values() if v]
++            row["n_payloads_with_rank"] = len(payload_means)
++            row["n_payloads_without_rank"] = len(rank_groups) - len(payload_means)
++            row["mean_rank_macro_scope"] = "payload_groups_with_defined_rank"
++            row["mean_rank_macro"] = (
++                round(sum(payload_means) / len(payload_means), 2)
++                if payload_means else None)
+             out.append(row)
+     return out
+ 

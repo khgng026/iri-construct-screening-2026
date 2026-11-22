@@ -1,0 +1,12 @@
+{
+  "working_repository": "https://github.com/nk-008120/working-plasmid-pilot",
+  "measured_revision": "5dfef4734f07b981fa6305383fee170d6af28a6d",
+  "latest_reviewed_revision": "8251868aa8785de1f025ef74b72fa7b261dcaa40",
+  "benchmark_revision": "aec12a9488631194892240f7b30ee15e652aed08",
+  "reviewed_updates": [
+    "reference-window and subsegment catalogue tools",
+    "paired windowing and reference-length diagnostics",
+    "payload-level sign-test correction: 17 better, 0 worse, p approximately 1.5e-5"
+  ],
+  "licenses": "Retain upstream MIT notice and CITATION.cff; underlying biological data have separate source terms. No raw biological sequences or model caches added."
+}

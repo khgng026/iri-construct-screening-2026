@@ -206,3 +206,9 @@ See [fusion](t05_esm2_fusion/README.md),
 - [ESM-C 3.2.1 output/embedding semantics](https://github.com/evolutionaryscale/esm/blob/v3.2.1/esm/models/esmc.py)
 - [ESM-3 3.2.1 output/embedding semantics](https://github.com/evolutionaryscale/esm/blob/v3.2.1/esm/models/esm3.py)
 - [Biopython feature locations and extraction](https://github.com/biopython/biopython/blob/master/Doc/Tutorial/chapter_seq_annot.rst)
+
+## Fusion retrieval integration
+
+[Code, saved results and replay](fusion_retrieval/README.md): fixed-budget
+mergers, historical comparison tables, pinned upstream source and the next
+aggregation test. Separate research extension; no preprocessing behavior change.

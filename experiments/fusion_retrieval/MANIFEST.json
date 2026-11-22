@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "kind": "historical-code-and-result-integration",
+  "new_model_inference": false,
+  "files": [
+    {
+      "file": "scripts/budget_compare.py",
+      "source": "work/iri-session-2026-11-07/scripts/budget_compare.py",
+      "sha256": "5646d234d769e4722c50e220d03db0743cdca1f950857d298e6723c6c1f3b728"
+    },
+    {
+      "file": "scripts/prepare_comparison.py",
+      "source": "work/iri-session-2026-11-07/scripts/prepare_comparison.py",
+      "sha256": "9fb66c9ead90cb723ce44318fe831dfdc3fde2fe0160f1f1eab1959b69a84ce0"
+    },
+    {
+      "file": "scripts/run_comparison.py",
+      "source": "work/iri-session-2026-11-07/scripts/run_comparison.py",
+      "sha256": "46063deb9863ed5c21fb2414ee61185187d2c8ab47016b74fd16a309e48f60f4"
+    },
+    {
+      "file": "scripts/report_comparison.py",
+      "source": "work/iri-session-2026-11-07/scripts/report_comparison.py",
+      "sha256": "592076b799c5d5b2df415d7c5042b1309a9c7d2de1404ca588167a522b9769ab"
+    },
+    {
+      "file": "scripts/audit_nishit_saved.py",
+      "source": "work/iri-session-2026-11-07/scripts/audit_nishit_saved.py",
+      "sha256": "ae5fc8ef1e17b07c60829ca9dd53d2cfb63b3b5998e9a2e5aaf02ecc30306c08"
+    },
+    {
+      "file": "scripts/whole_preserving.py",
+      "source": "work/iri-continuation-2026-11-07/scripts/whole_preserving.py",
+      "sha256": "b135e6930ccac2fcac1a5e60794ce738a3724ca084830e2414b92365a9bb2a48"
+    },
+    {
+      "file": "tests/test_budget_compare.py",
+      "source": "work/iri-session-2026-11-07/tests/test_budget_compare.py",
+      "sha256": "cb6c8dee1240a01ac13e8e6c7d262b4ea18c93a505db45d36c2c9572fbb66089"
+    },
+    {
+      "file": "results/adaptation.csv",
+      "source": "work/iri-session-2026-11-07/catalogue-extension/results/comparison_all_alignment_esm2_650m/summary.csv",
+      "sha256": "07ec88f1019df96745dce5602d2534eae0936eb3c3b28c53361f4043dca651fd"
+    },
+    {
+      "file": "results/expanded-primary.csv",
+      "source": "work/iri-continuation-2026-11-07/results/validation/summary.csv",
+      "sha256": "83b90b01e71f4cb61135f639d718e03a1720e1e6de0c2add96a0bca10f3812be"
+    },
+    {
+      "file": "results/context.csv",
+      "source": "work/iri-campaign-2026-11-11/analysis/context/results/validation/summary.csv",
+      "sha256": "ba1a03b9231c3c9f7c3f67bd2fecccc8e4399f9d6388bc34f018c35ce1bc7457"
+    },
+    {
+      "file": "results/transfer.csv",
+      "source": "work/iri-campaign-2026-11-11/transfer/results/deposited_transfer/summary.csv",
+      "sha256": "7dca4206039e75a5bfa1c9951d3bffa42d8f0236f63d7fcda2debeabcd098210"
+    },
+    {
+      "file": "results/fusion-example.json",
+      "source": "meeting-2026-11-17/example-results.json",
+      "sha256": "5feb6b6c69c57db2fc360a6450f17328ba8683dd21d2a5c4335e6de0c3f51a4b"
+    },
+    {
+      "file": "results/composition-control.json",
+      "source": "work/iri-continuation-2026-11-11/packages/prospective-composition-results/metrics.json",
+      "sha256": "5147338676d55e8fc9f8e285789f000cfb3e68f81f22d93c7cd8476c1c924e3e"
+    },
+    {
+      "file": "patches/conditional-macro.patch",
+      "source": "work/iri-session-2026-11-07/patches/nishit-conditional-macro.patch",
+      "sha256": "b5db1903187b3d84e2c2292ef9328c4a3fc7ee2de5d29ae54744b6677b42e598"
+    }
+  ]
+}

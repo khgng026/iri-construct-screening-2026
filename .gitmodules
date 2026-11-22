@@ -1,0 +1,3 @@
+[submodule "fusion-retrieval-upstream"]
+	path = experiments/fusion_retrieval/sources/nishit-working
+	url = https://github.com/nk-008120/working-plasmid-pilot.git
