@@ -1,0 +1,250 @@
+{
+  "constructs": [
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "5-gfp_like-region9",
+          "spans": [
+            [
+              2369,
+              3089
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0030",
+      "length": 11783
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "tetr_repressor",
+          "id": "4-tetr_repressor-region8",
+          "spans": [
+            [
+              1491,
+              2109
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0071",
+      "length": 6570
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "4-gfp_like-region6",
+          "spans": [
+            [
+              2296,
+              3016
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0086",
+      "length": 7505
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "3-gfp_like-region4",
+          "spans": [
+            [
+              2647,
+              3364
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0095",
+      "length": 9292
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "5-gfp_like-region9",
+          "spans": [
+            [
+              2418,
+              3138
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0265",
+      "length": 11832
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "3-gfp_like-region4",
+          "spans": [
+            [
+              661,
+              1396
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "h0325",
+      "length": 9948
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "10-gfp_like-region12",
+          "spans": [
+            [
+              4794,
+              5508
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0361",
+      "length": 9625
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "9-gfp_like-region11",
+          "spans": [
+            [
+              3963,
+              4683
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0439",
+      "length": 5695
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "phage_rna_polymerase",
+          "id": "14-phage_rna_polymerase-region18",
+          "spans": [
+            [
+              5167,
+              7819
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0448",
+      "length": 7825
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "9-gfp_like-region11",
+          "spans": [
+            [
+              3981,
+              4701
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0515",
+      "length": 5713
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "9-gfp_like-region11",
+          "spans": [
+            [
+              3972,
+              4692
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0552",
+      "length": 5704
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gst_mu",
+          "id": "16-gst_mu-region17",
+          "spans": [
+            [
+              3424,
+              4078
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "solute_binding_protein_1",
+          "id": "16-solute_binding_protein_1-region20",
+          "spans": [
+            [
+              4159,
+              5272
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0594",
+      "length": 5741
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "chloramphenicol_acetyltransferase",
+          "id": "13-chloramphenicol_acetyltransferase-region19",
+          "spans": [
+            [
+              7162,
+              7819
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "h0606",
+      "length": 9826
+    }
+  ],
+  "schema": "paired-preprocessing-1"
+}

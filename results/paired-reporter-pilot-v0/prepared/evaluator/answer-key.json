@@ -1,0 +1,121 @@
+{
+  "constructs": [
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "construct-01-1",
+          "spans": [
+            [
+              0,
+              702
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "construct-01",
+      "length": 702
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "construct-02-2",
+          "spans": [
+            [
+              0,
+              678
+            ]
+          ],
+          "strand": -1
+        },
+        {
+          "family": "araC",
+          "id": "construct-02-6",
+          "spans": [
+            [
+              967,
+              1846
+            ]
+          ],
+          "strand": -1
+        },
+        {
+          "family": "gfp_like",
+          "id": "construct-02-10",
+          "spans": [
+            [
+              2254,
+              3079
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "construct-02",
+      "length": 3381
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "construct-03-1",
+          "spans": [
+            [
+              0,
+              1458
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "construct-03",
+      "length": 1458
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "construct-04-2",
+          "spans": [
+            [
+              1006,
+              1093
+            ],
+            [
+              2530,
+              3247
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "construct-04",
+      "length": 3524
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "construct-05-2",
+          "spans": [
+            [
+              2526,
+              3204
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "construct-05",
+      "length": 5781
+    }
+  ],
+  "schema": "paired-preprocessing-1"
+}

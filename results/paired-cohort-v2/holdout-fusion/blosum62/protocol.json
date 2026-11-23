@@ -1,0 +1,18 @@
+{
+  "characterization_id": "normalized-blosum62-cohort-v2",
+  "characterizer": "blosum62",
+  "cohort": "cohort-v2",
+  "minimum_component_overlap": 0.8,
+  "minimum_interesting_gain": 0.05,
+  "prediction_limit": 5,
+  "primary_query_cap": 4,
+  "query_caps": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "reference_panel_sha256": "893a7db7ce8aa8d06f8441c55b260c2c16b36688e7bf9d4c22a17a85cb5a561b",
+  "schema": "paired-preprocessing-1",
+  "sequence_input_sha256": "3d6a39d2e5c437e78eba299f2dd157f573b4d61502249317ea6acf0af89f7483"
+}

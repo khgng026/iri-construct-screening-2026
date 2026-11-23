@@ -1,0 +1,167 @@
+{
+  "constructs": [
+    {
+      "archetype": "backbone_heavy",
+      "components": [],
+      "id": "d0001",
+      "length": 10763
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "tetr_repressor",
+          "id": "2-tetr_repressor-anchor",
+          "spans": [
+            [
+              1250,
+              1871
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "d0002",
+      "length": 14499
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "2-gfp_like-anchor",
+          "spans": [
+            [
+              2282,
+              2996
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0003",
+      "length": 9289
+    },
+    {
+      "archetype": "single_label_other",
+      "components": [],
+      "id": "d0004",
+      "length": 5074
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [],
+      "id": "d0005",
+      "length": 9326
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [],
+      "id": "d0006",
+      "length": 14603
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "tetr_repressor",
+          "id": "12-tetr_repressor-anchor",
+          "spans": [
+            [
+              10476,
+              11097
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0007",
+      "length": 12343
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "5-gfp_like-anchor",
+          "spans": [
+            [
+              7094,
+              7808
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0008",
+      "length": 10774
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [],
+      "id": "d0009",
+      "length": 5818
+    },
+    {
+      "archetype": "single_cds",
+      "components": [],
+      "id": "d0010",
+      "length": 4438
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "tetr_repressor",
+          "id": "4-tetr_repressor-anchor",
+          "spans": [
+            [
+              7107,
+              7728
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "gfp_like",
+          "id": "8-gfp_like-anchor",
+          "spans": [
+            [
+              11285,
+              11999
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0011",
+      "length": 12394
+    },
+    {
+      "archetype": "single_label_other",
+      "components": [],
+      "id": "d0012",
+      "length": 5272
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [],
+      "id": "d0013",
+      "length": 7716
+    },
+    {
+      "archetype": "single_cds",
+      "components": [],
+      "id": "d0014",
+      "length": 7933
+    },
+    {
+      "archetype": "single_cds",
+      "components": [],
+      "id": "d0015",
+      "length": 5667
+    }
+  ],
+  "note": "anchor-region boundaries; integration check only",
+  "schema": "paired-preprocessing-1"
+}

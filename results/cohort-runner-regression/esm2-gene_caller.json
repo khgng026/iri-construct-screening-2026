@@ -1,0 +1,873 @@
+{
+  "characterization_id": "esm2-8m-reporter-panel-v0",
+  "characterizer": "esm2",
+  "gene_caller": {
+    "closed": false,
+    "engine": "pyrodigal",
+    "mask": false,
+    "meta": true,
+    "version": "3.6.3"
+  },
+  "input_sha256": "b73d93095f0662033cf3dff587911a76876a12af78db498c9cadad8077730725",
+  "method": "gene_caller",
+  "model": {
+    "device": "cpu",
+    "input_tracks": "sequence only",
+    "max_residues": 1022,
+    "model": "esm2",
+    "offline": true,
+    "precision_policy": "float32 weights; no autocast",
+    "repository": "facebook/esm2_t6_8M_UR50D",
+    "representation": "Final adapter output; residue mean; BOS/EOS/PAD excluded",
+    "requested_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "resolved_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "torch_num_interop_threads": 1,
+    "torch_num_threads": 2,
+    "truncation": false,
+    "unused_checkpoint_heads": "Masked language model head excluded; no additional pooler initialized",
+    "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+  },
+  "reference_count": 10,
+  "reference_panel_sha256": "4a54303a838221bb8712d78079193616a421909a4a8317852270ddae67abc4f4",
+  "schema": "paired-preprocessing-1",
+  "selected_inputs_sha256": "2bf502d0c4e69e86a51f95919ffea0d3e728944aa116039de291810ed5f09d2b",
+  "tiers": [
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "candidate_residues": 233,
+          "characterize_seconds": 0.04459393599995565,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.0018030500000350003,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  699
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 759580,
+            "reference_comparisons": 10,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 3,
+          "candidate_residues": 791,
+          "characterize_seconds": 0.055235578999941026,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.0069097130000272955,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 292,
+              "spans": [
+                [
+                  970,
+                  1846
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 951920,
+            "reference_comparisons": 10,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 485,
+          "characterize_seconds": 0.10723118700002487,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.003102686999909565,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1455
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 1581100,
+            "reference_comparisons": 10,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 2,
+          "candidate_residues": 680,
+          "characterize_seconds": 0.06714938000004622,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q2"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.008151299999894945,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 344,
+              "spans": [
+                [
+                  2212,
+                  3244
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 1121440,
+            "reference_comparisons": 10,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 5,
+          "candidate_residues": 962,
+          "characterize_seconds": 0.05671143199992912,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "pgi",
+              "query_id": "q5"
+            },
+            {
+              "family": "araC",
+              "query_id": "q5"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q5"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q5"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q5"
+            }
+          ],
+          "preprocess_seconds": 0.006018573000005745,
+          "queries": [
+            {
+              "id": "q5",
+              "input_residues": 286,
+              "spans": [
+                [
+                  4723,
+                  5581
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 932360,
+            "reference_comparisons": 10,
+            "scorer_inputs": 1
+          }
+        }
+      ],
+      "query_cap": 1
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "candidate_residues": 233,
+          "characterize_seconds": 4.658999955609033e-06,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 2.0940000240443624e-06,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  699
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 759580,
+            "reference_comparisons": 10,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 3,
+          "candidate_residues": 791,
+          "characterize_seconds": 0.05093424000006053,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q3"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 6.40999928691599e-07,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 292,
+              "spans": [
+                [
+                  970,
+                  1846
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 274,
+              "spans": [
+                [
+                  2254,
+                  3076
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 1845160,
+            "reference_comparisons": 20,
+            "scorer_inputs": 2
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 485,
+          "characterize_seconds": 4.949000071974297e-06,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 2.0950000134689617e-06,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1455
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 1581100,
+            "reference_comparisons": 10,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 2,
+          "candidate_residues": 680,
+          "characterize_seconds": 0.06264133999991373,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 5.280001005303347e-07,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 344,
+              "spans": [
+                [
+                  2212,
+                  3244
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 336,
+              "spans": [
+                [
+                  1164,
+                  2172
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 2216800,
+            "reference_comparisons": 20,
+            "scorer_inputs": 2
+          }
+        },
+        {
+          "candidate_count": 5,
+          "candidate_residues": 962,
+          "characterize_seconds": 0.04360583100003623,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "pgi",
+              "query_id": "q5"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "araC",
+              "query_id": "q5"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q3"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q5"
+            }
+          ],
+          "preprocess_seconds": 1.874999952633516e-06,
+          "queries": [
+            {
+              "id": "q5",
+              "input_residues": 286,
+              "spans": [
+                [
+                  4723,
+                  5581
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 236,
+              "spans": [
+                [
+                  2493,
+                  3201
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 1701720,
+            "reference_comparisons": 20,
+            "scorer_inputs": 2
+          }
+        }
+      ],
+      "query_cap": 2
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "candidate_residues": 233,
+          "characterize_seconds": 5.772999998043815e-06,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 2.0009999843750848e-06,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  699
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 759580,
+            "reference_comparisons": 10,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 3,
+          "candidate_residues": 791,
+          "characterize_seconds": 0.04141122099997574,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q3"
+            }
+          ],
+          "preprocess_seconds": 5.609999789157882e-07,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 292,
+              "spans": [
+                [
+                  970,
+                  1846
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 274,
+              "spans": [
+                [
+                  2254,
+                  3076
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 225,
+              "spans": [
+                [
+                  3,
+                  678
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 2578660,
+            "reference_comparisons": 30,
+            "scorer_inputs": 3
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 485,
+          "characterize_seconds": 4.848999992645986e-06,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 2.4220000796049135e-06,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1455
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 1581100,
+            "reference_comparisons": 10,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 2,
+          "candidate_residues": 680,
+          "characterize_seconds": 3.846999902634707e-06,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 5.890000238650828e-07,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 344,
+              "spans": [
+                [
+                  2212,
+                  3244
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 336,
+              "spans": [
+                [
+                  1164,
+                  2172
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 2216800,
+            "reference_comparisons": 20,
+            "scorer_inputs": 2
+          }
+        },
+        {
+          "candidate_count": 5,
+          "candidate_residues": 962,
+          "characterize_seconds": 0.0729886679999936,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "pgi",
+              "query_id": "q5"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "araC",
+              "query_id": "q5"
+            }
+          ],
+          "preprocess_seconds": 8.33000058264588e-07,
+          "queries": [
+            {
+              "id": "q5",
+              "input_residues": 286,
+              "spans": [
+                [
+                  4723,
+                  5581
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 236,
+              "spans": [
+                [
+                  2493,
+                  3201
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 224,
+              "spans": [
+                [
+                  465,
+                  1137
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q2",
+              "input_residues": 158,
+              "spans": [
+                [
+                  1477,
+                  1951
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok",
+          "work": {
+            "alignment_cells": 2947040,
+            "reference_comparisons": 40,
+            "scorer_inputs": 4
+          }
+        }
+      ],
+      "query_cap": 4
+    }
+  ],
+  "unique_scorer_inputs": 11,
+  "unique_scoring_seconds": 0.6023566069999333,
+  "wall_seconds": 3.671411009999929
+}

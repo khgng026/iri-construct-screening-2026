@@ -1,0 +1,770 @@
+{
+  "alignment": {
+    "extend_gap_score": -0.5,
+    "matrix": "BLOSUM62",
+    "mode": "local",
+    "normalization": "reference self-score",
+    "open_gap_score": -10.0
+  },
+  "characterization_id": "normalized-blosum62-reporter-panel-v0",
+  "characterizer": "blosum62",
+  "gene_caller": {
+    "closed": false,
+    "engine": "pyrodigal",
+    "mask": false,
+    "meta": true,
+    "version": "3.6.3"
+  },
+  "input_sha256": "b73d93095f0662033cf3dff587911a76876a12af78db498c9cadad8077730725",
+  "method": "gene_caller",
+  "reference_count": 10,
+  "reference_panel_sha256": "4a54303a838221bb8712d78079193616a421909a4a8317852270ddae67abc4f4",
+  "schema": "paired-preprocessing-1",
+  "selected_inputs_sha256": "2bf502d0c4e69e86a51f95919ffea0d3e728944aa116039de291810ed5f09d2b",
+  "tiers": [
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.006794833000014933,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "adk",
+              "query_id": "q1"
+            },
+            {
+              "family": "araC",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.0022893029999977443,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  699
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.008671839000044201,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "q2"
+            },
+            {
+              "family": "adk",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.009716308999998091,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 292,
+              "spans": [
+                [
+                  970,
+                  1846
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.013677653999991435,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "adk",
+              "query_id": "q1"
+            },
+            {
+              "family": "araC",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.004223621999983607,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1455
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 2,
+          "characterize_seconds": 0.009886501000039516,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "hisat",
+              "query_id": "q2"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q2"
+            },
+            {
+              "family": "araC",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.01045447299998159,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 344,
+              "spans": [
+                [
+                  2212,
+                  3244
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 5,
+          "characterize_seconds": 0.009310205000019778,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "adk",
+              "query_id": "q5"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q5"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q5"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q5"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q5"
+            }
+          ],
+          "preprocess_seconds": 0.008182322999971348,
+          "queries": [
+            {
+              "id": "q5",
+              "input_residues": 286,
+              "spans": [
+                [
+                  4723,
+                  5581
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 1
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.006032197000024553,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "adk",
+              "query_id": "q1"
+            },
+            {
+              "family": "araC",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.0025727449999521923,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  699
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.016761091000034867,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "adk",
+              "query_id": "q2"
+            },
+            {
+              "family": "adk",
+              "query_id": "q3"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.007919866999998249,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 292,
+              "spans": [
+                [
+                  970,
+                  1846
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 274,
+              "spans": [
+                [
+                  2254,
+                  3076
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.01329665000002933,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "adk",
+              "query_id": "q1"
+            },
+            {
+              "family": "araC",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.0046234689999664624,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1455
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 2,
+          "characterize_seconds": 0.020802536000019245,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "hisat",
+              "query_id": "q2"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.011399829999959366,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 344,
+              "spans": [
+                [
+                  2212,
+                  3244
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 336,
+              "spans": [
+                [
+                  1164,
+                  2172
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 5,
+          "characterize_seconds": 0.01624823899999228,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "adk",
+              "query_id": "q5"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q5"
+            },
+            {
+              "family": "adk",
+              "query_id": "q3"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q5"
+            }
+          ],
+          "preprocess_seconds": 0.007370798000010836,
+          "queries": [
+            {
+              "id": "q5",
+              "input_residues": 286,
+              "spans": [
+                [
+                  4723,
+                  5581
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 236,
+              "spans": [
+                [
+                  2493,
+                  3201
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 2
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.006928109000000404,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "adk",
+              "query_id": "q1"
+            },
+            {
+              "family": "araC",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.002250587999981235,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  699
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.024044500000002245,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "adk",
+              "query_id": "q2"
+            },
+            {
+              "family": "adk",
+              "query_id": "q3"
+            }
+          ],
+          "preprocess_seconds": 0.010108998000021074,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 292,
+              "spans": [
+                [
+                  970,
+                  1846
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 274,
+              "spans": [
+                [
+                  2254,
+                  3076
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 225,
+              "spans": [
+                [
+                  3,
+                  678
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.013770015999966745,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "adk",
+              "query_id": "q1"
+            },
+            {
+              "family": "araC",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.004479475000039201,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1455
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 2,
+          "characterize_seconds": 0.018673681999985092,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "hisat",
+              "query_id": "q2"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.008997219000036694,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 344,
+              "spans": [
+                [
+                  2212,
+                  3244
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 336,
+              "spans": [
+                [
+                  1164,
+                  2172
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 5,
+          "characterize_seconds": 0.025155815999994502,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "adk",
+              "query_id": "q5"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            },
+            {
+              "family": "adk",
+              "query_id": "q2"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q5"
+            }
+          ],
+          "preprocess_seconds": 0.006529682999996567,
+          "queries": [
+            {
+              "id": "q5",
+              "input_residues": 286,
+              "spans": [
+                [
+                  4723,
+                  5581
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 236,
+              "spans": [
+                [
+                  2493,
+                  3201
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 224,
+              "spans": [
+                [
+                  465,
+                  1137
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q2",
+              "input_residues": 158,
+              "spans": [
+                [
+                  1477,
+                  1951
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 4
+    }
+  ]
+}

@@ -1,0 +1,780 @@
+{
+  "characterization_id": "esm2-8m-reporter-panel-v0",
+  "characterizer": "esm2",
+  "gene_caller": {
+    "closed": false,
+    "engine": "pyrodigal",
+    "mask": false,
+    "meta": true,
+    "version": "3.6.3"
+  },
+  "input_sha256": "b73d93095f0662033cf3dff587911a76876a12af78db498c9cadad8077730725",
+  "method": "gene_caller",
+  "model": {
+    "device": "cpu",
+    "input_tracks": "sequence only",
+    "max_residues": 1022,
+    "model": "esm2",
+    "offline": true,
+    "precision_policy": "float32 weights; no autocast",
+    "repository": "facebook/esm2_t6_8M_UR50D",
+    "representation": "Final adapter output; residue mean; BOS/EOS/PAD excluded",
+    "requested_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "resolved_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "torch_num_interop_threads": 1,
+    "torch_num_threads": 2,
+    "truncation": false,
+    "unused_checkpoint_heads": "Masked language model head excluded; no additional pooler initialized",
+    "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+  },
+  "reference_count": 10,
+  "reference_panel_sha256": "4a54303a838221bb8712d78079193616a421909a4a8317852270ddae67abc4f4",
+  "schema": "paired-preprocessing-1",
+  "selected_inputs_sha256": "2bf502d0c4e69e86a51f95919ffea0d3e728944aa116039de291810ed5f09d2b",
+  "tiers": [
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.043366661999982625,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.001752070999998523,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  699
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.05332039400002486,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.007003171000008024,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 292,
+              "spans": [
+                [
+                  970,
+                  1846
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.09471164199999293,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.0031091769999989083,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1455
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 2,
+          "characterize_seconds": 0.0647801420000178,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q2"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.008091992999993636,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 344,
+              "spans": [
+                [
+                  2212,
+                  3244
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 5,
+          "characterize_seconds": 0.05049038900000369,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "pgi",
+              "query_id": "q5"
+            },
+            {
+              "family": "araC",
+              "query_id": "q5"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q5"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q5"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q5"
+            }
+          ],
+          "preprocess_seconds": 0.005958383000006506,
+          "queries": [
+            {
+              "id": "q5",
+              "input_residues": 286,
+              "spans": [
+                [
+                  4723,
+                  5581
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 1
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.04754439100003083,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.001599999999996271,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  699
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.10455358099994783,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q3"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.007082333000028029,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 292,
+              "spans": [
+                [
+                  970,
+                  1846
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 274,
+              "spans": [
+                [
+                  2254,
+                  3076
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.09810801699995864,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.0030997610000440545,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1455
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 2,
+          "characterize_seconds": 0.13402012400001695,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.0076859260000219365,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 344,
+              "spans": [
+                [
+                  2212,
+                  3244
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 336,
+              "spans": [
+                [
+                  1164,
+                  2172
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 5,
+          "characterize_seconds": 0.11479329499996993,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "pgi",
+              "query_id": "q5"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "araC",
+              "query_id": "q5"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q3"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q5"
+            }
+          ],
+          "preprocess_seconds": 0.005793750999998792,
+          "queries": [
+            {
+              "id": "q5",
+              "input_residues": 286,
+              "spans": [
+                [
+                  4723,
+                  5581
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 236,
+              "spans": [
+                [
+                  2493,
+                  3201
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 2
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.045118227999978444,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.0016896010000095885,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  699
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.1525633439999865,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q3"
+            }
+          ],
+          "preprocess_seconds": 0.007048018000034517,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 292,
+              "spans": [
+                [
+                  970,
+                  1846
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 274,
+              "spans": [
+                [
+                  2254,
+                  3076
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 225,
+              "spans": [
+                [
+                  3,
+                  678
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.10141040700000303,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "q1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            }
+          ],
+          "preprocess_seconds": 0.003208687999972426,
+          "queries": [
+            {
+              "id": "q1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1455
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 2,
+          "characterize_seconds": 0.1292234530000087,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "q2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "q2"
+            }
+          ],
+          "preprocess_seconds": 0.008039649000011195,
+          "queries": [
+            {
+              "id": "q2",
+              "input_residues": 344,
+              "spans": [
+                [
+                  2212,
+                  3244
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 336,
+              "spans": [
+                [
+                  1164,
+                  2172
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 5,
+          "characterize_seconds": 0.18186494700000821,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "pgi",
+              "query_id": "q5"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q3"
+            },
+            {
+              "family": "tpi",
+              "query_id": "q1"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "q2"
+            },
+            {
+              "family": "araC",
+              "query_id": "q5"
+            }
+          ],
+          "preprocess_seconds": 0.005750195000018721,
+          "queries": [
+            {
+              "id": "q5",
+              "input_residues": 286,
+              "spans": [
+                [
+                  4723,
+                  5581
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "q3",
+              "input_residues": 236,
+              "spans": [
+                [
+                  2493,
+                  3201
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q1",
+              "input_residues": 224,
+              "spans": [
+                [
+                  465,
+                  1137
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "q2",
+              "input_residues": 158,
+              "spans": [
+                [
+                  1477,
+                  1951
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 4
+    }
+  ]
+}

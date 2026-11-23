@@ -1,0 +1,135 @@
+{
+  "constructs": [
+    {
+      "archetype": "backbone_heavy",
+      "components": [],
+      "id": "d0001",
+      "length": 10763
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "tetr_repressor",
+          "id": "2-tetr_repressor",
+          "spans": [
+            [
+              857,
+              1874
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "d0002",
+      "length": 14499
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [],
+      "id": "d0003",
+      "length": 9289
+    },
+    {
+      "archetype": "single_label_other",
+      "components": [],
+      "id": "d0004",
+      "length": 5074
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [],
+      "id": "d0005",
+      "length": 9326
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [],
+      "id": "d0006",
+      "length": 14603
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "tetr_repressor",
+          "id": "12-tetr_repressor",
+          "spans": [
+            [
+              10473,
+              11490
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0007",
+      "length": 12343
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [],
+      "id": "d0008",
+      "length": 10774
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [],
+      "id": "d0009",
+      "length": 5818
+    },
+    {
+      "archetype": "single_cds",
+      "components": [],
+      "id": "d0010",
+      "length": 4438
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "tetr_repressor",
+          "id": "4-tetr_repressor",
+          "spans": [
+            [
+              4131,
+              4134
+            ],
+            [
+              7107,
+              8121
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0011",
+      "length": 12394
+    },
+    {
+      "archetype": "single_label_other",
+      "components": [],
+      "id": "d0012",
+      "length": 5272
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [],
+      "id": "d0013",
+      "length": 7716
+    },
+    {
+      "archetype": "single_cds",
+      "components": [],
+      "id": "d0014",
+      "length": 7933
+    },
+    {
+      "archetype": "single_cds",
+      "components": [],
+      "id": "d0015",
+      "length": 5667
+    }
+  ],
+  "schema": "paired-preprocessing-1"
+}
