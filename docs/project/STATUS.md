@@ -12,6 +12,10 @@ Updated November 22, 2026. The [research scope](SCOPE.md) and [plan](PLAN.md) de
 
 The paired verifier and two exploratory pilots are ready on `paired-research-pilot`. At two queries per construct, start-aware conversion recovered 4 of 7 documented components versus 3 of 7 for minimal conversion, with ten model calls in each arm. At four queries per construct both recovered 6 of 7. On the separate known-protein pilot, local alignment ranked the correct label first on 7 of 8 low-identity queries versus 5 of 8 for ESM-2.
 
+The reporter comparison v1 tested two more preprocessing arms. At the primary cap, Pyrodigal recovered 6 of 7 components with eight calls. Reordering the full candidate pool by start evidence recovered 4 of 7 with ten calls. Both results are exploratory. [Comparison and reproduction commands](../../experiments/paired_preprocessing/REPORTER_COMPARISON.md)
+
+The crossed reporter comparison scored the same candidates with ESM-2 and normalized BLOSUM62. Both recovered the same components at every cap. At the primary cap each recovered 6 of 7 with Pyrodigal and 3 of 7 with the minimal arm. [Results and reproduction commands](../../experiments/paired_preprocessing/CROSSED_CHARACTERIZATION.md)
+
 The related enzyme family comparison now includes 41 low-identity queries. ESM-2 residue alignment ranked 30 labels first versus 19 for mean-pooled ESM-2 and 38 for normalized BLOSUM62. Both ESM-2 arms used the same encoder outputs. [Results and reproduction commands](../../experiments/benign_protein_pilot/RELATED_FAMILIES.md)
 
-The construct-level and fusion comparisons still need a verified evaluation batch and evaluator keys. The [handoff](HANDOFF.md) records the earlier runs and available artifacts.
+Construct-level work integrates both lines on the session branch: the crossed reporter comparison and corpus audit from `paired-research-pilot`, and grouped reporting with the protein studies from `main`. The next work is to evaluate both scorers on a verified grouped batch and compare fusion segmentation on regions with documented boundaries. The [pilot handoff](HANDOFF.md) records the earlier runs and available artifacts.
