@@ -1,0 +1,962 @@
+{
+  "entries": [
+    {
+      "entry_version": 239,
+      "group": "animal_and_fungal",
+      "id": "P37837",
+      "label": "2.2.1.2",
+      "length": 337,
+      "reaction_pubmed_ids": [
+        "18687684",
+        "8955144"
+      ],
+      "sequence_version": 2,
+      "sha256": "7a37abcaafc70c5fb3d4b361c04130a63e2980d0b49ee23374750dc2e72e018e",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 199,
+      "group": "animal_and_fungal",
+      "id": "Q93092",
+      "label": "2.2.1.2",
+      "length": 337,
+      "reaction_pubmed_ids": [
+        "17003133"
+      ],
+      "sequence_version": 2,
+      "sha256": "4caa7b30cc29176cdfe476240ac356cbbe50b8c8b0727f3ba9337e2c5fdeac7c",
+      "taxon": 10090
+    },
+    {
+      "entry_version": 166,
+      "group": "microbial",
+      "id": "P0A870",
+      "label": "2.2.1.2",
+      "length": 317,
+      "reaction_pubmed_ids": [
+        "18687684",
+        "7592346"
+      ],
+      "sequence_version": 2,
+      "sha256": "1a62546566024bce4c99d73747a1edf6e64738bffeb58495ce7b18cea764b650",
+      "taxon": 83333
+    },
+    {
+      "entry_version": 185,
+      "group": "microbial",
+      "id": "P19669",
+      "label": "2.2.1.2",
+      "length": 212,
+      "reaction_pubmed_ids": [
+        "11120740"
+      ],
+      "sequence_version": 4,
+      "sha256": "843158da110361b5ce7f9966df55aa163c883cac89ece6d564cdd42355a85e90",
+      "taxon": 224308
+    },
+    {
+      "entry_version": 153,
+      "group": "microbial",
+      "id": "Q9WYD1",
+      "label": "2.2.1.2",
+      "length": 218,
+      "reaction_pubmed_ids": [
+        "11120740"
+      ],
+      "sequence_version": 1,
+      "sha256": "df94c0b0c967a17825989bbeb0dd5b37caf9abdef6e8794a36d23bbc4d1152c0",
+      "taxon": 243274
+    },
+    {
+      "entry_version": 207,
+      "group": "animal_and_fungal",
+      "id": "P15019",
+      "label": "2.2.1.2",
+      "length": 335,
+      "reaction_pubmed_ids": [
+        "2185015",
+        "8109173"
+      ],
+      "sequence_version": 4,
+      "sha256": "36a091763f469905f496e30f35ca6430e1235e79af42991d88197fd668ea6a2c",
+      "taxon": 559292
+    },
+    {
+      "entry_version": 141,
+      "group": "plant_and_algal",
+      "id": "Q8VZ56",
+      "label": "3.2.1.1",
+      "length": 423,
+      "reaction_pubmed_ids": [
+        "17324226"
+      ],
+      "sequence_version": 1,
+      "sha256": "3c6fd7bed5b8aa98876920cca26fc73ee7c5eb2d761517a2fe22bcd4b6572faf",
+      "taxon": 3702
+    },
+    {
+      "entry_version": 240,
+      "group": "animal_and_fungal",
+      "id": "P04746",
+      "label": "3.2.1.1",
+      "length": 511,
+      "reaction_pubmed_ids": [
+        "10091666",
+        "10769135",
+        "11772019",
+        "11914097"
+      ],
+      "sequence_version": 2,
+      "sha256": "427556ee7e35633327c1f10323a53d0dd5f99eadf9f9c82b9eeac4ca4690350f",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 179,
+      "group": "microbial",
+      "id": "P26612",
+      "label": "3.2.1.1",
+      "length": 495,
+      "reaction_pubmed_ids": [
+        "1400215"
+      ],
+      "sequence_version": 3,
+      "sha256": "e5eceba5762d90ca1687c937ecb0e595f4ef712d8e4075ecdcaf221df5bf72d8",
+      "taxon": 83333
+    },
+    {
+      "entry_version": 254,
+      "group": "animal_and_fungal",
+      "id": "P06280",
+      "label": "3.2.1.22",
+      "length": 429,
+      "reaction_pubmed_ids": [
+        "26415523",
+        "27211852"
+      ],
+      "sequence_version": 1,
+      "sha256": "a3757f6fbdeed39e8596df6cc5a20fd246063146afc4cbe937193a64fcc3e99e",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 154,
+      "group": "plant_and_algal",
+      "id": "Q9FXT4",
+      "label": "3.2.1.22",
+      "length": 417,
+      "reaction_pubmed_ids": [
+        "12423882"
+      ],
+      "sequence_version": 1,
+      "sha256": "9b2ad5e0736211d1e7323a85dc8dd3955164c297ffb44a94670cda71b76bf8c1",
+      "taxon": 39947
+    },
+    {
+      "entry_version": 151,
+      "group": "microbial",
+      "id": "O34645",
+      "label": "3.2.1.22",
+      "length": 432,
+      "reaction_pubmed_ids": [
+        "31138628"
+      ],
+      "sequence_version": 1,
+      "sha256": "1c5ef0e651a7eac961d395760e488d7058f48399f57915f626d126b52399a207",
+      "taxon": 224308
+    },
+    {
+      "entry_version": 91,
+      "group": "microbial",
+      "id": "G4FEF4",
+      "label": "3.2.1.22",
+      "length": 552,
+      "reaction_pubmed_ids": [
+        "17323919",
+        "24237145",
+        "25486100",
+        "26005928",
+        "27783466",
+        "9741105"
+      ],
+      "sequence_version": 1,
+      "sha256": "f4597e0dc5d83931f5893192d1bb3f6035ff30f167269a45cb356b8efe82c69f",
+      "taxon": 243274
+    },
+    {
+      "entry_version": 252,
+      "group": "animal_and_fungal",
+      "id": "P16278",
+      "label": "3.2.1.23",
+      "length": 677,
+      "reaction_pubmed_ids": [
+        "15714521",
+        "19472408",
+        "24737316",
+        "2511208",
+        "25936995",
+        "3143362",
+        "8200356"
+      ],
+      "sequence_version": 2,
+      "sha256": "30ae540d47dc1251315dbbd90ec597d69fddefc1839a5e91832887e41ca3abe9",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 193,
+      "group": "animal_and_fungal",
+      "id": "P23780",
+      "label": "3.2.1.23",
+      "length": 647,
+      "reaction_pubmed_ids": [
+        "2124109"
+      ],
+      "sequence_version": 1,
+      "sha256": "4af1c97226e2d3a4f3f564e31931211a45eae01fbe0b3cc718611654bc57f395",
+      "taxon": 10090
+    },
+    {
+      "entry_version": 135,
+      "group": "microbial",
+      "id": "O07012",
+      "label": "3.2.1.23",
+      "length": 672,
+      "reaction_pubmed_ids": [
+        "17056685",
+        "27501980"
+      ],
+      "sequence_version": 2,
+      "sha256": "dff947fc072128e3e35b9abe41eabe9e48c2e7ea6a4fc3249eae51530f3b28f9",
+      "taxon": 224308
+    },
+    {
+      "entry_version": 186,
+      "group": "animal_and_fungal",
+      "id": "Q9VMY9",
+      "label": "3.5.4.3",
+      "length": 448,
+      "reaction_pubmed_ids": [
+        "19567870"
+      ],
+      "sequence_version": 1,
+      "sha256": "3f7e823e45bce9532350665d6a0fef370c75f29166c9c9070865d1e09bbbf7ea",
+      "taxon": 7227
+    },
+    {
+      "entry_version": 205,
+      "group": "animal_and_fungal",
+      "id": "Q9Y2T3",
+      "label": "3.5.4.3",
+      "length": 454,
+      "reaction_pubmed_ids": [
+        "10075721",
+        "22662200"
+      ],
+      "sequence_version": 1,
+      "sha256": "1d5cbda89d40efce4f1fb05240f28fff39e28d7070003df26e5fba5328b77fea",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 157,
+      "group": "microbial",
+      "id": "P76641",
+      "label": "3.5.4.3",
+      "length": 439,
+      "reaction_pubmed_ids": [
+        "10913105"
+      ],
+      "sequence_version": 1,
+      "sha256": "6be357ed52bee5995478ed693a4d5655b3e37d6fd6eaa761193c827833fddcf9",
+      "taxon": 83333
+    },
+    {
+      "entry_version": 184,
+      "group": "animal_and_fungal",
+      "id": "Q07729",
+      "label": "3.5.4.3",
+      "length": 489,
+      "reaction_pubmed_ids": [
+        "15565584"
+      ],
+      "sequence_version": 1,
+      "sha256": "1be983c52f092a3f194dfca3170feed1da79046f8cd1d4237af09a48c734cc26",
+      "taxon": 559292
+    },
+    {
+      "entry_version": 258,
+      "group": "animal_and_fungal",
+      "id": "P00813",
+      "label": "3.5.4.4",
+      "length": 363,
+      "reaction_pubmed_ids": [
+        "16670267",
+        "23193172",
+        "26166670",
+        "8452534",
+        "9361033"
+      ],
+      "sequence_version": 3,
+      "sha256": "f4124bbcd051f8182a69fa8eb7767b80cfc460fdd1a01eb6e8567315f1bc4b97",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 224,
+      "group": "animal_and_fungal",
+      "id": "P03958",
+      "label": "3.5.4.4",
+      "length": 352,
+      "reaction_pubmed_ids": [
+        "10720488",
+        "8634299",
+        "8672487",
+        "8942668",
+        "9272950"
+      ],
+      "sequence_version": 3,
+      "sha256": "ae372e92c280c531aebbd4b272360911a6ff99bfe3624e03195cd7b5de120c92",
+      "taxon": 10090
+    },
+    {
+      "entry_version": 152,
+      "group": "animal_and_fungal",
+      "id": "Q920P6",
+      "label": "3.5.4.4",
+      "length": 352,
+      "reaction_pubmed_ids": [
+        "19900420"
+      ],
+      "sequence_version": 3,
+      "sha256": "f5fecfc22f373b8fceeb337f1ec09ff3ee32d94204295540f2a5eaa14b8f5403",
+      "taxon": 10116
+    },
+    {
+      "entry_version": 184,
+      "group": "microbial",
+      "id": "P22333",
+      "label": "3.5.4.4",
+      "length": 333,
+      "reaction_pubmed_ids": [
+        "1998686",
+        "357905"
+      ],
+      "sequence_version": 2,
+      "sha256": "3a9470b89fff20b787c77175d2c694f16f0cd389eb449f41d1b87c7184e5dd3d",
+      "taxon": 83333
+    },
+    {
+      "entry_version": 126,
+      "group": "microbial",
+      "id": "Q9AK25",
+      "label": "3.5.4.4",
+      "length": 396,
+      "reaction_pubmed_ids": [
+        "21511036"
+      ],
+      "sequence_version": 1,
+      "sha256": "81e1f63913ebe1cc60e3591b89463369c74d1e9673b66a17a476fabe7da51a40",
+      "taxon": 100226
+    },
+    {
+      "entry_version": 166,
+      "group": "plant_and_algal",
+      "id": "O65896",
+      "label": "3.5.4.5",
+      "length": 301,
+      "reaction_pubmed_ids": [
+        "10024464",
+        "10469156"
+      ],
+      "sequence_version": 1,
+      "sha256": "6abc43837040dddaff76c9e71475d6bde7f55d2ae53f4f69d5523d929904a60b",
+      "taxon": 3702
+    },
+    {
+      "entry_version": 209,
+      "group": "animal_and_fungal",
+      "id": "P32320",
+      "label": "3.5.4.5",
+      "length": 146,
+      "reaction_pubmed_ids": [
+        "7923172",
+        "9596658"
+      ],
+      "sequence_version": 2,
+      "sha256": "6bac7f2ffc270dc95b451aae54c85ce01ab5e4f15f7ced5e397d76fe1501dea2",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 201,
+      "group": "animal_and_fungal",
+      "id": "Q06549",
+      "label": "3.5.4.5",
+      "length": 142,
+      "reaction_pubmed_ids": [
+        "10501935"
+      ],
+      "sequence_version": 1,
+      "sha256": "6adeb2ba30faf3e3a353ba41a06815025c1c8c1280030edd38b4acbe3ae5902b",
+      "taxon": 559292
+    },
+    {
+      "entry_version": 165,
+      "group": "plant_and_algal",
+      "id": "O80452",
+      "label": "3.5.4.6",
+      "length": 839,
+      "reaction_pubmed_ids": [
+        "16543243"
+      ],
+      "sequence_version": 2,
+      "sha256": "95a5086b6329d02069dae3c1b9b784adf9afcd697f153798749671464d02b17c",
+      "taxon": 3702
+    },
+    {
+      "entry_version": 211,
+      "group": "animal_and_fungal",
+      "id": "P23109",
+      "label": "3.5.4.6",
+      "length": 747,
+      "reaction_pubmed_ids": [
+        "11102975"
+      ],
+      "sequence_version": 3,
+      "sha256": "a0afc094d1ab2597e7caac33ac6f578442d5be8694cd50929b140b5efe1b42b3",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 167,
+      "group": "animal_and_fungal",
+      "id": "O08739",
+      "label": "3.5.4.6",
+      "length": 766,
+      "reaction_pubmed_ids": [
+        "9133604"
+      ],
+      "sequence_version": 2,
+      "sha256": "1229619f18ec4a090c1ba798fa3fb619fe0519516cfc0e9ca73afe68c8ad7311",
+      "taxon": 10090
+    },
+    {
+      "entry_version": 139,
+      "group": "animal_and_fungal",
+      "id": "O09178",
+      "label": "3.5.4.6",
+      "length": 765,
+      "reaction_pubmed_ids": [
+        "9291127"
+      ],
+      "sequence_version": 2,
+      "sha256": "f75069793c3d75d4051e473e2fa8b49784be375443801cdd650e243cf0807ffa",
+      "taxon": 10116
+    },
+    {
+      "entry_version": 159,
+      "group": "animal_and_fungal",
+      "id": "P50998",
+      "label": "3.5.4.6",
+      "length": 831,
+      "reaction_pubmed_ids": [
+        "8440738"
+      ],
+      "sequence_version": 3,
+      "sha256": "dbea37f063f8abea733c7cf6ea486a0d9614e24bc306861976a74c1c5bfd7891",
+      "taxon": 284812
+    },
+    {
+      "entry_version": 215,
+      "group": "animal_and_fungal",
+      "id": "P15274",
+      "label": "3.5.4.6",
+      "length": 810,
+      "reaction_pubmed_ids": [
+        "2690949"
+      ],
+      "sequence_version": 2,
+      "sha256": "d14014ca64e30569efe6f6be795f56e84f51e867e6a07e29200ebb2fff6078a8",
+      "taxon": 559292
+    },
+    {
+      "entry_version": 182,
+      "group": "plant_and_algal",
+      "id": "Q9SJQ9",
+      "label": "4.1.2.13",
+      "length": 358,
+      "reaction_pubmed_ids": [
+        "21782461"
+      ],
+      "sequence_version": 1,
+      "sha256": "9e7368d8dbd96024f38584f74a3b78e6a495653970d873c4c0622e6674984875",
+      "taxon": 3702
+    },
+    {
+      "entry_version": 154,
+      "group": "animal_and_fungal",
+      "id": "P54216",
+      "label": "4.1.2.13",
+      "length": 366,
+      "reaction_pubmed_ids": [
+        "9056253"
+      ],
+      "sequence_version": 1,
+      "sha256": "e9e733e96659b057d355d7df7df5778953bef613dd8e755e19e999247d80d0cc",
+      "taxon": 6239
+    },
+    {
+      "entry_version": 227,
+      "group": "animal_and_fungal",
+      "id": "P07764",
+      "label": "4.1.2.13",
+      "length": 361,
+      "reaction_pubmed_ids": [
+        "8537310"
+      ],
+      "sequence_version": 5,
+      "sha256": "14974329cde68153ce0137564cacb679978ae009aff69a4a57ef84cdbba9c959",
+      "taxon": 7227
+    },
+    {
+      "entry_version": 268,
+      "group": "animal_and_fungal",
+      "id": "P04075",
+      "label": "4.1.2.13",
+      "length": 364,
+      "reaction_pubmed_ids": [
+        "14766013",
+        "2204832"
+      ],
+      "sequence_version": 2,
+      "sha256": "147f5e1c01a9c46a190f49fb23c655e3faedff27e9d248d8b909000dc1947850",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 219,
+      "group": "animal_and_fungal",
+      "id": "P05064",
+      "label": "4.1.2.13",
+      "length": 364,
+      "reaction_pubmed_ids": [
+        "28723898"
+      ],
+      "sequence_version": 2,
+      "sha256": "a6a07fd148d6b3946cd2150896e8c184d0637fafd53ae18088cce9b908729647",
+      "taxon": 10090
+    },
+    {
+      "entry_version": 135,
+      "group": "microbial",
+      "id": "P0A991",
+      "label": "4.1.2.13",
+      "length": 350,
+      "reaction_pubmed_ids": [
+        "9531482"
+      ],
+      "sequence_version": 2,
+      "sha256": "40d0f62261a87478dab823f424639d51cad1718e508c5433bd5a162a7094dfc4",
+      "taxon": 83333
+    },
+    {
+      "entry_version": 76,
+      "group": "microbial",
+      "id": "D4GYE0",
+      "label": "4.1.2.13",
+      "length": 330,
+      "reaction_pubmed_ids": [
+        "22493022"
+      ],
+      "sequence_version": 1,
+      "sha256": "27544d06917da7ef7c0cb876702d69214bf0315329b83877cc10933f6c214ab7",
+      "taxon": 309800
+    },
+    {
+      "entry_version": 225,
+      "group": "animal_and_fungal",
+      "id": "P14540",
+      "label": "4.1.2.13",
+      "length": 359,
+      "reaction_pubmed_ids": [
+        "2647491"
+      ],
+      "sequence_version": 3,
+      "sha256": "ef88691f84f4715761e6915b305519e5989a1aced74fdfedee534f00e4bbd860",
+      "taxon": 559292
+    },
+    {
+      "entry_version": 188,
+      "group": "animal_and_fungal",
+      "id": "Q9Y315",
+      "label": "4.1.2.4",
+      "length": 318,
+      "reaction_pubmed_ids": [
+        "25229427"
+      ],
+      "sequence_version": 2,
+      "sha256": "82763f5188275fb566fd28d777b0dd44a0de1640ea029d771d689fceba639bb7",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 149,
+      "group": "microbial",
+      "id": "P0A6L0",
+      "label": "4.1.2.4",
+      "length": 259,
+      "reaction_pubmed_ids": [
+        "11598300",
+        "17905878",
+        "6749498"
+      ],
+      "sequence_version": 1,
+      "sha256": "9804ca0c6e09086c5690dd2a8c5473cda1b867ce7cffcc66c6c8dca6e80ab0b3",
+      "taxon": 83333
+    },
+    {
+      "entry_version": 158,
+      "group": "microbial",
+      "id": "P39121",
+      "label": "4.1.2.4",
+      "length": 223,
+      "reaction_pubmed_ids": [
+        "8550462"
+      ],
+      "sequence_version": 3,
+      "sha256": "e1dcc6e6701ce1089292cb3cd470e36b831c4b54fc89eccece9cc86e8bca5ffe",
+      "taxon": 224308
+    },
+    {
+      "entry_version": 159,
+      "group": "microbial",
+      "id": "Q9X1P5",
+      "label": "4.1.2.4",
+      "length": 248,
+      "reaction_pubmed_ids": [
+        "17905878"
+      ],
+      "sequence_version": 1,
+      "sha256": "668c6ff52abbedef6aef08c734e3b28a364e092e91594b4a0d500feec5639d91",
+      "taxon": 243274
+    },
+    {
+      "entry_version": 108,
+      "group": "plant_and_algal",
+      "id": "Q43157",
+      "label": "5.1.3.1",
+      "length": 285,
+      "reaction_pubmed_ids": [
+        "8616224",
+        "9733539",
+        "9890975"
+      ],
+      "sequence_version": 1,
+      "sha256": "1989828d8451db9b3bb703e5d36d8961f57ba3838106bf9c8b27478708aa8b95",
+      "taxon": 3562
+    },
+    {
+      "entry_version": 195,
+      "group": "animal_and_fungal",
+      "id": "Q96AT9",
+      "label": "5.1.3.1",
+      "length": 228,
+      "reaction_pubmed_ids": [
+        "20923965"
+      ],
+      "sequence_version": 1,
+      "sha256": "cd6611372c537cc8f71aa5635ce2374a756298982f561e4aa9bb734254e754e6",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 141,
+      "group": "microbial",
+      "id": "P0AG07",
+      "label": "5.1.3.1",
+      "length": 225,
+      "reaction_pubmed_ids": [
+        "21402925"
+      ],
+      "sequence_version": 1,
+      "sha256": "9a63df5d2e64de45ba8c40e5353dbea31541ae1dc2a8d9732279c4a7fca0325e",
+      "taxon": 83333
+    },
+    {
+      "entry_version": 159,
+      "group": "plant_and_algal",
+      "id": "Q9ZU38",
+      "label": "5.3.1.6",
+      "length": 265,
+      "reaction_pubmed_ids": [
+        "19744161"
+      ],
+      "sequence_version": 1,
+      "sha256": "8f301857e8b302fe4ad931ff64c446a9bf81d4cc4d21dc74560d83c74a562089",
+      "taxon": 3702
+    },
+    {
+      "entry_version": 164,
+      "group": "animal_and_fungal",
+      "id": "P47968",
+      "label": "5.3.1.6",
+      "length": 303,
+      "reaction_pubmed_ids": [
+        "7758956"
+      ],
+      "sequence_version": 2,
+      "sha256": "518226b979680178671a35e50218c9ae26cf68963e80c945a01ef1e63578f29c",
+      "taxon": 10090
+    },
+    {
+      "entry_version": 183,
+      "group": "microbial",
+      "id": "P37351",
+      "label": "5.3.1.6",
+      "length": 149,
+      "reaction_pubmed_ids": [
+        "1104357",
+        "18640127"
+      ],
+      "sequence_version": 2,
+      "sha256": "26d0a001418975882f26f54a688d32f385420d1d923546d4a5de936c715ed3a5",
+      "taxon": 83333
+    },
+    {
+      "entry_version": 157,
+      "group": "plant_and_algal",
+      "id": "Q9FZH5",
+      "label": "5.3.1.8",
+      "length": 441,
+      "reaction_pubmed_ids": [
+        "18755683"
+      ],
+      "sequence_version": 1,
+      "sha256": "2d7afd504ab09da41c9701fea7f7dc054c887ec0f83a58502db542ac4df14403",
+      "taxon": 3702
+    },
+    {
+      "entry_version": 233,
+      "group": "animal_and_fungal",
+      "id": "P34949",
+      "label": "5.3.1.8",
+      "length": 423,
+      "reaction_pubmed_ids": [
+        "8307007"
+      ],
+      "sequence_version": 2,
+      "sha256": "a20e4db311a049abf4eb2a6be8501d331bb1b991c6f21f2d39d003405763f79d",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 173,
+      "group": "animal_and_fungal",
+      "id": "Q924M7",
+      "label": "5.3.1.8",
+      "length": 423,
+      "reaction_pubmed_ids": [
+        "12122025"
+      ],
+      "sequence_version": 1,
+      "sha256": "05d8d155f2e288e56cc130f99897c88d38f6f9f9e970b27db175d93597cfdb68",
+      "taxon": 10090
+    },
+    {
+      "entry_version": 256,
+      "group": "animal_and_fungal",
+      "id": "P06744",
+      "label": "5.3.1.9",
+      "length": 558,
+      "reaction_pubmed_ids": [
+        "28803808"
+      ],
+      "sequence_version": 4,
+      "sha256": "272fc149643cdf85e7bdf8be908a732f796d89ed1c62fc229e576e042c290983",
+      "taxon": 9606
+    },
+    {
+      "entry_version": 209,
+      "group": "animal_and_fungal",
+      "id": "P06745",
+      "label": "5.3.1.9",
+      "length": 558,
+      "reaction_pubmed_ids": [
+        "2344351",
+        "8417789"
+      ],
+      "sequence_version": 4,
+      "sha256": "fb717f62e662657f08c5e36c2ecd2d1ff39bd846475864217ef1ccca6cec06d6",
+      "taxon": 10090
+    },
+    {
+      "entry_version": 153,
+      "group": "animal_and_fungal",
+      "id": "Q6P6V0",
+      "label": "5.3.1.9",
+      "length": 558,
+      "reaction_pubmed_ids": [
+        "2709006"
+      ],
+      "sequence_version": 1,
+      "sha256": "32b04d14673d2a03940025415ac79caba5fe2fe7504d584e7ab87775577a6b88",
+      "taxon": 10116
+    },
+    {
+      "entry_version": 139,
+      "group": "plant_and_algal",
+      "id": "P42863",
+      "label": "5.3.1.9",
+      "length": 567,
+      "reaction_pubmed_ids": [
+        "8722567"
+      ],
+      "sequence_version": 2,
+      "sha256": "f91f02cbf2738712c720b60e3b058ee72fa30cd125af9fdbd2fa5e8367a1dfeb",
+      "taxon": 39947
+    },
+    {
+      "entry_version": 143,
+      "group": "microbial",
+      "id": "Q9X1A5",
+      "label": "5.3.1.9",
+      "length": 448,
+      "reaction_pubmed_ids": [
+        "33422670"
+      ],
+      "sequence_version": 1,
+      "sha256": "0e55f8f32af572690bf0f1a3f3039b208190b98a85a7fbd2af807411147afb0d",
+      "taxon": 243274
+    },
+    {
+      "entry_version": 220,
+      "group": "animal_and_fungal",
+      "id": "P12709",
+      "label": "5.3.1.9",
+      "length": 554,
+      "reaction_pubmed_ids": [
+        "1730590",
+        "6572382"
+      ],
+      "sequence_version": 3,
+      "sha256": "f8a1b926544824ed16c2e96f678d9416272ae90ac240bad0a07dc0e2ae8ee5c6",
+      "taxon": 559292
+    }
+  ],
+  "release": "2026_04",
+  "retrieved_on": "2026-11-23",
+  "schema": "natural-experimental-enzyme-reactions-1",
+  "sources": {
+    "2.2.1.2": {
+      "release": "2026_04",
+      "sha256": "29e75c09a6d4df96771d1c57f18ec31b14fd37488fb214c961ee6494bd1cbfb7",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A2.2.1.2+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.2.1.1": {
+      "release": "2026_04",
+      "sha256": "afe7c223e276bd143eb61f451caf32091df40ec120e7d662fbe6877907ed8a34",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.2.1.1+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.2.1.10": {
+      "release": "2026_04",
+      "sha256": "5e580c28f6c82be1aaa97c83520c455515a15396e28c1461906e09d155b0f4dc",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.2.1.10+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.2.1.2": {
+      "release": "2026_04",
+      "sha256": "b68da4b9ee1673e755e9844707ef8e9b02d988938da7c3f04dcb9303de969ed7",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.2.1.2+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.2.1.20": {
+      "release": "2026_04",
+      "sha256": "263b5e49b26cbf91181a7c4d30d39e0aa75541d48daebfbae84e9cb4388600b1",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.2.1.20+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.2.1.22": {
+      "release": "2026_04",
+      "sha256": "202f8241bf49e8bc60e0c42f57987e874f0891a139a6b24a8e873b12ba913596",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.2.1.22+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.2.1.23": {
+      "release": "2026_04",
+      "sha256": "1aab2cd2848e7e6dd5195ba809d46a80c2764c5e3cdb59c804199a120a6df32f",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.2.1.23+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.2.1.3": {
+      "release": "2026_04",
+      "sha256": "6db0092a3546ca8b60596ba719b1ac6323e72a4fb5fcb5da45830681ed35ef25",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.2.1.3+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.2.1.4": {
+      "release": "2026_04",
+      "sha256": "9b32bf92da8ed270856410f394ee031796b7be87646934f85beea210e3dab79d",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.2.1.4+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.2.1.8": {
+      "release": "2026_04",
+      "sha256": "b2a91951e371ae945d7f3e01e3ee89d24680139f99fb8656335777308263e43e",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.2.1.8+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.5.4.12": {
+      "release": "2026_04",
+      "sha256": "f52646d214446f67d4b51e1f7abe9a1dfc954b4b9edb2d3e6d2cb068a6f558bc",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.5.4.12+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.5.4.2": {
+      "release": "2026_04",
+      "sha256": "42bec0f87a2c50f70393be06fcc58bcc8fc02e7dc38b88c9a54dc25827d22d94",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.5.4.2+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.5.4.3": {
+      "release": "2026_04",
+      "sha256": "c17c89980dfac6311ebb41ea55d22ba1d75b70574de4121e4323d8a3e08271e8",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.5.4.3+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.5.4.4": {
+      "release": "2026_04",
+      "sha256": "39dddf071836be3a530b78986fe9ec91e4cdf5a526ba5dfa58bdad15f9d311f1",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.5.4.4+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.5.4.5": {
+      "release": "2026_04",
+      "sha256": "3977410029d614f3481290c3ed5fe49e1634b018d45b07443e0afadb0cd2ff85",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.5.4.5+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.5.4.6": {
+      "release": "2026_04",
+      "sha256": "f134fff2713f44d7866143bce07777cafcec989e969cdf7270e68c262635d74c",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.5.4.6+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "3.5.4.9": {
+      "release": "2026_04",
+      "sha256": "963e9b5baec32ccfd88ec253a0d54d7712bcd7459ec5c432a4d4a2b3deac66cc",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A3.5.4.9+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "4.1.2.13": {
+      "release": "2026_04",
+      "sha256": "960b6706635eb71ae2a1fca3bbefc7a80464527fa627532a21bc9327a06b1907",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A4.1.2.13+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "4.1.2.4": {
+      "release": "2026_04",
+      "sha256": "e8704dbeb8eaf60264fa200c9317c5add82962d470670e2d13a3096bb50902de",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A4.1.2.4+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "5.1.3.1": {
+      "release": "2026_04",
+      "sha256": "fb42414d51e5192b00dafd33f488f9137893dfafb725c2a62b6bb7f21389bc9d",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A5.1.3.1+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "5.3.1.1": {
+      "release": "2026_04",
+      "sha256": "5c65a9e1057de56b4b40d276cc27f3c011b39971d1c9a8fadf8af82a46198abd",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A5.3.1.1+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "5.3.1.6": {
+      "release": "2026_04",
+      "sha256": "4071ae89b19f7d319b1e0500a8e49e4fa2abe060f58bb2dadbc77fc47ef20361",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A5.3.1.6+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "5.3.1.8": {
+      "release": "2026_04",
+      "sha256": "73f83515f4f4aee86dc58a0e0754aeff9150538473a3fa9f17fe7a7b90d37fea",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A5.3.1.8+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    },
+    "5.3.1.9": {
+      "release": "2026_04",
+      "sha256": "2627b141a1e0a79a4e9ab18c724640dccbd8c8292ebf25d808a05862d3e2d2a4",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+ec%3A5.3.1.9+AND+%28organism_id%3A1423+OR+organism_id%3A1582+OR+organism_id%3A1590+OR+organism_id%3A2190+OR+organism_id%3A2238+OR+organism_id%3A2287+OR+organism_id%3A2336+OR+organism_id%3A83333+OR+organism_id%3A100226+OR+organism_id%3A187420+OR+organism_id%3A224308+OR+organism_id%3A224325+OR+organism_id%3A243232+OR+organism_id%3A243274+OR+organism_id%3A262724+OR+organism_id%3A272944+OR+organism_id%3A273057+OR+organism_id%3A273116+OR+organism_id%3A309800+OR+organism_id%3A3055+OR+organism_id%3A3218+OR+organism_id%3A3562+OR+organism_id%3A3702+OR+organism_id%3A3847+OR+organism_id%3A3880+OR+organism_id%3A4113+OR+organism_id%3A4530+OR+organism_id%3A4577+OR+organism_id%3A39947+OR+organism_id%3A4896+OR+organism_id%3A4932+OR+organism_id%3A559292+OR+organism_id%3A284812+OR+organism_id%3A6239+OR+organism_id%3A7227+OR+organism_id%3A7955+OR+organism_id%3A9031+OR+organism_id%3A9606+OR+organism_id%3A9913+OR+organism_id%3A10090+OR+organism_id%3A10116%29&format=json&size=250&fields=accession%2Cprotein_name%2Corganism_id%2Csequence%2Cec%2Ccc_catalytic_activity%2Cversion%2Csequence_version"
+    }
+  },
+  "terms": "https://www.uniprot.org/help/license"
+}

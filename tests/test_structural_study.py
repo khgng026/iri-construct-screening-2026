@@ -1,5 +1,6 @@
 import unittest
 
+from experiments.benign_protein_pilot.reaction_study import _evidence
 from experiments.benign_protein_pilot.structural_study import _identity_tier, _top_label, family_folds, superfamily
 
 
@@ -26,3 +27,15 @@ class StructuralStudyTest(unittest.TestCase):
         self.assertEqual(_identity_tier(0.24999), 'under_25')
         self.assertEqual(_identity_tier(0.25), '25_to_under_30')
         self.assertEqual(_identity_tier(0.30), '30_to_under_40')
+
+    def test_reaction_evidence_requires_experimental_pubmed_support_for_the_exact_label(self):
+        labelled_reaction = {'commentType': 'CATALYTIC ACTIVITY', 'reaction': {
+            'ecNumber': '3.2.1.1', 'evidences': [
+                {'evidenceCode': 'ECO:0000250', 'source': 'PubMed', 'id': '123'},
+                {'evidenceCode': 'ECO:0000269', 'source': 'PubMed', 'id': '456'},
+            ],
+        }}
+        self.assertEqual(_evidence({'comments': [labelled_reaction]}, '3.2.1.1'), ['456'])
+        self.assertEqual(_evidence({'comments': [labelled_reaction]}, '3.2.1.2'), [])
+        second_reaction = {'commentType': 'CATALYTIC ACTIVITY', 'reaction': {'ecNumber': '3.2.1.2'}}
+        self.assertEqual(_evidence({'comments': [labelled_reaction, second_reaction]}, '3.2.1.1'), [])

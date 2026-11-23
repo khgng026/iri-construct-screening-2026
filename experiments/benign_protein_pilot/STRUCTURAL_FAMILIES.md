@@ -33,3 +33,17 @@ This is evidence that a model can help classify structurally distant domains on 
 - Strengthen the profile comparison by also fitting a single HMMER model per superfamily from all available reference domains in that label. Keep the fine-family profile as a separate arm. This is a sensitivity analysis for the TIM-barrel panel.
 - Test the same scoring methods on independently selected Flavodoxin-like (`c.23`) and adenine nucleotide alpha hydrolase-like (`c.26`) domains. Use the same curation, holdout, identity, and scoring rules. Each panel has its own references and competitors. Report each fold separately because its number of possible labels differs from the first panel.
 - Report paired errors and the local alignment coverage check in all three panels. Treat the comparison as a bounded test of structural classification. The papers concern different materials and tasks, including shorter inputs in the 2026 study. Performance on those tasks requires separate evidence.
+
+## Results across the three folds
+
+The two new panels and the broader profile comparison were committed at `94fd232` before scoring. The original 42 decisions reproduced exactly for the original five scorers. All 72 queries had less than 25% global identity to every available reference. The table keeps each panel separate because the first is a six-way choice and the others are two-way choices.
+
+| Structure panel | Domains | Raw BLOSUM62 | Normalized BLOSUM62 | Fine-family HMM | Superfamily HMM | ESM-2 mean | ESM-2 local |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| [TIM barrel](structural_panel.freeze.json) | 42 | 18 | 13 | 21 | 21 | 29 | **31** |
+| [Flavodoxin-like](structural_panel.c.23.freeze.json) | 15 | 11 | 12 | 13 | 11 | 13 | **15** |
+| [Nucleotide alpha hydrolase-like](structural_panel.c.26.freeze.json) | 15 | **14** | 12 | 12 | 11 | 8 | 11 |
+
+The wider HMM did not improve the overall hit count on the TIM-barrel panel, though it recovered both members of one superfamily missed by all five original scorers. Equal-fine-family accuracy for that profile rose to 48.3%, compared with 70.0% for local ESM-2. Local ESM-2 found two additional correct labels over the fine-family HMM on the Flavodoxin-like panel. Raw BLOSUM62 led on the nucleotide alpha hydrolase-like panel. There it recognized both labels, while local ESM-2 identified only the majority label. Only 6, 3 and 2 queries, respectively, had a same-superfamily local alignment covering at least 70% of both sequences.
+
+Very low global identity alone did not determine which method worked best. This led to a separate test of [experimentally documented enzyme reactions](EXPERIMENTAL_REACTIONS.md). Recognizing a broad structural relationship can help narrow down possible functions, but members of a superfamily can perform different reactions.
