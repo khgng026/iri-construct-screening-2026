@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import json
 from collections import defaultdict
 from importlib.metadata import version
 from pathlib import Path
@@ -15,6 +16,7 @@ from .reporter_pilot import PYRODIGAL_VERSION, _candidates, _gene_caller_candida
 from .verify import _covered, _match
 
 PANEL = Path(__file__).with_name('distant_reporter_panel.json')
+ALTERNATE = PANEL.with_name('distant_reporter_alternate_references.json')
 CAPS = (1, 2, 4)
 PRIMARY_CAP = 2
 MIN_OVERLAP = 0.80
@@ -224,6 +226,11 @@ def score(records, refs, panel_hash):
             results[arm][cap] = {
                 'all': _summarize(list(cases.values()), ranked),
                 'low': _summarize([row for row in cases.values() if row['low_identity']], ranked),
+                'under_25': _summarize([row for row in cases.values() if row['max_same_family_global_identity'] < 0.25],
+                                       ranked),
+                'selected_inputs_sha256': _signature(json.dumps(
+                    {key: [(_signature(q['protein']), q['strand'], q['spans']) for q in pool[:cap]]
+                     for key, pool in by_record.items()}, sort_keys=True)),
                 'actual_queries': sum(min(cap, len(pool)) for pool in by_record.values()),
                 'query_residues': sum(len(q['protein']) for pool in by_record.values() for q in pool[:cap]),
                 'cases': cases,
@@ -239,6 +246,7 @@ def score(records, refs, panel_hash):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--library', choices=('initial', 'alternate'), default='initial')
     stages = parser.add_subparsers(dest='stage', required=True)
     stages.add_parser('acquire').add_argument('folder', type=Path)
     stages.add_parser('audit').add_argument('folder', type=Path)
@@ -247,8 +255,12 @@ def main():
     runner.add_argument('--out', required=True, type=Path)
     args = parser.parse_args()
     panel = read(PANEL)
+    panel_hash = digest(PANEL)
+    if args.library == 'alternate':
+        panel.update(read(ALTERNATE))
+        panel_hash = _signature(panel_hash + digest(ALTERNATE))
     if args.stage == 'acquire':
-        acquire(panel, args.folder)
+        acquire(panel, args.folder, canonical_record_end=True)
         return
     records, refs = load(args.folder, panel)
     if args.stage == 'audit':
@@ -257,7 +269,7 @@ def main():
         for target in targets:
             print(target['id'], target['ancestry'], distances[target['id']])
         return
-    write(args.out, score(records, refs, digest(PANEL)))
+    write(args.out, score(records, refs, panel_hash))
 
 
 if __name__ == '__main__':

@@ -1,0 +1,163 @@
+{
+  "reference_source": {
+    "prepared_sha256": "a5284eb79f4c5cbf2e4fe24dc812110bfd9f1cb00aa29aa145e72eebed3c7997",
+    "release": "2026_04",
+    "response_sha256": "7b3f1be1858c22a5c5a27afe6fbab2660be343f2378f7e99e2f2604b34d3c775",
+    "terms": "https://www.uniprot.org/help/license",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=accession%3AP02753+OR+accession%3AP0A799+OR+accession%3AP00560+OR+accession%3AP02754+OR+accession%3AP02701+OR+accession%3AP22629+OR+accession%3AQ2MHN7+OR+accession%3AQ6WV12+OR+accession%3AQ42524+OR+accession%3AP31687&format=tsv&size=20&fields=accession%2Cprotein_name%2Corganism_name%2Clength%2Cxref_interpro%2Cversion%2Csequence_version%2Csequence"
+  },
+  "references": [
+    {
+      "accession": "P02753",
+      "entry_version": 255,
+      "family": "lipocalin",
+      "interpro": [
+        "IPR012674",
+        "IPR022271",
+        "IPR022272",
+        "IPR000566",
+        "IPR002449"
+      ],
+      "name": "Retinol-binding protein 4 (Plasma retinol-binding protein) (PRBP) (RBP) [Cleaved into: Plasma retinol-binding protein(1-182); Plasma retinol-binding protein(1-181); Plasma retinol-binding protein(1-179); Plasma retinol-binding protein(1-176)]",
+      "organism": "Homo sapiens (Human)",
+      "sequence_sha256": "8400030088daa962283125365238a8cd19878b292ef12408c6457e69231e769f",
+      "sequence_version": 3
+    },
+    {
+      "accession": "P0A799",
+      "entry_version": 150,
+      "family": "pgk_fold",
+      "interpro": [
+        "IPR001576",
+        "IPR015911",
+        "IPR015824",
+        "IPR036043"
+      ],
+      "name": "Phosphoglycerate kinase (EC 2.7.2.3)",
+      "organism": "Escherichia coli (strain K12)",
+      "sequence_sha256": "179943a8d2ca0ae079dc55d1068fe9ec172a6a24ff0ad0393f33e5b4dfc22728",
+      "sequence_version": 2
+    },
+    {
+      "accession": "P00560",
+      "entry_version": 231,
+      "family": "pgk_fold",
+      "interpro": [
+        "IPR001576",
+        "IPR015911",
+        "IPR015824",
+        "IPR036043"
+      ],
+      "name": "Phosphoglycerate kinase (EC 2.7.2.3)",
+      "organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "sequence_sha256": "008c43d87e5cde788e293d3e1be752a6fe6a16d91f6f777a362580e60ab5fcb5",
+      "sequence_version": 2
+    },
+    {
+      "accession": "P02754",
+      "entry_version": 201,
+      "family": "lipocalin",
+      "interpro": [
+        "IPR002447",
+        "IPR012674",
+        "IPR002345",
+        "IPR022272",
+        "IPR000566"
+      ],
+      "name": "Beta-lactoglobulin (Beta-LG) (allergen Bos d 5)",
+      "organism": "Bos taurus (Bovine)",
+      "sequence_sha256": "55568c85375d447e0bc8481cb3eedd5108f842acc25b8922d48d937a13bac273",
+      "sequence_version": 3
+    },
+    {
+      "accession": "Q42524",
+      "entry_version": 177,
+      "family": "anl_fold",
+      "interpro": [
+        "IPR045851",
+        "IPR025110",
+        "IPR020845",
+        "IPR000873",
+        "IPR042099"
+      ],
+      "name": "4-coumarate--CoA ligase 1 (4CL 1) (EC 6.2.1.12) ((E)-ferulate--CoA ligase) (EC 6.2.1.34) (4-coumarate--CoA ligase isoform 1) (At4CL1) (4-coumaroyl-CoA synthase 1)",
+      "organism": "Arabidopsis thaliana (Mouse-ear cress)",
+      "sequence_sha256": "3be6c4adadeab3f8c87275f55b35896f7d0f59286202c727dbbb8e460f6c3f6d",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P02701",
+      "entry_version": 193,
+      "family": "avidin_fold",
+      "interpro": [
+        "IPR005469",
+        "IPR017889",
+        "IPR036896",
+        "IPR005468",
+        "IPR051764"
+      ],
+      "name": "Avidin",
+      "organism": "Gallus gallus (Chicken)",
+      "sequence_sha256": "13ec8e772b55fbd5b5e91d9d39055d90dfa223c248c63302b87b91d50b0805c2",
+      "sequence_version": 3
+    },
+    {
+      "accession": "P22629",
+      "entry_version": 168,
+      "family": "avidin_fold",
+      "interpro": [
+        "IPR005469",
+        "IPR017889",
+        "IPR036896",
+        "IPR005468",
+        "IPR051764"
+      ],
+      "name": "Streptavidin",
+      "organism": "Streptomyces avidinii",
+      "sequence_sha256": "53b054db88f740bc1d6e333e9648e5399c12ada9ff343f39305bc8906436563d",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P31687",
+      "entry_version": 102,
+      "family": "anl_fold",
+      "interpro": [
+        "IPR045851",
+        "IPR025110",
+        "IPR020845",
+        "IPR000873",
+        "IPR042099"
+      ],
+      "name": "4-coumarate--CoA ligase 2 (4CL 2) (EC 6.2.1.12) (4-coumaroyl-CoA synthase 2) (Clone 4CL16)",
+      "organism": "Glycine max (Soybean) (Glycine hispida)",
+      "sequence_sha256": "01f9a4a7fe17b7a3d79a5d5d32f5b79b33e12fa4ca05b3add0b5c5d34c4f20ff",
+      "sequence_version": 2
+    },
+    {
+      "accession": "Q6WV12",
+      "entry_version": 70,
+      "family": "gfp_barrel",
+      "interpro": [
+        "IPR009017",
+        "IPR011584"
+      ],
+      "name": "Green fluorescent protein 2",
+      "organism": "Pontellina plumata",
+      "sequence_sha256": "b27043fc9c0d03dc8b6cc4ad68dcaf03d8a5bf3ddd073ac364dbe74b90995c09",
+      "sequence_version": 1
+    },
+    {
+      "accession": "Q2MHN7",
+      "entry_version": 62,
+      "family": "gfp_barrel",
+      "interpro": [
+        "IPR009017",
+        "IPR011584"
+      ],
+      "name": "Green fluorescent protein",
+      "organism": "Chiridius poppei",
+      "sequence_sha256": "63f83b9c13ea44893e031d8ecd958f183aaec2b901ecb847b4ee4b84a86bd35f",
+      "sequence_version": 1
+    }
+  ]
+}

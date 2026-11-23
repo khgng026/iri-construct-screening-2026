@@ -35,11 +35,13 @@ def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def acquire(panel, output):
-    """Reacquire the exact deposited records and reviewed protein references."""
-    def fetch(url, expected):
+def acquire(panel, output, *, canonical_record_end=False):
+    """Reacquire frozen deposited records and protein references."""
+    def fetch(url, expected, canonical_end=False):
         with urlopen(Request(url, headers={'User-Agent': 'iri-constructs/reporter-pilot'}), timeout=20) as response:
             data = response.read(200_001)
+        if canonical_end and len(data) <= 200_000:
+            data = data.rstrip(b'\n') + b'\n'
         if len(data) > 200_000 or hashlib.sha256(data).hexdigest() != expected:
             raise ValueError('Source snapshot differs from the frozen panel')
         return data
@@ -48,7 +50,7 @@ def acquire(panel, output):
     records = {}
     for row in panel['constructs']:
         query = urlencode(dict(db='nuccore', id=row['accession'], rettype='gb', retmode='text', tool='iri_constructs'))
-        records[row['accession']] = fetch(root + query, row['sha256'])
+        records[row['accession']] = fetch(root + query, row['sha256'], canonical_record_end)
         time.sleep(0.4)
     reference_source = panel['reference_source']
     raw = fetch(reference_source['url'], reference_source['response_sha256'])
