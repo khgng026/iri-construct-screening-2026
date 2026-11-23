@@ -11,3 +11,25 @@ Can a protein language model recognize a distant relative when sequence comparis
 - Report raw hit counts, accuracy giving each held-out fine family equal weight, paired wins and losses, and the breakdown by superfamily. Interpret the results descriptively because the number of broad groups is small and some folds reuse references.
 
 The outcome is classification of known, experimentally resolved protein domains into a fixed set of structural groups. Members of a group can perform different reactions. The study compares characterization after boundaries are supplied. It supports no estimate of construct-level recovery or the performance of a screening system.
+
+## First experiment: TIM-barrel domains
+
+The [panel](structural_panel.freeze.json) and protocol were committed at `de79857` before scoring. It contains 42 domains from 20 fine families and six superfamilies. The nearest reference for each query had 15.7% to 21.2% global identity, so all 42 qualify for the primary comparison and its under-25% subset.
+
+| Scoring method | Correct first label | Accuracy weighting fine families equally |
+| --- | ---: | ---: |
+| Raw BLOSUM62 | 18/42 | 31.3% |
+| Reference-normalized BLOSUM62 | 13/42 | 28.3% |
+| HMMER fine-family profiles | 21/42 | 40.0% |
+| ESM-2 8M, one vector per domain | 29/42 | 61.7% |
+| ESM-2 8M, local comparison | 31/42 | 70.0% |
+
+Local ESM-2 identified 12 domains missed by the profile method, and the converse occurred twice. It led in three superfamilies, tied in two, and trailed in one. One superfamily accounted for five of the ten extra recoveries. Omitting any one superfamily leaves an equal-fine-family advantage of about 13 to 39 percentage points. The profile method ranked five of the six domains with broadly covering local alignments first, versus six for local ESM-2. Among the other 36 domains the counts were 16 and 25.
+
+This is evidence that a model can help classify structurally distant domains on a panel with little reference data. The profile method used only the reference domains available to the other scorers, and many fine-family profiles used one or two examples. Domain structures may also have been represented in ESM-2 pretraining. The difference between the two ESM-2 methods was much smaller than their difference from the profile result.
+
+## Follow-up fixed before scoring additional folds
+
+- Strengthen the profile comparison by also fitting a single HMMER model per superfamily from all available reference domains in that label. Keep the fine-family profile as a separate arm. This is a sensitivity analysis for the TIM-barrel panel.
+- Test the same scoring methods on independently selected Flavodoxin-like (`c.23`) and adenine nucleotide alpha hydrolase-like (`c.26`) domains. Use the same curation, holdout, identity, and scoring rules. Each panel has its own references and competitors. Report each fold separately because its number of possible labels differs from the first panel.
+- Report paired errors and the local alignment coverage check in all three panels. Treat the comparison as a bounded test of structural classification. The papers concern different materials and tasks, including shorter inputs in the 2026 study. Performance on those tasks requires separate evidence.

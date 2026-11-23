@@ -28,6 +28,15 @@ FAMILIES = frozenset(f'c.1.{superfamily}.{family}' for superfamily, families in 
     2: (1, 2, 3, 4, 6), 8: (1, 3, 13), 9: (1, 6, 7, 8, 10), 10: (1, 2, 3, 4, 5, 8),
     11: (1, 2), 12: (1, 2, 3, 8), 15: (2, 3, 6), 22: (1, 2), 23: (1, 2),
 }.items() for family in families)
+PANEL_FAMILIES = {
+    'c.1': FAMILIES,
+    'c.23': frozenset(f'c.23.{group}.{family}' for group, families in {
+        5: (1, 2, 3, 4, 7, 8), 16: (1, 2, 8),
+    }.items() for family in families),
+    'c.26': frozenset(f'c.26.{group}.{family}' for group, families in {
+        1: (1, 2, 3, 4, 5), 2: (1, 2, 3, 5, 6),
+    }.items() for family in families),
+}
 MAX_DOMAINS_PER_FAMILY = 4
 PRIMARY_IDENTITY = 0.30
 METHODS = ('pairwise_raw', 'pairwise', 'profile', 'mean_cosine', 'residue_local')
@@ -37,7 +46,7 @@ def superfamily(family):
     return family.rsplit('.', 1)[0]
 
 
-def metadata_candidates(descriptions, classification):
+def metadata_candidates(descriptions, classification, families):
     annotations = {}
     for line in descriptions.splitlines():
         if not line.startswith('#'):
@@ -50,7 +59,7 @@ def metadata_candidates(descriptions, classification):
         if line.startswith('#'):
             continue
         domain, pdb, location, family, node, hierarchy = line.split('\t')
-        if family not in FAMILIES or ',' in location:
+        if family not in families or ',' in location:
             continue
         nodes = dict(level.split('=') for level in hierarchy.split(','))
         protein, species = (annotations[nodes[key]] for key in ('dm', 'sp'))
@@ -111,11 +120,11 @@ def family_folds(entries):
             for index, family in enumerate(sorted(related, key=lambda item: int(item.rsplit('.', 1)[1])))}
 
 
-def acquire(folder, descriptions, classification):
+def acquire(folder, descriptions, classification, panel_fold):
     description_bytes, class_bytes = descriptions.read_bytes(), classification.read_bytes()
     if (sha(description_bytes), sha(class_bytes)) != (DESCRIPTIONS, CLASSIFICATION):
         raise ValueError('SCOPe classification metadata does not match the pinned release')
-    candidates = metadata_candidates(description_bytes.decode(), class_bytes.decode())
+    candidates = metadata_candidates(description_bytes.decode(), class_bytes.decode(), PANEL_FAMILIES[panel_fold])
     seen = _prior_sequence_hashes()
     counts = defaultdict(int)
     selected = []
@@ -161,7 +170,7 @@ def _identity_tier(identity):
     return '40_or_more'
 
 
-def _profile_scores(queries, references, entries):
+def _profile_scores(queries, references, groups):
     from pyfamsa import Aligner, Sequence
     from pyhmmer import easel, plan7
 
@@ -173,7 +182,7 @@ def _profile_scores(queries, references, entries):
                               T=-1000.0, domT=-1000.0)
     grouped = defaultdict(list)
     for key, sequence in references.items():
-        grouped[entries[key]['family']].append((key, sequence))
+        grouped[groups[key]].append((key, sequence))
     block = easel.DigitalSequenceBlock(alphabet, [
         easel.TextSequence(name=key.encode(), sequence=sequence).digitize(alphabet)
         for key, sequence in queries.items()
@@ -207,22 +216,22 @@ def _top_label(scores, labels):
     return winners[0] if len(winners) == 1 else None
 
 
-def _summary(rows):
+def _summary(rows, methods):
     by_family = defaultdict(list)
     for row in rows:
         by_family[row['family']].append(row)
     return {
         'queries': len(rows), 'fine_families': len(by_family),
         'superfamilies': len({row['label'] for row in rows}),
-        'correct': {method: sum(row['correct'][method] for row in rows) for method in METHODS},
+        'correct': {method: sum(row['correct'][method] for row in rows) for method in methods},
         'equal_fine_family_accuracy': {
             method: sum(sum(row['correct'][method] for row in group) / len(group) for group in by_family.values())
-            / len(by_family) if by_family else None for method in METHODS
+            / len(by_family) if by_family else None for method in methods
         },
         'residue_local_disagreements': {method: {
             'residue_only': sum(row['correct']['residue_local'] and not row['correct'][method] for row in rows),
             'other_only': sum(row['correct'][method] and not row['correct']['residue_local'] for row in rows),
-        } for method in METHODS if method != 'residue_local'},
+        } for method in methods if method != 'residue_local'},
     }
 
 
@@ -232,18 +241,21 @@ def _panel(folder):
     sequences = json.loads((folder / 'sequences.private.json').read_text())
     entries = {row['id']: row for row in freeze['entries']}
     folds = family_folds(entries.values())
+    families = {row['family'] for row in entries.values()}
+    panel_fold = {family.rsplit('.', 2)[0] for family in families}
     if (freeze['schema'] != SCHEMA or len({superfamily(family) for family in folds}) < 2
+            or not any(panel_fold == {fold} and families <= allowed for fold, allowed in PANEL_FAMILIES.items())
             or len(entries) != len(freeze['entries']) or entries.keys() != sequences.keys()
             or freeze['primary_max_global_identity_below'] != PRIMARY_IDENTITY
             or len({row['sha256'] for row in entries.values()}) != len(entries)
-            or any(row['family'] not in FAMILIES or row['taxon'] not in TAXA or row['fold'] != folds.get(row['family'])
+            or any(row['taxon'] not in TAXA or row['fold'] != folds.get(row['family'])
                    or len(sequences[key]) != row['length'] or set(sequences[key]) - ALPHABET
                    or sha(sequences[key].encode('ascii')) != row['sha256'] for key, row in entries.items())):
         raise ValueError('Private domains or split do not match the frozen panel')
     return entries, sequences, sha(freeze_bytes)
 
 
-def score(folder, output):
+def score(folder, output, extended_profiles=False):
     from Bio.Align import PairwiseAligner, substitution_matrices
 
     entries, sequences, freeze_hash = _panel(folder)
@@ -253,9 +265,12 @@ def score(folder, output):
     residue_aligner = PairwiseAligner(mode='local', open_gap_score=LOCAL_OPEN, extend_gap_score=LOCAL_EXTEND)
     global_aligner = PairwiseAligner(mode='global', substitution_matrix=substitution_matrices.load('BLOSUM62'),
                                      open_gap_score=-10.0, extend_gap_score=-0.5, epsilon=1e-6)
-    labels = {key: superfamily(row['family']) for key, row in entries.items()}
-    profile_labels = {row['family']: superfamily(row['family']) for row in entries.values()}
-    cases, pairs, models = [], 0, 0
+    fine_labels = {key: row['family'] for key, row in entries.items()}
+    profile_labels = {family: superfamily(family) for family in set(fine_labels.values())}
+    labels = {key: profile_labels[family] for key, family in fine_labels.items()}
+    superfamily_labels = {label: label for label in set(labels.values())}
+    methods = (*METHODS, 'profile_superfamily') if extended_profiles else METHODS
+    cases, pairs, models, broad_models = [], 0, 0, 0
     for fold in sorted({row['fold'] for row in entries.values()}):
         queries = {key: sequences[key] for key, row in entries.items() if row['fold'] == fold}
         refs = {key: sequences[key] for key, row in entries.items() if row['fold'] != fold}
@@ -263,8 +278,11 @@ def score(folder, output):
             raise ValueError(f'Fold {fold} is missing a reference superfamily')
         pairs += len(queries) * len(refs)
         sequence_scores, distances = _alignment_comparison(queries, refs)
-        profile_scores, count = _profile_scores(queries, refs, entries)
+        profile_scores, count = _profile_scores(queries, refs, fine_labels)
         models += count
+        if extended_profiles:
+            broad_scores, count = _profile_scores(queries, refs, labels)
+            broad_models += count
         for query, sequence in queries.items():
             label = labels[query]
             global_identity = max(_global_identity(global_aligner, sequence, ref) for ref in refs.values())
@@ -278,6 +296,8 @@ def score(folder, output):
                 'residue_local': _top_label({key: _residue_local_score(local[query], local[key], residue_aligner)
                                              for key in refs}, labels),
             }
+            if extended_profiles:
+                predictions['profile_superfamily'] = _top_label(broad_scores[query], superfamily_labels)
             cases.append({'query': query, 'family': entries[query]['family'], 'label': label, 'fold': fold,
                           'max_global_identity': global_identity, 'tier': _identity_tier(global_identity),
                           'max_covered_positive_local_identity': max(covered_identities, default=None),
@@ -289,16 +309,18 @@ def score(folder, output):
         'schema': SCHEMA, 'panel_sha256': freeze_hash, 'model': model,
         'environment': {name: version(name) for name in ('biopython', 'numpy', 'pyfamsa', 'pyhmmer',
                                                          'torch', 'transformers')},
-        'overall': _summary(cases), 'primary': _summary(primary),
-        'by_tier': {tier: _summary([row for row in cases if row['tier'] == tier])
+        'overall': _summary(cases, methods), 'primary': _summary(primary, methods),
+        'by_tier': {tier: _summary([row for row in cases if row['tier'] == tier], methods)
                     for tier in ('under_25', '25_to_under_30', '30_to_under_40', '40_or_more')},
-        'primary_by_superfamily': {label: _summary([row for row in primary if row['label'] == label])
+        'primary_by_superfamily': {label: _summary([row for row in primary if row['label'] == label], methods)
                                    for label in sorted(set(labels.values()))},
         'cost': {'model_encodings': len(sequences), 'pairwise_comparisons': pairs, 'profiles_built': models,
                  'encoding_seconds': round(encoded - began, 3),
                  'scoring_seconds': round(time.perf_counter() - encoded, 3)},
         'cases': cases,
     }
+    if extended_profiles:
+        report['cost']['superfamily_profiles_built'] = broad_models
     write_json(output, report)
     print(json.dumps({key: report[key] for key in ('overall', 'primary', 'by_tier', 'cost')}, indent=2))
 
@@ -310,14 +332,16 @@ def main():
     download.add_argument('folder', type=Path)
     download.add_argument('--descriptions', required=True, type=Path)
     download.add_argument('--classification', required=True, type=Path)
+    download.add_argument('--panel-fold', default='c.1', choices=PANEL_FAMILIES)
     compare = stages.add_parser('score')
     compare.add_argument('folder', type=Path)
     compare.add_argument('--out', required=True, type=Path)
+    compare.add_argument('--extended-profiles', action='store_true')
     args = parser.parse_args()
     if args.stage == 'acquire':
-        acquire(args.folder, args.descriptions, args.classification)
+        acquire(args.folder, args.descriptions, args.classification, args.panel_fold)
     else:
-        score(args.folder, args.out)
+        score(args.folder, args.out, extended_profiles=args.extended_profiles)
 
 
 if __name__ == '__main__':
