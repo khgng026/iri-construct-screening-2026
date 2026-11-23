@@ -1,0 +1,2409 @@
+{
+  "reports": {
+    "150m": {
+      "cases": [
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "3.2.1.1",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.22302158273381295,
+          "query": "P26612"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": false,
+            "pairwise_raw": false,
+            "profile": false,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "3.2.1.22",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.16926070038910507,
+          "query": "O34645"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "3.2.1.22",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.17252396166134185,
+          "query": "G4FEF4"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": false,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "3.2.1.23",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.1811764705882353,
+          "query": "O07012"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "3.2.1.1",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.22302158273381295,
+          "query": "Q8VZ56"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "3.2.1.22",
+          "max_covered_positive_local_identity": 0.4645161290322581,
+          "max_positive_global_identity": 0.34120171673819744,
+          "query": "Q9FXT4"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.2.1.1",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.2093425605536332,
+          "query": "P04746"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.2.1.22",
+          "max_covered_positive_local_identity": 0.4645161290322581,
+          "max_positive_global_identity": 0.34120171673819744,
+          "query": "P06280"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.2.1.23",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.1811764705882353,
+          "query": "P16278"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": false,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.2.1.23",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.17325581395348838,
+          "query": "P23780"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": 0.6319218241042345,
+          "max_positive_global_identity": 0.565597667638484,
+          "query": "P0A870"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.2195845697329377,
+          "query": "P19669"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.26112759643916916,
+          "query": "Q9WYD1"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": false,
+            "pairwise_raw": false,
+            "profile": false,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.2713178294573643,
+          "max_positive_global_identity": 0.18518518518518517,
+          "query": "P0A991"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": false,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.34563758389261745,
+          "max_positive_global_identity": 0.2777777777777778,
+          "query": "D4GYE0"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "4.1.2.4",
+          "max_covered_positive_local_identity": 0.42436974789915966,
+          "max_positive_global_identity": 0.33229813664596275,
+          "query": "P0A6L0"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "4.1.2.4",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.253125,
+          "query": "P39121"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "4.1.2.4",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.2608695652173913,
+          "query": "Q9X1P5"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "5.1.3.1",
+          "max_covered_positive_local_identity": 0.4881516587677725,
+          "max_positive_global_identity": 0.38362068965517243,
+          "query": "P0AG07"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": false,
+            "pairwise_raw": false,
+            "profile": false,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "5.3.1.6",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.14285714285714285,
+          "query": "P37351"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.3349875930521092,
+          "max_positive_global_identity": 0.2521150592216582,
+          "query": "Q9X1A5"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.6264044943820225,
+          "max_positive_global_identity": 0.6153846153846154,
+          "query": "Q9SJQ9"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "5.1.3.1",
+          "max_covered_positive_local_identity": 0.4881516587677725,
+          "max_positive_global_identity": 0.36585365853658536,
+          "query": "Q43157"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "5.3.1.6",
+          "max_covered_positive_local_identity": 0.4188034188034188,
+          "max_positive_global_identity": 0.3301282051282051,
+          "query": "Q9ZU38"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "5.3.1.8",
+          "max_covered_positive_local_identity": 0.44587628865979384,
+          "max_positive_global_identity": 0.3801295896328294,
+          "query": "Q9FZH5"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.47735849056603774,
+          "max_positive_global_identity": 0.43986254295532645,
+          "query": "P42863"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": 0.6213592233009708,
+          "max_positive_global_identity": 0.5630498533724341,
+          "query": "P37837"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": 0.6319218241042345,
+          "max_positive_global_identity": 0.565597667638484,
+          "query": "Q93092"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": 0.587248322147651,
+          "max_positive_global_identity": 0.5266272189349113,
+          "query": "P15019"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.5915492957746479,
+          "max_positive_global_identity": 0.5706521739130435,
+          "query": "P54216"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.5982905982905983,
+          "max_positive_global_identity": 0.5796703296703297,
+          "query": "P07764"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.6264044943820225,
+          "max_positive_global_identity": 0.6153846153846154,
+          "query": "P04075"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.6235955056179775,
+          "max_positive_global_identity": 0.6126373626373627,
+          "query": "P05064"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.3511705685618729,
+          "max_positive_global_identity": 0.2838196286472148,
+          "query": "P14540"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.4",
+          "max_covered_positive_local_identity": 0.42436974789915966,
+          "max_positive_global_identity": 0.33229813664596275,
+          "query": "Q9Y315"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.1.3.1",
+          "max_covered_positive_local_identity": 0.42924528301886794,
+          "max_positive_global_identity": 0.38362068965517243,
+          "query": "Q96AT9"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.6",
+          "max_covered_positive_local_identity": 0.4188034188034188,
+          "max_positive_global_identity": 0.3344155844155844,
+          "query": "P47968"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.8",
+          "max_covered_positive_local_identity": 0.44473007712082263,
+          "max_positive_global_identity": 0.3801295896328294,
+          "query": "P34949"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.8",
+          "max_covered_positive_local_identity": 0.44587628865979384,
+          "max_positive_global_identity": 0.3771551724137931,
+          "query": "Q924M7"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.472168905950096,
+          "max_positive_global_identity": 0.4295415959252971,
+          "query": "P06744"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.4764595103578154,
+          "max_positive_global_identity": 0.43986254295532645,
+          "query": "P06745"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.47735849056603774,
+          "max_positive_global_identity": 0.43986254295532645,
+          "query": "Q6P6V0"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.4612476370510397,
+          "max_positive_global_identity": 0.4202401372212693,
+          "query": "P12709"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "3.5.4.3",
+          "max_covered_positive_local_identity": 0.3832923832923833,
+          "max_positive_global_identity": 0.3354564755838641,
+          "query": "P76641"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "3.5.4.4",
+          "max_covered_positive_local_identity": 0.36807817589576547,
+          "max_positive_global_identity": 0.3140495867768595,
+          "query": "P22333"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "3.5.4.4",
+          "max_covered_positive_local_identity": 0.35276073619631904,
+          "max_positive_global_identity": 0.28028503562945367,
+          "query": "Q9AK25"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "3.5.4.5",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.15755627009646303,
+          "query": "O65896"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": 0.5234708392603129,
+          "max_positive_global_identity": 0.4058759521218716,
+          "query": "O80452"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.3",
+          "max_covered_positive_local_identity": 0.3670886075949367,
+          "max_positive_global_identity": 0.3093220338983051,
+          "query": "Q9VMY9"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.3",
+          "max_covered_positive_local_identity": 0.3832923832923833,
+          "max_positive_global_identity": 0.3354564755838641,
+          "query": "Q9Y2T3"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.3",
+          "max_covered_positive_local_identity": 0.3825136612021858,
+          "max_positive_global_identity": 0.2982107355864811,
+          "query": "Q07729"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.4",
+          "max_covered_positive_local_identity": 0.36807817589576547,
+          "max_positive_global_identity": 0.3058510638297872,
+          "query": "P00813"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.4",
+          "max_covered_positive_local_identity": 0.35782747603833864,
+          "max_positive_global_identity": 0.3140495867768595,
+          "query": "P03958"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.4",
+          "max_covered_positive_local_identity": 0.3498452012383901,
+          "max_positive_global_identity": 0.3002754820936639,
+          "query": "Q920P6"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.5",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.14057507987220447,
+          "query": "P32320"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.5",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.15755627009646303,
+          "query": "Q06549"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": 0.48338368580060426,
+          "max_positive_global_identity": 0.38550057537399307,
+          "query": "P23109"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.39160045402951194,
+          "query": "O08739"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": 0.5228346456692914,
+          "max_positive_global_identity": 0.39217877094972065,
+          "query": "O09178"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": 0.5127840909090909,
+          "max_positive_global_identity": 0.37995824634655534,
+          "query": "P50998"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": 0.5234708392603129,
+          "max_positive_global_identity": 0.4058759521218716,
+          "query": "P15274"
+        }
+      ],
+      "cost": {
+        "encoder_calls": 61,
+        "encoding_seconds": 101.375,
+        "pairwise_comparisons": 860,
+        "profiles_built": 42,
+        "scoring_seconds": 12.096
+      },
+      "environment": {
+        "biopython": "1.86",
+        "numpy": "1.26.4",
+        "pyfamsa": "0.7.0",
+        "pyhmmer": "0.12.3",
+        "torch": "2.6.0+cpu",
+        "transformers": "4.48.1"
+      },
+      "low_with_covered_positive": {
+        "correct": {
+          "mean_cosine": 5,
+          "pairwise": 5,
+          "pairwise_raw": 5,
+          "profile": 4,
+          "residue_local": 5
+        },
+        "equal_reaction_accuracy": {
+          "mean_cosine": 0.75,
+          "pairwise": 0.9166666666666666,
+          "pairwise_raw": 0.9166666666666666,
+          "profile": 0.8333333333333334,
+          "residue_local": 0.9166666666666666
+        },
+        "queries": 6,
+        "reactions": 4,
+        "residue_local_disagreements": {
+          "mean_cosine": {
+            "other_only": 1,
+            "residue_only": 1
+          },
+          "pairwise": {
+            "other_only": 0,
+            "residue_only": 0
+          },
+          "pairwise_raw": {
+            "other_only": 0,
+            "residue_only": 0
+          },
+          "profile": {
+            "other_only": 0,
+            "residue_only": 1
+          }
+        }
+      },
+      "model": {
+        "device": "cpu",
+        "repository": "facebook/esm2_t30_150M_UR50D",
+        "representation": "Final layer; special tokens excluded",
+        "revision": "a695f6045e2e32885fa60af20c13cb35398ce30c",
+        "weight_sha256": "c3f1da8aea53bddd32c246c86168c23b9fd72341fb9db9a94436f855f5053566"
+      },
+      "overall": {
+        "correct": {
+          "mean_cosine": 50,
+          "pairwise": 56,
+          "pairwise_raw": 58,
+          "profile": 57,
+          "residue_local": 58
+        },
+        "equal_reaction_accuracy": {
+          "mean_cosine": 0.7857142857142857,
+          "pairwise": 0.9017857142857143,
+          "pairwise_raw": 0.9494047619047619,
+          "profile": 0.9404761904761905,
+          "residue_local": 0.9494047619047619
+        },
+        "queries": 61,
+        "reactions": 14,
+        "residue_local_disagreements": {
+          "mean_cosine": {
+            "other_only": 2,
+            "residue_only": 10
+          },
+          "pairwise": {
+            "other_only": 0,
+            "residue_only": 2
+          },
+          "pairwise_raw": {
+            "other_only": 0,
+            "residue_only": 0
+          },
+          "profile": {
+            "other_only": 0,
+            "residue_only": 1
+          }
+        }
+      },
+      "panel_sha256": "ce7c8b2230221ed7babc3b9d8ff5c214c7a830025c4f079ba0d17cf9ba271ab6",
+      "primary": {
+        "correct": {
+          "mean_cosine": 13,
+          "pairwise": 17,
+          "pairwise_raw": 19,
+          "profile": 18,
+          "residue_local": 19
+        },
+        "equal_reaction_accuracy": {
+          "mean_cosine": 0.5454545454545454,
+          "pairwise": 0.7727272727272727,
+          "pairwise_raw": 0.8333333333333333,
+          "profile": 0.8030303030303031,
+          "residue_local": 0.8333333333333333
+        },
+        "queries": 22,
+        "reactions": 11,
+        "residue_local_disagreements": {
+          "mean_cosine": {
+            "other_only": 2,
+            "residue_only": 8
+          },
+          "pairwise": {
+            "other_only": 0,
+            "residue_only": 2
+          },
+          "pairwise_raw": {
+            "other_only": 0,
+            "residue_only": 0
+          },
+          "profile": {
+            "other_only": 0,
+            "residue_only": 1
+          }
+        }
+      },
+      "primary_by_comparison": {
+        "carbohydrate_hydrolysis": {
+          "correct": {
+            "mean_cosine": 6,
+            "pairwise": 5,
+            "pairwise_raw": 7,
+            "profile": 7,
+            "residue_local": 7
+          },
+          "equal_reaction_accuracy": {
+            "mean_cosine": 0.7777777777777778,
+            "pairwise": 0.611111111111111,
+            "pairwise_raw": 0.8333333333333334,
+            "profile": 0.8333333333333334,
+            "residue_local": 0.8333333333333334
+          },
+          "queries": 8,
+          "reactions": 3,
+          "residue_local_disagreements": {
+            "mean_cosine": {
+              "other_only": 1,
+              "residue_only": 2
+            },
+            "pairwise": {
+              "other_only": 0,
+              "residue_only": 2
+            },
+            "pairwise_raw": {
+              "other_only": 0,
+              "residue_only": 0
+            },
+            "profile": {
+              "other_only": 0,
+              "residue_only": 0
+            }
+          }
+        },
+        "nucleobase_and_nucleoside_deamination": {
+          "correct": {
+            "mean_cosine": 3,
+            "pairwise": 5,
+            "pairwise_raw": 5,
+            "profile": 5,
+            "residue_local": 5
+          },
+          "equal_reaction_accuracy": {
+            "mean_cosine": 0.5555555555555555,
+            "pairwise": 1.0,
+            "pairwise_raw": 1.0,
+            "profile": 1.0,
+            "residue_local": 1.0
+          },
+          "queries": 5,
+          "reactions": 3,
+          "residue_local_disagreements": {
+            "mean_cosine": {
+              "other_only": 0,
+              "residue_only": 2
+            },
+            "pairwise": {
+              "other_only": 0,
+              "residue_only": 0
+            },
+            "pairwise_raw": {
+              "other_only": 0,
+              "residue_only": 0
+            },
+            "profile": {
+              "other_only": 0,
+              "residue_only": 0
+            }
+          }
+        },
+        "sugar_phosphate_metabolism": {
+          "correct": {
+            "mean_cosine": 4,
+            "pairwise": 7,
+            "pairwise_raw": 7,
+            "profile": 6,
+            "residue_local": 7
+          },
+          "equal_reaction_accuracy": {
+            "mean_cosine": 0.4,
+            "pairwise": 0.7333333333333333,
+            "pairwise_raw": 0.7333333333333333,
+            "profile": 0.6666666666666667,
+            "residue_local": 0.7333333333333333
+          },
+          "queries": 9,
+          "reactions": 5,
+          "residue_local_disagreements": {
+            "mean_cosine": {
+              "other_only": 1,
+              "residue_only": 4
+            },
+            "pairwise": {
+              "other_only": 0,
+              "residue_only": 0
+            },
+            "pairwise_raw": {
+              "other_only": 0,
+              "residue_only": 0
+            },
+            "profile": {
+              "other_only": 0,
+              "residue_only": 1
+            }
+          }
+        }
+      },
+      "schema": "natural-experimental-enzyme-reactions-1",
+      "under_25": {
+        "correct": {
+          "mean_cosine": 9,
+          "pairwise": 9,
+          "pairwise_raw": 11,
+          "profile": 11,
+          "residue_local": 11
+        },
+        "equal_reaction_accuracy": {
+          "mean_cosine": 0.5714285714285714,
+          "pairwise": 0.5476190476190477,
+          "pairwise_raw": 0.6428571428571429,
+          "profile": 0.6428571428571429,
+          "residue_local": 0.6428571428571429
+        },
+        "queries": 14,
+        "reactions": 7,
+        "residue_local_disagreements": {
+          "mean_cosine": {
+            "other_only": 2,
+            "residue_only": 4
+          },
+          "pairwise": {
+            "other_only": 0,
+            "residue_only": 2
+          },
+          "pairwise_raw": {
+            "other_only": 0,
+            "residue_only": 0
+          },
+          "profile": {
+            "other_only": 0,
+            "residue_only": 0
+          }
+        }
+      }
+    },
+    "8m": {
+      "cases": [
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "3.2.1.1",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.22302158273381295,
+          "query": "P26612"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": false,
+            "pairwise_raw": false,
+            "profile": false,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "3.2.1.22",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.16926070038910507,
+          "query": "O34645"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "3.2.1.22",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.17252396166134185,
+          "query": "G4FEF4"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": false,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "3.2.1.23",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.1811764705882353,
+          "query": "O07012"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "3.2.1.1",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.22302158273381295,
+          "query": "Q8VZ56"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "3.2.1.22",
+          "max_covered_positive_local_identity": 0.4645161290322581,
+          "max_positive_global_identity": 0.34120171673819744,
+          "query": "Q9FXT4"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.2.1.1",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.2093425605536332,
+          "query": "P04746"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.2.1.22",
+          "max_covered_positive_local_identity": 0.4645161290322581,
+          "max_positive_global_identity": 0.34120171673819744,
+          "query": "P06280"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": false
+          },
+          "group": "animal_and_fungal",
+          "label": "3.2.1.23",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.1811764705882353,
+          "query": "P16278"
+        },
+        {
+          "comparison": "carbohydrate_hydrolysis",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": false,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": false
+          },
+          "group": "animal_and_fungal",
+          "label": "3.2.1.23",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.17325581395348838,
+          "query": "P23780"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": 0.6319218241042345,
+          "max_positive_global_identity": 0.565597667638484,
+          "query": "P0A870"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.2195845697329377,
+          "query": "P19669"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.26112759643916916,
+          "query": "Q9WYD1"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": false,
+            "pairwise_raw": false,
+            "profile": false,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.2713178294573643,
+          "max_positive_global_identity": 0.18518518518518517,
+          "query": "P0A991"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": false,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.34563758389261745,
+          "max_positive_global_identity": 0.2777777777777778,
+          "query": "D4GYE0"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "4.1.2.4",
+          "max_covered_positive_local_identity": 0.42436974789915966,
+          "max_positive_global_identity": 0.33229813664596275,
+          "query": "P0A6L0"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "4.1.2.4",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.253125,
+          "query": "P39121"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "4.1.2.4",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.2608695652173913,
+          "query": "Q9X1P5"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "5.1.3.1",
+          "max_covered_positive_local_identity": 0.4881516587677725,
+          "max_positive_global_identity": 0.38362068965517243,
+          "query": "P0AG07"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": false,
+            "pairwise_raw": false,
+            "profile": false,
+            "residue_local": false
+          },
+          "group": "microbial",
+          "label": "5.3.1.6",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.14285714285714285,
+          "query": "P37351"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.3349875930521092,
+          "max_positive_global_identity": 0.2521150592216582,
+          "query": "Q9X1A5"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.6264044943820225,
+          "max_positive_global_identity": 0.6153846153846154,
+          "query": "Q9SJQ9"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "5.1.3.1",
+          "max_covered_positive_local_identity": 0.4881516587677725,
+          "max_positive_global_identity": 0.36585365853658536,
+          "query": "Q43157"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "5.3.1.6",
+          "max_covered_positive_local_identity": 0.4188034188034188,
+          "max_positive_global_identity": 0.3301282051282051,
+          "query": "Q9ZU38"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "5.3.1.8",
+          "max_covered_positive_local_identity": 0.44587628865979384,
+          "max_positive_global_identity": 0.3801295896328294,
+          "query": "Q9FZH5"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.47735849056603774,
+          "max_positive_global_identity": 0.43986254295532645,
+          "query": "P42863"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": 0.6213592233009708,
+          "max_positive_global_identity": 0.5630498533724341,
+          "query": "P37837"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": 0.6319218241042345,
+          "max_positive_global_identity": 0.565597667638484,
+          "query": "Q93092"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "2.2.1.2",
+          "max_covered_positive_local_identity": 0.587248322147651,
+          "max_positive_global_identity": 0.5266272189349113,
+          "query": "P15019"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.5915492957746479,
+          "max_positive_global_identity": 0.5706521739130435,
+          "query": "P54216"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.5982905982905983,
+          "max_positive_global_identity": 0.5796703296703297,
+          "query": "P07764"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.6264044943820225,
+          "max_positive_global_identity": 0.6153846153846154,
+          "query": "P04075"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.6235955056179775,
+          "max_positive_global_identity": 0.6126373626373627,
+          "query": "P05064"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.13",
+          "max_covered_positive_local_identity": 0.3511705685618729,
+          "max_positive_global_identity": 0.2838196286472148,
+          "query": "P14540"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "4.1.2.4",
+          "max_covered_positive_local_identity": 0.42436974789915966,
+          "max_positive_global_identity": 0.33229813664596275,
+          "query": "Q9Y315"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.1.3.1",
+          "max_covered_positive_local_identity": 0.42924528301886794,
+          "max_positive_global_identity": 0.38362068965517243,
+          "query": "Q96AT9"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.6",
+          "max_covered_positive_local_identity": 0.4188034188034188,
+          "max_positive_global_identity": 0.3344155844155844,
+          "query": "P47968"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.8",
+          "max_covered_positive_local_identity": 0.44473007712082263,
+          "max_positive_global_identity": 0.3801295896328294,
+          "query": "P34949"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.8",
+          "max_covered_positive_local_identity": 0.44587628865979384,
+          "max_positive_global_identity": 0.3771551724137931,
+          "query": "Q924M7"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.472168905950096,
+          "max_positive_global_identity": 0.4295415959252971,
+          "query": "P06744"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.4764595103578154,
+          "max_positive_global_identity": 0.43986254295532645,
+          "query": "P06745"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.47735849056603774,
+          "max_positive_global_identity": 0.43986254295532645,
+          "query": "Q6P6V0"
+        },
+        {
+          "comparison": "sugar_phosphate_metabolism",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "5.3.1.9",
+          "max_covered_positive_local_identity": 0.4612476370510397,
+          "max_positive_global_identity": 0.4202401372212693,
+          "query": "P12709"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "3.5.4.3",
+          "max_covered_positive_local_identity": 0.3832923832923833,
+          "max_positive_global_identity": 0.3354564755838641,
+          "query": "P76641"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "3.5.4.4",
+          "max_covered_positive_local_identity": 0.36807817589576547,
+          "max_positive_global_identity": 0.3140495867768595,
+          "query": "P22333"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "microbial",
+          "label": "3.5.4.4",
+          "max_covered_positive_local_identity": 0.35276073619631904,
+          "max_positive_global_identity": 0.28028503562945367,
+          "query": "Q9AK25"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": false,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "3.5.4.5",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.15755627009646303,
+          "query": "O65896"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "plant_and_algal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": 0.5234708392603129,
+          "max_positive_global_identity": 0.4058759521218716,
+          "query": "O80452"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.3",
+          "max_covered_positive_local_identity": 0.3670886075949367,
+          "max_positive_global_identity": 0.3093220338983051,
+          "query": "Q9VMY9"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.3",
+          "max_covered_positive_local_identity": 0.3832923832923833,
+          "max_positive_global_identity": 0.3354564755838641,
+          "query": "Q9Y2T3"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.3",
+          "max_covered_positive_local_identity": 0.3825136612021858,
+          "max_positive_global_identity": 0.2982107355864811,
+          "query": "Q07729"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.4",
+          "max_covered_positive_local_identity": 0.36807817589576547,
+          "max_positive_global_identity": 0.3058510638297872,
+          "query": "P00813"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.4",
+          "max_covered_positive_local_identity": 0.35782747603833864,
+          "max_positive_global_identity": 0.3140495867768595,
+          "query": "P03958"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.4",
+          "max_covered_positive_local_identity": 0.3498452012383901,
+          "max_positive_global_identity": 0.3002754820936639,
+          "query": "Q920P6"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": false
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.5",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.14057507987220447,
+          "query": "P32320"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": false
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.5",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.15755627009646303,
+          "query": "Q06549"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": 0.48338368580060426,
+          "max_positive_global_identity": 0.38550057537399307,
+          "query": "P23109"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": null,
+          "max_positive_global_identity": 0.39160045402951194,
+          "query": "O08739"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": 0.5228346456692914,
+          "max_positive_global_identity": 0.39217877094972065,
+          "query": "O09178"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": 0.5127840909090909,
+          "max_positive_global_identity": 0.37995824634655534,
+          "query": "P50998"
+        },
+        {
+          "comparison": "nucleobase_and_nucleoside_deamination",
+          "correct": {
+            "mean_cosine": true,
+            "pairwise": true,
+            "pairwise_raw": true,
+            "profile": true,
+            "residue_local": true
+          },
+          "group": "animal_and_fungal",
+          "label": "3.5.4.6",
+          "max_covered_positive_local_identity": 0.5234708392603129,
+          "max_positive_global_identity": 0.4058759521218716,
+          "query": "P15274"
+        }
+      ],
+      "cost": {
+        "encoder_calls": 61,
+        "encoding_seconds": 14.514,
+        "pairwise_comparisons": 860,
+        "profiles_built": 42,
+        "scoring_seconds": 12.039
+      },
+      "environment": {
+        "biopython": "1.86",
+        "numpy": "1.26.4",
+        "pyfamsa": "0.7.0",
+        "pyhmmer": "0.12.3",
+        "torch": "2.6.0+cpu",
+        "transformers": "4.48.1"
+      },
+      "low_with_covered_positive": {
+        "correct": {
+          "mean_cosine": 5,
+          "pairwise": 5,
+          "pairwise_raw": 5,
+          "profile": 4,
+          "residue_local": 4
+        },
+        "equal_reaction_accuracy": {
+          "mean_cosine": 0.9166666666666666,
+          "pairwise": 0.9166666666666666,
+          "pairwise_raw": 0.9166666666666666,
+          "profile": 0.8333333333333334,
+          "residue_local": 0.8333333333333334
+        },
+        "queries": 6,
+        "reactions": 4,
+        "residue_local_disagreements": {
+          "mean_cosine": {
+            "other_only": 1,
+            "residue_only": 0
+          },
+          "pairwise": {
+            "other_only": 1,
+            "residue_only": 0
+          },
+          "pairwise_raw": {
+            "other_only": 1,
+            "residue_only": 0
+          },
+          "profile": {
+            "other_only": 0,
+            "residue_only": 0
+          }
+        }
+      },
+      "model": {
+        "device": "cpu",
+        "input_tracks": "sequence only",
+        "max_residues": 1022,
+        "model": "esm2",
+        "offline": true,
+        "precision_policy": "float32 weights; no autocast",
+        "repository": "facebook/esm2_t6_8M_UR50D",
+        "representation": "Final adapter output; residue mean; BOS/EOS/PAD excluded",
+        "requested_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+        "resolved_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+        "torch_num_interop_threads": 1,
+        "torch_num_threads": 2,
+        "truncation": false,
+        "unused_checkpoint_heads": "Masked language model head excluded; no additional pooler initialized",
+        "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+      },
+      "overall": {
+        "correct": {
+          "mean_cosine": 48,
+          "pairwise": 56,
+          "pairwise_raw": 58,
+          "profile": 57,
+          "residue_local": 48
+        },
+        "equal_reaction_accuracy": {
+          "mean_cosine": 0.7589285714285714,
+          "pairwise": 0.9017857142857143,
+          "pairwise_raw": 0.9494047619047619,
+          "profile": 0.9404761904761905,
+          "residue_local": 0.7619047619047619
+        },
+        "queries": 61,
+        "reactions": 14,
+        "residue_local_disagreements": {
+          "mean_cosine": {
+            "other_only": 6,
+            "residue_only": 6
+          },
+          "pairwise": {
+            "other_only": 8,
+            "residue_only": 0
+          },
+          "pairwise_raw": {
+            "other_only": 10,
+            "residue_only": 0
+          },
+          "profile": {
+            "other_only": 9,
+            "residue_only": 0
+          }
+        }
+      },
+      "panel_sha256": "ce7c8b2230221ed7babc3b9d8ff5c214c7a830025c4f079ba0d17cf9ba271ab6",
+      "primary": {
+        "correct": {
+          "mean_cosine": 13,
+          "pairwise": 17,
+          "pairwise_raw": 19,
+          "profile": 18,
+          "residue_local": 9
+        },
+        "equal_reaction_accuracy": {
+          "mean_cosine": 0.5909090909090909,
+          "pairwise": 0.7727272727272727,
+          "pairwise_raw": 0.8333333333333333,
+          "profile": 0.8030303030303031,
+          "residue_local": 0.4696969696969697
+        },
+        "queries": 22,
+        "reactions": 11,
+        "residue_local_disagreements": {
+          "mean_cosine": {
+            "other_only": 6,
+            "residue_only": 2
+          },
+          "pairwise": {
+            "other_only": 8,
+            "residue_only": 0
+          },
+          "pairwise_raw": {
+            "other_only": 10,
+            "residue_only": 0
+          },
+          "profile": {
+            "other_only": 9,
+            "residue_only": 0
+          }
+        }
+      },
+      "primary_by_comparison": {
+        "carbohydrate_hydrolysis": {
+          "correct": {
+            "mean_cosine": 6,
+            "pairwise": 5,
+            "pairwise_raw": 7,
+            "profile": 7,
+            "residue_local": 4
+          },
+          "equal_reaction_accuracy": {
+            "mean_cosine": 0.7222222222222222,
+            "pairwise": 0.611111111111111,
+            "pairwise_raw": 0.8333333333333334,
+            "profile": 0.8333333333333334,
+            "residue_local": 0.5
+          },
+          "queries": 8,
+          "reactions": 3,
+          "residue_local_disagreements": {
+            "mean_cosine": {
+              "other_only": 3,
+              "residue_only": 1
+            },
+            "pairwise": {
+              "other_only": 1,
+              "residue_only": 0
+            },
+            "pairwise_raw": {
+              "other_only": 3,
+              "residue_only": 0
+            },
+            "profile": {
+              "other_only": 3,
+              "residue_only": 0
+            }
+          }
+        },
+        "nucleobase_and_nucleoside_deamination": {
+          "correct": {
+            "mean_cosine": 4,
+            "pairwise": 5,
+            "pairwise_raw": 5,
+            "profile": 5,
+            "residue_local": 3
+          },
+          "equal_reaction_accuracy": {
+            "mean_cosine": 0.8888888888888888,
+            "pairwise": 1.0,
+            "pairwise_raw": 1.0,
+            "profile": 1.0,
+            "residue_local": 0.7777777777777778
+          },
+          "queries": 5,
+          "reactions": 3,
+          "residue_local_disagreements": {
+            "mean_cosine": {
+              "other_only": 2,
+              "residue_only": 1
+            },
+            "pairwise": {
+              "other_only": 2,
+              "residue_only": 0
+            },
+            "pairwise_raw": {
+              "other_only": 2,
+              "residue_only": 0
+            },
+            "profile": {
+              "other_only": 2,
+              "residue_only": 0
+            }
+          }
+        },
+        "sugar_phosphate_metabolism": {
+          "correct": {
+            "mean_cosine": 3,
+            "pairwise": 7,
+            "pairwise_raw": 7,
+            "profile": 6,
+            "residue_local": 2
+          },
+          "equal_reaction_accuracy": {
+            "mean_cosine": 0.3333333333333333,
+            "pairwise": 0.7333333333333333,
+            "pairwise_raw": 0.7333333333333333,
+            "profile": 0.6666666666666667,
+            "residue_local": 0.26666666666666666
+          },
+          "queries": 9,
+          "reactions": 5,
+          "residue_local_disagreements": {
+            "mean_cosine": {
+              "other_only": 1,
+              "residue_only": 0
+            },
+            "pairwise": {
+              "other_only": 5,
+              "residue_only": 0
+            },
+            "pairwise_raw": {
+              "other_only": 5,
+              "residue_only": 0
+            },
+            "profile": {
+              "other_only": 4,
+              "residue_only": 0
+            }
+          }
+        }
+      },
+      "schema": "natural-experimental-enzyme-reactions-1",
+      "under_25": {
+        "correct": {
+          "mean_cosine": 8,
+          "pairwise": 9,
+          "pairwise_raw": 11,
+          "profile": 11,
+          "residue_local": 5
+        },
+        "equal_reaction_accuracy": {
+          "mean_cosine": 0.4047619047619047,
+          "pairwise": 0.5476190476190477,
+          "pairwise_raw": 0.6428571428571429,
+          "profile": 0.6428571428571429,
+          "residue_local": 0.2619047619047619
+        },
+        "queries": 14,
+        "reactions": 7,
+        "residue_local_disagreements": {
+          "mean_cosine": {
+            "other_only": 5,
+            "residue_only": 2
+          },
+          "pairwise": {
+            "other_only": 4,
+            "residue_only": 0
+          },
+          "pairwise_raw": {
+            "other_only": 6,
+            "residue_only": 0
+          },
+          "profile": {
+            "other_only": 6,
+            "residue_only": 0
+          }
+        }
+      }
+    }
+  },
+  "schema": "natural-experimental-reaction-reports-1"
+}

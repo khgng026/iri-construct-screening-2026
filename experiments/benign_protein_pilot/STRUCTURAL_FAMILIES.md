@@ -1,6 +1,6 @@
 # Recognizing distant relatives of known metabolic protein domains
 
-Can a protein language model recognize a distant relative when sequence comparison has few obvious matches? Wittmann and colleagues describe why this question matters in defensive screening and why performance depends on the method and the input. Here we test a narrower question with known domains of ordinary metabolic proteins and a fixed set of plausible alternatives. The labels come from the curated SCOPe structure classification. [Science, 2025](https://doi.org/10.1126/science.adu8578) · [Frontiers, 2026](https://doi.org/10.3389/fbioe.2026.1858951) · [SCOPe 2.08](https://scop.berkeley.edu/astral/ver=2.08)
+Can a protein language model recognize a distant relative when sequence comparison has few obvious matches? Wittmann and colleagues reported that divergence can challenge sequence-based screening and that updated methods can improve it. Their follow-up examined shorter inputs and found that performance depended on the method. Those studies motivate placing the lowest-identity examples first and including more than one conventional comparator. Here we test a narrower question with known domains of ordinary metabolic proteins and a fixed set of plausible alternatives. The labels come from the curated SCOPe structure classification. [Science, 2025](https://doi.org/10.1126/science.adu8578) · [Frontiers, 2026](https://doi.org/10.3389/fbioe.2026.1858951) · [SCOPe 2.08](https://scop.berkeley.edu/astral/ver=2.08)
 
 ## Comparison fixed before scoring
 
@@ -47,3 +47,23 @@ The two new panels and the broader profile comparison were committed at `94fd232
 The wider HMM did not improve the overall hit count on the TIM-barrel panel, though it recovered both members of one superfamily missed by all five original scorers. Equal-fine-family accuracy for that profile rose to 48.3%, compared with 70.0% for local ESM-2. Local ESM-2 found two additional correct labels over the fine-family HMM on the Flavodoxin-like panel. Raw BLOSUM62 led on the nucleotide alpha hydrolase-like panel. There it recognized both labels, while local ESM-2 identified only the majority label. Only 6, 3 and 2 queries, respectively, had a same-superfamily local alignment covering at least 70% of both sequences.
 
 Very low global identity alone did not determine which method worked best. This led to a separate test of [experimentally documented enzyme reactions](EXPERIMENTAL_REACTIONS.md). Recognizing a broad structural relationship can help narrow down possible functions, but members of a superfamily can perform different reactions.
+
+## Reproduce
+
+Use the [offline model environment](../../docs/project/HANDOFF.md) with `pyfamsa==0.7.0` and `pyhmmer==0.12.3`. The run used Biopython 1.86, NumPy 1.26.4, PyTorch 2.6.0 on CPU, and Transformers 4.48.1. The reports and their per-domain decisions are in [structural_results.json](structural_results.json). For a source replay, compare downloaded domain and sequence hashes against the tracked freezes. The run date and timings may differ. SCOPe makes ASTRAL data available to users. Source snapshots and sequences live in the ignored workspace. [SCOPe terms](https://scop.berkeley.edu/about)
+
+```sh
+run=results/natural-structural-families-replay
+source=https://scop.berkeley.edu/downloads/parse
+mkdir -p "$run"
+curl -fsSL "$source/dir.des.scope.2.08-stable.txt" -o "$run/descriptions.txt"
+curl -fsSL "$source/dir.cla.scope.2.08-stable.txt" -o "$run/classification.txt"
+for fold in c.1 c.23 c.26; do
+  python -m experiments.benign_protein_pilot.structural_study acquire "$run/$fold" \
+    --panel-fold "$fold" --descriptions "$run/descriptions.txt" \
+    --classification "$run/classification.txt"
+  OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 \
+    python -m experiments.benign_protein_pilot.structural_study score "$run/$fold" \
+    --extended-profiles --out "$run/$fold/report.json"
+done
+```
