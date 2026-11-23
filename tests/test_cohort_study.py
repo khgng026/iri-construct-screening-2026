@@ -1,9 +1,14 @@
 """Regression tests for the cohort v2 freeze, runner helpers and paired analysis (fictional data)."""
+import importlib.util
 import random
 import unittest
 
-from experiments.paired_preprocessing import cohort_analysis as ca
 from experiments.paired_preprocessing import cohort_study as cs
+
+# The analysis module needs NumPy, which the dependency-free CI jobs do not install.
+HAS_NUMPY = importlib.util.find_spec('numpy') is not None
+if HAS_NUMPY:
+    from experiments.paired_preprocessing import cohort_analysis as ca
 from experiments.paired_preprocessing.verify import _covered
 
 
@@ -91,6 +96,7 @@ def _rows(spec):
             for g, f, x, y in spec]
 
 
+@unittest.skipUnless(HAS_NUMPY, 'cohort analysis tests require NumPy')
 class EffectTests(unittest.TestCase):
     def test_pooled_equal_group_and_leave_one_out(self):
         rows = _rows([('g1', 'f1', 1, 0), ('g1', 'f1', 1, 0), ('g1', 'f2', 0, 0), ('g1', 'f2', 0, 0),
