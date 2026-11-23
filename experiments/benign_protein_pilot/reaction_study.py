@@ -13,7 +13,7 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
-from .related_study import LOCAL_EXTEND, LOCAL_OPEN, _encode, _residue_local_score
+from .related_study import LOCAL_EXTEND, LOCAL_OPEN, _encode, _representations, _residue_local_score
 from .structural_study import METHODS, PRIMARY_IDENTITY, _global_identity, _profile_scores, _top_label
 from .study import ALPHABET, MIN_COVERAGE, _alignment_comparison, sha, write_json
 
@@ -35,6 +35,11 @@ REACTIONS = {
 }
 GROUP_BY_REACTION = {label: group for group, labels in REACTIONS.items() for label in labels}
 MAX_PER_TAXON_GROUP = 6
+ESM2_150M = {
+    'repository': 'facebook/esm2_t30_150M_UR50D',
+    'revision': 'a695f6045e2e32885fa60af20c13cb35398ce30c',
+    'weight_sha256': 'c3f1da8aea53bddd32c246c86168c23b9fd72341fb9db9a94436f855f5053566',
+}
 
 
 def _fetch(label):
@@ -156,12 +161,51 @@ def _panel(folder):
     return entries, sequences, sha(freeze_bytes)
 
 
-def score(folder, output):
+def _encode_150m(sequences):
+    import torch
+    from huggingface_hub import snapshot_download
+    from transformers import AutoModel, AutoTokenizer
+
+    from iri_constructs.model_adapters import prepare_device
+    from iri_constructs.runtime import digest_file
+
+    torch.set_num_threads(2)
+    torch.set_num_interop_threads(1)
+    prepare_device('cpu', 20261122)
+    spec = ESM2_150M
+    snapshot = Path(snapshot_download(spec['repository'], revision=spec['revision'], local_files_only=True,
+        allow_patterns=['config.json', 'tokenizer_config.json', 'special_tokens_map.json', 'vocab.txt',
+                        'model.safetensors']))
+    if snapshot.name != spec['revision'] or digest_file(snapshot / 'model.safetensors') != spec['weight_sha256']:
+        raise ValueError('ESM-2 150M cache does not match the pinned checkpoint')
+    tokenizer = AutoTokenizer.from_pretrained(snapshot, local_files_only=True)
+    encoder, loading = AutoModel.from_pretrained(snapshot, local_files_only=True, add_pooling_layer=False,
+                                                 output_loading_info=True)
+    if (loading.get('missing_keys') or loading.get('mismatched_keys')
+            or any(not key.startswith('lm_head.') for key in loading.get('unexpected_keys', ()))):
+        raise ValueError('Checkpoint parameters do not match the ESM-2 encoder')
+    encoder = encoder.float().eval()
+    pooled, residues = {}, {}
+    with torch.inference_mode():
+        for key, sequence in sequences.items():
+            inputs = tokenizer(sequence, return_tensors='pt', truncation=False, return_special_tokens_mask=True)
+            if tokenizer.unk_token_id in inputs['input_ids'][0].tolist():
+                raise ValueError('Tokenizer returned an unknown residue token')
+            keep = ~inputs.pop('special_tokens_mask')[0].bool() & inputs['attention_mask'][0].bool()
+            states = encoder(**inputs).last_hidden_state[0][keep]
+            if states.shape[0] != len(sequence) or not torch.isfinite(states).all():
+                raise ValueError('Invalid ESM-2 residue representation')
+            pooled[key], residues[key] = _representations(states.float().numpy())
+    return pooled, residues, {**spec, 'device': 'cpu', 'representation': 'Final layer; special tokens excluded'}
+
+
+def score(folder, output, esm2_size='8m'):
     from Bio.Align import PairwiseAligner, substitution_matrices
 
     entries, sequences, freeze_hash = _panel(folder)
     began = time.perf_counter()
-    pooled, local, model = _encode(sequences)
+    encoder = _encode if esm2_size == '8m' else _encode_150m
+    pooled, local, model = encoder(sequences)
     encoded = time.perf_counter()
     residue_aligner = PairwiseAligner(mode='local', open_gap_score=LOCAL_OPEN, extend_gap_score=LOCAL_EXTEND)
     global_aligner = PairwiseAligner(mode='global', substitution_matrix=substitution_matrices.load('BLOSUM62'),
@@ -224,11 +268,12 @@ def main():
     compare = stages.add_parser('score')
     compare.add_argument('folder', type=Path)
     compare.add_argument('--out', required=True, type=Path)
+    compare.add_argument('--esm2-size', choices=('8m', '150m'), default='8m')
     args = parser.parse_args()
     if args.stage == 'acquire':
         acquire(args.folder)
     else:
-        score(args.folder, args.out)
+        score(args.folder, args.out, esm2_size=args.esm2_size)
 
 
 if __name__ == '__main__':

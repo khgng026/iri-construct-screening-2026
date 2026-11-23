@@ -122,8 +122,15 @@ def _residue_local_score(query, reference, aligner):
     return aligned / min(n, m)
 
 
-def _encode(sequences):
+def _representations(states):
     import numpy as np
+
+    states = np.asarray(states, dtype=np.float32)
+    vector = states.mean(axis=0)
+    return vector / np.linalg.norm(vector), states / np.linalg.norm(states, axis=1, keepdims=True)
+
+
+def _encode(sequences):
     import torch
     from iri_constructs.model_adapters import ESM2_REVISION, LocalAdapter, prepare_device
 
@@ -135,10 +142,7 @@ def _encode(sequences):
         if adapter.metadata['weight_sha256'] != MODEL_HASH:
             raise ValueError('Pinned ESM-2 weight hash does not match')
         for accession, sequence in sequences.items():
-            states = np.asarray(adapter.residues(sequence), dtype=np.float32)
-            vector = states.mean(axis=0)
-            pooled[accession] = vector / np.linalg.norm(vector)
-            residues[accession] = states / np.linalg.norm(states, axis=1, keepdims=True)
+            pooled[accession], residues[accession] = _representations(adapter.residues(sequence))
         return pooled, residues, adapter.metadata
     finally:
         adapter.close()
