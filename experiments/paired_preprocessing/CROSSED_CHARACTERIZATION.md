@@ -8,6 +8,24 @@ The reporter pilot found higher recall with gene calling at the same query cap. 
 - Compare mean-pooled ESM-2 cosine with local BLOSUM62 using the previous alignment settings and reference self-score normalization. Both scorers use the best reference score per family and the same turn-taking rule to assemble parent-level calls.
 - Check the input and reference identities and a fingerprint of the selected protein inputs, source spans, and order before comparing recoveries. Evaluate both sets of traces with the same held-out answer key. Report differences in preprocessing gain and counts of components recovered only by one scorer. Query caps constrain the number of protein inputs. Relative runtime is a separate measurement.
 
+## Results
+
+The protocol and runner were committed at `fba6a11` before scoring. Both scorers recovered the same component identities at every cap and in every arm. Each cell reports recovered components out of seven, followed by the actual protein queries per scorer.
+
+| Preprocessing arm | Cap 1 | Cap 2 (primary) | Cap 4 |
+| --- | ---: | ---: | ---: |
+| Minimal | 1/7, 5 queries | 3/7, 10 queries | 6/7, 20 queries |
+| Start-aware filtering | 2/7, 5 queries | 4/7, 10 queries | 6/7, 19 queries |
+| Start ranking | 2/7, 5 queries | 4/7, 10 queries | 6/7, 20 queries |
+| Pyrodigal | 4/7, 5 queries | 6/7, 8 queries | 7/7, 11 queries |
+| Annotation-derived | 5/7, 5 queries | 6/7, 6 queries | 7/7, 7 queries |
+
+At the primary cap, gene calling gained 3 of 7 components with either scorer. The difference in preprocessing gains between scorers was zero. All misses at the primary cap lacked a covering query under the endpoint's strand and overlap rule. A replay keeping only the top family from each query reproduced the same recall totals. The observed preprocessing gain persists when alignment replaces ESM-2 on this panel.
+
+This panel has seven documented components across five constructs. A fresh grouped batch with independently verified labels is needed to test generalization and scorer differences. The current labels describe whole coding products, so the fusion subregion comparison remains open.
+
+The original ESM-2 inputs and predictions reproduced exactly. The new fingerprints also matched across scorers for every arm. The private reports are under `results/paired-reporter-characterizers-v2/`.
+
 ## Reproduce
 
 Use the cached inputs described in the [pilot handoff](../../docs/project/HANDOFF.md) and the model environment with Pyrodigal from the [v1 comparison](REPORTER_COMPARISON.md). The alignment arm uses Biopython without loading ESM-2. The traces and reports stay in ignored results storage.
