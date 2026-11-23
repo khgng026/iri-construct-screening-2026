@@ -13,6 +13,8 @@ Run acquisition and scoring separately. Acquisition records the source release, 
 
 The exact selection for the completed run is recorded without sequence payloads in [panel.freeze.json](panel.freeze.json). To identify the same inputs after reacquisition, compare `sources_by_label` and `entries`. The retrieval date can change independently. See the [pilot handoff](../../docs/project/HANDOFF.md) for results.
 
+The [related enzyme family comparison](RELATED_FAMILIES.md) adds a fresh panel with more low-identity queries and a residue alignment arm.
+
 ```sh
 python experiments/benign_protein_pilot/study.py acquire results/benign-protein-pilot-v0
 # Use a Python environment with the project installed and the pinned ESM-2 model cached.
