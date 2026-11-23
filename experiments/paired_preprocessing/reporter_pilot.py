@@ -7,6 +7,7 @@ import hashlib
 import io
 import json
 import time
+from contextlib import contextmanager
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -171,17 +172,58 @@ def _gene_caller_candidates(sequence, finder):
     return sorted(units, key=_length_order)
 
 
-def _predictions(selected, model, references, limit):
-    from iri_constructs.metrics import cosine, mean_pool
+def _rank_families(reference_scores):
+    scores = {}
+    for family, score in reference_scores:
+        scores[family] = max(scores.get(family, -1.0), score)
+    return sorted(scores, key=lambda label: (-scores[label], label))
 
-    rows = []
-    for query in selected:
-        vector = mean_pool(model.residues(query['protein']))
-        scores = {}
-        for family, reference in references:
-            score = cosine(vector, reference)
-            scores[family] = max(scores.get(family, -1.0), score)
-        rows.append((query['id'], sorted(scores, key=lambda label: (-scores[label], label))))
+
+@contextmanager
+def _characterizer(name, references):
+    if name == 'blosum62':
+        from Bio.Align import PairwiseAligner, substitution_matrices
+
+        aligner = PairwiseAligner(mode='local', substitution_matrix=substitution_matrices.load('BLOSUM62'),
+                                  open_gap_score=-10.0, extend_gap_score=-0.5, epsilon=1e-6)
+        targets = [(ref['family'], ref['sequence'], aligner.score(ref['sequence'], ref['sequence']))
+                   for ref in references]
+        if any(self_score <= 0 for _, _, self_score in targets):
+            raise ValueError('Alignment reference self-score must be positive')
+
+        def align(protein):
+            return _rank_families((family, aligner.score(protein, sequence) / self_score)
+                                  for family, sequence, self_score in targets)
+
+        yield align, {'alignment': {'matrix': 'BLOSUM62', 'mode': 'local', 'open_gap_score': -10.0,
+                                    'extend_gap_score': -0.5, 'normalization': 'reference self-score'}}
+        return
+
+    if name != 'esm2':
+        raise ValueError('Unknown characterization method')
+    import torch
+    from iri_constructs.metrics import cosine, mean_pool
+    from iri_constructs.model_adapters import ESM2_REVISION, LocalAdapter, prepare_device
+
+    torch.set_num_threads(2)
+    torch.set_num_interop_threads(1)
+    model = LocalAdapter('esm2', prepare_device('cpu', 20261122), ESM2_REVISION, MAX_RESIDUES, offline=True)
+    try:
+        if model.metadata['weight_sha256'] != MODEL_HASH:
+            raise ValueError('Pinned model weights differ')
+        vectors = [(ref['family'], mean_pool(model.residues(ref['sequence']))) for ref in references]
+
+        def embed(protein):
+            vector = mean_pool(model.residues(protein))
+            return _rank_families((family, cosine(vector, reference)) for family, reference in vectors)
+
+        yield embed, {'model': model.metadata}
+    finally:
+        model.close()
+
+
+def _predictions(selected, rank_families, limit):
+    rows = [(query['id'], rank_families(query['protein'])) for query in selected]
     # Each model input can contribute one family per round. A repeated family
     # may refer to a different coordinate and is scored one to one by the verifier.
     predictions = []
@@ -199,7 +241,8 @@ def run(method, inputs, references, protocol, output):
     if (method != 'annotation_reference' and 'sequence_input_sha256' in protocol and
             input_sha256 != protocol['sequence_input_sha256']):
         raise ValueError('Sequence input differs from the fixed characterization protocol')
-    if digest(references) != protocol['reference_panel_sha256']:
+    reference_sha256 = digest(references)
+    if reference_sha256 != protocol['reference_panel_sha256']:
         raise ValueError('Reference panel differs from the fixed characterization protocol')
 
     finder = None
@@ -212,22 +255,17 @@ def run(method, inputs, references, protocol, output):
             raise ValueError(f'The gene_caller arm requires pyrodigal=={PYRODIGAL_VERSION}')
         finder = pyrodigal.GeneFinder(meta=True, closed=False, mask=False)
 
-    import torch
     from Bio import SeqIO
-    from iri_constructs.metrics import mean_pool
-    from iri_constructs.model_adapters import ESM2_REVISION, LocalAdapter, prepare_device
 
     input_records = (read(inputs) if method == 'annotation_reference' else
                      {r.id: str(r.seq) for r in SeqIO.parse(inputs, 'fasta')})
-    torch.set_num_threads(2)
-    torch.set_num_interop_threads(1)
-    model = LocalAdapter('esm2', prepare_device('cpu', 20261122), ESM2_REVISION, MAX_RESIDUES, offline=True)
-    try:
-        if model.metadata['weight_sha256'] != MODEL_HASH:
-            raise ValueError('Pinned model weights differ')
-        vectors = [(ref['family'], mean_pool(model.residues(ref['sequence']))) for ref in read(references)]
+    characterizer = protocol.get('characterizer', 'esm2')
+    reference_rows = read(references)
+    selected_inputs = hashlib.sha256()
+    with _characterizer(characterizer, reference_rows) as (rank_families, metadata):
         run_data = {'schema': SCHEMA, 'method': method, 'characterization_id': protocol['characterization_id'],
-                    'tiers': [], 'input_sha256': input_sha256, 'model': model.metadata}
+                    'characterizer': characterizer, 'reference_panel_sha256': reference_sha256,
+                    'reference_count': len(reference_rows), 'tiers': [], 'input_sha256': input_sha256, **metadata}
         if finder is not None:
             run_data['gene_caller'] = {'engine': 'pyrodigal', 'version': PYRODIGAL_VERSION,
                                        'meta': True, 'closed': False, 'mask': False}
@@ -246,16 +284,19 @@ def run(method, inputs, references, protocol, output):
                 usable = [unit for unit in units if MIN_RESIDUES <= len(unit['protein']) <= MAX_RESIDUES]
                 selected = usable[:cap]
                 prepared = time.perf_counter()
-                predictions = _predictions(selected, model, vectors, protocol['prediction_limit'])
+                predictions = _predictions(selected, rank_families, protocol['prediction_limit'])
+                scored = time.perf_counter()
+                # Includes the protein, order and source spans in a single private digest.
+                encoded = json.dumps((cap, key, selected), sort_keys=True, separators=(',', ':')).encode('utf-8')
+                selected_inputs.update(encoded + b'\n')
                 traces.append({'id': key, 'queries': [{**{k: q[k] for k in ('id', 'strand', 'spans')},
                                                        'input_residues': len(q['protein'])} for q in selected],
                                'predictions': predictions, 'candidate_count': len(usable), 'status': 'ok',
                                'preprocess_seconds': prepared - started,
-                               'characterize_seconds': time.perf_counter() - prepared})
+                               'characterize_seconds': scored - prepared})
             run_data['tiers'].append({'query_cap': cap, 'constructs': traces})
+        run_data['selected_inputs_sha256'] = selected_inputs.hexdigest()
         write(output, run_data)
-    finally:
-        model.close()
 
 
 def main():
