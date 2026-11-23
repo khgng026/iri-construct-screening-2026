@@ -17,6 +17,7 @@ from .verify import _covered, _match
 
 PANEL = Path(__file__).with_name('distant_reporter_panel.json')
 ALTERNATE = PANEL.with_name('distant_reporter_alternate_references.json')
+RENILLA = PANEL.with_name('distant_renilla_panel.json')
 CAPS = (1, 2, 4)
 PRIMARY_CAP = 2
 MIN_OVERLAP = 0.80
@@ -246,7 +247,7 @@ def score(records, refs, panel_hash):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--library', choices=('initial', 'alternate'), default='initial')
+    parser.add_argument('--panel', choices=('initial', 'alternate', 'renilla'), default='initial')
     stages = parser.add_subparsers(dest='stage', required=True)
     stages.add_parser('acquire').add_argument('folder', type=Path)
     stages.add_parser('audit').add_argument('folder', type=Path)
@@ -254,9 +255,10 @@ def main():
     runner.add_argument('folder', type=Path)
     runner.add_argument('--out', required=True, type=Path)
     args = parser.parse_args()
-    panel = read(PANEL)
-    panel_hash = digest(PANEL)
-    if args.library == 'alternate':
+    panel_path = RENILLA if args.panel == 'renilla' else PANEL
+    panel = read(panel_path)
+    panel_hash = digest(panel_path)
+    if args.panel == 'alternate':
         panel.update(read(ALTERNATE))
         panel_hash = _signature(panel_hash + digest(ALTERNATE))
     if args.stage == 'acquire':
