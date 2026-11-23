@@ -14,4 +14,6 @@ The paired verifier and two exploratory pilots are ready on `paired-research-pil
 
 The reporter comparison v1 tested two more preprocessing arms. At the primary cap, Pyrodigal recovered 6 of 7 components with eight calls. Reordering the full candidate pool by start evidence recovered 4 of 7 with ten calls. Both results are exploratory. [Comparison and reproduction commands](../../experiments/paired_preprocessing/REPORTER_COMPARISON.md)
 
-The next work is to run the arms on a verified batch from the existing corpus and add a fusion segmentation arm when independent subregion labels are available. A stronger low-similarity panel can proceed in parallel. The [pilot handoff](HANDOFF.md) records the earlier runs and available artifacts.
+The crossed reporter comparison scored the same candidates with ESM-2 and normalized BLOSUM62. Both recovered the same components at every cap. At the primary cap each recovered 6 of 7 with Pyrodigal and 3 of 7 with the minimal arm. [Results and reproduction commands](../../experiments/paired_preprocessing/CROSSED_CHARACTERIZATION.md)
+
+The next work is to evaluate both scorers on a verified grouped batch and compare fusion segmentation on regions with documented boundaries. The [pilot handoff](HANDOFF.md) records the earlier runs and available artifacts.

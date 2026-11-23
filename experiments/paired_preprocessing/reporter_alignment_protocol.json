@@ -1,0 +1,16 @@
+{
+  "characterization_id": "normalized-blosum62-reporter-panel-v0",
+  "characterizer": "blosum62",
+  "minimum_component_overlap": 0.8,
+  "minimum_interesting_gain": 0.05,
+  "prediction_limit": 5,
+  "primary_query_cap": 2,
+  "query_caps": [
+    1,
+    2,
+    4
+  ],
+  "reference_panel_sha256": "4a54303a838221bb8712d78079193616a421909a4a8317852270ddae67abc4f4",
+  "schema": "paired-preprocessing-1",
+  "sequence_input_sha256": "b73d93095f0662033cf3dff587911a76876a12af78db498c9cadad8077730725"
+}

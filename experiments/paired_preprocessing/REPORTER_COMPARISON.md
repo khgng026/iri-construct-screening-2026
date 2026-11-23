@@ -32,6 +32,8 @@ Start ranking matched start-aware filtering on recall at every cap. It retained 
 
 Carry Pyrodigal forward as the leading comparator and retain start ranking as the control for reordering the same candidate pool. The larger evaluation should use independently verified records to establish where those gains persist. The pilot's small reporter panel and Pyrodigal's prokaryotic assumptions limit generalization across construct types.
 
+The [crossed characterization follow-up](CROSSED_CHARACTERIZATION.md) checks the same selected inputs with ESM-2 and normalized BLOSUM62.
+
 All three original arms reproduced their queries, predictions, and counts with the extended runner. The repository suite ran 281 tests with five optional skips. Both the dependency-free smoke check and historical evidence check passed. The private run report and supplementary replay totals are under `results/paired-reporter-comparison-v1/`.
 
 ## Reproduce
