@@ -32,4 +32,19 @@ In the fusion subset (14 documented regions in 10 groups, exploratory), fixed wi
 
 The session branch integrates `paired-research-pilot` (crossed comparison, corpus audit) with `main` (grouped reporting, protein studies). Sequence-free run outputs are committed under `results/` with the owner's approval; sequence inputs stay untracked. The holdout answer keys are now public, so a confirmatory test needs fresh held-out groups.
 
+## Exploratory follow-up: scorer configurations and the identity crossover
+
+A reader asked whether cohort v2 means foundation models do not beat alignment once
+preprocessing exists. Re-scoring the locked holdout with residue-level ESM-2 and ESM-2 150M,
+and a leave-close-references-out ablation, shows the verdict is regime-dependent. On the whole
+cohort no ESM configuration beats BLOSUM62 (residue +1 pt over mean pooling, 150M +0.2 pt over
+8M; all still below alignment). But as close references are stripped, the methods cross: at
+**< 30% nearest-reference identity**, residue-level ESM-2 recovers **95.6% [93.3, 97.5]** (150M)
+of families against BLOSUM62's **68.2% [63.1, 73.2]**. The lever is residue-level scoring, not
+model scale — mean pooling gets worse when scaled. This reconciles cohort v2 with the
+biosecurity literature. It is exploratory (public holdout keys, alignment-derived labels,
+pretraining overlap). The [research design](ALIGNMENT_VS_MODELS_PLAN.md) and
+[follow-up results](../../experiments/paired_preprocessing/COHORT_SCORER_FOLLOWUP.md) set out the
+confirmatory version: independent labels, a profile-HMM comparator, and fresh held-out groups.
+
 **Next work, all exploratory or new.** Test a selection rule for the 412 documented genes Pyrodigal leaves below the cap. Evaluate local or residue-level scoring of intact fusion candidates. Build a cohort with more eukaryotic and reporter cassettes and more distinct distant components. The [pilot handoff](HANDOFF.md) records the earlier runs.
