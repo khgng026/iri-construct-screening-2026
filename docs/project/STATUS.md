@@ -30,7 +30,7 @@ The claim is qualified in four ways. About 82% of the extra recoveries are β-la
 
 In the fusion subset (14 documented regions in 10 groups, exploratory), fixed windows did not help. ESM-2's misses were scorer failures on intact covering inputs, which points to local scoring rather than splitting. [Results](../../experiments/paired_preprocessing/COHORT_RESULTS.md) · [Protocol](../../experiments/paired_preprocessing/COHORT_STUDY.md)
 
-The session branch integrates `paired-research-pilot` (crossed comparison, corpus audit) with `main` (grouped reporting, protein studies). Sequence-free run outputs are committed under `results/` with the owner's approval; sequence inputs stay untracked. The holdout answer keys are now public, so a confirmatory test needs fresh held-out groups.
+The grouped results and sequence-free traces are on `main`. The holdout answer keys are public, so a confirmatory test needs fresh held-out groups. [Grouped cohort PR](https://github.com/khgng026/iri-construct-screening-2026/pull/26)
 
 ## Exploratory follow-up: scorer configurations and the identity crossover
 
@@ -48,3 +48,7 @@ pretraining overlap). The [research design](ALIGNMENT_VS_MODELS_PLAN.md) and
 confirmatory version: independent labels, a profile-HMM comparator, and fresh held-out groups.
 
 **Next work, all exploratory or new.** Test a selection rule for the 412 documented genes Pyrodigal leaves below the cap. Evaluate local or residue-level scoring of intact fusion candidates. Build a cohort with more eukaryotic and reporter cassettes and more distinct distant components. The [pilot handoff](HANDOFF.md) records the earlier runs.
+
+## End-to-end test on distant reporters
+
+Tested 13 deposited reporter DNA records using the same query budgets for minimal preparation and gene calling. On seven below-25% cases from two reporter ancestries, gene calling delivered a covering input for six at a cap of two. Raw alignment, HMMER, and local ESM-2 recovered the same six. All three identified every case from its documented protein. The experiments extend the low-identity comparison to whole constructs and show how candidate selection and baseline choice affect the result. Independent low-identity construct families with documented failures of the strongest conventional scorers are still needed. [Study and paired results](../../experiments/paired_preprocessing/DISTANT_REPORTERS.md)

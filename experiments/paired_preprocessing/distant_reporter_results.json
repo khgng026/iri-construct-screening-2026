@@ -1,0 +1,4781 @@
+{
+  "reports": {
+    "alternate": {
+      "construct_results": {
+        "gene_caller": {
+          "1": {
+            "actual_queries": 10,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 6,
+                "alignment_ref_normalized": 6,
+                "esm2_150m_local": 6,
+                "esm2_150m_mean": 6,
+                "esm2_8m_local": 6,
+                "esm2_8m_mean": 6,
+                "profile": 6
+              },
+              "equal_ancestry": {
+                "alignment": 0.3125,
+                "alignment_ref_normalized": 0.3125,
+                "esm2_150m_local": 0.3125,
+                "esm2_150m_mean": 0.3125,
+                "esm2_8m_local": 0.3125,
+                "esm2_8m_mean": 0.3125,
+                "profile": 0.3125
+              },
+              "pool_covering": 14,
+              "selected_covering": 6,
+              "selected_exact_protein": 1,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 2,
+              "correct": {
+                "alignment": 1,
+                "alignment_ref_normalized": 1,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 1,
+                "profile": 1
+              },
+              "equal_ancestry": {
+                "alignment": 0.125,
+                "alignment_ref_normalized": 0.125,
+                "esm2_150m_local": 0.125,
+                "esm2_150m_mean": 0.125,
+                "esm2_8m_local": 0.125,
+                "esm2_8m_mean": 0.125,
+                "profile": 0.125
+              },
+              "pool_covering": 8,
+              "selected_covering": 1,
+              "selected_exact_protein": 0,
+              "targets": 8
+            },
+            "query_residues": 4166,
+            "selected_inputs_sha256": "4ee19c2324d2c5961df023a84a755086d404c6fc685718d61252e0fdb8704b46",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 1,
+                "alignment_ref_normalized": 1,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 1,
+                "profile": 1
+              },
+              "equal_ancestry": {
+                "alignment": 0.25,
+                "alignment_ref_normalized": 0.25,
+                "esm2_150m_local": 0.25,
+                "esm2_150m_mean": 0.25,
+                "esm2_8m_local": 0.25,
+                "esm2_8m_mean": 0.25,
+                "profile": 0.25
+              },
+              "pool_covering": 4,
+              "selected_covering": 1,
+              "selected_exact_protein": 0,
+              "targets": 4
+            }
+          },
+          "2": {
+            "actual_queries": 20,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 9,
+                "alignment_ref_normalized": 9,
+                "esm2_150m_local": 9,
+                "esm2_150m_mean": 9,
+                "esm2_8m_local": 9,
+                "esm2_8m_mean": 9,
+                "profile": 9
+              },
+              "equal_ancestry": {
+                "alignment": 0.5,
+                "alignment_ref_normalized": 0.5,
+                "esm2_150m_local": 0.5,
+                "esm2_150m_mean": 0.5,
+                "esm2_8m_local": 0.5,
+                "esm2_8m_mean": 0.5,
+                "profile": 0.5
+              },
+              "pool_covering": 14,
+              "selected_covering": 9,
+              "selected_exact_protein": 4,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 2,
+              "correct": {
+                "alignment": 4,
+                "alignment_ref_normalized": 4,
+                "esm2_150m_local": 4,
+                "esm2_150m_mean": 4,
+                "esm2_8m_local": 4,
+                "esm2_8m_mean": 4,
+                "profile": 4
+              },
+              "equal_ancestry": {
+                "alignment": 0.5,
+                "alignment_ref_normalized": 0.5,
+                "esm2_150m_local": 0.5,
+                "esm2_150m_mean": 0.5,
+                "esm2_8m_local": 0.5,
+                "esm2_8m_mean": 0.5,
+                "profile": 0.5
+              },
+              "pool_covering": 8,
+              "selected_covering": 4,
+              "selected_exact_protein": 3,
+              "targets": 8
+            },
+            "query_residues": 6891,
+            "selected_inputs_sha256": "008196fd2c9750efd9910947943e395fc159a49db5c0dd53d525dab947b7f6fe",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 3,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 3,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 3,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 0.75,
+                "alignment_ref_normalized": 0.75,
+                "esm2_150m_local": 0.75,
+                "esm2_150m_mean": 0.75,
+                "esm2_8m_local": 0.75,
+                "esm2_8m_mean": 0.75,
+                "profile": 0.75
+              },
+              "pool_covering": 4,
+              "selected_covering": 3,
+              "selected_exact_protein": 2,
+              "targets": 4
+            }
+          },
+          "4": {
+            "actual_queries": 34,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 14,
+                "alignment_ref_normalized": 14,
+                "esm2_150m_local": 14,
+                "esm2_150m_mean": 14,
+                "esm2_8m_local": 14,
+                "esm2_8m_mean": 14,
+                "profile": 14
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 1,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 1,
+                "profile": 1
+              },
+              "pool_covering": 14,
+              "selected_covering": 14,
+              "selected_exact_protein": 8,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 2,
+              "correct": {
+                "alignment": 8,
+                "alignment_ref_normalized": 8,
+                "esm2_150m_local": 8,
+                "esm2_150m_mean": 8,
+                "esm2_8m_local": 8,
+                "esm2_8m_mean": 8,
+                "profile": 8
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 1,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 1,
+                "profile": 1
+              },
+              "pool_covering": 8,
+              "selected_covering": 8,
+              "selected_exact_protein": 6,
+              "targets": 8
+            },
+            "query_residues": 9327,
+            "selected_inputs_sha256": "6a3dabdd2177da93fbd06533e47483e5fa24941917d87c775725d13d9da95b7c",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 4,
+                "alignment_ref_normalized": 4,
+                "esm2_150m_local": 4,
+                "esm2_150m_mean": 4,
+                "esm2_8m_local": 4,
+                "esm2_8m_mean": 4,
+                "profile": 4
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 1,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 1,
+                "profile": 1
+              },
+              "pool_covering": 4,
+              "selected_covering": 4,
+              "selected_exact_protein": 3,
+              "targets": 4
+            }
+          }
+        },
+        "minimal": {
+          "1": {
+            "actual_queries": 10,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 5,
+                "alignment_ref_normalized": 5,
+                "esm2_150m_local": 5,
+                "esm2_150m_mean": 7,
+                "esm2_8m_local": 5,
+                "esm2_8m_mean": 5,
+                "profile": 6
+              },
+              "equal_ancestry": {
+                "alignment": 0.25,
+                "alignment_ref_normalized": 0.25,
+                "esm2_150m_local": 0.25,
+                "esm2_150m_mean": 0.375,
+                "esm2_8m_local": 0.25,
+                "esm2_8m_mean": 0.25,
+                "profile": 0.3125
+              },
+              "pool_covering": 14,
+              "selected_covering": 7,
+              "selected_exact_protein": 0,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 2,
+              "correct": {
+                "alignment": 0,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 2,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0,
+                "profile": 1
+              },
+              "equal_ancestry": {
+                "alignment": 0,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 0.25,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0,
+                "profile": 0.125
+              },
+              "pool_covering": 8,
+              "selected_covering": 2,
+              "selected_exact_protein": 0,
+              "targets": 8
+            },
+            "query_residues": 4678,
+            "selected_inputs_sha256": "2890fd31f046657e11ed498b7dcddf97369b4dfe44a0b2426c8062cfac9ae87d",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 0,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 2,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0,
+                "profile": 1
+              },
+              "equal_ancestry": {
+                "alignment": 0,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 0.5,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0,
+                "profile": 0.25
+              },
+              "pool_covering": 4,
+              "selected_covering": 2,
+              "selected_exact_protein": 0,
+              "targets": 4
+            }
+          },
+          "2": {
+            "actual_queries": 20,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 6,
+                "alignment_ref_normalized": 6,
+                "esm2_150m_local": 5,
+                "esm2_150m_mean": 8,
+                "esm2_8m_local": 5,
+                "esm2_8m_mean": 6,
+                "profile": 7
+              },
+              "equal_ancestry": {
+                "alignment": 0.3125,
+                "alignment_ref_normalized": 0.3125,
+                "esm2_150m_local": 0.25,
+                "esm2_150m_mean": 0.625,
+                "esm2_8m_local": 0.25,
+                "esm2_8m_mean": 0.3125,
+                "profile": 0.375
+              },
+              "pool_covering": 14,
+              "selected_covering": 8,
+              "selected_exact_protein": 0,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 2,
+              "correct": {
+                "alignment": 1,
+                "alignment_ref_normalized": 1,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 2,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 1,
+                "profile": 2
+              },
+              "equal_ancestry": {
+                "alignment": 0.125,
+                "alignment_ref_normalized": 0.125,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 0.25,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0.125,
+                "profile": 0.25
+              },
+              "pool_covering": 8,
+              "selected_covering": 2,
+              "selected_exact_protein": 0,
+              "targets": 8
+            },
+            "query_residues": 7660,
+            "selected_inputs_sha256": "aa7bba7e7d03e5a8377c4e79d8d1aede585814e64368a4f00076a22626c7d126",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 1,
+                "alignment_ref_normalized": 1,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 2,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 1,
+                "profile": 2
+              },
+              "equal_ancestry": {
+                "alignment": 0.25,
+                "alignment_ref_normalized": 0.25,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 0.5,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0.25,
+                "profile": 0.5
+              },
+              "pool_covering": 4,
+              "selected_covering": 2,
+              "selected_exact_protein": 0,
+              "targets": 4
+            }
+          },
+          "4": {
+            "actual_queries": 40,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 9,
+                "alignment_ref_normalized": 9,
+                "esm2_150m_local": 8,
+                "esm2_150m_mean": 10,
+                "esm2_8m_local": 8,
+                "esm2_8m_mean": 9,
+                "profile": 10
+              },
+              "equal_ancestry": {
+                "alignment": 0.6875,
+                "alignment_ref_normalized": 0.6875,
+                "esm2_150m_local": 0.625,
+                "esm2_150m_mean": 0.75,
+                "esm2_8m_local": 0.625,
+                "esm2_8m_mean": 0.6875,
+                "profile": 0.75
+              },
+              "pool_covering": 14,
+              "selected_covering": 10,
+              "selected_exact_protein": 0,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 2,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 3,
+                "esm2_150m_local": 2,
+                "esm2_150m_mean": 4,
+                "esm2_8m_local": 2,
+                "esm2_8m_mean": 3,
+                "profile": 4
+              },
+              "equal_ancestry": {
+                "alignment": 0.375,
+                "alignment_ref_normalized": 0.375,
+                "esm2_150m_local": 0.25,
+                "esm2_150m_mean": 0.5,
+                "esm2_8m_local": 0.25,
+                "esm2_8m_mean": 0.375,
+                "profile": 0.5
+              },
+              "pool_covering": 8,
+              "selected_covering": 4,
+              "selected_exact_protein": 0,
+              "targets": 8
+            },
+            "query_residues": 12525,
+            "selected_inputs_sha256": "edf8d6d148ebe9467d38dbf7930b7eb306b792dac0fecd7064ff9e5fa29f0531",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 2,
+                "alignment_ref_normalized": 2,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 3,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 2,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 0.5,
+                "alignment_ref_normalized": 0.5,
+                "esm2_150m_local": 0.25,
+                "esm2_150m_mean": 0.75,
+                "esm2_8m_local": 0.25,
+                "esm2_8m_mean": 0.5,
+                "profile": 0.75
+              },
+              "pool_covering": 4,
+              "selected_covering": 3,
+              "selected_exact_protein": 0,
+              "targets": 4
+            }
+          }
+        }
+      },
+      "environment": {
+        "biopython": "1.86",
+        "numpy": "1.26.4",
+        "pyfamsa": "0.7.0",
+        "pyhmmer": "0.12.3",
+        "pyrodigal": "3.6.3",
+        "torch": "2.6.0+cpu",
+        "transformers": "4.48.1"
+      },
+      "known_boundaries_correct": {
+        "AY738222.1:2": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "DQ904461.1:3": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "KP666136.1:13": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "KP666136.1:2": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "KP666136.1:7": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MK484107.1:3": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MK484108.1:2": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MN232104.1:3": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MN232104.1:7": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MW987534.1:3": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MW987534.1:6": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "OK040229.1:2": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "PX401326.1:1": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "U84006.1:3": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        }
+      },
+      "locus_overlap_at_least": 0.8,
+      "low_identity_below": 0.3,
+      "models": {
+        "esm2_150m": {
+          "model": "esm2_150m",
+          "repository": "facebook/esm2_t30_150M_UR50D",
+          "representation": "final layer; BOS/EOS excluded; float32",
+          "revision": "a695f6045e2e32885fa60af20c13cb35398ce30c",
+          "torch_threads": 2,
+          "weight_sha256": "c3f1da8aea53bddd32c246c86168c23b9fd72341fb9db9a94436f855f5053566"
+        },
+        "esm2_8m": {
+          "model": "esm2_8m",
+          "repository": "facebook/esm2_t6_8M_UR50D",
+          "representation": "final layer; BOS/EOS excluded; float32",
+          "revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+          "torch_threads": 2,
+          "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+        }
+      },
+      "panel_sha256": "7ec99aead07e5d9fa510c4bc1a67d6df0e1b75a7f414c5608933c9417549e222",
+      "primary_cap": 2,
+      "reference_proteins": 10,
+      "schema": "distant-public-reporter-results-1",
+      "targets": {
+        "AY738222.1:2": {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "joined_cds": false,
+          "low_identity": false,
+          "max_covered_same_family_local_identity": 0.3727087576374745,
+          "max_same_family_global_identity": 0.32367972742759793,
+          "source_product": "luciferase luc2"
+        },
+        "DQ904461.1:3": {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "joined_cds": false,
+          "low_identity": false,
+          "max_covered_same_family_local_identity": 0.3727087576374745,
+          "max_same_family_global_identity": 0.3057324840764331,
+          "source_product": "firefly luciferase"
+        },
+        "KP666136.1:13": {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.20717131474103587,
+          "source_product": "mVenus"
+        },
+        "KP666136.1:2": {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.19753086419753085,
+          "source_product": "mCerulean"
+        },
+        "KP666136.1:7": {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.31862745098039214,
+          "max_same_family_global_identity": 0.26907630522088355,
+          "source_product": "mCherry"
+        },
+        "MK484107.1:3": {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "joined_cds": false,
+          "low_identity": false,
+          "max_covered_same_family_local_identity": 0.3727087576374745,
+          "max_same_family_global_identity": 0.32367972742759793,
+          "source_product": "firefly luciferase"
+        },
+        "MK484108.1:2": {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "joined_cds": false,
+          "low_identity": false,
+          "max_covered_same_family_local_identity": 0.3727087576374745,
+          "max_same_family_global_identity": 0.32367972742759793,
+          "source_product": "firefly luciferase"
+        },
+        "MN232104.1:3": {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.31862745098039214,
+          "max_same_family_global_identity": 0.25475285171102663,
+          "source_product": "TatRRR-mCherry fluorescent protein"
+        },
+        "MN232104.1:7": {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.20238095238095238,
+          "source_product": "enhanced green fluorescent protein"
+        },
+        "MW987534.1:3": {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.31862745098039214,
+          "max_same_family_global_identity": 0.26907630522088355,
+          "source_product": "mCherry"
+        },
+        "MW987534.1:6": {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.20238095238095238,
+          "source_product": "EGFP"
+        },
+        "OK040229.1:2": {
+          "ancestry": "lancelet",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": false,
+          "max_covered_same_family_local_identity": 0.391304347826087,
+          "max_same_family_global_identity": 0.3360655737704918,
+          "source_product": "mNeonGreen"
+        },
+        "PX401326.1:1": {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.31862745098039214,
+          "max_same_family_global_identity": 0.26907630522088355,
+          "source_product": "mCherry"
+        },
+        "U84006.1:3": {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "joined_cds": true,
+          "low_identity": false,
+          "max_covered_same_family_local_identity": 0.3727087576374745,
+          "max_same_family_global_identity": 0.3247863247863248,
+          "source_product": "firefly luciferase"
+        }
+      },
+      "unique_candidate_and_diagnostic_proteins": 60
+    },
+    "initial": {
+      "construct_results": {
+        "gene_caller": {
+          "1": {
+            "actual_queries": 10,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 6,
+                "alignment_ref_normalized": 6,
+                "esm2_150m_local": 6,
+                "esm2_150m_mean": 6,
+                "esm2_8m_local": 6,
+                "esm2_8m_mean": 6,
+                "profile": 6
+              },
+              "equal_ancestry": {
+                "alignment": 0.3125,
+                "alignment_ref_normalized": 0.3125,
+                "esm2_150m_local": 0.3125,
+                "esm2_150m_mean": 0.3125,
+                "esm2_8m_local": 0.3125,
+                "esm2_8m_mean": 0.3125,
+                "profile": 0.3125
+              },
+              "pool_covering": 14,
+              "selected_covering": 6,
+              "selected_exact_protein": 1,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 3,
+              "correct": {
+                "alignment": 5,
+                "alignment_ref_normalized": 5,
+                "esm2_150m_local": 5,
+                "esm2_150m_mean": 5,
+                "esm2_8m_local": 5,
+                "esm2_8m_mean": 5,
+                "profile": 5
+              },
+              "equal_ancestry": {
+                "alignment": 0.3333333333333333,
+                "alignment_ref_normalized": 0.3333333333333333,
+                "esm2_150m_local": 0.3333333333333333,
+                "esm2_150m_mean": 0.3333333333333333,
+                "esm2_8m_local": 0.3333333333333333,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 0.3333333333333333
+              },
+              "pool_covering": 10,
+              "selected_covering": 5,
+              "selected_exact_protein": 1,
+              "targets": 10
+            },
+            "query_residues": 4166,
+            "selected_inputs_sha256": "4ee19c2324d2c5961df023a84a755086d404c6fc685718d61252e0fdb8704b46",
+            "under_25": {
+              "ancestries": 0,
+              "correct": {
+                "alignment": 0,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0,
+                "profile": 0
+              },
+              "equal_ancestry": {
+                "alignment": null,
+                "alignment_ref_normalized": null,
+                "esm2_150m_local": null,
+                "esm2_150m_mean": null,
+                "esm2_8m_local": null,
+                "esm2_8m_mean": null,
+                "profile": null
+              },
+              "pool_covering": 0,
+              "selected_covering": 0,
+              "selected_exact_protein": 0,
+              "targets": 0
+            }
+          },
+          "2": {
+            "actual_queries": 20,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 9,
+                "alignment_ref_normalized": 9,
+                "esm2_150m_local": 9,
+                "esm2_150m_mean": 9,
+                "esm2_8m_local": 9,
+                "esm2_8m_mean": 9,
+                "profile": 9
+              },
+              "equal_ancestry": {
+                "alignment": 0.5,
+                "alignment_ref_normalized": 0.5,
+                "esm2_150m_local": 0.5,
+                "esm2_150m_mean": 0.5,
+                "esm2_8m_local": 0.5,
+                "esm2_8m_mean": 0.5,
+                "profile": 0.5
+              },
+              "pool_covering": 14,
+              "selected_covering": 9,
+              "selected_exact_protein": 4,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 3,
+              "correct": {
+                "alignment": 6,
+                "alignment_ref_normalized": 6,
+                "esm2_150m_local": 6,
+                "esm2_150m_mean": 6,
+                "esm2_8m_local": 6,
+                "esm2_8m_mean": 6,
+                "profile": 6
+              },
+              "equal_ancestry": {
+                "alignment": 0.4166666666666667,
+                "alignment_ref_normalized": 0.4166666666666667,
+                "esm2_150m_local": 0.4166666666666667,
+                "esm2_150m_mean": 0.4166666666666667,
+                "esm2_8m_local": 0.4166666666666667,
+                "esm2_8m_mean": 0.4166666666666667,
+                "profile": 0.4166666666666667
+              },
+              "pool_covering": 10,
+              "selected_covering": 6,
+              "selected_exact_protein": 2,
+              "targets": 10
+            },
+            "query_residues": 6891,
+            "selected_inputs_sha256": "008196fd2c9750efd9910947943e395fc159a49db5c0dd53d525dab947b7f6fe",
+            "under_25": {
+              "ancestries": 0,
+              "correct": {
+                "alignment": 0,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0,
+                "profile": 0
+              },
+              "equal_ancestry": {
+                "alignment": null,
+                "alignment_ref_normalized": null,
+                "esm2_150m_local": null,
+                "esm2_150m_mean": null,
+                "esm2_8m_local": null,
+                "esm2_8m_mean": null,
+                "profile": null
+              },
+              "pool_covering": 0,
+              "selected_covering": 0,
+              "selected_exact_protein": 0,
+              "targets": 0
+            }
+          },
+          "4": {
+            "actual_queries": 34,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 14,
+                "alignment_ref_normalized": 14,
+                "esm2_150m_local": 14,
+                "esm2_150m_mean": 14,
+                "esm2_8m_local": 14,
+                "esm2_8m_mean": 14,
+                "profile": 14
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 1,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 1,
+                "profile": 1
+              },
+              "pool_covering": 14,
+              "selected_covering": 14,
+              "selected_exact_protein": 8,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 3,
+              "correct": {
+                "alignment": 10,
+                "alignment_ref_normalized": 10,
+                "esm2_150m_local": 10,
+                "esm2_150m_mean": 10,
+                "esm2_8m_local": 10,
+                "esm2_8m_mean": 10,
+                "profile": 10
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 1,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 1,
+                "profile": 1
+              },
+              "pool_covering": 10,
+              "selected_covering": 10,
+              "selected_exact_protein": 5,
+              "targets": 10
+            },
+            "query_residues": 9327,
+            "selected_inputs_sha256": "6a3dabdd2177da93fbd06533e47483e5fa24941917d87c775725d13d9da95b7c",
+            "under_25": {
+              "ancestries": 0,
+              "correct": {
+                "alignment": 0,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0,
+                "profile": 0
+              },
+              "equal_ancestry": {
+                "alignment": null,
+                "alignment_ref_normalized": null,
+                "esm2_150m_local": null,
+                "esm2_150m_mean": null,
+                "esm2_8m_local": null,
+                "esm2_8m_mean": null,
+                "profile": null
+              },
+              "pool_covering": 0,
+              "selected_covering": 0,
+              "selected_exact_protein": 0,
+              "targets": 0
+            }
+          }
+        },
+        "minimal": {
+          "1": {
+            "actual_queries": 10,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 5,
+                "alignment_ref_normalized": 5,
+                "esm2_150m_local": 5,
+                "esm2_150m_mean": 6,
+                "esm2_8m_local": 5,
+                "esm2_8m_mean": 5,
+                "profile": 5
+              },
+              "equal_ancestry": {
+                "alignment": 0.25,
+                "alignment_ref_normalized": 0.25,
+                "esm2_150m_local": 0.25,
+                "esm2_150m_mean": 0.3125,
+                "esm2_8m_local": 0.25,
+                "esm2_8m_mean": 0.25,
+                "profile": 0.25
+              },
+              "pool_covering": 14,
+              "selected_covering": 7,
+              "selected_exact_protein": 0,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 3,
+              "correct": {
+                "alignment": 5,
+                "alignment_ref_normalized": 5,
+                "esm2_150m_local": 5,
+                "esm2_150m_mean": 5,
+                "esm2_8m_local": 5,
+                "esm2_8m_mean": 5,
+                "profile": 5
+              },
+              "equal_ancestry": {
+                "alignment": 0.3333333333333333,
+                "alignment_ref_normalized": 0.3333333333333333,
+                "esm2_150m_local": 0.3333333333333333,
+                "esm2_150m_mean": 0.3333333333333333,
+                "esm2_8m_local": 0.3333333333333333,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 0.3333333333333333
+              },
+              "pool_covering": 10,
+              "selected_covering": 5,
+              "selected_exact_protein": 0,
+              "targets": 10
+            },
+            "query_residues": 4678,
+            "selected_inputs_sha256": "2890fd31f046657e11ed498b7dcddf97369b4dfe44a0b2426c8062cfac9ae87d",
+            "under_25": {
+              "ancestries": 0,
+              "correct": {
+                "alignment": 0,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0,
+                "profile": 0
+              },
+              "equal_ancestry": {
+                "alignment": null,
+                "alignment_ref_normalized": null,
+                "esm2_150m_local": null,
+                "esm2_150m_mean": null,
+                "esm2_8m_local": null,
+                "esm2_8m_mean": null,
+                "profile": null
+              },
+              "pool_covering": 0,
+              "selected_covering": 0,
+              "selected_exact_protein": 0,
+              "targets": 0
+            }
+          },
+          "2": {
+            "actual_queries": 20,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 6,
+                "alignment_ref_normalized": 6,
+                "esm2_150m_local": 6,
+                "esm2_150m_mean": 7,
+                "esm2_8m_local": 6,
+                "esm2_8m_mean": 6,
+                "profile": 7
+              },
+              "equal_ancestry": {
+                "alignment": 0.3125,
+                "alignment_ref_normalized": 0.3125,
+                "esm2_150m_local": 0.3125,
+                "esm2_150m_mean": 0.5625,
+                "esm2_8m_local": 0.3125,
+                "esm2_8m_mean": 0.3125,
+                "profile": 0.5625
+              },
+              "pool_covering": 14,
+              "selected_covering": 8,
+              "selected_exact_protein": 0,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 3,
+              "correct": {
+                "alignment": 5,
+                "alignment_ref_normalized": 5,
+                "esm2_150m_local": 5,
+                "esm2_150m_mean": 6,
+                "esm2_8m_local": 5,
+                "esm2_8m_mean": 5,
+                "profile": 6
+              },
+              "equal_ancestry": {
+                "alignment": 0.3333333333333333,
+                "alignment_ref_normalized": 0.3333333333333333,
+                "esm2_150m_local": 0.3333333333333333,
+                "esm2_150m_mean": 0.6666666666666666,
+                "esm2_8m_local": 0.3333333333333333,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 0.6666666666666666
+              },
+              "pool_covering": 10,
+              "selected_covering": 6,
+              "selected_exact_protein": 0,
+              "targets": 10
+            },
+            "query_residues": 7660,
+            "selected_inputs_sha256": "aa7bba7e7d03e5a8377c4e79d8d1aede585814e64368a4f00076a22626c7d126",
+            "under_25": {
+              "ancestries": 0,
+              "correct": {
+                "alignment": 0,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0,
+                "profile": 0
+              },
+              "equal_ancestry": {
+                "alignment": null,
+                "alignment_ref_normalized": null,
+                "esm2_150m_local": null,
+                "esm2_150m_mean": null,
+                "esm2_8m_local": null,
+                "esm2_8m_mean": null,
+                "profile": null
+              },
+              "pool_covering": 0,
+              "selected_covering": 0,
+              "selected_exact_protein": 0,
+              "targets": 0
+            }
+          },
+          "4": {
+            "actual_queries": 40,
+            "all": {
+              "ancestries": 4,
+              "correct": {
+                "alignment": 9,
+                "alignment_ref_normalized": 9,
+                "esm2_150m_local": 8,
+                "esm2_150m_mean": 9,
+                "esm2_8m_local": 8,
+                "esm2_8m_mean": 9,
+                "profile": 9
+              },
+              "equal_ancestry": {
+                "alignment": 0.6875,
+                "alignment_ref_normalized": 0.6875,
+                "esm2_150m_local": 0.4375,
+                "esm2_150m_mean": 0.6875,
+                "esm2_8m_local": 0.4375,
+                "esm2_8m_mean": 0.6875,
+                "profile": 0.6875
+              },
+              "pool_covering": 14,
+              "selected_covering": 10,
+              "selected_exact_protein": 0,
+              "targets": 14
+            },
+            "cases": {
+              "AY738222.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "DQ904461.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:13": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:2": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "KP666136.1:7": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484107.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MK484108.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MN232104.1:7": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:3": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "MW987534.1:6": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "OK040229.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "PX401326.1:1": {
+                "correct": {
+                  "alignment": false,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": false,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": false,
+                  "esm2_8m_mean": false,
+                  "profile": false
+                },
+                "pool_covering": true,
+                "selected_covering": false,
+                "selected_exact_protein": false
+              },
+              "U84006.1:3": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": true,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 3,
+              "correct": {
+                "alignment": 7,
+                "alignment_ref_normalized": 7,
+                "esm2_150m_local": 6,
+                "esm2_150m_mean": 7,
+                "esm2_8m_local": 6,
+                "esm2_8m_mean": 7,
+                "profile": 7
+              },
+              "equal_ancestry": {
+                "alignment": 0.75,
+                "alignment_ref_normalized": 0.75,
+                "esm2_150m_local": 0.4166666666666667,
+                "esm2_150m_mean": 0.75,
+                "esm2_8m_local": 0.4166666666666667,
+                "esm2_8m_mean": 0.75,
+                "profile": 0.75
+              },
+              "pool_covering": 10,
+              "selected_covering": 7,
+              "selected_exact_protein": 0,
+              "targets": 10
+            },
+            "query_residues": 12525,
+            "selected_inputs_sha256": "edf8d6d148ebe9467d38dbf7930b7eb306b792dac0fecd7064ff9e5fa29f0531",
+            "under_25": {
+              "ancestries": 0,
+              "correct": {
+                "alignment": 0,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 0,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 0,
+                "esm2_8m_mean": 0,
+                "profile": 0
+              },
+              "equal_ancestry": {
+                "alignment": null,
+                "alignment_ref_normalized": null,
+                "esm2_150m_local": null,
+                "esm2_150m_mean": null,
+                "esm2_8m_local": null,
+                "esm2_8m_mean": null,
+                "profile": null
+              },
+              "pool_covering": 0,
+              "selected_covering": 0,
+              "selected_exact_protein": 0,
+              "targets": 0
+            }
+          }
+        }
+      },
+      "environment": {
+        "biopython": "1.86",
+        "numpy": "1.26.4",
+        "pyfamsa": "0.7.0",
+        "pyhmmer": "0.12.3",
+        "pyrodigal": "3.6.3",
+        "torch": "2.6.0+cpu",
+        "transformers": "4.48.1"
+      },
+      "known_boundaries_correct": {
+        "AY738222.1:2": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "DQ904461.1:3": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "KP666136.1:13": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "KP666136.1:2": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "KP666136.1:7": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MK484107.1:3": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MK484108.1:2": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MN232104.1:3": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MN232104.1:7": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MW987534.1:3": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "MW987534.1:6": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "OK040229.1:2": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "PX401326.1:1": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        },
+        "U84006.1:3": {
+          "alignment": true,
+          "alignment_ref_normalized": true,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": true,
+          "profile": true
+        }
+      },
+      "locus_overlap_at_least": 0.8,
+      "low_identity_below": 0.3,
+      "models": {
+        "esm2_150m": {
+          "model": "esm2_150m",
+          "repository": "facebook/esm2_t30_150M_UR50D",
+          "representation": "final layer; BOS/EOS excluded; float32",
+          "revision": "a695f6045e2e32885fa60af20c13cb35398ce30c",
+          "torch_threads": 2,
+          "weight_sha256": "c3f1da8aea53bddd32c246c86168c23b9fd72341fb9db9a94436f855f5053566"
+        },
+        "esm2_8m": {
+          "model": "esm2_8m",
+          "repository": "facebook/esm2_t6_8M_UR50D",
+          "representation": "final layer; BOS/EOS excluded; float32",
+          "revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+          "torch_threads": 2,
+          "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+        }
+      },
+      "panel_sha256": "5cf3d3c4b744a6916e99d1320a10d7f7c7f03b53d56ad062334061ba6b50bd06",
+      "primary_cap": 2,
+      "reference_proteins": 10,
+      "schema": "distant-public-reporter-results-1",
+      "targets": {
+        "AY738222.1:2": {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.33540372670807456,
+          "max_same_family_global_identity": 0.28192371475953565,
+          "source_product": "luciferase luc2"
+        },
+        "DQ904461.1:3": {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.33540372670807456,
+          "max_same_family_global_identity": 0.26791277258566976,
+          "source_product": "firefly luciferase"
+        },
+        "KP666136.1:13": {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": false,
+          "max_covered_same_family_local_identity": 0.9495798319327731,
+          "max_same_family_global_identity": 0.9497907949790795,
+          "source_product": "mVenus"
+        },
+        "KP666136.1:2": {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": false,
+          "max_covered_same_family_local_identity": 0.9495798319327731,
+          "max_same_family_global_identity": 0.9497907949790795,
+          "source_product": "mCerulean"
+        },
+        "KP666136.1:7": {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.32065217391304346,
+          "max_same_family_global_identity": 0.288,
+          "source_product": "mCherry"
+        },
+        "MK484107.1:3": {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.33540372670807456,
+          "max_same_family_global_identity": 0.28192371475953565,
+          "source_product": "firefly luciferase"
+        },
+        "MK484108.1:2": {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.33540372670807456,
+          "max_same_family_global_identity": 0.28192371475953565,
+          "source_product": "firefly luciferase"
+        },
+        "MN232104.1:3": {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.32065217391304346,
+          "max_same_family_global_identity": 0.2727272727272727,
+          "source_product": "TatRRR-mCherry fluorescent protein"
+        },
+        "MN232104.1:7": {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": false,
+          "max_covered_same_family_local_identity": 0.9831932773109243,
+          "max_same_family_global_identity": 0.9832635983263598,
+          "source_product": "enhanced green fluorescent protein"
+        },
+        "MW987534.1:3": {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.32065217391304346,
+          "max_same_family_global_identity": 0.288,
+          "source_product": "mCherry"
+        },
+        "MW987534.1:6": {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": false,
+          "max_covered_same_family_local_identity": 0.9831932773109243,
+          "max_same_family_global_identity": 0.9832635983263598,
+          "source_product": "EGFP"
+        },
+        "OK040229.1:2": {
+          "ancestry": "lancelet",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3165137614678899,
+          "max_same_family_global_identity": 0.2734375,
+          "source_product": "mNeonGreen"
+        },
+        "PX401326.1:1": {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.32065217391304346,
+          "max_same_family_global_identity": 0.288,
+          "source_product": "mCherry"
+        },
+        "U84006.1:3": {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "joined_cds": true,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.33540372670807456,
+          "max_same_family_global_identity": 0.28286189683860236,
+          "source_product": "firefly luciferase"
+        }
+      },
+      "unique_candidate_and_diagnostic_proteins": 60
+    },
+    "renilla": {
+      "construct_results": {
+        "gene_caller": {
+          "1": {
+            "actual_queries": 3,
+            "all": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 0,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0.3333333333333333,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 1,
+              "targets": 3
+            },
+            "cases": {
+              "AF025844.2:6": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "AY738226.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "AY738227.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 0,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0.3333333333333333,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 1,
+              "targets": 3
+            },
+            "query_residues": 1040,
+            "selected_inputs_sha256": "2cd91cef2a5805dd2ac359a5cca85d89fba428d3f97bd20db633038348441761",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 0,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0.3333333333333333,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 1,
+              "targets": 3
+            }
+          },
+          "2": {
+            "actual_queries": 6,
+            "all": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 0,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0.3333333333333333,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 1,
+              "targets": 3
+            },
+            "cases": {
+              "AF025844.2:6": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "AY738226.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "AY738227.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 0,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0.3333333333333333,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 1,
+              "targets": 3
+            },
+            "query_residues": 1898,
+            "selected_inputs_sha256": "5fac570425399c901791afa527dd4fc67c9aec1cee7874491bc9c577943336be",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 0,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0.3333333333333333,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 1,
+              "targets": 3
+            }
+          },
+          "4": {
+            "actual_queries": 9,
+            "all": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 0,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0.3333333333333333,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 1,
+              "targets": 3
+            },
+            "cases": {
+              "AF025844.2:6": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": true,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": true
+              },
+              "AY738226.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "AY738227.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 0,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0.3333333333333333,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 1,
+              "targets": 3
+            },
+            "query_residues": 2162,
+            "selected_inputs_sha256": "aea85e7e3eb8efb4f742677dca6aa8f185c73f6a756be3794607873105c597ed",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 1,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 0,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0.3333333333333333,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 1,
+              "targets": 3
+            }
+          }
+        },
+        "minimal": {
+          "1": {
+            "actual_queries": 3,
+            "all": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 1,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 0,
+              "targets": 3
+            },
+            "cases": {
+              "AF025844.2:6": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "AY738226.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "AY738227.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 1,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 0,
+              "targets": 3
+            },
+            "query_residues": 1107,
+            "selected_inputs_sha256": "377a323c6699ec1375f2397f05fa49fdc3c9d5404463a8c404975935a18c6054",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 1,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 0,
+              "targets": 3
+            }
+          },
+          "2": {
+            "actual_queries": 6,
+            "all": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 1,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 0,
+              "targets": 3
+            },
+            "cases": {
+              "AF025844.2:6": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "AY738226.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "AY738227.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 1,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 0,
+              "targets": 3
+            },
+            "query_residues": 1977,
+            "selected_inputs_sha256": "fd98e514593422c214b2b5185911b1dec71eafbba8dfb8b16c01e6c729942858",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 1,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 0,
+              "targets": 3
+            }
+          },
+          "4": {
+            "actual_queries": 12,
+            "all": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 1,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 0,
+              "targets": 3
+            },
+            "cases": {
+              "AF025844.2:6": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": true,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "AY738226.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              },
+              "AY738227.1:2": {
+                "correct": {
+                  "alignment": true,
+                  "alignment_ref_normalized": false,
+                  "esm2_150m_local": true,
+                  "esm2_150m_mean": false,
+                  "esm2_8m_local": true,
+                  "esm2_8m_mean": false,
+                  "profile": true
+                },
+                "pool_covering": true,
+                "selected_covering": true,
+                "selected_exact_protein": false
+              }
+            },
+            "low": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 1,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 0,
+              "targets": 3
+            },
+            "query_residues": 3044,
+            "selected_inputs_sha256": "1580edaa05c185cbf96420123e19dec451c068e67a0f3033d066b97304b5291a",
+            "under_25": {
+              "ancestries": 1,
+              "correct": {
+                "alignment": 3,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 3,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 3,
+                "esm2_8m_mean": 1,
+                "profile": 3
+              },
+              "equal_ancestry": {
+                "alignment": 1,
+                "alignment_ref_normalized": 0,
+                "esm2_150m_local": 1,
+                "esm2_150m_mean": 0,
+                "esm2_8m_local": 1,
+                "esm2_8m_mean": 0.3333333333333333,
+                "profile": 1
+              },
+              "pool_covering": 3,
+              "selected_covering": 3,
+              "selected_exact_protein": 0,
+              "targets": 3
+            }
+          }
+        }
+      },
+      "environment": {
+        "biopython": "1.86",
+        "numpy": "1.26.4",
+        "pyfamsa": "0.7.0",
+        "pyhmmer": "0.12.3",
+        "pyrodigal": "3.6.3",
+        "torch": "2.6.0+cpu",
+        "transformers": "4.48.1"
+      },
+      "known_boundaries_correct": {
+        "AF025844.2:6": {
+          "alignment": true,
+          "alignment_ref_normalized": false,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": false,
+          "profile": true
+        },
+        "AY738226.1:2": {
+          "alignment": true,
+          "alignment_ref_normalized": false,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": true,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": false,
+          "profile": true
+        },
+        "AY738227.1:2": {
+          "alignment": true,
+          "alignment_ref_normalized": false,
+          "esm2_150m_local": true,
+          "esm2_150m_mean": false,
+          "esm2_8m_local": true,
+          "esm2_8m_mean": false,
+          "profile": true
+        }
+      },
+      "locus_overlap_at_least": 0.8,
+      "low_identity_below": 0.3,
+      "models": {
+        "esm2_150m": {
+          "model": "esm2_150m",
+          "repository": "facebook/esm2_t30_150M_UR50D",
+          "representation": "final layer; BOS/EOS excluded; float32",
+          "revision": "a695f6045e2e32885fa60af20c13cb35398ce30c",
+          "torch_threads": 2,
+          "weight_sha256": "c3f1da8aea53bddd32c246c86168c23b9fd72341fb9db9a94436f855f5053566"
+        },
+        "esm2_8m": {
+          "model": "esm2_8m",
+          "repository": "facebook/esm2_t6_8M_UR50D",
+          "representation": "final layer; BOS/EOS excluded; float32",
+          "revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+          "torch_threads": 2,
+          "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+        }
+      },
+      "panel_sha256": "7366df4f2badea36813d9d038170aab9fb551476a5546b36dc0df27c54b8d51a",
+      "primary_cap": 2,
+      "reference_proteins": 12,
+      "schema": "distant-public-reporter-results-1",
+      "targets": {
+        "AF025844.2:6": {
+          "ancestry": "renilla",
+          "family": "alpha_beta_hydrolase",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.18322295805739514,
+          "source_product": "Renilla luciferase"
+        },
+        "AY738226.1:2": {
+          "ancestry": "renilla",
+          "family": "alpha_beta_hydrolase",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.18322295805739514,
+          "source_product": "luciferase hRluc2"
+        },
+        "AY738227.1:2": {
+          "ancestry": "renilla",
+          "family": "alpha_beta_hydrolase",
+          "joined_cds": false,
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.18818380743982493,
+          "source_product": "luciferase hRlucP"
+        }
+      },
+      "unique_candidate_and_diagnostic_proteins": 15
+    }
+  },
+  "schema": "distant-public-reporter-reports-1"
+}
