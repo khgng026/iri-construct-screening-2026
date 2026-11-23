@@ -10,9 +10,9 @@ Updated November 22, 2026. This policy governs work within the active [research 
 - Cache suitable source records, annotations, derived proteins and approved model files in ignored private project storage when source/model terms support that use. A private execution cache is distinct from committing or publishing data. No raw biological inputs or embeddings in Git unless redistribution suitability and the user's publication authority are established; existing historical approved files remain as recorded.
 - Run regression, exploratory and descriptive evaluation within scope; choose useful examples and version new runs without per-panel approval. Invalid records or unsupported metrics are reported individually. A disputed family label blocks that metric, not extraction of otherwise valid source annotations.
 
-## Resource defaults
+## Resource guidance
 
-Use existing free local compute, CPU by default. Limit each optional model/scoring stage to 30 minutes, 6 GiB process memory and one model at a time. Keep task-added private datasets/model caches within 10 GiB and downloaded checkpoint weights within 1 GiB; dependency installations are separately monitored for available disk space. Bound provider retries, respect rate limits, verify downloads and check disk space. Core tests/batch work may run in bounded chunks with progress reports. These are operational limits for new work, not changes to a frozen historical measurement. Reduce workload automatically if needed; ask before spending, exceeding these limits or using external paid compute.
+Prefer available free compute. Choose CPU or GPU and model concurrency based on the workload and available hardware. If resource needs are unclear, time a representative batch and check memory and disk use before scaling up. Reuse cached artifacts where practical, verify downloads, and respect provider rate limits. For substantial runs, checkpoint progress and share periodic updates. Adjust batch size or concurrency if the run strains the environment. Run size and duration should reflect what the research question requires and what the environment can support. Ask before incurring costs or using paid compute.
 
 ## Automated evidence, not approval loops
 
@@ -24,7 +24,7 @@ Compute current hashes automatically. A new provider snapshot becomes a new iden
 
 ## Ask only for material exceptions
 
-Spending or exceeding resource limits; new restricted/nonpublic data or account agreements; substantive suitability or rights conflicts; public dataset/source release; production deployment; destructive external changes; a new research direction outside scope; a contested scientific judgment central to a reported conclusion; merging or publishing when not already explicitly authorized. Isolate the affected task and continue independent core work. Do not ask again for authority already granted.
+Spending or using paid compute; new restricted/nonpublic data or account agreements; substantive suitability or rights conflicts; public dataset/source release; production deployment; destructive external changes; a new research direction outside scope; a contested scientific judgment central to a reported conclusion; merging or publishing when not already explicitly authorized. Isolate the affected task and continue independent core work. Do not ask again for authority already granted.
 
 ## Legacy transition
 
