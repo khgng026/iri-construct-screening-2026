@@ -11,9 +11,25 @@ The first housekeeping pilot had eight low-identity queries and only one closely
 
 The catalog uses curated labels as the answer key. Some source labels may rely on homology. Query taxa and enzyme labels can also be related across cases. The reported counts are descriptive. This study addresses characterization of known proteins.
 
+## Results
+
+The protocol and 94-protein panel were committed at `fe09de2` before inference. The panel has 79 queries carrying 14 labels and one reference for each of the 15 candidate labels. The table reports correct top labels. [Frozen panel](related_panel.freeze.json)
+
+| Tier | Queries | Local BLOSUM62 | Normalized BLOSUM62 | ESM-2 mean cosine | ESM-2 residue alignment |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| **Low identity** | **41** | **37** | **38** | **19** | **30** |
+| Intermediate | 32 | 32 | 32 | 20 | 32 |
+| High | 5 | 5 | 5 | 5 | 5 |
+| Insufficient coverage | 1 | 0 | 0 | 0 | 0 |
+| All | 79 | 74 | 75 | 44 | 67 |
+
+In the low-identity tier, residue alignment found 13 correct labels missed by mean pooling, and mean pooling found two missed by residue alignment. Among the seven low-identity queries with a strong competing label, both BLOSUM62 arms found five, residue alignment found three, and mean pooling found two. Local alignment made better use of the same encoder outputs on this panel. BLOSUM62 still had the strongest result overall and in the low-identity tier. Retain it as a comparator in follow-up studies.
+
+The encoder made 94 calls. Both alignment approaches considered the same 273 query/reference pairs. On two CPU threads, encoding took about 14.8 seconds. The BLOSUM62 stage took 1.35 seconds including identity and coverage calculations, and residue alignment scoring took 0.63 seconds after encoding. Peak process memory was about 468 MiB. The comparison ranks the candidates from this panel, and its proteins may have been present in model pretraining. Performance on other families, other panels, and annotation-free constructs remains open.
+
 ## Reproduce
 
-Use the project in a Python environment with the dependencies and cached model described in the [pilot handoff](../../docs/project/HANDOFF.md). Acquisition records the provider release, versions, and hashes. Keep the source snapshots and sequence payloads under the ignored results directory. [UniProt terms](https://www.uniprot.org/help/license)
+Use the project in a Python environment with the dependencies and cached model described in the [pilot handoff](../../docs/project/HANDOFF.md). Acquisition records the provider release, versions, and hashes. For an exact replay, compare `sources_by_label` and `entries` with the tracked freeze. Keep source snapshots and sequence payloads under the ignored results directory. [UniProt terms](https://www.uniprot.org/help/license)
 
 ```sh
 run=results/related-housekeeping-v1
