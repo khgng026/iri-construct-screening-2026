@@ -1,0 +1,521 @@
+{
+  "blosum62_gene_caller_recovered": 746,
+  "by_archetype": {
+    "backbone_heavy": {
+      "components": 142,
+      "gene_caller_recovered": {
+        "blosum62": 73,
+        "esm2_150m_mean": 72,
+        "esm2_150m_residue": 74,
+        "esm2_8m_mean": 74,
+        "esm2_8m_residue": 74
+      },
+      "lineage_groups": 107
+    },
+    "multi_cds": {
+      "components": 750,
+      "gene_caller_recovered": {
+        "blosum62": 409,
+        "esm2_150m_mean": 409,
+        "esm2_150m_residue": 413,
+        "esm2_8m_mean": 409,
+        "esm2_8m_residue": 413
+      },
+      "lineage_groups": 183
+    },
+    "single_cds": {
+      "components": 98,
+      "gene_caller_recovered": {
+        "blosum62": 78,
+        "esm2_150m_mean": 78,
+        "esm2_150m_residue": 78,
+        "esm2_8m_mean": 78,
+        "esm2_8m_residue": 77
+      },
+      "lineage_groups": 70
+    },
+    "single_label_other": {
+      "components": 125,
+      "gene_caller_recovered": {
+        "blosum62": 122,
+        "esm2_150m_mean": 121,
+        "esm2_150m_residue": 122,
+        "esm2_8m_mean": 122,
+        "esm2_8m_residue": 122
+      },
+      "lineage_groups": 72
+    },
+    "tagged_fusion": {
+      "components": 106,
+      "gene_caller_recovered": {
+        "blosum62": 64,
+        "esm2_150m_mean": 47,
+        "esm2_150m_residue": 48,
+        "esm2_8m_mean": 42,
+        "esm2_8m_residue": 48
+      },
+      "lineage_groups": 43
+    }
+  },
+  "by_tier": {
+    "high": {
+      "components": 508,
+      "gene_caller_recovered": {
+        "blosum62": 321,
+        "esm2_150m_mean": 312,
+        "esm2_150m_residue": 321,
+        "esm2_8m_mean": 311,
+        "esm2_8m_residue": 321
+      },
+      "lineage_groups": 262
+    },
+    "insufficient_coverage": {
+      "components": 37,
+      "gene_caller_recovered": {
+        "blosum62": 29,
+        "esm2_150m_mean": 34,
+        "esm2_150m_residue": 34,
+        "esm2_8m_mean": 34,
+        "esm2_8m_residue": 34
+      },
+      "lineage_groups": 30
+    },
+    "intermediate": {
+      "components": 426,
+      "gene_caller_recovered": {
+        "blosum62": 244,
+        "esm2_150m_mean": 241,
+        "esm2_150m_residue": 244,
+        "esm2_8m_mean": 243,
+        "esm2_8m_residue": 244
+      },
+      "lineage_groups": 199
+    },
+    "low": {
+      "components": 250,
+      "gene_caller_recovered": {
+        "blosum62": 152,
+        "esm2_150m_mean": 140,
+        "esm2_150m_residue": 136,
+        "esm2_8m_mean": 137,
+        "esm2_8m_residue": 135
+      },
+      "lineage_groups": 154
+    }
+  },
+  "complementarity": {
+    "esm2_150m_mean": {
+      "only_blosum62": 25,
+      "only_this_esm": 6
+    },
+    "esm2_150m_residue": {
+      "only_blosum62": 16,
+      "only_this_esm": 5
+    },
+    "esm2_8m_mean": {
+      "only_blosum62": 26,
+      "only_this_esm": 5
+    },
+    "esm2_8m_residue": {
+      "only_blosum62": 17,
+      "only_this_esm": 5
+    }
+  },
+  "components": 1221,
+  "input_sha256": {
+    "answer_key": "398d681600b10b82c05df8056e0b39b56df308c9545930afc88814af7e75debb",
+    "construct_map": "4a3acbac69c6bda9f2836a35d5cb298c583371181ef4e9c2b145215121ea6a3c"
+  },
+  "lineage_groups": 422,
+  "oracle": {
+    "any_esm OR blosum62": {
+      "equal_group": 0.6871384999939503,
+      "recovered": 752
+    },
+    "esm2_150m_mean OR blosum62": {
+      "equal_group": 0.6871384999939503,
+      "recovered": 752
+    },
+    "esm2_150m_residue OR blosum62": {
+      "equal_group": 0.6847688317475048,
+      "recovered": 751
+    },
+    "esm2_8m_mean OR blosum62": {
+      "equal_group": 0.6847688317475048,
+      "recovered": 751
+    },
+    "esm2_8m_residue OR blosum62": {
+      "equal_group": 0.6847688317475048,
+      "recovered": 751
+    }
+  },
+  "recall": {
+    "blosum62|annotation_reference|1": {
+      "eligible": 1221,
+      "equal_group": 0.7378019032047467,
+      "pooled": 0.6224406224406225,
+      "recovered": 760
+    },
+    "blosum62|annotation_reference|2": {
+      "eligible": 1221,
+      "equal_group": 0.9501920440012858,
+      "pooled": 0.9287469287469288,
+      "recovered": 1134
+    },
+    "blosum62|annotation_reference|4": {
+      "eligible": 1221,
+      "equal_group": 0.9886989392913563,
+      "pooled": 0.9885339885339886,
+      "recovered": 1207
+    },
+    "blosum62|gene_caller|1": {
+      "eligible": 1221,
+      "equal_group": 0.3661557899709559,
+      "pooled": 0.2751842751842752,
+      "recovered": 336
+    },
+    "blosum62|gene_caller|2": {
+      "eligible": 1221,
+      "equal_group": 0.6798884435732777,
+      "pooled": 0.6109746109746109,
+      "recovered": 746
+    },
+    "blosum62|gene_caller|4": {
+      "eligible": 1221,
+      "equal_group": 0.9104082035657864,
+      "pooled": 0.9148239148239148,
+      "recovered": 1117
+    },
+    "blosum62|minimal|1": {
+      "eligible": 1221,
+      "equal_group": 0.32635404024622033,
+      "pooled": 0.23832923832923833,
+      "recovered": 291
+    },
+    "blosum62|minimal|2": {
+      "eligible": 1221,
+      "equal_group": 0.5897514610192336,
+      "pooled": 0.4864864864864865,
+      "recovered": 594
+    },
+    "blosum62|minimal|4": {
+      "eligible": 1221,
+      "equal_group": 0.8422519029154101,
+      "pooled": 0.8624078624078624,
+      "recovered": 1053
+    },
+    "blosum62|start_ranked|1": {
+      "eligible": 1221,
+      "equal_group": 0.3401029032841829,
+      "pooled": 0.26044226044226043,
+      "recovered": 318
+    },
+    "blosum62|start_ranked|2": {
+      "eligible": 1221,
+      "equal_group": 0.611407125654756,
+      "pooled": 0.5061425061425061,
+      "recovered": 618
+    },
+    "blosum62|start_ranked|4": {
+      "eligible": 1221,
+      "equal_group": 0.8615110994850332,
+      "pooled": 0.8812448812448812,
+      "recovered": 1076
+    },
+    "esm2_150m_mean|annotation_reference|1": {
+      "eligible": 1221,
+      "equal_group": 0.7234851575491386,
+      "pooled": 0.6117936117936118,
+      "recovered": 747
+    },
+    "esm2_150m_mean|annotation_reference|2": {
+      "eligible": 1221,
+      "equal_group": 0.9303291462355444,
+      "pooled": 0.9131859131859131,
+      "recovered": 1115
+    },
+    "esm2_150m_mean|annotation_reference|4": {
+      "eligible": 1221,
+      "equal_group": 0.9685398329948093,
+      "pooled": 0.9713349713349714,
+      "recovered": 1186
+    },
+    "esm2_150m_mean|gene_caller|1": {
+      "eligible": 1221,
+      "equal_group": 0.3518390443153476,
+      "pooled": 0.26453726453726456,
+      "recovered": 323
+    },
+    "esm2_150m_mean|gene_caller|2": {
+      "eligible": 1221,
+      "equal_group": 0.6586827338012172,
+      "pooled": 0.5954135954135954,
+      "recovered": 727
+    },
+    "esm2_150m_mean|gene_caller|4": {
+      "eligible": 1221,
+      "equal_group": 0.8829256939742721,
+      "pooled": 0.8918918918918919,
+      "recovered": 1089
+    },
+    "esm2_150m_mean|minimal|1": {
+      "eligible": 1221,
+      "equal_group": 0.31590775272647315,
+      "pooled": 0.2325962325962326,
+      "recovered": 284
+    },
+    "esm2_150m_mean|minimal|2": {
+      "eligible": 1221,
+      "equal_group": 0.5712708697305853,
+      "pooled": 0.4782964782964783,
+      "recovered": 584
+    },
+    "esm2_150m_mean|minimal|4": {
+      "eligible": 1221,
+      "equal_group": 0.8153166738474795,
+      "pooled": 0.8394758394758395,
+      "recovered": 1025
+    },
+    "esm2_150m_mean|start_ranked|1": {
+      "eligible": 1221,
+      "equal_group": 0.32847178164121293,
+      "pooled": 0.2538902538902539,
+      "recovered": 310
+    },
+    "esm2_150m_mean|start_ranked|2": {
+      "eligible": 1221,
+      "equal_group": 0.5912057038538081,
+      "pooled": 0.4954954954954955,
+      "recovered": 605
+    },
+    "esm2_150m_mean|start_ranked|4": {
+      "eligible": 1221,
+      "equal_group": 0.8318507519336903,
+      "pooled": 0.8542178542178542,
+      "recovered": 1043
+    },
+    "esm2_150m_residue|annotation_reference|1": {
+      "eligible": 1221,
+      "equal_group": 0.7194962160009553,
+      "pooled": 0.6109746109746109,
+      "recovered": 746
+    },
+    "esm2_150m_residue|annotation_reference|2": {
+      "eligible": 1221,
+      "equal_group": 0.933626934545181,
+      "pooled": 0.918918918918919,
+      "recovered": 1122
+    },
+    "esm2_150m_residue|annotation_reference|4": {
+      "eligible": 1221,
+      "equal_group": 0.9745260663507109,
+      "pooled": 0.9819819819819819,
+      "recovered": 1199
+    },
+    "esm2_150m_residue|gene_caller|1": {
+      "eligible": 1221,
+      "equal_group": 0.35021977101360985,
+      "pooled": 0.26453726453726456,
+      "recovered": 323
+    },
+    "esm2_150m_residue|gene_caller|2": {
+      "eligible": 1221,
+      "equal_group": 0.6668778364868412,
+      "pooled": 0.601965601965602,
+      "recovered": 735
+    },
+    "esm2_150m_residue|gene_caller|4": {
+      "eligible": 1221,
+      "equal_group": 0.9035418077183481,
+      "pooled": 0.9107289107289107,
+      "recovered": 1112
+    },
+    "esm2_150m_residue|minimal|1": {
+      "eligible": 1221,
+      "equal_group": 0.30804835304242884,
+      "pooled": 0.22686322686322685,
+      "recovered": 277
+    },
+    "esm2_150m_residue|minimal|2": {
+      "eligible": 1221,
+      "equal_group": 0.5716065727321651,
+      "pooled": 0.475020475020475,
+      "recovered": 580
+    },
+    "esm2_150m_residue|minimal|4": {
+      "eligible": 1221,
+      "equal_group": 0.8401248435608624,
+      "pooled": 0.8615888615888616,
+      "recovered": 1052
+    },
+    "esm2_150m_residue|start_ranked|1": {
+      "eligible": 1221,
+      "equal_group": 0.32179721608039147,
+      "pooled": 0.24897624897624898,
+      "recovered": 304
+    },
+    "esm2_150m_residue|start_ranked|2": {
+      "eligible": 1221,
+      "equal_group": 0.595631905614133,
+      "pooled": 0.4954954954954955,
+      "recovered": 605
+    },
+    "esm2_150m_residue|start_ranked|4": {
+      "eligible": 1221,
+      "equal_group": 0.858199206007263,
+      "pooled": 0.8787878787878788,
+      "recovered": 1073
+    },
+    "esm2_8m_mean|annotation_reference|1": {
+      "eligible": 1221,
+      "equal_group": 0.7255586172647783,
+      "pooled": 0.6117936117936118,
+      "recovered": 747
+    },
+    "esm2_8m_mean|annotation_reference|2": {
+      "eligible": 1221,
+      "equal_group": 0.9339231430759866,
+      "pooled": 0.914004914004914,
+      "recovered": 1116
+    },
+    "esm2_8m_mean|annotation_reference|4": {
+      "eligible": 1221,
+      "equal_group": 0.9731635071090048,
+      "pooled": 0.9746109746109746,
+      "recovered": 1190
+    },
+    "esm2_8m_mean|gene_caller|1": {
+      "eligible": 1221,
+      "equal_group": 0.3539125040309874,
+      "pooled": 0.26453726453726456,
+      "recovered": 323
+    },
+    "esm2_8m_mean|gene_caller|2": {
+      "eligible": 1221,
+      "equal_group": 0.6569844715579312,
+      "pooled": 0.5937755937755937,
+      "recovered": 725
+    },
+    "esm2_8m_mean|gene_caller|4": {
+      "eligible": 1221,
+      "equal_group": 0.8909233243060257,
+      "pooled": 0.9000819000819,
+      "recovered": 1099
+    },
+    "esm2_8m_mean|minimal|1": {
+      "eligible": 1221,
+      "equal_group": 0.3141107543062519,
+      "pooled": 0.2285012285012285,
+      "recovered": 279
+    },
+    "esm2_8m_mean|minimal|2": {
+      "eligible": 1221,
+      "equal_group": 0.565070237819053,
+      "pooled": 0.4692874692874693,
+      "recovered": 573
+    },
+    "esm2_8m_mean|minimal|4": {
+      "eligible": 1221,
+      "equal_group": 0.8004103321638866,
+      "pooled": 0.8304668304668305,
+      "recovered": 1014
+    },
+    "esm2_8m_mean|start_ranked|1": {
+      "eligible": 1221,
+      "equal_group": 0.3278596173442145,
+      "pooled": 0.25061425061425063,
+      "recovered": 306
+    },
+    "esm2_8m_mean|start_ranked|2": {
+      "eligible": 1221,
+      "equal_group": 0.5888980983471505,
+      "pooled": 0.48976248976248976,
+      "recovered": 598
+    },
+    "esm2_8m_mean|start_ranked|4": {
+      "eligible": 1221,
+      "equal_group": 0.8180107609609979,
+      "pooled": 0.8468468468468469,
+      "recovered": 1034
+    },
+    "esm2_8m_residue|annotation_reference|1": {
+      "eligible": 1221,
+      "equal_group": 0.7189037989393439,
+      "pooled": 0.6101556101556102,
+      "recovered": 745
+    },
+    "esm2_8m_residue|annotation_reference|2": {
+      "eligible": 1221,
+      "equal_group": 0.9317509471834116,
+      "pooled": 0.9172809172809173,
+      "recovered": 1120
+    },
+    "esm2_8m_residue|annotation_reference|4": {
+      "eligible": 1221,
+      "equal_group": 0.9723538704581359,
+      "pooled": 0.9795249795249795,
+      "recovered": 1196
+    },
+    "esm2_8m_residue|gene_caller|1": {
+      "eligible": 1221,
+      "equal_group": 0.3490349368903871,
+      "pooled": 0.26371826371826373,
+      "recovered": 322
+    },
+    "esm2_8m_residue|gene_caller|2": {
+      "eligible": 1221,
+      "equal_group": 0.6657917385405537,
+      "pooled": 0.6011466011466011,
+      "recovered": 734
+    },
+    "esm2_8m_residue|gene_caller|4": {
+      "eligible": 1221,
+      "equal_group": 0.9006982058226134,
+      "pooled": 0.9066339066339066,
+      "recovered": 1107
+    },
+    "esm2_8m_residue|minimal|1": {
+      "eligible": 1221,
+      "equal_group": 0.30804835304242884,
+      "pooled": 0.22686322686322685,
+      "recovered": 277
+    },
+    "esm2_8m_residue|minimal|2": {
+      "eligible": 1221,
+      "equal_group": 0.5705204747858776,
+      "pooled": 0.4742014742014742,
+      "recovered": 579
+    },
+    "esm2_8m_residue|minimal|4": {
+      "eligible": 1221,
+      "equal_group": 0.837281241665128,
+      "pooled": 0.8574938574938575,
+      "recovered": 1047
+    },
+    "esm2_8m_residue|start_ranked|1": {
+      "eligible": 1221,
+      "equal_group": 0.32061238195716874,
+      "pooled": 0.24815724815724816,
+      "recovered": 303
+    },
+    "esm2_8m_residue|start_ranked|2": {
+      "eligible": 1221,
+      "equal_group": 0.5945458076678456,
+      "pooled": 0.49467649467649466,
+      "recovered": 604
+    },
+    "esm2_8m_residue|start_ranked|4": {
+      "eligible": 1221,
+      "equal_group": 0.8553556041115282,
+      "pooled": 0.8746928746928747,
+      "recovered": 1068
+    }
+  },
+  "scorers": [
+    "blosum62",
+    "esm2_8m_mean",
+    "esm2_8m_residue",
+    "esm2_150m_mean",
+    "esm2_150m_residue"
+  ]
+}

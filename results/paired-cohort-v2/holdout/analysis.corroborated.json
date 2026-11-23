@@ -1,0 +1,5383 @@
+{
+  "bootstrap": {
+    "interval": 0.95,
+    "replicates": 4000,
+    "seed": 20261123
+  },
+  "curves": {
+    "blosum62|annotation_reference|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.7378019032047467,
+      "pooled_recall": 0.6224406224406225,
+      "recovered": 760
+    },
+    "blosum62|annotation_reference|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9501920440012858,
+      "pooled_recall": 0.9287469287469288,
+      "recovered": 1134
+    },
+    "blosum62|annotation_reference|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9886989392913563,
+      "pooled_recall": 0.9885339885339886,
+      "recovered": 1207
+    },
+    "blosum62|gene_caller|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.3661557899709559,
+      "pooled_recall": 0.2751842751842752,
+      "recovered": 336
+    },
+    "blosum62|gene_caller|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.6798884435732777,
+      "pooled_recall": 0.6109746109746109,
+      "recovered": 746
+    },
+    "blosum62|gene_caller|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9104082035657864,
+      "pooled_recall": 0.9148239148239148,
+      "recovered": 1117
+    },
+    "blosum62|minimal|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.32635404024622033,
+      "pooled_recall": 0.23832923832923833,
+      "recovered": 291
+    },
+    "blosum62|minimal|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.5897514610192336,
+      "pooled_recall": 0.4864864864864865,
+      "recovered": 594
+    },
+    "blosum62|minimal|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.8422519029154101,
+      "pooled_recall": 0.8624078624078624,
+      "recovered": 1053
+    },
+    "blosum62|start_ranked|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.3401029032841829,
+      "pooled_recall": 0.26044226044226043,
+      "recovered": 318
+    },
+    "blosum62|start_ranked|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.611407125654756,
+      "pooled_recall": 0.5061425061425061,
+      "recovered": 618
+    },
+    "blosum62|start_ranked|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.8615110994850332,
+      "pooled_recall": 0.8812448812448812,
+      "recovered": 1076
+    },
+    "esm2|annotation_reference|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.7255586172647783,
+      "pooled_recall": 0.6117936117936118,
+      "recovered": 747
+    },
+    "esm2|annotation_reference|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9339231430759866,
+      "pooled_recall": 0.914004914004914,
+      "recovered": 1116
+    },
+    "esm2|annotation_reference|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9731635071090048,
+      "pooled_recall": 0.9746109746109746,
+      "recovered": 1190
+    },
+    "esm2|gene_caller|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.3539125040309874,
+      "pooled_recall": 0.26453726453726456,
+      "recovered": 323
+    },
+    "esm2|gene_caller|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.6569844715579312,
+      "pooled_recall": 0.5937755937755937,
+      "recovered": 725
+    },
+    "esm2|gene_caller|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.8909233243060257,
+      "pooled_recall": 0.9000819000819,
+      "recovered": 1099
+    },
+    "esm2|minimal|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.3141107543062519,
+      "pooled_recall": 0.2285012285012285,
+      "recovered": 279
+    },
+    "esm2|minimal|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.565070237819053,
+      "pooled_recall": 0.4692874692874693,
+      "recovered": 573
+    },
+    "esm2|minimal|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.8004103321638866,
+      "pooled_recall": 0.8304668304668305,
+      "recovered": 1014
+    },
+    "esm2|start_ranked|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.3278596173442145,
+      "pooled_recall": 0.25061425061425063,
+      "recovered": 306
+    },
+    "esm2|start_ranked|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.5888980983471505,
+      "pooled_recall": 0.48976248976248976,
+      "recovered": 598
+    },
+    "esm2|start_ranked|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.8180107609609979,
+      "pooled_recall": 0.8468468468468469,
+      "recovered": 1034
+    }
+  },
+  "curves_conservative": {
+    "blosum62|annotation_reference|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9129346367644239,
+      "pooled_recall": 0.6224406224406225,
+      "recovered": 760
+    },
+    "blosum62|annotation_reference|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9440138010350776,
+      "pooled_recall": 0.9287469287469288,
+      "recovered": 1134
+    },
+    "blosum62|annotation_reference|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9456929269695227,
+      "pooled_recall": 0.9885339885339886,
+      "recovered": 1207
+    },
+    "blosum62|gene_caller|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.475737013609354,
+      "pooled_recall": 0.2751842751842752,
+      "recovered": 336
+    },
+    "blosum62|gene_caller|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.6921449108683152,
+      "pooled_recall": 0.6109746109746109,
+      "recovered": 746
+    },
+    "blosum62|gene_caller|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9166187464059805,
+      "pooled_recall": 0.9148239148239148,
+      "recovered": 1117
+    },
+    "blosum62|minimal|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.44769791067663406,
+      "pooled_recall": 0.23832923832923833,
+      "recovered": 291
+    },
+    "blosum62|minimal|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.661644623346751,
+      "pooled_recall": 0.4864864864864865,
+      "recovered": 594
+    },
+    "blosum62|minimal|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9151466359976997,
+      "pooled_recall": 0.8624078624078624,
+      "recovered": 1053
+    },
+    "blosum62|start_ranked|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.4618094690435116,
+      "pooled_recall": 0.26044226044226043,
+      "recovered": 318
+    },
+    "blosum62|start_ranked|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.6892006900517539,
+      "pooled_recall": 0.5061425061425061,
+      "recovered": 618
+    },
+    "blosum62|start_ranked|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9156756756756755,
+      "pooled_recall": 0.8812448812448812,
+      "recovered": 1076
+    },
+    "esm2|annotation_reference|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.8856315890358444,
+      "pooled_recall": 0.6117936117936118,
+      "recovered": 747
+    },
+    "esm2|annotation_reference|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9165957446808511,
+      "pooled_recall": 0.914004914004914,
+      "recovered": 1116
+    },
+    "esm2|annotation_reference|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.9182978723404255,
+      "pooled_recall": 0.9746109746109746,
+      "recovered": 1190
+    },
+    "esm2|gene_caller|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.4484339658807744,
+      "pooled_recall": 0.26453726453726456,
+      "recovered": 323
+    },
+    "esm2|gene_caller|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.5701552616446233,
+      "pooled_recall": 0.5937755937755937,
+      "recovered": 725
+    },
+    "esm2|gene_caller|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.7676940770557792,
+      "pooled_recall": 0.9000819000819,
+      "recovered": 1099
+    },
+    "esm2|minimal|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.3934138393712862,
+      "pooled_recall": 0.2285012285012285,
+      "recovered": 279
+    },
+    "esm2|minimal|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.5126509488211616,
+      "pooled_recall": 0.4692874692874693,
+      "recovered": 573
+    },
+    "esm2|minimal|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.7117308798159862,
+      "pooled_recall": 0.8304668304668305,
+      "recovered": 1014
+    },
+    "esm2|start_ranked|1": {
+      "eligible": 1221,
+      "equal_group_recall": 0.4075253977381637,
+      "pooled_recall": 0.25061425061425063,
+      "recovered": 306
+    },
+    "esm2|start_ranked|2": {
+      "eligible": 1221,
+      "equal_group_recall": 0.5402300172512938,
+      "pooled_recall": 0.48976248976248976,
+      "recovered": 598
+    },
+    "esm2|start_ranked|4": {
+      "eligible": 1221,
+      "equal_group_recall": 0.712190914318574,
+      "pooled_recall": 0.8468468468468469,
+      "recovered": 1034
+    }
+  },
+  "denominator": {
+    "components": 1221,
+    "conservative_groups": 37,
+    "constructs": 777,
+    "families": 27,
+    "lineage_groups": 422
+  },
+  "effects_by_cap": {
+    "1": {
+      "blosum62: annotation_reference - gene_caller": {
+        "components": 1221,
+        "components_only_a": 424,
+        "components_only_b": 0,
+        "equal_group_gain": 0.37164611323379093,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.33209049737781965,
+            0.4117124404031987
+          ],
+          "pooled_gain_interval": [
+            0.28743457245030507,
+            0.3968289617924654
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 0,
+        "groups_improved": 209,
+        "groups_tied": 213,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.3701535861868403,
+          0.3725288830989543
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.31396534148827726,
+          0.3507030603804797
+        ],
+        "pooled_gain": 0.34725634725634724,
+        "pooled_gain_without_largest_group": 0.31396534148827726,
+        "recall_a_equal_group": 0.7378019032047467,
+        "recall_a_pooled": 0.6224406224406225,
+        "recall_b_equal_group": 0.3661557899709559,
+        "recall_b_pooled": 0.2751842751842752,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.18192302332063562,
+          0.48464181816867163
+        ]
+      },
+      "blosum62: annotation_reference - minimal": {
+        "components": 1221,
+        "components_only_a": 473,
+        "components_only_b": 4,
+        "equal_group_gain": 0.4114478629585265,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.3716120828717096,
+            0.45120583356217236
+          ],
+          "pooled_gain_interval": [
+            0.3193150597405917,
+            0.4377550241513444
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 0,
+        "groups_improved": 230,
+        "groups_tied": 192,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.4100498768847937,
+          0.41242517379690774
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.3486238532110092,
+          0.3879239040529363
+        ],
+        "pooled_gain": 0.3841113841113841,
+        "pooled_gain_without_largest_group": 0.3486238532110092,
+        "recall_a_equal_group": 0.7378019032047467,
+        "recall_a_pooled": 0.6224406224406225,
+        "recall_b_equal_group": 0.32635404024622044,
+        "recall_b_pooled": 0.23832923832923833,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.1799694572140395,
+          0.5288451862782086
+        ]
+      },
+      "blosum62: gene_caller - minimal": {
+        "components": 1221,
+        "components_only_a": 57,
+        "components_only_b": 12,
+        "equal_group_gain": 0.039801749724735505,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.021242736906984538,
+            0.059747437347407735
+          ],
+          "pooled_gain_interval": [
+            0.021805160503860225,
+            0.05030196579890018
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 7,
+        "groups_improved": 36,
+        "groups_tied": 379,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.03752099378583939,
+          0.04227158761006741
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.034482758620689655,
+          0.03868312757201646
+        ],
+        "pooled_gain": 0.036855036855036855,
+        "pooled_gain_without_largest_group": 0.034658511722731905,
+        "recall_a_equal_group": 0.3661557899709559,
+        "recall_a_pooled": 0.2751842751842752,
+        "recall_b_equal_group": 0.32635404024622044,
+        "recall_b_pooled": 0.23832923832923833,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.013136829141820065,
+          0.07348405715256084
+        ]
+      },
+      "blosum62: start_ranked - minimal": {
+        "components": 1221,
+        "components_only_a": 34,
+        "components_only_b": 7,
+        "equal_group_gain": 0.013748863037962564,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.004678179903298387,
+            0.02424122744027957
+          ],
+          "pooled_gain_interval": [
+            0.006629338633861823,
+            0.03424740078214996
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 4,
+        "groups_improved": 17,
+        "groups_tied": 401,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.011406223757767701,
+          0.014969169125938722
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.01529051987767584,
+          0.023986765922249794
+        ],
+        "pooled_gain": 0.022113022113022112,
+        "pooled_gain_without_largest_group": 0.01529051987767584,
+        "recall_a_equal_group": 0.3401029032841829,
+        "recall_a_pooled": 0.26044226044226043,
+        "recall_b_equal_group": 0.32635404024622044,
+        "recall_b_pooled": 0.23832923832923833,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.009248822521943909,
+          0.05385837108705625
+        ]
+      },
+      "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+        "components": 1221,
+        "equal_group": 0.0,
+        "equal_group_interval": [
+          -0.004739336492890996,
+          0.005924170616113744
+        ],
+        "groups": 422,
+        "pooled": -0.000819000819000819,
+        "pooled_interval": [
+          -0.00411533229075282,
+          0.0020141494493714066
+        ]
+      },
+      "esm2 - blosum62: annotation_reference": {
+        "components": 1221,
+        "components_only_a": 0,
+        "components_only_b": 13,
+        "equal_group_gain": -0.012243285939968403,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.020537124802527645,
+            -0.00533175355450237
+          ],
+          "pooled_gain_interval": [
+            -0.02031038781136181,
+            -0.004471709484715721
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 11,
+        "groups_improved": 0,
+        "groups_tied": 411,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.012272367379255739,
+          -0.009897070467141725
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.013251783893985729,
+          -0.0090311986863711
+        ],
+        "pooled_gain": -0.010647010647010647,
+        "pooled_gain_without_largest_group": -0.013251783893985729,
+        "recall_a_equal_group": 0.7255586172647783,
+        "recall_a_pooled": 0.6117936117936118,
+        "recall_b_equal_group": 0.7378019032047467,
+        "recall_b_pooled": 0.6224406224406225,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.040098952472121925,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: gene_caller": {
+        "components": 1221,
+        "components_only_a": 0,
+        "components_only_b": 13,
+        "equal_group_gain": -0.012243285939968403,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.020537124802527645,
+            -0.00533175355450237
+          ],
+          "pooled_gain_interval": [
+            -0.02031038781136181,
+            -0.004471709484715721
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 11,
+        "groups_improved": 0,
+        "groups_tied": 411,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.012272367379255739,
+          -0.009897070467141725
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.013251783893985729,
+          -0.0090311986863711
+        ],
+        "pooled_gain": -0.010647010647010647,
+        "pooled_gain_without_largest_group": -0.013251783893985729,
+        "recall_a_equal_group": 0.3539125040309875,
+        "recall_a_pooled": 0.26453726453726456,
+        "recall_b_equal_group": 0.3661557899709559,
+        "recall_b_pooled": 0.2751842751842752,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.040098952472121925,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: minimal": {
+        "components": 1221,
+        "components_only_a": 0,
+        "components_only_b": 12,
+        "equal_group_gain": -0.012243285939968403,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.02132701421800948,
+            -0.004739336492890996
+          ],
+          "pooled_gain_interval": [
+            -0.01929260450160772,
+            -0.0039341817433152316
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 10,
+        "groups_improved": 0,
+        "groups_tied": 412,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.012272367379255739,
+          -0.009897070467141725
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.012232415902140673,
+          -0.008210180623973728
+        ],
+        "pooled_gain": -0.009828009828009828,
+        "pooled_gain_without_largest_group": -0.012232415902140673,
+        "recall_a_equal_group": 0.31411075430625196,
+        "recall_a_pooled": 0.2285012285012285,
+        "recall_b_equal_group": 0.32635404024622044,
+        "recall_b_pooled": 0.23832923832923833,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.03554636574180585,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: start_ranked": {
+        "components": 1221,
+        "components_only_a": 0,
+        "components_only_b": 12,
+        "equal_group_gain": -0.012243285939968403,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.02132701421800948,
+            -0.004739336492890996
+          ],
+          "pooled_gain_interval": [
+            -0.01929260450160772,
+            -0.0039341817433152316
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 10,
+        "groups_improved": 0,
+        "groups_tied": 412,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.012272367379255739,
+          -0.009897070467141725
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.012232415902140673,
+          -0.008210180623973728
+        ],
+        "pooled_gain": -0.009828009828009828,
+        "pooled_gain_without_largest_group": -0.012232415902140673,
+        "recall_a_equal_group": 0.32785961734421454,
+        "recall_a_pooled": 0.25061425061425063,
+        "recall_b_equal_group": 0.3401029032841829,
+        "recall_b_pooled": 0.26044226044226043,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.03554636574180585,
+          0.0
+        ]
+      },
+      "esm2: annotation_reference - gene_caller": {
+        "components": 1221,
+        "components_only_a": 424,
+        "components_only_b": 0,
+        "equal_group_gain": 0.37164611323379093,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.33209049737781965,
+            0.4117124404031987
+          ],
+          "pooled_gain_interval": [
+            0.28743457245030507,
+            0.3968289617924654
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 0,
+        "groups_improved": 209,
+        "groups_tied": 213,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.3701535861868403,
+          0.3725288830989543
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.31396534148827726,
+          0.3507030603804797
+        ],
+        "pooled_gain": 0.34725634725634724,
+        "pooled_gain_without_largest_group": 0.31396534148827726,
+        "recall_a_equal_group": 0.7255586172647783,
+        "recall_a_pooled": 0.6117936117936118,
+        "recall_b_equal_group": 0.3539125040309875,
+        "recall_b_pooled": 0.26453726453726456,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.18192302332063562,
+          0.48464181816867163
+        ]
+      },
+      "esm2: annotation_reference - minimal": {
+        "components": 1221,
+        "components_only_a": 472,
+        "components_only_b": 4,
+        "equal_group_gain": 0.4114478629585265,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.3718282056115291,
+            0.4521866411136257
+          ],
+          "pooled_gain_interval": [
+            0.3182274599756577,
+            0.4368403440190518
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 0,
+        "groups_improved": 229,
+        "groups_tied": 193,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.4100498768847937,
+          0.41242517379690774
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.3476044852191641,
+          0.3870967741935484
+        ],
+        "pooled_gain": 0.3832923832923833,
+        "pooled_gain_without_largest_group": 0.3476044852191641,
+        "recall_a_equal_group": 0.7255586172647783,
+        "recall_a_pooled": 0.6117936117936118,
+        "recall_b_equal_group": 0.31411075430625196,
+        "recall_b_pooled": 0.2285012285012285,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.17665594059405945,
+          0.5280838355328216
+        ]
+      },
+      "esm2: gene_caller - minimal": {
+        "components": 1221,
+        "components_only_a": 56,
+        "components_only_b": 12,
+        "equal_group_gain": 0.039801749724735505,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.02085765833692374,
+            0.05975725860500743
+          ],
+          "pooled_gain_interval": [
+            0.02087888198757764,
+            0.04916206610526084
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 7,
+        "groups_improved": 35,
+        "groups_tied": 380,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.03752099378583939,
+          0.04227158761006741
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.03363914373088685,
+          0.03786008230452675
+        ],
+        "pooled_gain": 0.036036036036036036,
+        "pooled_gain_without_largest_group": 0.03363914373088685,
+        "recall_a_equal_group": 0.3539125040309875,
+        "recall_a_pooled": 0.26453726453726456,
+        "recall_b_equal_group": 0.31411075430625196,
+        "recall_b_pooled": 0.2285012285012285,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.01581105936680624,
+          0.07388590354058186
+        ]
+      },
+      "esm2: start_ranked - minimal": {
+        "components": 1221,
+        "components_only_a": 34,
+        "components_only_b": 7,
+        "equal_group_gain": 0.013748863037962564,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.004678179903298387,
+            0.02424122744027957
+          ],
+          "pooled_gain_interval": [
+            0.006629338633861823,
+            0.03424740078214996
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 4,
+        "groups_improved": 17,
+        "groups_tied": 401,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.011406223757767701,
+          0.014969169125938722
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.01529051987767584,
+          0.023986765922249794
+        ],
+        "pooled_gain": 0.022113022113022112,
+        "pooled_gain_without_largest_group": 0.01529051987767584,
+        "recall_a_equal_group": 0.32785961734421454,
+        "recall_a_pooled": 0.25061425061425063,
+        "recall_b_equal_group": 0.31411075430625196,
+        "recall_b_pooled": 0.2285012285012285,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.009248822521943909,
+          0.05385837108705625
+        ]
+      }
+    },
+    "2": {
+      "blosum62: annotation_reference - gene_caller": {
+        "components": 1221,
+        "components_only_a": 389,
+        "components_only_b": 1,
+        "equal_group_gain": 0.270303600428008,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.2354443401681257,
+            0.30418309844776076
+          ],
+          "pooled_gain_interval": [
+            0.2366096640701071,
+            0.39079419771012114
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 0,
+        "groups_improved": 170,
+        "groups_tied": 252,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.2685703548233239,
+          0.27094565173543794
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.2640163098878695,
+          0.3235540653813915
+        ],
+        "pooled_gain": 0.3177723177723178,
+        "pooled_gain_without_largest_group": 0.2640163098878695,
+        "recall_a_equal_group": 0.9501920440012858,
+        "recall_a_pooled": 0.9287469287469288,
+        "recall_b_equal_group": 0.6798884435732777,
+        "recall_b_pooled": 0.6109746109746109,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.1883046039509749,
+          0.5400869659900016
+        ]
+      },
+      "blosum62: annotation_reference - minimal": {
+        "components": 1221,
+        "components_only_a": 544,
+        "components_only_b": 4,
+        "equal_group_gain": 0.3604405829820521,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.3222119391765423,
+            0.3992062300193225
+          ],
+          "pooled_gain_interval": [
+            0.3169490950640668,
+            0.5680362894922844
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 0,
+        "groups_improved": 215,
+        "groups_tied": 207,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.358921439473696,
+          0.36129673638581
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.3476044852191641,
+          0.4509639564124057
+        ],
+        "pooled_gain": 0.44226044226044225,
+        "pooled_gain_without_largest_group": 0.3476044852191641,
+        "recall_a_equal_group": 0.9501920440012858,
+        "recall_a_pooled": 0.9287469287469288,
+        "recall_b_equal_group": 0.5897514610192336,
+        "recall_b_pooled": 0.4864864864864865,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.27453653867944383,
+          0.6628054375206514
+        ]
+      },
+      "blosum62: gene_caller - minimal": {
+        "components": 1221,
+        "components_only_a": 163,
+        "components_only_b": 11,
+        "equal_group_gain": 0.09013698255404416,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.06452363641492788,
+            0.11603656957181838
+          ],
+          "pooled_gain_interval": [
+            0.06769662396396901,
+            0.17889883360277656
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 5,
+        "groups_improved": 71,
+        "groups_tied": 346,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.08797578773825805,
+          0.09272638156248608
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0835881753312946,
+          0.12740989103101424
+        ],
+        "pooled_gain": 0.12448812448812449,
+        "pooled_gain_without_largest_group": 0.0835881753312946,
+        "recall_a_equal_group": 0.6798884435732777,
+        "recall_a_pooled": 0.6109746109746109,
+        "recall_b_equal_group": 0.5897514610192336,
+        "recall_b_pooled": 0.4864864864864865,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.027394922623778586,
+          0.23692789673541506
+        ]
+      },
+      "blosum62: start_ranked - minimal": {
+        "components": 1221,
+        "components_only_a": 36,
+        "components_only_b": 12,
+        "equal_group_gain": 0.021655664635522456,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.008948071823516136,
+            0.03642881826901378
+          ],
+          "pooled_gain_interval": [
+            0.008162435705989717,
+            0.029805476464530207
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 4,
+        "groups_improved": 20,
+        "groups_tied": 398,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.019331806356746972,
+          0.022894751724917995
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.017329255861365953,
+          0.02139917695473251
+        ],
+        "pooled_gain": 0.019656019656019656,
+        "pooled_gain_without_largest_group": 0.017329255861365953,
+        "recall_a_equal_group": 0.6114071256547561,
+        "recall_a_pooled": 0.5061425061425061,
+        "recall_b_equal_group": 0.5897514610192336,
+        "recall_b_pooled": 0.4864864864864865,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.008849914071580868,
+          0.048325154517027416
+        ]
+      },
+      "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+        "components": 1221,
+        "equal_group": 0.0017772511848341238,
+        "equal_group_interval": [
+          -0.00631911532385466,
+          0.010268562401263824
+        ],
+        "groups": 422,
+        "pooled": 0.0,
+        "pooled_interval": [
+          -0.005668039145482755,
+          0.005197911676013868
+        ]
+      },
+      "esm2 - blosum62: annotation_reference": {
+        "components": 1221,
+        "components_only_a": 4,
+        "components_only_b": 22,
+        "equal_group_gain": -0.01626890092529903,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.026501213044459487,
+            -0.0069679530580004515
+          ],
+          "pooled_gain_interval": [
+            -0.02896998387878216,
+            -0.005319060578214462
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 17,
+        "groups_improved": 4,
+        "groups_tied": 401,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.01749519285148739,
+          -0.01393224748331637
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.01834862385321101,
+          -0.01236603462489695
+        ],
+        "pooled_gain": -0.014742014742014743,
+        "pooled_gain_without_largest_group": -0.01834862385321101,
+        "recall_a_equal_group": 0.9339231430759867,
+        "recall_a_pooled": 0.914004914004914,
+        "recall_b_equal_group": 0.9501920440012858,
+        "recall_b_pooled": 0.9287469287469288,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.057353975240842736,
+          0.005312120275539711
+        ]
+      },
+      "esm2 - blosum62: gene_caller": {
+        "components": 1221,
+        "components_only_a": 5,
+        "components_only_b": 26,
+        "equal_group_gain": -0.02290397201534642,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.03722107030015797,
+            -0.00928007221846084
+          ],
+          "pooled_gain_interval": [
+            -0.03246821312859048,
+            -0.0070971146799222486
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 21,
+        "groups_improved": 5,
+        "groups_tied": 396,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.025333672661463632,
+          -0.020583078837235605
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.021406727828746176,
+          -0.01483924154987634
+        ],
+        "pooled_gain": -0.0171990171990172,
+        "pooled_gain_without_largest_group": -0.021406727828746176,
+        "recall_a_equal_group": 0.6569844715579313,
+        "recall_a_pooled": 0.5937755937755937,
+        "recall_b_equal_group": 0.6798884435732777,
+        "recall_b_pooled": 0.6109746109746109,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.0665305255629951,
+          0.006572924388435879
+        ]
+      },
+      "esm2 - blosum62: minimal": {
+        "components": 1221,
+        "components_only_a": 3,
+        "components_only_b": 24,
+        "equal_group_gain": -0.024681223200180544,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.0389983214849921,
+            -0.012496755811329268
+          ],
+          "pooled_gain_interval": [
+            -0.03155634389633645,
+            -0.0076726342710997444
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 20,
+        "groups_improved": 3,
+        "groups_tied": 399,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.025927496889492137,
+          -0.022364551521321115
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.021406727828746176,
+          -0.01483924154987634
+        ],
+        "pooled_gain": -0.0171990171990172,
+        "pooled_gain_without_largest_group": -0.021406727828746176,
+        "recall_a_equal_group": 0.565070237819053,
+        "recall_a_pooled": 0.4692874692874693,
+        "recall_b_equal_group": 0.5897514610192336,
+        "recall_b_pooled": 0.4864864864864865,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.06502890173410404,
+          0.003096215602945985
+        ]
+      },
+      "esm2 - blosum62: start_ranked": {
+        "components": 1221,
+        "components_only_a": 4,
+        "components_only_b": 24,
+        "equal_group_gain": -0.022509027307605504,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.03742164579101781,
+            -0.008826943692168812
+          ],
+          "pooled_gain_interval": [
+            -0.030476277486357877,
+            -0.0066983353633779915
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 20,
+        "groups_improved": 4,
+        "groups_tied": 398,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.024937789842777964,
+          -0.020187196018549937
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.020387359836901122,
+          -0.014014839241549877
+        ],
+        "pooled_gain": -0.01638001638001638,
+        "pooled_gain_without_largest_group": -0.020387359836901122,
+        "recall_a_equal_group": 0.5888980983471506,
+        "recall_a_pooled": 0.48976248976248976,
+        "recall_b_equal_group": 0.6114071256547561,
+        "recall_b_pooled": 0.5061425061425061,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.0639365138094496,
+          0.005208809788290645
+        ]
+      },
+      "esm2: annotation_reference - gene_caller": {
+        "components": 1221,
+        "components_only_a": 392,
+        "components_only_b": 1,
+        "equal_group_gain": 0.2769386715180554,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.24258686884797662,
+            0.3114331008643804
+          ],
+          "pooled_gain_interval": [
+            0.23969071061122982,
+            0.3926632470204515
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 0,
+        "groups_improved": 173,
+        "groups_tied": 249,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.27522118617724317,
+          0.2775964830893572
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.2670744138634047,
+          0.32606873428331934
+        ],
+        "pooled_gain": 0.3202293202293202,
+        "pooled_gain_without_largest_group": 0.2670744138634047,
+        "recall_a_equal_group": 0.9339231430759867,
+        "recall_a_pooled": 0.914004914004914,
+        "recall_b_equal_group": 0.6569844715579313,
+        "recall_b_pooled": 0.5937755937755937,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.1887324015807921,
+          0.542386013065126
+        ]
+      },
+      "esm2: annotation_reference - minimal": {
+        "components": 1221,
+        "components_only_a": 547,
+        "components_only_b": 4,
+        "equal_group_gain": 0.3688529052569337,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.3303165687985001,
+            0.4069778505130994
+          ],
+          "pooled_gain_interval": [
+            0.32027825438970015,
+            0.569645209815005
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 1,
+        "groups_improved": 221,
+        "groups_tied": 200,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.36735374351170075,
+          0.37052080606118615
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.3506625891946993,
+          0.45347862531433364
+        ],
+        "pooled_gain": 0.44471744471744473,
+        "pooled_gain_without_largest_group": 0.3506625891946993,
+        "recall_a_equal_group": 0.9339231430759867,
+        "recall_a_pooled": 0.914004914004914,
+        "recall_b_equal_group": 0.565070237819053,
+        "recall_b_pooled": 0.4692874692874693,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.2781261842098433,
+          0.6649132712243332
+        ]
+      },
+      "esm2: gene_caller - minimal": {
+        "components": 1221,
+        "components_only_a": 163,
+        "components_only_b": 11,
+        "equal_group_gain": 0.09191423373887829,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.06631116086388598,
+            0.11799629888936762
+          ],
+          "pooled_gain_interval": [
+            0.06721628070160675,
+            0.17889726250862373
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 7,
+        "groups_improved": 74,
+        "groups_tied": 341,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.08975726042234355,
+          0.09450785424657158
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0835881753312946,
+          0.12740989103101424
+        ],
+        "pooled_gain": 0.12448812448812449,
+        "pooled_gain_without_largest_group": 0.0835881753312946,
+        "recall_a_equal_group": 0.6569844715579313,
+        "recall_a_pooled": 0.5937755937755937,
+        "recall_b_equal_group": 0.565070237819053,
+        "recall_b_pooled": 0.4692874692874693,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.028184495927084493,
+          0.2360768499016129
+        ]
+      },
+      "esm2: start_ranked - minimal": {
+        "components": 1221,
+        "components_only_a": 36,
+        "components_only_b": 11,
+        "equal_group_gain": 0.023827860528097496,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.010377172195892575,
+            0.03974480224554277
+          ],
+          "pooled_gain_interval": [
+            0.00862952473516082,
+            0.031125376916412283
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 5,
+        "groups_improved": 22,
+        "groups_tied": 395,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.021509161859518157,
+          0.025072107227689176
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.01834862385321101,
+          0.022222222222222223
+        ],
+        "pooled_gain": 0.020475020475020474,
+        "pooled_gain_without_largest_group": 0.01834862385321101,
+        "recall_a_equal_group": 0.5888980983471506,
+        "recall_a_pooled": 0.48976248976248976,
+        "recall_b_equal_group": 0.565070237819053,
+        "recall_b_pooled": 0.4692874692874693,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.007819221511904211,
+          0.04914825790669992
+        ]
+      }
+    },
+    "4": {
+      "blosum62: annotation_reference - gene_caller": {
+        "components": 1221,
+        "components_only_a": 90,
+        "components_only_b": 0,
+        "equal_group_gain": 0.07829073572556984,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.05784677555856466,
+            0.10045732481381177
+          ],
+          "pooled_gain_interval": [
+            0.054643784884333205,
+            0.08986915117575464
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 0,
+        "groups_improved": 57,
+        "groups_tied": 365,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.07610140255627192,
+          0.07847669946838592
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.06829765545361875,
+          0.07544006705783739
+        ],
+        "pooled_gain": 0.07371007371007371,
+        "pooled_gain_without_largest_group": 0.06829765545361875,
+        "recall_a_equal_group": 0.9886989392913563,
+        "recall_a_pooled": 0.9885339885339886,
+        "recall_b_equal_group": 0.9104082035657866,
+        "recall_b_pooled": 0.9148239148239148,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.02881798270893372,
+          0.15950623345511517
+        ]
+      },
+      "blosum62: annotation_reference - minimal": {
+        "components": 1221,
+        "components_only_a": 154,
+        "components_only_b": 0,
+        "equal_group_gain": 0.14644703637594633,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.11802898227365052,
+            0.17651978057487536
+          ],
+          "pooled_gain_interval": [
+            0.08577142012704887,
+            0.1765962549551752
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 0,
+        "groups_improved": 97,
+        "groups_tied": 325,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.14441959465712434,
+          0.14679489156923836
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.12076095947063689,
+          0.1529051987767584
+        ],
+        "pooled_gain": 0.12612612612612611,
+        "pooled_gain_without_largest_group": 0.1529051987767584,
+        "recall_a_equal_group": 0.9886989392913563,
+        "recall_a_pooled": 0.9885339885339886,
+        "recall_b_equal_group": 0.8422519029154101,
+        "recall_b_pooled": 0.8624078624078624,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.06588560527604234,
+          0.2178389020567322
+        ]
+      },
+      "blosum62: gene_caller - minimal": {
+        "components": 1221,
+        "components_only_a": 99,
+        "components_only_b": 35,
+        "equal_group_gain": 0.06815630065037649,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.04561964324182927,
+            0.09137352600993004
+          ],
+          "pooled_gain_interval": [
+            0.0060351737847890346,
+            0.10644951019344825
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 11,
+        "groups_improved": 61,
+        "groups_tied": 350,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.06594289518873843,
+          0.07069348901296646
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.04631927212572374,
+          0.08460754332313965
+        ],
+        "pooled_gain": 0.05241605241605242,
+        "pooled_gain_without_largest_group": 0.08460754332313965,
+        "recall_a_equal_group": 0.9104082035657866,
+        "recall_a_pooled": 0.9148239148239148,
+        "recall_b_equal_group": 0.8422519029154101,
+        "recall_b_pooled": 0.8624078624078624,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.046402370747905285,
+          0.12840365764077105
+        ]
+      },
+      "blosum62: start_ranked - minimal": {
+        "components": 1221,
+        "components_only_a": 26,
+        "components_only_b": 3,
+        "equal_group_gain": 0.01925919656962311,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.008773414579101784,
+            0.031143153351387953
+          ],
+          "pooled_gain_interval": [
+            0.010070303444868799,
+            0.03212584518386745
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 2,
+        "groups_improved": 20,
+        "groups_tied": 400,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.016929645967650717,
+          0.020492591335821736
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.015625,
+          0.021406727828746176
+        ],
+        "pooled_gain": 0.018837018837018837,
+        "pooled_gain_without_largest_group": 0.021406727828746176,
+        "recall_a_equal_group": 0.8615110994850332,
+        "recall_a_pooled": 0.8812448812448812,
+        "recall_b_equal_group": 0.8422519029154101,
+        "recall_b_pooled": 0.8624078624078624,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0028009248392094274,
+          0.0402590740028216
+        ]
+      },
+      "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+        "components": 1221,
+        "equal_group": 0.022356691491762583,
+        "equal_group_interval": [
+          0.006894112502821035,
+          0.03813487361769352
+        ],
+        "groups": 422,
+        "pooled": 0.0171990171990172,
+        "pooled_interval": [
+          0.007311129163281885,
+          0.029465141698272232
+        ]
+      },
+      "esm2 - blosum62: annotation_reference": {
+        "components": 1221,
+        "components_only_a": 7,
+        "components_only_b": 24,
+        "equal_group_gain": -0.015535432182351615,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.02647674057774768,
+            -0.005594250733468734
+          ],
+          "pooled_gain_interval": [
+            -0.028936318851658385,
+            -0.0038579751023517087
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 19,
+        "groups_improved": 6,
+        "groups_tied": 397,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.016759981902499718,
+          -0.013197036534328696
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.017329255861365953,
+          -0.011541632316570486
+        ],
+        "pooled_gain": -0.013923013923013924,
+        "pooled_gain_without_largest_group": -0.017329255861365953,
+        "recall_a_equal_group": 0.9731635071090048,
+        "recall_a_pooled": 0.9746109746109746,
+        "recall_b_equal_group": 0.9886989392913563,
+        "recall_b_pooled": 0.9885339885339886,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.05974789112447624,
+          0.012363119265113949
+        ]
+      },
+      "esm2 - blosum62: gene_caller": {
+        "components": 1221,
+        "components_only_a": 12,
+        "components_only_b": 30,
+        "equal_group_gain": -0.019484879259760772,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.03585033006093432,
+            -0.003828354208982161
+          ],
+          "pooled_gain_interval": [
+            -0.030949857013686792,
+            -0.003241447329270384
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 25,
+        "groups_improved": 11,
+        "groups_tied": 386,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.021906458545413413,
+          -0.017155864721185382
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.01834862385321101,
+          -0.01236603462489695
+        ],
+        "pooled_gain": -0.014742014742014743,
+        "pooled_gain_without_largest_group": -0.01834862385321101,
+        "recall_a_equal_group": 0.8909233243060257,
+        "recall_a_pooled": 0.9000819000819,
+        "recall_b_equal_group": 0.9104082035657866,
+        "recall_b_pooled": 0.9148239148239148,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.06884596930489491,
+          0.019035668007911098
+        ]
+      },
+      "esm2 - blosum62: minimal": {
+        "components": 1221,
+        "components_only_a": 17,
+        "components_only_b": 56,
+        "equal_group_gain": -0.04184157075152336,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.06439658090724441,
+            -0.020084207853757606
+          ],
+          "pooled_gain_interval": [
+            -0.05314594617373984,
+            -0.01731287367198589
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 45,
+        "groups_improved": 15,
+        "groups_tied": 362,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.04431625381744147,
+          -0.03956565999321344
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.03771661569826707,
+          -0.02967848309975268
+        ],
+        "pooled_gain": -0.03194103194103194,
+        "pooled_gain_without_largest_group": -0.03771661569826707,
+        "recall_a_equal_group": 0.8004103321638867,
+        "recall_a_pooled": 0.8304668304668305,
+        "recall_b_equal_group": 0.8422519029154101,
+        "recall_b_pooled": 0.8624078624078624,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.12315475204225597,
+          0.014084507042253521
+        ]
+      },
+      "esm2 - blosum62: start_ranked": {
+        "components": 1221,
+        "components_only_a": 15,
+        "components_only_b": 57,
+        "equal_group_gain": -0.04350033852403521,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.06602156680207627,
+            -0.021893195666892344
+          ],
+          "pooled_gain_interval": [
+            -0.05641663163196496,
+            -0.019480315538732623
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 46,
+        "groups_improved": 13,
+        "groups_tied": 363,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          -0.045978961655921274,
+          -0.04122836783169325
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.040774719673802244,
+          -0.03215169002473207
+        ],
+        "pooled_gain": -0.0343980343980344,
+        "pooled_gain_without_largest_group": -0.040774719673802244,
+        "recall_a_equal_group": 0.8180107609609979,
+        "recall_a_pooled": 0.8468468468468469,
+        "recall_b_equal_group": 0.8615110994850332,
+        "recall_b_pooled": 0.8812448812448812,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.126160621761658,
+          0.010328638497652582
+        ]
+      },
+      "esm2: annotation_reference - gene_caller": {
+        "components": 1221,
+        "components_only_a": 91,
+        "components_only_b": 0,
+        "equal_group_gain": 0.082240182802979,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.06091807013089596,
+            0.1055424847664184
+          ],
+          "pooled_gain_interval": [
+            0.05538131674795771,
+            0.09043105679745356
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 0,
+        "groups_improved": 58,
+        "groups_tied": 364,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.0800602307431286,
+          0.0824355276552426
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.06931702344546381,
+          0.07627829002514669
+        ],
+        "pooled_gain": 0.07452907452907453,
+        "pooled_gain_without_largest_group": 0.06931702344546381,
+        "recall_a_equal_group": 0.9731635071090048,
+        "recall_a_pooled": 0.9746109746109746,
+        "recall_b_equal_group": 0.8909233243060257,
+        "recall_b_pooled": 0.9000819000819,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.025618528878830624,
+          0.16394706249052285
+        ]
+      },
+      "esm2: annotation_reference - minimal": {
+        "components": 1221,
+        "components_only_a": 176,
+        "components_only_b": 0,
+        "equal_group_gain": 0.17275317494511805,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.1431635776348454,
+            0.2055450301081225
+          ],
+          "pooled_gain_interval": [
+            0.10086743984676341,
+            0.1987586993938487
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 0,
+        "groups_improved": 110,
+        "groups_tied": 312,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.17078821811600908,
+          0.17316351502812308
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.13895781637717122,
+          0.17329255861365953
+        ],
+        "pooled_gain": 0.14414414414414414,
+        "pooled_gain_without_largest_group": 0.17329255861365953,
+        "recall_a_equal_group": 0.9731635071090048,
+        "recall_a_pooled": 0.9746109746109746,
+        "recall_b_equal_group": 0.8004103321638867,
+        "recall_b_pooled": 0.8304668304668305,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.07503606168176175,
+          0.256444554157183
+        ]
+      },
+      "esm2: gene_caller - minimal": {
+        "components": 1221,
+        "components_only_a": 118,
+        "components_only_b": 33,
+        "equal_group_gain": 0.09051299214213906,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.06709131878192896,
+            0.11567137394595925
+          ],
+          "pooled_gain_interval": [
+            0.0201163441672791,
+            0.1273672022459435
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 9,
+        "groups_improved": 73,
+        "groups_tied": 340,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.08835269046076648,
+          0.09310328428499451
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.06368899917287014,
+          0.10397553516819572
+        ],
+        "pooled_gain": 0.06961506961506962,
+        "pooled_gain_without_largest_group": 0.10397553516819572,
+        "recall_a_equal_group": 0.8909233243060257,
+        "recall_a_pooled": 0.9000819000819,
+        "recall_b_equal_group": 0.8004103321638867,
+        "recall_b_pooled": 0.8304668304668305,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.027922434726011906,
+          0.15945282643822617
+        ]
+      },
+      "esm2: start_ranked - minimal": {
+        "components": 1221,
+        "components_only_a": 23,
+        "components_only_b": 3,
+        "equal_group_gain": 0.01760042879711126,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.007568339539607314,
+            0.02922738941548184
+          ],
+          "pooled_gain_interval": [
+            0.008605429606242675,
+            0.027524151886911773
+          ]
+        },
+        "groups": 422,
+        "groups_declined": 2,
+        "groups_improved": 18,
+        "groups_tied": 402,
+        "largest_group_share": 0.19656019656019655,
+        "leave_one_group_out_equal_group_range": [
+          0.015266938129170907,
+          0.01882988349734193
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.013980263157894737,
+          0.01834862385321101
+        ],
+        "pooled_gain": 0.01638001638001638,
+        "pooled_gain_without_largest_group": 0.01834862385321101,
+        "recall_a_equal_group": 0.8180107609609979,
+        "recall_a_pooled": 0.8468468468468469,
+        "recall_b_equal_group": 0.8004103321638867,
+        "recall_b_pooled": 0.8304668304668305,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0020086966796487365,
+          0.03571428571428571
+        ]
+      }
+    }
+  },
+  "effects_conservative_primary_cap": {
+    "blosum62: annotation_reference - gene_caller": {
+      "components": 1221,
+      "components_only_a": 389,
+      "components_only_b": 1,
+      "equal_group_gain": 0.2518688901667625,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.12162162162162163,
+          0.38709746981023613
+        ],
+        "pooled_gain_interval": [
+          0.15555555555555556,
+          0.4048280423280426
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 0,
+      "groups_improved": 11,
+      "groups_tied": 26,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        0.23108747044917255,
+        0.25886524822695034
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.2826086956521739,
+        0.3185550082101806
+      ],
+      "pooled_gain": 0.3177723177723178,
+      "pooled_gain_without_largest_group": 0.2826086956521739,
+      "recall_a_equal_group": 0.9440138010350776,
+      "recall_a_pooled": 0.9287469287469288,
+      "recall_b_equal_group": 0.6921449108683152,
+      "recall_b_pooled": 0.6109746109746109,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.1,
+        0.532666943642095
+      ]
+    },
+    "blosum62: annotation_reference - minimal": {
+      "components": 1221,
+      "components_only_a": 544,
+      "components_only_b": 4,
+      "equal_group_gain": 0.28236917768832664,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.1472340425531915,
+          0.4189189189189189
+        ],
+        "pooled_gain_interval": [
+          0.18181818181818182,
+          0.44922915051832035
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 0,
+      "groups_improved": 12,
+      "groups_tied": 25,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        0.26243498817966904,
+        0.2902127659574468
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.30434782608695654,
+        0.4433497536945813
+      ],
+      "pooled_gain": 0.44226044226044225,
+      "pooled_gain_without_largest_group": 0.30434782608695654,
+      "recall_a_equal_group": 0.9440138010350776,
+      "recall_a_pooled": 0.9287469287469288,
+      "recall_b_equal_group": 0.661644623346751,
+      "recall_b_pooled": 0.4864864864864865,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.11996052631578961,
+        0.5953493500166662
+      ]
+    },
+    "blosum62: gene_caller - minimal": {
+      "components": 1221,
+      "components_only_a": 163,
+      "components_only_b": 11,
+      "equal_group_gain": 0.030500287521564116,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.05405405405405406,
+          0.12200115008625646
+        ],
+        "pooled_gain_interval": [
+          -0.023809523809523808,
+          0.12787299796400933
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 1,
+      "groups_improved": 3,
+      "groups_tied": 33,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        0.003569739952718673,
+        0.05912529550827423
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.021739130434782608,
+        0.12540983606557377
+      ],
+      "pooled_gain": 0.12448812448812449,
+      "pooled_gain_without_largest_group": 0.021739130434782608,
+      "recall_a_equal_group": 0.6921449108683152,
+      "recall_a_pooled": 0.6109746109746109,
+      "recall_b_equal_group": 0.661644623346751,
+      "recall_b_pooled": 0.4864864864864865,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.047619047619047616,
+        0.19231111903064863
+      ]
+    },
+    "blosum62: start_ranked - minimal": {
+      "components": 1221,
+      "components_only_a": 36,
+      "components_only_b": 12,
+      "equal_group_gain": 0.027556066705002876,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.08213916043703277
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.06125637755102052
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 0,
+      "groups_improved": 2,
+      "groups_tied": 35,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        0.0005437352245862898,
+        0.028321513002364067
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.018852459016393444,
+        0.021739130434782608
+      ],
+      "pooled_gain": 0.019656019656019656,
+      "pooled_gain_without_largest_group": 0.021739130434782608,
+      "recall_a_equal_group": 0.6892006900517539,
+      "recall_a_pooled": 0.5061425061425061,
+      "recall_b_equal_group": 0.661644623346751,
+      "recall_b_pooled": 0.4864864864864865,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.0007002238943041489,
+        0.1
+      ]
+    },
+    "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+      "components": 1221,
+      "equal_group": 0.02700402530189764,
+      "equal_group_interval": [
+        -6.900517538815411e-05,
+        0.08108108108108109
+      ],
+      "groups": 37,
+      "pooled": 0.0,
+      "pooled_interval": [
+        -0.0008398715012654821,
+        0.06
+      ]
+    },
+    "esm2 - blosum62: annotation_reference": {
+      "components": 1221,
+      "components_only_a": 4,
+      "components_only_b": 22,
+      "equal_group_gain": -0.027418056354226568,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.08187291546866013,
+          0.0
+        ],
+        "pooled_gain_interval": [
+          -0.0625,
+          0.0
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 2,
+      "groups_improved": 0,
+      "groups_tied": 35,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        -0.02817966903073286,
+        -0.0004018912529550827
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.021739130434782608,
+        -0.013934426229508197
+      ],
+      "pooled_gain": -0.014742014742014743,
+      "pooled_gain_without_largest_group": -0.021739130434782608,
+      "recall_a_equal_group": 0.9165957446808511,
+      "recall_a_pooled": 0.914004914004914,
+      "recall_b_equal_group": 0.9440138010350776,
+      "recall_b_pooled": 0.9287469287469288,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.07501179245283014,
+        0.002583826107267406
+      ]
+    },
+    "esm2 - blosum62: gene_caller": {
+      "components": 1221,
+      "components_only_a": 5,
+      "components_only_b": 26,
+      "equal_group_gain": -0.12198964922369178,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.23046578493387004,
+          -0.027395054629097183
+        ],
+        "pooled_gain_interval": [
+          -0.1836734693877551,
+          -0.013978096349683314
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 6,
+      "groups_improved": 0,
+      "groups_tied": 31,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        -0.12537825059101654,
+        -0.09760047281323876
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.10869565217391304,
+        -0.01639344262295082
+      ],
+      "pooled_gain": -0.0171990171990172,
+      "pooled_gain_without_largest_group": -0.10869565217391304,
+      "recall_a_equal_group": 0.5701552616446233,
+      "recall_a_pooled": 0.5937755937755937,
+      "recall_b_equal_group": 0.6921449108683152,
+      "recall_b_pooled": 0.6109746109746109,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.23407384230287848,
+        0.003740765128377558
+      ]
+    },
+    "esm2 - blosum62: minimal": {
+      "components": 1221,
+      "components_only_a": 3,
+      "components_only_b": 24,
+      "equal_group_gain": -0.1489936745255894,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.2706239217941346,
+          -0.04123059229442208
+        ],
+        "pooled_gain_interval": [
+          -0.2093582289803218,
+          -0.013422256697357028
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 7,
+      "groups_improved": 0,
+      "groups_tied": 30,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        -0.15313238770685578,
+        -0.125354609929078
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.13043478260869565,
+        -0.01639344262295082
+      ],
+      "pooled_gain": -0.0171990171990172,
+      "pooled_gain_without_largest_group": -0.13043478260869565,
+      "recall_a_equal_group": 0.5126509488211616,
+      "recall_a_pooled": 0.4692874692874693,
+      "recall_b_equal_group": 0.661644623346751,
+      "recall_b_pooled": 0.4864864864864865,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.27662529550827414,
+        0.0011808923707757244
+      ]
+    },
+    "esm2 - blosum62: start_ranked": {
+      "components": 1221,
+      "components_only_a": 4,
+      "components_only_b": 24,
+      "equal_group_gain": -0.14897067280046003,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.27060034502587693,
+          -0.04118458884416331
+        ],
+        "pooled_gain_interval": [
+          -0.2093582289803218,
+          -0.012583365653772214
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 7,
+      "groups_improved": 0,
+      "groups_tied": 30,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        -0.15310874704491725,
+        -0.1253309692671395
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.13043478260869565,
+        -0.01557377049180328
+      ],
+      "pooled_gain": -0.01638001638001638,
+      "pooled_gain_without_largest_group": -0.13043478260869565,
+      "recall_a_equal_group": 0.5402300172512938,
+      "recall_a_pooled": 0.48976248976248976,
+      "recall_b_equal_group": 0.6892006900517539,
+      "recall_b_pooled": 0.5061425061425061,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.27662529550827414,
+        0.002992528896909582
+      ]
+    },
+    "esm2: annotation_reference - gene_caller": {
+      "components": 1221,
+      "components_only_a": 392,
+      "components_only_b": 1,
+      "equal_group_gain": 0.3464404830362277,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.20270270270270271,
+          0.4950891316848764
+        ],
+        "pooled_gain_interval": [
+          0.24444444444444444,
+          0.5
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 0,
+      "groups_improved": 15,
+      "groups_tied": 22,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        0.32828605200945626,
+        0.35606382978723405
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.3179950698438784,
+        0.3695652173913043
+      ],
+      "pooled_gain": 0.3202293202293202,
+      "pooled_gain_without_largest_group": 0.3695652173913043,
+      "recall_a_equal_group": 0.9165957446808511,
+      "recall_a_pooled": 0.914004914004914,
+      "recall_b_equal_group": 0.5701552616446233,
+      "recall_b_pooled": 0.5937755937755937,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.15536642411642426,
+        0.5714285714285714
+      ]
+    },
+    "esm2: annotation_reference - minimal": {
+      "components": 1221,
+      "components_only_a": 547,
+      "components_only_b": 4,
+      "equal_group_gain": 0.40394479585968945,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.2552961472110408,
+          0.5540540540540541
+        ],
+        "pooled_gain_interval": [
+          0.2857142857142857,
+          0.5385000000000001
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 0,
+      "groups_improved": 17,
+      "groups_tied": 20,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        0.38738770685579194,
+        0.4151654846335697
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.41304347826086957,
+        0.4458128078817734
+      ],
+      "pooled_gain": 0.44471744471744473,
+      "pooled_gain_without_largest_group": 0.41304347826086957,
+      "recall_a_equal_group": 0.9165957446808511,
+      "recall_a_pooled": 0.914004914004914,
+      "recall_b_equal_group": 0.5126509488211616,
+      "recall_b_pooled": 0.4692874692874693,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.21052631578947367,
+        0.6226492421899165
+      ]
+    },
+    "esm2: gene_caller - minimal": {
+      "components": 1221,
+      "components_only_a": 163,
+      "components_only_b": 11,
+      "equal_group_gain": 0.05750431282346176,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.04723979298447351,
+          0.16561242093156986
+        ],
+        "pooled_gain_interval": [
+          -0.020418792517006762,
+          0.1281550070392711
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 1,
+      "groups_improved": 4,
+      "groups_tied": 32,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        0.031323877068557916,
+        0.08687943262411348
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.043478260869565216,
+        0.12540983606557377
+      ],
+      "pooled_gain": 0.12448812448812449,
+      "pooled_gain_without_largest_group": 0.043478260869565216,
+      "recall_a_equal_group": 0.5701552616446233,
+      "recall_a_pooled": 0.5937755937755937,
+      "recall_b_equal_group": 0.5126509488211616,
+      "recall_b_pooled": 0.4692874692874693,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.031275201612903133,
+        0.19528017953217036
+      ]
+    },
+    "esm2: start_ranked - minimal": {
+      "components": 1221,
+      "components_only_a": 36,
+      "components_only_b": 11,
+      "equal_group_gain": 0.027579068430132258,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.08218516388729155
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.06125637755102052
+        ]
+      },
+      "groups": 37,
+      "groups_declined": 0,
+      "groups_improved": 2,
+      "groups_tied": 35,
+      "largest_group_share": 0.9623259623259623,
+      "leave_one_group_out_equal_group_range": [
+        0.0005673758865248223,
+        0.0283451536643026
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.019672131147540985,
+        0.021739130434782608
+      ],
+      "pooled_gain": 0.020475020475020474,
+      "pooled_gain_without_largest_group": 0.021739130434782608,
+      "recall_a_equal_group": 0.5402300172512938,
+      "recall_a_pooled": 0.48976248976248976,
+      "recall_b_equal_group": 0.5126509488211616,
+      "recall_b_pooled": 0.4692874692874693,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.1
+      ]
+    }
+  },
+  "failures_primary_cap": {
+    "baseline_miss_transitions": {
+      "blosum62|minimal->annotation_reference": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 71,
+        "compatible_candidate_below_cap->covered_label_missed": 1,
+        "compatible_candidate_below_cap->recovered": 528,
+        "covered_label_missed->compatible_candidate_below_cap": 1,
+        "covered_label_missed->covered_label_missed": 4,
+        "covered_label_missed->recovered": 11,
+        "no_compatible_candidate->compatible_candidate_below_cap": 2,
+        "no_compatible_candidate->no_compatible_candidate": 4,
+        "no_compatible_candidate->recovered": 5
+      },
+      "blosum62|minimal->gene_caller": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 412,
+        "compatible_candidate_below_cap->covered_label_missed": 3,
+        "compatible_candidate_below_cap->no_compatible_candidate": 29,
+        "compatible_candidate_below_cap->recovered": 156,
+        "covered_label_missed->compatible_candidate_below_cap": 2,
+        "covered_label_missed->covered_label_missed": 4,
+        "covered_label_missed->no_compatible_candidate": 3,
+        "covered_label_missed->recovered": 7,
+        "no_compatible_candidate->compatible_candidate_below_cap": 1,
+        "no_compatible_candidate->no_compatible_candidate": 10
+      },
+      "blosum62|minimal->start_ranked": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 563,
+        "compatible_candidate_below_cap->covered_label_missed": 1,
+        "compatible_candidate_below_cap->recovered": 36,
+        "covered_label_missed->compatible_candidate_below_cap": 2,
+        "covered_label_missed->covered_label_missed": 14,
+        "no_compatible_candidate->no_compatible_candidate": 11
+      },
+      "esm2|minimal->annotation_reference": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 71,
+        "compatible_candidate_below_cap->covered_label_missed": 2,
+        "compatible_candidate_below_cap->recovered": 527,
+        "covered_label_missed->compatible_candidate_below_cap": 2,
+        "covered_label_missed->covered_label_missed": 20,
+        "covered_label_missed->recovered": 15,
+        "no_compatible_candidate->compatible_candidate_below_cap": 2,
+        "no_compatible_candidate->no_compatible_candidate": 4,
+        "no_compatible_candidate->recovered": 5
+      },
+      "esm2|minimal->gene_caller": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 412,
+        "compatible_candidate_below_cap->covered_label_missed": 3,
+        "compatible_candidate_below_cap->no_compatible_candidate": 29,
+        "compatible_candidate_below_cap->recovered": 156,
+        "covered_label_missed->compatible_candidate_below_cap": 3,
+        "covered_label_missed->covered_label_missed": 24,
+        "covered_label_missed->no_compatible_candidate": 3,
+        "covered_label_missed->recovered": 7,
+        "no_compatible_candidate->compatible_candidate_below_cap": 1,
+        "no_compatible_candidate->no_compatible_candidate": 10
+      },
+      "esm2|minimal->start_ranked": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 563,
+        "compatible_candidate_below_cap->covered_label_missed": 1,
+        "compatible_candidate_below_cap->recovered": 36,
+        "covered_label_missed->compatible_candidate_below_cap": 3,
+        "covered_label_missed->covered_label_missed": 34,
+        "no_compatible_candidate->no_compatible_candidate": 11
+      }
+    },
+    "by_arm": {
+      "blosum62|annotation_reference": {
+        "covered_missed_best_rank": {
+          "1": 1,
+          "3": 2,
+          "4": 2
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 78,
+          "covered_label_missed": 5,
+          "no_compatible_candidate": 4,
+          "recovered": 1134
+        }
+      },
+      "blosum62|gene_caller": {
+        "covered_missed_best_rank": {
+          "1": 1,
+          "10": 1,
+          "3": 2,
+          "4": 3
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 423,
+          "covered_label_missed": 7,
+          "no_compatible_candidate": 45,
+          "recovered": 746
+        }
+      },
+      "blosum62|minimal": {
+        "covered_missed_best_rank": {
+          "1": 1,
+          "10": 4,
+          "12": 2,
+          "13": 3,
+          "14": 1,
+          "4": 4,
+          "6": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 600,
+          "covered_label_missed": 16,
+          "no_compatible_candidate": 11,
+          "recovered": 594
+        }
+      },
+      "blosum62|start_ranked": {
+        "covered_missed_best_rank": {
+          "1": 1,
+          "10": 4,
+          "12": 2,
+          "13": 2,
+          "4": 5,
+          "6": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 577,
+          "covered_label_missed": 15,
+          "no_compatible_candidate": 11,
+          "recovered": 618
+        }
+      },
+      "esm2|annotation_reference": {
+        "covered_missed_best_rank": {
+          "1": 1,
+          "11": 2,
+          "12": 1,
+          "13": 1,
+          "16": 1,
+          "4": 4,
+          "5": 3,
+          "6": 2,
+          "7": 7,
+          "8": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 78,
+          "covered_label_missed": 23,
+          "no_compatible_candidate": 4,
+          "recovered": 1116
+        }
+      },
+      "esm2|gene_caller": {
+        "covered_missed_best_rank": {
+          "1": 1,
+          "11": 2,
+          "12": 1,
+          "13": 4,
+          "16": 1,
+          "4": 4,
+          "5": 5,
+          "6": 3,
+          "7": 4,
+          "8": 3
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 423,
+          "covered_label_missed": 28,
+          "no_compatible_candidate": 45,
+          "recovered": 725
+        }
+      },
+      "esm2|minimal": {
+        "covered_missed_best_rank": {
+          "1": 1,
+          "11": 5,
+          "12": 4,
+          "13": 2,
+          "14": 5,
+          "15": 1,
+          "16": 1,
+          "19": 1,
+          "26": 1,
+          "4": 5,
+          "5": 4,
+          "6": 2,
+          "7": 2,
+          "8": 3
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 600,
+          "covered_label_missed": 37,
+          "no_compatible_candidate": 11,
+          "recovered": 573
+        }
+      },
+      "esm2|start_ranked": {
+        "covered_missed_best_rank": {
+          "1": 1,
+          "11": 4,
+          "12": 3,
+          "13": 2,
+          "14": 4,
+          "15": 1,
+          "16": 1,
+          "19": 1,
+          "26": 1,
+          "4": 6,
+          "5": 4,
+          "6": 2,
+          "7": 2,
+          "8": 3
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 577,
+          "covered_label_missed": 35,
+          "no_compatible_candidate": 11,
+          "recovered": 598
+        }
+      }
+    }
+  },
+  "input_sha256": {
+    "answer_key": "398d681600b10b82c05df8056e0b39b56df308c9545930afc88814af7e75debb",
+    "construct_map": "4a3acbac69c6bda9f2836a35d5cb298c583371181ef4e9c2b145215121ea6a3c",
+    "traces": {
+      "blosum62/annotation_reference": "542d76b3114217270f25d77d26c296f3c85e7c24095593ae5f653be3e13aa40a",
+      "blosum62/gene_caller": "f39bee937baa51d1d273aa16cff27af31eb28902bc5a2fd1451d8efc8c675c57",
+      "blosum62/minimal": "2b616f4b33b1c4285991d734a7796f82a0c1f6a9a62458d06958425673b63c0a",
+      "blosum62/start_ranked": "f68ee88880dfa41a7bf9332799446d93c29eec852f32e8d694aedb1743f68c44",
+      "esm2/annotation_reference": "29986fbba9939f7b68f06e6f39fee616f3ee8360689c62523e18ee6d19bf6245",
+      "esm2/gene_caller": "76ebe5059bcf5599f8d395d3f2a35fb4e1d82728046cef9ea0c9d4bab65ffd13",
+      "esm2/minimal": "97aa574f9548554dd663f746e5d2811e975cfb382bdedcf1e805dd44225d7b80",
+      "esm2/start_ranked": "beaed96ee9e48e582ab78df476f80007873de50a981d4b56956fcc7249a460c3"
+    }
+  },
+  "matched_inputs_sha256": {
+    "annotation_reference": "b5df2c775df882e3517e4ae00e60e81a672896ea790ef9202b9e0346569e8e47",
+    "gene_caller": "b00f633b1553bd414559050b23068ab45c1ac7d3049e68ccb305bf933fe232e4",
+    "minimal": "28eea256c40725a68b510e53a9fa3fb6c045dd1755b72b01afa78f94f085b0e3",
+    "start_ranked": "c0682dfc0e1124a1a5863e54e583125c96e681e6852c4e9a93e53b03372548f3"
+  },
+  "primary_query_cap": 2,
+  "schema": "paired-cohort-analysis-1",
+  "strata_primary_cap": {
+    "archetype=backbone_heavy": {
+      "components": 142,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 142,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 142
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 142,
+          "equal_group_recall": 0.5073782587309396,
+          "pooled_recall": 0.5140845070422535,
+          "recovered": 73
+        },
+        "blosum62|minimal|2": {
+          "eligible": 142,
+          "equal_group_recall": 0.3730939498278406,
+          "pooled_recall": 0.36619718309859156,
+          "recovered": 52
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 142,
+          "equal_group_recall": 0.4134284308903099,
+          "pooled_recall": 0.4295774647887324,
+          "recovered": 61
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 142,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 142
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 142,
+          "equal_group_recall": 0.5167240531234629,
+          "pooled_recall": 0.5211267605633803,
+          "recovered": 74
+        },
+        "esm2|minimal|2": {
+          "eligible": 142,
+          "equal_group_recall": 0.3730939498278406,
+          "pooled_recall": 0.36619718309859156,
+          "recovered": 52
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 142,
+          "equal_group_recall": 0.42277422528283326,
+          "pooled_recall": 0.43661971830985913,
+          "recovered": 62
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 142,
+          "components_only_a": 24,
+          "components_only_b": 3,
+          "equal_group_gain": 0.13428430890309886,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.059517953762911954,
+              0.2090506640432858
+            ],
+            "pooled_gain_interval": [
+              0.05555555555555555,
+              0.22916998407643313
+            ]
+          },
+          "groups": 107,
+          "groups_declined": 2,
+          "groups_improved": 17,
+          "groups_tied": 88,
+          "largest_group_share": 0.13380281690140844,
+          "leave_one_group_out_equal_group_range": [
+            0.12611717974180733,
+            0.14498510427010924
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.11382113821138211,
+            0.16428571428571428
+          ],
+          "pooled_gain": 0.14788732394366197,
+          "pooled_gain_without_largest_group": 0.11382113821138211,
+          "recall_a_equal_group": 0.5073782587309396,
+          "recall_a_pooled": 0.5140845070422535,
+          "recall_b_equal_group": 0.3730939498278406,
+          "recall_b_pooled": 0.36619718309859156,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.0519651401230348,
+            0.29959710743801654
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 142,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 107,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 107,
+          "largest_group_share": 0.13380281690140844,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 142,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.009345794392523364,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.028037383177570093
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.02459016393442623
+            ]
+          },
+          "groups": 107,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 106,
+          "largest_group_share": 0.13380281690140844,
+          "leave_one_group_out_equal_group_range": [
+            -1.047380211910525e-18,
+            0.009433962264150943
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.008130081300813009
+          ],
+          "pooled_gain": 0.007042253521126761,
+          "pooled_gain_without_largest_group": 0.008130081300813009,
+          "recall_a_equal_group": 0.5167240531234629,
+          "recall_a_pooled": 0.5211267605633803,
+          "recall_b_equal_group": 0.5073782587309396,
+          "recall_b_pooled": 0.5140845070422535,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.07519506312952194
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 142,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 107,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 107,
+          "largest_group_share": 0.13380281690140844,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.3730939498278406,
+          "recall_a_pooled": 0.36619718309859156,
+          "recall_b_equal_group": 0.3730939498278406,
+          "recall_b_pooled": 0.36619718309859156,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 142,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.009345794392523364,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.028037383177570093
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.02459016393442623
+            ]
+          },
+          "groups": 107,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 106,
+          "largest_group_share": 0.13380281690140844,
+          "leave_one_group_out_equal_group_range": [
+            -1.047380211910525e-18,
+            0.009433962264150943
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.008130081300813009
+          ],
+          "pooled_gain": 0.007042253521126761,
+          "pooled_gain_without_largest_group": 0.008130081300813009,
+          "recall_a_equal_group": 0.42277422528283326,
+          "recall_a_pooled": 0.43661971830985913,
+          "recall_b_equal_group": 0.4134284308903099,
+          "recall_b_pooled": 0.4295774647887324,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.07519506312952194
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 142,
+          "components_only_a": 25,
+          "components_only_b": 3,
+          "equal_group_gain": 0.14363010329562223,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.06640432857845548,
+              0.21839645843580915
+            ],
+            "pooled_gain_interval": [
+              0.06297982283464572,
+              0.23470888355342143
+            ]
+          },
+          "groups": 107,
+          "groups_declined": 2,
+          "groups_improved": 18,
+          "groups_tied": 87,
+          "largest_group_share": 0.13380281690140844,
+          "leave_one_group_out_equal_group_range": [
+            0.1355511420059583,
+            0.15441906653426019
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.12195121951219512,
+            0.17142857142857143
+          ],
+          "pooled_gain": 0.15492957746478872,
+          "pooled_gain_without_largest_group": 0.12195121951219512,
+          "recall_a_equal_group": 0.5167240531234629,
+          "recall_a_pooled": 0.5211267605633803,
+          "recall_b_equal_group": 0.3730939498278406,
+          "recall_b_pooled": 0.36619718309859156,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.039235294117646986,
+            0.3157894736842105
+          ]
+        }
+      },
+      "lineage_groups": 107
+    },
+    "archetype=multi_cds": {
+      "components": 750,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 750,
+          "equal_group_recall": 0.9236390239898371,
+          "pooled_recall": 0.916,
+          "recovered": 687
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 750,
+          "equal_group_recall": 0.6017351408990088,
+          "pooled_recall": 0.5453333333333333,
+          "recovered": 409
+        },
+        "blosum62|minimal|2": {
+          "eligible": 750,
+          "equal_group_recall": 0.5093565037917114,
+          "pooled_recall": 0.4026666666666667,
+          "recovered": 302
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 750,
+          "equal_group_recall": 0.5282089628081049,
+          "pooled_recall": 0.4146666666666667,
+          "recovered": 311
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 750,
+          "equal_group_recall": 0.9216353810025876,
+          "pooled_recall": 0.916,
+          "recovered": 687
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 750,
+          "equal_group_recall": 0.5980921536494642,
+          "pooled_recall": 0.5453333333333333,
+          "recovered": 409
+        },
+        "esm2|minimal|2": {
+          "eligible": 750,
+          "equal_group_recall": 0.5079903835731322,
+          "pooled_recall": 0.4026666666666667,
+          "recovered": 302
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 750,
+          "equal_group_recall": 0.5263874691833326,
+          "pooled_recall": 0.4146666666666667,
+          "recovered": 311
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 750,
+          "components_only_a": 113,
+          "components_only_b": 6,
+          "equal_group_gain": 0.09237863710729736,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.061564381159844715,
+              0.12514306688381024
+            ],
+            "pooled_gain_interval": [
+              0.06340543822779578,
+              0.20656249402611307
+            ]
+          },
+          "groups": 183,
+          "groups_declined": 2,
+          "groups_improved": 41,
+          "groups_tied": 140,
+          "largest_group_share": 0.27066666666666667,
+          "leave_one_group_out_equal_group_range": [
+            0.08739170654195284,
+            0.09563346478371108
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.08409506398537477,
+            0.14597544338335608
+          ],
+          "pooled_gain": 0.14266666666666666,
+          "pooled_gain_without_largest_group": 0.08409506398537477,
+          "recall_a_equal_group": 0.6017351408990088,
+          "recall_a_pooled": 0.5453333333333333,
+          "recall_b_equal_group": 0.5093565037917114,
+          "recall_b_pooled": 0.4026666666666667,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.02371789200507241,
+            0.28869676565377544
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 750,
+          "components_only_a": 4,
+          "components_only_b": 4,
+          "equal_group_gain": -0.0020036429872495446,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.013570127504553735,
+              0.009107468123861566
+            ],
+            "pooled_gain_interval": [
+              -0.00852887561218772,
+              0.008065496418675175
+            ]
+          },
+          "groups": 183,
+          "groups_declined": 4,
+          "groups_improved": 4,
+          "groups_tied": 175,
+          "largest_group_share": 0.27066666666666667,
+          "leave_one_group_out_equal_group_range": [
+            -0.004761904761904762,
+            0.0007326007326007327
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.0013440860215053765,
+            0.0013422818791946308
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.9216353810025876,
+          "recall_a_pooled": 0.916,
+          "recall_b_equal_group": 0.923639023989837,
+          "recall_b_pooled": 0.916,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.026217535457727023,
+            0.025954694160801033
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 750,
+          "components_only_a": 4,
+          "components_only_b": 4,
+          "equal_group_gain": -0.003642987249544627,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.016393442622950817,
+              0.00819672131147541
+            ],
+            "pooled_gain_interval": [
+              -0.008185818442063827,
+              0.008
+            ]
+          },
+          "groups": 183,
+          "groups_declined": 4,
+          "groups_improved": 4,
+          "groups_tied": 175,
+          "largest_group_share": 0.27066666666666667,
+          "leave_one_group_out_equal_group_range": [
+            -0.006410256410256411,
+            -0.0009157509157509162
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.0013440860215053765,
+            0.0013386880856760374
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5980921536494642,
+          "recall_a_pooled": 0.5453333333333333,
+          "recall_b_equal_group": 0.6017351408990088,
+          "recall_b_pooled": 0.5453333333333333,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.0218982311688093,
+            0.026318687688383965
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 750,
+          "components_only_a": 3,
+          "components_only_b": 3,
+          "equal_group_gain": -0.001366120218579235,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.012295081967213115,
+              0.00819672131147541
+            ],
+            "pooled_gain_interval": [
+              -0.007331917371053992,
+              0.0071945686693888145
+            ]
+          },
+          "groups": 183,
+          "groups_declined": 3,
+          "groups_improved": 3,
+          "groups_tied": 177,
+          "largest_group_share": 0.27066666666666667,
+          "leave_one_group_out_equal_group_range": [
+            -0.004120879120879121,
+            0.0013736263736263737
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.0013404825737265416,
+            0.0013404825737265416
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5079903835731322,
+          "recall_a_pooled": 0.4026666666666667,
+          "recall_b_equal_group": 0.5093565037917114,
+          "recall_b_pooled": 0.4026666666666667,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.019483169170329117,
+            0.020909591050797743
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 750,
+          "components_only_a": 3,
+          "components_only_b": 3,
+          "equal_group_gain": -0.0018214936247723129,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.012750455373406194,
+              0.00819672131147541
+            ],
+            "pooled_gain_interval": [
+              -0.007273724447399032,
+              0.007169427492008141
+            ]
+          },
+          "groups": 183,
+          "groups_declined": 3,
+          "groups_improved": 3,
+          "groups_tied": 177,
+          "largest_group_share": 0.27066666666666667,
+          "leave_one_group_out_equal_group_range": [
+            -0.004578754578754578,
+            0.0009157509157509162
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.0013404825737265416,
+            0.0013386880856760374
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5263874691833326,
+          "recall_a_pooled": 0.4146666666666667,
+          "recall_b_equal_group": 0.5282089628081049,
+          "recall_b_pooled": 0.4146666666666667,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.020618556701030927,
+            0.021105813282655206
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 750,
+          "components_only_a": 112,
+          "components_only_b": 5,
+          "equal_group_gain": 0.09010177007633198,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.059315180493459185,
+              0.12235558803464402
+            ],
+            "pooled_gain_interval": [
+              0.06335616438356165,
+              0.2065909725505821
+            ]
+          },
+          "groups": 183,
+          "groups_declined": 3,
+          "groups_improved": 42,
+          "groups_tied": 138,
+          "largest_group_share": 0.27066666666666667,
+          "leave_one_group_out_equal_group_range": [
+            0.08510232925257556,
+            0.0933440874943338
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.08409506398537477,
+            0.14597544338335608
+          ],
+          "pooled_gain": 0.14266666666666666,
+          "pooled_gain_without_largest_group": 0.08409506398537477,
+          "recall_a_equal_group": 0.5980921536494642,
+          "recall_a_pooled": 0.5453333333333333,
+          "recall_b_equal_group": 0.5079903835731322,
+          "recall_b_pooled": 0.4026666666666667,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.023951697668492804,
+            0.2866997936276708
+          ]
+        }
+      },
+      "lineage_groups": 183
+    },
+    "archetype=single_cds": {
+      "components": 98,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 98,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 98
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 98,
+          "equal_group_recall": 0.888095238095238,
+          "pooled_recall": 0.7959183673469388,
+          "recovered": 78
+        },
+        "blosum62|minimal|2": {
+          "eligible": 98,
+          "equal_group_recall": 0.8119047619047618,
+          "pooled_recall": 0.7040816326530612,
+          "recovered": 69
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 98,
+          "equal_group_recall": 0.8285714285714286,
+          "pooled_recall": 0.7244897959183674,
+          "recovered": 71
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 98,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 98
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 98,
+          "equal_group_recall": 0.888095238095238,
+          "pooled_recall": 0.7959183673469388,
+          "recovered": 78
+        },
+        "esm2|minimal|2": {
+          "eligible": 98,
+          "equal_group_recall": 0.8119047619047618,
+          "pooled_recall": 0.7040816326530612,
+          "recovered": 69
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 98,
+          "equal_group_recall": 0.8285714285714286,
+          "pooled_recall": 0.7244897959183674,
+          "recovered": 71
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 98,
+          "components_only_a": 9,
+          "components_only_b": 0,
+          "equal_group_gain": 0.07619047619047618,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.023809523809523808,
+              0.1357142857142857
+            ],
+            "pooled_gain_interval": [
+              0.03845238095238099,
+              0.14530303030303032
+            ]
+          },
+          "groups": 70,
+          "groups_declined": 0,
+          "groups_improved": 8,
+          "groups_tied": 62,
+          "largest_group_share": 0.08163265306122448,
+          "leave_one_group_out_equal_group_range": [
+            0.06280193236714976,
+            0.07729468599033816
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.07777777777777778,
+            0.09473684210526316
+          ],
+          "pooled_gain": 0.09183673469387756,
+          "pooled_gain_without_largest_group": 0.07777777777777778,
+          "recall_a_equal_group": 0.888095238095238,
+          "recall_a_pooled": 0.7959183673469388,
+          "recall_b_equal_group": 0.8119047619047619,
+          "recall_b_pooled": 0.7040816326530612,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.18421052631578946
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 98,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 70,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 70,
+          "largest_group_share": 0.08163265306122448,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 98,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 70,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 70,
+          "largest_group_share": 0.08163265306122448,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.888095238095238,
+          "recall_a_pooled": 0.7959183673469388,
+          "recall_b_equal_group": 0.888095238095238,
+          "recall_b_pooled": 0.7959183673469388,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 98,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 70,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 70,
+          "largest_group_share": 0.08163265306122448,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.8119047619047619,
+          "recall_a_pooled": 0.7040816326530612,
+          "recall_b_equal_group": 0.8119047619047619,
+          "recall_b_pooled": 0.7040816326530612,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 98,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 70,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 70,
+          "largest_group_share": 0.08163265306122448,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.8285714285714286,
+          "recall_a_pooled": 0.7244897959183674,
+          "recall_b_equal_group": 0.8285714285714286,
+          "recall_b_pooled": 0.7244897959183674,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 98,
+          "components_only_a": 9,
+          "components_only_b": 0,
+          "equal_group_gain": 0.07619047619047618,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.023809523809523808,
+              0.1357142857142857
+            ],
+            "pooled_gain_interval": [
+              0.03845238095238099,
+              0.14530303030303032
+            ]
+          },
+          "groups": 70,
+          "groups_declined": 0,
+          "groups_improved": 8,
+          "groups_tied": 62,
+          "largest_group_share": 0.08163265306122448,
+          "leave_one_group_out_equal_group_range": [
+            0.06280193236714976,
+            0.07729468599033816
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.07777777777777778,
+            0.09473684210526316
+          ],
+          "pooled_gain": 0.09183673469387756,
+          "pooled_gain_without_largest_group": 0.07777777777777778,
+          "recall_a_equal_group": 0.888095238095238,
+          "recall_a_pooled": 0.7959183673469388,
+          "recall_b_equal_group": 0.8119047619047619,
+          "recall_b_pooled": 0.7040816326530612,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.18421052631578946
+          ]
+        }
+      },
+      "lineage_groups": 70
+    },
+    "archetype=single_label_other": {
+      "components": 125,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 125,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 125
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 125,
+          "equal_group_recall": 0.976851851851852,
+          "pooled_recall": 0.976,
+          "recovered": 122
+        },
+        "blosum62|minimal|2": {
+          "eligible": 125,
+          "equal_group_recall": 0.8962962962962963,
+          "pooled_recall": 0.896,
+          "recovered": 112
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 125,
+          "equal_group_recall": 0.911111111111111,
+          "pooled_recall": 0.912,
+          "recovered": 114
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 125,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 125
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 125,
+          "equal_group_recall": 0.976851851851852,
+          "pooled_recall": 0.976,
+          "recovered": 122
+        },
+        "esm2|minimal|2": {
+          "eligible": 125,
+          "equal_group_recall": 0.8962962962962963,
+          "pooled_recall": 0.896,
+          "recovered": 112
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 125,
+          "equal_group_recall": 0.911111111111111,
+          "pooled_recall": 0.912,
+          "recovered": 114
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 125,
+          "components_only_a": 11,
+          "components_only_b": 1,
+          "equal_group_gain": 0.08055555555555555,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.027777777777777776,
+              0.1425925925925926
+            ],
+            "pooled_gain_interval": [
+              0.03224948524365137,
+              0.1349206349206349
+            ]
+          },
+          "groups": 72,
+          "groups_declined": 0,
+          "groups_improved": 8,
+          "groups_tied": 64,
+          "largest_group_share": 0.12,
+          "leave_one_group_out_equal_group_range": [
+            0.06760563380281688,
+            0.08169014084507041
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.06504065040650407,
+            0.08771929824561403
+          ],
+          "pooled_gain": 0.08,
+          "pooled_gain_without_largest_group": 0.07272727272727272,
+          "recall_a_equal_group": 0.976851851851852,
+          "recall_a_pooled": 0.976,
+          "recall_b_equal_group": 0.8962962962962963,
+          "recall_b_pooled": 0.896,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.04653931339977841,
+            0.18049173878835564
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 125,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 72,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 72,
+          "largest_group_share": 0.12,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 125,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 72,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 72,
+          "largest_group_share": 0.12,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.976851851851852,
+          "recall_a_pooled": 0.976,
+          "recall_b_equal_group": 0.976851851851852,
+          "recall_b_pooled": 0.976,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 125,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 72,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 72,
+          "largest_group_share": 0.12,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.8962962962962963,
+          "recall_a_pooled": 0.896,
+          "recall_b_equal_group": 0.8962962962962963,
+          "recall_b_pooled": 0.896,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 125,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 72,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 72,
+          "largest_group_share": 0.12,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.911111111111111,
+          "recall_a_pooled": 0.912,
+          "recall_b_equal_group": 0.911111111111111,
+          "recall_b_pooled": 0.912,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 125,
+          "components_only_a": 11,
+          "components_only_b": 1,
+          "equal_group_gain": 0.08055555555555555,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.027777777777777776,
+              0.1425925925925926
+            ],
+            "pooled_gain_interval": [
+              0.03224948524365137,
+              0.1349206349206349
+            ]
+          },
+          "groups": 72,
+          "groups_declined": 0,
+          "groups_improved": 8,
+          "groups_tied": 64,
+          "largest_group_share": 0.12,
+          "leave_one_group_out_equal_group_range": [
+            0.06760563380281688,
+            0.08169014084507041
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.06504065040650407,
+            0.08771929824561403
+          ],
+          "pooled_gain": 0.08,
+          "pooled_gain_without_largest_group": 0.07272727272727272,
+          "recall_a_equal_group": 0.976851851851852,
+          "recall_a_pooled": 0.976,
+          "recall_b_equal_group": 0.8962962962962963,
+          "recall_b_pooled": 0.896,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.04653931339977841,
+            0.18049173878835564
+          ]
+        }
+      },
+      "lineage_groups": 72
+    },
+    "archetype=tagged_fusion": {
+      "components": 106,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 106,
+          "equal_group_recall": 0.8081395348837209,
+          "pooled_recall": 0.7735849056603774,
+          "recovered": 82
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 106,
+          "equal_group_recall": 0.6434108527131782,
+          "pooled_recall": 0.6037735849056604,
+          "recovered": 64
+        },
+        "blosum62|minimal|2": {
+          "eligible": 106,
+          "equal_group_recall": 0.6125968992248062,
+          "pooled_recall": 0.5566037735849056,
+          "recovered": 59
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 106,
+          "equal_group_recall": 0.625,
+          "pooled_recall": 0.5754716981132075,
+          "recovered": 61
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 106,
+          "equal_group_recall": 0.6532945736434109,
+          "pooled_recall": 0.6037735849056604,
+          "recovered": 64
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 106,
+          "equal_group_recall": 0.39554263565891473,
+          "pooled_recall": 0.39622641509433965,
+          "recovered": 42
+        },
+        "esm2|minimal|2": {
+          "eligible": 106,
+          "equal_group_recall": 0.3492248062015504,
+          "pooled_recall": 0.3584905660377358,
+          "recovered": 38
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 106,
+          "equal_group_recall": 0.3616279069767442,
+          "pooled_recall": 0.37735849056603776,
+          "recovered": 40
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 106,
+          "components_only_a": 6,
+          "components_only_b": 1,
+          "equal_group_gain": 0.03081395348837209,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.04071220930232553,
+              0.10523255813953489
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.10527580971659924
+            ]
+          },
+          "groups": 43,
+          "groups_declined": 1,
+          "groups_improved": 5,
+          "groups_tied": 37,
+          "largest_group_share": 0.07547169811320754,
+          "leave_one_group_out_equal_group_range": [
+            0.007738095238095237,
+            0.05535714285714286
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.028846153846153848,
+            0.05714285714285714
+          ],
+          "pooled_gain": 0.04716981132075472,
+          "pooled_gain_without_largest_group": 0.04081632653061224,
+          "recall_a_equal_group": 0.6434108527131783,
+          "recall_a_pooled": 0.6037735849056604,
+          "recall_b_equal_group": 0.6125968992248062,
+          "recall_b_pooled": 0.5566037735849056,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.014084507042253521,
+            0.1376317587351162
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 106,
+          "components_only_a": 0,
+          "components_only_b": 18,
+          "equal_group_gain": -0.15484496124031008,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.23392441860465113,
+              -0.08023255813953489
+            ],
+            "pooled_gain_interval": [
+              -0.2519150348489877,
+              -0.09277873234058799
+            ]
+          },
+          "groups": 43,
+          "groups_declined": 13,
+          "groups_improved": 0,
+          "groups_tied": 30,
+          "largest_group_share": 0.07547169811320754,
+          "leave_one_group_out_equal_group_range": [
+            -0.15853174603174602,
+            -0.13472222222222222
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.18,
+            -0.15306122448979592
+          ],
+          "pooled_gain": -0.16981132075471697,
+          "pooled_gain_without_largest_group": -0.15306122448979592,
+          "recall_a_equal_group": 0.6532945736434108,
+          "recall_a_pooled": 0.6037735849056604,
+          "recall_b_equal_group": 0.8081395348837209,
+          "recall_b_pooled": 0.7735849056603774,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.3503217200251097,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 106,
+          "components_only_a": 0,
+          "components_only_b": 22,
+          "equal_group_gain": -0.24786821705426357,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.35445736434108527,
+              -0.14824612403100773
+            ],
+            "pooled_gain_interval": [
+              -0.29311531161024984,
+              -0.1262135922330097
+            ]
+          },
+          "groups": 43,
+          "groups_declined": 17,
+          "groups_improved": 0,
+          "groups_tied": 26,
+          "largest_group_share": 0.07547169811320754,
+          "leave_one_group_out_equal_group_range": [
+            -0.25376984126984126,
+            -0.22996031746031745
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.22,
+            -0.19387755102040816
+          ],
+          "pooled_gain": -0.20754716981132076,
+          "pooled_gain_without_largest_group": -0.19387755102040816,
+          "recall_a_equal_group": 0.39554263565891473,
+          "recall_a_pooled": 0.39622641509433965,
+          "recall_b_equal_group": 0.6434108527131783,
+          "recall_b_pooled": 0.6037735849056604,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.4112286970863111,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 106,
+          "components_only_a": 0,
+          "components_only_b": 21,
+          "equal_group_gain": -0.2633720930232558,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.38430717054263563,
+              -0.15290697674418605
+            ],
+            "pooled_gain_interval": [
+              -0.2831895280235988,
+              -0.11827956989247312
+            ]
+          },
+          "groups": 43,
+          "groups_declined": 17,
+          "groups_improved": 0,
+          "groups_tied": 26,
+          "largest_group_share": 0.07547169811320754,
+          "leave_one_group_out_equal_group_range": [
+            -0.26964285714285713,
+            -0.24583333333333332
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.21,
+            -0.1836734693877551
+          ],
+          "pooled_gain": -0.19811320754716982,
+          "pooled_gain_without_largest_group": -0.1836734693877551,
+          "recall_a_equal_group": 0.3492248062015504,
+          "recall_a_pooled": 0.3584905660377358,
+          "recall_b_equal_group": 0.6125968992248062,
+          "recall_b_pooled": 0.5566037735849056,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.3972911731383251,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 106,
+          "components_only_a": 0,
+          "components_only_b": 21,
+          "equal_group_gain": -0.2633720930232558,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.38430717054263563,
+              -0.15290697674418605
+            ],
+            "pooled_gain_interval": [
+              -0.2831895280235988,
+              -0.11827956989247312
+            ]
+          },
+          "groups": 43,
+          "groups_declined": 17,
+          "groups_improved": 0,
+          "groups_tied": 26,
+          "largest_group_share": 0.07547169811320754,
+          "leave_one_group_out_equal_group_range": [
+            -0.26964285714285713,
+            -0.24583333333333332
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.21,
+            -0.1836734693877551
+          ],
+          "pooled_gain": -0.19811320754716982,
+          "pooled_gain_without_largest_group": -0.1836734693877551,
+          "recall_a_equal_group": 0.3616279069767442,
+          "recall_a_pooled": 0.37735849056603776,
+          "recall_b_equal_group": 0.625,
+          "recall_b_pooled": 0.5754716981132075,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.3972911731383251,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 106,
+          "components_only_a": 6,
+          "components_only_b": 2,
+          "equal_group_gain": 0.04631782945736434,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.03972868217054264,
+              0.13546511627906976
+            ],
+            "pooled_gain_interval": [
+              -0.01020408163265306,
+              0.09009009009009009
+            ]
+          },
+          "groups": 43,
+          "groups_declined": 2,
+          "groups_improved": 6,
+          "groups_tied": 35,
+          "largest_group_share": 0.07547169811320754,
+          "leave_one_group_out_equal_group_range": [
+            0.023611111111111107,
+            0.07123015873015873
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.02857142857142857,
+            0.04854368932038835
+          ],
+          "pooled_gain": 0.03773584905660377,
+          "pooled_gain_without_largest_group": 0.030612244897959183,
+          "recall_a_equal_group": 0.39554263565891473,
+          "recall_a_pooled": 0.39622641509433965,
+          "recall_b_equal_group": 0.3492248062015504,
+          "recall_b_pooled": 0.3584905660377358,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.03278688524590164,
+            0.13043478260869565
+          ]
+        }
+      },
+      "lineage_groups": 43
+    },
+    "similarity_tier=high": {
+      "components": 508,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 508,
+          "equal_group_recall": 0.9484278444202109,
+          "pooled_recall": 0.9586614173228346,
+          "recovered": 487
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 508,
+          "equal_group_recall": 0.7277182034815621,
+          "pooled_recall": 0.6318897637795275,
+          "recovered": 321
+        },
+        "blosum62|minimal|2": {
+          "eligible": 508,
+          "equal_group_recall": 0.6225372591784806,
+          "pooled_recall": 0.531496062992126,
+          "recovered": 270
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 508,
+          "equal_group_recall": 0.6577224443636658,
+          "pooled_recall": 0.5728346456692913,
+          "recovered": 291
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 508,
+          "equal_group_recall": 0.9302980734278444,
+          "pooled_recall": 0.9409448818897638,
+          "recovered": 478
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 508,
+          "equal_group_recall": 0.705771638596066,
+          "pooled_recall": 0.6122047244094488,
+          "recovered": 311
+        },
+        "esm2|minimal|2": {
+          "eligible": 508,
+          "equal_group_recall": 0.6063158851326791,
+          "pooled_recall": 0.515748031496063,
+          "recovered": 262
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 508,
+          "equal_group_recall": 0.6415010703178643,
+          "pooled_recall": 0.5570866141732284,
+          "recovered": 283
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 508,
+          "components_only_a": 51,
+          "components_only_b": 0,
+          "equal_group_gain": 0.10518094430308172,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.07165677127509189,
+              0.14313047780605032
+            ],
+            "pooled_gain_interval": [
+              0.07608619105939989,
+              0.1385894358933672
+            ]
+          },
+          "groups": 262,
+          "groups_declined": 0,
+          "groups_improved": 35,
+          "groups_tied": 227,
+          "largest_group_share": 0.265748031496063,
+          "leave_one_group_out_equal_group_range": [
+            0.10175251880232725,
+            0.10558393642684831
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.09683794466403162,
+            0.10991957104557641
+          ],
+          "pooled_gain": 0.10039370078740158,
+          "pooled_gain_without_largest_group": 0.10991957104557641,
+          "recall_a_equal_group": 0.7277182034815624,
+          "recall_a_pooled": 0.6318897637795275,
+          "recall_b_equal_group": 0.6225372591784806,
+          "recall_b_pooled": 0.531496062992126,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.15819525388688285
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 508,
+          "components_only_a": 0,
+          "components_only_b": 9,
+          "equal_group_gain": -0.01812977099236641,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.03148854961832061,
+              -0.007633587786259542
+            ],
+            "pooled_gain_interval": [
+              -0.03631522210771817,
+              -0.0065013189189917575
+            ]
+          },
+          "groups": 262,
+          "groups_declined": 9,
+          "groups_improved": 0,
+          "groups_tied": 253,
+          "largest_group_share": 0.265748031496063,
+          "leave_one_group_out_equal_group_range": [
+            -0.018199233716475097,
+            -0.014367816091954023
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.024128686327077747,
+            -0.015779092702169626
+          ],
+          "pooled_gain": -0.017716535433070866,
+          "pooled_gain_without_largest_group": -0.024128686327077747,
+          "recall_a_equal_group": 0.9302980734278444,
+          "recall_a_pooled": 0.9409448818897638,
+          "recall_b_equal_group": 0.9484278444202109,
+          "recall_b_pooled": 0.9586614173228346,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.23141693616001913,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 508,
+          "components_only_a": 0,
+          "components_only_b": 10,
+          "equal_group_gain": -0.02194656488549618,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.03721374045801527,
+              -0.009541984732824428
+            ],
+            "pooled_gain_interval": [
+              -0.039579891917749854,
+              -0.007832388218015664
+            ]
+          },
+          "groups": 262,
+          "groups_declined": 10,
+          "groups_improved": 0,
+          "groups_tied": 252,
+          "largest_group_share": 0.265748031496063,
+          "leave_one_group_out_equal_group_range": [
+            -0.022030651340996167,
+            -0.018199233716475097
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.02680965147453083,
+            -0.01775147928994083
+          ],
+          "pooled_gain": -0.01968503937007874,
+          "pooled_gain_without_largest_group": -0.02680965147453083,
+          "recall_a_equal_group": 0.7057716385960662,
+          "recall_a_pooled": 0.6122047244094488,
+          "recall_b_equal_group": 0.7277182034815624,
+          "recall_b_pooled": 0.6318897637795275,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.25004770992366393,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 508,
+          "components_only_a": 0,
+          "components_only_b": 8,
+          "equal_group_gain": -0.016221374045801526,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.029580152671755726,
+              -0.0057251908396946565
+            ],
+            "pooled_gain_interval": [
+              -0.03333333333333333,
+              -0.005333155792276964
+            ]
+          },
+          "groups": 262,
+          "groups_declined": 8,
+          "groups_improved": 0,
+          "groups_tied": 254,
+          "largest_group_share": 0.265748031496063,
+          "leave_one_group_out_equal_group_range": [
+            -0.016283524904214558,
+            -0.012452107279693486
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.021447721179624665,
+            -0.013806706114398421
+          ],
+          "pooled_gain": -0.015748031496062992,
+          "pooled_gain_without_largest_group": -0.021447721179624665,
+          "recall_a_equal_group": 0.6063158851326791,
+          "recall_a_pooled": 0.515748031496063,
+          "recall_b_equal_group": 0.6225372591784806,
+          "recall_b_pooled": 0.531496062992126,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.2,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 508,
+          "components_only_a": 0,
+          "components_only_b": 8,
+          "equal_group_gain": -0.016221374045801526,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.029580152671755726,
+              -0.0057251908396946565
+            ],
+            "pooled_gain_interval": [
+              -0.03333333333333333,
+              -0.005333155792276964
+            ]
+          },
+          "groups": 262,
+          "groups_declined": 8,
+          "groups_improved": 0,
+          "groups_tied": 254,
+          "largest_group_share": 0.265748031496063,
+          "leave_one_group_out_equal_group_range": [
+            -0.016283524904214558,
+            -0.012452107279693486
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.021447721179624665,
+            -0.013806706114398421
+          ],
+          "pooled_gain": -0.015748031496062992,
+          "pooled_gain_without_largest_group": -0.021447721179624665,
+          "recall_a_equal_group": 0.6415010703178643,
+          "recall_a_pooled": 0.5570866141732284,
+          "recall_b_equal_group": 0.6577224443636658,
+          "recall_b_pooled": 0.5728346456692913,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.2,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 508,
+          "components_only_a": 49,
+          "components_only_b": 0,
+          "equal_group_gain": 0.09945575346338706,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.06704834605597965,
+              0.13543256997455472
+            ],
+            "pooled_gain_interval": [
+              0.0728860022898691,
+              0.1322330128308197
+            ]
+          },
+          "groups": 262,
+          "groups_declined": 0,
+          "groups_improved": 34,
+          "groups_tied": 228,
+          "largest_group_share": 0.265748031496063,
+          "leave_one_group_out_equal_group_range": [
+            0.09600539236554563,
+            0.09983680999006671
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.09288537549407115,
+            0.10455764075067024
+          ],
+          "pooled_gain": 0.09645669291338582,
+          "pooled_gain_without_largest_group": 0.10455764075067024,
+          "recall_a_equal_group": 0.7057716385960662,
+          "recall_a_pooled": 0.6122047244094488,
+          "recall_b_equal_group": 0.6063158851326791,
+          "recall_b_pooled": 0.515748031496063,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.1465126303127506
+          ]
+        }
+      },
+      "lineage_groups": 262
+    },
+    "similarity_tier=insufficient_coverage": {
+      "components": 37,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 37,
+          "equal_group_recall": 0.85,
+          "pooled_recall": 0.8648648648648649,
+          "recovered": 32
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 37,
+          "equal_group_recall": 0.75,
+          "pooled_recall": 0.7837837837837838,
+          "recovered": 29
+        },
+        "blosum62|minimal|2": {
+          "eligible": 37,
+          "equal_group_recall": 0.7166666666666667,
+          "pooled_recall": 0.7567567567567568,
+          "recovered": 28
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 37,
+          "equal_group_recall": 0.7166666666666667,
+          "pooled_recall": 0.7567567567567568,
+          "recovered": 28
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 37,
+          "equal_group_recall": 0.9666666666666667,
+          "pooled_recall": 0.972972972972973,
+          "recovered": 36
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 37,
+          "equal_group_recall": 0.9,
+          "pooled_recall": 0.918918918918919,
+          "recovered": 34
+        },
+        "esm2|minimal|2": {
+          "eligible": 37,
+          "equal_group_recall": 0.8166666666666667,
+          "pooled_recall": 0.8378378378378378,
+          "recovered": 31
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 37,
+          "equal_group_recall": 0.85,
+          "pooled_recall": 0.8648648648648649,
+          "recovered": 32
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 37,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.03333333333333333,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.1
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.09090909090909091
+            ]
+          },
+          "groups": 30,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 29,
+          "largest_group_share": 0.10810810810810811,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.034482758620689655
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.030303030303030304
+          ],
+          "pooled_gain": 0.02702702702702703,
+          "pooled_gain_without_largest_group": 0.030303030303030304,
+          "recall_a_equal_group": 0.75,
+          "recall_a_pooled": 0.7837837837837838,
+          "recall_b_equal_group": 0.7166666666666667,
+          "recall_b_pooled": 0.7567567567567568,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.17647058823529413
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 37,
+          "components_only_a": 4,
+          "components_only_b": 0,
+          "equal_group_gain": 0.11666666666666667,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.016666666666666666,
+              0.23333333333333334
+            ],
+            "pooled_gain_interval": [
+              0.023809523809523808,
+              0.22580645161290322
+            ]
+          },
+          "groups": 30,
+          "groups_declined": 0,
+          "groups_improved": 4,
+          "groups_tied": 26,
+          "largest_group_share": 0.10810810810810811,
+          "leave_one_group_out_equal_group_range": [
+            0.08620689655172414,
+            0.1206896551724138
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.08333333333333333,
+            0.12121212121212122
+          ],
+          "pooled_gain": 0.10810810810810811,
+          "pooled_gain_without_largest_group": 0.12121212121212122,
+          "recall_a_equal_group": 0.9666666666666667,
+          "recall_a_pooled": 0.972972972972973,
+          "recall_b_equal_group": 0.85,
+          "recall_b_pooled": 0.8648648648648649,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.4117647058823529
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 37,
+          "components_only_a": 5,
+          "components_only_b": 0,
+          "equal_group_gain": 0.15,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.03333333333333333,
+              0.2833333333333333
+            ],
+            "pooled_gain_interval": [
+              0.030303030303030304,
+              0.2647058823529412
+            ]
+          },
+          "groups": 30,
+          "groups_declined": 0,
+          "groups_improved": 5,
+          "groups_tied": 25,
+          "largest_group_share": 0.10810810810810811,
+          "leave_one_group_out_equal_group_range": [
+            0.1206896551724138,
+            0.15517241379310345
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.1111111111111111,
+            0.15151515151515152
+          ],
+          "pooled_gain": 0.13513513513513514,
+          "pooled_gain_without_largest_group": 0.15151515151515152,
+          "recall_a_equal_group": 0.9,
+          "recall_a_pooled": 0.918918918918919,
+          "recall_b_equal_group": 0.75,
+          "recall_b_pooled": 0.7837837837837838,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.48
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 37,
+          "components_only_a": 3,
+          "components_only_b": 0,
+          "equal_group_gain": 0.1,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.23333333333333334
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.18608284883720944
+            ]
+          },
+          "groups": 30,
+          "groups_declined": 0,
+          "groups_improved": 3,
+          "groups_tied": 27,
+          "largest_group_share": 0.10810810810810811,
+          "leave_one_group_out_equal_group_range": [
+            0.06896551724137931,
+            0.10344827586206896
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.05555555555555555,
+            0.09090909090909091
+          ],
+          "pooled_gain": 0.08108108108108109,
+          "pooled_gain_without_largest_group": 0.09090909090909091,
+          "recall_a_equal_group": 0.8166666666666667,
+          "recall_a_pooled": 0.8378378378378378,
+          "recall_b_equal_group": 0.7166666666666667,
+          "recall_b_pooled": 0.7567567567567568,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.3333333333333333
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 37,
+          "components_only_a": 4,
+          "components_only_b": 0,
+          "equal_group_gain": 0.13333333333333333,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.03333333333333333,
+              0.26666666666666666
+            ],
+            "pooled_gain_interval": [
+              0.023809523809523808,
+              0.22580645161290322
+            ]
+          },
+          "groups": 30,
+          "groups_declined": 0,
+          "groups_improved": 4,
+          "groups_tied": 26,
+          "largest_group_share": 0.10810810810810811,
+          "leave_one_group_out_equal_group_range": [
+            0.10344827586206896,
+            0.13793103448275862
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.08333333333333333,
+            0.12121212121212122
+          ],
+          "pooled_gain": 0.10810810810810811,
+          "pooled_gain_without_largest_group": 0.12121212121212122,
+          "recall_a_equal_group": 0.85,
+          "recall_a_pooled": 0.8648648648648649,
+          "recall_b_equal_group": 0.7166666666666667,
+          "recall_b_pooled": 0.7567567567567568,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.4117647058823529
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 37,
+          "components_only_a": 3,
+          "components_only_b": 0,
+          "equal_group_gain": 0.08333333333333333,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.18333333333333332
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.18187799043062222
+            ]
+          },
+          "groups": 30,
+          "groups_declined": 0,
+          "groups_improved": 3,
+          "groups_tied": 27,
+          "largest_group_share": 0.10810810810810811,
+          "leave_one_group_out_equal_group_range": [
+            0.05172413793103448,
+            0.08620689655172414
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.05555555555555555,
+            0.09090909090909091
+          ],
+          "pooled_gain": 0.08108108108108109,
+          "pooled_gain_without_largest_group": 0.09090909090909091,
+          "recall_a_equal_group": 0.9,
+          "recall_a_pooled": 0.918918918918919,
+          "recall_b_equal_group": 0.8166666666666667,
+          "recall_b_pooled": 0.8378378378378378,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.3000581395348839
+          ]
+        }
+      },
+      "lineage_groups": 30
+    },
+    "similarity_tier=intermediate": {
+      "components": 426,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 426,
+          "equal_group_recall": 0.9029148719789423,
+          "pooled_recall": 0.931924882629108,
+          "recovered": 397
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 426,
+          "equal_group_recall": 0.5195551168541118,
+          "pooled_recall": 0.5727699530516432,
+          "recovered": 244
+        },
+        "blosum62|minimal|2": {
+          "eligible": 426,
+          "equal_group_recall": 0.4374541357581559,
+          "pooled_recall": 0.3732394366197183,
+          "recovered": 159
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 426,
+          "equal_group_recall": 0.4494286910744197,
+          "pooled_recall": 0.38028169014084506,
+          "recovered": 162
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 426,
+          "equal_group_recall": 0.9029148719789423,
+          "pooled_recall": 0.931924882629108,
+          "recovered": 397
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 426,
+          "equal_group_recall": 0.5145299912259711,
+          "pooled_recall": 0.5704225352112676,
+          "recovered": 243
+        },
+        "esm2|minimal|2": {
+          "eligible": 426,
+          "equal_group_recall": 0.4374541357581559,
+          "pooled_recall": 0.3732394366197183,
+          "recovered": 159
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 426,
+          "equal_group_recall": 0.4494286910744197,
+          "pooled_recall": 0.38028169014084506,
+          "recovered": 162
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 426,
+          "components_only_a": 90,
+          "components_only_b": 5,
+          "equal_group_gain": 0.08210098109595595,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.04016241923905245,
+              0.12726399856424983
+            ],
+            "pooled_gain_interval": [
+              0.04917560353380263,
+              0.35478662532591076
+            ]
+          },
+          "groups": 199,
+          "groups_declined": 4,
+          "groups_improved": 25,
+          "groups_tied": 170,
+          "largest_group_share": 0.22535211267605634,
+          "leave_one_group_out_equal_group_range": [
+            0.07746512746512745,
+            0.08756613756613756
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.07575757575757576,
+            0.20833333333333334
+          ],
+          "pooled_gain": 0.19953051643192488,
+          "pooled_gain_without_largest_group": 0.07575757575757576,
+          "recall_a_equal_group": 0.5195551168541118,
+          "recall_a_pooled": 0.5727699530516432,
+          "recall_b_equal_group": 0.43745413575815584,
+          "recall_b_pooled": 0.3732394366197183,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.004331890331890321,
+            0.37379771389887
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 426,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 199,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 199,
+          "largest_group_share": 0.22535211267605634,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.9029148719789425,
+          "recall_a_pooled": 0.931924882629108,
+          "recall_b_equal_group": 0.9029148719789425,
+          "recall_b_pooled": 0.931924882629108,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 426,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.005025125628140704,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.01507537688442211,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.00906344410876133,
+              0.0
+            ]
+          },
+          "groups": 199,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 198,
+          "largest_group_share": 0.22535211267605634,
+          "leave_one_group_out_equal_group_range": [
+            -0.005050505050505051,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.0030303030303030303,
+            0.0
+          ],
+          "pooled_gain": -0.002347417840375587,
+          "pooled_gain_without_largest_group": -0.0030303030303030303,
+          "recall_a_equal_group": 0.5145299912259711,
+          "recall_a_pooled": 0.5704225352112676,
+          "recall_b_equal_group": 0.5195551168541118,
+          "recall_b_pooled": 0.5727699530516432,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.009615770465489566,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 426,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 199,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 199,
+          "largest_group_share": 0.22535211267605634,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.43745413575815584,
+          "recall_a_pooled": 0.3732394366197183,
+          "recall_b_equal_group": 0.43745413575815584,
+          "recall_b_pooled": 0.3732394366197183,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 426,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 199,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 199,
+          "largest_group_share": 0.22535211267605634,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.44942869107441974,
+          "recall_a_pooled": 0.38028169014084506,
+          "recall_b_equal_group": 0.44942869107441974,
+          "recall_b_pooled": 0.38028169014084506,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 426,
+          "components_only_a": 89,
+          "components_only_b": 5,
+          "equal_group_gain": 0.07707585546781526,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.03696757597511368,
+              0.12071069633883705
+            ],
+            "pooled_gain_interval": [
+              0.0462046204620462,
+              0.35360353741496603
+            ]
+          },
+          "groups": 199,
+          "groups_declined": 4,
+          "groups_improved": 24,
+          "groups_tied": 171,
+          "largest_group_share": 0.22535211267605634,
+          "leave_one_group_out_equal_group_range": [
+            0.0724146224146224,
+            0.0825156325156325
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.07272727272727272,
+            0.20588235294117646
+          ],
+          "pooled_gain": 0.19718309859154928,
+          "pooled_gain_without_largest_group": 0.07272727272727272,
+          "recall_a_equal_group": 0.5145299912259711,
+          "recall_a_pooled": 0.5704225352112676,
+          "recall_b_equal_group": 0.43745413575815584,
+          "recall_b_pooled": 0.3732394366197183,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.004331890331890321,
+            0.371359348337036
+          ]
+        }
+      },
+      "lineage_groups": 199
+    },
+    "similarity_tier=low": {
+      "components": 250,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 250,
+          "equal_group_recall": 0.9169913419913418,
+          "pooled_recall": 0.872,
+          "recovered": 218
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 250,
+          "equal_group_recall": 0.6578282828282828,
+          "pooled_recall": 0.608,
+          "recovered": 152
+        },
+        "blosum62|minimal|2": {
+          "eligible": 250,
+          "equal_group_recall": 0.5839646464646464,
+          "pooled_recall": 0.548,
+          "recovered": 137
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 250,
+          "equal_group_recall": 0.590458152958153,
+          "pooled_recall": 0.548,
+          "recovered": 137
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 250,
+          "equal_group_recall": 0.8556277056277055,
+          "pooled_recall": 0.82,
+          "recovered": 205
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 250,
+          "equal_group_recall": 0.5782828282828282,
+          "pooled_recall": 0.548,
+          "recovered": 137
+        },
+        "esm2|minimal|2": {
+          "eligible": 250,
+          "equal_group_recall": 0.5022546897546898,
+          "pooled_recall": 0.484,
+          "recovered": 121
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 250,
+          "equal_group_recall": 0.5076659451659452,
+          "pooled_recall": 0.484,
+          "recovered": 121
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 250,
+          "components_only_a": 21,
+          "components_only_b": 6,
+          "equal_group_gain": 0.07386363636363637,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.030303030303030304,
+              0.12310606060606062
+            ],
+            "pooled_gain_interval": [
+              0.01937984496124031,
+              0.10417119565217393
+            ]
+          },
+          "groups": 154,
+          "groups_declined": 3,
+          "groups_improved": 17,
+          "groups_tied": 134,
+          "largest_group_share": 0.036,
+          "leave_one_group_out_equal_group_range": [
+            0.06781045751633986,
+            0.08088235294117647
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.05241935483870968,
+            0.06882591093117409
+          ],
+          "pooled_gain": 0.06,
+          "pooled_gain_without_largest_group": 0.06224066390041494,
+          "recall_a_equal_group": 0.6578282828282829,
+          "recall_a_pooled": 0.608,
+          "recall_b_equal_group": 0.5839646464646464,
+          "recall_b_pooled": 0.548,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.11972535211267607
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 250,
+          "components_only_a": 0,
+          "components_only_b": 13,
+          "equal_group_gain": -0.061363636363636356,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.10064935064935066,
+              -0.027597402597402596
+            ],
+            "pooled_gain_interval": [
+              -0.08403361344537816,
+              -0.025638297872340416
+            ]
+          },
+          "groups": 154,
+          "groups_declined": 12,
+          "groups_improved": 0,
+          "groups_tied": 142,
+          "largest_group_share": 0.036,
+          "leave_one_group_out_equal_group_range": [
+            -0.06176470588235294,
+            -0.05522875816993464
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.05394190871369295,
+            -0.044715447154471545
+          ],
+          "pooled_gain": -0.052,
+          "pooled_gain_without_largest_group": -0.05394190871369295,
+          "recall_a_equal_group": 0.8556277056277055,
+          "recall_a_pooled": 0.82,
+          "recall_b_equal_group": 0.916991341991342,
+          "recall_b_pooled": 0.872,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.1232876712328767,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 250,
+          "components_only_a": 0,
+          "components_only_b": 15,
+          "equal_group_gain": -0.07954545454545454,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.125,
+              -0.03896103896103896
+            ],
+            "pooled_gain_interval": [
+              -0.09465464027245635,
+              -0.030418250950570342
+            ]
+          },
+          "groups": 154,
+          "groups_declined": 14,
+          "groups_improved": 0,
+          "groups_tied": 140,
+          "largest_group_share": 0.036,
+          "leave_one_group_out_equal_group_range": [
+            -0.08006535947712418,
+            -0.07352941176470588
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.06224066390041494,
+            -0.052845528455284556
+          ],
+          "pooled_gain": -0.06,
+          "pooled_gain_without_largest_group": -0.06224066390041494,
+          "recall_a_equal_group": 0.5782828282828283,
+          "recall_a_pooled": 0.548,
+          "recall_b_equal_group": 0.6578282828282829,
+          "recall_b_pooled": 0.608,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.1276619177055019,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 250,
+          "components_only_a": 0,
+          "components_only_b": 16,
+          "equal_group_gain": -0.0817099567099567,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.12716450216450215,
+              -0.042748917748917745
+            ],
+            "pooled_gain_interval": [
+              -0.09836065573770492,
+              -0.03418803418803419
+            ]
+          },
+          "groups": 154,
+          "groups_declined": 15,
+          "groups_improved": 0,
+          "groups_tied": 139,
+          "largest_group_share": 0.036,
+          "leave_one_group_out_equal_group_range": [
+            -0.08224400871459694,
+            -0.07570806100217864
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.06639004149377593,
+            -0.056910569105691054
+          ],
+          "pooled_gain": -0.064,
+          "pooled_gain_without_largest_group": -0.06639004149377593,
+          "recall_a_equal_group": 0.5022546897546898,
+          "recall_a_pooled": 0.484,
+          "recall_b_equal_group": 0.5839646464646464,
+          "recall_b_pooled": 0.548,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.13364178515981173,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 250,
+          "components_only_a": 0,
+          "components_only_b": 16,
+          "equal_group_gain": -0.08279220779220779,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.1266233766233766,
+              -0.04220779220779221
+            ],
+            "pooled_gain_interval": [
+              -0.09829059829059829,
+              -0.03409090909090909
+            ]
+          },
+          "groups": 154,
+          "groups_declined": 15,
+          "groups_improved": 0,
+          "groups_tied": 139,
+          "largest_group_share": 0.036,
+          "leave_one_group_out_equal_group_range": [
+            -0.08333333333333333,
+            -0.07679738562091504
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.06639004149377593,
+            -0.056910569105691054
+          ],
+          "pooled_gain": -0.064,
+          "pooled_gain_without_largest_group": -0.06639004149377593,
+          "recall_a_equal_group": 0.5076659451659452,
+          "recall_a_pooled": 0.484,
+          "recall_b_equal_group": 0.590458152958153,
+          "recall_b_pooled": 0.548,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.13364896674003413,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 250,
+          "components_only_a": 22,
+          "components_only_b": 6,
+          "equal_group_gain": 0.07602813852813851,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.028679653679653676,
+              0.1285240800865801
+            ],
+            "pooled_gain_interval": [
+              0.018723110981162038,
+              0.11203408928315926
+            ]
+          },
+          "groups": 154,
+          "groups_declined": 5,
+          "groups_improved": 20,
+          "groups_tied": 129,
+          "largest_group_share": 0.036,
+          "leave_one_group_out_equal_group_range": [
+            0.06998910675381262,
+            0.08306100217864922
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.056451612903225805,
+            0.0728744939271255
+          ],
+          "pooled_gain": 0.064,
+          "pooled_gain_without_largest_group": 0.06639004149377593,
+          "recall_a_equal_group": 0.5782828282828283,
+          "recall_a_pooled": 0.548,
+          "recall_b_equal_group": 0.5022546897546898,
+          "recall_b_pooled": 0.484,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.12307971014492755
+          ]
+        }
+      },
+      "lineage_groups": 154
+    }
+  },
+  "target": 0.05,
+  "verdicts": {
+    "blosum62: gene_caller - minimal": "practically meaningful benefit (interval lower bound at least the target)",
+    "blosum62: start_ranked - minimal": "gain of the target size unsupported (interval upper bound below the target)",
+    "esm2: gene_caller - minimal": "practically meaningful benefit (interval lower bound at least the target)",
+    "esm2: start_ranked - minimal": "gain of the target size unsupported (interval upper bound below the target)"
+  },
+  "work": {
+    "blosum62|annotation_reference|1": {
+      "actual_inputs": 777,
+      "alignment_cells": 11446052800,
+      "allowed_inputs": 777,
+      "candidate_pool": 1250,
+      "characterize_seconds": 26.03758646499,
+      "encoder_calls": null,
+      "input_residues": 247600,
+      "reference_comparisons": 104118
+    },
+    "blosum62|annotation_reference|2": {
+      "actual_inputs": 1169,
+      "alignment_cells": 15907424624,
+      "allowed_inputs": 1554,
+      "candidate_pool": 1250,
+      "characterize_seconds": 5.548236229992199,
+      "encoder_calls": null,
+      "input_residues": 344108,
+      "reference_comparisons": 156646
+    },
+    "blosum62|annotation_reference|4": {
+      "actual_inputs": 1248,
+      "alignment_cells": 16810072552,
+      "allowed_inputs": 3108,
+      "candidate_pool": 1250,
+      "characterize_seconds": 1.623442092005007,
+      "encoder_calls": null,
+      "input_residues": 363634,
+      "reference_comparisons": 167232
+    },
+    "blosum62|annotation_reference|run": {
+      "unique_scorer_inputs": 237,
+      "unique_scoring_seconds": 33.19635087300003,
+      "wall_seconds": 33.36001730499993
+    },
+    "blosum62|gene_caller|1": {
+      "actual_inputs": 777,
+      "alignment_cells": 15465577400,
+      "allowed_inputs": 777,
+      "candidate_pool": 4194,
+      "characterize_seconds": 69.68279676700422,
+      "encoder_calls": null,
+      "input_residues": 334550,
+      "reference_comparisons": 104118
+    },
+    "blosum62|gene_caller|2": {
+      "actual_inputs": 1537,
+      "alignment_cells": 25488177624,
+      "allowed_inputs": 1554,
+      "candidate_pool": 4194,
+      "characterize_seconds": 27.92519356100138,
+      "encoder_calls": null,
+      "input_residues": 551358,
+      "reference_comparisons": 205958
+    },
+    "blosum62|gene_caller|4": {
+      "actual_inputs": 2772,
+      "alignment_cells": 36483091372,
+      "allowed_inputs": 3108,
+      "candidate_pool": 4194,
+      "characterize_seconds": 33.15371285399942,
+      "encoder_calls": null,
+      "input_residues": 789199,
+      "reference_comparisons": 371448
+    },
+    "blosum62|gene_caller|run": {
+      "unique_scorer_inputs": 1130,
+      "unique_scoring_seconds": 130.72680735400718,
+      "wall_seconds": 139.6509841420002
+    },
+    "blosum62|minimal|1": {
+      "actual_inputs": 777,
+      "alignment_cells": 15988647220,
+      "allowed_inputs": 777,
+      "candidate_pool": 101407,
+      "characterize_seconds": 78.65839058299207,
+      "encoder_calls": null,
+      "input_residues": 345865,
+      "reference_comparisons": 104118
+    },
+    "blosum62|minimal|2": {
+      "actual_inputs": 1554,
+      "alignment_cells": 27594001708,
+      "allowed_inputs": 1554,
+      "candidate_pool": 101407,
+      "characterize_seconds": 42.01452023400134,
+      "encoder_calls": null,
+      "input_residues": 596911,
+      "reference_comparisons": 208236
+    },
+    "blosum62|minimal|4": {
+      "actual_inputs": 3108,
+      "alignment_cells": 44899361052,
+      "allowed_inputs": 3108,
+      "candidate_pool": 101407,
+      "characterize_seconds": 68.34199374899481,
+      "encoder_calls": null,
+      "input_residues": 971259,
+      "reference_comparisons": 416472
+    },
+    "blosum62|minimal|run": {
+      "unique_scorer_inputs": 1489,
+      "unique_scoring_seconds": 188.97746032300392,
+      "wall_seconds": 192.41181452
+    },
+    "blosum62|start_ranked|1": {
+      "actual_inputs": 777,
+      "alignment_cells": 15960494368,
+      "allowed_inputs": 777,
+      "candidate_pool": 101407,
+      "characterize_seconds": 75.18993833800778,
+      "encoder_calls": null,
+      "input_residues": 345256,
+      "reference_comparisons": 104118
+    },
+    "blosum62|start_ranked|2": {
+      "actual_inputs": 1554,
+      "alignment_cells": 27559330708,
+      "allowed_inputs": 1554,
+      "candidate_pool": 101407,
+      "characterize_seconds": 43.862973436001994,
+      "encoder_calls": null,
+      "input_residues": 596161,
+      "reference_comparisons": 208236
+    },
+    "blosum62|start_ranked|4": {
+      "actual_inputs": 3108,
+      "alignment_cells": 44823454676,
+      "allowed_inputs": 3108,
+      "candidate_pool": 101407,
+      "characterize_seconds": 68.4436586569982,
+      "encoder_calls": null,
+      "input_residues": 969617,
+      "reference_comparisons": 416472
+    },
+    "blosum62|start_ranked|run": {
+      "unique_scorer_inputs": 1480,
+      "unique_scoring_seconds": 187.45195719100275,
+      "wall_seconds": 190.9392790249999
+    },
+    "esm2|annotation_reference|1": {
+      "actual_inputs": 777,
+      "alignment_cells": null,
+      "allowed_inputs": 777,
+      "candidate_pool": 1250,
+      "characterize_seconds": 28.078469605002283,
+      "encoder_calls": 911,
+      "input_residues": 247600,
+      "reference_comparisons": 104118
+    },
+    "esm2|annotation_reference|2": {
+      "actual_inputs": 1169,
+      "alignment_cells": null,
+      "allowed_inputs": 1554,
+      "candidate_pool": 1250,
+      "characterize_seconds": 3.533232526006941,
+      "encoder_calls": 1303,
+      "input_residues": 344108,
+      "reference_comparisons": 156646
+    },
+    "esm2|annotation_reference|4": {
+      "actual_inputs": 1248,
+      "alignment_cells": null,
+      "allowed_inputs": 3108,
+      "candidate_pool": 1250,
+      "characterize_seconds": 1.0737566920038262,
+      "encoder_calls": 1382,
+      "input_residues": 363634,
+      "reference_comparisons": 167232
+    },
+    "esm2|annotation_reference|run": {
+      "unique_scorer_inputs": 237,
+      "unique_scoring_seconds": 32.67621868199967,
+      "wall_seconds": 50.383820689000004
+    },
+    "esm2|gene_caller|1": {
+      "actual_inputs": 777,
+      "alignment_cells": null,
+      "allowed_inputs": 777,
+      "candidate_pool": 4194,
+      "characterize_seconds": 85.41722377100268,
+      "encoder_calls": 911,
+      "input_residues": 334550,
+      "reference_comparisons": 104118
+    },
+    "esm2|gene_caller|2": {
+      "actual_inputs": 1537,
+      "alignment_cells": null,
+      "allowed_inputs": 1554,
+      "candidate_pool": 4194,
+      "characterize_seconds": 21.044593426993288,
+      "encoder_calls": 1671,
+      "input_residues": 551358,
+      "reference_comparisons": 205958
+    },
+    "esm2|gene_caller|4": {
+      "actual_inputs": 2772,
+      "alignment_cells": null,
+      "allowed_inputs": 3108,
+      "candidate_pool": 4194,
+      "characterize_seconds": 23.44877194499577,
+      "encoder_calls": 2906,
+      "input_residues": 789199,
+      "reference_comparisons": 371448
+    },
+    "esm2|gene_caller|run": {
+      "unique_scorer_inputs": 1130,
+      "unique_scoring_seconds": 129.88477574300077,
+      "wall_seconds": 156.58456956700002
+    },
+    "esm2|minimal|1": {
+      "actual_inputs": 777,
+      "alignment_cells": null,
+      "allowed_inputs": 777,
+      "candidate_pool": 101407,
+      "characterize_seconds": 97.88464102499597,
+      "encoder_calls": 911,
+      "input_residues": 345865,
+      "reference_comparisons": 104118
+    },
+    "esm2|minimal|2": {
+      "actual_inputs": 1554,
+      "alignment_cells": null,
+      "allowed_inputs": 1554,
+      "candidate_pool": 101407,
+      "characterize_seconds": 34.03671282800474,
+      "encoder_calls": 1688,
+      "input_residues": 596911,
+      "reference_comparisons": 208236
+    },
+    "esm2|minimal|4": {
+      "actual_inputs": 3108,
+      "alignment_cells": null,
+      "allowed_inputs": 3108,
+      "candidate_pool": 101407,
+      "characterize_seconds": 46.57602294900448,
+      "encoder_calls": 3242,
+      "input_residues": 971259,
+      "reference_comparisons": 416472
+    },
+    "esm2|minimal|run": {
+      "unique_scorer_inputs": 1489,
+      "unique_scoring_seconds": 178.46712312200043,
+      "wall_seconds": 199.05661399600012
+    },
+    "esm2|start_ranked|1": {
+      "actual_inputs": 777,
+      "alignment_cells": null,
+      "allowed_inputs": 777,
+      "candidate_pool": 101407,
+      "characterize_seconds": 90.95251308300067,
+      "encoder_calls": 911,
+      "input_residues": 345256,
+      "reference_comparisons": 104118
+    },
+    "esm2|start_ranked|2": {
+      "actual_inputs": 1554,
+      "alignment_cells": null,
+      "allowed_inputs": 1554,
+      "candidate_pool": 101407,
+      "characterize_seconds": 35.11609142699581,
+      "encoder_calls": 1688,
+      "input_residues": 596161,
+      "reference_comparisons": 208236
+    },
+    "esm2|start_ranked|4": {
+      "actual_inputs": 3108,
+      "alignment_cells": null,
+      "allowed_inputs": 3108,
+      "candidate_pool": 101407,
+      "characterize_seconds": 48.443718900999556,
+      "encoder_calls": 3242,
+      "input_residues": 969617,
+      "reference_comparisons": 416472
+    },
+    "esm2|start_ranked|run": {
+      "unique_scorer_inputs": 1480,
+      "unique_scoring_seconds": 174.48122198499482,
+      "wall_seconds": 194.55660547000002
+    }
+  }
+}

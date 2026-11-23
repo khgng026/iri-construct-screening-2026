@@ -1,0 +1,5172 @@
+{
+  "bootstrap": {
+    "interval": 0.95,
+    "replicates": 4000,
+    "seed": 20261123
+  },
+  "curves": {
+    "blosum62|annotation_reference|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.72,
+      "pooled_recall": 0.6666666666666666,
+      "recovered": 22
+    },
+    "blosum62|annotation_reference|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.98,
+      "pooled_recall": 0.9696969696969697,
+      "recovered": 32
+    },
+    "blosum62|annotation_reference|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.98,
+      "pooled_recall": 0.9696969696969697,
+      "recovered": 32
+    },
+    "blosum62|gene_caller|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.4733333333333334,
+      "pooled_recall": 0.42424242424242425,
+      "recovered": 14
+    },
+    "blosum62|gene_caller|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.76,
+      "pooled_recall": 0.696969696969697,
+      "recovered": 23
+    },
+    "blosum62|gene_caller|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.72,
+      "pooled_recall": 0.7272727272727273,
+      "recovered": 24
+    },
+    "blosum62|minimal|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.33333333333333337,
+      "pooled_recall": 0.30303030303030304,
+      "recovered": 10
+    },
+    "blosum62|minimal|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.6266666666666666,
+      "pooled_recall": 0.5757575757575758,
+      "recovered": 19
+    },
+    "blosum62|minimal|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.64,
+      "pooled_recall": 0.6060606060606061,
+      "recovered": 20
+    },
+    "blosum62|start_ranked|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.41333333333333333,
+      "pooled_recall": 0.36363636363636365,
+      "recovered": 12
+    },
+    "blosum62|start_ranked|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.6666666666666665,
+      "pooled_recall": 0.6060606060606061,
+      "recovered": 20
+    },
+    "blosum62|start_ranked|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.69,
+      "pooled_recall": 0.6666666666666666,
+      "recovered": 22
+    },
+    "esm2|annotation_reference|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.54,
+      "pooled_recall": 0.5151515151515151,
+      "recovered": 17
+    },
+    "esm2|annotation_reference|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.8,
+      "pooled_recall": 0.8181818181818182,
+      "recovered": 27
+    },
+    "esm2|annotation_reference|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.82,
+      "pooled_recall": 0.8484848484848485,
+      "recovered": 28
+    },
+    "esm2|gene_caller|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.29333333333333333,
+      "pooled_recall": 0.2727272727272727,
+      "recovered": 9
+    },
+    "esm2|gene_caller|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.58,
+      "pooled_recall": 0.5454545454545454,
+      "recovered": 18
+    },
+    "esm2|gene_caller|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.72,
+      "pooled_recall": 0.7272727272727273,
+      "recovered": 24
+    },
+    "esm2|minimal|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.19333333333333336,
+      "pooled_recall": 0.18181818181818182,
+      "recovered": 6
+    },
+    "esm2|minimal|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.48666666666666664,
+      "pooled_recall": 0.45454545454545453,
+      "recovered": 15
+    },
+    "esm2|minimal|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.72,
+      "pooled_recall": 0.6666666666666666,
+      "recovered": 22
+    },
+    "esm2|start_ranked|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.2733333333333334,
+      "pooled_recall": 0.24242424242424243,
+      "recovered": 8
+    },
+    "esm2|start_ranked|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.5266666666666666,
+      "pooled_recall": 0.48484848484848486,
+      "recovered": 16
+    },
+    "esm2|start_ranked|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.69,
+      "pooled_recall": 0.6666666666666666,
+      "recovered": 22
+    }
+  },
+  "curves_conservative": {
+    "blosum62|annotation_reference|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.7222222222222222,
+      "pooled_recall": 0.6666666666666666,
+      "recovered": 22
+    },
+    "blosum62|annotation_reference|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.9888888888888889,
+      "pooled_recall": 0.9696969696969697,
+      "recovered": 32
+    },
+    "blosum62|annotation_reference|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.9888888888888889,
+      "pooled_recall": 0.9696969696969697,
+      "recovered": 32
+    },
+    "blosum62|gene_caller|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.6333333333333333,
+      "pooled_recall": 0.42424242424242425,
+      "recovered": 14
+    },
+    "blosum62|gene_caller|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.7333333333333334,
+      "pooled_recall": 0.696969696969697,
+      "recovered": 23
+    },
+    "blosum62|gene_caller|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.9,
+      "pooled_recall": 0.7272727272727273,
+      "recovered": 24
+    },
+    "blosum62|minimal|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.43333333333333335,
+      "pooled_recall": 0.30303030303030304,
+      "recovered": 10
+    },
+    "blosum62|minimal|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.6888888888888888,
+      "pooled_recall": 0.5757575757575758,
+      "recovered": 19
+    },
+    "blosum62|minimal|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.7000000000000001,
+      "pooled_recall": 0.6060606060606061,
+      "recovered": 20
+    },
+    "blosum62|start_ranked|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.45555555555555555,
+      "pooled_recall": 0.36363636363636365,
+      "recovered": 12
+    },
+    "blosum62|start_ranked|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.7000000000000001,
+      "pooled_recall": 0.6060606060606061,
+      "recovered": 20
+    },
+    "blosum62|start_ranked|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.7222222222222222,
+      "pooled_recall": 0.6666666666666666,
+      "recovered": 22
+    },
+    "esm2|annotation_reference|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.6666666666666666,
+      "pooled_recall": 0.5151515151515151,
+      "recovered": 17
+    },
+    "esm2|annotation_reference|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.9333333333333332,
+      "pooled_recall": 0.8181818181818182,
+      "recovered": 27
+    },
+    "esm2|annotation_reference|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.9444444444444445,
+      "pooled_recall": 0.8484848484848485,
+      "recovered": 28
+    },
+    "esm2|gene_caller|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.5777777777777778,
+      "pooled_recall": 0.2727272727272727,
+      "recovered": 9
+    },
+    "esm2|gene_caller|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.6777777777777777,
+      "pooled_recall": 0.5454545454545454,
+      "recovered": 18
+    },
+    "esm2|gene_caller|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.9,
+      "pooled_recall": 0.7272727272727273,
+      "recovered": 24
+    },
+    "esm2|minimal|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.3888888888888889,
+      "pooled_recall": 0.18181818181818182,
+      "recovered": 6
+    },
+    "esm2|minimal|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.6444444444444445,
+      "pooled_recall": 0.45454545454545453,
+      "recovered": 15
+    },
+    "esm2|minimal|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.8777777777777778,
+      "pooled_recall": 0.6666666666666666,
+      "recovered": 22
+    },
+    "esm2|start_ranked|1": {
+      "eligible": 33,
+      "equal_group_recall": 0.41111111111111115,
+      "pooled_recall": 0.24242424242424243,
+      "recovered": 8
+    },
+    "esm2|start_ranked|2": {
+      "eligible": 33,
+      "equal_group_recall": 0.6555555555555556,
+      "pooled_recall": 0.48484848484848486,
+      "recovered": 16
+    },
+    "esm2|start_ranked|4": {
+      "eligible": 33,
+      "equal_group_recall": 0.8777777777777778,
+      "pooled_recall": 0.6666666666666666,
+      "recovered": 22
+    }
+  },
+  "denominator": {
+    "components": 33,
+    "conservative_groups": 3,
+    "constructs": 777,
+    "families": 9,
+    "lineage_groups": 25
+  },
+  "effects_by_cap": {
+    "1": {
+      "blosum62: annotation_reference - gene_caller": {
+        "components": 33,
+        "components_only_a": 9,
+        "components_only_b": 1,
+        "equal_group_gain": 0.24666666666666665,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.05333333333333333,
+            0.44666666666666666
+          ],
+          "pooled_gain_interval": [
+            0.06661290322580665,
+            0.42857142857142855
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 1,
+        "groups_improved": 8,
+        "groups_tied": 16,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.21527777777777776,
+          0.2986111111111111
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.2,
+          0.28125
+        ],
+        "pooled_gain": 0.24242424242424243,
+        "pooled_gain_without_largest_group": 0.27586206896551724,
+        "recall_a_equal_group": 0.72,
+        "recall_a_pooled": 0.6666666666666666,
+        "recall_b_equal_group": 0.4733333333333334,
+        "recall_b_pooled": 0.42424242424242425,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.56
+        ]
+      },
+      "blosum62: annotation_reference - minimal": {
+        "components": 33,
+        "components_only_a": 13,
+        "components_only_b": 1,
+        "equal_group_gain": 0.38666666666666666,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.18,
+            0.5866666666666667
+          ],
+          "pooled_gain_interval": [
+            0.17647058823529413,
+            0.5555555555555556
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 1,
+        "groups_improved": 12,
+        "groups_tied": 12,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.3611111111111111,
+          0.4444444444444444
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.3333333333333333,
+          0.41379310344827586
+        ],
+        "pooled_gain": 0.36363636363636365,
+        "pooled_gain_without_largest_group": 0.41379310344827586,
+        "recall_a_equal_group": 0.72,
+        "recall_a_pooled": 0.6666666666666666,
+        "recall_b_equal_group": 0.33333333333333337,
+        "recall_b_pooled": 0.30303030303030304,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.6666666666666666
+        ]
+      },
+      "blosum62: gene_caller - minimal": {
+        "components": 33,
+        "components_only_a": 4,
+        "components_only_b": 0,
+        "equal_group_gain": 0.14,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.02,
+            0.28
+          ],
+          "pooled_gain_interval": [
+            0.02702702702702703,
+            0.25
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 4,
+        "groups_tied": 21,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.10416666666666669,
+          0.14583333333333334
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.09375,
+          0.13793103448275862
+        ],
+        "pooled_gain": 0.12121212121212122,
+        "pooled_gain_without_largest_group": 0.13793103448275862,
+        "recall_a_equal_group": 0.4733333333333334,
+        "recall_a_pooled": 0.42424242424242425,
+        "recall_b_equal_group": 0.33333333333333337,
+        "recall_b_pooled": 0.30303030303030304,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.3125
+        ]
+      },
+      "blosum62: start_ranked - minimal": {
+        "components": 33,
+        "components_only_a": 2,
+        "components_only_b": 0,
+        "equal_group_gain": 0.08,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.2
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.16129032258064516
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 2,
+        "groups_tied": 23,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.041666666666666664,
+          0.08333333333333333
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.03125,
+          0.06896551724137931
+        ],
+        "pooled_gain": 0.06060606060606061,
+        "pooled_gain_without_largest_group": 0.06896551724137931,
+        "recall_a_equal_group": 0.4133333333333333,
+        "recall_a_pooled": 0.36363636363636365,
+        "recall_b_equal_group": 0.33333333333333337,
+        "recall_b_pooled": 0.30303030303030304,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.20512820512820512
+        ]
+      },
+      "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+        "components": 33,
+        "equal_group": -0.04,
+        "equal_group_interval": [
+          -0.12,
+          0.0
+        ],
+        "groups": 25,
+        "pooled": -0.030303030303030304,
+        "pooled_interval": [
+          -0.10344827586206896,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: annotation_reference": {
+        "components": 33,
+        "components_only_a": 0,
+        "components_only_b": 5,
+        "equal_group_gain": -0.18,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.34,
+            -0.04
+          ],
+          "pooled_gain_interval": [
+            -0.2904174573055025,
+            -0.03571428571428571
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 5,
+        "groups_improved": 0,
+        "groups_tied": 20,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.1875,
+          -0.14583333333333334
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.1724137931034483,
+          -0.125
+        ],
+        "pooled_gain": -0.15151515151515152,
+        "pooled_gain_without_largest_group": -0.1724137931034483,
+        "recall_a_equal_group": 0.54,
+        "recall_a_pooled": 0.5151515151515151,
+        "recall_b_equal_group": 0.72,
+        "recall_b_pooled": 0.6666666666666666,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.45454545454545453,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: gene_caller": {
+        "components": 33,
+        "components_only_a": 0,
+        "components_only_b": 5,
+        "equal_group_gain": -0.18,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.34,
+            -0.04
+          ],
+          "pooled_gain_interval": [
+            -0.2904174573055025,
+            -0.03571428571428571
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 5,
+        "groups_improved": 0,
+        "groups_tied": 20,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.1875,
+          -0.14583333333333334
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.1724137931034483,
+          -0.125
+        ],
+        "pooled_gain": -0.15151515151515152,
+        "pooled_gain_without_largest_group": -0.1724137931034483,
+        "recall_a_equal_group": 0.29333333333333333,
+        "recall_a_pooled": 0.2727272727272727,
+        "recall_b_equal_group": 0.4733333333333334,
+        "recall_b_pooled": 0.42424242424242425,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.45454545454545453,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: minimal": {
+        "components": 33,
+        "components_only_a": 0,
+        "components_only_b": 4,
+        "equal_group_gain": -0.14,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.28,
+            -0.02
+          ],
+          "pooled_gain_interval": [
+            -0.24242424242424243,
+            -0.028551587301587227
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 4,
+        "groups_improved": 0,
+        "groups_tied": 21,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.14583333333333334,
+          -0.10416666666666669
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.13793103448275862,
+          -0.09375
+        ],
+        "pooled_gain": -0.12121212121212122,
+        "pooled_gain_without_largest_group": -0.13793103448275862,
+        "recall_a_equal_group": 0.19333333333333333,
+        "recall_a_pooled": 0.18181818181818182,
+        "recall_b_equal_group": 0.33333333333333337,
+        "recall_b_pooled": 0.30303030303030304,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.39288419913419903,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: start_ranked": {
+        "components": 33,
+        "components_only_a": 0,
+        "components_only_b": 4,
+        "equal_group_gain": -0.14,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.28,
+            -0.02
+          ],
+          "pooled_gain_interval": [
+            -0.24242424242424243,
+            -0.028551587301587227
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 4,
+        "groups_improved": 0,
+        "groups_tied": 21,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.14583333333333334,
+          -0.10416666666666669
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.13793103448275862,
+          -0.09375
+        ],
+        "pooled_gain": -0.12121212121212122,
+        "pooled_gain_without_largest_group": -0.13793103448275862,
+        "recall_a_equal_group": 0.2733333333333333,
+        "recall_a_pooled": 0.24242424242424243,
+        "recall_b_equal_group": 0.4133333333333333,
+        "recall_b_pooled": 0.36363636363636365,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.39288419913419903,
+          0.0
+        ]
+      },
+      "esm2: annotation_reference - gene_caller": {
+        "components": 33,
+        "components_only_a": 9,
+        "components_only_b": 1,
+        "equal_group_gain": 0.24666666666666665,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.05333333333333333,
+            0.44666666666666666
+          ],
+          "pooled_gain_interval": [
+            0.06661290322580665,
+            0.42857142857142855
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 1,
+        "groups_improved": 8,
+        "groups_tied": 16,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.21527777777777776,
+          0.2986111111111111
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.2,
+          0.28125
+        ],
+        "pooled_gain": 0.24242424242424243,
+        "pooled_gain_without_largest_group": 0.27586206896551724,
+        "recall_a_equal_group": 0.54,
+        "recall_a_pooled": 0.5151515151515151,
+        "recall_b_equal_group": 0.29333333333333333,
+        "recall_b_pooled": 0.2727272727272727,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.56
+        ]
+      },
+      "esm2: annotation_reference - minimal": {
+        "components": 33,
+        "components_only_a": 12,
+        "components_only_b": 1,
+        "equal_group_gain": 0.3466666666666666,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.14,
+            0.5533333333333332
+          ],
+          "pooled_gain_interval": [
+            0.14705882352941177,
+            0.5185185185185185
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 1,
+        "groups_improved": 11,
+        "groups_tied": 13,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.3194444444444444,
+          0.40277777777777773
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.3,
+          0.3793103448275862
+        ],
+        "pooled_gain": 0.3333333333333333,
+        "pooled_gain_without_largest_group": 0.3793103448275862,
+        "recall_a_equal_group": 0.54,
+        "recall_a_pooled": 0.5151515151515151,
+        "recall_b_equal_group": 0.19333333333333333,
+        "recall_b_pooled": 0.18181818181818182,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.6562723214285715
+        ]
+      },
+      "esm2: gene_caller - minimal": {
+        "components": 33,
+        "components_only_a": 3,
+        "components_only_b": 0,
+        "equal_group_gain": 0.1,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.22
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.20512820512820512
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 3,
+        "groups_tied": 22,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.0625,
+          0.10416666666666667
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0625,
+          0.10344827586206896
+        ],
+        "pooled_gain": 0.09090909090909091,
+        "pooled_gain_without_largest_group": 0.10344827586206896,
+        "recall_a_equal_group": 0.29333333333333333,
+        "recall_a_pooled": 0.2727272727272727,
+        "recall_b_equal_group": 0.19333333333333333,
+        "recall_b_pooled": 0.18181818181818182,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.27906976744186046
+        ]
+      },
+      "esm2: start_ranked - minimal": {
+        "components": 33,
+        "components_only_a": 2,
+        "components_only_b": 0,
+        "equal_group_gain": 0.08,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.2
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.16129032258064516
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 2,
+        "groups_tied": 23,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.041666666666666664,
+          0.08333333333333333
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.03125,
+          0.06896551724137931
+        ],
+        "pooled_gain": 0.06060606060606061,
+        "pooled_gain_without_largest_group": 0.06896551724137931,
+        "recall_a_equal_group": 0.2733333333333333,
+        "recall_a_pooled": 0.24242424242424243,
+        "recall_b_equal_group": 0.19333333333333333,
+        "recall_b_pooled": 0.18181818181818182,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.20512820512820512
+        ]
+      }
+    },
+    "2": {
+      "blosum62: annotation_reference - gene_caller": {
+        "components": 33,
+        "components_only_a": 9,
+        "components_only_b": 0,
+        "equal_group_gain": 0.22,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.08,
+            0.38
+          ],
+          "pooled_gain_interval": [
+            0.07142857142857142,
+            0.4864864864864865
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 6,
+        "groups_tied": 19,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.1875,
+          0.22916666666666666
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.1724137931034483,
+          0.3
+        ],
+        "pooled_gain": 0.2727272727272727,
+        "pooled_gain_without_largest_group": 0.1724137931034483,
+        "recall_a_equal_group": 0.98,
+        "recall_a_pooled": 0.9696969696969697,
+        "recall_b_equal_group": 0.76,
+        "recall_b_pooled": 0.696969696969697,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.6491447368421054
+        ]
+      },
+      "blosum62: annotation_reference - minimal": {
+        "components": 33,
+        "components_only_a": 13,
+        "components_only_b": 0,
+        "equal_group_gain": 0.35333333333333333,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.18,
+            0.5333333333333333
+          ],
+          "pooled_gain_interval": [
+            0.1875,
+            0.5897435897435898
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 10,
+        "groups_tied": 15,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.3263888888888889,
+          0.3680555555555556
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.3103448275862069,
+          0.41935483870967744
+        ],
+        "pooled_gain": 0.3939393939393939,
+        "pooled_gain_without_largest_group": 0.3103448275862069,
+        "recall_a_equal_group": 0.98,
+        "recall_a_pooled": 0.9696969696969697,
+        "recall_b_equal_group": 0.6266666666666666,
+        "recall_b_pooled": 0.5757575757575758,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.07692307692307693,
+          0.7297557172557173
+        ]
+      },
+      "blosum62: gene_caller - minimal": {
+        "components": 33,
+        "components_only_a": 4,
+        "components_only_b": 0,
+        "equal_group_gain": 0.13333333333333333,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.013333333333333332,
+            0.28
+          ],
+          "pooled_gain_interval": [
+            0.02857142857142857,
+            0.25
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 4,
+        "groups_tied": 21,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.09722222222222222,
+          0.1388888888888889
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.09375,
+          0.13793103448275862
+        ],
+        "pooled_gain": 0.12121212121212122,
+        "pooled_gain_without_largest_group": 0.13793103448275862,
+        "recall_a_equal_group": 0.76,
+        "recall_a_pooled": 0.696969696969697,
+        "recall_b_equal_group": 0.6266666666666666,
+        "recall_b_pooled": 0.5757575757575758,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.29736486486486513
+        ]
+      },
+      "blosum62: start_ranked - minimal": {
+        "components": 33,
+        "components_only_a": 1,
+        "components_only_b": 0,
+        "equal_group_gain": 0.04,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.12
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.10714285714285714
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 1,
+        "groups_tied": 24,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.041666666666666664
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.034482758620689655
+        ],
+        "pooled_gain": 0.030303030303030304,
+        "pooled_gain_without_largest_group": 0.034482758620689655,
+        "recall_a_equal_group": 0.6666666666666665,
+        "recall_a_pooled": 0.6060606060606061,
+        "recall_b_equal_group": 0.6266666666666666,
+        "recall_b_pooled": 0.5757575757575758,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.13636363636363635
+        ]
+      },
+      "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+        "components": 33,
+        "equal_group": -0.04,
+        "equal_group_interval": [
+          -0.12,
+          0.0
+        ],
+        "groups": 25,
+        "pooled": -0.030303030303030304,
+        "pooled_interval": [
+          -0.10344827586206896,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: annotation_reference": {
+        "components": 33,
+        "components_only_a": 0,
+        "components_only_b": 5,
+        "equal_group_gain": -0.18,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.34,
+            -0.04
+          ],
+          "pooled_gain_interval": [
+            -0.2904174573055025,
+            -0.03571428571428571
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 5,
+        "groups_improved": 0,
+        "groups_tied": 20,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.1875,
+          -0.14583333333333334
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.1724137931034483,
+          -0.125
+        ],
+        "pooled_gain": -0.15151515151515152,
+        "pooled_gain_without_largest_group": -0.1724137931034483,
+        "recall_a_equal_group": 0.8,
+        "recall_a_pooled": 0.8181818181818182,
+        "recall_b_equal_group": 0.98,
+        "recall_b_pooled": 0.9696969696969697,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.45454545454545453,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: gene_caller": {
+        "components": 33,
+        "components_only_a": 0,
+        "components_only_b": 5,
+        "equal_group_gain": -0.18,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.34,
+            -0.04
+          ],
+          "pooled_gain_interval": [
+            -0.2904174573055025,
+            -0.03571428571428571
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 5,
+        "groups_improved": 0,
+        "groups_tied": 20,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.1875,
+          -0.14583333333333334
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.1724137931034483,
+          -0.125
+        ],
+        "pooled_gain": -0.15151515151515152,
+        "pooled_gain_without_largest_group": -0.1724137931034483,
+        "recall_a_equal_group": 0.58,
+        "recall_a_pooled": 0.5454545454545454,
+        "recall_b_equal_group": 0.76,
+        "recall_b_pooled": 0.696969696969697,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.45454545454545453,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: minimal": {
+        "components": 33,
+        "components_only_a": 0,
+        "components_only_b": 4,
+        "equal_group_gain": -0.14,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.28,
+            -0.02
+          ],
+          "pooled_gain_interval": [
+            -0.24242424242424243,
+            -0.028551587301587227
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 4,
+        "groups_improved": 0,
+        "groups_tied": 21,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.14583333333333334,
+          -0.10416666666666669
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.13793103448275862,
+          -0.09375
+        ],
+        "pooled_gain": -0.12121212121212122,
+        "pooled_gain_without_largest_group": -0.13793103448275862,
+        "recall_a_equal_group": 0.48666666666666664,
+        "recall_a_pooled": 0.45454545454545453,
+        "recall_b_equal_group": 0.6266666666666666,
+        "recall_b_pooled": 0.5757575757575758,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.39288419913419903,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: start_ranked": {
+        "components": 33,
+        "components_only_a": 0,
+        "components_only_b": 4,
+        "equal_group_gain": -0.14,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.28,
+            -0.02
+          ],
+          "pooled_gain_interval": [
+            -0.24242424242424243,
+            -0.028551587301587227
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 4,
+        "groups_improved": 0,
+        "groups_tied": 21,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.14583333333333334,
+          -0.10416666666666669
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.13793103448275862,
+          -0.09375
+        ],
+        "pooled_gain": -0.12121212121212122,
+        "pooled_gain_without_largest_group": -0.13793103448275862,
+        "recall_a_equal_group": 0.5266666666666666,
+        "recall_a_pooled": 0.48484848484848486,
+        "recall_b_equal_group": 0.6666666666666665,
+        "recall_b_pooled": 0.6060606060606061,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.39288419913419903,
+          0.0
+        ]
+      },
+      "esm2: annotation_reference - gene_caller": {
+        "components": 33,
+        "components_only_a": 9,
+        "components_only_b": 0,
+        "equal_group_gain": 0.22,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.08,
+            0.38
+          ],
+          "pooled_gain_interval": [
+            0.07142857142857142,
+            0.4864864864864865
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 6,
+        "groups_tied": 19,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.1875,
+          0.22916666666666666
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.1724137931034483,
+          0.3
+        ],
+        "pooled_gain": 0.2727272727272727,
+        "pooled_gain_without_largest_group": 0.1724137931034483,
+        "recall_a_equal_group": 0.8,
+        "recall_a_pooled": 0.8181818181818182,
+        "recall_b_equal_group": 0.58,
+        "recall_b_pooled": 0.5454545454545454,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.6491447368421054
+        ]
+      },
+      "esm2: annotation_reference - minimal": {
+        "components": 33,
+        "components_only_a": 12,
+        "components_only_b": 0,
+        "equal_group_gain": 0.31333333333333335,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.14666666666666667,
+            0.4933333333333333
+          ],
+          "pooled_gain_interval": [
+            0.16214036617262434,
+            0.5625
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 9,
+        "groups_tied": 16,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.28472222222222227,
+          0.3263888888888889
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.27586206896551724,
+          0.3870967741935484
+        ],
+        "pooled_gain": 0.36363636363636365,
+        "pooled_gain_without_largest_group": 0.27586206896551724,
+        "recall_a_equal_group": 0.8,
+        "recall_a_pooled": 0.8181818181818182,
+        "recall_b_equal_group": 0.48666666666666664,
+        "recall_b_pooled": 0.45454545454545453,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.06666666666666667,
+          0.675685192234488
+        ]
+      },
+      "esm2: gene_caller - minimal": {
+        "components": 33,
+        "components_only_a": 3,
+        "components_only_b": 0,
+        "equal_group_gain": 0.09333333333333332,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.21333333333333332
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.2
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 3,
+        "groups_tied": 22,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.055555555555555546,
+          0.09722222222222221
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0625,
+          0.10344827586206896
+        ],
+        "pooled_gain": 0.09090909090909091,
+        "pooled_gain_without_largest_group": 0.10344827586206896,
+        "recall_a_equal_group": 0.58,
+        "recall_a_pooled": 0.5454545454545454,
+        "recall_b_equal_group": 0.48666666666666664,
+        "recall_b_pooled": 0.45454545454545453,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.25
+        ]
+      },
+      "esm2: start_ranked - minimal": {
+        "components": 33,
+        "components_only_a": 1,
+        "components_only_b": 0,
+        "equal_group_gain": 0.04,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.12
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.10714285714285714
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 1,
+        "groups_tied": 24,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.041666666666666664
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.034482758620689655
+        ],
+        "pooled_gain": 0.030303030303030304,
+        "pooled_gain_without_largest_group": 0.034482758620689655,
+        "recall_a_equal_group": 0.5266666666666666,
+        "recall_a_pooled": 0.48484848484848486,
+        "recall_b_equal_group": 0.48666666666666664,
+        "recall_b_pooled": 0.45454545454545453,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.13636363636363635
+        ]
+      }
+    },
+    "4": {
+      "blosum62: annotation_reference - gene_caller": {
+        "components": 33,
+        "components_only_a": 8,
+        "components_only_b": 0,
+        "equal_group_gain": 0.26,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.1,
+            0.44
+          ],
+          "pooled_gain_interval": [
+            0.09375,
+            0.4
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 7,
+        "groups_tied": 18,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.22916666666666666,
+          0.2708333333333333
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.20689655172413793,
+          0.26666666666666666
+        ],
+        "pooled_gain": 0.24242424242424243,
+        "pooled_gain_without_largest_group": 0.20689655172413793,
+        "recall_a_equal_group": 0.98,
+        "recall_a_pooled": 0.9696969696969697,
+        "recall_b_equal_group": 0.72,
+        "recall_b_pooled": 0.7272727272727273,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.5
+        ]
+      },
+      "blosum62: annotation_reference - minimal": {
+        "components": 33,
+        "components_only_a": 12,
+        "components_only_b": 0,
+        "equal_group_gain": 0.34,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.16,
+            0.52
+          ],
+          "pooled_gain_interval": [
+            0.15625,
+            0.5757575757575758
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 9,
+        "groups_tied": 16,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.3125,
+          0.3541666666666667
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.27586206896551724,
+          0.4
+        ],
+        "pooled_gain": 0.36363636363636365,
+        "pooled_gain_without_largest_group": 0.27586206896551724,
+        "recall_a_equal_group": 0.98,
+        "recall_a_pooled": 0.9696969696969697,
+        "recall_b_equal_group": 0.64,
+        "recall_b_pooled": 0.6060606060606061,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.6875
+        ]
+      },
+      "blosum62: gene_caller - minimal": {
+        "components": 33,
+        "components_only_a": 5,
+        "components_only_b": 1,
+        "equal_group_gain": 0.08,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.06,
+            0.22
+          ],
+          "pooled_gain_interval": [
+            -0.03225806451612903,
+            0.2647058823529412
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 1,
+        "groups_improved": 4,
+        "groups_tied": 20,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.041666666666666664,
+          0.125
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.06896551724137931,
+          0.15625
+        ],
+        "pooled_gain": 0.12121212121212122,
+        "pooled_gain_without_largest_group": 0.06896551724137931,
+        "recall_a_equal_group": 0.72,
+        "recall_a_pooled": 0.7272727272727273,
+        "recall_b_equal_group": 0.64,
+        "recall_b_pooled": 0.6060606060606061,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.11764705882352941,
+          0.32142857142857145
+        ]
+      },
+      "blosum62: start_ranked - minimal": {
+        "components": 33,
+        "components_only_a": 3,
+        "components_only_b": 1,
+        "equal_group_gain": 0.05,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.08,
+            0.1802500000000009
+          ],
+          "pooled_gain_interval": [
+            -0.037037037037037035,
+            0.17503676470588247
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 1,
+        "groups_improved": 3,
+        "groups_tied": 21,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.010416666666666666,
+          0.09375
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.03125,
+          0.09375
+        ],
+        "pooled_gain": 0.06060606060606061,
+        "pooled_gain_without_largest_group": 0.034482758620689655,
+        "recall_a_equal_group": 0.69,
+        "recall_a_pooled": 0.6666666666666666,
+        "recall_b_equal_group": 0.64,
+        "recall_b_pooled": 0.6060606060606061,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.125,
+          0.21277467736309735
+        ]
+      },
+      "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+        "components": 33,
+        "equal_group": -0.08,
+        "equal_group_interval": [
+          -0.22,
+          0.02
+        ],
+        "groups": 25,
+        "pooled": -0.06060606060606061,
+        "pooled_interval": [
+          -0.1875,
+          0.05559523809523824
+        ]
+      },
+      "esm2 - blosum62: annotation_reference": {
+        "components": 33,
+        "components_only_a": 0,
+        "components_only_b": 4,
+        "equal_group_gain": -0.16,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.32,
+            -0.04
+          ],
+          "pooled_gain_interval": [
+            -0.25806451612903225,
+            -0.02631578947368421
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 4,
+        "groups_improved": 0,
+        "groups_tied": 21,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.16666666666666666,
+          -0.125
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.13793103448275862,
+          -0.09375
+        ],
+        "pooled_gain": -0.12121212121212122,
+        "pooled_gain_without_largest_group": -0.13793103448275862,
+        "recall_a_equal_group": 0.82,
+        "recall_a_pooled": 0.8484848484848485,
+        "recall_b_equal_group": 0.98,
+        "recall_b_pooled": 0.9696969696969697,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.4375381097560974,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: gene_caller": {
+        "components": 33,
+        "components_only_a": 3,
+        "components_only_b": 3,
+        "equal_group_gain": 0.0,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.2,
+            0.2
+          ],
+          "pooled_gain_interval": [
+            -0.14814814814814814,
+            0.14705882352941177
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 3,
+        "groups_improved": 3,
+        "groups_tied": 19,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.041666666666666664,
+          0.041666666666666664
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.03125,
+          0.03125
+        ],
+        "pooled_gain": 0.0,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.72,
+        "recall_a_pooled": 0.7272727272727273,
+        "recall_b_equal_group": 0.72,
+        "recall_b_pooled": 0.7272727272727273,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.375,
+          0.243259723137772
+        ]
+      },
+      "esm2 - blosum62: minimal": {
+        "components": 33,
+        "components_only_a": 6,
+        "components_only_b": 4,
+        "equal_group_gain": 0.08,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.14,
+            0.3
+          ],
+          "pooled_gain_interval": [
+            -0.125,
+            0.25806451612903225
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 4,
+        "groups_improved": 6,
+        "groups_tied": 15,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.041666666666666664,
+          0.125
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.03125,
+          0.0967741935483871
+        ],
+        "pooled_gain": 0.06060606060606061,
+        "pooled_gain_without_largest_group": 0.06896551724137931,
+        "recall_a_equal_group": 0.72,
+        "recall_a_pooled": 0.6666666666666666,
+        "recall_b_equal_group": 0.64,
+        "recall_b_pooled": 0.6060606060606061,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.4668421052631572,
+          0.42863300492610856
+        ]
+      },
+      "esm2 - blosum62: start_ranked": {
+        "components": 33,
+        "components_only_a": 4,
+        "components_only_b": 4,
+        "equal_group_gain": 0.0,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.2,
+            0.2
+          ],
+          "pooled_gain_interval": [
+            -0.1724137931034483,
+            0.17142857142857143
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 4,
+        "groups_improved": 4,
+        "groups_tied": 17,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.041666666666666664,
+          0.041666666666666664
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.03225806451612903,
+          0.03225806451612903
+        ],
+        "pooled_gain": 0.0,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.69,
+        "recall_a_pooled": 0.6666666666666666,
+        "recall_b_equal_group": 0.69,
+        "recall_b_pooled": 0.6666666666666666,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.47619047619047616,
+          0.2979255319148938
+        ]
+      },
+      "esm2: annotation_reference - gene_caller": {
+        "components": 33,
+        "components_only_a": 4,
+        "components_only_b": 0,
+        "equal_group_gain": 0.1,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.22
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.25
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 3,
+        "groups_tied": 22,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.0625,
+          0.10416666666666667
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.06896551724137931,
+          0.13333333333333333
+        ],
+        "pooled_gain": 0.12121212121212122,
+        "pooled_gain_without_largest_group": 0.06896551724137931,
+        "recall_a_equal_group": 0.82,
+        "recall_a_pooled": 0.8484848484848485,
+        "recall_b_equal_group": 0.72,
+        "recall_b_pooled": 0.7272727272727273,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.34486074270557043
+        ]
+      },
+      "esm2: annotation_reference - minimal": {
+        "components": 33,
+        "components_only_a": 6,
+        "components_only_b": 0,
+        "equal_group_gain": 0.1,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.22
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.39473684210526316
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 0,
+        "groups_improved": 3,
+        "groups_tied": 22,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          0.0625,
+          0.10416666666666667
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.06896551724137931,
+          0.2
+        ],
+        "pooled_gain": 0.18181818181818182,
+        "pooled_gain_without_largest_group": 0.06896551724137931,
+        "recall_a_equal_group": 0.82,
+        "recall_a_pooled": 0.8484848484848485,
+        "recall_b_equal_group": 0.72,
+        "recall_b_pooled": 0.6666666666666666,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.5507320319432121
+        ]
+      },
+      "esm2: gene_caller - minimal": {
+        "components": 33,
+        "components_only_a": 3,
+        "components_only_b": 1,
+        "equal_group_gain": 0.0,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.1,
+            0.08
+          ],
+          "pooled_gain_interval": [
+            -0.07142857142857142,
+            0.1891891891891892
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 1,
+        "groups_improved": 2,
+        "groups_tied": 22,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.020833333333333332,
+          0.041666666666666664
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.09375
+        ],
+        "pooled_gain": 0.06060606060606061,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.72,
+        "recall_a_pooled": 0.7272727272727273,
+        "recall_b_equal_group": 0.72,
+        "recall_b_pooled": 0.6666666666666666,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.11538461538461539,
+          0.3030632411067195
+        ]
+      },
+      "esm2: start_ranked - minimal": {
+        "components": 33,
+        "components_only_a": 1,
+        "components_only_b": 1,
+        "equal_group_gain": -0.03,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.12,
+            0.03
+          ],
+          "pooled_gain_interval": [
+            -0.0967741935483871,
+            0.075
+          ]
+        },
+        "groups": 25,
+        "groups_declined": 1,
+        "groups_improved": 1,
+        "groups_tied": 23,
+        "largest_group_share": 0.12121212121212122,
+        "leave_one_group_out_equal_group_range": [
+          -0.041666666666666664,
+          0.010416666666666666
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.034482758620689655,
+          0.03125
+        ],
+        "pooled_gain": 0.0,
+        "pooled_gain_without_largest_group": -0.034482758620689655,
+        "recall_a_equal_group": 0.69,
+        "recall_a_pooled": 0.6666666666666666,
+        "recall_b_equal_group": 0.72,
+        "recall_b_pooled": 0.6666666666666666,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.13953488372093023,
+          0.10526315789473684
+        ]
+      }
+    }
+  },
+  "effects_conservative_primary_cap": {
+    "blosum62: annotation_reference - gene_caller": {
+      "components": 33,
+      "components_only_a": 9,
+      "components_only_b": 0,
+      "equal_group_gain": 0.25555555555555554,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.5
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.5
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 0,
+      "groups_improved": 2,
+      "groups_tied": 1,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        0.1333333333333333,
+        0.3833333333333333
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.25806451612903225,
+        0.3333333333333333
+      ],
+      "pooled_gain": 0.2727272727272727,
+      "pooled_gain_without_largest_group": 0.3333333333333333,
+      "recall_a_equal_group": 0.9888888888888889,
+      "recall_a_pooled": 0.9696969696969697,
+      "recall_b_equal_group": 0.7333333333333334,
+      "recall_b_pooled": 0.696969696969697,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        1.0
+      ]
+    },
+    "blosum62: annotation_reference - minimal": {
+      "components": 33,
+      "components_only_a": 13,
+      "components_only_b": 0,
+      "equal_group_gain": 0.3,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.5
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.5
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 0,
+      "groups_improved": 2,
+      "groups_tied": 1,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        0.19999999999999996,
+        0.44999999999999996
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.3333333333333333,
+        0.40625
+      ],
+      "pooled_gain": 0.3939393939393939,
+      "pooled_gain_without_largest_group": 0.3333333333333333,
+      "recall_a_equal_group": 0.9888888888888889,
+      "recall_a_pooled": 0.9696969696969697,
+      "recall_b_equal_group": 0.6888888888888888,
+      "recall_b_pooled": 0.5757575757575758,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        1.0
+      ]
+    },
+    "blosum62: gene_caller - minimal": {
+      "components": 33,
+      "components_only_a": 4,
+      "components_only_b": 0,
+      "equal_group_gain": 0.044444444444444446,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.13333333333333333
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.13333333333333333
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 0,
+      "groups_improved": 1,
+      "groups_tied": 2,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        0.0,
+        0.06666666666666667
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.0,
+        0.12903225806451613
+      ],
+      "pooled_gain": 0.12121212121212122,
+      "pooled_gain_without_largest_group": 0.0,
+      "recall_a_equal_group": 0.7333333333333334,
+      "recall_a_pooled": 0.696969696969697,
+      "recall_b_equal_group": 0.6888888888888888,
+      "recall_b_pooled": 0.5757575757575758,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.16666666666666666
+      ]
+    },
+    "blosum62: start_ranked - minimal": {
+      "components": 33,
+      "components_only_a": 1,
+      "components_only_b": 0,
+      "equal_group_gain": 0.011111111111111112,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.03333333333333333
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.03333333333333333
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 0,
+      "groups_improved": 1,
+      "groups_tied": 2,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        0.0,
+        0.016666666666666666
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.0,
+        0.03225806451612903
+      ],
+      "pooled_gain": 0.030303030303030304,
+      "pooled_gain_without_largest_group": 0.0,
+      "recall_a_equal_group": 0.7000000000000001,
+      "recall_a_pooled": 0.6060606060606061,
+      "recall_b_equal_group": 0.6888888888888888,
+      "recall_b_pooled": 0.5757575757575758,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.06382978723404255
+      ]
+    },
+    "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+      "components": 33,
+      "equal_group": -0.011111111111111112,
+      "equal_group_interval": [
+        -0.03333333333333333,
+        0.0
+      ],
+      "groups": 3,
+      "pooled": -0.030303030303030304,
+      "pooled_interval": [
+        -0.03333333333333333,
+        0.0
+      ]
+    },
+    "esm2 - blosum62: annotation_reference": {
+      "components": 33,
+      "components_only_a": 0,
+      "components_only_b": 5,
+      "equal_group_gain": -0.05555555555555555,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.16666666666666666,
+          0.0
+        ],
+        "pooled_gain_interval": [
+          -0.16666666666666666,
+          0.0
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 1,
+      "groups_improved": 0,
+      "groups_tied": 2,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        -0.08333333333333333,
+        0.0
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.16129032258064516,
+        0.0
+      ],
+      "pooled_gain": -0.15151515151515152,
+      "pooled_gain_without_largest_group": 0.0,
+      "recall_a_equal_group": 0.9333333333333332,
+      "recall_a_pooled": 0.8181818181818182,
+      "recall_b_equal_group": 0.9888888888888889,
+      "recall_b_pooled": 0.9696969696969697,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.30526755852842785,
+        0.0
+      ]
+    },
+    "esm2 - blosum62: gene_caller": {
+      "components": 33,
+      "components_only_a": 0,
+      "components_only_b": 5,
+      "equal_group_gain": -0.05555555555555555,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.16666666666666666,
+          0.0
+        ],
+        "pooled_gain_interval": [
+          -0.16666666666666666,
+          0.0
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 1,
+      "groups_improved": 0,
+      "groups_tied": 2,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        -0.08333333333333333,
+        0.0
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.16129032258064516,
+        0.0
+      ],
+      "pooled_gain": -0.15151515151515152,
+      "pooled_gain_without_largest_group": 0.0,
+      "recall_a_equal_group": 0.6777777777777777,
+      "recall_a_pooled": 0.5454545454545454,
+      "recall_b_equal_group": 0.7333333333333334,
+      "recall_b_pooled": 0.696969696969697,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.30526755852842785,
+        0.0
+      ]
+    },
+    "esm2 - blosum62: minimal": {
+      "components": 33,
+      "components_only_a": 0,
+      "components_only_b": 4,
+      "equal_group_gain": -0.044444444444444446,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.13333333333333333,
+          0.0
+        ],
+        "pooled_gain_interval": [
+          -0.13333333333333333,
+          0.0
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 1,
+      "groups_improved": 0,
+      "groups_tied": 2,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        -0.06666666666666667,
+        0.0
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.12903225806451613,
+        0.0
+      ],
+      "pooled_gain": -0.12121212121212122,
+      "pooled_gain_without_largest_group": 0.0,
+      "recall_a_equal_group": 0.6444444444444445,
+      "recall_a_pooled": 0.45454545454545453,
+      "recall_b_equal_group": 0.6888888888888888,
+      "recall_b_pooled": 0.5757575757575758,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.26666666666666666,
+        0.0
+      ]
+    },
+    "esm2 - blosum62: start_ranked": {
+      "components": 33,
+      "components_only_a": 0,
+      "components_only_b": 4,
+      "equal_group_gain": -0.044444444444444446,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.13333333333333333,
+          0.0
+        ],
+        "pooled_gain_interval": [
+          -0.13333333333333333,
+          0.0
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 1,
+      "groups_improved": 0,
+      "groups_tied": 2,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        -0.06666666666666667,
+        0.0
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.12903225806451613,
+        0.0
+      ],
+      "pooled_gain": -0.12121212121212122,
+      "pooled_gain_without_largest_group": 0.0,
+      "recall_a_equal_group": 0.6555555555555556,
+      "recall_a_pooled": 0.48484848484848486,
+      "recall_b_equal_group": 0.7000000000000001,
+      "recall_b_pooled": 0.6060606060606061,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.26666666666666666,
+        0.0
+      ]
+    },
+    "esm2: annotation_reference - gene_caller": {
+      "components": 33,
+      "components_only_a": 9,
+      "components_only_b": 0,
+      "equal_group_gain": 0.25555555555555554,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.5
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.5
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 0,
+      "groups_improved": 2,
+      "groups_tied": 1,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        0.1333333333333333,
+        0.3833333333333333
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.25806451612903225,
+        0.3333333333333333
+      ],
+      "pooled_gain": 0.2727272727272727,
+      "pooled_gain_without_largest_group": 0.3333333333333333,
+      "recall_a_equal_group": 0.9333333333333332,
+      "recall_a_pooled": 0.8181818181818182,
+      "recall_b_equal_group": 0.6777777777777777,
+      "recall_b_pooled": 0.5454545454545454,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        1.0
+      ]
+    },
+    "esm2: annotation_reference - minimal": {
+      "components": 33,
+      "components_only_a": 12,
+      "components_only_b": 0,
+      "equal_group_gain": 0.2888888888888889,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.5
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.5
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 0,
+      "groups_improved": 2,
+      "groups_tied": 1,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        0.18333333333333335,
+        0.43333333333333335
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.3333333333333333,
+        0.375
+      ],
+      "pooled_gain": 0.36363636363636365,
+      "pooled_gain_without_largest_group": 0.3333333333333333,
+      "recall_a_equal_group": 0.9333333333333332,
+      "recall_a_pooled": 0.8181818181818182,
+      "recall_b_equal_group": 0.6444444444444445,
+      "recall_b_pooled": 0.45454545454545453,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        1.0
+      ]
+    },
+    "esm2: gene_caller - minimal": {
+      "components": 33,
+      "components_only_a": 3,
+      "components_only_b": 0,
+      "equal_group_gain": 0.03333333333333333,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.10000000000000002
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.1
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 0,
+      "groups_improved": 1,
+      "groups_tied": 2,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        0.0,
+        0.05
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.0,
+        0.0967741935483871
+      ],
+      "pooled_gain": 0.09090909090909091,
+      "pooled_gain_without_largest_group": 0.0,
+      "recall_a_equal_group": 0.6777777777777777,
+      "recall_a_pooled": 0.5454545454545454,
+      "recall_b_equal_group": 0.6444444444444445,
+      "recall_b_pooled": 0.45454545454545453,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.15789473684210525
+      ]
+    },
+    "esm2: start_ranked - minimal": {
+      "components": 33,
+      "components_only_a": 1,
+      "components_only_b": 0,
+      "equal_group_gain": 0.011111111111111112,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.03333333333333333
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.03333333333333333
+        ]
+      },
+      "groups": 3,
+      "groups_declined": 0,
+      "groups_improved": 1,
+      "groups_tied": 2,
+      "largest_group_share": 0.9090909090909091,
+      "leave_one_group_out_equal_group_range": [
+        0.0,
+        0.016666666666666666
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.0,
+        0.03225806451612903
+      ],
+      "pooled_gain": 0.030303030303030304,
+      "pooled_gain_without_largest_group": 0.0,
+      "recall_a_equal_group": 0.6555555555555556,
+      "recall_a_pooled": 0.48484848484848486,
+      "recall_b_equal_group": 0.6444444444444445,
+      "recall_b_pooled": 0.45454545454545453,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.06382978723404255
+      ]
+    }
+  },
+  "failures_primary_cap": {
+    "baseline_miss_transitions": {
+      "blosum62|minimal->annotation_reference": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 1,
+        "compatible_candidate_below_cap->recovered": 10,
+        "covered_label_missed->recovered": 1,
+        "no_compatible_candidate->recovered": 2
+      },
+      "blosum62|minimal->gene_caller": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 8,
+        "compatible_candidate_below_cap->recovered": 3,
+        "covered_label_missed->no_compatible_candidate": 1,
+        "no_compatible_candidate->no_compatible_candidate": 1,
+        "no_compatible_candidate->recovered": 1
+      },
+      "blosum62|minimal->start_ranked": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 10,
+        "compatible_candidate_below_cap->recovered": 1,
+        "covered_label_missed->covered_label_missed": 1,
+        "no_compatible_candidate->no_compatible_candidate": 2
+      },
+      "esm2|minimal->annotation_reference": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 1,
+        "compatible_candidate_below_cap->recovered": 10,
+        "covered_label_missed->covered_label_missed": 4,
+        "covered_label_missed->recovered": 1,
+        "no_compatible_candidate->covered_label_missed": 1,
+        "no_compatible_candidate->recovered": 1
+      },
+      "esm2|minimal->gene_caller": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 8,
+        "compatible_candidate_below_cap->recovered": 3,
+        "covered_label_missed->covered_label_missed": 4,
+        "covered_label_missed->no_compatible_candidate": 1,
+        "no_compatible_candidate->covered_label_missed": 1,
+        "no_compatible_candidate->no_compatible_candidate": 1
+      },
+      "esm2|minimal->start_ranked": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 10,
+        "compatible_candidate_below_cap->recovered": 1,
+        "covered_label_missed->covered_label_missed": 5,
+        "no_compatible_candidate->no_compatible_candidate": 2
+      }
+    },
+    "by_arm": {
+      "blosum62|annotation_reference": {
+        "covered_missed_best_rank": {},
+        "statuses": {
+          "compatible_candidate_below_cap": 1,
+          "recovered": 32
+        }
+      },
+      "blosum62|gene_caller": {
+        "covered_missed_best_rank": {},
+        "statuses": {
+          "compatible_candidate_below_cap": 8,
+          "no_compatible_candidate": 2,
+          "recovered": 23
+        }
+      },
+      "blosum62|minimal": {
+        "covered_missed_best_rank": {
+          "13": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 11,
+          "covered_label_missed": 1,
+          "no_compatible_candidate": 2,
+          "recovered": 19
+        }
+      },
+      "blosum62|start_ranked": {
+        "covered_missed_best_rank": {
+          "13": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 10,
+          "covered_label_missed": 1,
+          "no_compatible_candidate": 2,
+          "recovered": 20
+        }
+      },
+      "esm2|annotation_reference": {
+        "covered_missed_best_rank": {
+          "12": 1,
+          "19": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 1,
+          "covered_label_missed": 5,
+          "recovered": 27
+        }
+      },
+      "esm2|gene_caller": {
+        "covered_missed_best_rank": {
+          "12": 1,
+          "19": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 8,
+          "covered_label_missed": 5,
+          "no_compatible_candidate": 2,
+          "recovered": 18
+        }
+      },
+      "esm2|minimal": {
+        "covered_missed_best_rank": {
+          "11": 1,
+          "12": 1,
+          "19": 1,
+          "7": 1,
+          "8": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 11,
+          "covered_label_missed": 5,
+          "no_compatible_candidate": 2,
+          "recovered": 15
+        }
+      },
+      "esm2|start_ranked": {
+        "covered_missed_best_rank": {
+          "11": 1,
+          "12": 1,
+          "19": 1,
+          "7": 1,
+          "8": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 10,
+          "covered_label_missed": 5,
+          "no_compatible_candidate": 2,
+          "recovered": 16
+        }
+      }
+    }
+  },
+  "input_sha256": {
+    "answer_key": "30695aeaa17271455deeee952289613dce7d2f54b24cc938c56c1ca1467ed014",
+    "construct_map": "4a3acbac69c6bda9f2836a35d5cb298c583371181ef4e9c2b145215121ea6a3c",
+    "traces": {
+      "blosum62/annotation_reference": "542d76b3114217270f25d77d26c296f3c85e7c24095593ae5f653be3e13aa40a",
+      "blosum62/gene_caller": "f39bee937baa51d1d273aa16cff27af31eb28902bc5a2fd1451d8efc8c675c57",
+      "blosum62/minimal": "2b616f4b33b1c4285991d734a7796f82a0c1f6a9a62458d06958425673b63c0a",
+      "blosum62/start_ranked": "f68ee88880dfa41a7bf9332799446d93c29eec852f32e8d694aedb1743f68c44",
+      "esm2/annotation_reference": "29986fbba9939f7b68f06e6f39fee616f3ee8360689c62523e18ee6d19bf6245",
+      "esm2/gene_caller": "76ebe5059bcf5599f8d395d3f2a35fb4e1d82728046cef9ea0c9d4bab65ffd13",
+      "esm2/minimal": "97aa574f9548554dd663f746e5d2811e975cfb382bdedcf1e805dd44225d7b80",
+      "esm2/start_ranked": "beaed96ee9e48e582ab78df476f80007873de50a981d4b56956fcc7249a460c3"
+    }
+  },
+  "matched_inputs_sha256": {
+    "annotation_reference": "b5df2c775df882e3517e4ae00e60e81a672896ea790ef9202b9e0346569e8e47",
+    "gene_caller": "b00f633b1553bd414559050b23068ab45c1ac7d3049e68ccb305bf933fe232e4",
+    "minimal": "28eea256c40725a68b510e53a9fa3fb6c045dd1755b72b01afa78f94f085b0e3",
+    "start_ranked": "c0682dfc0e1124a1a5863e54e583125c96e681e6852c4e9a93e53b03372548f3"
+  },
+  "primary_query_cap": 2,
+  "schema": "paired-cohort-analysis-1",
+  "strata_primary_cap": {
+    "archetype=backbone_heavy": {
+      "components": 2,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 2,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 2
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        },
+        "blosum62|minimal|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 2,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 2
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        },
+        "esm2|minimal|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lineage_groups": 2
+    },
+    "archetype=multi_cds": {
+      "components": 19,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 19,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 19
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 19,
+          "equal_group_recall": 0.7,
+          "pooled_recall": 0.5789473684210527,
+          "recovered": 11
+        },
+        "blosum62|minimal|2": {
+          "eligible": 19,
+          "equal_group_recall": 0.6333333333333333,
+          "pooled_recall": 0.5263157894736842,
+          "recovered": 10
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 19,
+          "equal_group_recall": 0.7,
+          "pooled_recall": 0.5789473684210527,
+          "recovered": 11
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 19,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 19
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 19,
+          "equal_group_recall": 0.7,
+          "pooled_recall": 0.5789473684210527,
+          "recovered": 11
+        },
+        "esm2|minimal|2": {
+          "eligible": 19,
+          "equal_group_recall": 0.6333333333333333,
+          "pooled_recall": 0.5263157894736842,
+          "recovered": 10
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 19,
+          "equal_group_recall": 0.7,
+          "pooled_recall": 0.5789473684210527,
+          "recovered": 11
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 19,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.06666666666666667,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.2
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.1875
+            ]
+          },
+          "groups": 15,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 14,
+          "largest_group_share": 0.21052631578947367,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.07142857142857142
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.06666666666666667
+          ],
+          "pooled_gain": 0.05263157894736842,
+          "pooled_gain_without_largest_group": 0.06666666666666667,
+          "recall_a_equal_group": 0.7,
+          "recall_a_pooled": 0.5789473684210527,
+          "recall_b_equal_group": 0.6333333333333333,
+          "recall_b_pooled": 0.5263157894736842,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.2158730158730144
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 19,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 15,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 15,
+          "largest_group_share": 0.21052631578947367,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 19,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 15,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 15,
+          "largest_group_share": 0.21052631578947367,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.7,
+          "recall_a_pooled": 0.5789473684210527,
+          "recall_b_equal_group": 0.7,
+          "recall_b_pooled": 0.5789473684210527,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 19,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 15,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 15,
+          "largest_group_share": 0.21052631578947367,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.6333333333333333,
+          "recall_a_pooled": 0.5263157894736842,
+          "recall_b_equal_group": 0.6333333333333333,
+          "recall_b_pooled": 0.5263157894736842,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 19,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 15,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 15,
+          "largest_group_share": 0.21052631578947367,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.7,
+          "recall_a_pooled": 0.5789473684210527,
+          "recall_b_equal_group": 0.7,
+          "recall_b_pooled": 0.5789473684210527,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 19,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.06666666666666667,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.2
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.1875
+            ]
+          },
+          "groups": 15,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 14,
+          "largest_group_share": 0.21052631578947367,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.07142857142857142
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.06666666666666667
+          ],
+          "pooled_gain": 0.05263157894736842,
+          "pooled_gain_without_largest_group": 0.06666666666666667,
+          "recall_a_equal_group": 0.7,
+          "recall_a_pooled": 0.5789473684210527,
+          "recall_b_equal_group": 0.6333333333333333,
+          "recall_b_pooled": 0.5263157894736842,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.2158730158730144
+          ]
+        }
+      },
+      "lineage_groups": 15
+    },
+    "archetype=single_cds": {
+      "components": 1,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 1,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 1
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 1,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 1
+        },
+        "blosum62|minimal|2": {
+          "eligible": 1,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 1
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 1,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 1
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 1,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 1
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 1,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 1
+        },
+        "esm2|minimal|2": {
+          "eligible": 1,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 1
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 1,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 1
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 1,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "groups": 1,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 1,
+          "largest_group_share": 1.0,
+          "pooled_gain": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 1,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "groups": 1,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 1,
+          "largest_group_share": 1.0,
+          "pooled_gain": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 1,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "groups": 1,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 1,
+          "largest_group_share": 1.0,
+          "pooled_gain": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 1,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "groups": 1,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 1,
+          "largest_group_share": 1.0,
+          "pooled_gain": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 1,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "groups": 1,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 1,
+          "largest_group_share": 1.0,
+          "pooled_gain": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 1,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "groups": 1,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 1,
+          "largest_group_share": 1.0,
+          "pooled_gain": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0
+        }
+      },
+      "lineage_groups": 1
+    },
+    "archetype=single_label_other": {
+      "components": 3,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 3,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 3
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 3,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 3
+        },
+        "blosum62|minimal|2": {
+          "eligible": 3,
+          "equal_group_recall": 0.75,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 2
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 3,
+          "equal_group_recall": 0.75,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 2
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 3,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 3
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 3,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 3
+        },
+        "esm2|minimal|2": {
+          "eligible": 3,
+          "equal_group_recall": 0.75,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 2
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 3,
+          "equal_group_recall": 0.75,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 2
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 3,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.25,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.5
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.5
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 1,
+          "largest_group_share": 0.6666666666666666,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.5
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.5
+          ],
+          "pooled_gain": 0.3333333333333333,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 0.75,
+          "recall_b_pooled": 0.6666666666666666,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.5
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 3,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.6666666666666666,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 3,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.6666666666666666,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 3,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.6666666666666666,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.75,
+          "recall_a_pooled": 0.6666666666666666,
+          "recall_b_equal_group": 0.75,
+          "recall_b_pooled": 0.6666666666666666,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 3,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.6666666666666666,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.75,
+          "recall_a_pooled": 0.6666666666666666,
+          "recall_b_equal_group": 0.75,
+          "recall_b_pooled": 0.6666666666666666,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 3,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.25,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.5
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.5
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 1,
+          "largest_group_share": 0.6666666666666666,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.5
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.5
+          ],
+          "pooled_gain": 0.3333333333333333,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 0.75,
+          "recall_b_pooled": 0.6666666666666666,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.5
+          ]
+        }
+      },
+      "lineage_groups": 2
+    },
+    "archetype=tagged_fusion": {
+      "components": 8,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.9285714285714286,
+          "pooled_recall": 0.875,
+          "recovered": 7
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.9285714285714286,
+          "pooled_recall": 0.875,
+          "recovered": 7
+        },
+        "blosum62|minimal|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.6428571428571429,
+          "pooled_recall": 0.625,
+          "recovered": 5
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.6428571428571429,
+          "pooled_recall": 0.625,
+          "recovered": 5
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.2857142857142857,
+          "pooled_recall": 0.25,
+          "recovered": 2
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.2857142857142857,
+          "pooled_recall": 0.25,
+          "recovered": 2
+        },
+        "esm2|minimal|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.14285714285714285,
+          "pooled_recall": 0.125,
+          "recovered": 1
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.14285714285714285,
+          "pooled_recall": 0.125,
+          "recovered": 1
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 8,
+          "components_only_a": 2,
+          "components_only_b": 0,
+          "equal_group_gain": 0.2857142857142857,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.5714285714285714
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.5714285714285714
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 0,
+          "groups_improved": 2,
+          "groups_tied": 5,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            0.16666666666666666,
+            0.3333333333333333
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.14285714285714285,
+            0.3333333333333333
+          ],
+          "pooled_gain": 0.25,
+          "pooled_gain_without_largest_group": 0.3333333333333333,
+          "recall_a_equal_group": 0.9285714285714286,
+          "recall_a_pooled": 0.875,
+          "recall_b_equal_group": 0.6428571428571429,
+          "recall_b_pooled": 0.625,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.8
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 8,
+          "components_only_a": 0,
+          "components_only_b": 5,
+          "equal_group_gain": -0.6428571428571429,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.9285714285714286,
+              -0.2857142857142857
+            ],
+            "pooled_gain_interval": [
+              -0.875,
+              -0.3333333333333333
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 5,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            -0.75,
+            -0.5833333333333334
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.7142857142857143,
+            -0.5714285714285714
+          ],
+          "pooled_gain": -0.625,
+          "pooled_gain_without_largest_group": -0.6666666666666666,
+          "recall_a_equal_group": 0.2857142857142857,
+          "recall_a_pooled": 0.25,
+          "recall_b_equal_group": 0.9285714285714286,
+          "recall_b_pooled": 0.875,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -1.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 8,
+          "components_only_a": 0,
+          "components_only_b": 5,
+          "equal_group_gain": -0.6428571428571429,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.9285714285714286,
+              -0.2857142857142857
+            ],
+            "pooled_gain_interval": [
+              -0.875,
+              -0.3333333333333333
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 5,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            -0.75,
+            -0.5833333333333334
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.7142857142857143,
+            -0.5714285714285714
+          ],
+          "pooled_gain": -0.625,
+          "pooled_gain_without_largest_group": -0.6666666666666666,
+          "recall_a_equal_group": 0.2857142857142857,
+          "recall_a_pooled": 0.25,
+          "recall_b_equal_group": 0.9285714285714286,
+          "recall_b_pooled": 0.875,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -1.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 8,
+          "components_only_a": 0,
+          "components_only_b": 4,
+          "equal_group_gain": -0.5,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.8571428571428571,
+              -0.14285714285714285
+            ],
+            "pooled_gain_interval": [
+              -0.8571428571428571,
+              -0.14285714285714285
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 4,
+          "groups_improved": 0,
+          "groups_tied": 3,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            -0.5833333333333334,
+            -0.4166666666666667
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.5714285714285714,
+            -0.42857142857142855
+          ],
+          "pooled_gain": -0.5,
+          "pooled_gain_without_largest_group": -0.5,
+          "recall_a_equal_group": 0.14285714285714285,
+          "recall_a_pooled": 0.125,
+          "recall_b_equal_group": 0.6428571428571429,
+          "recall_b_pooled": 0.625,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -1.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 8,
+          "components_only_a": 0,
+          "components_only_b": 4,
+          "equal_group_gain": -0.5,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.8571428571428571,
+              -0.14285714285714285
+            ],
+            "pooled_gain_interval": [
+              -0.8571428571428571,
+              -0.14285714285714285
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 4,
+          "groups_improved": 0,
+          "groups_tied": 3,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            -0.5833333333333334,
+            -0.4166666666666667
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.5714285714285714,
+            -0.42857142857142855
+          ],
+          "pooled_gain": -0.5,
+          "pooled_gain_without_largest_group": -0.5,
+          "recall_a_equal_group": 0.14285714285714285,
+          "recall_a_pooled": 0.125,
+          "recall_b_equal_group": 0.6428571428571429,
+          "recall_b_pooled": 0.625,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -1.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 8,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.14285714285714285,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.42857142857142855
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.42857142857142855
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 6,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.16666666666666666
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.16666666666666666
+          ],
+          "pooled_gain": 0.125,
+          "pooled_gain_without_largest_group": 0.16666666666666666,
+          "recall_a_equal_group": 0.2857142857142857,
+          "recall_a_pooled": 0.25,
+          "recall_b_equal_group": 0.14285714285714285,
+          "recall_b_pooled": 0.125,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.6153846153846154
+          ]
+        }
+      },
+      "lineage_groups": 7
+    },
+    "similarity_tier=high": {
+      "components": 8,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 8,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 8
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.8571428571428571,
+          "pooled_recall": 0.875,
+          "recovered": 7
+        },
+        "blosum62|minimal|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.7857142857142857,
+          "pooled_recall": 0.75,
+          "recovered": 6
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.7857142857142857,
+          "pooled_recall": 0.75,
+          "recovered": 6
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.7142857142857143,
+          "pooled_recall": 0.75,
+          "recovered": 6
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.5714285714285714,
+          "pooled_recall": 0.625,
+          "recovered": 5
+        },
+        "esm2|minimal|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 4
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 8,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 4
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 8,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.07142857142857142,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.21428571428571427
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.3
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 6,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.08333333333333333
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.14285714285714285
+          ],
+          "pooled_gain": 0.125,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.8571428571428571,
+          "recall_a_pooled": 0.875,
+          "recall_b_equal_group": 0.7857142857142857,
+          "recall_b_pooled": 0.75,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.375
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 8,
+          "components_only_a": 0,
+          "components_only_b": 2,
+          "equal_group_gain": -0.2857142857142857,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 2,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            -0.3333333333333333,
+            -0.16666666666666666
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.3333333333333333,
+            -0.14285714285714285
+          ],
+          "pooled_gain": -0.25,
+          "pooled_gain_without_largest_group": -0.3333333333333333,
+          "recall_a_equal_group": 0.7142857142857143,
+          "recall_a_pooled": 0.75,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -1.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 8,
+          "components_only_a": 0,
+          "components_only_b": 2,
+          "equal_group_gain": -0.2857142857142857,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 2,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            -0.3333333333333333,
+            -0.16666666666666666
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.3333333333333333,
+            -0.14285714285714285
+          ],
+          "pooled_gain": -0.25,
+          "pooled_gain_without_largest_group": -0.3333333333333333,
+          "recall_a_equal_group": 0.5714285714285714,
+          "recall_a_pooled": 0.625,
+          "recall_b_equal_group": 0.8571428571428571,
+          "recall_b_pooled": 0.875,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -1.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 8,
+          "components_only_a": 0,
+          "components_only_b": 2,
+          "equal_group_gain": -0.2857142857142857,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 2,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            -0.3333333333333333,
+            -0.16666666666666666
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.3333333333333333,
+            -0.14285714285714285
+          ],
+          "pooled_gain": -0.25,
+          "pooled_gain_without_largest_group": -0.3333333333333333,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.7857142857142857,
+          "recall_b_pooled": 0.75,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -1.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 8,
+          "components_only_a": 0,
+          "components_only_b": 2,
+          "equal_group_gain": -0.2857142857142857,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 2,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            -0.3333333333333333,
+            -0.16666666666666666
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.3333333333333333,
+            -0.14285714285714285
+          ],
+          "pooled_gain": -0.25,
+          "pooled_gain_without_largest_group": -0.3333333333333333,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.7857142857142857,
+          "recall_b_pooled": 0.75,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -1.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 8,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.07142857142857142,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.21428571428571427
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.3
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 6,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.08333333333333333
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.14285714285714285
+          ],
+          "pooled_gain": 0.125,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5714285714285714,
+          "recall_a_pooled": 0.625,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.375
+          ]
+        }
+      },
+      "lineage_groups": 7
+    },
+    "similarity_tier=insufficient_coverage": {
+      "components": 9,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 9,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 9
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 9,
+          "equal_group_recall": 0.7777777777777778,
+          "pooled_recall": 0.7777777777777778,
+          "recovered": 7
+        },
+        "blosum62|minimal|2": {
+          "eligible": 9,
+          "equal_group_recall": 0.5555555555555556,
+          "pooled_recall": 0.5555555555555556,
+          "recovered": 5
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 9,
+          "equal_group_recall": 0.6666666666666666,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 6
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 9,
+          "equal_group_recall": 0.8888888888888888,
+          "pooled_recall": 0.8888888888888888,
+          "recovered": 8
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 9,
+          "equal_group_recall": 0.6666666666666666,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 6
+        },
+        "esm2|minimal|2": {
+          "eligible": 9,
+          "equal_group_recall": 0.4444444444444444,
+          "pooled_recall": 0.4444444444444444,
+          "recovered": 4
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 9,
+          "equal_group_recall": 0.5555555555555556,
+          "pooled_recall": 0.5555555555555556,
+          "recovered": 5
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 9,
+          "components_only_a": 2,
+          "components_only_b": 0,
+          "equal_group_gain": 0.2222222222222222,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.5555555555555556
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.5555555555555556
+            ]
+          },
+          "groups": 9,
+          "groups_declined": 0,
+          "groups_improved": 2,
+          "groups_tied": 7,
+          "largest_group_share": 0.1111111111111111,
+          "leave_one_group_out_equal_group_range": [
+            0.125,
+            0.25
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.125,
+            0.25
+          ],
+          "pooled_gain": 0.2222222222222222,
+          "pooled_gain_without_largest_group": 0.25,
+          "recall_a_equal_group": 0.7777777777777778,
+          "recall_a_pooled": 0.7777777777777778,
+          "recall_b_equal_group": 0.5555555555555556,
+          "recall_b_pooled": 0.5555555555555556,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.5555555555555556
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 9,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.1111111111111111,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.3333333333333333,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.3333333333333333,
+              0.0
+            ]
+          },
+          "groups": 9,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 8,
+          "largest_group_share": 0.1111111111111111,
+          "leave_one_group_out_equal_group_range": [
+            -0.125,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.125,
+            0.0
+          ],
+          "pooled_gain": -0.1111111111111111,
+          "pooled_gain_without_largest_group": -0.125,
+          "recall_a_equal_group": 0.8888888888888888,
+          "recall_a_pooled": 0.8888888888888888,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.3333333333333333,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 9,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.1111111111111111,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.3333333333333333,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.3333333333333333,
+              0.0
+            ]
+          },
+          "groups": 9,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 8,
+          "largest_group_share": 0.1111111111111111,
+          "leave_one_group_out_equal_group_range": [
+            -0.125,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.125,
+            0.0
+          ],
+          "pooled_gain": -0.1111111111111111,
+          "pooled_gain_without_largest_group": -0.125,
+          "recall_a_equal_group": 0.6666666666666666,
+          "recall_a_pooled": 0.6666666666666666,
+          "recall_b_equal_group": 0.7777777777777778,
+          "recall_b_pooled": 0.7777777777777778,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.3333333333333333,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 9,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.1111111111111111,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.3333333333333333,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.3333333333333333,
+              0.0
+            ]
+          },
+          "groups": 9,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 8,
+          "largest_group_share": 0.1111111111111111,
+          "leave_one_group_out_equal_group_range": [
+            -0.125,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.125,
+            0.0
+          ],
+          "pooled_gain": -0.1111111111111111,
+          "pooled_gain_without_largest_group": -0.125,
+          "recall_a_equal_group": 0.4444444444444444,
+          "recall_a_pooled": 0.4444444444444444,
+          "recall_b_equal_group": 0.5555555555555556,
+          "recall_b_pooled": 0.5555555555555556,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.3333333333333333,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 9,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.1111111111111111,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.3333333333333333,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.3333333333333333,
+              0.0
+            ]
+          },
+          "groups": 9,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 8,
+          "largest_group_share": 0.1111111111111111,
+          "leave_one_group_out_equal_group_range": [
+            -0.125,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.125,
+            0.0
+          ],
+          "pooled_gain": -0.1111111111111111,
+          "pooled_gain_without_largest_group": -0.125,
+          "recall_a_equal_group": 0.5555555555555556,
+          "recall_a_pooled": 0.5555555555555556,
+          "recall_b_equal_group": 0.6666666666666666,
+          "recall_b_pooled": 0.6666666666666666,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.3333333333333333,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 9,
+          "components_only_a": 2,
+          "components_only_b": 0,
+          "equal_group_gain": 0.2222222222222222,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.5555555555555556
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.5555555555555556
+            ]
+          },
+          "groups": 9,
+          "groups_declined": 0,
+          "groups_improved": 2,
+          "groups_tied": 7,
+          "largest_group_share": 0.1111111111111111,
+          "leave_one_group_out_equal_group_range": [
+            0.125,
+            0.25
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.125,
+            0.25
+          ],
+          "pooled_gain": 0.2222222222222222,
+          "pooled_gain_without_largest_group": 0.25,
+          "recall_a_equal_group": 0.6666666666666666,
+          "recall_a_pooled": 0.6666666666666666,
+          "recall_b_equal_group": 0.4444444444444444,
+          "recall_b_pooled": 0.4444444444444444,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.5555555555555556
+          ]
+        }
+      },
+      "lineage_groups": 9
+    },
+    "similarity_tier=intermediate": {
+      "components": 6,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 6,
+          "equal_group_recall": 0.8,
+          "pooled_recall": 0.8333333333333334,
+          "recovered": 5
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 6,
+          "equal_group_recall": 0.6,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 4
+        },
+        "blosum62|minimal|2": {
+          "eligible": 6,
+          "equal_group_recall": 0.6,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 4
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 6,
+          "equal_group_recall": 0.6,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 4
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 6,
+          "equal_group_recall": 0.8,
+          "pooled_recall": 0.8333333333333334,
+          "recovered": 5
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 6,
+          "equal_group_recall": 0.6,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 4
+        },
+        "esm2|minimal|2": {
+          "eligible": 6,
+          "equal_group_recall": 0.6,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 4
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 6,
+          "equal_group_recall": 0.6,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 4
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 6,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.6,
+          "recall_a_pooled": 0.6666666666666666,
+          "recall_b_equal_group": 0.6,
+          "recall_b_pooled": 0.6666666666666666,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 6,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.8,
+          "recall_a_pooled": 0.8333333333333334,
+          "recall_b_equal_group": 0.8,
+          "recall_b_pooled": 0.8333333333333334,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 6,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.6,
+          "recall_a_pooled": 0.6666666666666666,
+          "recall_b_equal_group": 0.6,
+          "recall_b_pooled": 0.6666666666666666,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 6,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.6,
+          "recall_a_pooled": 0.6666666666666666,
+          "recall_b_equal_group": 0.6,
+          "recall_b_pooled": 0.6666666666666666,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 6,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.6,
+          "recall_a_pooled": 0.6666666666666666,
+          "recall_b_equal_group": 0.6,
+          "recall_b_pooled": 0.6666666666666666,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 6,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.6,
+          "recall_a_pooled": 0.6666666666666666,
+          "recall_b_equal_group": 0.6,
+          "recall_b_pooled": 0.6666666666666666,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lineage_groups": 5
+    },
+    "similarity_tier=low": {
+      "components": 10,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 10,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 10
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 10,
+          "equal_group_recall": 0.7142857142857143,
+          "pooled_recall": 0.5,
+          "recovered": 5
+        },
+        "blosum62|minimal|2": {
+          "eligible": 10,
+          "equal_group_recall": 0.5714285714285714,
+          "pooled_recall": 0.4,
+          "recovered": 4
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 10,
+          "equal_group_recall": 0.5714285714285714,
+          "pooled_recall": 0.4,
+          "recovered": 4
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 10,
+          "equal_group_recall": 0.7142857142857143,
+          "pooled_recall": 0.8,
+          "recovered": 8
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 10,
+          "equal_group_recall": 0.42857142857142855,
+          "pooled_recall": 0.3,
+          "recovered": 3
+        },
+        "esm2|minimal|2": {
+          "eligible": 10,
+          "equal_group_recall": 0.42857142857142855,
+          "pooled_recall": 0.3,
+          "recovered": 3
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 10,
+          "equal_group_recall": 0.42857142857142855,
+          "pooled_recall": 0.3,
+          "recovered": 3
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 10,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.14285714285714285,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.42857142857142855
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.42857142857142855
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 6,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.16666666666666666
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.16666666666666666
+          ],
+          "pooled_gain": 0.1,
+          "pooled_gain_without_largest_group": 0.16666666666666666,
+          "recall_a_equal_group": 0.7142857142857143,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5714285714285714,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.5
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 10,
+          "components_only_a": 0,
+          "components_only_b": 2,
+          "equal_group_gain": -0.2857142857142857,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 2,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            -0.3333333333333333,
+            -0.16666666666666666
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.3333333333333333,
+            -0.1111111111111111
+          ],
+          "pooled_gain": -0.2,
+          "pooled_gain_without_largest_group": -0.3333333333333333,
+          "recall_a_equal_group": 0.7142857142857143,
+          "recall_a_pooled": 0.8,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.7557692307692291,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 10,
+          "components_only_a": 0,
+          "components_only_b": 2,
+          "equal_group_gain": -0.2857142857142857,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.5714285714285714,
+              0.0
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 2,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            -0.3333333333333333,
+            -0.16666666666666666
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.3333333333333333,
+            -0.1111111111111111
+          ],
+          "pooled_gain": -0.2,
+          "pooled_gain_without_largest_group": -0.3333333333333333,
+          "recall_a_equal_group": 0.42857142857142855,
+          "recall_a_pooled": 0.3,
+          "recall_b_equal_group": 0.7142857142857143,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.7557692307692291,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 10,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.14285714285714285,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.42857142857142855,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.42857142857142855,
+              0.0
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 6,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            -0.16666666666666666,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.16666666666666666,
+            0.0
+          ],
+          "pooled_gain": -0.1,
+          "pooled_gain_without_largest_group": -0.16666666666666666,
+          "recall_a_equal_group": 0.42857142857142855,
+          "recall_a_pooled": 0.3,
+          "recall_b_equal_group": 0.5714285714285714,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.5,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 10,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.14285714285714285,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.42857142857142855,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.42857142857142855,
+              0.0
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 6,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            -0.16666666666666666,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.16666666666666666,
+            0.0
+          ],
+          "pooled_gain": -0.1,
+          "pooled_gain_without_largest_group": -0.16666666666666666,
+          "recall_a_equal_group": 0.42857142857142855,
+          "recall_a_pooled": 0.3,
+          "recall_b_equal_group": 0.5714285714285714,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.5,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 10,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 7,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 7,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.42857142857142855,
+          "recall_a_pooled": 0.3,
+          "recall_b_equal_group": 0.42857142857142855,
+          "recall_b_pooled": 0.3,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lineage_groups": 7
+    }
+  },
+  "target": 0.05,
+  "verdicts": {
+    "blosum62: gene_caller - minimal": "positive signal; interval spans the target, so a practical improvement is not established",
+    "blosum62: start_ranked - minimal": "inconclusive (interval spans zero and the target)",
+    "esm2: gene_caller - minimal": "inconclusive (interval spans zero and the target)",
+    "esm2: start_ranked - minimal": "inconclusive (interval spans zero and the target)"
+  },
+  "work": {
+    "blosum62|annotation_reference|1": {
+      "actual_inputs": 777,
+      "alignment_cells": 11446052800,
+      "allowed_inputs": 777,
+      "candidate_pool": 1250,
+      "characterize_seconds": 26.03758646499,
+      "encoder_calls": null,
+      "input_residues": 247600,
+      "reference_comparisons": 104118
+    },
+    "blosum62|annotation_reference|2": {
+      "actual_inputs": 1169,
+      "alignment_cells": 15907424624,
+      "allowed_inputs": 1554,
+      "candidate_pool": 1250,
+      "characterize_seconds": 5.548236229992199,
+      "encoder_calls": null,
+      "input_residues": 344108,
+      "reference_comparisons": 156646
+    },
+    "blosum62|annotation_reference|4": {
+      "actual_inputs": 1248,
+      "alignment_cells": 16810072552,
+      "allowed_inputs": 3108,
+      "candidate_pool": 1250,
+      "characterize_seconds": 1.623442092005007,
+      "encoder_calls": null,
+      "input_residues": 363634,
+      "reference_comparisons": 167232
+    },
+    "blosum62|annotation_reference|run": {
+      "unique_scorer_inputs": 237,
+      "unique_scoring_seconds": 33.19635087300003,
+      "wall_seconds": 33.36001730499993
+    },
+    "blosum62|gene_caller|1": {
+      "actual_inputs": 777,
+      "alignment_cells": 15465577400,
+      "allowed_inputs": 777,
+      "candidate_pool": 4194,
+      "characterize_seconds": 69.68279676700422,
+      "encoder_calls": null,
+      "input_residues": 334550,
+      "reference_comparisons": 104118
+    },
+    "blosum62|gene_caller|2": {
+      "actual_inputs": 1537,
+      "alignment_cells": 25488177624,
+      "allowed_inputs": 1554,
+      "candidate_pool": 4194,
+      "characterize_seconds": 27.92519356100138,
+      "encoder_calls": null,
+      "input_residues": 551358,
+      "reference_comparisons": 205958
+    },
+    "blosum62|gene_caller|4": {
+      "actual_inputs": 2772,
+      "alignment_cells": 36483091372,
+      "allowed_inputs": 3108,
+      "candidate_pool": 4194,
+      "characterize_seconds": 33.15371285399942,
+      "encoder_calls": null,
+      "input_residues": 789199,
+      "reference_comparisons": 371448
+    },
+    "blosum62|gene_caller|run": {
+      "unique_scorer_inputs": 1130,
+      "unique_scoring_seconds": 130.72680735400718,
+      "wall_seconds": 139.6509841420002
+    },
+    "blosum62|minimal|1": {
+      "actual_inputs": 777,
+      "alignment_cells": 15988647220,
+      "allowed_inputs": 777,
+      "candidate_pool": 101407,
+      "characterize_seconds": 78.65839058299207,
+      "encoder_calls": null,
+      "input_residues": 345865,
+      "reference_comparisons": 104118
+    },
+    "blosum62|minimal|2": {
+      "actual_inputs": 1554,
+      "alignment_cells": 27594001708,
+      "allowed_inputs": 1554,
+      "candidate_pool": 101407,
+      "characterize_seconds": 42.01452023400134,
+      "encoder_calls": null,
+      "input_residues": 596911,
+      "reference_comparisons": 208236
+    },
+    "blosum62|minimal|4": {
+      "actual_inputs": 3108,
+      "alignment_cells": 44899361052,
+      "allowed_inputs": 3108,
+      "candidate_pool": 101407,
+      "characterize_seconds": 68.34199374899481,
+      "encoder_calls": null,
+      "input_residues": 971259,
+      "reference_comparisons": 416472
+    },
+    "blosum62|minimal|run": {
+      "unique_scorer_inputs": 1489,
+      "unique_scoring_seconds": 188.97746032300392,
+      "wall_seconds": 192.41181452
+    },
+    "blosum62|start_ranked|1": {
+      "actual_inputs": 777,
+      "alignment_cells": 15960494368,
+      "allowed_inputs": 777,
+      "candidate_pool": 101407,
+      "characterize_seconds": 75.18993833800778,
+      "encoder_calls": null,
+      "input_residues": 345256,
+      "reference_comparisons": 104118
+    },
+    "blosum62|start_ranked|2": {
+      "actual_inputs": 1554,
+      "alignment_cells": 27559330708,
+      "allowed_inputs": 1554,
+      "candidate_pool": 101407,
+      "characterize_seconds": 43.862973436001994,
+      "encoder_calls": null,
+      "input_residues": 596161,
+      "reference_comparisons": 208236
+    },
+    "blosum62|start_ranked|4": {
+      "actual_inputs": 3108,
+      "alignment_cells": 44823454676,
+      "allowed_inputs": 3108,
+      "candidate_pool": 101407,
+      "characterize_seconds": 68.4436586569982,
+      "encoder_calls": null,
+      "input_residues": 969617,
+      "reference_comparisons": 416472
+    },
+    "blosum62|start_ranked|run": {
+      "unique_scorer_inputs": 1480,
+      "unique_scoring_seconds": 187.45195719100275,
+      "wall_seconds": 190.9392790249999
+    },
+    "esm2|annotation_reference|1": {
+      "actual_inputs": 777,
+      "alignment_cells": null,
+      "allowed_inputs": 777,
+      "candidate_pool": 1250,
+      "characterize_seconds": 28.078469605002283,
+      "encoder_calls": 911,
+      "input_residues": 247600,
+      "reference_comparisons": 104118
+    },
+    "esm2|annotation_reference|2": {
+      "actual_inputs": 1169,
+      "alignment_cells": null,
+      "allowed_inputs": 1554,
+      "candidate_pool": 1250,
+      "characterize_seconds": 3.533232526006941,
+      "encoder_calls": 1303,
+      "input_residues": 344108,
+      "reference_comparisons": 156646
+    },
+    "esm2|annotation_reference|4": {
+      "actual_inputs": 1248,
+      "alignment_cells": null,
+      "allowed_inputs": 3108,
+      "candidate_pool": 1250,
+      "characterize_seconds": 1.0737566920038262,
+      "encoder_calls": 1382,
+      "input_residues": 363634,
+      "reference_comparisons": 167232
+    },
+    "esm2|annotation_reference|run": {
+      "unique_scorer_inputs": 237,
+      "unique_scoring_seconds": 32.67621868199967,
+      "wall_seconds": 50.383820689000004
+    },
+    "esm2|gene_caller|1": {
+      "actual_inputs": 777,
+      "alignment_cells": null,
+      "allowed_inputs": 777,
+      "candidate_pool": 4194,
+      "characterize_seconds": 85.41722377100268,
+      "encoder_calls": 911,
+      "input_residues": 334550,
+      "reference_comparisons": 104118
+    },
+    "esm2|gene_caller|2": {
+      "actual_inputs": 1537,
+      "alignment_cells": null,
+      "allowed_inputs": 1554,
+      "candidate_pool": 4194,
+      "characterize_seconds": 21.044593426993288,
+      "encoder_calls": 1671,
+      "input_residues": 551358,
+      "reference_comparisons": 205958
+    },
+    "esm2|gene_caller|4": {
+      "actual_inputs": 2772,
+      "alignment_cells": null,
+      "allowed_inputs": 3108,
+      "candidate_pool": 4194,
+      "characterize_seconds": 23.44877194499577,
+      "encoder_calls": 2906,
+      "input_residues": 789199,
+      "reference_comparisons": 371448
+    },
+    "esm2|gene_caller|run": {
+      "unique_scorer_inputs": 1130,
+      "unique_scoring_seconds": 129.88477574300077,
+      "wall_seconds": 156.58456956700002
+    },
+    "esm2|minimal|1": {
+      "actual_inputs": 777,
+      "alignment_cells": null,
+      "allowed_inputs": 777,
+      "candidate_pool": 101407,
+      "characterize_seconds": 97.88464102499597,
+      "encoder_calls": 911,
+      "input_residues": 345865,
+      "reference_comparisons": 104118
+    },
+    "esm2|minimal|2": {
+      "actual_inputs": 1554,
+      "alignment_cells": null,
+      "allowed_inputs": 1554,
+      "candidate_pool": 101407,
+      "characterize_seconds": 34.03671282800474,
+      "encoder_calls": 1688,
+      "input_residues": 596911,
+      "reference_comparisons": 208236
+    },
+    "esm2|minimal|4": {
+      "actual_inputs": 3108,
+      "alignment_cells": null,
+      "allowed_inputs": 3108,
+      "candidate_pool": 101407,
+      "characterize_seconds": 46.57602294900448,
+      "encoder_calls": 3242,
+      "input_residues": 971259,
+      "reference_comparisons": 416472
+    },
+    "esm2|minimal|run": {
+      "unique_scorer_inputs": 1489,
+      "unique_scoring_seconds": 178.46712312200043,
+      "wall_seconds": 199.05661399600012
+    },
+    "esm2|start_ranked|1": {
+      "actual_inputs": 777,
+      "alignment_cells": null,
+      "allowed_inputs": 777,
+      "candidate_pool": 101407,
+      "characterize_seconds": 90.95251308300067,
+      "encoder_calls": 911,
+      "input_residues": 345256,
+      "reference_comparisons": 104118
+    },
+    "esm2|start_ranked|2": {
+      "actual_inputs": 1554,
+      "alignment_cells": null,
+      "allowed_inputs": 1554,
+      "candidate_pool": 101407,
+      "characterize_seconds": 35.11609142699581,
+      "encoder_calls": 1688,
+      "input_residues": 596161,
+      "reference_comparisons": 208236
+    },
+    "esm2|start_ranked|4": {
+      "actual_inputs": 3108,
+      "alignment_cells": null,
+      "allowed_inputs": 3108,
+      "candidate_pool": 101407,
+      "characterize_seconds": 48.443718900999556,
+      "encoder_calls": 3242,
+      "input_residues": 969617,
+      "reference_comparisons": 416472
+    },
+    "esm2|start_ranked|run": {
+      "unique_scorer_inputs": 1480,
+      "unique_scoring_seconds": 174.48122198499482,
+      "wall_seconds": 194.55660547000002
+    }
+  }
+}

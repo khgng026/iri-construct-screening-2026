@@ -1,0 +1,301 @@
+{
+  "constructs": [
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "chloramphenicol_acetyltransferase",
+          "id": "11-chloramphenicol_acetyltransferase",
+          "spans": [
+            [
+              6722,
+              7412
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "d0001",
+      "length": 10763
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "tetr_repressor",
+          "id": "2-tetr_repressor",
+          "spans": [
+            [
+              857,
+              1874
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "d0002",
+      "length": 14499
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "2-gfp_like",
+          "spans": [
+            [
+              2051,
+              2999
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0003",
+      "length": 9289
+    },
+    {
+      "archetype": "single_label_other",
+      "components": [
+        {
+          "family": "class_a_beta_lactamase",
+          "id": "6-class_a_beta_lactamase",
+          "spans": [
+            [
+              3036,
+              3897
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0004",
+      "length": 5074
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "ant3_adenylyltransferase",
+          "id": "13-ant3_adenylyltransferase",
+          "spans": [
+            [
+              8007,
+              8799
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "d0005",
+      "length": 9326
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "12-gfp_like",
+          "spans": [
+            [
+              11731,
+              12409
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "d0006",
+      "length": 14603
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "tetr_repressor",
+          "id": "12-tetr_repressor",
+          "spans": [
+            [
+              10473,
+              11490
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0007",
+      "length": 12343
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "2-aminoglycoside_phosphotransferase",
+          "spans": [
+            [
+              825,
+              1620
+            ]
+          ],
+          "strand": -1
+        },
+        {
+          "family": "gfp_like",
+          "id": "5-gfp_like",
+          "spans": [
+            [
+              7091,
+              10274
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0008",
+      "length": 10774
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "class_a_beta_lactamase",
+          "id": "10-class_a_beta_lactamase",
+          "spans": [
+            [
+              3780,
+              4641
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0009",
+      "length": 5818
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "4-gfp_like",
+          "spans": [
+            [
+              2725,
+              3442
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0010",
+      "length": 4438
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "tetr_repressor",
+          "id": "4-tetr_repressor",
+          "spans": [
+            [
+              4131,
+              4134
+            ],
+            [
+              7107,
+              8121
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "gfp_like",
+          "id": "8-gfp_like",
+          "spans": [
+            [
+              11054,
+              12002
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0011",
+      "length": 12394
+    },
+    {
+      "archetype": "single_label_other",
+      "components": [
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "13-aminoglycoside_phosphotransferase",
+          "spans": [
+            [
+              4313,
+              5129
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "d0012",
+      "length": 5272
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "21-aminoglycoside_phosphotransferase",
+          "spans": [
+            [
+              6757,
+              7573
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "d0013",
+      "length": 7716
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "isopropylmalate_dehydrogenase",
+          "id": "1-isopropylmalate_dehydrogenase",
+          "spans": [
+            [
+              662,
+              1769
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "d0014",
+      "length": 7933
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "glycosyl_hydrolase_2",
+          "id": "4-glycosyl_hydrolase_2",
+          "spans": [
+            [
+              1293,
+              3105
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "d0015",
+      "length": 5667
+    }
+  ],
+  "schema": "paired-preprocessing-1"
+}

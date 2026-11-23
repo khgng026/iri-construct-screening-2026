@@ -1,0 +1,53 @@
+{
+  "schema": "paired-preprocessing-1",
+  "cohort": "cohort-v2",
+  "query_caps": [
+    1,
+    2,
+    4
+  ],
+  "primary_query_cap": 2,
+  "prediction_limit": 5,
+  "minimum_component_overlap": 0.8,
+  "minimum_interesting_gain": 0.05,
+  "reference_panel_sha256": "893a7db7ce8aa8d06f8441c55b260c2c16b36688e7bf9d4c22a17a85cb5a561b",
+  "scorers": {
+    "esm2": {
+      "characterizer": "esm2",
+      "characterization_id": "esm2-8m-mean-cosine-cohort-v2"
+    },
+    "blosum62": {
+      "characterizer": "blosum62",
+      "characterization_id": "normalized-blosum62-cohort-v2"
+    }
+  },
+  "inputs": {
+    "development": "aa1dab7938881de76863a5ad52d96c61576319bc3a9beba6ba0024c0cb4661dc",
+    "holdout": "238684dc950677fb364dd84a8f5f2b4239dc667cfea406c3a708086aab73b9d1",
+    "holdout_fusion": "3d6a39d2e5c437e78eba299f2dd157f573b4d61502249317ea6acf0af89f7483",
+    "development_fusion": "aa1dab7938881de76863a5ad52d96c61576319bc3a9beba6ba0024c0cb4661dc"
+  },
+  "fusion": {
+    "query_caps": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "primary_query_cap": 4,
+    "note": "Fusion subregion comparison: intact Pyrodigal candidates versus fixed windows, with documented regions and whole documented CDSs as diagnostics."
+  },
+  "private_files": {
+    "holdout_fusion_annotation_units": "7fba8699db605a44cf4e98c523eb7254cc0ad410f090edacfa58da890fce08c1",
+    "holdout_fusion_documented_regions": "9362f618c8034f564c7d2b931440751a5d9175a76f365095758c9c1e95464900",
+    "public_freeze": "2eb4dada65ad0373a9f8bb41bc158be695c7f2f952c00d6418b77de21f2eafde"
+  },
+  "decision_rule": {
+    "estimator": "equal lineage-group weighted paired gain at the primary cap",
+    "interval": "95% percentile, 4000 whole-group bootstrap replicates, seed 20261123",
+    "meaningful": "lower bound >= target and leave-one-group-out minimum >= target",
+    "positive_signal": "lower bound > 0 and interval spans target",
+    "unsupported": "upper bound < target",
+    "otherwise": "inconclusive"
+  }
+}

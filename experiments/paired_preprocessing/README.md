@@ -20,6 +20,8 @@ Use five deposited reporter constructs covering a single CDS, a cassette with mu
 
 All arms use the same ESM-2 8M model, reference panel, and family ranking with turn taking across the queried units. Compare at caps of one, two, and four queries per construct, with two as the primary cap. Return at most five calls. A gain of five percentage points is the practical target. With seven eligible components, a single extra recovery changes recall by about fourteen points. This pilot is descriptive.
 
+The [v1 comparison](REPORTER_COMPARISON.md) adds candidate ranking and a Pyrodigal arm on the same inputs and caps.
+
 ## Reproduce
 
 Use a model environment with the project installed, Biopython, and the pinned ESM-2 checkpoint cached. Run acquisition separately from inference. Exact reruns require the source snapshots recorded in the panel. Each command writes to a new or unused output path under ignored `results/`.
@@ -43,3 +45,5 @@ python -m experiments.paired_preprocessing.verify --protocol "$protocol" \
   --candidate "$run/start_aware.json" --annotation-reference "$run/annotation_reference.json" \
   --out "$run/report.json"
 ```
+
+The [grouped cohort v2](COHORT_STUDY.md) evaluates the minimal, start-ranking, Pyrodigal and annotation-derived arms with ESM-2 and BLOSUM62 on 777 held-out constructs. The protocol was locked before scoring. [Results](COHORT_RESULTS.md)

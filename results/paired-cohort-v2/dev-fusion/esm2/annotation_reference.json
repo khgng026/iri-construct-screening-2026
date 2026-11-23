@@ -1,0 +1,5412 @@
+{
+  "candidate_pools": {
+    "d0001": [
+      {
+        "residues": 229,
+        "spans": [
+          [
+            6722,
+            7412
+          ]
+        ],
+        "strand": -1
+      }
+    ],
+    "d0002": [
+      {
+        "residues": 338,
+        "spans": [
+          [
+            857,
+            1874
+          ]
+        ],
+        "strand": -1
+      }
+    ],
+    "d0003": [
+      {
+        "residues": 315,
+        "spans": [
+          [
+            2051,
+            2999
+          ]
+        ],
+        "strand": 1
+      }
+    ],
+    "d0004": [
+      {
+        "residues": 286,
+        "spans": [
+          [
+            3036,
+            3897
+          ]
+        ],
+        "strand": 1
+      }
+    ],
+    "d0005": [
+      {
+        "residues": 263,
+        "spans": [
+          [
+            8007,
+            8799
+          ]
+        ],
+        "strand": -1
+      }
+    ],
+    "d0006": [
+      {
+        "residues": 225,
+        "spans": [
+          [
+            11731,
+            12409
+          ]
+        ],
+        "strand": -1
+      }
+    ],
+    "d0007": [
+      {
+        "residues": 338,
+        "spans": [
+          [
+            10473,
+            11490
+          ]
+        ],
+        "strand": 1
+      }
+    ],
+    "d0008": [
+      {
+        "residues": 1022,
+        "spans": [
+          [
+            7091,
+            10157
+          ]
+        ],
+        "strand": 1
+      },
+      {
+        "residues": 264,
+        "spans": [
+          [
+            825,
+            1620
+          ]
+        ],
+        "strand": -1
+      },
+      {
+        "residues": 38,
+        "spans": [
+          [
+            10157,
+            10271
+          ]
+        ],
+        "strand": 1
+      }
+    ],
+    "d0009": [
+      {
+        "residues": 286,
+        "spans": [
+          [
+            3780,
+            4641
+          ]
+        ],
+        "strand": 1
+      }
+    ],
+    "d0010": [
+      {
+        "residues": 238,
+        "spans": [
+          [
+            2725,
+            3442
+          ]
+        ],
+        "strand": 1
+      }
+    ],
+    "d0011": [
+      {
+        "residues": 338,
+        "spans": [
+          [
+            4131,
+            4134
+          ],
+          [
+            7107,
+            8121
+          ]
+        ],
+        "strand": 1
+      },
+      {
+        "residues": 315,
+        "spans": [
+          [
+            11054,
+            12002
+          ]
+        ],
+        "strand": 1
+      }
+    ],
+    "d0012": [
+      {
+        "residues": 271,
+        "spans": [
+          [
+            4313,
+            5129
+          ]
+        ],
+        "strand": -1
+      }
+    ],
+    "d0013": [
+      {
+        "residues": 271,
+        "spans": [
+          [
+            6757,
+            7573
+          ]
+        ],
+        "strand": -1
+      }
+    ],
+    "d0014": [
+      {
+        "residues": 368,
+        "spans": [
+          [
+            662,
+            1769
+          ]
+        ],
+        "strand": -1
+      }
+    ],
+    "d0015": [
+      {
+        "residues": 603,
+        "spans": [
+          [
+            1293,
+            3105
+          ]
+        ],
+        "strand": 1
+      }
+    ]
+  },
+  "characterization_id": "esm2-8m-mean-cosine-cohort-v2",
+  "characterizer": "esm2",
+  "input_sha256": "e11d4060c98e64682cc8800fae910f905b23deb889b3221b69fc7d986a7deb48",
+  "method": "annotation_reference",
+  "model": {
+    "device": "cpu",
+    "input_tracks": "sequence only",
+    "max_residues": 1022,
+    "model": "esm2",
+    "offline": true,
+    "precision_policy": "float32 weights; no autocast",
+    "repository": "facebook/esm2_t6_8M_UR50D",
+    "representation": "Final adapter output; residue mean; BOS/EOS/PAD excluded",
+    "requested_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "resolved_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "torch_num_interop_threads": 1,
+    "torch_num_threads": 2,
+    "truncation": false,
+    "unused_checkpoint_heads": "Masked language model head excluded; no additional pooler initialized",
+    "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+  },
+  "reference_count": 134,
+  "reference_panel_sha256": "893a7db7ce8aa8d06f8441c55b260c2c16b36688e7bf9d4c22a17a85cb5a561b",
+  "schema": "paired-preprocessing-1",
+  "selected_inputs_sha256": "fd406f38a0f9f773c8aa5ac3c43343d9b4c08422f0a7cb9ff39f0c2e4773e23b",
+  "tiers": [
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "candidate_residues": 229,
+          "characterize_seconds": 0.0513744580000548,
+          "id": "d0001",
+          "predictions": [
+            {
+              "family": "chloramphenicol_acetyltransferase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0001-11"
+            }
+          ],
+          "preprocess_seconds": 2.2367999918060377e-05,
+          "queries": [
+            {
+              "id": "d0001-11",
+              "input_residues": 229,
+              "spans": [
+                [
+                  6722,
+                  7412
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0001-11": [
+              "chloramphenicol_acetyltransferase",
+              "gfp_like",
+              "biotin_protein_ligase",
+              "igp_dehydratase",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "glycosyl_hydrolase_68",
+              "luxr_autoinducer_regulator",
+              "glycosyl_hydrolase_2",
+              "dhfr_type_2",
+              "thioredoxin",
+              "tetr_repressor",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "trpf",
+              "gst_mu",
+              "pat_bar_acetyltransferase",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 10586212,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 338,
+          "characterize_seconds": 0.07536544399999912,
+          "id": "d0002",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0002-2"
+            }
+          ],
+          "preprocess_seconds": 1.6638000033708522e-05,
+          "queries": [
+            {
+              "id": "d0002-2",
+              "input_residues": 338,
+              "spans": [
+                [
+                  857,
+                  1874
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0002-2": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 15625064,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 315,
+          "characterize_seconds": 0.0722052660000827,
+          "id": "d0003",
+          "predictions": [
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0003-2"
+            }
+          ],
+          "preprocess_seconds": 2.2344999933920917e-05,
+          "queries": [
+            {
+              "id": "d0003-2",
+              "input_residues": 315,
+              "spans": [
+                [
+                  2051,
+                  2999
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0003-2": [
+              "phage_rna_polymerase",
+              "gfp_like",
+              "omp_decarboxylase",
+              "igp_dehydratase",
+              "biotin_protein_ligase",
+              "initiator_repb",
+              "glycosyl_hydrolase_68",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "chloramphenicol_acetyltransferase",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "pat_bar_acetyltransferase",
+              "class_a_beta_lactamase",
+              "trpf",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 14561820,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 286,
+          "characterize_seconds": 0.05662444800009325,
+          "id": "d0004",
+          "predictions": [
+            {
+              "family": "class_a_beta_lactamase",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0004-6"
+            }
+          ],
+          "preprocess_seconds": 1.3627000043925364e-05,
+          "queries": [
+            {
+              "id": "d0004-6",
+              "input_residues": 286,
+              "spans": [
+                [
+                  3036,
+                  3897
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0004-6": [
+              "class_a_beta_lactamase",
+              "luxr_autoinducer_regulator",
+              "aminoglycoside_phosphotransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "glycosyl_hydrolase_2",
+              "solute_binding_protein_1",
+              "omp_decarboxylase",
+              "phage_rna_polymerase",
+              "pat_bar_acetyltransferase",
+              "chloramphenicol_acetyltransferase",
+              "arac_regulator",
+              "dhfr_type_2",
+              "gfp_like",
+              "trpf",
+              "thioredoxin",
+              "glycosyl_hydrolase_68",
+              "gst_mu",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "phage_integrase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 13221208,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 263,
+          "characterize_seconds": 0.048510639999904015,
+          "id": "d0005",
+          "predictions": [
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0005-13"
+            }
+          ],
+          "preprocess_seconds": 1.3652000006914022e-05,
+          "queries": [
+            {
+              "id": "d0005-13",
+              "input_residues": 263,
+              "spans": [
+                [
+                  8007,
+                  8799
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0005-13": [
+              "ant3_adenylyltransferase",
+              "omp_decarboxylase",
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "reca",
+              "luxr_autoinducer_regulator",
+              "isopropylmalate_dehydrogenase",
+              "igp_dehydratase",
+              "chloramphenicol_acetyltransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "dhfr_type_2",
+              "gfp_like",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "gst_mu",
+              "glycosyl_hydrolase_2",
+              "trpf",
+              "solute_binding_protein_1",
+              "thioredoxin",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "erm_rrna_methyltransferase",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12157964,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 225,
+          "characterize_seconds": 0.0461239859998841,
+          "id": "d0006",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0006-12"
+            }
+          ],
+          "preprocess_seconds": 1.3557000102082384e-05,
+          "queries": [
+            {
+              "id": "d0006-12",
+              "input_residues": 225,
+              "spans": [
+                [
+                  11731,
+                  12409
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0006-12": [
+              "gfp_like",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "initiator_repb",
+              "biotin_protein_ligase",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "chloramphenicol_acetyltransferase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_2",
+              "thioredoxin",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "trpf",
+              "class_a_beta_lactamase",
+              "pat_bar_acetyltransferase",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 10401300,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 338,
+          "characterize_seconds": 4.3059999370598234e-06,
+          "id": "d0007",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0007-12"
+            }
+          ],
+          "preprocess_seconds": 1.3049000017417711e-05,
+          "queries": [
+            {
+              "id": "d0007-12",
+              "input_residues": 338,
+              "spans": [
+                [
+                  10473,
+                  11490
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0007-12": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 15625064,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 3,
+          "candidate_residues": 1324,
+          "characterize_seconds": 0.7064808410000296,
+          "id": "d0008",
+          "predictions": [
+            {
+              "family": "glycosyl_hydrolase_68",
+              "query_id": "d0008-5c1"
+            },
+            {
+              "family": "reca",
+              "query_id": "d0008-5c1"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0008-5c1"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0008-5c1"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0008-5c1"
+            }
+          ],
+          "preprocess_seconds": 0.0002419249999547901,
+          "queries": [
+            {
+              "id": "d0008-5c1",
+              "input_residues": 1022,
+              "spans": [
+                [
+                  7091,
+                  10157
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0008-5c1": [
+              "glycosyl_hydrolase_68",
+              "reca",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "biotin_protein_ligase",
+              "ant3_adenylyltransferase",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "gfp_like",
+              "glycosyl_hydrolase_2",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "chloramphenicol_acetyltransferase",
+              "thioredoxin",
+              "erm_rrna_methyltransferase",
+              "trpf",
+              "coleopteran_luciferase",
+              "phage_integrase",
+              "solute_binding_protein_1",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "pat_bar_acetyltransferase",
+              "tetr_repressor",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 47245016,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 286,
+          "characterize_seconds": 6.28099996902165e-06,
+          "id": "d0009",
+          "predictions": [
+            {
+              "family": "class_a_beta_lactamase",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0009-10"
+            }
+          ],
+          "preprocess_seconds": 2.765099998214282e-05,
+          "queries": [
+            {
+              "id": "d0009-10",
+              "input_residues": 286,
+              "spans": [
+                [
+                  3780,
+                  4641
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0009-10": [
+              "class_a_beta_lactamase",
+              "luxr_autoinducer_regulator",
+              "aminoglycoside_phosphotransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "glycosyl_hydrolase_2",
+              "solute_binding_protein_1",
+              "omp_decarboxylase",
+              "phage_rna_polymerase",
+              "pat_bar_acetyltransferase",
+              "chloramphenicol_acetyltransferase",
+              "arac_regulator",
+              "dhfr_type_2",
+              "gfp_like",
+              "trpf",
+              "thioredoxin",
+              "glycosyl_hydrolase_68",
+              "gst_mu",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "phage_integrase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 13221208,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 238,
+          "characterize_seconds": 0.059030821000078504,
+          "id": "d0010",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "chloramphenicol_acetyltransferase",
+              "query_id": "d0010-4"
+            }
+          ],
+          "preprocess_seconds": 7.242999799927929e-06,
+          "queries": [
+            {
+              "id": "d0010-4",
+              "input_residues": 238,
+              "spans": [
+                [
+                  2725,
+                  3442
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0010-4": [
+              "gfp_like",
+              "igp_dehydratase",
+              "biotin_protein_ligase",
+              "phage_rna_polymerase",
+              "chloramphenicol_acetyltransferase",
+              "initiator_repb",
+              "glycosyl_hydrolase_68",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "class_a_beta_lactamase",
+              "trpf",
+              "pat_bar_acetyltransferase",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 11002264,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 2,
+          "candidate_residues": 653,
+          "characterize_seconds": 7.256000117195072e-06,
+          "id": "d0011",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0011-4"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0011-4"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0011-4"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0011-4"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0011-4"
+            }
+          ],
+          "preprocess_seconds": 6.83260000187147e-05,
+          "queries": [
+            {
+              "id": "d0011-4",
+              "input_residues": 338,
+              "spans": [
+                [
+                  4131,
+                  4134
+                ],
+                [
+                  7107,
+                  8121
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0011-4": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 15625064,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 271,
+          "characterize_seconds": 0.066685839999991,
+          "id": "d0012",
+          "predictions": [
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0012-13"
+            }
+          ],
+          "preprocess_seconds": 8.324999953401857e-06,
+          "queries": [
+            {
+              "id": "d0012-13",
+              "input_residues": 271,
+              "spans": [
+                [
+                  4313,
+                  5129
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0012-13": [
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "ant3_adenylyltransferase",
+              "biotin_protein_ligase",
+              "gfp_like",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "chloramphenicol_acetyltransferase",
+              "reca",
+              "dhfr_type_2",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "tetr_repressor",
+              "thioredoxin",
+              "pat_bar_acetyltransferase",
+              "glycosyl_hydrolase_2",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "trpf",
+              "arac_regulator",
+              "coleopteran_luciferase",
+              "solute_binding_protein_1",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12527788,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 271,
+          "characterize_seconds": 6.722999842168065e-06,
+          "id": "d0013",
+          "predictions": [
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0013-21"
+            }
+          ],
+          "preprocess_seconds": 2.52820000241627e-05,
+          "queries": [
+            {
+              "id": "d0013-21",
+              "input_residues": 271,
+              "spans": [
+                [
+                  6757,
+                  7573
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0013-21": [
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "ant3_adenylyltransferase",
+              "biotin_protein_ligase",
+              "gfp_like",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "chloramphenicol_acetyltransferase",
+              "reca",
+              "dhfr_type_2",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "tetr_repressor",
+              "thioredoxin",
+              "pat_bar_acetyltransferase",
+              "glycosyl_hydrolase_2",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "trpf",
+              "arac_regulator",
+              "coleopteran_luciferase",
+              "solute_binding_protein_1",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12527788,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 368,
+          "characterize_seconds": 0.08746889500002908,
+          "id": "d0014",
+          "predictions": [
+            {
+              "family": "isopropylmalate_dehydrogenase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0014-1"
+            }
+          ],
+          "preprocess_seconds": 6.7600001329992665e-06,
+          "queries": [
+            {
+              "id": "d0014-1",
+              "input_residues": 368,
+              "spans": [
+                [
+                  662,
+                  1769
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0014-1": [
+              "isopropylmalate_dehydrogenase",
+              "omp_decarboxylase",
+              "igp_dehydratase",
+              "phage_rna_polymerase",
+              "biotin_protein_ligase",
+              "initiator_repb",
+              "reca",
+              "gfp_like",
+              "chloramphenicol_acetyltransferase",
+              "ant3_adenylyltransferase",
+              "glycosyl_hydrolase_68",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "tetr_repressor",
+              "trpf",
+              "phage_integrase",
+              "gst_mu",
+              "solute_binding_protein_1",
+              "class_a_beta_lactamase",
+              "pat_bar_acetyltransferase",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "arac_regulator",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 17011904,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 603,
+          "characterize_seconds": 0.30114053100010096,
+          "id": "d0015",
+          "predictions": [
+            {
+              "family": "glycosyl_hydrolase_2",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "glycosyl_hydrolase_68",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0015-4"
+            }
+          ],
+          "preprocess_seconds": 2.2499999886349542e-05,
+          "queries": [
+            {
+              "id": "d0015-4",
+              "input_residues": 603,
+              "spans": [
+                [
+                  1293,
+                  3105
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0015-4": [
+              "glycosyl_hydrolase_2",
+              "glycosyl_hydrolase_68",
+              "gfp_like",
+              "biotin_protein_ligase",
+              "aminoglycoside_phosphotransferase",
+              "reca",
+              "chloramphenicol_acetyltransferase",
+              "omp_decarboxylase",
+              "ant3_adenylyltransferase",
+              "igp_dehydratase",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "isopropylmalate_dehydrogenase",
+              "solute_binding_protein_1",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "trpf",
+              "pat_bar_acetyltransferase",
+              "class_a_beta_lactamase",
+              "coleopteran_luciferase",
+              "thioredoxin",
+              "tetr_repressor",
+              "arac_regulator",
+              "gst_mu",
+              "phage_integrase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 27875484,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        }
+      ],
+      "query_cap": 1
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "candidate_residues": 229,
+          "characterize_seconds": 3.930000048057991e-06,
+          "id": "d0001",
+          "predictions": [
+            {
+              "family": "chloramphenicol_acetyltransferase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0001-11"
+            }
+          ],
+          "preprocess_seconds": 1.8009998257184634e-06,
+          "queries": [
+            {
+              "id": "d0001-11",
+              "input_residues": 229,
+              "spans": [
+                [
+                  6722,
+                  7412
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0001-11": [
+              "chloramphenicol_acetyltransferase",
+              "gfp_like",
+              "biotin_protein_ligase",
+              "igp_dehydratase",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "glycosyl_hydrolase_68",
+              "luxr_autoinducer_regulator",
+              "glycosyl_hydrolase_2",
+              "dhfr_type_2",
+              "thioredoxin",
+              "tetr_repressor",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "trpf",
+              "gst_mu",
+              "pat_bar_acetyltransferase",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 10586212,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 338,
+          "characterize_seconds": 2.6319999051338527e-06,
+          "id": "d0002",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0002-2"
+            }
+          ],
+          "preprocess_seconds": 5.990000317979138e-07,
+          "queries": [
+            {
+              "id": "d0002-2",
+              "input_residues": 338,
+              "spans": [
+                [
+                  857,
+                  1874
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0002-2": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 15625064,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 315,
+          "characterize_seconds": 2.0890001906082034e-06,
+          "id": "d0003",
+          "predictions": [
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0003-2"
+            }
+          ],
+          "preprocess_seconds": 3.039999683096539e-07,
+          "queries": [
+            {
+              "id": "d0003-2",
+              "input_residues": 315,
+              "spans": [
+                [
+                  2051,
+                  2999
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0003-2": [
+              "phage_rna_polymerase",
+              "gfp_like",
+              "omp_decarboxylase",
+              "igp_dehydratase",
+              "biotin_protein_ligase",
+              "initiator_repb",
+              "glycosyl_hydrolase_68",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "chloramphenicol_acetyltransferase",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "pat_bar_acetyltransferase",
+              "class_a_beta_lactamase",
+              "trpf",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 14561820,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 286,
+          "characterize_seconds": 2.0349998521851376e-06,
+          "id": "d0004",
+          "predictions": [
+            {
+              "family": "class_a_beta_lactamase",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0004-6"
+            }
+          ],
+          "preprocess_seconds": 3.1500007935392205e-07,
+          "queries": [
+            {
+              "id": "d0004-6",
+              "input_residues": 286,
+              "spans": [
+                [
+                  3036,
+                  3897
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0004-6": [
+              "class_a_beta_lactamase",
+              "luxr_autoinducer_regulator",
+              "aminoglycoside_phosphotransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "glycosyl_hydrolase_2",
+              "solute_binding_protein_1",
+              "omp_decarboxylase",
+              "phage_rna_polymerase",
+              "pat_bar_acetyltransferase",
+              "chloramphenicol_acetyltransferase",
+              "arac_regulator",
+              "dhfr_type_2",
+              "gfp_like",
+              "trpf",
+              "thioredoxin",
+              "glycosyl_hydrolase_68",
+              "gst_mu",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "phage_integrase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 13221208,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 263,
+          "characterize_seconds": 1.635999979043845e-06,
+          "id": "d0005",
+          "predictions": [
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0005-13"
+            }
+          ],
+          "preprocess_seconds": 6.800000846851617e-07,
+          "queries": [
+            {
+              "id": "d0005-13",
+              "input_residues": 263,
+              "spans": [
+                [
+                  8007,
+                  8799
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0005-13": [
+              "ant3_adenylyltransferase",
+              "omp_decarboxylase",
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "reca",
+              "luxr_autoinducer_regulator",
+              "isopropylmalate_dehydrogenase",
+              "igp_dehydratase",
+              "chloramphenicol_acetyltransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "dhfr_type_2",
+              "gfp_like",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "gst_mu",
+              "glycosyl_hydrolase_2",
+              "trpf",
+              "solute_binding_protein_1",
+              "thioredoxin",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "erm_rrna_methyltransferase",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12157964,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 225,
+          "characterize_seconds": 1.8810001165547874e-06,
+          "id": "d0006",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0006-12"
+            }
+          ],
+          "preprocess_seconds": 6.020000000717118e-07,
+          "queries": [
+            {
+              "id": "d0006-12",
+              "input_residues": 225,
+              "spans": [
+                [
+                  11731,
+                  12409
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0006-12": [
+              "gfp_like",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "initiator_repb",
+              "biotin_protein_ligase",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "chloramphenicol_acetyltransferase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_2",
+              "thioredoxin",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "trpf",
+              "class_a_beta_lactamase",
+              "pat_bar_acetyltransferase",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 10401300,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 338,
+          "characterize_seconds": 2.2960000478633447e-06,
+          "id": "d0007",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0007-12"
+            }
+          ],
+          "preprocess_seconds": 7.23000084690284e-07,
+          "queries": [
+            {
+              "id": "d0007-12",
+              "input_residues": 338,
+              "spans": [
+                [
+                  10473,
+                  11490
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0007-12": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 15625064,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 3,
+          "candidate_residues": 1324,
+          "characterize_seconds": 0.06734189100006915,
+          "id": "d0008",
+          "predictions": [
+            {
+              "family": "glycosyl_hydrolase_68",
+              "query_id": "d0008-5c1"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0008-2"
+            },
+            {
+              "family": "reca",
+              "query_id": "d0008-5c1"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0008-2"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0008-5c1"
+            }
+          ],
+          "preprocess_seconds": 3.60000058208243e-07,
+          "queries": [
+            {
+              "id": "d0008-5c1",
+              "input_residues": 1022,
+              "spans": [
+                [
+                  7091,
+                  10157
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "d0008-2",
+              "input_residues": 264,
+              "spans": [
+                [
+                  825,
+                  1620
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0008-2": [
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "ant3_adenylyltransferase",
+              "chloramphenicol_acetyltransferase",
+              "gfp_like",
+              "biotin_protein_ligase",
+              "reca",
+              "isopropylmalate_dehydrogenase",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "luxr_autoinducer_regulator",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_2",
+              "thioredoxin",
+              "phage_integrase",
+              "glycosyl_hydrolase_68",
+              "dhfr_type_2",
+              "class_a_beta_lactamase",
+              "trpf",
+              "pat_bar_acetyltransferase",
+              "tetr_repressor",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "gst_mu",
+              "solute_binding_protein_1",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ],
+            "d0008-5c1": [
+              "glycosyl_hydrolase_68",
+              "reca",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "biotin_protein_ligase",
+              "ant3_adenylyltransferase",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "gfp_like",
+              "glycosyl_hydrolase_2",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "chloramphenicol_acetyltransferase",
+              "thioredoxin",
+              "erm_rrna_methyltransferase",
+              "trpf",
+              "coleopteran_luciferase",
+              "phage_integrase",
+              "solute_binding_protein_1",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "pat_bar_acetyltransferase",
+              "tetr_repressor",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 59449208,
+            "reference_comparisons": 268,
+            "scorer_inputs": 2
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 286,
+          "characterize_seconds": 4.037000053358497e-06,
+          "id": "d0009",
+          "predictions": [
+            {
+              "family": "class_a_beta_lactamase",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0009-10"
+            }
+          ],
+          "preprocess_seconds": 1.8010000530921388e-06,
+          "queries": [
+            {
+              "id": "d0009-10",
+              "input_residues": 286,
+              "spans": [
+                [
+                  3780,
+                  4641
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0009-10": [
+              "class_a_beta_lactamase",
+              "luxr_autoinducer_regulator",
+              "aminoglycoside_phosphotransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "glycosyl_hydrolase_2",
+              "solute_binding_protein_1",
+              "omp_decarboxylase",
+              "phage_rna_polymerase",
+              "pat_bar_acetyltransferase",
+              "chloramphenicol_acetyltransferase",
+              "arac_regulator",
+              "dhfr_type_2",
+              "gfp_like",
+              "trpf",
+              "thioredoxin",
+              "glycosyl_hydrolase_68",
+              "gst_mu",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "phage_integrase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 13221208,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 238,
+          "characterize_seconds": 1.9999999949504854e-06,
+          "id": "d0010",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "chloramphenicol_acetyltransferase",
+              "query_id": "d0010-4"
+            }
+          ],
+          "preprocess_seconds": 6.389998361555627e-07,
+          "queries": [
+            {
+              "id": "d0010-4",
+              "input_residues": 238,
+              "spans": [
+                [
+                  2725,
+                  3442
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0010-4": [
+              "gfp_like",
+              "igp_dehydratase",
+              "biotin_protein_ligase",
+              "phage_rna_polymerase",
+              "chloramphenicol_acetyltransferase",
+              "initiator_repb",
+              "glycosyl_hydrolase_68",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "class_a_beta_lactamase",
+              "trpf",
+              "pat_bar_acetyltransferase",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 11002264,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 2,
+          "candidate_residues": 653,
+          "characterize_seconds": 4.331000127422158e-06,
+          "id": "d0011",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0011-4"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0011-8"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0011-4"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0011-8"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0011-4"
+            }
+          ],
+          "preprocess_seconds": 6.469999789260328e-07,
+          "queries": [
+            {
+              "id": "d0011-4",
+              "input_residues": 338,
+              "spans": [
+                [
+                  4131,
+                  4134
+                ],
+                [
+                  7107,
+                  8121
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "d0011-8",
+              "input_residues": 315,
+              "spans": [
+                [
+                  11054,
+                  12002
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0011-4": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ],
+            "d0011-8": [
+              "phage_rna_polymerase",
+              "gfp_like",
+              "omp_decarboxylase",
+              "igp_dehydratase",
+              "biotin_protein_ligase",
+              "initiator_repb",
+              "glycosyl_hydrolase_68",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "chloramphenicol_acetyltransferase",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "pat_bar_acetyltransferase",
+              "class_a_beta_lactamase",
+              "trpf",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 30186884,
+            "reference_comparisons": 268,
+            "scorer_inputs": 2
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 271,
+          "characterize_seconds": 2.3410000267176656e-06,
+          "id": "d0012",
+          "predictions": [
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0012-13"
+            }
+          ],
+          "preprocess_seconds": 5.010001586924773e-07,
+          "queries": [
+            {
+              "id": "d0012-13",
+              "input_residues": 271,
+              "spans": [
+                [
+                  4313,
+                  5129
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0012-13": [
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "ant3_adenylyltransferase",
+              "biotin_protein_ligase",
+              "gfp_like",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "chloramphenicol_acetyltransferase",
+              "reca",
+              "dhfr_type_2",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "tetr_repressor",
+              "thioredoxin",
+              "pat_bar_acetyltransferase",
+              "glycosyl_hydrolase_2",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "trpf",
+              "arac_regulator",
+              "coleopteran_luciferase",
+              "solute_binding_protein_1",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12527788,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 271,
+          "characterize_seconds": 2.2589999844058184e-06,
+          "id": "d0013",
+          "predictions": [
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0013-21"
+            }
+          ],
+          "preprocess_seconds": 4.0099985199049115e-07,
+          "queries": [
+            {
+              "id": "d0013-21",
+              "input_residues": 271,
+              "spans": [
+                [
+                  6757,
+                  7573
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0013-21": [
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "ant3_adenylyltransferase",
+              "biotin_protein_ligase",
+              "gfp_like",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "chloramphenicol_acetyltransferase",
+              "reca",
+              "dhfr_type_2",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "tetr_repressor",
+              "thioredoxin",
+              "pat_bar_acetyltransferase",
+              "glycosyl_hydrolase_2",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "trpf",
+              "arac_regulator",
+              "coleopteran_luciferase",
+              "solute_binding_protein_1",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12527788,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 368,
+          "characterize_seconds": 2.3490001694881357e-06,
+          "id": "d0014",
+          "predictions": [
+            {
+              "family": "isopropylmalate_dehydrogenase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0014-1"
+            }
+          ],
+          "preprocess_seconds": 2.109998149535386e-07,
+          "queries": [
+            {
+              "id": "d0014-1",
+              "input_residues": 368,
+              "spans": [
+                [
+                  662,
+                  1769
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0014-1": [
+              "isopropylmalate_dehydrogenase",
+              "omp_decarboxylase",
+              "igp_dehydratase",
+              "phage_rna_polymerase",
+              "biotin_protein_ligase",
+              "initiator_repb",
+              "reca",
+              "gfp_like",
+              "chloramphenicol_acetyltransferase",
+              "ant3_adenylyltransferase",
+              "glycosyl_hydrolase_68",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "tetr_repressor",
+              "trpf",
+              "phage_integrase",
+              "gst_mu",
+              "solute_binding_protein_1",
+              "class_a_beta_lactamase",
+              "pat_bar_acetyltransferase",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "arac_regulator",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 17011904,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 603,
+          "characterize_seconds": 1.8390001059742644e-06,
+          "id": "d0015",
+          "predictions": [
+            {
+              "family": "glycosyl_hydrolase_2",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "glycosyl_hydrolase_68",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0015-4"
+            }
+          ],
+          "preprocess_seconds": 2.9499983611458447e-07,
+          "queries": [
+            {
+              "id": "d0015-4",
+              "input_residues": 603,
+              "spans": [
+                [
+                  1293,
+                  3105
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0015-4": [
+              "glycosyl_hydrolase_2",
+              "glycosyl_hydrolase_68",
+              "gfp_like",
+              "biotin_protein_ligase",
+              "aminoglycoside_phosphotransferase",
+              "reca",
+              "chloramphenicol_acetyltransferase",
+              "omp_decarboxylase",
+              "ant3_adenylyltransferase",
+              "igp_dehydratase",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "isopropylmalate_dehydrogenase",
+              "solute_binding_protein_1",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "trpf",
+              "pat_bar_acetyltransferase",
+              "class_a_beta_lactamase",
+              "coleopteran_luciferase",
+              "thioredoxin",
+              "tetr_repressor",
+              "arac_regulator",
+              "gst_mu",
+              "phage_integrase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 27875484,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        }
+      ],
+      "query_cap": 2
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "candidate_residues": 229,
+          "characterize_seconds": 2.8969998311367817e-06,
+          "id": "d0001",
+          "predictions": [
+            {
+              "family": "chloramphenicol_acetyltransferase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0001-11"
+            }
+          ],
+          "preprocess_seconds": 6.22000015937374e-07,
+          "queries": [
+            {
+              "id": "d0001-11",
+              "input_residues": 229,
+              "spans": [
+                [
+                  6722,
+                  7412
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0001-11": [
+              "chloramphenicol_acetyltransferase",
+              "gfp_like",
+              "biotin_protein_ligase",
+              "igp_dehydratase",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "glycosyl_hydrolase_68",
+              "luxr_autoinducer_regulator",
+              "glycosyl_hydrolase_2",
+              "dhfr_type_2",
+              "thioredoxin",
+              "tetr_repressor",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "trpf",
+              "gst_mu",
+              "pat_bar_acetyltransferase",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 10586212,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 338,
+          "characterize_seconds": 1.742999984344351e-06,
+          "id": "d0002",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0002-2"
+            }
+          ],
+          "preprocess_seconds": 4.75999968330143e-07,
+          "queries": [
+            {
+              "id": "d0002-2",
+              "input_residues": 338,
+              "spans": [
+                [
+                  857,
+                  1874
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0002-2": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 15625064,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 315,
+          "characterize_seconds": 1.3950000266049756e-06,
+          "id": "d0003",
+          "predictions": [
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0003-2"
+            }
+          ],
+          "preprocess_seconds": 3.6500000533123966e-07,
+          "queries": [
+            {
+              "id": "d0003-2",
+              "input_residues": 315,
+              "spans": [
+                [
+                  2051,
+                  2999
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0003-2": [
+              "phage_rna_polymerase",
+              "gfp_like",
+              "omp_decarboxylase",
+              "igp_dehydratase",
+              "biotin_protein_ligase",
+              "initiator_repb",
+              "glycosyl_hydrolase_68",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "chloramphenicol_acetyltransferase",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "pat_bar_acetyltransferase",
+              "class_a_beta_lactamase",
+              "trpf",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 14561820,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 286,
+          "characterize_seconds": 1.610000026630587e-06,
+          "id": "d0004",
+          "predictions": [
+            {
+              "family": "class_a_beta_lactamase",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0004-6"
+            }
+          ],
+          "preprocess_seconds": 3.000000106112566e-07,
+          "queries": [
+            {
+              "id": "d0004-6",
+              "input_residues": 286,
+              "spans": [
+                [
+                  3036,
+                  3897
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0004-6": [
+              "class_a_beta_lactamase",
+              "luxr_autoinducer_regulator",
+              "aminoglycoside_phosphotransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "glycosyl_hydrolase_2",
+              "solute_binding_protein_1",
+              "omp_decarboxylase",
+              "phage_rna_polymerase",
+              "pat_bar_acetyltransferase",
+              "chloramphenicol_acetyltransferase",
+              "arac_regulator",
+              "dhfr_type_2",
+              "gfp_like",
+              "trpf",
+              "thioredoxin",
+              "glycosyl_hydrolase_68",
+              "gst_mu",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "phage_integrase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 13221208,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 263,
+          "characterize_seconds": 1.9300000531075057e-06,
+          "id": "d0005",
+          "predictions": [
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0005-13"
+            }
+          ],
+          "preprocess_seconds": 2.839999524439918e-07,
+          "queries": [
+            {
+              "id": "d0005-13",
+              "input_residues": 263,
+              "spans": [
+                [
+                  8007,
+                  8799
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0005-13": [
+              "ant3_adenylyltransferase",
+              "omp_decarboxylase",
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "reca",
+              "luxr_autoinducer_regulator",
+              "isopropylmalate_dehydrogenase",
+              "igp_dehydratase",
+              "chloramphenicol_acetyltransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "dhfr_type_2",
+              "gfp_like",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "gst_mu",
+              "glycosyl_hydrolase_2",
+              "trpf",
+              "solute_binding_protein_1",
+              "thioredoxin",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "erm_rrna_methyltransferase",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12157964,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 225,
+          "characterize_seconds": 1.7919999208970694e-06,
+          "id": "d0006",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0006-12"
+            }
+          ],
+          "preprocess_seconds": 4.5199999476608355e-07,
+          "queries": [
+            {
+              "id": "d0006-12",
+              "input_residues": 225,
+              "spans": [
+                [
+                  11731,
+                  12409
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0006-12": [
+              "gfp_like",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "initiator_repb",
+              "biotin_protein_ligase",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "chloramphenicol_acetyltransferase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_2",
+              "thioredoxin",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "trpf",
+              "class_a_beta_lactamase",
+              "pat_bar_acetyltransferase",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 10401300,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 338,
+          "characterize_seconds": 1.5250000160449417e-06,
+          "id": "d0007",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0007-12"
+            }
+          ],
+          "preprocess_seconds": 5.760000476584537e-07,
+          "queries": [
+            {
+              "id": "d0007-12",
+              "input_residues": 338,
+              "spans": [
+                [
+                  10473,
+                  11490
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0007-12": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 15625064,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 3,
+          "candidate_residues": 1324,
+          "characterize_seconds": 0.03037416199981635,
+          "id": "d0008",
+          "predictions": [
+            {
+              "family": "glycosyl_hydrolase_68",
+              "query_id": "d0008-5c1"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0008-2"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0008-5c2"
+            },
+            {
+              "family": "reca",
+              "query_id": "d0008-5c1"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0008-2"
+            }
+          ],
+          "preprocess_seconds": 2.0900006347801536e-07,
+          "queries": [
+            {
+              "id": "d0008-5c1",
+              "input_residues": 1022,
+              "spans": [
+                [
+                  7091,
+                  10157
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "d0008-2",
+              "input_residues": 264,
+              "spans": [
+                [
+                  825,
+                  1620
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "d0008-5c2",
+              "input_residues": 38,
+              "spans": [
+                [
+                  10157,
+                  10271
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0008-2": [
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "ant3_adenylyltransferase",
+              "chloramphenicol_acetyltransferase",
+              "gfp_like",
+              "biotin_protein_ligase",
+              "reca",
+              "isopropylmalate_dehydrogenase",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "luxr_autoinducer_regulator",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_2",
+              "thioredoxin",
+              "phage_integrase",
+              "glycosyl_hydrolase_68",
+              "dhfr_type_2",
+              "class_a_beta_lactamase",
+              "trpf",
+              "pat_bar_acetyltransferase",
+              "tetr_repressor",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "gst_mu",
+              "solute_binding_protein_1",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ],
+            "d0008-5c1": [
+              "glycosyl_hydrolase_68",
+              "reca",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "biotin_protein_ligase",
+              "ant3_adenylyltransferase",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "gfp_like",
+              "glycosyl_hydrolase_2",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "chloramphenicol_acetyltransferase",
+              "thioredoxin",
+              "erm_rrna_methyltransferase",
+              "trpf",
+              "coleopteran_luciferase",
+              "phage_integrase",
+              "solute_binding_protein_1",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "pat_bar_acetyltransferase",
+              "tetr_repressor",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ],
+            "d0008-5c2": [
+              "omp_decarboxylase",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "dhfr_type_2",
+              "biotin_protein_ligase",
+              "glycosyl_hydrolase_68",
+              "isopropylmalate_dehydrogenase",
+              "gfp_like",
+              "reca",
+              "aminoglycoside_phosphotransferase",
+              "chloramphenicol_acetyltransferase",
+              "luxr_autoinducer_regulator",
+              "ant3_adenylyltransferase",
+              "tetr_repressor",
+              "glycosyl_hydrolase_2",
+              "thioredoxin",
+              "pat_bar_acetyltransferase",
+              "phage_integrase",
+              "gst_mu",
+              "solute_binding_protein_1",
+              "class_a_beta_lactamase",
+              "trpf",
+              "erm_rrna_methyltransferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "coleopteran_luciferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 61205872,
+            "reference_comparisons": 402,
+            "scorer_inputs": 3
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 286,
+          "characterize_seconds": 3.94699986827618e-06,
+          "id": "d0009",
+          "predictions": [
+            {
+              "family": "class_a_beta_lactamase",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0009-10"
+            }
+          ],
+          "preprocess_seconds": 1.990000100704492e-06,
+          "queries": [
+            {
+              "id": "d0009-10",
+              "input_residues": 286,
+              "spans": [
+                [
+                  3780,
+                  4641
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0009-10": [
+              "class_a_beta_lactamase",
+              "luxr_autoinducer_regulator",
+              "aminoglycoside_phosphotransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "glycosyl_hydrolase_2",
+              "solute_binding_protein_1",
+              "omp_decarboxylase",
+              "phage_rna_polymerase",
+              "pat_bar_acetyltransferase",
+              "chloramphenicol_acetyltransferase",
+              "arac_regulator",
+              "dhfr_type_2",
+              "gfp_like",
+              "trpf",
+              "thioredoxin",
+              "glycosyl_hydrolase_68",
+              "gst_mu",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "phage_integrase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 13221208,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 238,
+          "characterize_seconds": 2.0850000055361306e-06,
+          "id": "d0010",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "chloramphenicol_acetyltransferase",
+              "query_id": "d0010-4"
+            }
+          ],
+          "preprocess_seconds": 4.119999630347593e-07,
+          "queries": [
+            {
+              "id": "d0010-4",
+              "input_residues": 238,
+              "spans": [
+                [
+                  2725,
+                  3442
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0010-4": [
+              "gfp_like",
+              "igp_dehydratase",
+              "biotin_protein_ligase",
+              "phage_rna_polymerase",
+              "chloramphenicol_acetyltransferase",
+              "initiator_repb",
+              "glycosyl_hydrolase_68",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "class_a_beta_lactamase",
+              "trpf",
+              "pat_bar_acetyltransferase",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 11002264,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 2,
+          "candidate_residues": 653,
+          "characterize_seconds": 3.6770002225239296e-06,
+          "id": "d0011",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0011-4"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0011-8"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0011-4"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0011-8"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0011-4"
+            }
+          ],
+          "preprocess_seconds": 5.2699988373206e-07,
+          "queries": [
+            {
+              "id": "d0011-4",
+              "input_residues": 338,
+              "spans": [
+                [
+                  4131,
+                  4134
+                ],
+                [
+                  7107,
+                  8121
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "d0011-8",
+              "input_residues": 315,
+              "spans": [
+                [
+                  11054,
+                  12002
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0011-4": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ],
+            "d0011-8": [
+              "phage_rna_polymerase",
+              "gfp_like",
+              "omp_decarboxylase",
+              "igp_dehydratase",
+              "biotin_protein_ligase",
+              "initiator_repb",
+              "glycosyl_hydrolase_68",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "chloramphenicol_acetyltransferase",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "pat_bar_acetyltransferase",
+              "class_a_beta_lactamase",
+              "trpf",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 30186884,
+            "reference_comparisons": 268,
+            "scorer_inputs": 2
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 271,
+          "characterize_seconds": 2.3549998786620563e-06,
+          "id": "d0012",
+          "predictions": [
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0012-13"
+            }
+          ],
+          "preprocess_seconds": 3.4799995773937553e-07,
+          "queries": [
+            {
+              "id": "d0012-13",
+              "input_residues": 271,
+              "spans": [
+                [
+                  4313,
+                  5129
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0012-13": [
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "ant3_adenylyltransferase",
+              "biotin_protein_ligase",
+              "gfp_like",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "chloramphenicol_acetyltransferase",
+              "reca",
+              "dhfr_type_2",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "tetr_repressor",
+              "thioredoxin",
+              "pat_bar_acetyltransferase",
+              "glycosyl_hydrolase_2",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "trpf",
+              "arac_regulator",
+              "coleopteran_luciferase",
+              "solute_binding_protein_1",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12527788,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 271,
+          "characterize_seconds": 1.8709999949351186e-06,
+          "id": "d0013",
+          "predictions": [
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0013-21"
+            }
+          ],
+          "preprocess_seconds": 2.8599993129319046e-07,
+          "queries": [
+            {
+              "id": "d0013-21",
+              "input_residues": 271,
+              "spans": [
+                [
+                  6757,
+                  7573
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0013-21": [
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "ant3_adenylyltransferase",
+              "biotin_protein_ligase",
+              "gfp_like",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "chloramphenicol_acetyltransferase",
+              "reca",
+              "dhfr_type_2",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "tetr_repressor",
+              "thioredoxin",
+              "pat_bar_acetyltransferase",
+              "glycosyl_hydrolase_2",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "trpf",
+              "arac_regulator",
+              "coleopteran_luciferase",
+              "solute_binding_protein_1",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12527788,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 368,
+          "characterize_seconds": 2.103000042552594e-06,
+          "id": "d0014",
+          "predictions": [
+            {
+              "family": "isopropylmalate_dehydrogenase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0014-1"
+            }
+          ],
+          "preprocess_seconds": 1.720000000204891e-07,
+          "queries": [
+            {
+              "id": "d0014-1",
+              "input_residues": 368,
+              "spans": [
+                [
+                  662,
+                  1769
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0014-1": [
+              "isopropylmalate_dehydrogenase",
+              "omp_decarboxylase",
+              "igp_dehydratase",
+              "phage_rna_polymerase",
+              "biotin_protein_ligase",
+              "initiator_repb",
+              "reca",
+              "gfp_like",
+              "chloramphenicol_acetyltransferase",
+              "ant3_adenylyltransferase",
+              "glycosyl_hydrolase_68",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "tetr_repressor",
+              "trpf",
+              "phage_integrase",
+              "gst_mu",
+              "solute_binding_protein_1",
+              "class_a_beta_lactamase",
+              "pat_bar_acetyltransferase",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "arac_regulator",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 17011904,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 603,
+          "characterize_seconds": 2.2459998945123516e-06,
+          "id": "d0015",
+          "predictions": [
+            {
+              "family": "glycosyl_hydrolase_2",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "glycosyl_hydrolase_68",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0015-4"
+            }
+          ],
+          "preprocess_seconds": 3.1200011108012404e-07,
+          "queries": [
+            {
+              "id": "d0015-4",
+              "input_residues": 603,
+              "spans": [
+                [
+                  1293,
+                  3105
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0015-4": [
+              "glycosyl_hydrolase_2",
+              "glycosyl_hydrolase_68",
+              "gfp_like",
+              "biotin_protein_ligase",
+              "aminoglycoside_phosphotransferase",
+              "reca",
+              "chloramphenicol_acetyltransferase",
+              "omp_decarboxylase",
+              "ant3_adenylyltransferase",
+              "igp_dehydratase",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "isopropylmalate_dehydrogenase",
+              "solute_binding_protein_1",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "trpf",
+              "pat_bar_acetyltransferase",
+              "class_a_beta_lactamase",
+              "coleopteran_luciferase",
+              "thioredoxin",
+              "tetr_repressor",
+              "arac_regulator",
+              "gst_mu",
+              "phage_integrase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 27875484,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        }
+      ],
+      "query_cap": 4
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "candidate_residues": 229,
+          "characterize_seconds": 2.2300000637187622e-06,
+          "id": "d0001",
+          "predictions": [
+            {
+              "family": "chloramphenicol_acetyltransferase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0001-11"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0001-11"
+            }
+          ],
+          "preprocess_seconds": 6.4299979385396e-07,
+          "queries": [
+            {
+              "id": "d0001-11",
+              "input_residues": 229,
+              "spans": [
+                [
+                  6722,
+                  7412
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0001-11": [
+              "chloramphenicol_acetyltransferase",
+              "gfp_like",
+              "biotin_protein_ligase",
+              "igp_dehydratase",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "glycosyl_hydrolase_68",
+              "luxr_autoinducer_regulator",
+              "glycosyl_hydrolase_2",
+              "dhfr_type_2",
+              "thioredoxin",
+              "tetr_repressor",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "trpf",
+              "gst_mu",
+              "pat_bar_acetyltransferase",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 10586212,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 338,
+          "characterize_seconds": 2.3159998363553314e-06,
+          "id": "d0002",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0002-2"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0002-2"
+            }
+          ],
+          "preprocess_seconds": 5.000001692678779e-07,
+          "queries": [
+            {
+              "id": "d0002-2",
+              "input_residues": 338,
+              "spans": [
+                [
+                  857,
+                  1874
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0002-2": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 15625064,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 315,
+          "characterize_seconds": 1.663999910306302e-06,
+          "id": "d0003",
+          "predictions": [
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0003-2"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0003-2"
+            }
+          ],
+          "preprocess_seconds": 3.6200003705744166e-07,
+          "queries": [
+            {
+              "id": "d0003-2",
+              "input_residues": 315,
+              "spans": [
+                [
+                  2051,
+                  2999
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0003-2": [
+              "phage_rna_polymerase",
+              "gfp_like",
+              "omp_decarboxylase",
+              "igp_dehydratase",
+              "biotin_protein_ligase",
+              "initiator_repb",
+              "glycosyl_hydrolase_68",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "chloramphenicol_acetyltransferase",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "pat_bar_acetyltransferase",
+              "class_a_beta_lactamase",
+              "trpf",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 14561820,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 286,
+          "characterize_seconds": 1.4649999684479553e-06,
+          "id": "d0004",
+          "predictions": [
+            {
+              "family": "class_a_beta_lactamase",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0004-6"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0004-6"
+            }
+          ],
+          "preprocess_seconds": 1.690000317466911e-07,
+          "queries": [
+            {
+              "id": "d0004-6",
+              "input_residues": 286,
+              "spans": [
+                [
+                  3036,
+                  3897
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0004-6": [
+              "class_a_beta_lactamase",
+              "luxr_autoinducer_regulator",
+              "aminoglycoside_phosphotransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "glycosyl_hydrolase_2",
+              "solute_binding_protein_1",
+              "omp_decarboxylase",
+              "phage_rna_polymerase",
+              "pat_bar_acetyltransferase",
+              "chloramphenicol_acetyltransferase",
+              "arac_regulator",
+              "dhfr_type_2",
+              "gfp_like",
+              "trpf",
+              "thioredoxin",
+              "glycosyl_hydrolase_68",
+              "gst_mu",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "phage_integrase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 13221208,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 263,
+          "characterize_seconds": 1.6680000953783747e-06,
+          "id": "d0005",
+          "predictions": [
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0005-13"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0005-13"
+            }
+          ],
+          "preprocess_seconds": 2.8299996301939245e-07,
+          "queries": [
+            {
+              "id": "d0005-13",
+              "input_residues": 263,
+              "spans": [
+                [
+                  8007,
+                  8799
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0005-13": [
+              "ant3_adenylyltransferase",
+              "omp_decarboxylase",
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "reca",
+              "luxr_autoinducer_regulator",
+              "isopropylmalate_dehydrogenase",
+              "igp_dehydratase",
+              "chloramphenicol_acetyltransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "dhfr_type_2",
+              "gfp_like",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "gst_mu",
+              "glycosyl_hydrolase_2",
+              "trpf",
+              "solute_binding_protein_1",
+              "thioredoxin",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "erm_rrna_methyltransferase",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12157964,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 225,
+          "characterize_seconds": 1.677999989624368e-06,
+          "id": "d0006",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0006-12"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0006-12"
+            }
+          ],
+          "preprocess_seconds": 4.779999471793417e-07,
+          "queries": [
+            {
+              "id": "d0006-12",
+              "input_residues": 225,
+              "spans": [
+                [
+                  11731,
+                  12409
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0006-12": [
+              "gfp_like",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "initiator_repb",
+              "biotin_protein_ligase",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "chloramphenicol_acetyltransferase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_2",
+              "thioredoxin",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "trpf",
+              "class_a_beta_lactamase",
+              "pat_bar_acetyltransferase",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 10401300,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 338,
+          "characterize_seconds": 2.1479997940332396e-06,
+          "id": "d0007",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0007-12"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0007-12"
+            }
+          ],
+          "preprocess_seconds": 4.4600005821848754e-07,
+          "queries": [
+            {
+              "id": "d0007-12",
+              "input_residues": 338,
+              "spans": [
+                [
+                  10473,
+                  11490
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0007-12": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 15625064,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 3,
+          "candidate_residues": 1324,
+          "characterize_seconds": 2.4859998575266218e-06,
+          "id": "d0008",
+          "predictions": [
+            {
+              "family": "glycosyl_hydrolase_68",
+              "query_id": "d0008-5c1"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0008-2"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0008-5c2"
+            },
+            {
+              "family": "reca",
+              "query_id": "d0008-5c1"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0008-2"
+            }
+          ],
+          "preprocess_seconds": 2.0900006347801536e-07,
+          "queries": [
+            {
+              "id": "d0008-5c1",
+              "input_residues": 1022,
+              "spans": [
+                [
+                  7091,
+                  10157
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "d0008-2",
+              "input_residues": 264,
+              "spans": [
+                [
+                  825,
+                  1620
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "d0008-5c2",
+              "input_residues": 38,
+              "spans": [
+                [
+                  10157,
+                  10271
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0008-2": [
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "ant3_adenylyltransferase",
+              "chloramphenicol_acetyltransferase",
+              "gfp_like",
+              "biotin_protein_ligase",
+              "reca",
+              "isopropylmalate_dehydrogenase",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "luxr_autoinducer_regulator",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_2",
+              "thioredoxin",
+              "phage_integrase",
+              "glycosyl_hydrolase_68",
+              "dhfr_type_2",
+              "class_a_beta_lactamase",
+              "trpf",
+              "pat_bar_acetyltransferase",
+              "tetr_repressor",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "gst_mu",
+              "solute_binding_protein_1",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ],
+            "d0008-5c1": [
+              "glycosyl_hydrolase_68",
+              "reca",
+              "initiator_repb",
+              "phage_rna_polymerase",
+              "biotin_protein_ligase",
+              "ant3_adenylyltransferase",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "gfp_like",
+              "glycosyl_hydrolase_2",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "chloramphenicol_acetyltransferase",
+              "thioredoxin",
+              "erm_rrna_methyltransferase",
+              "trpf",
+              "coleopteran_luciferase",
+              "phage_integrase",
+              "solute_binding_protein_1",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "pat_bar_acetyltransferase",
+              "tetr_repressor",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ],
+            "d0008-5c2": [
+              "omp_decarboxylase",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "dhfr_type_2",
+              "biotin_protein_ligase",
+              "glycosyl_hydrolase_68",
+              "isopropylmalate_dehydrogenase",
+              "gfp_like",
+              "reca",
+              "aminoglycoside_phosphotransferase",
+              "chloramphenicol_acetyltransferase",
+              "luxr_autoinducer_regulator",
+              "ant3_adenylyltransferase",
+              "tetr_repressor",
+              "glycosyl_hydrolase_2",
+              "thioredoxin",
+              "pat_bar_acetyltransferase",
+              "phage_integrase",
+              "gst_mu",
+              "solute_binding_protein_1",
+              "class_a_beta_lactamase",
+              "trpf",
+              "erm_rrna_methyltransferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "coleopteran_luciferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 61205872,
+            "reference_comparisons": 402,
+            "scorer_inputs": 3
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 286,
+          "characterize_seconds": 1.500000053056283e-06,
+          "id": "d0009",
+          "predictions": [
+            {
+              "family": "class_a_beta_lactamase",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0009-10"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0009-10"
+            }
+          ],
+          "preprocess_seconds": 1.9200001588615123e-07,
+          "queries": [
+            {
+              "id": "d0009-10",
+              "input_residues": 286,
+              "spans": [
+                [
+                  3780,
+                  4641
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0009-10": [
+              "class_a_beta_lactamase",
+              "luxr_autoinducer_regulator",
+              "aminoglycoside_phosphotransferase",
+              "tetr_repressor",
+              "biotin_protein_ligase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "glycosyl_hydrolase_2",
+              "solute_binding_protein_1",
+              "omp_decarboxylase",
+              "phage_rna_polymerase",
+              "pat_bar_acetyltransferase",
+              "chloramphenicol_acetyltransferase",
+              "arac_regulator",
+              "dhfr_type_2",
+              "gfp_like",
+              "trpf",
+              "thioredoxin",
+              "glycosyl_hydrolase_68",
+              "gst_mu",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "phage_integrase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 13221208,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 238,
+          "characterize_seconds": 1.8999999156221747e-06,
+          "id": "d0010",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0010-4"
+            },
+            {
+              "family": "chloramphenicol_acetyltransferase",
+              "query_id": "d0010-4"
+            }
+          ],
+          "preprocess_seconds": 1.7100001059588976e-07,
+          "queries": [
+            {
+              "id": "d0010-4",
+              "input_residues": 238,
+              "spans": [
+                [
+                  2725,
+                  3442
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0010-4": [
+              "gfp_like",
+              "igp_dehydratase",
+              "biotin_protein_ligase",
+              "phage_rna_polymerase",
+              "chloramphenicol_acetyltransferase",
+              "initiator_repb",
+              "glycosyl_hydrolase_68",
+              "omp_decarboxylase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "class_a_beta_lactamase",
+              "trpf",
+              "pat_bar_acetyltransferase",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 11002264,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 2,
+          "candidate_residues": 653,
+          "characterize_seconds": 1.683999926171964e-06,
+          "id": "d0011",
+          "predictions": [
+            {
+              "family": "tetr_repressor",
+              "query_id": "d0011-4"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0011-8"
+            },
+            {
+              "family": "luxr_autoinducer_regulator",
+              "query_id": "d0011-4"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0011-8"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0011-4"
+            }
+          ],
+          "preprocess_seconds": 2.6699990485212766e-07,
+          "queries": [
+            {
+              "id": "d0011-4",
+              "input_residues": 338,
+              "spans": [
+                [
+                  4131,
+                  4134
+                ],
+                [
+                  7107,
+                  8121
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "d0011-8",
+              "input_residues": 315,
+              "spans": [
+                [
+                  11054,
+                  12002
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0011-4": [
+              "tetr_repressor",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "igp_dehydratase",
+              "aminoglycoside_phosphotransferase",
+              "omp_decarboxylase",
+              "chloramphenicol_acetyltransferase",
+              "biotin_protein_ligase",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "ant3_adenylyltransferase",
+              "gfp_like",
+              "dhfr_type_2",
+              "glycosyl_hydrolase_68",
+              "pat_bar_acetyltransferase",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "class_a_beta_lactamase",
+              "phage_integrase",
+              "gst_mu",
+              "arac_regulator",
+              "solute_binding_protein_1",
+              "trpf",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ],
+            "d0011-8": [
+              "phage_rna_polymerase",
+              "gfp_like",
+              "omp_decarboxylase",
+              "igp_dehydratase",
+              "biotin_protein_ligase",
+              "initiator_repb",
+              "glycosyl_hydrolase_68",
+              "isopropylmalate_dehydrogenase",
+              "reca",
+              "chloramphenicol_acetyltransferase",
+              "ant3_adenylyltransferase",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "luxr_autoinducer_regulator",
+              "phage_integrase",
+              "tetr_repressor",
+              "gst_mu",
+              "pat_bar_acetyltransferase",
+              "class_a_beta_lactamase",
+              "trpf",
+              "solute_binding_protein_1",
+              "coleopteran_luciferase",
+              "arac_regulator",
+              "tcr_tet_efflux",
+              "erm_rrna_methyltransferase",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 30186884,
+            "reference_comparisons": 268,
+            "scorer_inputs": 2
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 271,
+          "characterize_seconds": 2.0489999315032037e-06,
+          "id": "d0012",
+          "predictions": [
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0012-13"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0012-13"
+            }
+          ],
+          "preprocess_seconds": 1.7299998944508843e-07,
+          "queries": [
+            {
+              "id": "d0012-13",
+              "input_residues": 271,
+              "spans": [
+                [
+                  4313,
+                  5129
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0012-13": [
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "ant3_adenylyltransferase",
+              "biotin_protein_ligase",
+              "gfp_like",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "chloramphenicol_acetyltransferase",
+              "reca",
+              "dhfr_type_2",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "tetr_repressor",
+              "thioredoxin",
+              "pat_bar_acetyltransferase",
+              "glycosyl_hydrolase_2",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "trpf",
+              "arac_regulator",
+              "coleopteran_luciferase",
+              "solute_binding_protein_1",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12527788,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 271,
+          "characterize_seconds": 1.6770000001997687e-06,
+          "id": "d0013",
+          "predictions": [
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "initiator_repb",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "ant3_adenylyltransferase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0013-21"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0013-21"
+            }
+          ],
+          "preprocess_seconds": 1.8199989426648244e-07,
+          "queries": [
+            {
+              "id": "d0013-21",
+              "input_residues": 271,
+              "spans": [
+                [
+                  6757,
+                  7573
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0013-21": [
+              "aminoglycoside_phosphotransferase",
+              "initiator_repb",
+              "ant3_adenylyltransferase",
+              "biotin_protein_ligase",
+              "gfp_like",
+              "luxr_autoinducer_regulator",
+              "phage_rna_polymerase",
+              "igp_dehydratase",
+              "isopropylmalate_dehydrogenase",
+              "chloramphenicol_acetyltransferase",
+              "reca",
+              "dhfr_type_2",
+              "omp_decarboxylase",
+              "glycosyl_hydrolase_68",
+              "tetr_repressor",
+              "thioredoxin",
+              "pat_bar_acetyltransferase",
+              "glycosyl_hydrolase_2",
+              "phage_integrase",
+              "class_a_beta_lactamase",
+              "gst_mu",
+              "trpf",
+              "arac_regulator",
+              "coleopteran_luciferase",
+              "solute_binding_protein_1",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 12527788,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 368,
+          "characterize_seconds": 1.6840001535456395e-06,
+          "id": "d0014",
+          "predictions": [
+            {
+              "family": "isopropylmalate_dehydrogenase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "omp_decarboxylase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "igp_dehydratase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "phage_rna_polymerase",
+              "query_id": "d0014-1"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0014-1"
+            }
+          ],
+          "preprocess_seconds": 2.0499987840594258e-07,
+          "queries": [
+            {
+              "id": "d0014-1",
+              "input_residues": 368,
+              "spans": [
+                [
+                  662,
+                  1769
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "query_family_rankings": {
+            "d0014-1": [
+              "isopropylmalate_dehydrogenase",
+              "omp_decarboxylase",
+              "igp_dehydratase",
+              "phage_rna_polymerase",
+              "biotin_protein_ligase",
+              "initiator_repb",
+              "reca",
+              "gfp_like",
+              "chloramphenicol_acetyltransferase",
+              "ant3_adenylyltransferase",
+              "glycosyl_hydrolase_68",
+              "aminoglycoside_phosphotransferase",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "thioredoxin",
+              "glycosyl_hydrolase_2",
+              "tetr_repressor",
+              "trpf",
+              "phage_integrase",
+              "gst_mu",
+              "solute_binding_protein_1",
+              "class_a_beta_lactamase",
+              "pat_bar_acetyltransferase",
+              "coleopteran_luciferase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "arac_regulator",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 17011904,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        },
+        {
+          "candidate_count": 1,
+          "candidate_residues": 603,
+          "characterize_seconds": 1.8230000478069996e-06,
+          "id": "d0015",
+          "predictions": [
+            {
+              "family": "glycosyl_hydrolase_2",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "glycosyl_hydrolase_68",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "biotin_protein_ligase",
+              "query_id": "d0015-4"
+            },
+            {
+              "family": "aminoglycoside_phosphotransferase",
+              "query_id": "d0015-4"
+            }
+          ],
+          "preprocess_seconds": 2.100000529026147e-07,
+          "queries": [
+            {
+              "id": "d0015-4",
+              "input_residues": 603,
+              "spans": [
+                [
+                  1293,
+                  3105
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "query_family_rankings": {
+            "d0015-4": [
+              "glycosyl_hydrolase_2",
+              "glycosyl_hydrolase_68",
+              "gfp_like",
+              "biotin_protein_ligase",
+              "aminoglycoside_phosphotransferase",
+              "reca",
+              "chloramphenicol_acetyltransferase",
+              "omp_decarboxylase",
+              "ant3_adenylyltransferase",
+              "igp_dehydratase",
+              "phage_rna_polymerase",
+              "initiator_repb",
+              "isopropylmalate_dehydrogenase",
+              "solute_binding_protein_1",
+              "dhfr_type_2",
+              "luxr_autoinducer_regulator",
+              "trpf",
+              "pat_bar_acetyltransferase",
+              "class_a_beta_lactamase",
+              "coleopteran_luciferase",
+              "thioredoxin",
+              "tetr_repressor",
+              "arac_regulator",
+              "gst_mu",
+              "phage_integrase",
+              "erm_rrna_methyltransferase",
+              "tcr_tet_efflux",
+              "laci_galr_repressor"
+            ]
+          },
+          "status": "ok",
+          "work": {
+            "alignment_cells": 27875484,
+            "reference_comparisons": 134,
+            "scorer_inputs": 1
+          }
+        }
+      ],
+      "query_cap": 8
+    }
+  ],
+  "unique_scorer_inputs": 13,
+  "unique_scoring_seconds": 1.6685679980002988,
+  "wall_seconds": 18.357398785999976
+}

@@ -1,0 +1,709 @@
+{
+  "alignment": {
+    "extend_gap_score": -0.5,
+    "matrix": "BLOSUM62",
+    "mode": "local",
+    "normalization": "reference self-score",
+    "open_gap_score": -10.0
+  },
+  "characterization_id": "normalized-blosum62-reporter-panel-v0",
+  "characterizer": "blosum62",
+  "input_sha256": "1dd66cb03c71fa9b9ec845273d6a84cd318a868cd5d8e184997f4d6338747d66",
+  "method": "annotation_reference",
+  "reference_count": 10,
+  "reference_panel_sha256": "4a54303a838221bb8712d78079193616a421909a4a8317852270ddae67abc4f4",
+  "schema": "paired-preprocessing-1",
+  "selected_inputs_sha256": "e3fc86330a133ca8cecd79826ebbcf09eded4afc752b11ddc71bdbdd3d7a25e4",
+  "tiers": [
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.00578877499998498,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "araC",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-01-1"
+            }
+          ],
+          "preprocess_seconds": 4.584999999224237e-06,
+          "queries": [
+            {
+              "id": "construct-01-1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  702
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.0073436270000115655,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-02-6"
+            }
+          ],
+          "preprocess_seconds": 4.750000016429112e-06,
+          "queries": [
+            {
+              "id": "construct-02-6",
+              "input_residues": 292,
+              "spans": [
+                [
+                  967,
+                  1846
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.01137131100000488,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "araC",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-03-1"
+            }
+          ],
+          "preprocess_seconds": 2.2209999883671117e-06,
+          "queries": [
+            {
+              "id": "construct-03-1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1458
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.006283420999977807,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "hisat",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-04-2"
+            }
+          ],
+          "preprocess_seconds": 2.796000046600966e-06,
+          "queries": [
+            {
+              "id": "construct-04-2",
+              "input_residues": 267,
+              "spans": [
+                [
+                  1006,
+                  1093
+                ],
+                [
+                  2530,
+                  3247
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.005518214000005628,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "araC",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-05-2"
+            }
+          ],
+          "preprocess_seconds": 2.0319999975981773e-06,
+          "queries": [
+            {
+              "id": "construct-05-2",
+              "input_residues": 225,
+              "spans": [
+                [
+                  2526,
+                  3204
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 1
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.0057891459999837025,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "araC",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-01-1"
+            }
+          ],
+          "preprocess_seconds": 2.1430000174404995e-06,
+          "queries": [
+            {
+              "id": "construct-01-1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  702
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.01408518699997785,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "construct-02-10"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-02-10"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "construct-02-6"
+            }
+          ],
+          "preprocess_seconds": 4.289000003154797e-06,
+          "queries": [
+            {
+              "id": "construct-02-6",
+              "input_residues": 292,
+              "spans": [
+                [
+                  967,
+                  1846
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "construct-02-10",
+              "input_residues": 274,
+              "spans": [
+                [
+                  2254,
+                  3079
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.01134890999998106,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "araC",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-03-1"
+            }
+          ],
+          "preprocess_seconds": 3.2730000043557084e-06,
+          "queries": [
+            {
+              "id": "construct-03-1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1458
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.006341950999967594,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "hisat",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-04-2"
+            }
+          ],
+          "preprocess_seconds": 2.482000013515062e-06,
+          "queries": [
+            {
+              "id": "construct-04-2",
+              "input_residues": 267,
+              "spans": [
+                [
+                  1006,
+                  1093
+                ],
+                [
+                  2530,
+                  3247
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.005492990999982794,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "araC",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-05-2"
+            }
+          ],
+          "preprocess_seconds": 2.0219999896653462e-06,
+          "queries": [
+            {
+              "id": "construct-05-2",
+              "input_residues": 225,
+              "spans": [
+                [
+                  2526,
+                  3204
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 2
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.005751597000028141,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "araC",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-01-1"
+            }
+          ],
+          "preprocess_seconds": 2.9440000162139768e-06,
+          "queries": [
+            {
+              "id": "construct-01-1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  702
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.019810786000050484,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "construct-02-10"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "construct-02-2"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-02-10"
+            }
+          ],
+          "preprocess_seconds": 3.6589999581337906e-06,
+          "queries": [
+            {
+              "id": "construct-02-6",
+              "input_residues": 292,
+              "spans": [
+                [
+                  967,
+                  1846
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "construct-02-10",
+              "input_residues": 274,
+              "spans": [
+                [
+                  2254,
+                  3079
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "construct-02-2",
+              "input_residues": 225,
+              "spans": [
+                [
+                  0,
+                  678
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.011196950999988076,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "araC",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-03-1"
+            }
+          ],
+          "preprocess_seconds": 2.850999976544699e-06,
+          "queries": [
+            {
+              "id": "construct-03-1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1458
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.006932003999963854,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "hisat",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-04-2"
+            }
+          ],
+          "preprocess_seconds": 2.138000013474084e-06,
+          "queries": [
+            {
+              "id": "construct-04-2",
+              "input_residues": 267,
+              "spans": [
+                [
+                  1006,
+                  1093
+                ],
+                [
+                  2530,
+                  3247
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.0055578289999971275,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "adk",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "araC",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-05-2"
+            }
+          ],
+          "preprocess_seconds": 3.2250000003841706e-06,
+          "queries": [
+            {
+              "id": "construct-05-2",
+              "input_residues": 225,
+              "spans": [
+                [
+                  2526,
+                  3204
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 4
+    }
+  ]
+}

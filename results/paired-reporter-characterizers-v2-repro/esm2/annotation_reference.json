@@ -1,0 +1,719 @@
+{
+  "characterization_id": "esm2-8m-reporter-panel-v0",
+  "characterizer": "esm2",
+  "input_sha256": "1dd66cb03c71fa9b9ec845273d6a84cd318a868cd5d8e184997f4d6338747d66",
+  "method": "annotation_reference",
+  "model": {
+    "device": "cpu",
+    "input_tracks": "sequence only",
+    "max_residues": 1022,
+    "model": "esm2",
+    "offline": true,
+    "precision_policy": "float32 weights; no autocast",
+    "repository": "facebook/esm2_t6_8M_UR50D",
+    "representation": "Final adapter output; residue mean; BOS/EOS/PAD excluded",
+    "requested_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "resolved_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "torch_num_interop_threads": 1,
+    "torch_num_threads": 2,
+    "truncation": false,
+    "unused_checkpoint_heads": "Masked language model head excluded; no additional pooler initialized",
+    "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+  },
+  "reference_count": 10,
+  "reference_panel_sha256": "4a54303a838221bb8712d78079193616a421909a4a8317852270ddae67abc4f4",
+  "schema": "paired-preprocessing-1",
+  "selected_inputs_sha256": "e3fc86330a133ca8cecd79826ebbcf09eded4afc752b11ddc71bdbdd3d7a25e4",
+  "tiers": [
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.046769217000019125,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-01-1"
+            }
+          ],
+          "preprocess_seconds": 8.196000010229909e-06,
+          "queries": [
+            {
+              "id": "construct-01-1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  702
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.054464089000020977,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-02-6"
+            }
+          ],
+          "preprocess_seconds": 9.132999991834367e-06,
+          "queries": [
+            {
+              "id": "construct-02-6",
+              "input_residues": 292,
+              "spans": [
+                [
+                  967,
+                  1846
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.1853755310000338,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-03-1"
+            }
+          ],
+          "preprocess_seconds": 5.934999990131473e-06,
+          "queries": [
+            {
+              "id": "construct-03-1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1458
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.055797163000022465,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-04-2"
+            }
+          ],
+          "preprocess_seconds": 3.90999997534891e-06,
+          "queries": [
+            {
+              "id": "construct-04-2",
+              "input_residues": 267,
+              "spans": [
+                [
+                  1006,
+                  1093
+                ],
+                [
+                  2530,
+                  3247
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.04449164200002542,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-05-2"
+            }
+          ],
+          "preprocess_seconds": 3.85200002028796e-06,
+          "queries": [
+            {
+              "id": "construct-05-2",
+              "input_residues": 225,
+              "spans": [
+                [
+                  2526,
+                  3204
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 1
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.048751385000002756,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-01-1"
+            }
+          ],
+          "preprocess_seconds": 4.927000020416017e-06,
+          "queries": [
+            {
+              "id": "construct-01-1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  702
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.11358583300000191,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "construct-02-10"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-02-10"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-02-6"
+            }
+          ],
+          "preprocess_seconds": 7.3739999493227515e-06,
+          "queries": [
+            {
+              "id": "construct-02-6",
+              "input_residues": 292,
+              "spans": [
+                [
+                  967,
+                  1846
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "construct-02-10",
+              "input_residues": 274,
+              "spans": [
+                [
+                  2254,
+                  3079
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.17495796700001165,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-03-1"
+            }
+          ],
+          "preprocess_seconds": 5.326000007244147e-06,
+          "queries": [
+            {
+              "id": "construct-03-1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1458
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.048927637000019786,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-04-2"
+            }
+          ],
+          "preprocess_seconds": 4.760999956943124e-06,
+          "queries": [
+            {
+              "id": "construct-04-2",
+              "input_residues": 267,
+              "spans": [
+                [
+                  1006,
+                  1093
+                ],
+                [
+                  2530,
+                  3247
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.04085443500002839,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-05-2"
+            }
+          ],
+          "preprocess_seconds": 3.980999963459908e-06,
+          "queries": [
+            {
+              "id": "construct-05-2",
+              "input_residues": 225,
+              "spans": [
+                [
+                  2526,
+                  3204
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 2
+    },
+    {
+      "constructs": [
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.056778436000001875,
+          "id": "construct-01",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-01-1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-01-1"
+            }
+          ],
+          "preprocess_seconds": 5.412999996678991e-06,
+          "queries": [
+            {
+              "id": "construct-01-1",
+              "input_residues": 233,
+              "spans": [
+                [
+                  0,
+                  702
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 3,
+          "characterize_seconds": 0.20261204000001953,
+          "id": "construct-02",
+          "predictions": [
+            {
+              "family": "araC",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "construct-02-10"
+            },
+            {
+              "family": "gfp_like",
+              "query_id": "construct-02-2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-02-6"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-02-10"
+            }
+          ],
+          "preprocess_seconds": 7.424999978411506e-06,
+          "queries": [
+            {
+              "id": "construct-02-6",
+              "input_residues": 292,
+              "spans": [
+                [
+                  967,
+                  1846
+                ]
+              ],
+              "strand": -1
+            },
+            {
+              "id": "construct-02-10",
+              "input_residues": 274,
+              "spans": [
+                [
+                  2254,
+                  3079
+                ]
+              ],
+              "strand": 1
+            },
+            {
+              "id": "construct-02-2",
+              "input_residues": 225,
+              "spans": [
+                [
+                  0,
+                  678
+                ]
+              ],
+              "strand": -1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.26471387699996285,
+          "id": "construct-03",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-03-1"
+            },
+            {
+              "family": "tpi",
+              "query_id": "construct-03-1"
+            }
+          ],
+          "preprocess_seconds": 5.318000035003934e-06,
+          "queries": [
+            {
+              "id": "construct-03-1",
+              "input_residues": 485,
+              "spans": [
+                [
+                  0,
+                  1458
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.0571625640000093,
+          "id": "construct-04",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-04-2"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-04-2"
+            }
+          ],
+          "preprocess_seconds": 5.364000003282854e-06,
+          "queries": [
+            {
+              "id": "construct-04-2",
+              "input_residues": 267,
+              "spans": [
+                [
+                  1006,
+                  1093
+                ],
+                [
+                  2530,
+                  3247
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        },
+        {
+          "candidate_count": 1,
+          "characterize_seconds": 0.04586428799996156,
+          "id": "construct-05",
+          "predictions": [
+            {
+              "family": "gfp_like",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "pgi",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "enolase",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "mdh",
+              "query_id": "construct-05-2"
+            },
+            {
+              "family": "pgk",
+              "query_id": "construct-05-2"
+            }
+          ],
+          "preprocess_seconds": 5.0809999834200426e-06,
+          "queries": [
+            {
+              "id": "construct-05-2",
+              "input_residues": 225,
+              "spans": [
+                [
+                  2526,
+                  3204
+                ]
+              ],
+              "strand": 1
+            }
+          ],
+          "status": "ok"
+        }
+      ],
+      "query_cap": 4
+    }
+  ]
+}

@@ -1,0 +1,4690 @@
+{
+  "bootstrap": {
+    "interval": 0.95,
+    "replicates": 4000,
+    "seed": 20261123
+  },
+  "curves": {
+    "blosum62|annotation_reference|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.8636363636363636,
+      "pooled_recall": 0.8571428571428571,
+      "recovered": 12
+    },
+    "blosum62|annotation_reference|2": {
+      "eligible": 14,
+      "equal_group_recall": 1.0,
+      "pooled_recall": 1.0,
+      "recovered": 14
+    },
+    "blosum62|annotation_reference|4": {
+      "eligible": 14,
+      "equal_group_recall": 1.0,
+      "pooled_recall": 1.0,
+      "recovered": 14
+    },
+    "blosum62|gene_caller|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.4090909090909091,
+      "pooled_recall": 0.35714285714285715,
+      "recovered": 5
+    },
+    "blosum62|gene_caller|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.6363636363636364,
+      "pooled_recall": 0.5714285714285714,
+      "recovered": 8
+    },
+    "blosum62|gene_caller|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.7727272727272727,
+      "pooled_recall": 0.7857142857142857,
+      "recovered": 11
+    },
+    "blosum62|minimal|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.4090909090909091,
+      "pooled_recall": 0.35714285714285715,
+      "recovered": 5
+    },
+    "blosum62|minimal|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.6363636363636364,
+      "pooled_recall": 0.5714285714285714,
+      "recovered": 8
+    },
+    "blosum62|minimal|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.7272727272727273,
+      "pooled_recall": 0.6428571428571429,
+      "recovered": 9
+    },
+    "blosum62|start_ranked|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.4090909090909091,
+      "pooled_recall": 0.35714285714285715,
+      "recovered": 5
+    },
+    "blosum62|start_ranked|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.7272727272727273,
+      "pooled_recall": 0.6428571428571429,
+      "recovered": 9
+    },
+    "blosum62|start_ranked|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.7272727272727273,
+      "pooled_recall": 0.6428571428571429,
+      "recovered": 9
+    },
+    "esm2|annotation_reference|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.8181818181818182,
+      "pooled_recall": 0.7857142857142857,
+      "recovered": 11
+    },
+    "esm2|annotation_reference|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.9545454545454546,
+      "pooled_recall": 0.9285714285714286,
+      "recovered": 13
+    },
+    "esm2|annotation_reference|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.9545454545454546,
+      "pooled_recall": 0.9285714285714286,
+      "recovered": 13
+    },
+    "esm2|gene_caller|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.36363636363636365,
+      "pooled_recall": 0.2857142857142857,
+      "recovered": 4
+    },
+    "esm2|gene_caller|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.5909090909090909,
+      "pooled_recall": 0.5,
+      "recovered": 7
+    },
+    "esm2|gene_caller|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.6818181818181818,
+      "pooled_recall": 0.6428571428571429,
+      "recovered": 9
+    },
+    "esm2|minimal|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.36363636363636365,
+      "pooled_recall": 0.2857142857142857,
+      "recovered": 4
+    },
+    "esm2|minimal|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.5,
+      "pooled_recall": 0.42857142857142855,
+      "recovered": 6
+    },
+    "esm2|minimal|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.45454545454545453,
+      "pooled_recall": 0.35714285714285715,
+      "recovered": 5
+    },
+    "esm2|start_ranked|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.36363636363636365,
+      "pooled_recall": 0.2857142857142857,
+      "recovered": 4
+    },
+    "esm2|start_ranked|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.5909090909090909,
+      "pooled_recall": 0.5,
+      "recovered": 7
+    },
+    "esm2|start_ranked|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.45454545454545453,
+      "pooled_recall": 0.35714285714285715,
+      "recovered": 5
+    }
+  },
+  "curves_conservative": {
+    "blosum62|annotation_reference|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.9074074074074073,
+      "pooled_recall": 0.8571428571428571,
+      "recovered": 12
+    },
+    "blosum62|annotation_reference|2": {
+      "eligible": 14,
+      "equal_group_recall": 1.0,
+      "pooled_recall": 1.0,
+      "recovered": 14
+    },
+    "blosum62|annotation_reference|4": {
+      "eligible": 14,
+      "equal_group_recall": 1.0,
+      "pooled_recall": 1.0,
+      "recovered": 14
+    },
+    "blosum62|gene_caller|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.4444444444444444,
+      "pooled_recall": 0.35714285714285715,
+      "recovered": 5
+    },
+    "blosum62|gene_caller|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.6481481481481483,
+      "pooled_recall": 0.5714285714285714,
+      "recovered": 8
+    },
+    "blosum62|gene_caller|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.8148148148148149,
+      "pooled_recall": 0.7857142857142857,
+      "recovered": 11
+    },
+    "blosum62|minimal|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.4444444444444444,
+      "pooled_recall": 0.35714285714285715,
+      "recovered": 5
+    },
+    "blosum62|minimal|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.6481481481481483,
+      "pooled_recall": 0.5714285714285714,
+      "recovered": 8
+    },
+    "blosum62|minimal|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.6851851851851851,
+      "pooled_recall": 0.6428571428571429,
+      "recovered": 9
+    },
+    "blosum62|start_ranked|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.4444444444444444,
+      "pooled_recall": 0.35714285714285715,
+      "recovered": 5
+    },
+    "blosum62|start_ranked|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.6851851851851851,
+      "pooled_recall": 0.6428571428571429,
+      "recovered": 9
+    },
+    "blosum62|start_ranked|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.6851851851851851,
+      "pooled_recall": 0.6428571428571429,
+      "recovered": 9
+    },
+    "esm2|annotation_reference|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.8518518518518517,
+      "pooled_recall": 0.7857142857142857,
+      "recovered": 11
+    },
+    "esm2|annotation_reference|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.9444444444444444,
+      "pooled_recall": 0.9285714285714286,
+      "recovered": 13
+    },
+    "esm2|annotation_reference|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.9444444444444444,
+      "pooled_recall": 0.9285714285714286,
+      "recovered": 13
+    },
+    "esm2|gene_caller|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.3888888888888889,
+      "pooled_recall": 0.2857142857142857,
+      "recovered": 4
+    },
+    "esm2|gene_caller|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.5925925925925927,
+      "pooled_recall": 0.5,
+      "recovered": 7
+    },
+    "esm2|gene_caller|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.7222222222222222,
+      "pooled_recall": 0.6428571428571429,
+      "recovered": 9
+    },
+    "esm2|minimal|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.3888888888888889,
+      "pooled_recall": 0.2857142857142857,
+      "recovered": 4
+    },
+    "esm2|minimal|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.48148148148148157,
+      "pooled_recall": 0.42857142857142855,
+      "recovered": 6
+    },
+    "esm2|minimal|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.4444444444444444,
+      "pooled_recall": 0.35714285714285715,
+      "recovered": 5
+    },
+    "esm2|start_ranked|1": {
+      "eligible": 14,
+      "equal_group_recall": 0.3888888888888889,
+      "pooled_recall": 0.2857142857142857,
+      "recovered": 4
+    },
+    "esm2|start_ranked|2": {
+      "eligible": 14,
+      "equal_group_recall": 0.5185185185185185,
+      "pooled_recall": 0.5,
+      "recovered": 7
+    },
+    "esm2|start_ranked|4": {
+      "eligible": 14,
+      "equal_group_recall": 0.4444444444444444,
+      "pooled_recall": 0.35714285714285715,
+      "recovered": 5
+    }
+  },
+  "denominator": {
+    "components": 14,
+    "conservative_groups": 9,
+    "constructs": 15,
+    "families": 7,
+    "lineage_groups": 11
+  },
+  "effects_by_cap": {
+    "1": {
+      "blosum62: annotation_reference - gene_caller": {
+        "components": 14,
+        "components_only_a": 7,
+        "components_only_b": 0,
+        "equal_group_gain": 0.45454545454545453,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.18181818181818182,
+            0.7272727272727273
+          ],
+          "pooled_gain_interval": [
+            0.16666666666666666,
+            0.7857142857142857
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 5,
+        "groups_tied": 6,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.4,
+          0.5
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.4166666666666667,
+          0.5833333333333334
+        ],
+        "pooled_gain": 0.5,
+        "pooled_gain_without_largest_group": 0.5833333333333334,
+        "recall_a_equal_group": 0.8636363636363636,
+        "recall_a_pooled": 0.8571428571428571,
+        "recall_b_equal_group": 0.4090909090909091,
+        "recall_b_pooled": 0.35714285714285715,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.9230769230769231
+        ]
+      },
+      "blosum62: annotation_reference - minimal": {
+        "components": 14,
+        "components_only_a": 7,
+        "components_only_b": 0,
+        "equal_group_gain": 0.45454545454545453,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.18181818181818182,
+            0.7272727272727273
+          ],
+          "pooled_gain_interval": [
+            0.16666666666666666,
+            0.7857142857142857
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 5,
+        "groups_tied": 6,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.4,
+          0.5
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.4166666666666667,
+          0.5833333333333334
+        ],
+        "pooled_gain": 0.5,
+        "pooled_gain_without_largest_group": 0.5833333333333334,
+        "recall_a_equal_group": 0.8636363636363636,
+        "recall_a_pooled": 0.8571428571428571,
+        "recall_b_equal_group": 0.4090909090909091,
+        "recall_b_pooled": 0.35714285714285715,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.9230769230769231
+        ]
+      },
+      "blosum62: gene_caller - minimal": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 0,
+        "equal_group_gain": 0.0,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 0,
+        "groups_tied": 11,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.0
+        ],
+        "pooled_gain": 0.0,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.4090909090909091,
+        "recall_a_pooled": 0.35714285714285715,
+        "recall_b_equal_group": 0.4090909090909091,
+        "recall_b_pooled": 0.35714285714285715,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "blosum62: start_ranked - minimal": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 0,
+        "equal_group_gain": 0.0,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 0,
+        "groups_tied": 11,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.0
+        ],
+        "pooled_gain": 0.0,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.4090909090909091,
+        "recall_a_pooled": 0.35714285714285715,
+        "recall_b_equal_group": 0.4090909090909091,
+        "recall_b_pooled": 0.35714285714285715,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+        "components": 14,
+        "equal_group": 0.0,
+        "equal_group_interval": [
+          0.0,
+          0.0
+        ],
+        "groups": 11,
+        "pooled": 0.0,
+        "pooled_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: annotation_reference": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 1,
+        "equal_group_gain": -0.045454545454545456,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.13636363636363635,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            -0.2,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 1,
+        "groups_improved": 0,
+        "groups_tied": 10,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.05,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.08333333333333333,
+          0.0
+        ],
+        "pooled_gain": -0.07142857142857142,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.8181818181818182,
+        "recall_a_pooled": 0.7857142857142857,
+        "recall_b_equal_group": 0.8636363636363636,
+        "recall_b_pooled": 0.8571428571428571,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.29077060931899595,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: gene_caller": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 1,
+        "equal_group_gain": -0.045454545454545456,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.13636363636363635,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            -0.2,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 1,
+        "groups_improved": 0,
+        "groups_tied": 10,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.05,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.08333333333333333,
+          0.0
+        ],
+        "pooled_gain": -0.07142857142857142,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.36363636363636365,
+        "recall_a_pooled": 0.2857142857142857,
+        "recall_b_equal_group": 0.4090909090909091,
+        "recall_b_pooled": 0.35714285714285715,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.29077060931899595,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: minimal": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 1,
+        "equal_group_gain": -0.045454545454545456,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.13636363636363635,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            -0.2,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 1,
+        "groups_improved": 0,
+        "groups_tied": 10,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.05,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.08333333333333333,
+          0.0
+        ],
+        "pooled_gain": -0.07142857142857142,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.36363636363636365,
+        "recall_a_pooled": 0.2857142857142857,
+        "recall_b_equal_group": 0.4090909090909091,
+        "recall_b_pooled": 0.35714285714285715,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.29077060931899595,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: start_ranked": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 1,
+        "equal_group_gain": -0.045454545454545456,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.13636363636363635,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            -0.2,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 1,
+        "groups_improved": 0,
+        "groups_tied": 10,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.05,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.08333333333333333,
+          0.0
+        ],
+        "pooled_gain": -0.07142857142857142,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.36363636363636365,
+        "recall_a_pooled": 0.2857142857142857,
+        "recall_b_equal_group": 0.4090909090909091,
+        "recall_b_pooled": 0.35714285714285715,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.29077060931899595,
+          0.0
+        ]
+      },
+      "esm2: annotation_reference - gene_caller": {
+        "components": 14,
+        "components_only_a": 7,
+        "components_only_b": 0,
+        "equal_group_gain": 0.45454545454545453,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.18181818181818182,
+            0.7272727272727273
+          ],
+          "pooled_gain_interval": [
+            0.16666666666666666,
+            0.7857142857142857
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 5,
+        "groups_tied": 6,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.4,
+          0.5
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.4166666666666667,
+          0.5833333333333334
+        ],
+        "pooled_gain": 0.5,
+        "pooled_gain_without_largest_group": 0.5833333333333334,
+        "recall_a_equal_group": 0.8181818181818182,
+        "recall_a_pooled": 0.7857142857142857,
+        "recall_b_equal_group": 0.36363636363636365,
+        "recall_b_pooled": 0.2857142857142857,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.9230769230769231
+        ]
+      },
+      "esm2: annotation_reference - minimal": {
+        "components": 14,
+        "components_only_a": 7,
+        "components_only_b": 0,
+        "equal_group_gain": 0.45454545454545453,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.18181818181818182,
+            0.7272727272727273
+          ],
+          "pooled_gain_interval": [
+            0.16666666666666666,
+            0.7857142857142857
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 5,
+        "groups_tied": 6,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.4,
+          0.5
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.4166666666666667,
+          0.5833333333333334
+        ],
+        "pooled_gain": 0.5,
+        "pooled_gain_without_largest_group": 0.5833333333333334,
+        "recall_a_equal_group": 0.8181818181818182,
+        "recall_a_pooled": 0.7857142857142857,
+        "recall_b_equal_group": 0.36363636363636365,
+        "recall_b_pooled": 0.2857142857142857,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.9230769230769231
+        ]
+      },
+      "esm2: gene_caller - minimal": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 0,
+        "equal_group_gain": 0.0,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 0,
+        "groups_tied": 11,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.0
+        ],
+        "pooled_gain": 0.0,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.36363636363636365,
+        "recall_a_pooled": 0.2857142857142857,
+        "recall_b_equal_group": 0.36363636363636365,
+        "recall_b_pooled": 0.2857142857142857,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "esm2: start_ranked - minimal": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 0,
+        "equal_group_gain": 0.0,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 0,
+        "groups_tied": 11,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.0
+        ],
+        "pooled_gain": 0.0,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.36363636363636365,
+        "recall_a_pooled": 0.2857142857142857,
+        "recall_b_equal_group": 0.36363636363636365,
+        "recall_b_pooled": 0.2857142857142857,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "2": {
+      "blosum62: annotation_reference - gene_caller": {
+        "components": 14,
+        "components_only_a": 6,
+        "components_only_b": 0,
+        "equal_group_gain": 0.36363636363636365,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.13636363636363635,
+            0.6363636363636364
+          ],
+          "pooled_gain_interval": [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 5,
+        "groups_tied": 6,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.3,
+          0.4
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.3333333333333333,
+          0.46153846153846156
+        ],
+        "pooled_gain": 0.42857142857142855,
+        "pooled_gain_without_largest_group": 0.4166666666666667,
+        "recall_a_equal_group": 1.0,
+        "recall_a_pooled": 1.0,
+        "recall_b_equal_group": 0.6363636363636364,
+        "recall_b_pooled": 0.5714285714285714,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.875
+        ]
+      },
+      "blosum62: annotation_reference - minimal": {
+        "components": 14,
+        "components_only_a": 6,
+        "components_only_b": 0,
+        "equal_group_gain": 0.36363636363636365,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.13636363636363635,
+            0.6363636363636364
+          ],
+          "pooled_gain_interval": [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 5,
+        "groups_tied": 6,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.3,
+          0.4
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.3333333333333333,
+          0.46153846153846156
+        ],
+        "pooled_gain": 0.42857142857142855,
+        "pooled_gain_without_largest_group": 0.4166666666666667,
+        "recall_a_equal_group": 1.0,
+        "recall_a_pooled": 1.0,
+        "recall_b_equal_group": 0.6363636363636364,
+        "recall_b_pooled": 0.5714285714285714,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.875
+        ]
+      },
+      "blosum62: gene_caller - minimal": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 0,
+        "equal_group_gain": 0.0,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 0,
+        "groups_tied": 11,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.0
+        ],
+        "pooled_gain": 0.0,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.6363636363636364,
+        "recall_a_pooled": 0.5714285714285714,
+        "recall_b_equal_group": 0.6363636363636364,
+        "recall_b_pooled": 0.5714285714285714,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "blosum62: start_ranked - minimal": {
+        "components": 14,
+        "components_only_a": 1,
+        "components_only_b": 0,
+        "equal_group_gain": 0.09090909090909091,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.2727272727272727
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.23076923076923078
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 1,
+        "groups_tied": 10,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.1
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.08333333333333333
+        ],
+        "pooled_gain": 0.07142857142857142,
+        "pooled_gain_without_largest_group": 0.08333333333333333,
+        "recall_a_equal_group": 0.7272727272727273,
+        "recall_a_pooled": 0.6428571428571429,
+        "recall_b_equal_group": 0.6363636363636364,
+        "recall_b_pooled": 0.5714285714285714,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.3333333333333333
+        ]
+      },
+      "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+        "components": 14,
+        "equal_group": 0.09090909090909091,
+        "equal_group_interval": [
+          0.0,
+          0.2727272727272727
+        ],
+        "groups": 11,
+        "pooled": 0.07142857142857142,
+        "pooled_interval": [
+          0.0,
+          0.25
+        ]
+      },
+      "esm2 - blosum62: annotation_reference": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 1,
+        "equal_group_gain": -0.045454545454545456,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.13636363636363635,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            -0.2,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 1,
+        "groups_improved": 0,
+        "groups_tied": 10,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.05,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.08333333333333333,
+          0.0
+        ],
+        "pooled_gain": -0.07142857142857142,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.9545454545454546,
+        "recall_a_pooled": 0.9285714285714286,
+        "recall_b_equal_group": 1.0,
+        "recall_b_pooled": 1.0,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.29077060931899595,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: gene_caller": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 1,
+        "equal_group_gain": -0.045454545454545456,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.13636363636363635,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            -0.2,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 1,
+        "groups_improved": 0,
+        "groups_tied": 10,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.05,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.08333333333333333,
+          0.0
+        ],
+        "pooled_gain": -0.07142857142857142,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.5909090909090909,
+        "recall_a_pooled": 0.5,
+        "recall_b_equal_group": 0.6363636363636364,
+        "recall_b_pooled": 0.5714285714285714,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.29077060931899595,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: minimal": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 2,
+        "equal_group_gain": -0.13636363636363635,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.3181818181818182,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            -0.3333333333333333,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 2,
+        "groups_improved": 0,
+        "groups_tied": 9,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.15,
+          -0.05
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.16666666666666666,
+          -0.07692307692307693
+        ],
+        "pooled_gain": -0.14285714285714285,
+        "pooled_gain_without_largest_group": -0.08333333333333333,
+        "recall_a_equal_group": 0.5,
+        "recall_a_pooled": 0.42857142857142855,
+        "recall_b_equal_group": 0.6363636363636364,
+        "recall_b_pooled": 0.5714285714285714,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.5,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: start_ranked": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 2,
+        "equal_group_gain": -0.13636363636363635,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.3181818181818182,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            -0.3333333333333333,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 2,
+        "groups_improved": 0,
+        "groups_tied": 9,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.15,
+          -0.05
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.16666666666666666,
+          -0.07692307692307693
+        ],
+        "pooled_gain": -0.14285714285714285,
+        "pooled_gain_without_largest_group": -0.08333333333333333,
+        "recall_a_equal_group": 0.5909090909090909,
+        "recall_a_pooled": 0.5,
+        "recall_b_equal_group": 0.7272727272727273,
+        "recall_b_pooled": 0.6428571428571429,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.5,
+          0.0
+        ]
+      },
+      "esm2: annotation_reference - gene_caller": {
+        "components": 14,
+        "components_only_a": 6,
+        "components_only_b": 0,
+        "equal_group_gain": 0.36363636363636365,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.13636363636363635,
+            0.6363636363636364
+          ],
+          "pooled_gain_interval": [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 5,
+        "groups_tied": 6,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.3,
+          0.4
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.3333333333333333,
+          0.46153846153846156
+        ],
+        "pooled_gain": 0.42857142857142855,
+        "pooled_gain_without_largest_group": 0.4166666666666667,
+        "recall_a_equal_group": 0.9545454545454546,
+        "recall_a_pooled": 0.9285714285714286,
+        "recall_b_equal_group": 0.5909090909090909,
+        "recall_b_pooled": 0.5,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.875
+        ]
+      },
+      "esm2: annotation_reference - minimal": {
+        "components": 14,
+        "components_only_a": 7,
+        "components_only_b": 0,
+        "equal_group_gain": 0.45454545454545453,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.18181818181818182,
+            0.7272727272727273
+          ],
+          "pooled_gain_interval": [
+            0.24951923076923258,
+            0.7333333333333333
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 6,
+        "groups_tied": 5,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.4,
+          0.5
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.4166666666666667,
+          0.5384615384615384
+        ],
+        "pooled_gain": 0.5,
+        "pooled_gain_without_largest_group": 0.5,
+        "recall_a_equal_group": 0.9545454545454546,
+        "recall_a_pooled": 0.9285714285714286,
+        "recall_b_equal_group": 0.5,
+        "recall_b_pooled": 0.42857142857142855,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.8968103448275856
+        ]
+      },
+      "esm2: gene_caller - minimal": {
+        "components": 14,
+        "components_only_a": 1,
+        "components_only_b": 0,
+        "equal_group_gain": 0.09090909090909091,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.2727272727272727
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.25
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 1,
+        "groups_tied": 10,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.1
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.08333333333333333
+        ],
+        "pooled_gain": 0.07142857142857142,
+        "pooled_gain_without_largest_group": 0.08333333333333333,
+        "recall_a_equal_group": 0.5909090909090909,
+        "recall_a_pooled": 0.5,
+        "recall_b_equal_group": 0.5,
+        "recall_b_pooled": 0.42857142857142855,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.3333333333333333
+        ]
+      },
+      "esm2: start_ranked - minimal": {
+        "components": 14,
+        "components_only_a": 1,
+        "components_only_b": 0,
+        "equal_group_gain": 0.09090909090909091,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.2727272727272727
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.23076923076923078
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 1,
+        "groups_tied": 10,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.1
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.08333333333333333
+        ],
+        "pooled_gain": 0.07142857142857142,
+        "pooled_gain_without_largest_group": 0.08333333333333333,
+        "recall_a_equal_group": 0.5909090909090909,
+        "recall_a_pooled": 0.5,
+        "recall_b_equal_group": 0.5,
+        "recall_b_pooled": 0.42857142857142855,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.3333333333333333
+        ]
+      }
+    },
+    "4": {
+      "blosum62: annotation_reference - gene_caller": {
+        "components": 14,
+        "components_only_a": 3,
+        "components_only_b": 0,
+        "equal_group_gain": 0.22727272727272727,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.45454545454545453
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.42857142857142855
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 3,
+        "groups_tied": 8,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.15,
+          0.25
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.15384615384615385,
+          0.25
+        ],
+        "pooled_gain": 0.21428571428571427,
+        "pooled_gain_without_largest_group": 0.25,
+        "recall_a_equal_group": 1.0,
+        "recall_a_pooled": 1.0,
+        "recall_b_equal_group": 0.7727272727272727,
+        "recall_b_pooled": 0.7857142857142857,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.6
+        ]
+      },
+      "blosum62: annotation_reference - minimal": {
+        "components": 14,
+        "components_only_a": 5,
+        "components_only_b": 0,
+        "equal_group_gain": 0.2727272727272727,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.045454545454545456,
+            0.5
+          ],
+          "pooled_gain_interval": [
+            0.08333333333333333,
+            0.5882352941176471
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 4,
+        "groups_tied": 7,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.2,
+          0.3
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.25,
+          0.38461538461538464
+        ],
+        "pooled_gain": 0.35714285714285715,
+        "pooled_gain_without_largest_group": 0.3333333333333333,
+        "recall_a_equal_group": 1.0,
+        "recall_a_pooled": 1.0,
+        "recall_b_equal_group": 0.7272727272727273,
+        "recall_b_pooled": 0.6428571428571429,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.8571428571428571
+        ]
+      },
+      "blosum62: gene_caller - minimal": {
+        "components": 14,
+        "components_only_a": 3,
+        "components_only_b": 1,
+        "equal_group_gain": 0.045454545454545456,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.22727272727272727,
+            0.3181818181818182
+          ],
+          "pooled_gain_interval": [
+            -0.16666666666666666,
+            0.4375
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 1,
+        "groups_improved": 2,
+        "groups_tied": 8,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.05,
+          0.15
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.23076923076923078
+        ],
+        "pooled_gain": 0.14285714285714285,
+        "pooled_gain_without_largest_group": 0.08333333333333333,
+        "recall_a_equal_group": 0.7727272727272727,
+        "recall_a_pooled": 0.7857142857142857,
+        "recall_b_equal_group": 0.7272727272727273,
+        "recall_b_pooled": 0.6428571428571429,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.3,
+          0.7777777777777778
+        ]
+      },
+      "blosum62: start_ranked - minimal": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 0,
+        "equal_group_gain": 0.0,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 0,
+        "groups_tied": 11,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.0
+        ],
+        "pooled_gain": 0.0,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.7272727272727273,
+        "recall_a_pooled": 0.6428571428571429,
+        "recall_b_equal_group": 0.7272727272727273,
+        "recall_b_pooled": 0.6428571428571429,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+        "components": 14,
+        "equal_group": 0.18181818181818182,
+        "equal_group_interval": [
+          0.0,
+          0.45454545454545453
+        ],
+        "groups": 11,
+        "pooled": 0.14285714285714285,
+        "pooled_interval": [
+          0.0,
+          0.36363636363636365
+        ]
+      },
+      "esm2 - blosum62: annotation_reference": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 1,
+        "equal_group_gain": -0.045454545454545456,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.13636363636363635,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            -0.2,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 1,
+        "groups_improved": 0,
+        "groups_tied": 10,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.05,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.08333333333333333,
+          0.0
+        ],
+        "pooled_gain": -0.07142857142857142,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.9545454545454546,
+        "recall_a_pooled": 0.9285714285714286,
+        "recall_b_equal_group": 1.0,
+        "recall_b_pooled": 1.0,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.29077060931899595,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: gene_caller": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 2,
+        "equal_group_gain": -0.09090909090909091,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.22727272727272727,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            -0.29411764705882354,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 2,
+        "groups_improved": 0,
+        "groups_tied": 9,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.1,
+          -0.05
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.16666666666666666,
+          -0.08333333333333333
+        ],
+        "pooled_gain": -0.14285714285714285,
+        "pooled_gain_without_largest_group": -0.08333333333333333,
+        "recall_a_equal_group": 0.6818181818181818,
+        "recall_a_pooled": 0.6428571428571429,
+        "recall_b_equal_group": 0.7727272727272727,
+        "recall_b_pooled": 0.7857142857142857,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.4166666666666667,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: minimal": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 4,
+        "equal_group_gain": -0.2727272727272727,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.5,
+            -0.045454545454545456
+          ],
+          "pooled_gain_interval": [
+            -0.5,
+            -0.07692307692307693
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 4,
+        "groups_improved": 0,
+        "groups_tied": 7,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.3,
+          -0.2
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.3333333333333333,
+          -0.23076923076923078
+        ],
+        "pooled_gain": -0.2857142857142857,
+        "pooled_gain_without_largest_group": -0.25,
+        "recall_a_equal_group": 0.45454545454545453,
+        "recall_a_pooled": 0.35714285714285715,
+        "recall_b_equal_group": 0.7272727272727273,
+        "recall_b_pooled": 0.6428571428571429,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.7142857142857143,
+          0.0
+        ]
+      },
+      "esm2 - blosum62: start_ranked": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 4,
+        "equal_group_gain": -0.2727272727272727,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            -0.5,
+            -0.045454545454545456
+          ],
+          "pooled_gain_interval": [
+            -0.5,
+            -0.07692307692307693
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 4,
+        "groups_improved": 0,
+        "groups_tied": 7,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          -0.3,
+          -0.2
+        ],
+        "leave_one_group_out_pooled_range": [
+          -0.3333333333333333,
+          -0.23076923076923078
+        ],
+        "pooled_gain": -0.2857142857142857,
+        "pooled_gain_without_largest_group": -0.25,
+        "recall_a_equal_group": 0.45454545454545453,
+        "recall_a_pooled": 0.35714285714285715,
+        "recall_b_equal_group": 0.7272727272727273,
+        "recall_b_pooled": 0.6428571428571429,
+        "two_way_bootstrap_pooled_gain_interval": [
+          -0.7142857142857143,
+          0.0
+        ]
+      },
+      "esm2: annotation_reference - gene_caller": {
+        "components": 14,
+        "components_only_a": 4,
+        "components_only_b": 0,
+        "equal_group_gain": 0.2727272727272727,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.5454545454545454
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.5833333333333334
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 3,
+        "groups_tied": 8,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.2,
+          0.3
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.16666666666666666,
+          0.3333333333333333
+        ],
+        "pooled_gain": 0.2857142857142857,
+        "pooled_gain_without_largest_group": 0.3333333333333333,
+        "recall_a_equal_group": 0.9545454545454546,
+        "recall_a_pooled": 0.9285714285714286,
+        "recall_b_equal_group": 0.6818181818181818,
+        "recall_b_pooled": 0.6428571428571429,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.75
+        ]
+      },
+      "esm2: annotation_reference - minimal": {
+        "components": 14,
+        "components_only_a": 8,
+        "components_only_b": 0,
+        "equal_group_gain": 0.5,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.22727272727272727,
+            0.7727272727272727
+          ],
+          "pooled_gain_interval": [
+            0.2727272727272727,
+            0.8125
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 6,
+        "groups_tied": 5,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.45,
+          0.55
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.5,
+          0.6153846153846154
+        ],
+        "pooled_gain": 0.5714285714285714,
+        "pooled_gain_without_largest_group": 0.5833333333333334,
+        "recall_a_equal_group": 0.9545454545454546,
+        "recall_a_pooled": 0.9285714285714286,
+        "recall_b_equal_group": 0.45454545454545453,
+        "recall_b_pooled": 0.35714285714285715,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.9535676532769555
+        ]
+      },
+      "esm2: gene_caller - minimal": {
+        "components": 14,
+        "components_only_a": 4,
+        "components_only_b": 0,
+        "equal_group_gain": 0.22727272727272727,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.45454545454545453
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.5384615384615384
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 3,
+        "groups_tied": 8,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.15,
+          0.25
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.16666666666666666,
+          0.3333333333333333
+        ],
+        "pooled_gain": 0.2857142857142857,
+        "pooled_gain_without_largest_group": 0.25,
+        "recall_a_equal_group": 0.6818181818181818,
+        "recall_a_pooled": 0.6428571428571429,
+        "recall_b_equal_group": 0.45454545454545453,
+        "recall_b_pooled": 0.35714285714285715,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.8
+        ]
+      },
+      "esm2: start_ranked - minimal": {
+        "components": 14,
+        "components_only_a": 0,
+        "components_only_b": 0,
+        "equal_group_gain": 0.0,
+        "group_bootstrap": {
+          "equal_group_gain_interval": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "groups": 11,
+        "groups_declined": 0,
+        "groups_improved": 0,
+        "groups_tied": 11,
+        "largest_group_share": 0.14285714285714285,
+        "leave_one_group_out_equal_group_range": [
+          0.0,
+          0.0
+        ],
+        "leave_one_group_out_pooled_range": [
+          0.0,
+          0.0
+        ],
+        "pooled_gain": 0.0,
+        "pooled_gain_without_largest_group": 0.0,
+        "recall_a_equal_group": 0.45454545454545453,
+        "recall_a_pooled": 0.35714285714285715,
+        "recall_b_equal_group": 0.45454545454545453,
+        "recall_b_pooled": 0.35714285714285715,
+        "two_way_bootstrap_pooled_gain_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "effects_conservative_primary_cap": {
+    "blosum62: annotation_reference - gene_caller": {
+      "components": 14,
+      "components_only_a": 6,
+      "components_only_b": 0,
+      "equal_group_gain": 0.35185185185185186,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.1111111111111111,
+          0.6296296296296295
+        ],
+        "pooled_gain_interval": [
+          0.15384615384615385,
+          0.6666666666666666
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 0,
+      "groups_improved": 4,
+      "groups_tied": 5,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        0.27083333333333337,
+        0.39583333333333337
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.3333333333333333,
+        0.5
+      ],
+      "pooled_gain": 0.42857142857142855,
+      "pooled_gain_without_largest_group": 0.36363636363636365,
+      "recall_a_equal_group": 1.0,
+      "recall_a_pooled": 1.0,
+      "recall_b_equal_group": 0.6481481481481481,
+      "recall_b_pooled": 0.5714285714285714,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.9
+      ]
+    },
+    "blosum62: annotation_reference - minimal": {
+      "components": 14,
+      "components_only_a": 6,
+      "components_only_b": 0,
+      "equal_group_gain": 0.35185185185185186,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.1111111111111111,
+          0.6296296296296295
+        ],
+        "pooled_gain_interval": [
+          0.15384615384615385,
+          0.6666666666666666
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 0,
+      "groups_improved": 4,
+      "groups_tied": 5,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        0.27083333333333337,
+        0.39583333333333337
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.3333333333333333,
+        0.5
+      ],
+      "pooled_gain": 0.42857142857142855,
+      "pooled_gain_without_largest_group": 0.36363636363636365,
+      "recall_a_equal_group": 1.0,
+      "recall_a_pooled": 1.0,
+      "recall_b_equal_group": 0.6481481481481481,
+      "recall_b_pooled": 0.5714285714285714,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.9
+      ]
+    },
+    "blosum62: gene_caller - minimal": {
+      "components": 14,
+      "components_only_a": 0,
+      "components_only_b": 0,
+      "equal_group_gain": 0.0,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.0
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 0,
+      "groups_improved": 0,
+      "groups_tied": 9,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        0.0,
+        0.0
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.0,
+        0.0
+      ],
+      "pooled_gain": 0.0,
+      "pooled_gain_without_largest_group": 0.0,
+      "recall_a_equal_group": 0.6481481481481481,
+      "recall_a_pooled": 0.5714285714285714,
+      "recall_b_equal_group": 0.6481481481481481,
+      "recall_b_pooled": 0.5714285714285714,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "blosum62: start_ranked - minimal": {
+      "components": 14,
+      "components_only_a": 1,
+      "components_only_b": 0,
+      "equal_group_gain": 0.037037037037037035,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.1111111111111111
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.1875
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 0,
+      "groups_improved": 1,
+      "groups_tied": 8,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        0.0,
+        0.041666666666666664
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.0,
+        0.08333333333333333
+      ],
+      "pooled_gain": 0.07142857142857142,
+      "pooled_gain_without_largest_group": 0.0,
+      "recall_a_equal_group": 0.6851851851851851,
+      "recall_a_pooled": 0.6428571428571429,
+      "recall_b_equal_group": 0.6481481481481481,
+      "recall_b_pooled": 0.5714285714285714,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.2222222222222222
+      ]
+    },
+    "difference in gain (gene_caller - minimal, esm2 - blosum62)": {
+      "components": 14,
+      "equal_group": 0.1111111111111111,
+      "equal_group_interval": [
+        0.0,
+        0.3333333333333333
+      ],
+      "groups": 9,
+      "pooled": 0.07142857142857142,
+      "pooled_interval": [
+        0.0,
+        0.2504166666666682
+      ]
+    },
+    "esm2 - blosum62: annotation_reference": {
+      "components": 14,
+      "components_only_a": 0,
+      "components_only_b": 1,
+      "equal_group_gain": -0.05555555555555555,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.16666666666666666,
+          0.0
+        ],
+        "pooled_gain_interval": [
+          -0.21428571428571427,
+          0.0
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 1,
+      "groups_improved": 0,
+      "groups_tied": 8,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        -0.0625,
+        0.0
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.09090909090909091,
+        0.0
+      ],
+      "pooled_gain": -0.07142857142857142,
+      "pooled_gain_without_largest_group": -0.09090909090909091,
+      "recall_a_equal_group": 0.9444444444444444,
+      "recall_a_pooled": 0.9285714285714286,
+      "recall_b_equal_group": 1.0,
+      "recall_b_pooled": 1.0,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.3333333333333333,
+        0.0
+      ]
+    },
+    "esm2 - blosum62: gene_caller": {
+      "components": 14,
+      "components_only_a": 0,
+      "components_only_b": 1,
+      "equal_group_gain": -0.05555555555555555,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.16666666666666666,
+          0.0
+        ],
+        "pooled_gain_interval": [
+          -0.21428571428571427,
+          0.0
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 1,
+      "groups_improved": 0,
+      "groups_tied": 8,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        -0.0625,
+        0.0
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.09090909090909091,
+        0.0
+      ],
+      "pooled_gain": -0.07142857142857142,
+      "pooled_gain_without_largest_group": -0.09090909090909091,
+      "recall_a_equal_group": 0.5925925925925926,
+      "recall_a_pooled": 0.5,
+      "recall_b_equal_group": 0.6481481481481481,
+      "recall_b_pooled": 0.5714285714285714,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.3333333333333333,
+        0.0
+      ]
+    },
+    "esm2 - blosum62: minimal": {
+      "components": 14,
+      "components_only_a": 0,
+      "components_only_b": 2,
+      "equal_group_gain": -0.16666666666666666,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.3888888888888889,
+          0.0
+        ],
+        "pooled_gain_interval": [
+          -0.36363636363636365,
+          0.0
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 2,
+      "groups_improved": 0,
+      "groups_tied": 7,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        -0.1875,
+        -0.0625
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.18181818181818182,
+        -0.07692307692307693
+      ],
+      "pooled_gain": -0.14285714285714285,
+      "pooled_gain_without_largest_group": -0.18181818181818182,
+      "recall_a_equal_group": 0.48148148148148145,
+      "recall_a_pooled": 0.42857142857142855,
+      "recall_b_equal_group": 0.6481481481481481,
+      "recall_b_pooled": 0.5714285714285714,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.5714285714285714,
+        0.0
+      ]
+    },
+    "esm2 - blosum62: start_ranked": {
+      "components": 14,
+      "components_only_a": 0,
+      "components_only_b": 2,
+      "equal_group_gain": -0.16666666666666666,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          -0.3888888888888889,
+          0.0
+        ],
+        "pooled_gain_interval": [
+          -0.36363636363636365,
+          0.0
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 2,
+      "groups_improved": 0,
+      "groups_tied": 7,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        -0.1875,
+        -0.0625
+      ],
+      "leave_one_group_out_pooled_range": [
+        -0.18181818181818182,
+        -0.07692307692307693
+      ],
+      "pooled_gain": -0.14285714285714285,
+      "pooled_gain_without_largest_group": -0.18181818181818182,
+      "recall_a_equal_group": 0.5185185185185185,
+      "recall_a_pooled": 0.5,
+      "recall_b_equal_group": 0.6851851851851851,
+      "recall_b_pooled": 0.6428571428571429,
+      "two_way_bootstrap_pooled_gain_interval": [
+        -0.5714285714285714,
+        0.0
+      ]
+    },
+    "esm2: annotation_reference - gene_caller": {
+      "components": 14,
+      "components_only_a": 6,
+      "components_only_b": 0,
+      "equal_group_gain": 0.35185185185185186,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.1111111111111111,
+          0.6296296296296295
+        ],
+        "pooled_gain_interval": [
+          0.15384615384615385,
+          0.6666666666666666
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 0,
+      "groups_improved": 4,
+      "groups_tied": 5,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        0.27083333333333337,
+        0.39583333333333337
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.3333333333333333,
+        0.5
+      ],
+      "pooled_gain": 0.42857142857142855,
+      "pooled_gain_without_largest_group": 0.36363636363636365,
+      "recall_a_equal_group": 0.9444444444444444,
+      "recall_a_pooled": 0.9285714285714286,
+      "recall_b_equal_group": 0.5925925925925926,
+      "recall_b_pooled": 0.5,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.9
+      ]
+    },
+    "esm2: annotation_reference - minimal": {
+      "components": 14,
+      "components_only_a": 7,
+      "components_only_b": 0,
+      "equal_group_gain": 0.4629629629629629,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.18518518518518517,
+          0.7412037037037055
+        ],
+        "pooled_gain_interval": [
+          0.21428571428571427,
+          0.75
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 0,
+      "groups_improved": 5,
+      "groups_tied": 4,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        0.39583333333333326,
+        0.5208333333333333
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.4166666666666667,
+        0.5833333333333334
+      ],
+      "pooled_gain": 0.5,
+      "pooled_gain_without_largest_group": 0.45454545454545453,
+      "recall_a_equal_group": 0.9444444444444444,
+      "recall_a_pooled": 0.9285714285714286,
+      "recall_b_equal_group": 0.48148148148148145,
+      "recall_b_pooled": 0.42857142857142855,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.9230769230769231
+      ]
+    },
+    "esm2: gene_caller - minimal": {
+      "components": 14,
+      "components_only_a": 1,
+      "components_only_b": 0,
+      "equal_group_gain": 0.1111111111111111,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.3333333333333333
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.25
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 0,
+      "groups_improved": 1,
+      "groups_tied": 8,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        0.0,
+        0.125
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.0,
+        0.09090909090909091
+      ],
+      "pooled_gain": 0.07142857142857142,
+      "pooled_gain_without_largest_group": 0.09090909090909091,
+      "recall_a_equal_group": 0.5925925925925926,
+      "recall_a_pooled": 0.5,
+      "recall_b_equal_group": 0.48148148148148145,
+      "recall_b_pooled": 0.42857142857142855,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.36363636363636365
+      ]
+    },
+    "esm2: start_ranked - minimal": {
+      "components": 14,
+      "components_only_a": 1,
+      "components_only_b": 0,
+      "equal_group_gain": 0.037037037037037035,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.0,
+          0.1111111111111111
+        ],
+        "pooled_gain_interval": [
+          0.0,
+          0.1875
+        ]
+      },
+      "groups": 9,
+      "groups_declined": 0,
+      "groups_improved": 1,
+      "groups_tied": 8,
+      "largest_group_share": 0.21428571428571427,
+      "leave_one_group_out_equal_group_range": [
+        0.0,
+        0.041666666666666664
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.0,
+        0.08333333333333333
+      ],
+      "pooled_gain": 0.07142857142857142,
+      "pooled_gain_without_largest_group": 0.0,
+      "recall_a_equal_group": 0.5185185185185185,
+      "recall_a_pooled": 0.5,
+      "recall_b_equal_group": 0.48148148148148145,
+      "recall_b_pooled": 0.42857142857142855,
+      "two_way_bootstrap_pooled_gain_interval": [
+        0.0,
+        0.2222222222222222
+      ]
+    }
+  },
+  "failures_primary_cap": {
+    "baseline_miss_transitions": {
+      "blosum62|minimal->annotation_reference": {
+        "compatible_candidate_below_cap->recovered": 6
+      },
+      "blosum62|minimal->gene_caller": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 5,
+        "compatible_candidate_below_cap->no_compatible_candidate": 1
+      },
+      "blosum62|minimal->start_ranked": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 5,
+        "compatible_candidate_below_cap->recovered": 1
+      },
+      "esm2|minimal->annotation_reference": {
+        "compatible_candidate_below_cap->recovered": 6,
+        "covered_label_missed->covered_label_missed": 1,
+        "covered_label_missed->recovered": 1
+      },
+      "esm2|minimal->gene_caller": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 5,
+        "compatible_candidate_below_cap->no_compatible_candidate": 1,
+        "covered_label_missed->covered_label_missed": 1,
+        "covered_label_missed->recovered": 1
+      },
+      "esm2|minimal->start_ranked": {
+        "compatible_candidate_below_cap->compatible_candidate_below_cap": 5,
+        "compatible_candidate_below_cap->recovered": 1,
+        "covered_label_missed->covered_label_missed": 2
+      }
+    },
+    "by_arm": {
+      "blosum62|annotation_reference": {
+        "covered_missed_best_rank": {},
+        "statuses": {
+          "recovered": 14
+        }
+      },
+      "blosum62|gene_caller": {
+        "covered_missed_best_rank": {},
+        "statuses": {
+          "compatible_candidate_below_cap": 5,
+          "no_compatible_candidate": 1,
+          "recovered": 8
+        }
+      },
+      "blosum62|minimal": {
+        "covered_missed_best_rank": {},
+        "statuses": {
+          "compatible_candidate_below_cap": 6,
+          "recovered": 8
+        }
+      },
+      "blosum62|start_ranked": {
+        "covered_missed_best_rank": {},
+        "statuses": {
+          "compatible_candidate_below_cap": 5,
+          "recovered": 9
+        }
+      },
+      "esm2|annotation_reference": {
+        "covered_missed_best_rank": {
+          "9": 1
+        },
+        "statuses": {
+          "covered_label_missed": 1,
+          "recovered": 13
+        }
+      },
+      "esm2|gene_caller": {
+        "covered_missed_best_rank": {
+          "9": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 5,
+          "covered_label_missed": 1,
+          "no_compatible_candidate": 1,
+          "recovered": 7
+        }
+      },
+      "esm2|minimal": {
+        "covered_missed_best_rank": {
+          "4": 1,
+          "8": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 6,
+          "covered_label_missed": 2,
+          "recovered": 6
+        }
+      },
+      "esm2|start_ranked": {
+        "covered_missed_best_rank": {
+          "4": 1,
+          "8": 1
+        },
+        "statuses": {
+          "compatible_candidate_below_cap": 5,
+          "covered_label_missed": 2,
+          "recovered": 7
+        }
+      }
+    }
+  },
+  "input_sha256": {
+    "answer_key": "cffe7fa1eade0abd5689b092fa6ab03fabb511649fd8b9a24df0800effa0761f",
+    "construct_map": "b5f4c5aba551cce41d8a373bcbcce6eb80bcda0e9ae123ee6605337cd036abbc",
+    "traces": {
+      "blosum62/annotation_reference": "a67a195735a2e4abcc3435eb8721f2449eed7cd56d2ee7ab7ac93b1f68f9aff8",
+      "blosum62/gene_caller": "ce8eba5e20adba9b5506ff1b17a71e45c31ace53a8cfbcc29a660b825ce21e4a",
+      "blosum62/minimal": "bed70d3179c1935e09c702d87da2e20833bf005a2458c5b8674f45c0bb1bf7d0",
+      "blosum62/start_ranked": "766744fdba8715a2c6e9ae36ae2f1137080d62e975bf7856846d945acd332cbc",
+      "esm2/annotation_reference": "6cec89066dfeaba051549916c0e3ec615bd94db75f15eac7f8888ef46a5dfb8a",
+      "esm2/gene_caller": "dc9a4cf83dd2083a90460c2cc0de9707441bf478304aaf357c582a853ddd4d2a",
+      "esm2/minimal": "9ba126afa124df98c49ccd1489e0d1fc9bb7087576805d2946ea748438b6c2bb",
+      "esm2/start_ranked": "9f9f3b8668eca7dac10cbb1fb1ab8ac8333f375e39f88f7a402df2fc6c27c020"
+    }
+  },
+  "matched_inputs_sha256": {
+    "annotation_reference": "89d6121d6e598c7155c6e3dcceea3c701443c0946014eef897765ae258bf9853",
+    "gene_caller": "0528e906d8650ac7077a8f0c503933fe2f8f34d1552d31516038a1857c0ee8b7",
+    "minimal": "7773a6949a8800be5b68e4f938ac3ac7f12ce1413dbd59ed448a4b486c2269b9",
+    "start_ranked": "68e4bac7afc66a1cd1b58a23533abc49442281d3c132cf2610dc6d9d0265d696"
+  },
+  "primary_query_cap": 2,
+  "schema": "paired-cohort-analysis-1",
+  "strata_primary_cap": {
+    "archetype=backbone_heavy": {
+      "components": 5,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 5,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 5
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.4,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        },
+        "blosum62|minimal|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.4,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.4,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 5,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 5
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.4,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        },
+        "esm2|minimal|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.4,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.4,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.2,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.4,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.4,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.2,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.2,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.4,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.4,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.2,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.4,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.4,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.2,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.4,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.4,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 5,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 5,
+          "largest_group_share": 0.2,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.4,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.4,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lineage_groups": 5
+    },
+    "archetype=single_cds": {
+      "components": 3,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 3,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 3
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 3,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 3
+        },
+        "blosum62|minimal|2": {
+          "eligible": 3,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 3
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 3,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 3
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 3,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 3
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 3,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 3
+        },
+        "esm2|minimal|2": {
+          "eligible": 3,
+          "equal_group_recall": 0.6666666666666666,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 2
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 3,
+          "equal_group_recall": 0.6666666666666666,
+          "pooled_recall": 0.6666666666666666,
+          "recovered": 2
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 3,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 3,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 3,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 3,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 3,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 3,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 3,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.3333333333333333,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -1.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -1.0,
+              0.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            -0.5,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.5,
+            0.0
+          ],
+          "pooled_gain": -0.3333333333333333,
+          "pooled_gain_without_largest_group": -0.5,
+          "recall_a_equal_group": 0.6666666666666666,
+          "recall_a_pooled": 0.6666666666666666,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -1.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 3,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.3333333333333333,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -1.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -1.0,
+              0.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            -0.5,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.5,
+            0.0
+          ],
+          "pooled_gain": -0.3333333333333333,
+          "pooled_gain_without_largest_group": -0.5,
+          "recall_a_equal_group": 0.6666666666666666,
+          "recall_a_pooled": 0.6666666666666666,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -1.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 3,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.3333333333333333,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              1.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              1.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 2,
+          "largest_group_share": 0.3333333333333333,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.5
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.5
+          ],
+          "pooled_gain": 0.3333333333333333,
+          "pooled_gain_without_largest_group": 0.5,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 0.6666666666666666,
+          "recall_b_pooled": 0.6666666666666666,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "lineage_groups": 3
+    },
+    "archetype=single_label_other": {
+      "components": 2,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 2,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 2
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        },
+        "blosum62|minimal|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 2,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 2
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        },
+        "esm2|minimal|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 2,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 1
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 2,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 2,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lineage_groups": 2
+    },
+    "archetype=tagged_fusion": {
+      "components": 4,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 4,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 4
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 2
+        },
+        "blosum62|minimal|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.5,
+          "recovered": 2
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.8333333333333334,
+          "pooled_recall": 0.75,
+          "recovered": 3
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.8333333333333334,
+          "pooled_recall": 0.75,
+          "recovered": 3
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.3333333333333333,
+          "pooled_recall": 0.25,
+          "recovered": 1
+        },
+        "esm2|minimal|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.3333333333333333,
+          "pooled_recall": 0.25,
+          "recovered": 1
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.6666666666666666,
+          "pooled_recall": 0.5,
+          "recovered": 2
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 3,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.16666666666666666,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.5,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.5,
+              0.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            -0.25,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.3333333333333333,
+            0.0
+          ],
+          "pooled_gain": -0.25,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.8333333333333334,
+          "recall_a_pooled": 0.75,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.6666666666666666,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.16666666666666666,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.5,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.5,
+              0.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            -0.25,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.3333333333333333,
+            0.0
+          ],
+          "pooled_gain": -0.25,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.3333333333333333,
+          "recall_a_pooled": 0.25,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.6666666666666666,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.16666666666666666,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.5,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.5,
+              0.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            -0.25,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.3333333333333333,
+            0.0
+          ],
+          "pooled_gain": -0.25,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.3333333333333333,
+          "recall_a_pooled": 0.25,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.5,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.6666666666666666,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.16666666666666666,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.5,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.5,
+              0.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            -0.25,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.3333333333333333,
+            0.0
+          ],
+          "pooled_gain": -0.25,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.6666666666666666,
+          "recall_a_pooled": 0.5,
+          "recall_b_equal_group": 0.8333333333333334,
+          "recall_b_pooled": 0.75,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.6666666666666666,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 3,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 3,
+          "largest_group_share": 0.5,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.3333333333333333,
+          "recall_a_pooled": 0.25,
+          "recall_b_equal_group": 0.3333333333333333,
+          "recall_b_pooled": 0.25,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lineage_groups": 3
+    },
+    "similarity_tier=high": {
+      "components": 4,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 4,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 4
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.75,
+          "pooled_recall": 0.75,
+          "recovered": 3
+        },
+        "blosum62|minimal|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.75,
+          "pooled_recall": 0.75,
+          "recovered": 3
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.75,
+          "pooled_recall": 0.75,
+          "recovered": 3
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 4,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 4
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.75,
+          "pooled_recall": 0.75,
+          "recovered": 3
+        },
+        "esm2|minimal|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.75,
+          "pooled_recall": 0.75,
+          "recovered": 3
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 4,
+          "equal_group_recall": 0.75,
+          "pooled_recall": 0.75,
+          "recovered": 3
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.75,
+          "recall_a_pooled": 0.75,
+          "recall_b_equal_group": 0.75,
+          "recall_b_pooled": 0.75,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.75,
+          "recall_a_pooled": 0.75,
+          "recall_b_equal_group": 0.75,
+          "recall_b_pooled": 0.75,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.75,
+          "recall_a_pooled": 0.75,
+          "recall_b_equal_group": 0.75,
+          "recall_b_pooled": 0.75,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.75,
+          "recall_a_pooled": 0.75,
+          "recall_b_equal_group": 0.75,
+          "recall_b_pooled": 0.75,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 4,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.25,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.75,
+          "recall_a_pooled": 0.75,
+          "recall_b_equal_group": 0.75,
+          "recall_b_pooled": 0.75,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lineage_groups": 4
+    },
+    "similarity_tier=intermediate": {
+      "components": 5,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 5,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 5
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        },
+        "blosum62|minimal|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 5,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 5
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        },
+        "esm2|minimal|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 1.0,
+          "recall_a_pooled": 1.0,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.5,
+          "recall_b_pooled": 0.4,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lineage_groups": 4
+    },
+    "similarity_tier=low": {
+      "components": 5,
+      "curves": {
+        "blosum62|annotation_reference|2": {
+          "eligible": 5,
+          "equal_group_recall": 1.0,
+          "pooled_recall": 1.0,
+          "recovered": 5
+        },
+        "blosum62|gene_caller|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.625,
+          "pooled_recall": 0.6,
+          "recovered": 3
+        },
+        "blosum62|minimal|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.625,
+          "pooled_recall": 0.6,
+          "recovered": 3
+        },
+        "blosum62|start_ranked|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.875,
+          "pooled_recall": 0.8,
+          "recovered": 4
+        },
+        "esm2|annotation_reference|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.875,
+          "pooled_recall": 0.8,
+          "recovered": 4
+        },
+        "esm2|gene_caller|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        },
+        "esm2|minimal|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.25,
+          "pooled_recall": 0.2,
+          "recovered": 1
+        },
+        "esm2|start_ranked|2": {
+          "eligible": 5,
+          "equal_group_recall": 0.5,
+          "pooled_recall": 0.4,
+          "recovered": 2
+        }
+      },
+      "effects": {
+        "blosum62: gene_caller - minimal": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 0,
+          "equal_group_gain": 0.0,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 0,
+          "groups_tied": 4,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.0
+          ],
+          "pooled_gain": 0.0,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.625,
+          "recall_a_pooled": 0.6,
+          "recall_b_equal_group": 0.625,
+          "recall_b_pooled": 0.6,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: annotation_reference": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.125,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.375,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.42857142857142855,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 3,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            -0.16666666666666666,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.25,
+            0.0
+          ],
+          "pooled_gain": -0.2,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.875,
+          "recall_a_pooled": 0.8,
+          "recall_b_equal_group": 1.0,
+          "recall_b_pooled": 1.0,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.5,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: gene_caller": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 1,
+          "equal_group_gain": -0.125,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.375,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.42857142857142855,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 1,
+          "groups_improved": 0,
+          "groups_tied": 3,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            -0.16666666666666666,
+            0.0
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.25,
+            0.0
+          ],
+          "pooled_gain": -0.2,
+          "pooled_gain_without_largest_group": 0.0,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.625,
+          "recall_b_pooled": 0.6,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.5,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: minimal": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 2,
+          "equal_group_gain": -0.375,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.75,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.75,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 2,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            -0.5,
+            -0.16666666666666666
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.5,
+            -0.25
+          ],
+          "pooled_gain": -0.4,
+          "pooled_gain_without_largest_group": -0.3333333333333333,
+          "recall_a_equal_group": 0.25,
+          "recall_a_pooled": 0.2,
+          "recall_b_equal_group": 0.625,
+          "recall_b_pooled": 0.6,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.75,
+            0.0
+          ]
+        },
+        "esm2 - blosum62: start_ranked": {
+          "components": 5,
+          "components_only_a": 0,
+          "components_only_b": 2,
+          "equal_group_gain": -0.375,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              -0.75,
+              0.0
+            ],
+            "pooled_gain_interval": [
+              -0.75,
+              0.0
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 2,
+          "groups_improved": 0,
+          "groups_tied": 2,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            -0.5,
+            -0.16666666666666666
+          ],
+          "leave_one_group_out_pooled_range": [
+            -0.5,
+            -0.25
+          ],
+          "pooled_gain": -0.4,
+          "pooled_gain_without_largest_group": -0.3333333333333333,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.875,
+          "recall_b_pooled": 0.8,
+          "two_way_bootstrap_pooled_gain_interval": [
+            -0.75,
+            0.0
+          ]
+        },
+        "esm2: gene_caller - minimal": {
+          "components": 5,
+          "components_only_a": 1,
+          "components_only_b": 0,
+          "equal_group_gain": 0.25,
+          "group_bootstrap": {
+            "equal_group_gain_interval": [
+              0.0,
+              0.75
+            ],
+            "pooled_gain_interval": [
+              0.0,
+              0.75
+            ]
+          },
+          "groups": 4,
+          "groups_declined": 0,
+          "groups_improved": 1,
+          "groups_tied": 3,
+          "largest_group_share": 0.4,
+          "leave_one_group_out_equal_group_range": [
+            0.0,
+            0.3333333333333333
+          ],
+          "leave_one_group_out_pooled_range": [
+            0.0,
+            0.3333333333333333
+          ],
+          "pooled_gain": 0.2,
+          "pooled_gain_without_largest_group": 0.3333333333333333,
+          "recall_a_equal_group": 0.5,
+          "recall_a_pooled": 0.4,
+          "recall_b_equal_group": 0.25,
+          "recall_b_pooled": 0.2,
+          "two_way_bootstrap_pooled_gain_interval": [
+            0.0,
+            0.75
+          ]
+        }
+      },
+      "lineage_groups": 4
+    }
+  },
+  "target": 0.05,
+  "verdicts": {
+    "blosum62: gene_caller - minimal": "gain of the target size unsupported (interval upper bound below the target)",
+    "blosum62: start_ranked - minimal": "inconclusive (interval spans zero and the target)",
+    "esm2: gene_caller - minimal": "inconclusive (interval spans zero and the target)",
+    "esm2: start_ranked - minimal": "inconclusive (interval spans zero and the target)"
+  },
+  "work": {
+    "blosum62|annotation_reference|1": {
+      "actual_inputs": 15,
+      "alignment_cells": 249215148,
+      "allowed_inputs": 15,
+      "candidate_pool": 18,
+      "characterize_seconds": 1.4350506790003692,
+      "encoder_calls": null,
+      "input_residues": 5391,
+      "reference_comparisons": 2010
+    },
+    "blosum62|annotation_reference|2": {
+      "actual_inputs": 17,
+      "alignment_cells": 275981160,
+      "allowed_inputs": 30,
+      "candidate_pool": 18,
+      "characterize_seconds": 0.09479338699998152,
+      "encoder_calls": null,
+      "input_residues": 5970,
+      "reference_comparisons": 2278
+    },
+    "blosum62|annotation_reference|4": {
+      "actual_inputs": 18,
+      "alignment_cells": 277737824,
+      "allowed_inputs": 60,
+      "candidate_pool": 18,
+      "characterize_seconds": 0.014823617999127237,
+      "encoder_calls": null,
+      "input_residues": 6008,
+      "reference_comparisons": 2412
+    },
+    "blosum62|annotation_reference|run": {
+      "unique_scorer_inputs": 13,
+      "unique_scoring_seconds": 1.5443502680004713,
+      "wall_seconds": 1.6423791330000768
+    },
+    "blosum62|gene_caller|1": {
+      "actual_inputs": 15,
+      "alignment_cells": 332656688,
+      "allowed_inputs": 15,
+      "candidate_pool": 104,
+      "characterize_seconds": 2.2205980239998553,
+      "encoder_calls": null,
+      "input_residues": 7196,
+      "reference_comparisons": 2010
+    },
+    "blosum62|gene_caller|2": {
+      "actual_inputs": 30,
+      "alignment_cells": 540775144,
+      "allowed_inputs": 30,
+      "candidate_pool": 104,
+      "characterize_seconds": 1.0196054709999771,
+      "encoder_calls": null,
+      "input_residues": 11698,
+      "reference_comparisons": 4020
+    },
+    "blosum62|gene_caller|4": {
+      "actual_inputs": 56,
+      "alignment_cells": 818744108,
+      "allowed_inputs": 60,
+      "candidate_pool": 104,
+      "characterize_seconds": 1.3881866230003652,
+      "encoder_calls": null,
+      "input_residues": 17711,
+      "reference_comparisons": 7504
+    },
+    "blosum62|gene_caller|run": {
+      "unique_scorer_inputs": 41,
+      "unique_scoring_seconds": 4.627694497000675,
+      "wall_seconds": 4.919708028000059
+    },
+    "blosum62|minimal|1": {
+      "actual_inputs": 15,
+      "alignment_cells": 353228148,
+      "allowed_inputs": 15,
+      "candidate_pool": 2507,
+      "characterize_seconds": 2.541770753999117,
+      "encoder_calls": null,
+      "input_residues": 7641,
+      "reference_comparisons": 2010
+    },
+    "blosum62|minimal|2": {
+      "actual_inputs": 30,
+      "alignment_cells": 611041704,
+      "allowed_inputs": 30,
+      "candidate_pool": 2507,
+      "characterize_seconds": 1.7223895879997144,
+      "encoder_calls": null,
+      "input_residues": 13218,
+      "reference_comparisons": 4020
+    },
+    "blosum62|minimal|4": {
+      "actual_inputs": 60,
+      "alignment_cells": 1019050032,
+      "allowed_inputs": 60,
+      "candidate_pool": 2507,
+      "characterize_seconds": 2.3911514410001473,
+      "encoder_calls": null,
+      "input_residues": 22044,
+      "reference_comparisons": 8040
+    },
+    "blosum62|minimal|run": {
+      "unique_scorer_inputs": 47,
+      "unique_scoring_seconds": 6.654439506000017,
+      "wall_seconds": 6.824234311000055
+    },
+    "blosum62|start_ranked|1": {
+      "actual_inputs": 15,
+      "alignment_cells": 353228148,
+      "allowed_inputs": 15,
+      "candidate_pool": 2507,
+      "characterize_seconds": 2.5073092120001093,
+      "encoder_calls": null,
+      "input_residues": 7641,
+      "reference_comparisons": 2010
+    },
+    "blosum62|start_ranked|2": {
+      "actual_inputs": 30,
+      "alignment_cells": 609423724,
+      "allowed_inputs": 30,
+      "candidate_pool": 2507,
+      "characterize_seconds": 1.6134691790002762,
+      "encoder_calls": null,
+      "input_residues": 13183,
+      "reference_comparisons": 4020
+    },
+    "blosum62|start_ranked|4": {
+      "actual_inputs": 60,
+      "alignment_cells": 1017663192,
+      "allowed_inputs": 60,
+      "candidate_pool": 2507,
+      "characterize_seconds": 2.3675904809999793,
+      "encoder_calls": null,
+      "input_residues": 22014,
+      "reference_comparisons": 8040
+    },
+    "blosum62|start_ranked|run": {
+      "unique_scorer_inputs": 48,
+      "unique_scoring_seconds": 6.487500812000235,
+      "wall_seconds": 6.660515171000043
+    },
+    "esm2|annotation_reference|1": {
+      "actual_inputs": 15,
+      "alignment_cells": null,
+      "allowed_inputs": 15,
+      "candidate_pool": 18,
+      "characterize_seconds": 1.5177777369995056,
+      "encoder_calls": 149,
+      "input_residues": 5391,
+      "reference_comparisons": 2010
+    },
+    "esm2|annotation_reference|2": {
+      "actual_inputs": 17,
+      "alignment_cells": null,
+      "allowed_inputs": 30,
+      "candidate_pool": 18,
+      "characterize_seconds": 0.07042706700053714,
+      "encoder_calls": 151,
+      "input_residues": 5970,
+      "reference_comparisons": 2278
+    },
+    "esm2|annotation_reference|4": {
+      "actual_inputs": 18,
+      "alignment_cells": null,
+      "allowed_inputs": 60,
+      "candidate_pool": 18,
+      "characterize_seconds": 0.020444147999569395,
+      "encoder_calls": 152,
+      "input_residues": 6008,
+      "reference_comparisons": 2412
+    },
+    "esm2|annotation_reference|run": {
+      "unique_scorer_inputs": 13,
+      "unique_scoring_seconds": 1.6084030709998842,
+      "wall_seconds": 17.988929593999956
+    },
+    "esm2|gene_caller|1": {
+      "actual_inputs": 15,
+      "alignment_cells": null,
+      "allowed_inputs": 15,
+      "candidate_pool": 104,
+      "characterize_seconds": 2.360678465000092,
+      "encoder_calls": 149,
+      "input_residues": 7196,
+      "reference_comparisons": 2010
+    },
+    "esm2|gene_caller|2": {
+      "actual_inputs": 30,
+      "alignment_cells": null,
+      "allowed_inputs": 30,
+      "candidate_pool": 104,
+      "characterize_seconds": 0.664269369999829,
+      "encoder_calls": 164,
+      "input_residues": 11698,
+      "reference_comparisons": 4020
+    },
+    "esm2|gene_caller|4": {
+      "actual_inputs": 56,
+      "alignment_cells": null,
+      "allowed_inputs": 60,
+      "candidate_pool": 104,
+      "characterize_seconds": 0.9285536919999231,
+      "encoder_calls": 190,
+      "input_residues": 17711,
+      "reference_comparisons": 7504
+    },
+    "esm2|gene_caller|run": {
+      "unique_scorer_inputs": 41,
+      "unique_scoring_seconds": 3.9529647989993464,
+      "wall_seconds": 19.265681117999975
+    },
+    "esm2|minimal|1": {
+      "actual_inputs": 15,
+      "alignment_cells": null,
+      "allowed_inputs": 15,
+      "candidate_pool": 2507,
+      "characterize_seconds": 3.2556855739994717,
+      "encoder_calls": 149,
+      "input_residues": 7641,
+      "reference_comparisons": 2010
+    },
+    "esm2|minimal|2": {
+      "actual_inputs": 30,
+      "alignment_cells": null,
+      "allowed_inputs": 30,
+      "candidate_pool": 2507,
+      "characterize_seconds": 1.4126693089999662,
+      "encoder_calls": 164,
+      "input_residues": 13218,
+      "reference_comparisons": 4020
+    },
+    "esm2|minimal|4": {
+      "actual_inputs": 60,
+      "alignment_cells": null,
+      "allowed_inputs": 60,
+      "candidate_pool": 2507,
+      "characterize_seconds": 1.6872152950002146,
+      "encoder_calls": 194,
+      "input_residues": 22044,
+      "reference_comparisons": 8040
+    },
+    "esm2|minimal|run": {
+      "unique_scorer_inputs": 47,
+      "unique_scoring_seconds": 6.354831954999781,
+      "wall_seconds": 24.120214803999943
+    },
+    "esm2|start_ranked|1": {
+      "actual_inputs": 15,
+      "alignment_cells": null,
+      "allowed_inputs": 15,
+      "candidate_pool": 2507,
+      "characterize_seconds": 2.8723787470000843,
+      "encoder_calls": 149,
+      "input_residues": 7641,
+      "reference_comparisons": 2010
+    },
+    "esm2|start_ranked|2": {
+      "actual_inputs": 30,
+      "alignment_cells": null,
+      "allowed_inputs": 30,
+      "candidate_pool": 2507,
+      "characterize_seconds": 1.6842022940002153,
+      "encoder_calls": 164,
+      "input_residues": 13183,
+      "reference_comparisons": 4020
+    },
+    "esm2|start_ranked|4": {
+      "actual_inputs": 60,
+      "alignment_cells": null,
+      "allowed_inputs": 60,
+      "candidate_pool": 2507,
+      "characterize_seconds": 1.976149579000321,
+      "encoder_calls": 194,
+      "input_residues": 22014,
+      "reference_comparisons": 8040
+    },
+    "esm2|start_ranked|run": {
+      "unique_scorer_inputs": 48,
+      "unique_scoring_seconds": 6.532085857000084,
+      "wall_seconds": 21.310052165999878
+    }
+  }
+}
