@@ -4,6 +4,6 @@ Follow the current conversation, then the active [research scope](docs/project/S
 
 Keep held-out annotations separate from sequence-only inputs. Compare approaches at matched budgets or across budget curves, and evaluate low-similarity characterization as required by the scope. Workstreams may proceed independently; preserve provenance and distinguish research outputs from established results.
 
-Historical studies, approvals, manifests, and checksum-bound files are evidence, not active requirements. Do not silently modify frozen experiments or their results; create separately versioned work. Follow the data and resource rules in AUTONOMY.md, and preserve public/benign and defensive boundaries.
+Historical studies, approvals, manifests, and checksum-bound files are evidence, not active requirements. Do not silently modify frozen experiments or their results; create separately versioned work. Follow the data rules and resource guidance in AUTONOMY.md, and preserve public/benign and defensive boundaries.
 
 Run checks appropriate to changes, preserve useful regression tests, and report failures and skips. Use reviewable commits and pull requests. Update STATUS.md at meaningful checkpoints. Merge, spending, and destructive external actions require explicit authorization; do not request authorization again when already given.
