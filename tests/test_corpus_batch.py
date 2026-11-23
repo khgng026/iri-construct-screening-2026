@@ -4,6 +4,7 @@ The audit caches family evidence per protein. Two constructs that carry the same
 protein at different coordinates must still receive their own DNA location: the
 per-occurrence evidence must not be written back into the shared cache.
 """
+import importlib.util
 import unittest
 
 from experiments.paired_preprocessing.corpus_batch import (
@@ -20,6 +21,9 @@ def _revcomp(dna):
     return dna.translate(COMPLEMENT)[::-1]
 
 
+# occurrence_anchor_evidence re-translates the region with Bio.Seq, so these cases need
+# Biopython; the dependency-free CI job skips them, matching the rest of the suite.
+@unittest.skipUnless(importlib.util.find_spec('Bio'), 'Optional Biopython re-translation tests')
 class SharedProteinCoordinateTests(unittest.TestCase):
     def setUp(self):
         # One protein, encoded by a fixed codon string, deposited in two different records.
@@ -60,6 +64,10 @@ class SharedProteinCoordinateTests(unittest.TestCase):
         self.assertNotIn('dna_spans', self.cached['demo_family'])
         self.assertNotIn('dna_region_retranslates', self.cached['demo_family'])
         self.assertEqual(self.cached['demo_family']['unit_region_aa'], [0, 50])
+
+
+class CoordinateMappingTests(unittest.TestCase):
+    """Pure coordinate helpers; no Biopython, so these run in the dependency-free job too."""
 
     def test_joined_minus_strand_region_spans_are_sorted_and_merged(self):
         # A split region on the minus strand still yields ascending, forward-sequence spans.
