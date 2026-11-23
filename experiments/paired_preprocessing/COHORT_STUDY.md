@@ -2,7 +2,7 @@
 
 **Question.** When component annotations are held out, does Pyrodigal preprocessing help an existing protein scorer identify more documented components than the minimal six-frame conversion at the same allowed query budget? How large is the gain, where does it occur, and does it persist when BLOSUM62 alignment replaces ESM-2?
 
-This document was committed as the protocol lock before any holdout inference. The results section is added afterwards in a separate commit.
+This document was committed as the protocol lock (`deaf88b`) before any holdout inference. The results are in a separate [results report](COHORT_RESULTS.md).
 
 ## Checkpoint A: readiness
 

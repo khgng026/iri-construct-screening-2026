@@ -1,6 +1,6 @@
 # Current project status
 
-Updated November 22, 2026. The [research scope](SCOPE.md) and [plan](PLAN.md) define the active direction. This is the current status ledger; historical reports preserve their original findings and conditions.
+Updated November 23, 2026. The [research scope](SCOPE.md) and [plan](PLAN.md) define the active direction. This is the current status ledger; historical reports preserve their original findings and conditions.
 
 ## Established work
 
@@ -18,4 +18,18 @@ The crossed reporter comparison scored the same candidates with ESM-2 and normal
 
 The related enzyme family comparison now includes 41 low-identity queries. ESM-2 residue alignment ranked 30 labels first versus 19 for mean-pooled ESM-2 and 38 for normalized BLOSUM62. Both ESM-2 arms used the same encoder outputs. [Results and reproduction commands](../../experiments/benign_protein_pilot/RELATED_FAMILIES.md)
 
-Construct-level work integrates both lines on the session branch: the crossed reporter comparison and corpus audit from `paired-research-pilot`, and grouped reporting with the protein studies from `main`. The next work is to evaluate both scorers on a verified grouped batch and compare fusion segmentation on regions with documented boundaries. The [pilot handoff](HANDOFF.md) records the earlier runs and available artifacts.
+## Grouped construct cohort v2
+
+The fresh cohort comparison is complete. Its protocol was locked at `deaf88b` before holdout inference. The cohort has 777 held-out public benign vectors with 1,221 corroborated documented components, spanning 422 lineage groups and 27 families.
+
+At two protein inputs per construct, Pyrodigal preprocessing beat minimal six-frame conversion with both scorers. With ESM-2 the equal-lineage-group gain was **9.2 percentage points (95% whole-group bootstrap 6.6–11.8)**. With normalized BLOSUM62 it was **9.0 (6.5–11.6)**. Pooled recall rose from 46.9% to 59.4% with ESM-2. Pyrodigal used slightly fewer inputs and 7.6% fewer input residues. Both gains meet the locked five-point criterion.
+
+The gain comes from candidate selection: scorers gained almost identically, with a 0.2-point difference. On identical inputs, BLOSUM62 recovered about 2.3 points more than mean-pooled ESM-2. That gap is largest for fusions and for the predefined low-similarity tier, where it is 8.0 points.
+
+The claim is qualified in four ways. About 82% of the extra recoveries are β-lactamase or kanamycin-resistance genes, and the two-way group-by-family interval is 2.8–23.6. The conservative shared-protein view is effectively one group. Tagged or fused constructs are inconclusive. At one input per construct the gain is 4.0 points.
+
+In the fusion subset (14 documented regions in 10 groups, exploratory), fixed windows did not help. ESM-2's misses were scorer failures on intact covering inputs, which points to local scoring rather than splitting. [Results](../../experiments/paired_preprocessing/COHORT_RESULTS.md) · [Protocol](../../experiments/paired_preprocessing/COHORT_STUDY.md)
+
+The session branch integrates `paired-research-pilot` (crossed comparison, corpus audit) with `main` (grouped reporting, protein studies). Sequence-free run outputs are committed under `results/` with the owner's approval; sequence inputs stay untracked. The holdout answer keys are now public, so a confirmatory test needs fresh held-out groups.
+
+**Next work, all exploratory or new.** Test a selection rule for the 412 documented genes Pyrodigal leaves below the cap. Evaluate local or residue-level scoring of intact fusion candidates. Build a cohort with more eukaryotic and reporter cassettes and more distinct distant components. The [pilot handoff](HANDOFF.md) records the earlier runs.

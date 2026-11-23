@@ -45,3 +45,5 @@ python -m experiments.paired_preprocessing.verify --protocol "$protocol" \
   --candidate "$run/start_aware.json" --annotation-reference "$run/annotation_reference.json" \
   --out "$run/report.json"
 ```
+
+The [grouped cohort v2](COHORT_STUDY.md) evaluates the minimal, start-ranking, Pyrodigal and annotation-derived arms with ESM-2 and BLOSUM62 on 777 held-out constructs. The protocol was locked before scoring. [Results](COHORT_RESULTS.md)
