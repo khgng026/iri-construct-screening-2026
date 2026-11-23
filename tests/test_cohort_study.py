@@ -126,3 +126,33 @@ class EffectTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class ScorerModuleTests(unittest.TestCase):
+    def test_scorer_and_partition_tables_are_consistent(self):
+        from experiments.paired_preprocessing import cohort_scorers as cse
+        for model, _ in cse.SCORERS.values():
+            self.assertIn(model, cse.MODELS)
+        for spec in cse.PARTITIONS.values():
+            self.assertTrue(set(spec['units']).issubset(spec['arms']))
+
+    def test_precomputed_characterizer_returns_stored_rankings(self):
+        from experiments.paired_preprocessing import cohort_scorers as cse
+        protein = 'MAAAA'
+        rankings = {'model': {'model': 'esm2_8m'},
+                    'mean_rankings': {cse.sha(protein): ['famA', 'famB']},
+                    'residue_rankings': {cse.sha(protein): ['famB']}}
+        with cse._precomputed(rankings, 'mean') as (rank, meta):
+            self.assertEqual(rank(protein), ['famA', 'famB'])
+            self.assertEqual(meta['representation'], 'mean')
+        with cse._precomputed(rankings, 'residue') as (rank, _):
+            self.assertEqual(rank(protein), ['famB'])
+
+    @unittest.skipUnless(HAS_NUMPY, 'representation helpers require NumPy')
+    def test_normalized_rows_are_unit_length(self):
+        import numpy as np
+        from experiments.paired_preprocessing import cohort_scorers as cse
+        states = np.array([[3.0, 4.0], [0.0, 2.0]], dtype=np.float32)
+        rows = cse._normalized_rows(states)
+        self.assertTrue(np.allclose(np.linalg.norm(rows, axis=1), 1.0))
+        self.assertEqual(len(cse._mean_vector(states)), 2)

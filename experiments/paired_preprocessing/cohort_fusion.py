@@ -54,11 +54,11 @@ def _score(protocol, key, trace):
     return verify(fixed, key, trace, [dict(trace, method=f'{trace["method"]}#copy')])['runs'][trace['method']]
 
 
-def analyze(run_dir: Path, key_path: Path, arms=ARMS):
+def analyze(run_dir: Path, key_path: Path, arms=ARMS, scorers=SCORERS):
     key = read(key_path)
     truth = {c['id']: c for c in key['constructs']}
     out = {'regions': sum(len(c['components']) for c in key['constructs']), 'by_arm': {}}
-    for scorer in SCORERS:
+    for scorer in scorers:
         protocol = read(run_dir / scorer / 'protocol.json')
         overlap = protocol['minimum_component_overlap']
         traces = {a: read(run_dir / scorer / f'{a}.json') for a in arms if (run_dir / scorer / f'{a}.json').exists()}
@@ -121,11 +121,12 @@ def main():
     run.add_argument('--run', type=Path, required=True)
     run.add_argument('--key', type=Path, required=True)
     run.add_argument('--out', type=Path, required=True)
+    run.add_argument('--scorers', nargs='+', default=list(SCORERS))
     args = parser.parse_args()
     if args.stage == 'anchor-key':
         anchor_region_key(args.freeze, args.construct_map, args.out)
     else:
-        result = analyze(args.run, args.key)
+        result = analyze(args.run, args.key, scorers=args.scorers)
         with args.out.open('x', encoding='utf-8') as handle:
             json.dump(result, handle, indent=2, sort_keys=True)
             handle.write('\n')

@@ -59,7 +59,7 @@ def component_table(protocols, key, traces, construct_map, arms):
     reports = {s: verify(protocols[s], key, traces[s][BASELINE],
                          [traces[s][a] for a in arms if a not in (BASELINE, REFERENCE)],
                          traces[s].get(REFERENCE)) for s in SCORERS}
-    overlap = protocols['esm2']['minimum_component_overlap']
+    overlap = protocols[SCORERS[0]]['minimum_component_overlap']
     info = {row['id']: row for row in construct_map}
     rows = []
     for construct in key['constructs']:
@@ -218,8 +218,10 @@ def work_table(traces, key, arms, reference_count):
                     'input_residues': sum(q['input_residues'] for r in rows for q in r['queries']),
                     'candidate_pool': sum(r['candidate_count'] for r in rows),
                     'reference_comparisons': sum(r['work']['reference_comparisons'] for r in rows),
-                    'alignment_cells': sum(r['work']['alignment_cells'] for r in rows) if s == 'blosum62' else None,
-                    'encoder_calls': (queries + reference_count) if s == 'esm2' else None,
+                    # Alignment cells apply to BLOSUM62 and to residue-level embedding alignment.
+                    'alignment_cells': (sum(r['work']['alignment_cells'] for r in rows)
+                                        if s == 'blosum62' or 'residue' in s else None),
+                    'encoder_calls': (queries + reference_count) if s != 'blosum62' else None,
                     'characterize_seconds': sum(r['characterize_seconds'] for r in rows)}
             out[f'{s}|{arm}|run'] = {'unique_scorer_inputs': trace['unique_scorer_inputs'],
                                      'unique_scoring_seconds': trace['unique_scoring_seconds'],
@@ -272,14 +274,15 @@ def effects(rows, cap, arms, group_field='lineage_group'):
             if arm != BASELINE:
                 e[f'{s}: {arm} - minimal'] = paired_effect(rows, (s, arm, cap), (s, BASELINE, cap), group_field)
     for arm in arms:
-        e[f'esm2 - blosum62: {arm}'] = paired_effect(rows, ('esm2', arm, cap), ('blosum62', arm, cap), group_field)
+        a, b = SCORERS
+        e[f'{a} - {b}: {arm}'] = paired_effect(rows, (a, arm, cap), (b, arm, cap), group_field)
     if 'gene_caller' in arms:
         # Difference in preprocessing gain between scorers, as a paired contrast per component.
-        e['difference in gain (gene_caller - minimal, esm2 - blosum62)'] = _interaction(rows, cap, group_field)
-        e['esm2: annotation_reference - gene_caller'] = paired_effect(
-            rows, ('esm2', REFERENCE, cap), ('esm2', 'gene_caller', cap), group_field)
-        e['blosum62: annotation_reference - gene_caller'] = paired_effect(
-            rows, ('blosum62', REFERENCE, cap), ('blosum62', 'gene_caller', cap), group_field)
+        a, b = SCORERS
+        e[f'difference in gain (gene_caller - minimal, {a} - {b})'] = _interaction(rows, cap, group_field)
+        for s in SCORERS:
+            e[f'{s}: annotation_reference - gene_caller'] = paired_effect(
+                rows, (s, REFERENCE, cap), (s, 'gene_caller', cap), group_field)
     return e
 
 
@@ -293,8 +296,9 @@ def _interaction(rows, cap, group_field):
         o = r['outcome']
         i = index[r[group_field]]
         n[i] += 1
-        d[i] += ((o[('esm2', 'gene_caller', cap)]['recovered'] - o[('esm2', BASELINE, cap)]['recovered'])
-                 - (o[('blosum62', 'gene_caller', cap)]['recovered'] - o[('blosum62', BASELINE, cap)]['recovered']))
+        a, b = SCORERS
+        d[i] += ((o[(a, 'gene_caller', cap)]['recovered'] - o[(a, BASELINE, cap)]['recovered'])
+                 - (o[(b, 'gene_caller', cap)]['recovered'] - o[(b, BASELINE, cap)]['recovered']))
     out = {'components': int(n.sum()), 'groups': len(groups), 'pooled': float(d.sum() / n.sum()),
            'equal_group': float(np.mean(d / n))}
     if len(groups) > 1:
@@ -310,7 +314,7 @@ def analyze(run_dir: Path, key_path: Path, map_path: Path, arms=MAIN_ARMS):
     fingerprints = check_matched_inputs(protocols, traces, arms)
     key, construct_map = read(key_path), read(map_path)
     rows, reports = component_table(protocols, key, traces, construct_map, arms)
-    protocol = protocols['esm2']
+    protocol = protocols[SCORERS[0]]
     caps, cap = protocol['query_caps'], protocol['primary_query_cap']
     strata = {}
     for field in ('archetype', 'similarity_tier'):
@@ -320,7 +324,7 @@ def analyze(run_dir: Path, key_path: Path, map_path: Path, arms=MAIN_ARMS):
                 'components': len(subset), 'lineage_groups': len({r['lineage_group'] for r in subset}),
                 'curves': recall_curves(subset, arms, [cap]),
                 'effects': {k: v for k, v in effects(subset, cap, arms).items()
-                            if k.endswith('gene_caller - minimal') or k.startswith('esm2 - blosum62')}}
+                            if k.endswith('gene_caller - minimal') or k.startswith(f'{SCORERS[0]} - {SCORERS[1]}')}}
     report = {
         'schema': 'paired-cohort-analysis-1',
         'bootstrap': BOOTSTRAP, 'primary_query_cap': cap, 'target': protocol['minimum_interesting_gain'],
@@ -333,26 +337,31 @@ def analyze(run_dir: Path, key_path: Path, map_path: Path, arms=MAIN_ARMS):
         'curves_conservative': recall_curves(rows, arms, caps, 'conservative_group'),
         'effects_by_cap': {c: effects(rows, c, arms) for c in caps},
         'effects_conservative_primary_cap': effects(rows, cap, arms, 'conservative_group'),
-        'work': work_table(traces, key, arms, traces['esm2'][arms[0]]['reference_count']),
+        'work': work_table(traces, key, arms, traces[SCORERS[0]][arms[0]]['reference_count']),
         'failures_primary_cap': failure_breakdown(rows, arms, cap),
         'strata_primary_cap': strata,
     }
     primary = report['effects_by_cap'][cap]
-    report['verdicts'] = {k: verdict(primary[k]) for k in ('esm2: gene_caller - minimal',
-                                                           'blosum62: gene_caller - minimal',
-                                                           'esm2: start_ranked - minimal',
-                                                           'blosum62: start_ranked - minimal')
-                          if k in primary}
+    report['verdicts'] = {k: verdict(primary[k]) for k in (f'{s}: {arm} - minimal' for arm in CANDIDATES
+                                                           for s in SCORERS) if k in primary}
     return report, rows, reports
+
+
+def use_scorers(pair):
+    """Compare another pair of scorers on the same traces; the default is the locked ESM-2/BLOSUM62 pair."""
+    global SCORERS
+    SCORERS = tuple(pair)
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--run', type=Path, required=True)
+    parser.add_argument('--scorers', nargs=2, default=list(SCORERS), metavar=('FIRST', 'SECOND'))
     parser.add_argument('--answer-key', type=Path, required=True)
     parser.add_argument('--construct-map', type=Path, required=True)
     parser.add_argument('--out', type=Path, required=True)
     args = parser.parse_args()
+    use_scorers(args.scorers)
     report, _, reports = analyze(args.run, args.answer_key, args.construct_map)
     report['input_sha256'] = {
         'answer_key': hashlib.sha256(args.answer_key.read_bytes()).hexdigest(),

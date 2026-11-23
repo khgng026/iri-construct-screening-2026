@@ -605,7 +605,8 @@ def candidate_units(method, original, finder):
     return _rank_by_start(units) if method == 'start_ranked' else units
 
 
-def run(method, inputs, references, protocol, output):
+def run(method, inputs, references, protocol, output, characterizer_factory=None):
+    """Run one arm. ``characterizer_factory`` substitutes another scorer with the reporter interface."""
     input_sha256 = file_digest(inputs)
     if method not in UNIT_ARMS and input_sha256 != protocol['sequence_input_sha256']:
         raise ValueError('Sequence input differs from the fixed protocol')
@@ -627,7 +628,8 @@ def run(method, inputs, references, protocol, output):
     selected_inputs = hashlib.sha256()
     cache, unique_seconds = {}, 0.0
     started_run = time.perf_counter()
-    with _characterizer(characterizer, reference_rows) as (rank_families, metadata):
+    factory = characterizer_factory or _characterizer
+    with factory(characterizer, reference_rows) as (rank_families, metadata):
         def memo(protein):
             # Identical inputs give identical rankings; caching changes cost, not results.
             nonlocal unique_seconds
