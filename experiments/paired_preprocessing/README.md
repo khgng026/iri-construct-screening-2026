@@ -8,6 +8,8 @@ Score the fraction of eligible documented components recovered at each query cap
 
 `verify.py` runs with the Python standard library. The [pilot protocol](reporter_protocol.json) illustrates the comparison settings. A key has `schema` and `constructs`, with `id`, `archetype`, `length`, and eligible `components` in every construct. A component has `id`, `family`, `strand`, and `spans`. `spans` are zero-based and half-open on the forward sequence, including all segments for a joined feature. A trace has `schema`, `method`, `characterization_id`, and `tiers`. Each tier contains `query_cap` and a `constructs` array. Each row lists `id`, `status`, `candidate_count`, `preprocess_seconds`, `characterize_seconds`, `queries`, and `predictions`. A query has `id`, `spans`, `strand`, and `input_residues`. A prediction has `query_id` and `family`.
 
+Use [group-aware reporting](GROUPED_REPORTING.md) with the verifier output to summarize dependence on related constructs.
+
 ## Reporter pilot v0
 
 Use five deposited reporter constructs covering a single CDS, a cassette with multiple CDSs, two fusion or tagged examples, and a construct with mostly sequence outside its documented reporter. The [panel](reporter_panel.json) records the source snapshots, the seven eligible coding components, and the reviewed UniProt references. The answer key comes from the source product descriptions and validated translations, with six reporter labels and one regulatory protein label. Treat each fusion as one documented coding product. The panel does not supply independently labelled fusion subregions.
