@@ -1,0 +1,362 @@
+{
+  "constructs": [
+    {
+      "accession": "PX401326.1",
+      "components": [
+        {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "feature_index": 1,
+          "source_product": "mCherry",
+          "translation_sha256": "546a4455d8d339f47fb7721c17b4593ee5ffb243f6011f436005d63c8b2357a5"
+        }
+      ],
+      "description": "Synthetic construct mCherry gene, complete cds",
+      "length": 6756,
+      "sha256": "e8f9fae33866668f5e37f79bc784535a272760de77ccdc560b6ad19d42b645d5",
+      "topology": "circular"
+    },
+    {
+      "accession": "OK040229.1",
+      "components": [
+        {
+          "ancestry": "lancelet",
+          "family": "gfp_barrel",
+          "feature_index": 2,
+          "source_product": "mNeonGreen",
+          "translation_sha256": "64ad32d9d9d104bb6450a26f30362e611898c72cd6de73c36e515fc080f84dbf"
+        }
+      ],
+      "description": "Synthetic construct mNeonGreen gene, complete cds",
+      "length": 5313,
+      "sha256": "2ca5a0d7d30fb0173ff837c9b821a8fadc9b882cf9251f7fe2748c8214be1382",
+      "topology": "linear"
+    },
+    {
+      "accession": "MW987534.1",
+      "components": [
+        {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "feature_index": 3,
+          "source_product": "mCherry",
+          "translation_sha256": "546a4455d8d339f47fb7721c17b4593ee5ffb243f6011f436005d63c8b2357a5"
+        },
+        {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "feature_index": 6,
+          "source_product": "EGFP",
+          "translation_sha256": "1041d381511cdf4e0dff50ee0f331e26d76b6d8bf0a95e4ad6a5ead87a0f2fc8"
+        }
+      ],
+      "description": "Cloning vector PGK+ with onboard mCherry cassette, complete sequence",
+      "length": 9257,
+      "sha256": "ce73c5c82cdc3d7cfd83eeaffec461c8b6df3fc986198adf62e5f1563621b253",
+      "topology": "circular"
+    },
+    {
+      "accession": "MN232104.1",
+      "components": [
+        {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "feature_index": 3,
+          "source_product": "TatRRR-mCherry fluorescent protein",
+          "translation_sha256": "111894c1468609eac50b10cc6f892a80f0f527ab96d607ac979d1bfb06073939"
+        },
+        {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "feature_index": 7,
+          "source_product": "enhanced green fluorescent protein",
+          "translation_sha256": "1041d381511cdf4e0dff50ee0f331e26d76b6d8bf0a95e4ad6a5ead87a0f2fc8"
+        }
+      ],
+      "description": "MCherry and eGFP expression vector pTTC-Mmus-WT, complete sequence",
+      "length": 6199,
+      "sha256": "e46224bdd4bc6430559db933c3f434cda69ab095ee756dec0e46255cdf34b52b",
+      "topology": "circular"
+    },
+    {
+      "accession": "KP666136.1",
+      "components": [
+        {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "feature_index": 2,
+          "source_product": "mCerulean",
+          "translation_sha256": "a3a72bef8642737f65203d95ea3e9fb45685f2ff908555a7f29be4efccb0618f"
+        },
+        {
+          "ancestry": "discosoma",
+          "family": "gfp_barrel",
+          "feature_index": 7,
+          "source_product": "mCherry",
+          "translation_sha256": "546a4455d8d339f47fb7721c17b4593ee5ffb243f6011f436005d63c8b2357a5"
+        },
+        {
+          "ancestry": "aequorea",
+          "family": "gfp_barrel",
+          "feature_index": 13,
+          "source_product": "mVenus",
+          "translation_sha256": "6b9e1966c7703a44816fcab7700429043051232dc2501ce91c47b12ccc64efd8"
+        }
+      ],
+      "description": "Synthetic construct mCerulean, mCherry, and mVenus genes, complete cds",
+      "length": 3104,
+      "sha256": "d44ce47e6c7cff2f5e64a9822719e88a9abfbb46fc5711ce8ba0462aea5e1806",
+      "topology": "linear"
+    },
+    {
+      "accession": "AY738222.1",
+      "components": [
+        {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "feature_index": 2,
+          "source_product": "luciferase luc2",
+          "translation_sha256": "9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43"
+        }
+      ],
+      "description": "Firefly luciferase reporter vector pGL4.10[luc2], complete sequence",
+      "length": 4242,
+      "sha256": "9df6a2696fc63d979d31eb5ef0c2a3d81d60764402cae8aa5c75e8cc5dea23e5",
+      "topology": "circular"
+    },
+    {
+      "accession": "MK484107.1",
+      "components": [
+        {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "feature_index": 3,
+          "source_product": "firefly luciferase",
+          "translation_sha256": "9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43"
+        }
+      ],
+      "description": "Firefly luciferase reporter vector pGL3c, complete sequence",
+      "length": 5010,
+      "sha256": "8609bdc3c6c013b177d46b97b56ddebdbcd94958bf7f402da08cc7225a0d0eed",
+      "topology": "circular"
+    },
+    {
+      "accession": "MK484108.1",
+      "components": [
+        {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "feature_index": 2,
+          "source_product": "firefly luciferase",
+          "translation_sha256": "9023bdf7532e7e7ce555faa66e0ebac09e7c2d8c2e997b51cf4dd572b45a6f43"
+        }
+      ],
+      "description": "Firefly luciferase reporter vector pGL4Zc, complete sequence",
+      "length": 4790,
+      "sha256": "689ea67acab092a8cac4e48bbc7ceac4acc32dd571de81898ce5322c15510cd3",
+      "topology": "circular"
+    },
+    {
+      "accession": "U84006.1",
+      "components": [
+        {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "feature_index": 3,
+          "source_product": "firefly luciferase",
+          "translation_sha256": "abda0b3a5aa96aaa72c6b8e345ebbb67db0936532456cd861c94257224f9babc"
+        }
+      ],
+      "description": "Expression vector pBSII-LUCINT firefly luciferase (LUCINT), beta-galactosidase (lacZ) and beta-lactamase (ampR) genes, complete cds and lac operon promoter sequence",
+      "length": 5967,
+      "sha256": "567d51e37fbd5396bbda54ced9a92129607a07e7fdce5962e8d43f5351eaef2b",
+      "topology": "circular"
+    },
+    {
+      "accession": "DQ904461.1",
+      "components": [
+        {
+          "ancestry": "firefly",
+          "family": "anl_fold",
+          "feature_index": 3,
+          "source_product": "firefly luciferase",
+          "translation_sha256": "3e47b5a2d754e3b6f92a54161bcdeb9346f84f1558690cd52a55116693f4bd2f"
+        }
+      ],
+      "description": "Synthetic firefly luciferase reporter vector pGL4.29[luc2P/CRE/Hygro], complete sequence",
+      "length": 6084,
+      "sha256": "b5f831abec5d75a4158133f1d9771d01b07d0eb100f27a4c8398d1059e2793cd",
+      "topology": "circular"
+    }
+  ],
+  "reference_source": {
+    "prepared_sha256": "157de8b12364cee120eaa2af2b0735d13195010d3fe0195d6ff03754e117b074",
+    "release": "2026_04",
+    "response_sha256": "c1c60f5095783cb19f6c08d45e9d4517ce5d0029ba91a48b4eb8c7bb32c8596d",
+    "terms": "https://www.uniprot.org/help/license",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=accession%3AP42212+OR+accession%3AD7PM05+OR+accession%3AP27550+OR+accession%3AP69451+OR+accession%3AP02753+OR+accession%3AP02754+OR+accession%3AP02701+OR+accession%3AP22629+OR+accession%3AP0A799+OR+accession%3AP00560&format=tsv&size=20&fields=accession%2Cprotein_name%2Corganism_name%2Clength%2Cxref_interpro%2Cversion%2Csequence_version%2Csequence"
+  },
+  "references": [
+    {
+      "accession": "P02753",
+      "entry_version": 255,
+      "family": "lipocalin",
+      "interpro": [
+        "IPR012674",
+        "IPR022271",
+        "IPR022272",
+        "IPR000566",
+        "IPR002449"
+      ],
+      "name": "Retinol-binding protein 4 (Plasma retinol-binding protein) (PRBP) (RBP) [Cleaved into: Plasma retinol-binding protein(1-182); Plasma retinol-binding protein(1-181); Plasma retinol-binding protein(1-179); Plasma retinol-binding protein(1-176)]",
+      "organism": "Homo sapiens (Human)",
+      "sequence_sha256": "8400030088daa962283125365238a8cd19878b292ef12408c6457e69231e769f",
+      "sequence_version": 3
+    },
+    {
+      "accession": "P0A799",
+      "entry_version": 150,
+      "family": "pgk_fold",
+      "interpro": [
+        "IPR001576",
+        "IPR015911",
+        "IPR015824",
+        "IPR036043"
+      ],
+      "name": "Phosphoglycerate kinase (EC 2.7.2.3)",
+      "organism": "Escherichia coli (strain K12)",
+      "sequence_sha256": "179943a8d2ca0ae079dc55d1068fe9ec172a6a24ff0ad0393f33e5b4dfc22728",
+      "sequence_version": 2
+    },
+    {
+      "accession": "P27550",
+      "entry_version": 190,
+      "family": "anl_fold",
+      "interpro": [
+        "IPR011904",
+        "IPR032387",
+        "IPR045851",
+        "IPR025110",
+        "IPR020845",
+        "IPR000873",
+        "IPR042099"
+      ],
+      "name": "Acetyl-coenzyme A synthetase (AcCoA synthetase) (Acs) (EC 6.2.1.1) (Acetate--CoA ligase) (Acyl-activating enzyme)",
+      "organism": "Escherichia coli (strain K12)",
+      "sequence_sha256": "90e540d19bb97c88cef7e2198bcd5b18e2afa8d2672157f4cc88e6b05c71daea",
+      "sequence_version": 2
+    },
+    {
+      "accession": "P69451",
+      "entry_version": 146,
+      "family": "anl_fold",
+      "interpro": [
+        "IPR045851",
+        "IPR025110",
+        "IPR020845",
+        "IPR000873",
+        "IPR042099",
+        "IPR050237"
+      ],
+      "name": "Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3) (Long-chain acyl-CoA synthetase) (Acyl-CoA synthetase)",
+      "organism": "Escherichia coli (strain K12)",
+      "sequence_sha256": "87504ba8fe2f6804438a83a2e15deff5a529bf771b45920f689b4250793dd0ce",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P00560",
+      "entry_version": 231,
+      "family": "pgk_fold",
+      "interpro": [
+        "IPR001576",
+        "IPR015911",
+        "IPR015824",
+        "IPR036043"
+      ],
+      "name": "Phosphoglycerate kinase (EC 2.7.2.3)",
+      "organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)",
+      "sequence_sha256": "008c43d87e5cde788e293d3e1be752a6fe6a16d91f6f777a362580e60ab5fcb5",
+      "sequence_version": 2
+    },
+    {
+      "accession": "P02754",
+      "entry_version": 201,
+      "family": "lipocalin",
+      "interpro": [
+        "IPR002447",
+        "IPR012674",
+        "IPR002345",
+        "IPR022272",
+        "IPR000566"
+      ],
+      "name": "Beta-lactoglobulin (Beta-LG) (allergen Bos d 5)",
+      "organism": "Bos taurus (Bovine)",
+      "sequence_sha256": "55568c85375d447e0bc8481cb3eedd5108f842acc25b8922d48d937a13bac273",
+      "sequence_version": 3
+    },
+    {
+      "accession": "P42212",
+      "entry_version": 196,
+      "family": "gfp_barrel",
+      "interpro": [
+        "IPR009017",
+        "IPR011584",
+        "IPR000786"
+      ],
+      "name": "Green fluorescent protein",
+      "organism": "Aequorea victoria (Water jellyfish) (Mesonema victoria)",
+      "sequence_sha256": "44f2688342a00e4b01e82be5e655b26499f981515d5da9a6076315627355b403",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P02701",
+      "entry_version": 193,
+      "family": "avidin_fold",
+      "interpro": [
+        "IPR005469",
+        "IPR017889",
+        "IPR036896",
+        "IPR005468",
+        "IPR051764"
+      ],
+      "name": "Avidin",
+      "organism": "Gallus gallus (Chicken)",
+      "sequence_sha256": "13ec8e772b55fbd5b5e91d9d39055d90dfa223c248c63302b87b91d50b0805c2",
+      "sequence_version": 3
+    },
+    {
+      "accession": "P22629",
+      "entry_version": 168,
+      "family": "avidin_fold",
+      "interpro": [
+        "IPR005469",
+        "IPR017889",
+        "IPR036896",
+        "IPR005468",
+        "IPR051764"
+      ],
+      "name": "Streptavidin",
+      "organism": "Streptomyces avidinii",
+      "sequence_sha256": "53b054db88f740bc1d6e333e9648e5399c12ada9ff343f39305bc8906436563d",
+      "sequence_version": 1
+    },
+    {
+      "accession": "D7PM05",
+      "entry_version": 47,
+      "family": "gfp_barrel",
+      "interpro": [
+        "IPR009017",
+        "IPR011584",
+        "IPR000786"
+      ],
+      "name": "Green-fluorescent protein 10 (Green-fluorescent protein 12) (Green-fluorescent protein 2) (Green-fluorescent protein 4)",
+      "organism": "Clytia gregaria (Gregarious jellyfish) (Phialidium gregarium)",
+      "sequence_sha256": "4d9e0f52986dfa520a66afcf32d1d335eaac5009dd8fe6bcf3d2579a218e47d9",
+      "sequence_version": 1
+    }
+  ],
+  "schema": "distant-public-reporter-pilot-1",
+  "source": "NCBI GenBank nuccore EFetch",
+  "source_retrieved_on": "2026-11-23",
+  "source_terms": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+}
