@@ -156,3 +156,42 @@ class ScorerModuleTests(unittest.TestCase):
         rows = cse._normalized_rows(states)
         self.assertTrue(np.allclose(np.linalg.norm(rows, axis=1), 1.0))
         self.assertEqual(len(cse._mean_vector(states)), 2)
+
+
+@unittest.skipUnless(HAS_NUMPY, 'ablation analysis requires NumPy')
+class AblationTests(unittest.TestCase):
+    def _doc(self):
+        ref_family = {'r1': 'A', 'r2': 'A', 'r3': 'B'}
+        def per(idA1, idA2, idB, bl):
+            return {'r1': {'identity': idA1, 'blosum': bl[0], 'mean': bl[0], 'residue': bl[0]},
+                    'r2': {'identity': idA2, 'blosum': bl[1], 'mean': bl[1], 'residue': bl[1]},
+                    'r3': {'identity': idB, 'blosum': bl[2], 'mean': bl[2], 'residue': bl[2]}}
+        comps = [{'construct': 'c1', 'component': 'c1-A', 'family': 'A', 'lineage_group': 'g1',
+                  'protein_sha256': 'p1', 'fusion_class': False}]
+        # p1: close famA ref r1 wins; once r1 is stripped, famB ref r3 outscores the distant famA r2.
+        scores = {'p1': per(0.9, 0.3, 0.25, (0.9, 0.2, 0.3))}
+        return {'model': {'model': 'esm2_8m'}, 'reference_family': ref_family, 'components': comps,
+                'scores_by_protein': scores, 'encode_seconds': 0}
+
+    def test_ablation_strips_close_references_and_reports_recall(self):
+        import json
+        import tempfile
+        from experiments.paired_preprocessing import cohort_ablation as ab
+        from pathlib import Path
+        d = Path(tempfile.mkdtemp())
+        (d / 'scores.json').write_text(json.dumps(self._doc()))
+        ab.analyze([str(d / 'scores.json')], d / 'out.json')
+        out = json.loads((d / 'out.json').read_text())
+        # Above every retained-reference identity: the close famA ref makes BLOSUM correct.
+        self.assertEqual(out['by_threshold']['1.01']['recall']['blosum62']['recovered'], 1)
+        # Once references >= 0.80 identity are removed, the panel's best is famB: BLOSUM misses.
+        self.assertEqual(out['by_threshold']['0.80']['recall']['blosum62']['recovered'], 0)
+        # Below the distant famA reference's identity (0.30) nothing same-family survives.
+        self.assertEqual(out['by_threshold']['0.25']['scorable_components'], 0)
+
+    def test_top_family_takes_best_reference_per_family(self):
+        from experiments.paired_preprocessing import cohort_ablation as ab
+        per_ref = {'r1': {'s': 0.2}, 'r2': {'s': 0.9}, 'r3': {'s': 0.5}}
+        self.assertEqual(ab._top_family(per_ref, {'r1': 'A', 'r2': 'A', 'r3': 'B'}, 's', ['r1', 'r2', 'r3']), 'A')
+        self.assertEqual(ab._top_family(per_ref, {'r1': 'A', 'r2': 'A', 'r3': 'B'}, 's', ['r1', 'r3']), 'B')
+        self.assertIsNone(ab._top_family(per_ref, {'r1': 'A'}, 's', []))
