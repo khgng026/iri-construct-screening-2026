@@ -1,0 +1,25 @@
+{
+  "schema": "iri-q3-open-reporters-feasibility-v1",
+  "construct_source": {
+    "repository": "https://github.com/Reclone-org/Open-DNA-Collections",
+    "commit": "55d4b762194055c8027fd6c780068d8a78a03282",
+    "directory": "Open Reporters Collection/Plasmids_Genbank"
+  },
+  "protein_source": {
+    "repository": "https://github.com/aequorea238/Orthologous_GFP_Fitness_Peaks",
+    "commit": "799bd76889918bf1551c60016fb23278024cac73",
+    "path": "data/alignments/extant_fluorescent_proteins.fasta",
+    "publication": "https://doi.org/10.7554/eLife.75842"
+  },
+  "gfp_like_record_numbers": [88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110],
+  "other_reporter_record_numbers": [112, 113, 114, 115, 117],
+  "natural_panel_names": {"plamgfp": ["plamgfp", "palmgfp"]},
+  "reference_sets": {
+    "hydrozoan": ["avGFP", "cgreGFP"],
+    "copepod": ["ppluGFP1", "ppluGFP2"],
+    "lancelet": ["LanYFP", "LanFP1", "LanFP2"]
+  },
+  "primary_candidate_cap": 2,
+  "identity_below": 0.25,
+  "overlap_at_least": 0.8
+}

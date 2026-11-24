@@ -1,0 +1,1183 @@
+{
+  "cohort": {
+    "all": {
+      "all_archetypes": {
+        "conservative": {
+          "groups": 37,
+          "largest_group_size": 1175,
+          "occurrence_weighted_effective_groups": 1.0797726369034815
+        },
+        "constructs": 768,
+        "distinct_proteins": 217,
+        "families": {
+          "aminoglycoside_phosphotransferase": 297,
+          "ant3_adenylyltransferase": 33,
+          "arac_regulator": 23,
+          "biotin_protein_ligase": 2,
+          "chloramphenicol_acetyltransferase": 80,
+          "class_a_beta_lactamase": 357,
+          "coleopteran_luciferase": 10,
+          "erm_rrna_methyltransferase": 11,
+          "gfp_like": 128,
+          "glycosyl_hydrolase_2": 10,
+          "glycosyl_hydrolase_68": 8,
+          "gst_mu": 6,
+          "igp_dehydratase": 4,
+          "initiator_repb": 14,
+          "isopropylmalate_dehydrogenase": 3,
+          "laci_galr_repressor": 47,
+          "luxr_autoinducer_regulator": 6,
+          "omp_decarboxylase": 25,
+          "pat_bar_acetyltransferase": 93,
+          "phage_integrase": 9,
+          "phage_rna_polymerase": 2,
+          "reca": 1,
+          "solute_binding_protein_1": 2,
+          "tcr_tet_efflux": 12,
+          "tetr_repressor": 27,
+          "thioredoxin": 1,
+          "trpf": 10
+        },
+        "lineage": {
+          "groups": 422,
+          "largest_group_size": 240,
+          "occurrence_weighted_effective_groups": 23.85765494727072
+        },
+        "occurrences": 1221,
+        "occurrences_also_in_development": 0,
+        "proteins_also_in_development": 0
+      },
+      "by_archetype": {
+        "backbone_heavy": {
+          "conservative": {
+            "groups": 10,
+            "largest_group_size": 130,
+            "occurrence_weighted_effective_groups": 1.1914441030489247
+          },
+          "constructs": 142,
+          "distinct_proteins": 31,
+          "families": {
+            "aminoglycoside_phosphotransferase": 24,
+            "ant3_adenylyltransferase": 7,
+            "arac_regulator": 4,
+            "chloramphenicol_acetyltransferase": 15,
+            "class_a_beta_lactamase": 72,
+            "erm_rrna_methyltransferase": 4,
+            "gfp_like": 6,
+            "igp_dehydratase": 1,
+            "laci_galr_repressor": 2,
+            "omp_decarboxylase": 5,
+            "phage_integrase": 1,
+            "tetr_repressor": 1
+          },
+          "lineage": {
+            "groups": 107,
+            "largest_group_size": 19,
+            "occurrence_weighted_effective_groups": 37.61940298507463
+          },
+          "occurrences": 142,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "multi_cds": {
+          "conservative": {
+            "groups": 2,
+            "largest_group_size": 748,
+            "occurrence_weighted_effective_groups": 1.0053475553522022
+          },
+          "constructs": 354,
+          "distinct_proteins": 138,
+          "families": {
+            "aminoglycoside_phosphotransferase": 212,
+            "ant3_adenylyltransferase": 12,
+            "arac_regulator": 16,
+            "biotin_protein_ligase": 2,
+            "chloramphenicol_acetyltransferase": 37,
+            "class_a_beta_lactamase": 150,
+            "coleopteran_luciferase": 8,
+            "erm_rrna_methyltransferase": 6,
+            "gfp_like": 72,
+            "glycosyl_hydrolase_2": 6,
+            "glycosyl_hydrolase_68": 7,
+            "gst_mu": 3,
+            "igp_dehydratase": 1,
+            "initiator_repb": 14,
+            "isopropylmalate_dehydrogenase": 2,
+            "laci_galr_repressor": 42,
+            "luxr_autoinducer_regulator": 6,
+            "omp_decarboxylase": 19,
+            "pat_bar_acetyltransferase": 92,
+            "phage_integrase": 7,
+            "tcr_tet_efflux": 10,
+            "tetr_repressor": 16,
+            "thioredoxin": 1,
+            "trpf": 9
+          },
+          "lineage": {
+            "groups": 183,
+            "largest_group_size": 203,
+            "occurrence_weighted_effective_groups": 12.789904502046385
+          },
+          "occurrences": 750,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "single_cds": {
+          "conservative": {
+            "groups": 8,
+            "largest_group_size": 91,
+            "occurrence_weighted_effective_groups": 1.1587837837837838
+          },
+          "constructs": 98,
+          "distinct_proteins": 35,
+          "families": {
+            "aminoglycoside_phosphotransferase": 24,
+            "ant3_adenylyltransferase": 4,
+            "chloramphenicol_acetyltransferase": 3,
+            "class_a_beta_lactamase": 47,
+            "coleopteran_luciferase": 1,
+            "gfp_like": 10,
+            "glycosyl_hydrolase_2": 1,
+            "igp_dehydratase": 2,
+            "isopropylmalate_dehydrogenase": 1,
+            "pat_bar_acetyltransferase": 1,
+            "phage_integrase": 1,
+            "tcr_tet_efflux": 1,
+            "tetr_repressor": 1,
+            "trpf": 1
+          },
+          "lineage": {
+            "groups": 70,
+            "largest_group_size": 8,
+            "occurrence_weighted_effective_groups": 44.87850467289719
+          },
+          "occurrences": 98,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "single_label_other": {
+          "conservative": {
+            "groups": 8,
+            "largest_group_size": 118,
+            "occurrence_weighted_effective_groups": 1.1215993108893834
+          },
+          "constructs": 125,
+          "distinct_proteins": 23,
+          "families": {
+            "aminoglycoside_phosphotransferase": 18,
+            "ant3_adenylyltransferase": 6,
+            "arac_regulator": 2,
+            "chloramphenicol_acetyltransferase": 21,
+            "class_a_beta_lactamase": 71,
+            "erm_rrna_methyltransferase": 1,
+            "gfp_like": 2,
+            "glycosyl_hydrolase_2": 1,
+            "glycosyl_hydrolase_68": 1,
+            "laci_galr_repressor": 1,
+            "tcr_tet_efflux": 1
+          },
+          "lineage": {
+            "groups": 72,
+            "largest_group_size": 15,
+            "occurrence_weighted_effective_groups": 28.052064631956913
+          },
+          "occurrences": 125,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "tagged_fusion": {
+          "conservative": {
+            "groups": 15,
+            "largest_group_size": 88,
+            "occurrence_weighted_effective_groups": 1.446074646074646
+          },
+          "constructs": 49,
+          "distinct_proteins": 68,
+          "families": {
+            "aminoglycoside_phosphotransferase": 19,
+            "ant3_adenylyltransferase": 4,
+            "arac_regulator": 1,
+            "chloramphenicol_acetyltransferase": 4,
+            "class_a_beta_lactamase": 17,
+            "coleopteran_luciferase": 1,
+            "gfp_like": 38,
+            "glycosyl_hydrolase_2": 2,
+            "gst_mu": 3,
+            "laci_galr_repressor": 2,
+            "omp_decarboxylase": 1,
+            "phage_rna_polymerase": 2,
+            "reca": 1,
+            "solute_binding_protein_1": 2,
+            "tetr_repressor": 9
+          },
+          "lineage": {
+            "groups": 43,
+            "largest_group_size": 8,
+            "occurrence_weighted_effective_groups": 30.69945355191257
+          },
+          "occurrences": 106,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        }
+      }
+    },
+    "insufficient_coverage": {
+      "all_archetypes": {
+        "conservative": {
+          "groups": 4,
+          "largest_group_size": 34,
+          "occurrence_weighted_effective_groups": 1.181190681622088
+        },
+        "constructs": 36,
+        "distinct_proteins": 21,
+        "families": {
+          "aminoglycoside_phosphotransferase": 7,
+          "glycosyl_hydrolase_2": 7,
+          "initiator_repb": 14,
+          "phage_integrase": 9
+        },
+        "lineage": {
+          "groups": 30,
+          "largest_group_size": 4,
+          "occurrence_weighted_effective_groups": 21.73015873015873
+        },
+        "occurrences": 37,
+        "occurrences_also_in_development": 0,
+        "proteins_also_in_development": 0
+      },
+      "by_archetype": {
+        "backbone_heavy": {
+          "conservative": {
+            "groups": 1,
+            "largest_group_size": 2,
+            "occurrence_weighted_effective_groups": 1.0
+          },
+          "constructs": 2,
+          "distinct_proteins": 2,
+          "families": {
+            "aminoglycoside_phosphotransferase": 1,
+            "phage_integrase": 1
+          },
+          "lineage": {
+            "groups": 2,
+            "largest_group_size": 1,
+            "occurrence_weighted_effective_groups": 2.0
+          },
+          "occurrences": 2,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "multi_cds": {
+          "conservative": {
+            "groups": 2,
+            "largest_group_size": 28,
+            "occurrence_weighted_effective_groups": 1.0713375796178344
+          },
+          "constructs": 28,
+          "distinct_proteins": 19,
+          "families": {
+            "aminoglycoside_phosphotransferase": 3,
+            "glycosyl_hydrolase_2": 5,
+            "initiator_repb": 14,
+            "phage_integrase": 7
+          },
+          "lineage": {
+            "groups": 22,
+            "largest_group_size": 4,
+            "occurrence_weighted_effective_groups": 15.290909090909091
+          },
+          "occurrences": 29,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "single_cds": {
+          "conservative": {
+            "groups": 2,
+            "largest_group_size": 3,
+            "occurrence_weighted_effective_groups": 1.6
+          },
+          "constructs": 4,
+          "distinct_proteins": 3,
+          "families": {
+            "aminoglycoside_phosphotransferase": 2,
+            "glycosyl_hydrolase_2": 1,
+            "phage_integrase": 1
+          },
+          "lineage": {
+            "groups": 4,
+            "largest_group_size": 1,
+            "occurrence_weighted_effective_groups": 4.0
+          },
+          "occurrences": 4,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "single_label_other": {
+          "conservative": {
+            "groups": 1,
+            "largest_group_size": 1,
+            "occurrence_weighted_effective_groups": 1.0
+          },
+          "constructs": 1,
+          "distinct_proteins": 1,
+          "families": {
+            "glycosyl_hydrolase_2": 1
+          },
+          "lineage": {
+            "groups": 1,
+            "largest_group_size": 1,
+            "occurrence_weighted_effective_groups": 1.0
+          },
+          "occurrences": 1,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "tagged_fusion": {
+          "conservative": {
+            "groups": 1,
+            "largest_group_size": 1,
+            "occurrence_weighted_effective_groups": 1.0
+          },
+          "constructs": 1,
+          "distinct_proteins": 1,
+          "families": {
+            "aminoglycoside_phosphotransferase": 1
+          },
+          "lineage": {
+            "groups": 1,
+            "largest_group_size": 1,
+            "occurrence_weighted_effective_groups": 1.0
+          },
+          "occurrences": 1,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        }
+      }
+    },
+    "original_low": {
+      "all_archetypes": {
+        "conservative": {
+          "groups": 18,
+          "largest_group_size": 232,
+          "occurrence_weighted_effective_groups": 1.1607607161429314
+        },
+        "constructs": 223,
+        "distinct_proteins": 101,
+        "families": {
+          "aminoglycoside_phosphotransferase": 9,
+          "arac_regulator": 23,
+          "biotin_protein_ligase": 2,
+          "erm_rrna_methyltransferase": 11,
+          "gfp_like": 117,
+          "glycosyl_hydrolase_2": 1,
+          "glycosyl_hydrolase_68": 8,
+          "laci_galr_repressor": 47,
+          "luxr_autoinducer_regulator": 6,
+          "phage_rna_polymerase": 2,
+          "solute_binding_protein_1": 2,
+          "tcr_tet_efflux": 12,
+          "trpf": 10
+        },
+        "lineage": {
+          "groups": 154,
+          "largest_group_size": 9,
+          "occurrence_weighted_effective_groups": 92.45562130177515
+        },
+        "occurrences": 250,
+        "occurrences_also_in_development": 0,
+        "proteins_also_in_development": 0
+      },
+      "by_archetype": {
+        "backbone_heavy": {
+          "conservative": {
+            "groups": 3,
+            "largest_group_size": 15,
+            "occurrence_weighted_effective_groups": 1.2731277533039647
+          },
+          "constructs": 17,
+          "distinct_proteins": 9,
+          "families": {
+            "aminoglycoside_phosphotransferase": 1,
+            "arac_regulator": 4,
+            "erm_rrna_methyltransferase": 4,
+            "gfp_like": 6,
+            "laci_galr_repressor": 2
+          },
+          "lineage": {
+            "groups": 14,
+            "largest_group_size": 3,
+            "occurrence_weighted_effective_groups": 11.56
+          },
+          "occurrences": 17,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "multi_cds": {
+          "conservative": {
+            "groups": 1,
+            "largest_group_size": 168,
+            "occurrence_weighted_effective_groups": 1.0
+          },
+          "constructs": 148,
+          "distinct_proteins": 61,
+          "families": {
+            "aminoglycoside_phosphotransferase": 5,
+            "arac_regulator": 16,
+            "biotin_protein_ligase": 2,
+            "erm_rrna_methyltransferase": 6,
+            "gfp_like": 65,
+            "glycosyl_hydrolase_68": 7,
+            "laci_galr_repressor": 42,
+            "luxr_autoinducer_regulator": 6,
+            "tcr_tet_efflux": 10,
+            "trpf": 9
+          },
+          "lineage": {
+            "groups": 102,
+            "largest_group_size": 9,
+            "occurrence_weighted_effective_groups": 57.1336032388664
+          },
+          "occurrences": 168,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "single_cds": {
+          "conservative": {
+            "groups": 2,
+            "largest_group_size": 12,
+            "occurrence_weighted_effective_groups": 1.1655172413793105
+          },
+          "constructs": 13,
+          "distinct_proteins": 10,
+          "families": {
+            "aminoglycoside_phosphotransferase": 1,
+            "gfp_like": 10,
+            "tcr_tet_efflux": 1,
+            "trpf": 1
+          },
+          "lineage": {
+            "groups": 8,
+            "largest_group_size": 3,
+            "occurrence_weighted_effective_groups": 6.2592592592592595
+          },
+          "occurrences": 13,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "single_label_other": {
+          "conservative": {
+            "groups": 3,
+            "largest_group_size": 6,
+            "occurrence_weighted_effective_groups": 1.6842105263157894
+          },
+          "constructs": 8,
+          "distinct_proteins": 7,
+          "families": {
+            "arac_regulator": 2,
+            "erm_rrna_methyltransferase": 1,
+            "gfp_like": 2,
+            "glycosyl_hydrolase_68": 1,
+            "laci_galr_repressor": 1,
+            "tcr_tet_efflux": 1
+          },
+          "lineage": {
+            "groups": 8,
+            "largest_group_size": 1,
+            "occurrence_weighted_effective_groups": 8.0
+          },
+          "occurrences": 8,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "tagged_fusion": {
+          "conservative": {
+            "groups": 13,
+            "largest_group_size": 31,
+            "occurrence_weighted_effective_groups": 1.9836065573770492
+          },
+          "constructs": 37,
+          "distinct_proteins": 39,
+          "families": {
+            "aminoglycoside_phosphotransferase": 2,
+            "arac_regulator": 1,
+            "gfp_like": 34,
+            "glycosyl_hydrolase_2": 1,
+            "laci_galr_repressor": 2,
+            "phage_rna_polymerase": 2,
+            "solute_binding_protein_1": 2
+          },
+          "lineage": {
+            "groups": 32,
+            "largest_group_size": 4,
+            "occurrence_weighted_effective_groups": 23.609756097560975
+          },
+          "occurrences": 44,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        }
+      }
+    },
+    "original_low_under_25": {
+      "all_archetypes": {
+        "conservative": {
+          "groups": 1,
+          "largest_group_size": 7,
+          "occurrence_weighted_effective_groups": 1.0
+        },
+        "constructs": 7,
+        "distinct_proteins": 1,
+        "families": {
+          "tcr_tet_efflux": 7
+        },
+        "lineage": {
+          "groups": 6,
+          "largest_group_size": 2,
+          "occurrence_weighted_effective_groups": 5.444444444444445
+        },
+        "occurrences": 7,
+        "occurrences_also_in_development": 0,
+        "proteins_also_in_development": 0
+      },
+      "by_archetype": {
+        "backbone_heavy": {
+          "conservative": {
+            "groups": 0,
+            "largest_group_size": 0,
+            "occurrence_weighted_effective_groups": null
+          },
+          "constructs": 0,
+          "distinct_proteins": 0,
+          "families": {},
+          "lineage": {
+            "groups": 0,
+            "largest_group_size": 0,
+            "occurrence_weighted_effective_groups": null
+          },
+          "occurrences": 0,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "multi_cds": {
+          "conservative": {
+            "groups": 1,
+            "largest_group_size": 7,
+            "occurrence_weighted_effective_groups": 1.0
+          },
+          "constructs": 7,
+          "distinct_proteins": 1,
+          "families": {
+            "tcr_tet_efflux": 7
+          },
+          "lineage": {
+            "groups": 6,
+            "largest_group_size": 2,
+            "occurrence_weighted_effective_groups": 5.444444444444445
+          },
+          "occurrences": 7,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "single_cds": {
+          "conservative": {
+            "groups": 0,
+            "largest_group_size": 0,
+            "occurrence_weighted_effective_groups": null
+          },
+          "constructs": 0,
+          "distinct_proteins": 0,
+          "families": {},
+          "lineage": {
+            "groups": 0,
+            "largest_group_size": 0,
+            "occurrence_weighted_effective_groups": null
+          },
+          "occurrences": 0,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "single_label_other": {
+          "conservative": {
+            "groups": 0,
+            "largest_group_size": 0,
+            "occurrence_weighted_effective_groups": null
+          },
+          "constructs": 0,
+          "distinct_proteins": 0,
+          "families": {},
+          "lineage": {
+            "groups": 0,
+            "largest_group_size": 0,
+            "occurrence_weighted_effective_groups": null
+          },
+          "occurrences": 0,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        },
+        "tagged_fusion": {
+          "conservative": {
+            "groups": 0,
+            "largest_group_size": 0,
+            "occurrence_weighted_effective_groups": null
+          },
+          "constructs": 0,
+          "distinct_proteins": 0,
+          "families": {},
+          "lineage": {
+            "groups": 0,
+            "largest_group_size": 0,
+            "occurrence_weighted_effective_groups": null
+          },
+          "occurrences": 0,
+          "occurrences_also_in_development": 0,
+          "proteins_also_in_development": 0
+        }
+      }
+    }
+  },
+  "illustrative_zero_event_upper_bound": {
+    "100": 0.029513049607039932,
+    "14": 0.19263617565013536,
+    "3": 0.6315968501359612,
+    "30": 0.09503385285530419,
+    "59": 0.049507609888227,
+    "60": 0.04870291331009746
+  },
+  "pilot_primary_unique_ancestries": [
+    "aequorea",
+    "ecoli_gus",
+    "renilla"
+  ],
+  "pilots": {
+    "alternate": {
+      "ancestries": [
+        "aequorea"
+      ],
+      "known_boundaries": {
+        "both_conventional_miss": 0,
+        "correct": {
+          "alignment": 4,
+          "esm2_150m_local": 4,
+          "esm2_8m_local": 4,
+          "profile": 4
+        },
+        "model_correct_on_conventional_misses": {
+          "esm2_150m_local": 0,
+          "esm2_8m_local": 0
+        },
+        "paired": {
+          "esm2_150m_local_vs_alignment": {
+            "both_correct": 4,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          },
+          "esm2_150m_local_vs_profile": {
+            "both_correct": 4,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          },
+          "esm2_8m_local_vs_alignment": {
+            "both_correct": 4,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          },
+          "esm2_8m_local_vs_profile": {
+            "both_correct": 4,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          }
+        }
+      },
+      "targets": 4,
+      "whole_dna": {
+        "gene_caller": {
+          "both_conventional_miss": 1,
+          "correct": {
+            "alignment": 3,
+            "esm2_150m_local": 3,
+            "esm2_8m_local": 3,
+            "profile": 3
+          },
+          "model_correct_on_conventional_misses": {
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 0
+          },
+          "paired": {
+            "esm2_150m_local_vs_alignment": {
+              "both_correct": 3,
+              "neither_correct": 1,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_150m_local_vs_profile": {
+              "both_correct": 3,
+              "neither_correct": 1,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_alignment": {
+              "both_correct": 3,
+              "neither_correct": 1,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_profile": {
+              "both_correct": 3,
+              "neither_correct": 1,
+              "only_comparator": 0,
+              "only_model": 0
+            }
+          },
+          "pool_covering": 4,
+          "selected_covering": 3,
+          "selected_exact": 2
+        },
+        "minimal": {
+          "both_conventional_miss": 2,
+          "correct": {
+            "alignment": 1,
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 0,
+            "profile": 2
+          },
+          "model_correct_on_conventional_misses": {
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 0
+          },
+          "paired": {
+            "esm2_150m_local_vs_alignment": {
+              "both_correct": 0,
+              "neither_correct": 3,
+              "only_comparator": 1,
+              "only_model": 0
+            },
+            "esm2_150m_local_vs_profile": {
+              "both_correct": 0,
+              "neither_correct": 2,
+              "only_comparator": 2,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_alignment": {
+              "both_correct": 0,
+              "neither_correct": 3,
+              "only_comparator": 1,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_profile": {
+              "both_correct": 0,
+              "neither_correct": 2,
+              "only_comparator": 2,
+              "only_model": 0
+            }
+          },
+          "pool_covering": 4,
+          "selected_covering": 2,
+          "selected_exact": 0
+        }
+      }
+    },
+    "gus": {
+      "ancestries": [
+        "ecoli_gus"
+      ],
+      "known_boundaries": {
+        "both_conventional_miss": 6,
+        "correct": {
+          "alignment": 1,
+          "esm2_150m_local": 0,
+          "esm2_8m_local": 7,
+          "profile": 0
+        },
+        "model_correct_on_conventional_misses": {
+          "esm2_150m_local": 0,
+          "esm2_8m_local": 6
+        },
+        "paired": {
+          "esm2_150m_local_vs_alignment": {
+            "both_correct": 0,
+            "neither_correct": 6,
+            "only_comparator": 1,
+            "only_model": 0
+          },
+          "esm2_150m_local_vs_profile": {
+            "both_correct": 0,
+            "neither_correct": 7,
+            "only_comparator": 0,
+            "only_model": 0
+          },
+          "esm2_8m_local_vs_alignment": {
+            "both_correct": 1,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 6
+          },
+          "esm2_8m_local_vs_profile": {
+            "both_correct": 0,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 7
+          }
+        }
+      },
+      "targets": 7,
+      "whole_dna": {
+        "gene_caller": {
+          "both_conventional_miss": 0,
+          "correct": {
+            "alignment": 7,
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 7,
+            "profile": 0
+          },
+          "model_correct_on_conventional_misses": {
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 0
+          },
+          "paired": {
+            "esm2_150m_local_vs_alignment": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 7,
+              "only_model": 0
+            },
+            "esm2_150m_local_vs_profile": {
+              "both_correct": 0,
+              "neither_correct": 7,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_alignment": {
+              "both_correct": 7,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_profile": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 7
+            }
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact": 0
+        },
+        "minimal": {
+          "both_conventional_miss": 0,
+          "correct": {
+            "alignment": 7,
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 7,
+            "profile": 0
+          },
+          "model_correct_on_conventional_misses": {
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 0
+          },
+          "paired": {
+            "esm2_150m_local_vs_alignment": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 7,
+              "only_model": 0
+            },
+            "esm2_150m_local_vs_profile": {
+              "both_correct": 0,
+              "neither_correct": 7,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_alignment": {
+              "both_correct": 7,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_profile": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 7
+            }
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact": 0
+        }
+      }
+    },
+    "initial": {
+      "ancestries": [],
+      "known_boundaries": {
+        "both_conventional_miss": 0,
+        "correct": {
+          "alignment": 0,
+          "esm2_150m_local": 0,
+          "esm2_8m_local": 0,
+          "profile": 0
+        },
+        "model_correct_on_conventional_misses": {
+          "esm2_150m_local": 0,
+          "esm2_8m_local": 0
+        },
+        "paired": {
+          "esm2_150m_local_vs_alignment": {
+            "both_correct": 0,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          },
+          "esm2_150m_local_vs_profile": {
+            "both_correct": 0,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          },
+          "esm2_8m_local_vs_alignment": {
+            "both_correct": 0,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          },
+          "esm2_8m_local_vs_profile": {
+            "both_correct": 0,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          }
+        }
+      },
+      "targets": 0,
+      "whole_dna": {
+        "gene_caller": {
+          "both_conventional_miss": 0,
+          "correct": {
+            "alignment": 0,
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 0,
+            "profile": 0
+          },
+          "model_correct_on_conventional_misses": {
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 0
+          },
+          "paired": {
+            "esm2_150m_local_vs_alignment": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_150m_local_vs_profile": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_alignment": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_profile": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            }
+          },
+          "pool_covering": 0,
+          "selected_covering": 0,
+          "selected_exact": 0
+        },
+        "minimal": {
+          "both_conventional_miss": 0,
+          "correct": {
+            "alignment": 0,
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 0,
+            "profile": 0
+          },
+          "model_correct_on_conventional_misses": {
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 0
+          },
+          "paired": {
+            "esm2_150m_local_vs_alignment": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_150m_local_vs_profile": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_alignment": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_profile": {
+              "both_correct": 0,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            }
+          },
+          "pool_covering": 0,
+          "selected_covering": 0,
+          "selected_exact": 0
+        }
+      }
+    },
+    "renilla": {
+      "ancestries": [
+        "renilla"
+      ],
+      "known_boundaries": {
+        "both_conventional_miss": 0,
+        "correct": {
+          "alignment": 3,
+          "esm2_150m_local": 3,
+          "esm2_8m_local": 3,
+          "profile": 3
+        },
+        "model_correct_on_conventional_misses": {
+          "esm2_150m_local": 0,
+          "esm2_8m_local": 0
+        },
+        "paired": {
+          "esm2_150m_local_vs_alignment": {
+            "both_correct": 3,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          },
+          "esm2_150m_local_vs_profile": {
+            "both_correct": 3,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          },
+          "esm2_8m_local_vs_alignment": {
+            "both_correct": 3,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          },
+          "esm2_8m_local_vs_profile": {
+            "both_correct": 3,
+            "neither_correct": 0,
+            "only_comparator": 0,
+            "only_model": 0
+          }
+        }
+      },
+      "targets": 3,
+      "whole_dna": {
+        "gene_caller": {
+          "both_conventional_miss": 0,
+          "correct": {
+            "alignment": 3,
+            "esm2_150m_local": 3,
+            "esm2_8m_local": 3,
+            "profile": 3
+          },
+          "model_correct_on_conventional_misses": {
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 0
+          },
+          "paired": {
+            "esm2_150m_local_vs_alignment": {
+              "both_correct": 3,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_150m_local_vs_profile": {
+              "both_correct": 3,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_alignment": {
+              "both_correct": 3,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_profile": {
+              "both_correct": 3,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            }
+          },
+          "pool_covering": 3,
+          "selected_covering": 3,
+          "selected_exact": 1
+        },
+        "minimal": {
+          "both_conventional_miss": 0,
+          "correct": {
+            "alignment": 3,
+            "esm2_150m_local": 3,
+            "esm2_8m_local": 3,
+            "profile": 3
+          },
+          "model_correct_on_conventional_misses": {
+            "esm2_150m_local": 0,
+            "esm2_8m_local": 0
+          },
+          "paired": {
+            "esm2_150m_local_vs_alignment": {
+              "both_correct": 3,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_150m_local_vs_profile": {
+              "both_correct": 3,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_alignment": {
+              "both_correct": 3,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            },
+            "esm2_8m_local_vs_profile": {
+              "both_correct": 3,
+              "neither_correct": 0,
+              "only_comparator": 0,
+              "only_model": 0
+            }
+          },
+          "pool_covering": 3,
+          "selected_covering": 3,
+          "selected_exact": 0
+        }
+      }
+    }
+  },
+  "schema": "iri-q3-evidence-audit-v1",
+  "sources": {
+    "experiments/paired_preprocessing/distant_reporter_results.json": "a8ad6ebb97d25439e3552a3f63aa98396b4f1b86eee635a5bd97361c396ff21b",
+    "experiments/paired_preprocessing/gus_context_results.json": "bcfb785fb6cea44f64fecb0dc170213f67c311c0b4e33892225cd9818cc632cf",
+    "results/paired-cohort-v2/prepared/development/evaluator/answer-key.corroborated.json": "cffe7fa1eade0abd5689b092fa6ab03fabb511649fd8b9a24df0800effa0761f",
+    "results/paired-cohort-v2/prepared/development/evaluator/construct-map.private.json": "b5f4c5aba551cce41d8a373bcbcce6eb80bcda0e9ae123ee6605337cd036abbc",
+    "results/paired-cohort-v2/prepared/holdout/evaluator/answer-key.corroborated.json": "398d681600b10b82c05df8056e0b39b56df308c9545930afc88814af7e75debb",
+    "results/paired-cohort-v2/prepared/holdout/evaluator/construct-map.private.json": "4a3acbac69c6bda9f2836a35d5cb298c583371181ef4e9c2b145215121ea6a3c"
+  }
+}

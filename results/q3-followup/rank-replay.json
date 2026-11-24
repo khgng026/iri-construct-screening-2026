@@ -1,0 +1,134 @@
+{
+  "candidate_cap": 2,
+  "effects_combined_minus_conventional": {
+    "all": {
+      "components": 1221,
+      "components_only_a": 26,
+      "components_only_b": 9,
+      "equal_group_gain": 0.01855252764612954,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.005053070695102693,
+          0.03366039691943128
+        ],
+        "pooled_gain_interval": [
+          0.0055901759836962436,
+          0.0252684799055246
+        ]
+      },
+      "groups": 422,
+      "groups_declined": 6,
+      "groups_improved": 22,
+      "groups_tied": 394,
+      "largest_group_share": 0.19656019656019655,
+      "leave_one_group_out_equal_group_range": [
+        0.016221298495645287,
+        0.020971892319873314
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.012386457473162676,
+        0.0163098878695209
+      ],
+      "pooled_gain": 0.013923013923013924,
+      "pooled_gain_without_largest_group": 0.0163098878695209,
+      "recall_a_equal_group": 0.667487179750213,
+      "recall_a_pooled": 0.6003276003276004,
+      "recall_b_equal_group": 0.6489346521040834,
+      "recall_b_pooled": 0.5864045864045864
+    },
+    "insufficient_coverage": {
+      "components": 37,
+      "components_only_a": 11,
+      "components_only_b": 0,
+      "equal_group_gain": 0.35,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.2,
+          0.5166666666666667
+        ],
+        "pooled_gain_interval": [
+          0.15384615384615385,
+          0.4706290849673204
+        ]
+      },
+      "groups": 30,
+      "groups_declined": 0,
+      "groups_improved": 11,
+      "groups_tied": 19,
+      "largest_group_share": 0.10810810810810811,
+      "leave_one_group_out_equal_group_range": [
+        0.3275862068965517,
+        0.3620689655172414
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.2777777777777778,
+        0.3333333333333333
+      ],
+      "pooled_gain": 0.2972972972972973,
+      "pooled_gain_without_largest_group": 0.3333333333333333,
+      "recall_a_equal_group": 0.8,
+      "recall_a_pooled": 0.8378378378378378,
+      "recall_b_equal_group": 0.45,
+      "recall_b_pooled": 0.5405405405405406
+    },
+    "low": {
+      "components": 250,
+      "components_only_a": 15,
+      "components_only_b": 3,
+      "equal_group_gain": 0.05916305916305916,
+      "group_bootstrap": {
+        "equal_group_gain_interval": [
+          0.012987012987012988,
+          0.10858585858585858
+        ],
+        "pooled_gain_interval": [
+          0.015503875968992248,
+          0.08491067844239263
+        ]
+      },
+      "groups": 154,
+      "groups_declined": 3,
+      "groups_improved": 14,
+      "groups_tied": 137,
+      "largest_group_share": 0.036,
+      "leave_one_group_out_equal_group_range": [
+        0.053013798111837325,
+        0.06608569353667393
+      ],
+      "leave_one_group_out_pooled_range": [
+        0.04032258064516129,
+        0.05220883534136546
+      ],
+      "pooled_gain": 0.048,
+      "pooled_gain_without_largest_group": 0.04564315352697095,
+      "recall_a_equal_group": 0.6194083694083694,
+      "recall_a_pooled": 0.572,
+      "recall_b_equal_group": 0.5602453102453102,
+      "recall_b_pooled": 0.524
+    }
+  },
+  "known_locus_calls": {
+    "combined": {
+      "correct": 725,
+      "incompatible": 11,
+      "unknown": 801
+    },
+    "conventional": {
+      "correct": 708,
+      "incompatible": 28,
+      "unknown": 801
+    }
+  },
+  "schema": "iri-q3-historical-rank-replay-v1",
+  "selected_input_sha256": {
+    "gene_caller": "b00f633b1553bd414559050b23068ab45c1ac7d3049e68ccb305bf933fe232e4"
+  },
+  "source_sha256": {
+    "results/paired-cohort-v2/holdout/blosum62/gene_caller.json": "f39bee937baa51d1d273aa16cff27af31eb28902bc5a2fd1451d8efc8c675c57",
+    "results/paired-cohort-v2/holdout/blosum62/protocol.json": "d37688249f3b14062ae9cd6cbbd93a8379916cd18d0a6ea074e8bee9a4fe4b3b",
+    "results/paired-cohort-v2/holdout/esm2/gene_caller.json": "76ebe5059bcf5599f8d395d3f2a35fb4e1d82728046cef9ea0c9d4bab65ffd13",
+    "results/paired-cohort-v2/holdout/esm2/protocol.json": "449095b9faf8e134f1c751bdc555bfd60da690ac75c3d338c14a5526490a2ad4",
+    "results/paired-cohort-v2/prepared/holdout/evaluator/answer-key.corroborated.json": "398d681600b10b82c05df8056e0b39b56df308c9545930afc88814af7e75debb",
+    "results/paired-cohort-v2/prepared/holdout/evaluator/construct-map.private.json": "4a3acbac69c6bda9f2836a35d5cb298c583371181ef4e9c2b145215121ea6a3c"
+  }
+}

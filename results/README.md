@@ -26,3 +26,13 @@ With the project owner's approval (23 November 2026), the sequence-free outputs 
 - `paired-reporter-pilot-v0/prepared/evaluator/answer-key.json`, `paired-reporter-characterizers-v2-repro/` and `cohort-runner-regression/`: the reporter reproduction and runner regression traces.
 
 Each file was scanned before committing and holds no nucleotide or protein sequence. Traces record loci, residue counts, predictions and family rankings. Files named `*.private.json` keep their original names so that the code paths still work. Construct FASTA inputs, reference sequences, annotation-derived and documented-region protein units, and GenBank and UniProt snapshots remain untracked. NCBI notes that submitters may hold rights in deposited records, so those sequence files are reacquirable from the pinned accessions and hashes instead. Because the holdout answer keys are now public, any confirmatory retest needs fresh held-out groups.
+
+## Q3 follow-up
+
+The four JSON files in [q3-followup](q3-followup/) record the aggregate
+holdout feasibility audit, the matched-domain sensitivity replay, the Open
+Reporters source audit, and the historical rank combination. See the
+[methods, limitations and replay commands](../docs/project/Q3_FOLLOWUP.md).
+The new source audit outputs contain identifiers, hashes, label metadata and
+candidate reach summaries. Raw records and protein sequences are kept in
+the source checkouts.
