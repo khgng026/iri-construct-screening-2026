@@ -1,0 +1,154 @@
+{
+  "candidate_caps": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "locus_overlap": 0.8,
+  "sources": [
+    {
+      "id": "open_yeast",
+      "url": "https://github.com/Reclone-org/Open-DNA-Collections",
+      "revision": "55d4b762194055c8027fd6c780068d8a78a03282",
+      "notes": "Open Yeast Collection README documents free, reusable research parts carried on a common cloning backbone. The audited targets are archived reporters, domains, ordinary metabolic proteins, and nutritional selection markers.",
+      "records": [
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0259.gb",
+          "sha256": "d2f1bc034a31385ec21b54cd091306f50b42e51034b7b6915446655f66a11773",
+          "target_labels": [
+            "LYS2"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0260.gb",
+          "sha256": "8ed67a09a9d65712eccbf0f375ca691d418804acf83eed50a1eb9c3f38591f09",
+          "target_labels": [
+            "MET17"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0264.gb",
+          "sha256": "cb7be3d4ad48d198fb422004db4a881733c9b123adaa341d097bd66cad4aaddb",
+          "target_labels": [
+            "GPP synthase"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0265.gb",
+          "sha256": "1224e8562d4d69144aaef3a9ea3a250566cc73cc2216ed013bde4753f552b8ed",
+          "target_labels": [
+            "GGPP synthase"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0266.gb",
+          "sha256": "05c9fe826c48c908585f17d8a2930898217e81e9d1f9f8cc12bc0a8fba0e89e6",
+          "target_labels": [
+            "FPP synthase"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0267.gb",
+          "sha256": "76f37d1fdd120519fdefd7922704113f534e8d97c32506459709dea560a1b39c",
+          "target_labels": [
+            "4S-limonene synthase"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0268.gb",
+          "sha256": "bc0fa8f393a459c95450a99d4440f747b0e5a34497e345f6d4f332f10de8bf72",
+          "target_labels": [
+            "limonene-3-hydroxylase"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0269.gb",
+          "sha256": "7484b171846a9fd06b46ea20ef4dddec48007f8fec16d6cfba21812e022df631",
+          "target_labels": [
+            "S-linalool synthase"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0270.gb",
+          "sha256": "eb0d564a872c317b03701a02166265623c7db1174dd3a3c49e8b74b0638c51ef",
+          "target_labels": [
+            "isopiperitenol carveol dehydrogenase"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0271.gb",
+          "sha256": "06494417f34f0551ba9b51f9544f275ec36e0776354af124ad2055ba53ecce8b",
+          "target_labels": [
+            "Gal4 DNA Activation Domain"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0272.gb",
+          "sha256": "babf8c34a798a302977ae6bc87ba1c98d649f62be427441beba8096604696577",
+          "target_labels": [
+            "Gal4 DNA Binding Domain"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0315.gb",
+          "sha256": "b96661340678ad7c8774ba829a914909231805e3c901b4be81f6fb831721b42d",
+          "target_labels": [
+            "ADE2 selection marker"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0316.gb",
+          "sha256": "f9bbb1307a769b5bc2e0a4b30c7beed057ef6a504636d6d9e7f632afe58c4fe5",
+          "target_labels": [
+            "HIS3"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0319.gb",
+          "sha256": "038bac22435cc57dc12900c4c362206879aca39b5fdf47972ed47fdffab8c5fd",
+          "target_labels": [
+            "LEU2"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0321.gb",
+          "sha256": "681cc2cf90dd98dbf7cba0da9d7060f6df48b84bbc6d455bfe36a4de68c7dafa",
+          "target_labels": [
+            "TRP1 selection marker"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0322.gb",
+          "sha256": "b6b05d847a188e2448bf7a7acdaf3bdd67fdcb1ef20beb6fadc74d02359c73ed",
+          "target_labels": [
+            "URA3"
+          ]
+        },
+        {
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0329.gb",
+          "sha256": "8d86fa72648d9e7949346965285331d7727a36e35aa18e857cfc1990b0cf5eaf",
+          "target_labels": [
+            "eforRed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lampra",
+      "url": "https://github.com/shendurelab/LAMPRA",
+      "revision": "2aac5500935a8b9e6452288945f611789d839108",
+      "notes": "Public author plasmid map for the LAMPRA reporter assay. Only the documented EGFP CDS is evaluated. The map uses provider-supplied ambiguous bases for its barcode and insert placeholders.",
+      "records": [
+        {
+          "path": "plasmid_maps/PB-MPRA-NMU-BC.gbk",
+          "sha256": "de592226f97ee57ce69699160aae789a8cafd4ded5c4bf95aa9a2713e2f061e7",
+          "target_labels": [
+            "EGFP"
+          ]
+        }
+      ]
+    }
+  ]
+}

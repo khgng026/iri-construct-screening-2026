@@ -1,0 +1,1148 @@
+{
+  "arms": {
+    "blast_gene_caller_1": {
+      "candidate_residues": 7771,
+      "candidates": 24,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 0,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        }
+      }
+    },
+    "blast_gene_caller_2": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_gene_caller_4": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_gene_caller_8": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_gene_caller_all": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_gene_caller_length_center_250_1": {
+      "candidate_residues": 5942,
+      "candidates": 24,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_gene_caller_length_center_250_2": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_gene_caller_length_center_250_4": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_gene_caller_length_center_250_8": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_gene_caller_length_center_250_all": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_minimal_1": {
+      "candidate_residues": 7857,
+      "candidates": 24,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 0,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        }
+      }
+    },
+    "blast_minimal_2": {
+      "candidate_residues": 14185,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 12,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 12,
+          "positives_recovered_at_80pct": 8,
+          "reported_loci": 12
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 12,
+          "positives_recovered_at_80pct": 8,
+          "reported_loci": 12
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 12,
+          "positives_recovered_at_80pct": 8,
+          "reported_loci": 12
+        }
+      }
+    },
+    "blast_minimal_4": {
+      "candidate_residues": 22187,
+      "candidates": 96,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_minimal_8": {
+      "candidate_residues": 31530,
+      "candidates": 192,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_minimal_all": {
+      "candidate_residues": 83325,
+      "candidates": 1299,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_minimal_length_center_250_1": {
+      "candidate_residues": 5866,
+      "candidates": 24,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 15,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 15,
+          "positives_recovered_at_80pct": 10,
+          "reported_loci": 15
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 15,
+          "positives_recovered_at_80pct": 10,
+          "reported_loci": 15
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 15,
+          "positives_recovered_at_80pct": 10,
+          "reported_loci": 15
+        }
+      }
+    },
+    "blast_minimal_length_center_250_2": {
+      "candidate_residues": 12254,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_minimal_length_center_250_4": {
+      "candidate_residues": 20880,
+      "candidates": 96,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_minimal_length_center_250_8": {
+      "candidate_residues": 31530,
+      "candidates": 192,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_minimal_length_center_250_all": {
+      "candidate_residues": 83325,
+      "candidates": 1299,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    },
+    "blast_whole_dna": {
+      "catalogue_other_reporters": 5,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 13,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 13,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 13,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_gene_caller_1": {
+      "candidate_residues": 7771,
+      "candidates": 24,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 0,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        }
+      }
+    },
+    "diamond_gene_caller_2": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_gene_caller_4": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_gene_caller_8": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_gene_caller_all": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_gene_caller_length_center_250_1": {
+      "candidate_residues": 5942,
+      "candidates": 24,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_gene_caller_length_center_250_2": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_gene_caller_length_center_250_4": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_gene_caller_length_center_250_8": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_gene_caller_length_center_250_all": {
+      "candidate_residues": 13713,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_minimal_1": {
+      "candidate_residues": 7857,
+      "candidates": 24,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 0,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 0,
+          "positives_recovered_at_80pct": 0,
+          "reported_loci": 0
+        }
+      }
+    },
+    "diamond_minimal_2": {
+      "candidate_residues": 14185,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 12,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 12,
+          "positives_recovered_at_80pct": 6,
+          "reported_loci": 12
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 12,
+          "positives_recovered_at_80pct": 6,
+          "reported_loci": 12
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 12,
+          "positives_recovered_at_80pct": 6,
+          "reported_loci": 12
+        }
+      }
+    },
+    "diamond_minimal_4": {
+      "candidate_residues": 22187,
+      "candidates": 96,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_minimal_8": {
+      "candidate_residues": 31530,
+      "candidates": 192,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_minimal_all": {
+      "candidate_residues": 83325,
+      "candidates": 1299,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_minimal_length_center_250_1": {
+      "candidate_residues": 5866,
+      "candidates": 24,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 15,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 15,
+          "positives_recovered_at_80pct": 7,
+          "reported_loci": 15
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 15,
+          "positives_recovered_at_80pct": 7,
+          "reported_loci": 15
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 15,
+          "positives_recovered_at_80pct": 7,
+          "reported_loci": 15
+        }
+      }
+    },
+    "diamond_minimal_length_center_250_2": {
+      "candidate_residues": 12254,
+      "candidates": 48,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_minimal_length_center_250_4": {
+      "candidate_residues": 20880,
+      "candidates": 96,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_minimal_length_center_250_8": {
+      "candidate_residues": 31530,
+      "candidates": 192,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_minimal_length_center_250_all": {
+      "candidate_residues": 83325,
+      "candidates": 1299,
+      "catalogue_other_reporters": 5,
+      "positive_candidate_reach": 19,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 11,
+          "reported_loci": 19
+        }
+      }
+    },
+    "diamond_whole_dna": {
+      "catalogue_other_reporters": 5,
+      "positive_reporters": 19,
+      "reports": {
+        "1": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "2": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        },
+        "all": {
+          "catalogue_other_reporter_locus_hits_at_50pct": 0,
+          "positives_recovered_at_50pct": 19,
+          "positives_recovered_at_80pct": 12,
+          "reported_loci": 19
+        }
+      }
+    }
+  },
+  "construct_revision": "55d4b762194055c8027fd6c780068d8a78a03282",
+  "dna_sha256": "7cfa023127897a0e1c3cc21ecfbd6cdd884c9fcb1f969a99fef68b43220dc83e",
+  "environment": {
+    "biopython": "1.86",
+    "blastx": "blastx: 2.16.0+",
+    "diamond": "diamond version 2.1.11",
+    "diamond_sensitivity": "very-sensitive",
+    "pyrodigal": "3.6.3"
+  },
+  "evalue_ceiling": 1e-05,
+  "input_bases": 70923,
+  "prior_audit_sha256": "03048feb337e1971fee0f098dff3cc92c6b987463bfc3740709b4b752ace481a",
+  "protein_revision": "799bd76889918bf1551c60016fb23278024cac73",
+  "reference_count": 7,
+  "reference_sha256": "f87ad5545dc6a1bbf260525cfb04ea9ee207a82d5ff381142006dcc7dfa4155b",
+  "schema": "iri-benign-translated-search-v1"
+}

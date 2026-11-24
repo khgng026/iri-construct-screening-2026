@@ -1,0 +1,3195 @@
+{
+  "schema": "preprocessing-budget-allocation-v1",
+  "constructs": 777,
+  "lineages": 426,
+  "source_sha256": {
+    "results/paired-cohort-v2/prepared/holdout/evaluator/answer-key.corroborated.json": "398d681600b10b82c05df8056e0b39b56df308c9545930afc88814af7e75debb",
+    "results/paired-cohort-v2/prepared/holdout/evaluator/groups.lineage.json": "d2f105139809d3df16d200a46e7de1fc50b622ec3eb2ba8488ed1b101aea1ab9",
+    "results/paired-cohort-v2/holdout/esm2/protocol.json": "449095b9faf8e134f1c751bdc555bfd60da690ac75c3d338c14a5526490a2ad4",
+    "results/paired-cohort-v2/holdout/blosum62/protocol.json": "d37688249f3b14062ae9cd6cbbd93a8379916cd18d0a6ea074e8bee9a4fe4b3b",
+    "results/paired-cohort-v2/holdout/esm2/minimal.json": "97aa574f9548554dd663f746e5d2811e975cfb382bdedcf1e805dd44225d7b80",
+    "results/paired-cohort-v2/holdout/blosum62/minimal.json": "2b616f4b33b1c4285991d734a7796f82a0c1f6a9a62458d06958425673b63c0a",
+    "results/paired-cohort-v2/holdout/esm2/gene_caller.json": "76ebe5059bcf5599f8d395d3f2a35fb4e1d82728046cef9ea0c9d4bab65ffd13",
+    "results/paired-cohort-v2/holdout/blosum62/gene_caller.json": "f39bee937baa51d1d273aa16cff27af31eb28902bc5a2fd1451d8efc8c675c57"
+  },
+  "within_construct_output_limit": 5,
+  "minimum_component_overlap": 0.8,
+  "methods": {
+    "minimal": {
+      "caps": {
+        "1": {
+          "uniform": {
+            "cost": {
+              "candidates": 777,
+              "residues": 345865,
+              "prefix_counts": {
+                "1": 777
+              },
+              "sum_squared_residues": 184354235
+            },
+            "outcomes": {
+              "coverage": {
+                "recovered": 296,
+                "eligible": 1221,
+                "pooled": 0.24242424242424243,
+                "equal_lineage": 0.3306194430898222
+              },
+              "esm2": {
+                "recovered": 279,
+                "eligible": 1221,
+                "pooled": 0.2285012285012285,
+                "equal_lineage": 0.3141107543062519
+              },
+              "blosum62": {
+                "recovered": 291,
+                "eligible": 1221,
+                "pooled": 0.23832923832923833,
+                "equal_lineage": 0.32635404024622033
+              }
+            }
+          }
+        },
+        "2": {
+          "uniform": {
+            "cost": {
+              "candidates": 1554,
+              "residues": 596911,
+              "prefix_counts": {
+                "2": 777
+              },
+              "sum_squared_residues": 278548325
+            },
+            "outcomes": {
+              "coverage": {
+                "recovered": 610,
+                "eligible": 1221,
+                "pooled": 0.4995904995904996,
+                "equal_lineage": 0.6049004115947244
+              },
+              "esm2": {
+                "recovered": 573,
+                "eligible": 1221,
+                "pooled": 0.4692874692874693,
+                "equal_lineage": 0.565070237819053
+              },
+              "blosum62": {
+                "recovered": 594,
+                "eligible": 1221,
+                "pooled": 0.4864864864864865,
+                "equal_lineage": 0.5897514610192336
+              }
+            }
+          },
+          "policies": {
+            "cheapest": {
+              "cost": {
+                "candidates": 1554,
+                "residues": 497195,
+                "prefix_counts": {
+                  "1": 518,
+                  "4": 259
+                },
+                "sum_squared_residues": 216630791
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 468,
+                  "eligible": 1221,
+                  "pooled": 0.3832923832923833,
+                  "equal_lineage": 0.4686744272052329
+                },
+                "esm2": {
+                  "recovered": 435,
+                  "eligible": 1221,
+                  "pooled": 0.35626535626535627,
+                  "equal_lineage": 0.4378461717324276
+                },
+                "blosum62": {
+                  "recovered": 461,
+                  "eligible": 1221,
+                  "pooled": 0.3775593775593776,
+                  "equal_lineage": 0.46361913494614915
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.1162981162981163,
+                  "equal_group_gain": -0.1362259843894915,
+                  "components_only_a": 46,
+                  "components_only_b": 188,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.14792913618562034,
+                      -0.08447279740477855
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.1696008069734373,
+                      -0.10445177814549853
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.11302211302211303,
+                  "equal_group_gain": -0.12722406608662531,
+                  "components_only_a": 52,
+                  "components_only_b": 190,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.14458136694242404,
+                      -0.08191525654475418
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.16145840155763141,
+                      -0.09448043991290436
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.10892710892710893,
+                  "equal_group_gain": -0.1261323260730844,
+                  "components_only_a": 49,
+                  "components_only_b": 182,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1390542893320671,
+                      -0.07650647366795195
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.1603679375850584,
+                      -0.09331756069759621
+                    ]
+                  }
+                }
+              }
+            },
+            "longest": {
+              "cost": {
+                "candidates": 1419,
+                "residues": 596911,
+                "prefix_counts": {
+                  "1": 377,
+                  "2": 241,
+                  "3": 76,
+                  "4": 83
+                },
+                "sum_squared_residues": 296057573
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 439,
+                  "eligible": 1221,
+                  "pooled": 0.3595413595413595,
+                  "equal_lineage": 0.4599193394809508
+                },
+                "esm2": {
+                  "recovered": 403,
+                  "eligible": 1221,
+                  "pooled": 0.33005733005733007,
+                  "equal_lineage": 0.422063889243984
+                },
+                "blosum62": {
+                  "recovered": 426,
+                  "eligible": 1221,
+                  "pooled": 0.3488943488943489,
+                  "equal_lineage": 0.44759142253218087
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.14004914004914004,
+                  "equal_group_gain": -0.14498107211377353,
+                  "components_only_a": 53,
+                  "components_only_b": 224,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1901983618026001,
+                      -0.10532790094135724
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.1816136177540206,
+                      -0.11048014255360228
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.13923013923013924,
+                  "equal_group_gain": -0.14300634857506894,
+                  "components_only_a": 52,
+                  "components_only_b": 222,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1891898516163222,
+                      -0.10461527020327219
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.17900819017080866,
+                      -0.10856562276585972
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.1375921375921376,
+                  "equal_group_gain": -0.14216003848705272,
+                  "components_only_a": 51,
+                  "components_only_b": 219,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.18675226149847368,
+                      -0.1031795032753855
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.1776504579214887,
+                      -0.10755454968280796
+                    ]
+                  }
+                }
+              }
+            },
+            "pool_demand": {
+              "cost": {
+                "candidates": 1498,
+                "residues": 596907,
+                "prefix_counts": {
+                  "1": 313,
+                  "2": 247,
+                  "3": 177,
+                  "4": 40
+                },
+                "sum_squared_residues": 285153873
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 593,
+                  "eligible": 1221,
+                  "pooled": 0.4856674856674857,
+                  "equal_lineage": 0.5246676802660215
+                },
+                "esm2": {
+                  "recovered": 557,
+                  "eligible": 1221,
+                  "pooled": 0.4561834561834562,
+                  "equal_lineage": 0.48772060285685875
+                },
+                "blosum62": {
+                  "recovered": 577,
+                  "eligible": 1221,
+                  "pooled": 0.4725634725634726,
+                  "equal_lineage": 0.5110759402524806
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.013923013923013924,
+                  "equal_group_gain": -0.0802327313287029,
+                  "components_only_a": 142,
+                  "components_only_b": 159,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.13445544389862768,
+                      0.10272458681357742
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.11336415090636062,
+                      -0.04699556565077892
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.013104013104013105,
+                  "equal_group_gain": -0.0773496349621942,
+                  "components_only_a": 141,
+                  "components_only_b": 157,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1322807394916667,
+                      0.10284445734291336
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.10960964021168404,
+                      -0.04466199874375229
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.013923013923013924,
+                  "equal_group_gain": -0.078675520766753,
+                  "components_only_a": 140,
+                  "components_only_b": 157,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.13347376450046447,
+                      0.1028501699547803
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.11120353826663068,
+                      -0.044759794658343226
+                    ]
+                  }
+                }
+              }
+            },
+            "pool_demand_per_residue": {
+              "cost": {
+                "candidates": 1554,
+                "residues": 551097,
+                "prefix_counts": {
+                  "1": 376,
+                  "2": 179,
+                  "3": 68,
+                  "4": 154
+                },
+                "sum_squared_residues": 242875765
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 630,
+                  "eligible": 1221,
+                  "pooled": 0.515970515970516,
+                  "equal_lineage": 0.503969056220241
+                },
+                "esm2": {
+                  "recovered": 598,
+                  "eligible": 1221,
+                  "pooled": 0.48976248976248976,
+                  "equal_lineage": 0.47247221577790294
+                },
+                "blosum62": {
+                  "recovered": 617,
+                  "eligible": 1221,
+                  "pooled": 0.5053235053235053,
+                  "equal_lineage": 0.49039988447571387
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.01638001638001638,
+                  "equal_group_gain": -0.10093135537448333,
+                  "components_only_a": 196,
+                  "components_only_b": 176,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.15819074714344275,
+                      0.19893746337212834
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.13395519715276827,
+                      -0.0688802306500766
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.020475020475020474,
+                  "equal_group_gain": -0.09259802204115,
+                  "components_only_a": 198,
+                  "components_only_b": 173,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.15300013661202186,
+                      0.20268721596522427
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.12493746429321073,
+                      -0.06050498573306629
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.018837018837018837,
+                  "equal_group_gain": -0.09935157654351968,
+                  "components_only_a": 197,
+                  "components_only_b": 174,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.15441285672684915,
+                      0.2007370174851551
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.13241835425632814,
+                      -0.0650681767876673
+                    ]
+                  }
+                }
+              }
+            },
+            "new_region": {
+              "cost": {
+                "candidates": 1554,
+                "residues": 505051,
+                "prefix_counts": {
+                  "1": 476,
+                  "2": 38,
+                  "3": 50,
+                  "4": 213
+                },
+                "sum_squared_residues": 219983589
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 518,
+                  "eligible": 1221,
+                  "pooled": 0.42424242424242425,
+                  "equal_lineage": 0.5086885862952214
+                },
+                "esm2": {
+                  "recovered": 475,
+                  "eligible": 1221,
+                  "pooled": 0.389025389025389,
+                  "equal_lineage": 0.46841127868971466
+                },
+                "blosum62": {
+                  "recovered": 502,
+                  "eligible": 1221,
+                  "pooled": 0.41113841113841115,
+                  "equal_lineage": 0.4945890602288706
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.07534807534807535,
+                  "equal_group_gain": -0.09621182529950302,
+                  "components_only_a": 64,
+                  "components_only_b": 156,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.10587032926378098,
+                      -0.04344845558100579
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.12821942127777436,
+                      -0.06486098173153859
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.08026208026208026,
+                  "equal_group_gain": -0.09665895912933826,
+                  "components_only_a": 60,
+                  "components_only_b": 158,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.11008966473187211,
+                      -0.050873675596519924
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.12816530798388026,
+                      -0.06627457800887894
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.07534807534807535,
+                  "equal_group_gain": -0.09516240079036285,
+                  "components_only_a": 59,
+                  "components_only_b": 151,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.10487701803516077,
+                      -0.04436919504643961
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.12685214864124816,
+                      -0.0640305483418635
+                    ]
+                  }
+                }
+              }
+            },
+            "balanced_cheapest": {
+              "cost": {
+                "candidates": 1554,
+                "residues": 596911,
+                "prefix_counts": {
+                  "2": 777
+                },
+                "sum_squared_residues": 278548325
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 610,
+                  "eligible": 1221,
+                  "pooled": 0.4995904995904996,
+                  "equal_lineage": 0.6049004115947244
+                },
+                "esm2": {
+                  "recovered": 573,
+                  "eligible": 1221,
+                  "pooled": 0.4692874692874693,
+                  "equal_lineage": 0.565070237819053
+                },
+                "blosum62": {
+                  "recovered": 594,
+                  "eligible": 1221,
+                  "pooled": 0.4864864864864865,
+                  "equal_lineage": 0.5897514610192336
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                }
+              }
+            },
+            "balanced_demand": {
+              "cost": {
+                "candidates": 1554,
+                "residues": 596911,
+                "prefix_counts": {
+                  "2": 777
+                },
+                "sum_squared_residues": 278548325
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 610,
+                  "eligible": 1221,
+                  "pooled": 0.4995904995904996,
+                  "equal_lineage": 0.6049004115947244
+                },
+                "esm2": {
+                  "recovered": 573,
+                  "eligible": 1221,
+                  "pooled": 0.4692874692874693,
+                  "equal_lineage": 0.565070237819053
+                },
+                "blosum62": {
+                  "recovered": 594,
+                  "eligible": 1221,
+                  "pooled": 0.4864864864864865,
+                  "equal_lineage": 0.5897514610192336
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "oracle": {
+            "coverage": {
+              "optimal": true,
+              "objective_upper_bound": 938.0,
+              "cost": {
+                "candidates": 1554,
+                "residues": 571198,
+                "prefix_counts": {
+                  "1": 329,
+                  "2": 227,
+                  "3": 113,
+                  "4": 108
+                },
+                "sum_squared_residues": 253500486
+              },
+              "outcome": {
+                "recovered": 938,
+                "eligible": 1221,
+                "pooled": 0.7682227682227682,
+                "equal_lineage": 0.724185497230521
+              }
+            },
+            "esm2": {
+              "optimal": true,
+              "objective_upper_bound": 908.0,
+              "cost": {
+                "candidates": 1553,
+                "residues": 570806,
+                "prefix_counts": {
+                  "1": 329,
+                  "2": 226,
+                  "3": 116,
+                  "4": 106
+                },
+                "sum_squared_residues": 252687130
+              },
+              "outcome": {
+                "recovered": 908,
+                "eligible": 1221,
+                "pooled": 0.7436527436527437,
+                "equal_lineage": 0.6964834171883935
+              }
+            },
+            "blosum62": {
+              "optimal": true,
+              "objective_upper_bound": 924.0,
+              "cost": {
+                "candidates": 1554,
+                "residues": 571430,
+                "prefix_counts": {
+                  "1": 331,
+                  "2": 225,
+                  "3": 111,
+                  "4": 110
+                },
+                "sum_squared_residues": 253698366
+              },
+              "outcome": {
+                "recovered": 924,
+                "eligible": 1221,
+                "pooled": 0.7567567567567568,
+                "equal_lineage": 0.7178483706919725
+              }
+            }
+          }
+        },
+        "3": {
+          "uniform": {
+            "cost": {
+              "candidates": 2331,
+              "residues": 803300,
+              "prefix_counts": {
+                "3": 777
+              },
+              "sum_squared_residues": 342049546
+            },
+            "outcomes": {
+              "coverage": {
+                "recovered": 918,
+                "eligible": 1221,
+                "pooled": 0.7518427518427518,
+                "equal_lineage": 0.7928170499852963
+              },
+              "esm2": {
+                "recovered": 861,
+                "eligible": 1221,
+                "pooled": 0.7051597051597052,
+                "equal_lineage": 0.7283423264465918
+              },
+              "blosum62": {
+                "recovered": 890,
+                "eligible": 1221,
+                "pooled": 0.7289107289107289,
+                "equal_lineage": 0.7649283115515343
+              }
+            }
+          },
+          "policies": {
+            "cheapest": {
+              "cost": {
+                "candidates": 2331,
+                "residues": 696088,
+                "prefix_counts": {
+                  "1": 259,
+                  "4": 518
+                },
+                "sum_squared_residues": 269682734
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 781,
+                  "eligible": 1221,
+                  "pooled": 0.6396396396396397,
+                  "equal_lineage": 0.7042012457000609
+                },
+                "esm2": {
+                  "recovered": 729,
+                  "eligible": 1221,
+                  "pooled": 0.597051597051597,
+                  "equal_lineage": 0.6499428954405257
+                },
+                "blosum62": {
+                  "recovered": 767,
+                  "eligible": 1221,
+                  "pooled": 0.6281736281736282,
+                  "equal_lineage": 0.6887984020981651
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.1122031122031122,
+                  "equal_group_gain": -0.08861580428523556,
+                  "components_only_a": 46,
+                  "components_only_b": 183,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.16028662160927334,
+                      -0.05595623353692071
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.11845531311763538,
+                      -0.05991454725829726
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.10810810810810811,
+                  "equal_group_gain": -0.07839943100606607,
+                  "components_only_a": 57,
+                  "components_only_b": 189,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.15863494925249935,
+                      -0.048907258324142555
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.10976088320578839,
+                      -0.04839671255548032
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.10073710073710074,
+                  "equal_group_gain": -0.07612990945336917,
+                  "components_only_a": 54,
+                  "components_only_b": 177,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.15253411554888063,
+                      -0.04140036820160849
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.10666826952668183,
+                      -0.04705623217619663
+                    ]
+                  }
+                }
+              }
+            },
+            "longest": {
+              "cost": {
+                "candidates": 2166,
+                "residues": 803299,
+                "prefix_counts": {
+                  "1": 103,
+                  "2": 183,
+                  "3": 267,
+                  "4": 224
+                },
+                "sum_squared_residues": 353230551
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 931,
+                  "eligible": 1221,
+                  "pooled": 0.7624897624897625,
+                  "equal_lineage": 0.821004804831819
+                },
+                "esm2": {
+                  "recovered": 874,
+                  "eligible": 1221,
+                  "pooled": 0.7158067158067158,
+                  "equal_lineage": 0.7578926405348206
+                },
+                "blosum62": {
+                  "recovered": 905,
+                  "eligible": 1221,
+                  "pooled": 0.7411957411957412,
+                  "equal_lineage": 0.7984478199525592
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.010647010647010647,
+                  "equal_group_gain": 0.028187754846522618,
+                  "components_only_a": 64,
+                  "components_only_b": 51,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.01062779061529463,
+                      0.03280502250651504
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0029727282985576877,
+                      0.05308115429857137
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.010647010647010647,
+                  "equal_group_gain": 0.02955031408822878,
+                  "components_only_a": 63,
+                  "components_only_b": 50,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.010033654720756777,
+                      0.03465432395568596
+                    ],
+                    "equal_group_gain_interval": [
+                      0.004762144286729597,
+                      0.05413036196952074
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.012285012285012284,
+                  "equal_group_gain": 0.03351950840102499,
+                  "components_only_a": 68,
+                  "components_only_b": 53,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.008101007469167955,
+                      0.034813259497046896
+                    ],
+                    "equal_group_gain_interval": [
+                      0.007400379044336397,
+                      0.058931716979702765
+                    ]
+                  }
+                }
+              }
+            },
+            "pool_demand": {
+              "cost": {
+                "candidates": 2266,
+                "residues": 803274,
+                "prefix_counts": {
+                  "1": 72,
+                  "2": 214,
+                  "3": 198,
+                  "4": 293
+                },
+                "sum_squared_residues": 346656350
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 951,
+                  "eligible": 1221,
+                  "pooled": 0.7788697788697788,
+                  "equal_lineage": 0.7657963909444953
+                },
+                "esm2": {
+                  "recovered": 892,
+                  "eligible": 1221,
+                  "pooled": 0.7305487305487306,
+                  "equal_lineage": 0.6982213514500244
+                },
+                "blosum62": {
+                  "recovered": 923,
+                  "eligible": 1221,
+                  "pooled": 0.7559377559377559,
+                  "equal_lineage": 0.7340371943748721
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.02702702702702703,
+                  "equal_group_gain": -0.02702065904080122,
+                  "components_only_a": 120,
+                  "components_only_b": 87,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.07774129952809333,
+                      0.13584329564111286
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.052175553761009914,
+                      -0.0023340862336715374
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.025389025389025387,
+                  "equal_group_gain": -0.030120974996567407,
+                  "components_only_a": 115,
+                  "components_only_b": 84,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.07667621135763683,
+                      0.13070391962292238
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.0543458254817852,
+                      -0.006559052124810416
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.02702702702702703,
+                  "equal_group_gain": -0.030891117176662198,
+                  "components_only_a": 120,
+                  "components_only_b": 87,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.07716884252193092,
+                      0.1346394957101213
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.05696803714650276,
+                      -0.006420191676412051
+                    ]
+                  }
+                }
+              }
+            },
+            "pool_demand_per_residue": {
+              "cost": {
+                "candidates": 2331,
+                "residues": 748398,
+                "prefix_counts": {
+                  "1": 121,
+                  "2": 165,
+                  "3": 84,
+                  "4": 407
+                },
+                "sum_squared_residues": 300093778
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 887,
+                  "eligible": 1221,
+                  "pooled": 0.7264537264537264,
+                  "equal_lineage": 0.7034323167617006
+                },
+                "esm2": {
+                  "recovered": 825,
+                  "eligible": 1221,
+                  "pooled": 0.6756756756756757,
+                  "equal_lineage": 0.6373354988876315
+                },
+                "blosum62": {
+                  "recovered": 858,
+                  "eligible": 1221,
+                  "pooled": 0.7027027027027027,
+                  "equal_lineage": 0.6704882860688548
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.025389025389025387,
+                  "equal_group_gain": -0.08938473322359577,
+                  "components_only_a": 112,
+                  "components_only_b": 143,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.13823120994582727,
+                      0.09107358262967431
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.11937725748448495,
+                      -0.060118393652161414
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.029484029484029485,
+                  "equal_group_gain": -0.09100682755896025,
+                  "components_only_a": 110,
+                  "components_only_b": 146,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1402510488068296,
+                      0.08489096922551811
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.12126702089379814,
+                      -0.06225351909149303
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.02620802620802621,
+                  "equal_group_gain": -0.09444002548267952,
+                  "components_only_a": 112,
+                  "components_only_b": 144,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1389189010480378,
+                      0.09001592526880572
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.12478249469067004,
+                      -0.06586170675033233
+                    ]
+                  }
+                }
+              }
+            },
+            "new_region": {
+              "cost": {
+                "candidates": 2331,
+                "residues": 711337,
+                "prefix_counts": {
+                  "1": 194,
+                  "2": 53,
+                  "3": 89,
+                  "4": 441
+                },
+                "sum_squared_residues": 276832125
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 910,
+                  "eligible": 1221,
+                  "pooled": 0.7452907452907452,
+                  "equal_lineage": 0.6935296601765797
+                },
+                "esm2": {
+                  "recovered": 849,
+                  "eligible": 1221,
+                  "pooled": 0.6953316953316954,
+                  "equal_lineage": 0.6304640429344222
+                },
+                "blosum62": {
+                  "recovered": 884,
+                  "eligible": 1221,
+                  "pooled": 0.723996723996724,
+                  "equal_lineage": 0.6659230251054895
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.006552006552006552,
+                  "equal_group_gain": -0.0992873898087168,
+                  "components_only_a": 110,
+                  "components_only_b": 118,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.11488655023137781,
+                      0.10322706801303566
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.12928061932801269,
+                      -0.07130031270730323
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.009828009828009828,
+                  "equal_group_gain": -0.09787828351216978,
+                  "components_only_a": 113,
+                  "components_only_b": 125,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.11855309254283299,
+                      0.09936365581620273
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.12850722975352716,
+                      -0.06859285239839148
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.004914004914004914,
+                  "equal_group_gain": -0.09900528644604473,
+                  "components_only_a": 108,
+                  "components_only_b": 114,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.11343019476122111,
+                      0.10443177243942237
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.12901890220758702,
+                      -0.07131494575066849
+                    ]
+                  }
+                }
+              }
+            },
+            "balanced_cheapest": {
+              "cost": {
+                "candidates": 2331,
+                "residues": 803300,
+                "prefix_counts": {
+                  "3": 777
+                },
+                "sum_squared_residues": 342049546
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 918,
+                  "eligible": 1221,
+                  "pooled": 0.7518427518427518,
+                  "equal_lineage": 0.7928170499852963
+                },
+                "esm2": {
+                  "recovered": 861,
+                  "eligible": 1221,
+                  "pooled": 0.7051597051597052,
+                  "equal_lineage": 0.7283423264465918
+                },
+                "blosum62": {
+                  "recovered": 890,
+                  "eligible": 1221,
+                  "pooled": 0.7289107289107289,
+                  "equal_lineage": 0.7649283115515343
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                }
+              }
+            },
+            "balanced_demand": {
+              "cost": {
+                "candidates": 2331,
+                "residues": 803300,
+                "prefix_counts": {
+                  "3": 777
+                },
+                "sum_squared_residues": 342049546
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 918,
+                  "eligible": 1221,
+                  "pooled": 0.7518427518427518,
+                  "equal_lineage": 0.7928170499852963
+                },
+                "esm2": {
+                  "recovered": 861,
+                  "eligible": 1221,
+                  "pooled": 0.7051597051597052,
+                  "equal_lineage": 0.7283423264465918
+                },
+                "blosum62": {
+                  "recovered": 890,
+                  "eligible": 1221,
+                  "pooled": 0.7289107289107289,
+                  "equal_lineage": 0.7649283115515343
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "oracle": {
+            "coverage": {
+              "optimal": true,
+              "objective_upper_bound": 1081.0,
+              "cost": {
+                "candidates": 2329,
+                "residues": 776010,
+                "prefix_counts": {
+                  "1": 157,
+                  "2": 120,
+                  "3": 68,
+                  "4": 432
+                },
+                "sum_squared_residues": 315886732
+              },
+              "outcome": {
+                "recovered": 1081,
+                "eligible": 1221,
+                "pooled": 0.8853398853398854,
+                "equal_lineage": 0.8717204201801357
+              }
+            },
+            "esm2": {
+              "optimal": true,
+              "objective_upper_bound": 1032.0,
+              "cost": {
+                "candidates": 2331,
+                "residues": 773298,
+                "prefix_counts": {
+                  "1": 157,
+                  "2": 117,
+                  "3": 72,
+                  "4": 431
+                },
+                "sum_squared_residues": 314056488
+              },
+              "outcome": {
+                "recovered": 1032,
+                "eligible": 1221,
+                "pooled": 0.8452088452088452,
+                "equal_lineage": 0.8203381137030425
+              }
+            },
+            "blosum62": {
+              "optimal": true,
+              "objective_upper_bound": 1060.0,
+              "cost": {
+                "candidates": 2331,
+                "residues": 776151,
+                "prefix_counts": {
+                  "1": 165,
+                  "2": 110,
+                  "3": 62,
+                  "4": 440
+                },
+                "sum_squared_residues": 316689941
+              },
+              "outcome": {
+                "recovered": 1060,
+                "eligible": 1221,
+                "pooled": 0.8681408681408681,
+                "equal_lineage": 0.8529943989659629
+              }
+            }
+          }
+        },
+        "4": {
+          "uniform": {
+            "cost": {
+              "candidates": 3108,
+              "residues": 971259,
+              "prefix_counts": {
+                "4": 777
+              },
+              "sum_squared_residues": 384978221
+            },
+            "outcomes": {
+              "coverage": {
+                "recovered": 1081,
+                "eligible": 1221,
+                "pooled": 0.8853398853398854,
+                "equal_lineage": 0.8717204201801357
+              },
+              "esm2": {
+                "recovered": 1014,
+                "eligible": 1221,
+                "pooled": 0.8304668304668305,
+                "equal_lineage": 0.8004103321638867
+              },
+              "blosum62": {
+                "recovered": 1053,
+                "eligible": 1221,
+                "pooled": 0.8624078624078624,
+                "equal_lineage": 0.8422519029154101
+              }
+            }
+          }
+        }
+      },
+      "coverage_above_saved_scoring_cap": {
+        "8": {
+          "cost": {
+            "candidates": 6216,
+            "residues": 1469095,
+            "prefix_counts": {
+              "8": 777
+            },
+            "sum_squared_residues": 475862593
+          },
+          "outcome": {
+            "recovered": 1190,
+            "eligible": 1221,
+            "pooled": 0.9746109746109746,
+            "equal_lineage": 0.9680165312570527
+          }
+        },
+        "16": {
+          "cost": {
+            "candidates": 12432,
+            "residues": 2151247,
+            "prefix_counts": {
+              "16": 777
+            },
+            "sum_squared_residues": 557195299
+          },
+          "outcome": {
+            "recovered": 1210,
+            "eligible": 1221,
+            "pooled": 0.990990990990991,
+            "equal_lineage": 0.9881911532385466
+          }
+        },
+        "whole_pool": {
+          "cost": {
+            "candidates": 101407,
+            "residues": 6544089,
+            "prefix_counts": {
+              "31": 1,
+              "37": 1,
+              "38": 1,
+              "39": 1,
+              "43": 1,
+              "46": 3,
+              "47": 2,
+              "49": 1,
+              "50": 3,
+              "51": 1,
+              "53": 2,
+              "54": 1,
+              "55": 3,
+              "56": 5,
+              "57": 3,
+              "58": 4,
+              "59": 2,
+              "60": 4,
+              "61": 2,
+              "62": 6,
+              "63": 2,
+              "64": 2,
+              "65": 7,
+              "66": 7,
+              "67": 4,
+              "68": 2,
+              "70": 1,
+              "71": 4,
+              "72": 3,
+              "73": 6,
+              "74": 7,
+              "75": 5,
+              "76": 5,
+              "77": 3,
+              "78": 2,
+              "79": 6,
+              "80": 13,
+              "81": 10,
+              "82": 4,
+              "83": 9,
+              "84": 8,
+              "85": 5,
+              "86": 4,
+              "87": 7,
+              "88": 1,
+              "89": 8,
+              "90": 6,
+              "91": 4,
+              "92": 8,
+              "93": 4,
+              "94": 4,
+              "95": 4,
+              "96": 8,
+              "97": 7,
+              "98": 9,
+              "99": 12,
+              "100": 2,
+              "101": 8,
+              "102": 4,
+              "103": 8,
+              "104": 6,
+              "105": 6,
+              "106": 5,
+              "107": 9,
+              "108": 5,
+              "109": 5,
+              "110": 10,
+              "111": 3,
+              "112": 8,
+              "113": 5,
+              "114": 8,
+              "115": 2,
+              "116": 5,
+              "117": 6,
+              "118": 5,
+              "119": 5,
+              "120": 2,
+              "121": 8,
+              "122": 5,
+              "123": 4,
+              "124": 5,
+              "125": 8,
+              "126": 5,
+              "127": 8,
+              "128": 4,
+              "129": 7,
+              "130": 4,
+              "131": 6,
+              "132": 8,
+              "133": 7,
+              "134": 3,
+              "135": 8,
+              "136": 4,
+              "137": 5,
+              "138": 5,
+              "139": 6,
+              "140": 2,
+              "141": 6,
+              "142": 3,
+              "143": 1,
+              "144": 7,
+              "145": 3,
+              "146": 4,
+              "147": 4,
+              "148": 3,
+              "149": 1,
+              "150": 6,
+              "151": 2,
+              "152": 4,
+              "153": 3,
+              "154": 6,
+              "155": 3,
+              "156": 5,
+              "157": 4,
+              "158": 1,
+              "159": 3,
+              "160": 1,
+              "161": 5,
+              "162": 2,
+              "163": 2,
+              "164": 1,
+              "165": 3,
+              "166": 4,
+              "167": 8,
+              "168": 5,
+              "169": 7,
+              "170": 6,
+              "171": 14,
+              "172": 16,
+              "173": 9,
+              "174": 11,
+              "175": 5,
+              "176": 6,
+              "177": 5,
+              "178": 7,
+              "179": 6,
+              "180": 3,
+              "181": 3,
+              "182": 2,
+              "183": 2,
+              "184": 2,
+              "185": 4,
+              "186": 3,
+              "187": 2,
+              "188": 4,
+              "189": 1,
+              "191": 3,
+              "193": 1,
+              "194": 2,
+              "195": 1,
+              "196": 3,
+              "198": 1,
+              "199": 1,
+              "200": 1,
+              "201": 1,
+              "202": 2,
+              "203": 1,
+              "204": 2,
+              "205": 1,
+              "207": 1,
+              "209": 2,
+              "210": 1,
+              "211": 1,
+              "212": 1,
+              "214": 2,
+              "215": 3,
+              "216": 1,
+              "218": 3,
+              "219": 2,
+              "220": 3,
+              "221": 2,
+              "222": 5,
+              "223": 2,
+              "224": 1,
+              "225": 1,
+              "228": 1,
+              "229": 1,
+              "232": 1,
+              "236": 1,
+              "237": 1,
+              "238": 1,
+              "240": 1,
+              "241": 2,
+              "245": 1,
+              "247": 2,
+              "248": 1,
+              "249": 1,
+              "250": 1,
+              "251": 2,
+              "252": 3,
+              "253": 2,
+              "255": 1,
+              "264": 1,
+              "265": 2,
+              "266": 1,
+              "277": 1,
+              "287": 1,
+              "292": 1,
+              "294": 1
+            },
+            "sum_squared_residues": 804175699
+          },
+          "outcome": {
+            "recovered": 1210,
+            "eligible": 1221,
+            "pooled": 0.990990990990991,
+            "equal_lineage": 0.9881911532385466
+          }
+        }
+      }
+    },
+    "gene_caller": {
+      "caps": {
+        "1": {
+          "uniform": {
+            "cost": {
+              "candidates": 777,
+              "residues": 334550,
+              "prefix_counts": {
+                "1": 777
+              },
+              "sum_squared_residues": 174774512
+            },
+            "outcomes": {
+              "coverage": {
+                "recovered": 336,
+                "eligible": 1221,
+                "pooled": 0.2751842751842752,
+                "equal_lineage": 0.3661557899709559
+              },
+              "esm2": {
+                "recovered": 323,
+                "eligible": 1221,
+                "pooled": 0.26453726453726456,
+                "equal_lineage": 0.3539125040309874
+              },
+              "blosum62": {
+                "recovered": 336,
+                "eligible": 1221,
+                "pooled": 0.2751842751842752,
+                "equal_lineage": 0.3661557899709559
+              }
+            }
+          }
+        },
+        "2": {
+          "uniform": {
+            "cost": {
+              "candidates": 1537,
+              "residues": 551358,
+              "prefix_counts": {
+                "1": 17,
+                "2": 760
+              },
+              "sum_squared_residues": 243266664
+            },
+            "outcomes": {
+              "coverage": {
+                "recovered": 753,
+                "eligible": 1221,
+                "pooled": 0.6167076167076168,
+                "equal_lineage": 0.6876124336432392
+              },
+              "esm2": {
+                "recovered": 725,
+                "eligible": 1221,
+                "pooled": 0.5937755937755937,
+                "equal_lineage": 0.6569844715579313
+              },
+              "blosum62": {
+                "recovered": 746,
+                "eligible": 1221,
+                "pooled": 0.6109746109746109,
+                "equal_lineage": 0.6798884435732777
+              }
+            }
+          },
+          "policies": {
+            "cheapest": {
+              "cost": {
+                "candidates": 1537,
+                "residues": 474712,
+                "prefix_counts": {
+                  "1": 456,
+                  "2": 71,
+                  "3": 61,
+                  "4": 189
+                },
+                "sum_squared_residues": 204257348
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 592,
+                  "eligible": 1221,
+                  "pooled": 0.48484848484848486,
+                  "equal_lineage": 0.518698567099041
+                },
+                "esm2": {
+                  "recovered": 576,
+                  "eligible": 1221,
+                  "pooled": 0.47174447174447176,
+                  "equal_lineage": 0.5044015686788199
+                },
+                "blosum62": {
+                  "recovered": 592,
+                  "eligible": 1221,
+                  "pooled": 0.48484848484848486,
+                  "equal_lineage": 0.518698567099041
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.13185913185913187,
+                  "equal_group_gain": -0.1689138665441983,
+                  "components_only_a": 76,
+                  "components_only_b": 237,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1701991720955483,
+                      -0.10227044410813067
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.20417781270861837,
+                      -0.13504699141695584
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.12203112203112203,
+                  "equal_group_gain": -0.15258290287911142,
+                  "components_only_a": 82,
+                  "components_only_b": 231,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.15810328190300238,
+                      -0.09249201762893611
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.18789648641248166,
+                      -0.11728185667018605
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.12612612612612611,
+                  "equal_group_gain": -0.16118987647423666,
+                  "components_only_a": 77,
+                  "components_only_b": 231,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.16339885269176163,
+                      -0.09741636576641839
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.1953881865567292,
+                      -0.12741730524609668
+                    ]
+                  }
+                }
+              }
+            },
+            "longest": {
+              "cost": {
+                "candidates": 1462,
+                "residues": 551358,
+                "prefix_counts": {
+                  "1": 311,
+                  "2": 288,
+                  "3": 137,
+                  "4": 41
+                },
+                "sum_squared_residues": 248273936
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 739,
+                  "eligible": 1221,
+                  "pooled": 0.6052416052416052,
+                  "equal_lineage": 0.6794089927976183
+                },
+                "esm2": {
+                  "recovered": 713,
+                  "eligible": 1221,
+                  "pooled": 0.583947583947584,
+                  "equal_lineage": 0.650360809543274
+                },
+                "blosum62": {
+                  "recovered": 731,
+                  "eligible": 1221,
+                  "pooled": 0.5986895986895987,
+                  "equal_lineage": 0.6713464786924502
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.011466011466011465,
+                  "equal_group_gain": -0.008203440845620944,
+                  "components_only_a": 139,
+                  "components_only_b": 153,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.06471624579462379,
+                      0.02886436855845051
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.04620494582431785,
+                      0.030224431308554546
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.009828009828009828,
+                  "equal_group_gain": -0.006623662014657278,
+                  "components_only_a": 140,
+                  "components_only_b": 152,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.0626224374105533,
+                      0.03048990955885891
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.04500881803162609,
+                      0.03186101549845626
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.012285012285012284,
+                  "equal_group_gain": -0.008541964880827441,
+                  "components_only_a": 138,
+                  "components_only_b": 153,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.06522146884756977,
+                      0.02789622626657011
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.046440923150046366,
+                      0.029883583044128078
+                    ]
+                  }
+                }
+              }
+            },
+            "pool_demand": {
+              "cost": {
+                "candidates": 1537,
+                "residues": 550345,
+                "prefix_counts": {
+                  "1": 317,
+                  "2": 240,
+                  "3": 140,
+                  "4": 80
+                },
+                "sum_squared_residues": 242328567
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 697,
+                  "eligible": 1221,
+                  "pooled": 0.5708435708435708,
+                  "equal_lineage": 0.6266813228898537
+                },
+                "esm2": {
+                  "recovered": 672,
+                  "eligible": 1221,
+                  "pooled": 0.5503685503685504,
+                  "equal_lineage": 0.6009111807097589
+                },
+                "blosum62": {
+                  "recovered": 686,
+                  "eligible": 1221,
+                  "pooled": 0.5618345618345618,
+                  "equal_lineage": 0.6158541958304992
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.04586404586404586,
+                  "equal_group_gain": -0.06093111075338563,
+                  "components_only_a": 126,
+                  "components_only_b": 182,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.12830275851381193,
+                      0.0204387892368552
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.09902930600205483,
+                      -0.02394138691087743
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.043407043407043405,
+                  "equal_group_gain": -0.056073290848172364,
+                  "components_only_a": 128,
+                  "components_only_b": 181,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.12487422600619193,
+                      0.022764838289426895
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.09440162177869525,
+                      -0.018791498785574606
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.04914004914004914,
+                  "equal_group_gain": -0.06403424774277855,
+                  "components_only_a": 125,
+                  "components_only_b": 185,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.13226852926885901,
+                      0.01804352574408996
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.10161766797578407,
+                      -0.027173815520971912
+                    ]
+                  }
+                }
+              }
+            },
+            "pool_demand_per_residue": {
+              "cost": {
+                "candidates": 1537,
+                "residues": 519557,
+                "prefix_counts": {
+                  "1": 368,
+                  "2": 178,
+                  "3": 111,
+                  "4": 120
+                },
+                "sum_squared_residues": 224541577
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 665,
+                  "eligible": 1221,
+                  "pooled": 0.5446355446355446,
+                  "equal_lineage": 0.5763921669431148
+                },
+                "esm2": {
+                  "recovered": 644,
+                  "eligible": 1221,
+                  "pooled": 0.5274365274365275,
+                  "equal_lineage": 0.5554403501974592
+                },
+                "blosum62": {
+                  "recovered": 660,
+                  "eligible": 1221,
+                  "pooled": 0.5405405405405406,
+                  "equal_lineage": 0.5713143064150173
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.07207207207207207,
+                  "equal_group_gain": -0.11122026670012451,
+                  "components_only_a": 122,
+                  "components_only_b": 210,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1878121878121878,
+                      0.03904013445441273
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.1468877849046688,
+                      -0.07622565650187094
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.06633906633906633,
+                  "equal_group_gain": -0.10154412136047207,
+                  "components_only_a": 125,
+                  "components_only_b": 206,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1809807436617157,
+                      0.043675735145153195
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.13772390055639464,
+                      -0.06623763233212285
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.07043407043407043,
+                  "equal_group_gain": -0.10857413715826038,
+                  "components_only_a": 122,
+                  "components_only_b": 208,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1847557892607948,
+                      0.04078411812929921
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.14455080193305903,
+                      -0.0736213887317264
+                    ]
+                  }
+                }
+              }
+            },
+            "new_region": {
+              "cost": {
+                "candidates": 1537,
+                "residues": 475929,
+                "prefix_counts": {
+                  "1": 452,
+                  "2": 74,
+                  "3": 67,
+                  "4": 184
+                },
+                "sum_squared_residues": 204641921
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 598,
+                  "eligible": 1221,
+                  "pooled": 0.48976248976248976,
+                  "equal_lineage": 0.5222925639394834
+                },
+                "esm2": {
+                  "recovered": 582,
+                  "eligible": 1221,
+                  "pooled": 0.47665847665847666,
+                  "equal_lineage": 0.5079955655192622
+                },
+                "blosum62": {
+                  "recovered": 598,
+                  "eligible": 1221,
+                  "pooled": 0.48976248976248976,
+                  "equal_lineage": 0.5222925639394834
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.12694512694512694,
+                  "equal_group_gain": -0.16531986970375595,
+                  "components_only_a": 78,
+                  "components_only_b": 233,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.16768980463273783,
+                      -0.09675163412746195
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.1995202506813881,
+                      -0.13076396451100242
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.11711711711711711,
+                  "equal_group_gain": -0.14898890603866907,
+                  "components_only_a": 84,
+                  "components_only_b": 227,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.15577926144843007,
+                      -0.08759354909555564
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.18462243029482364,
+                      -0.11338105368170535
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.12121212121212122,
+                  "equal_group_gain": -0.15759587963379432,
+                  "components_only_a": 79,
+                  "components_only_b": 227,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1601643792341663,
+                      -0.0918041923220181
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.19207605634886438,
+                      -0.12353767529863499
+                    ]
+                  }
+                }
+              }
+            },
+            "balanced_cheapest": {
+              "cost": {
+                "candidates": 1537,
+                "residues": 551358,
+                "prefix_counts": {
+                  "1": 17,
+                  "2": 760
+                },
+                "sum_squared_residues": 243266664
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 753,
+                  "eligible": 1221,
+                  "pooled": 0.6167076167076168,
+                  "equal_lineage": 0.6876124336432392
+                },
+                "esm2": {
+                  "recovered": 725,
+                  "eligible": 1221,
+                  "pooled": 0.5937755937755937,
+                  "equal_lineage": 0.6569844715579313
+                },
+                "blosum62": {
+                  "recovered": 746,
+                  "eligible": 1221,
+                  "pooled": 0.6109746109746109,
+                  "equal_lineage": 0.6798884435732777
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                }
+              }
+            },
+            "balanced_demand": {
+              "cost": {
+                "candidates": 1537,
+                "residues": 551358,
+                "prefix_counts": {
+                  "1": 17,
+                  "2": 760
+                },
+                "sum_squared_residues": 243266664
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 753,
+                  "eligible": 1221,
+                  "pooled": 0.6167076167076168,
+                  "equal_lineage": 0.6876124336432392
+                },
+                "esm2": {
+                  "recovered": 725,
+                  "eligible": 1221,
+                  "pooled": 0.5937755937755937,
+                  "equal_lineage": 0.6569844715579313
+                },
+                "blosum62": {
+                  "recovered": 746,
+                  "eligible": 1221,
+                  "pooled": 0.6109746109746109,
+                  "equal_lineage": 0.6798884435732777
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "oracle": {
+            "coverage": {
+              "optimal": true,
+              "objective_upper_bound": 1022.0,
+              "cost": {
+                "candidates": 1536,
+                "residues": 543007,
+                "prefix_counts": {
+                  "1": 287,
+                  "2": 260,
+                  "3": 191,
+                  "4": 39
+                },
+                "sum_squared_residues": 235463077
+              },
+              "outcome": {
+                "recovered": 1022,
+                "eligible": 1221,
+                "pooled": 0.8370188370188371,
+                "equal_lineage": 0.8224185733960616
+              }
+            },
+            "esm2": {
+              "optimal": true,
+              "objective_upper_bound": 1000.0,
+              "cost": {
+                "candidates": 1536,
+                "residues": 543518,
+                "prefix_counts": {
+                  "1": 288,
+                  "2": 257,
+                  "3": 194,
+                  "4": 38
+                },
+                "sum_squared_residues": 235782060
+              },
+              "outcome": {
+                "recovered": 1000,
+                "eligible": 1221,
+                "pooled": 0.819000819000819,
+                "equal_lineage": 0.8117155718162827
+              }
+            },
+            "blosum62": {
+              "optimal": true,
+              "objective_upper_bound": 1016.0,
+              "cost": {
+                "candidates": 1537,
+                "residues": 542827,
+                "prefix_counts": {
+                  "1": 287,
+                  "2": 257,
+                  "3": 196,
+                  "4": 37
+                },
+                "sum_squared_residues": 235232533
+              },
+              "outcome": {
+                "recovered": 1016,
+                "eligible": 1221,
+                "pooled": 0.8321048321048321,
+                "equal_lineage": 0.8114648253273845
+              }
+            }
+          }
+        },
+        "3": {
+          "uniform": {
+            "cost": {
+              "candidates": 2206,
+              "residues": 698751,
+              "prefix_counts": {
+                "1": 17,
+                "2": 91,
+                "3": 669
+              },
+              "sum_squared_residues": 280072101
+            },
+            "outcomes": {
+              "coverage": {
+                "recovered": 1047,
+                "eligible": 1221,
+                "pooled": 0.8574938574938575,
+                "equal_lineage": 0.8634760776348454
+              },
+              "esm2": {
+                "recovered": 1016,
+                "eligible": 1221,
+                "pooled": 0.8321048321048321,
+                "equal_lineage": 0.8294120965921914
+              },
+              "blosum62": {
+                "recovered": 1037,
+                "eligible": 1221,
+                "pooled": 0.8493038493038493,
+                "equal_lineage": 0.8538337846987135
+              }
+            }
+          },
+          "policies": {
+            "cheapest": {
+              "cost": {
+                "candidates": 2206,
+                "residues": 622323,
+                "prefix_counts": {
+                  "1": 208,
+                  "2": 92,
+                  "3": 94,
+                  "4": 383
+                },
+                "sum_squared_residues": 240167967
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 899,
+                  "eligible": 1221,
+                  "pooled": 0.7362817362817363,
+                  "equal_lineage": 0.7434162796129621
+                },
+                "esm2": {
+                  "recovered": 874,
+                  "eligible": 1221,
+                  "pooled": 0.7158067158067158,
+                  "equal_lineage": 0.7167377646050632
+                },
+                "blosum62": {
+                  "recovered": 895,
+                  "eligible": 1221,
+                  "pooled": 0.733005733005733,
+                  "equal_lineage": 0.7382819984123302
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.12121212121212122,
+                  "equal_group_gain": -0.12005979802188332,
+                  "components_only_a": 28,
+                  "components_only_b": 176,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.15607644870116447,
+                      -0.09198990674843681
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.15130644631829465,
+                      -0.08866951571335457
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.1162981162981163,
+                  "equal_group_gain": -0.11267433198712822,
+                  "components_only_a": 29,
+                  "components_only_b": 171,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1503154861924402,
+                      -0.08760197816057619
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.14339469574659147,
+                      -0.08207493927873075
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.1162981162981163,
+                  "equal_group_gain": -0.11555178628638345,
+                  "components_only_a": 28,
+                  "components_only_b": 170,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.15032862745098038,
+                      -0.08737843081264487
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.14616780237929525,
+                      -0.08426536141583535
+                    ]
+                  }
+                }
+              }
+            },
+            "longest": {
+              "cost": {
+                "candidates": 2072,
+                "residues": 698746,
+                "prefix_counts": {
+                  "1": 78,
+                  "2": 263,
+                  "3": 276,
+                  "4": 160
+                },
+                "sum_squared_residues": 284137620
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 1062,
+                  "eligible": 1221,
+                  "pooled": 0.8697788697788698,
+                  "equal_lineage": 0.9214722974497855
+                },
+                "esm2": {
+                  "recovered": 1029,
+                  "eligible": 1221,
+                  "pooled": 0.8427518427518428,
+                  "equal_lineage": 0.886341965696231
+                },
+                "blosum62": {
+                  "recovered": 1048,
+                  "eligible": 1221,
+                  "pooled": 0.8583128583128583,
+                  "equal_lineage": 0.9070116790792145
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.012285012285012284,
+                  "equal_group_gain": 0.057996219814940186,
+                  "components_only_a": 67,
+                  "components_only_b": 52,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.05178671336025576,
+                      0.0764525993883792
+                    ],
+                    "equal_group_gain_interval": [
+                      0.04034205032723989,
+                      0.07760159247348229
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.010647010647010647,
+                  "equal_group_gain": 0.056929869104039715,
+                  "components_only_a": 66,
+                  "components_only_b": 53,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.05343259804624261,
+                      0.07464373637310041
+                    ],
+                    "equal_group_gain_interval": [
+                      0.03941456499661476,
+                      0.07644683762130444
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.009009009009009009,
+                  "equal_group_gain": 0.05317789438050101,
+                  "components_only_a": 67,
+                  "components_only_b": 56,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.05416758849557522,
+                      0.0729276269405767
+                    ],
+                    "equal_group_gain_interval": [
+                      0.034065955766192736,
+                      0.0733021961746784
+                    ]
+                  }
+                }
+              }
+            },
+            "pool_demand": {
+              "cost": {
+                "candidates": 2206,
+                "residues": 696203,
+                "prefix_counts": {
+                  "1": 108,
+                  "2": 228,
+                  "3": 122,
+                  "4": 319
+                },
+                "sum_squared_residues": 278397483
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 982,
+                  "eligible": 1221,
+                  "pooled": 0.8042588042588042,
+                  "equal_lineage": 0.8165957265483332
+                },
+                "esm2": {
+                  "recovered": 951,
+                  "eligible": 1221,
+                  "pooled": 0.7788697788697788,
+                  "equal_lineage": 0.7828477012718719
+                },
+                "blosum62": {
+                  "recovered": 969,
+                  "eligible": 1221,
+                  "pooled": 0.7936117936117936,
+                  "equal_lineage": 0.8029249975932441
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.05323505323505324,
+                  "equal_group_gain": -0.046880351086512215,
+                  "components_only_a": 58,
+                  "components_only_b": 123,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.11205385416078807,
+                      -0.010016390816587596
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.0754683492849962,
+                      -0.019263607640384876
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.05323505323505324,
+                  "equal_group_gain": -0.04656439532031949,
+                  "components_only_a": 58,
+                  "components_only_b": 123,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.11203348559340749,
+                      -0.010003344847873089
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.07534901709664742,
+                      -0.018770864305520708
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.055692055692055695,
+                  "equal_group_gain": -0.05090878710546957,
+                  "components_only_a": 59,
+                  "components_only_b": 127,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.11455416753167431,
+                      -0.011763475264582816
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.08001684038710104,
+                      -0.022808233926421128
+                    ]
+                  }
+                }
+              }
+            },
+            "pool_demand_per_residue": {
+              "cost": {
+                "candidates": 2206,
+                "residues": 664445,
+                "prefix_counts": {
+                  "1": 158,
+                  "2": 166,
+                  "3": 96,
+                  "4": 357
+                },
+                "sum_squared_residues": 262726421
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 896,
+                  "eligible": 1221,
+                  "pooled": 0.7338247338247338,
+                  "equal_lineage": 0.7383818163142808
+                },
+                "esm2": {
+                  "recovered": 869,
+                  "eligible": 1221,
+                  "pooled": 0.7117117117117117,
+                  "equal_lineage": 0.7117427957771559
+                },
+                "blosum62": {
+                  "recovered": 882,
+                  "eligible": 1221,
+                  "pooled": 0.7223587223587223,
+                  "equal_lineage": 0.7235262532359689
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.12366912366912367,
+                  "equal_group_gain": -0.12509426132056464,
+                  "components_only_a": 50,
+                  "components_only_b": 201,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.19496611486577997,
+                      -0.06642786712787961
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.1590215654211507,
+                      -0.09094305444423927
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.12039312039312039,
+                  "equal_group_gain": -0.11766930081503539,
+                  "components_only_a": 52,
+                  "components_only_b": 199,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.19087254687854613,
+                      -0.06424133760975866
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.15225406241993922,
+                      -0.08343599364037751
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.12694512694512694,
+                  "equal_group_gain": -0.13030753146274474,
+                  "components_only_a": 51,
+                  "components_only_b": 206,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.19840613035652196,
+                      -0.06884452858140473
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.16505809973004879,
+                      -0.09561373436003175
+                    ]
+                  }
+                }
+              }
+            },
+            "new_region": {
+              "cost": {
+                "candidates": 2206,
+                "residues": 624378,
+                "prefix_counts": {
+                  "1": 199,
+                  "2": 101,
+                  "3": 103,
+                  "4": 374
+                },
+                "sum_squared_residues": 240924138
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 904,
+                  "eligible": 1221,
+                  "pooled": 0.7403767403767404,
+                  "equal_lineage": 0.7476834184772574
+                },
+                "esm2": {
+                  "recovered": 878,
+                  "eligible": 1221,
+                  "pooled": 0.719082719082719,
+                  "equal_lineage": 0.7202150140538766
+                },
+                "blosum62": {
+                  "recovered": 900,
+                  "eligible": 1221,
+                  "pooled": 0.7371007371007371,
+                  "equal_lineage": 0.7425491372766254
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": -0.11711711711711711,
+                  "equal_group_gain": -0.11579265915758806,
+                  "components_only_a": 24,
+                  "components_only_b": 167,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.1513575992802685,
+                      -0.0887346057879231
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.14602927976446933,
+                      -0.08651039422662647
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": -0.11302211302211303,
+                  "equal_group_gain": -0.10919708253831475,
+                  "components_only_a": 24,
+                  "components_only_b": 162,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.14565260184868195,
+                      -0.08490423098913664
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.1389760545536612,
+                      -0.08096353685808662
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": -0.1122031122031122,
+                  "equal_group_gain": -0.11128464742208818,
+                  "components_only_a": 24,
+                  "components_only_b": 161,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      -0.14515027225797325,
+                      -0.08341233435474715
+                    ],
+                    "equal_group_gain_interval": [
+                      -0.14063981042654028,
+                      -0.08250269280482549
+                    ]
+                  }
+                }
+              }
+            },
+            "balanced_cheapest": {
+              "cost": {
+                "candidates": 2206,
+                "residues": 698751,
+                "prefix_counts": {
+                  "1": 17,
+                  "2": 91,
+                  "3": 669
+                },
+                "sum_squared_residues": 280072101
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 1047,
+                  "eligible": 1221,
+                  "pooled": 0.8574938574938575,
+                  "equal_lineage": 0.8634760776348454
+                },
+                "esm2": {
+                  "recovered": 1016,
+                  "eligible": 1221,
+                  "pooled": 0.8321048321048321,
+                  "equal_lineage": 0.8294120965921914
+                },
+                "blosum62": {
+                  "recovered": 1037,
+                  "eligible": 1221,
+                  "pooled": 0.8493038493038493,
+                  "equal_lineage": 0.8538337846987135
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                }
+              }
+            },
+            "balanced_demand": {
+              "cost": {
+                "candidates": 2206,
+                "residues": 698751,
+                "prefix_counts": {
+                  "1": 17,
+                  "2": 91,
+                  "3": 669
+                },
+                "sum_squared_residues": 280072101
+              },
+              "outcomes": {
+                "coverage": {
+                  "recovered": 1047,
+                  "eligible": 1221,
+                  "pooled": 0.8574938574938575,
+                  "equal_lineage": 0.8634760776348454
+                },
+                "esm2": {
+                  "recovered": 1016,
+                  "eligible": 1221,
+                  "pooled": 0.8321048321048321,
+                  "equal_lineage": 0.8294120965921914
+                },
+                "blosum62": {
+                  "recovered": 1037,
+                  "eligible": 1221,
+                  "pooled": 0.8493038493038493,
+                  "equal_lineage": 0.8538337846987135
+                }
+              },
+              "paired_gain": {
+                "coverage": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "esm2": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "blosum62": {
+                  "pooled_gain": 0.0,
+                  "equal_group_gain": 0.0,
+                  "components_only_a": 0,
+                  "components_only_b": 0,
+                  "group_bootstrap": {
+                    "pooled_gain_interval": [
+                      0.0,
+                      0.0
+                    ],
+                    "equal_group_gain_interval": [
+                      0.0,
+                      0.0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "oracle": {
+            "coverage": {
+              "optimal": true,
+              "objective_upper_bound": 1132.0,
+              "cost": {
+                "candidates": 2206,
+                "residues": 694051,
+                "prefix_counts": {
+                  "1": 109,
+                  "2": 123,
+                  "3": 329,
+                  "4": 216
+                },
+                "sum_squared_residues": 277681157
+              },
+              "outcome": {
+                "recovered": 1132,
+                "eligible": 1221,
+                "pooled": 0.9271089271089271,
+                "equal_lineage": 0.9260536560595801
+              }
+            },
+            "esm2": {
+              "optimal": true,
+              "objective_upper_bound": 1103.0,
+              "cost": {
+                "candidates": 2206,
+                "residues": 691217,
+                "prefix_counts": {
+                  "1": 130,
+                  "2": 121,
+                  "3": 270,
+                  "4": 256
+                },
+                "sum_squared_residues": 276456249
+              },
+              "outcome": {
+                "recovered": 1103,
+                "eligible": 1221,
+                "pooled": 0.9033579033579033,
+                "equal_lineage": 0.8992171631685849
+              }
+            },
+            "blosum62": {
+              "optimal": true,
+              "objective_upper_bound": 1121.0,
+              "cost": {
+                "candidates": 2206,
+                "residues": 694897,
+                "prefix_counts": {
+                  "1": 115,
+                  "2": 133,
+                  "3": 291,
+                  "4": 238
+                },
+                "sum_squared_residues": 277592033
+              },
+              "outcome": {
+                "recovered": 1121,
+                "eligible": 1221,
+                "pooled": 0.9180999180999181,
+                "equal_lineage": 0.9159374294741593
+              }
+            }
+          }
+        },
+        "4": {
+          "uniform": {
+            "cost": {
+              "candidates": 2772,
+              "residues": 789199,
+              "prefix_counts": {
+                "1": 17,
+                "2": 91,
+                "3": 103,
+                "4": 566
+              },
+              "sum_squared_residues": 297168929
+            },
+            "outcomes": {
+              "coverage": {
+                "recovered": 1132,
+                "eligible": 1221,
+                "pooled": 0.9271089271089271,
+                "equal_lineage": 0.9260536560595801
+              },
+              "esm2": {
+                "recovered": 1099,
+                "eligible": 1221,
+                "pooled": 0.9000819000819,
+                "equal_lineage": 0.8909233243060257
+              },
+              "blosum62": {
+                "recovered": 1117,
+                "eligible": 1221,
+                "pooled": 0.9148239148239148,
+                "equal_lineage": 0.9104082035657864
+              }
+            }
+          }
+        }
+      },
+      "coverage_above_saved_scoring_cap": {
+        "8": {
+          "cost": {
+            "candidates": 3932,
+            "residues": 920296,
+            "prefix_counts": {
+              "1": 17,
+              "2": 91,
+              "3": 103,
+              "4": 125,
+              "5": 94,
+              "6": 127,
+              "7": 68,
+              "8": 152
+            },
+            "sum_squared_residues": 316520964
+          },
+          "outcome": {
+            "recovered": 1175,
+            "eligible": 1221,
+            "pooled": 0.9623259623259623,
+            "equal_lineage": 0.9754245655608215
+          }
+        },
+        "16": {
+          "cost": {
+            "candidates": 4186,
+            "residues": 939966,
+            "prefix_counts": {
+              "1": 17,
+              "2": 91,
+              "3": 103,
+              "4": 125,
+              "5": 94,
+              "6": 127,
+              "7": 68,
+              "8": 58,
+              "9": 35,
+              "10": 16,
+              "11": 16,
+              "12": 11,
+              "13": 8,
+              "14": 3,
+              "15": 3,
+              "16": 2
+            },
+            "sum_squared_residues": 318434884
+          },
+          "outcome": {
+            "recovered": 1176,
+            "eligible": 1221,
+            "pooled": 0.9631449631449631,
+            "equal_lineage": 0.9762144549763032
+          }
+        },
+        "whole_pool": {
+          "cost": {
+            "candidates": 4194,
+            "residues": 940383,
+            "prefix_counts": {
+              "1": 17,
+              "2": 91,
+              "3": 103,
+              "4": 125,
+              "5": 94,
+              "6": 127,
+              "7": 68,
+              "8": 58,
+              "9": 35,
+              "10": 16,
+              "11": 16,
+              "12": 11,
+              "13": 8,
+              "14": 3,
+              "15": 3,
+              "16": 1,
+              "24": 1
+            },
+            "sum_squared_residues": 318457141
+          },
+          "outcome": {
+            "recovered": 1176,
+            "eligible": 1221,
+            "pooled": 0.9631449631449631,
+            "equal_lineage": 0.9762144549763032
+          }
+        }
+      }
+    }
+  }
+}
