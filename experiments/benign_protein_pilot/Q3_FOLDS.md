@@ -11,3 +11,7 @@ This study addresses the characterization part of [Q3](../../docs/project/SCOPE.
 - Summarize success per domain, by fold, and as an average giving folds equal weight. Within each fold give superfamilies equal weight, then fine families within their superfamily. Report paired differences, a descriptive whole-fold bootstrap interval, and sensitivity when dropping one fold. Treat the intervals as panel summaries. Several groups share reference data and the domain sequences may have appeared in ESM-2 pretraining.
 
 The measured label is a structural superfamily, which can contain enzymes with different functions. Evidence that a scorer can recover this label after receiving the domain is one part of Q3. The separate construct experiments address whether a useful input reaches the scorer.
+
+## Reference-depth check fixed before running it
+
+The first comparison holds out several fine families at once. As a check on reference availability, give every method all the other fine families within the query's fold. Keep the entire query family out. Use the same 132 queries, candidate labels and scoring rules. Recalculate identity against the larger reference set and compare decisions on both the original below-25% cohort and the cases still below 25%. Some superfamilies have only two fine families, so this adds same-label references for only some queries. This check reuses the original sample.
