@@ -1,0 +1,2470 @@
+{
+  "constructs": [
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-001-5",
+          "spans": [
+            [
+              4073,
+              4790
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-001",
+      "length": 4792
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-002-4",
+          "spans": [
+            [
+              2029,
+              2749
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-002-9",
+          "spans": [
+            [
+              5422,
+              6283
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-002",
+      "length": 6876
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-003-2",
+          "spans": [
+            [
+              291,
+              1008
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-003-4",
+          "spans": [
+            [
+              1539,
+              2400
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-003",
+      "length": 3340
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "renilla_luciferase",
+          "id": "rc-004-2",
+          "spans": [
+            [
+              993,
+              1929
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-004-4",
+          "spans": [
+            [
+              3098,
+              3893
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-004-5",
+          "spans": [
+            [
+              5397,
+              6258
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-004",
+      "length": 6394
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-005-14",
+          "spans": [
+            [
+              5667,
+              7320
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-005",
+      "length": 10776
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-006-11",
+          "spans": [
+            [
+              297,
+              1950
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-006",
+      "length": 4672
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-007-2",
+          "spans": [
+            [
+              2286,
+              3027
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-007-3",
+          "spans": [
+            [
+              3737,
+              4547
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-007",
+      "length": 5130
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-008-2",
+          "spans": [
+            [
+              2286,
+              3027
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-008",
+      "length": 5445
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-009-2",
+          "spans": [
+            [
+              325,
+              1042
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-009",
+      "length": 5335
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-010-2",
+          "spans": [
+            [
+              325,
+              1042
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-010",
+      "length": 5348
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-011-2",
+          "spans": [
+            [
+              325,
+              1075
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-011",
+      "length": 5384
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-012-2",
+          "spans": [
+            [
+              325,
+              1075
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-012",
+      "length": 5384
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-013-2",
+          "spans": [
+            [
+              325,
+              1075
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-013",
+      "length": 5384
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-014-2",
+          "spans": [
+            [
+              325,
+              1075
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-014",
+      "length": 5384
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-015-2",
+          "spans": [
+            [
+              325,
+              1003
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-015",
+      "length": 5311
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-016-2",
+          "spans": [
+            [
+              325,
+              1003
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-016",
+      "length": 5311
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-017-2",
+          "spans": [
+            [
+              325,
+              1003
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-017",
+      "length": 5311
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-018-2",
+          "spans": [
+            [
+              325,
+              1003
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-018",
+      "length": 5311
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-019-2",
+          "spans": [
+            [
+              99,
+              1752
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-019-7",
+          "spans": [
+            [
+              3123,
+              3984
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-019",
+      "length": 4242
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-020-2",
+          "spans": [
+            [
+              498,
+              2151
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-020-7",
+          "spans": [
+            [
+              3522,
+              4383
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-020",
+      "length": 4641
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-021-2",
+          "spans": [
+            [
+              99,
+              1752
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "id": "rc-021-5",
+          "spans": [
+            [
+              2498,
+              3536
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-021-9",
+          "spans": [
+            [
+              4722,
+              5583
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-021",
+      "length": 5841
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-022-2",
+          "spans": [
+            [
+              139,
+              1630
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-022-6",
+          "spans": [
+            [
+              1777,
+              2638
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-022",
+      "length": 3441
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-023-2",
+          "spans": [
+            [
+              99,
+              1752
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-023-5",
+          "spans": [
+            [
+              2498,
+              3293
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-023-10",
+          "spans": [
+            [
+              4480,
+              5341
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-023",
+      "length": 5599
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-024-2",
+          "spans": [
+            [
+              99,
+              1752
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "puromycin_n_acetyltransferase",
+          "id": "rc-024-5",
+          "spans": [
+            [
+              2498,
+              3098
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-024-10",
+          "spans": [
+            [
+              4285,
+              5146
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-024",
+      "length": 5404
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "renilla_luciferase",
+          "id": "rc-025-2",
+          "spans": [
+            [
+              99,
+              1035
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-025-5",
+          "spans": [
+            [
+              1778,
+              2573
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-025-10",
+          "spans": [
+            [
+              3760,
+              4621
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-025",
+      "length": 4879
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-026-4",
+          "spans": [
+            [
+              140,
+              1793
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-026-9",
+          "spans": [
+            [
+              3164,
+              4025
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-026",
+      "length": 4283
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-027-4",
+          "spans": [
+            [
+              140,
+              1916
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-027-9",
+          "spans": [
+            [
+              3292,
+              4153
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-027",
+      "length": 4411
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-028-4",
+          "spans": [
+            [
+              140,
+              1970
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-028-9",
+          "spans": [
+            [
+              3343,
+              4204
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-028",
+      "length": 4462
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-029-4",
+          "spans": [
+            [
+              140,
+              1793
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "id": "rc-029-6",
+          "spans": [
+            [
+              2539,
+              3577
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-029-10",
+          "spans": [
+            [
+              4763,
+              5624
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-029",
+      "length": 5882
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-030-4",
+          "spans": [
+            [
+              140,
+              1916
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "id": "rc-030-6",
+          "spans": [
+            [
+              2667,
+              3705
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-030-10",
+          "spans": [
+            [
+              4891,
+              5752
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-030",
+      "length": 6010
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-031-4",
+          "spans": [
+            [
+              140,
+              1970
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "id": "rc-031-6",
+          "spans": [
+            [
+              2718,
+              3756
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-031-10",
+          "spans": [
+            [
+              4942,
+              5803
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-031",
+      "length": 6061
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-032-3",
+          "spans": [
+            [
+              214,
+              1990
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "id": "rc-032-5",
+          "spans": [
+            [
+              2741,
+              3779
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-032-9",
+          "spans": [
+            [
+              4965,
+              5826
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-032",
+      "length": 6084
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-033-4",
+          "spans": [
+            [
+              227,
+              2003
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "id": "rc-033-7",
+          "spans": [
+            [
+              2754,
+              3792
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-033-11",
+          "spans": [
+            [
+              4978,
+              5839
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-033",
+      "length": 6097
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-034-5",
+          "spans": [
+            [
+              3242,
+              3962
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-034",
+      "length": 4486
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-035-4",
+          "spans": [
+            [
+              179,
+              1955
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "id": "rc-035-8",
+          "spans": [
+            [
+              2706,
+              3744
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-035-13",
+          "spans": [
+            [
+              4930,
+              5791
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-035",
+      "length": 6049
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-036-3",
+          "spans": [
+            [
+              858,
+              2511
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "id": "rc-036-7",
+          "spans": [
+            [
+              3257,
+              4295
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-036-11",
+          "spans": [
+            [
+              5481,
+              6342
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-036",
+      "length": 6600
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-037-3",
+          "spans": [
+            [
+              858,
+              2511
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-037-7",
+          "spans": [
+            [
+              3257,
+              4052
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-037-11",
+          "spans": [
+            [
+              5239,
+              6100
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-037",
+      "length": 6358
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "beta_galactosidase",
+          "id": "rc-038-3",
+          "spans": [
+            [
+              49,
+              3118
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-038-6",
+          "spans": [
+            [
+              4187,
+              5048
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-038",
+      "length": 5253
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-039-2",
+          "spans": [
+            [
+              35,
+              713
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-039-5",
+          "spans": [
+            [
+              1782,
+              2643
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-039",
+      "length": 2848
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-040-3",
+          "spans": [
+            [
+              48,
+              726
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-040-6",
+          "spans": [
+            [
+              1795,
+              2656
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-040",
+      "length": 2861
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-041-3",
+          "spans": [
+            [
+              340,
+              1060
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-041-5",
+          "spans": [
+            [
+              2293,
+              3085
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-041",
+      "length": 4395
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-042-9",
+          "spans": [
+            [
+              214,
+              1867
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-042-16",
+          "spans": [
+            [
+              3238,
+              4099
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-042",
+      "length": 4357
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-043-5",
+          "spans": [
+            [
+              140,
+              1799
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-043-9",
+          "spans": [
+            [
+              3170,
+              4031
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-043",
+      "length": 4289
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-044-9",
+          "spans": [
+            [
+              214,
+              1873
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-044-13",
+          "spans": [
+            [
+              3244,
+              4105
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-044",
+      "length": 4363
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-045-5",
+          "spans": [
+            [
+              5041,
+              6472
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-045",
+      "length": 6712
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-046-3",
+          "spans": [
+            [
+              140,
+              1793
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-046-7",
+          "spans": [
+            [
+              3164,
+              4025
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-046",
+      "length": 4283
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-047-3",
+          "spans": [
+            [
+              140,
+              1793
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-047-7",
+          "spans": [
+            [
+              3164,
+              4025
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-047",
+      "length": 4283
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-048-3",
+          "spans": [
+            [
+              279,
+              1932
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-048-7",
+          "spans": [
+            [
+              3271,
+              3934
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-048",
+      "length": 5010
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-049-2",
+          "spans": [
+            [
+              647,
+              2300
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-049",
+      "length": 4790
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-050-3",
+          "spans": [
+            [
+              1128,
+              1881
+            ]
+          ],
+          "strand": -1
+        },
+        {
+          "family": "gfp_like",
+          "id": "rc-050-7",
+          "spans": [
+            [
+              2958,
+              3678
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-050-12",
+          "spans": [
+            [
+              5106,
+              5967
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-050",
+      "length": 6095
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-051-3",
+          "spans": [
+            [
+              1128,
+              1881
+            ]
+          ],
+          "strand": -1
+        },
+        {
+          "family": "gfp_like",
+          "id": "rc-051-7",
+          "spans": [
+            [
+              3077,
+              3797
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-051-12",
+          "spans": [
+            [
+              5225,
+              6086
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-051",
+      "length": 6214
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-052-3",
+          "spans": [
+            [
+              1128,
+              1881
+            ]
+          ],
+          "strand": -1
+        },
+        {
+          "family": "gfp_like",
+          "id": "rc-052-7",
+          "spans": [
+            [
+              3062,
+              3782
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-052-12",
+          "spans": [
+            [
+              5210,
+              6071
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-052",
+      "length": 6199
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-053-3",
+          "spans": [
+            [
+              269,
+              1922
+            ]
+          ],
+          "strand": -1
+        },
+        {
+          "family": "renilla_luciferase",
+          "id": "rc-053-5",
+          "spans": [
+            [
+              1993,
+              2929
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-053-8",
+          "spans": [
+            [
+              3318,
+              4179
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-053",
+      "length": 5005
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "aminoglycoside_nucleotidyltransferase",
+          "id": "rc-054-2",
+          "spans": [
+            [
+              1022,
+              1811
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "gfp_like",
+          "id": "rc-054-4",
+          "spans": [
+            [
+              3057,
+              3768
+            ]
+          ],
+          "strand": -1
+        },
+        {
+          "family": "gfp_like",
+          "id": "rc-054-7",
+          "spans": [
+            [
+              4378,
+              5098
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-054",
+      "length": 5176
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-055-2",
+          "spans": [
+            [
+              1722,
+              2430
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-055",
+      "length": 6356
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-056-3",
+          "spans": [
+            [
+              2371,
+              3091
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-056",
+      "length": 10459
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-057-3",
+          "spans": [
+            [
+              2371,
+              3091
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-057",
+      "length": 10459
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-058-3",
+          "spans": [
+            [
+              2393,
+              3113
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-058",
+      "length": 10481
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-059-3",
+          "spans": [
+            [
+              1177,
+              1897
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-059",
+      "length": 9314
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-060-3",
+          "spans": [
+            [
+              2347,
+              3058
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "gfp_like",
+          "id": "rc-060-6",
+          "spans": [
+            [
+              6975,
+              7695
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-060",
+      "length": 9257
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-061-3",
+          "spans": [
+            [
+              641,
+              2309
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-061-7",
+          "spans": [
+            [
+              3680,
+              4541
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-061",
+      "length": 4799
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-062-3",
+          "spans": [
+            [
+              641,
+              2294
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-062-7",
+          "spans": [
+            [
+              3665,
+              4526
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-062",
+      "length": 4784
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-063-3",
+          "spans": [
+            [
+              641,
+              2294
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-063-7",
+          "spans": [
+            [
+              3665,
+              4526
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-063",
+      "length": 4784
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-064-3",
+          "spans": [
+            [
+              641,
+              2303
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-064-7",
+          "spans": [
+            [
+              3674,
+              4535
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-064",
+      "length": 4793
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-065-3",
+          "spans": [
+            [
+              641,
+              1361
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-065-7",
+          "spans": [
+            [
+              2732,
+              3593
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-065",
+      "length": 3851
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-066-3",
+          "spans": [
+            [
+              641,
+              1349
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-066-7",
+          "spans": [
+            [
+              2720,
+              3581
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-066",
+      "length": 3839
+    },
+    {
+      "archetype": "tagged_fusion",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-067-3",
+          "spans": [
+            [
+              641,
+              3524
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-067-10",
+          "spans": [
+            [
+              4895,
+              5756
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-067",
+      "length": 6014
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "hygromycin_phosphotransferase",
+          "id": "rc-068-1",
+          "spans": [
+            [
+              751,
+              1789
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-068-2",
+          "spans": [
+            [
+              3189,
+              4050
+            ]
+          ],
+          "strand": -1
+        },
+        {
+          "family": "gfp_like",
+          "id": "rc-068-3",
+          "spans": [
+            [
+              4641,
+              5340
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-068",
+      "length": 5340
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-069-1",
+          "spans": [
+            [
+              96,
+              825
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-069-2",
+          "spans": [
+            [
+              2041,
+              2836
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-069",
+      "length": 4146
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-070-1",
+          "spans": [
+            [
+              674,
+              1403
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-070-2",
+          "spans": [
+            [
+              2619,
+              3414
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-070",
+      "length": 4724
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-071-1",
+          "spans": [
+            [
+              612,
+              1407
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-071-2",
+          "spans": [
+            [
+              2619,
+              3414
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-071",
+      "length": 4724
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-072-1",
+          "spans": [
+            [
+              678,
+              1407
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-072-2",
+          "spans": [
+            [
+              2623,
+              3418
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-072",
+      "length": 4728
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-073-1",
+          "spans": [
+            [
+              612,
+              1407
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-073-2",
+          "spans": [
+            [
+              2623,
+              3418
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-073",
+      "length": 4728
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-074-1",
+          "spans": [
+            [
+              612,
+              1407
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-074-2",
+          "spans": [
+            [
+              2627,
+              3422
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-074",
+      "length": 4732
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-075-1",
+          "spans": [
+            [
+              682,
+              1411
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-075-2",
+          "spans": [
+            [
+              2627,
+              3422
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-075",
+      "length": 4732
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-076-2",
+          "spans": [
+            [
+              612,
+              1407
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-076-3",
+          "spans": [
+            [
+              2623,
+              3418
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-076",
+      "length": 4728
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-077-1",
+          "spans": [
+            [
+              120,
+              936
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-077-2",
+          "spans": [
+            [
+              4012,
+              5665
+            ]
+          ],
+          "strand": -1
+        }
+      ],
+      "id": "rc-077",
+      "length": 6047
+    },
+    {
+      "archetype": "single_cds",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-078-2",
+          "spans": [
+            [
+              825,
+              1545
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-078",
+      "length": 4145
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-079-2",
+          "spans": [
+            [
+              96,
+              816
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-079-3",
+          "spans": [
+            [
+              2046,
+              2841
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-079",
+      "length": 4151
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-080-2",
+          "spans": [
+            [
+              678,
+              1398
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-080-3",
+          "spans": [
+            [
+              2628,
+              3423
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-080",
+      "length": 4733
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-081-2",
+          "spans": [
+            [
+              612,
+              1410
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-081-3",
+          "spans": [
+            [
+              2626,
+              3421
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-081",
+      "length": 4731
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-082-2",
+          "spans": [
+            [
+              612,
+              1410
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-082-4",
+          "spans": [
+            [
+              2630,
+              3425
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-082",
+      "length": 4735
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-083-2",
+          "spans": [
+            [
+              612,
+              1410
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-083-3",
+          "spans": [
+            [
+              2622,
+              3417
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-083",
+      "length": 4727
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-084-2",
+          "spans": [
+            [
+              682,
+              1402
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-084-3",
+          "spans": [
+            [
+              2632,
+              3427
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-084",
+      "length": 4737
+    },
+    {
+      "archetype": "backbone_heavy",
+      "components": [
+        {
+          "family": "gfp_like",
+          "id": "rc-085-2",
+          "spans": [
+            [
+              674,
+              1394
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "id": "rc-085-3",
+          "spans": [
+            [
+              2624,
+              3419
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-085",
+      "length": 4729
+    },
+    {
+      "archetype": "multi_cds",
+      "components": [
+        {
+          "family": "firefly_luciferase",
+          "id": "rc-086-3",
+          "spans": [
+            [
+              874,
+              1029
+            ],
+            [
+              1218,
+              2716
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_galactosidase",
+          "id": "rc-086-8",
+          "spans": [
+            [
+              3145,
+              3355
+            ]
+          ],
+          "strand": 1
+        },
+        {
+          "family": "beta_lactamase",
+          "id": "rc-086-10",
+          "spans": [
+            [
+              3894,
+              4755
+            ]
+          ],
+          "strand": 1
+        }
+      ],
+      "id": "rc-086",
+      "length": 5967
+    }
+  ],
+  "schema": "paired-preprocessing-1"
+}

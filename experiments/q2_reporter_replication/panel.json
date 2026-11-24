@@ -1,0 +1,1606 @@
+{
+  "construct_source": "NCBI GenBank nuccore EFetch, rettype=gb, retmode=text",
+  "construct_terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+  "constructs": [
+    {
+      "accession": "AB062168.1",
+      "archetype": "single_cds",
+      "id": "rc-001",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 5,
+          "source_product": "green fluorescent protein GFP"
+        }
+      ],
+      "sha256": "ffdc4ff9e65699a604a328c14f8e6757008bc95c79ac2b6be82f5acf597ee0af"
+    },
+    {
+      "accession": "AB779767.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-002",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 4,
+          "source_product": "green fluorescent protein"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 9,
+          "source_product": null
+        }
+      ],
+      "sha256": "0df10c9c28f5963015cfe2ea13375b4c23b5df087d8d4f0c9415933cd8480c08"
+    },
+    {
+      "accession": "AF007834.1",
+      "archetype": "multi_cds",
+      "id": "rc-003",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "green fluorescent protein"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 4,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "f96ebaa70cf64dd629b6abfad0fae5c6808b303a632e2d5ef3b76448c10057c5"
+    },
+    {
+      "accession": "AF416990.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-004",
+      "labels": [
+        {
+          "family": "renilla_luciferase",
+          "feature_index": 2,
+          "source_product": "Renilla luciferase"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 4,
+          "source_product": "neomycin phosphotransferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 5,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "af64340475955360fa4f54f731316d81884c8cf9e0ec2b3cc0a5ef6554ef0178"
+    },
+    {
+      "accession": "AJ277959.1",
+      "archetype": "single_cds",
+      "id": "rc-005",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 14,
+          "source_product": "firefly luciferase"
+        }
+      ],
+      "sha256": "175b92c754b6bec3c14b85bc68d171eb482e537f98d2eb8ed1e80106e4bac65c"
+    },
+    {
+      "accession": "AJ277960.1",
+      "archetype": "single_cds",
+      "id": "rc-006",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 11,
+          "source_product": "firefly luciferase"
+        }
+      ],
+      "sha256": "c0744a63775170d7cf6d9a836ca710172335739470d3936bdd9fd5bbb49647c8"
+    },
+    {
+      "accession": "AJ306910.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-007",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 3,
+          "source_product": "kanamycin resistance protein"
+        }
+      ],
+      "sha256": "cc22182c28db3af9a5b3d358ec3f87ce91a6e23b0f9ea83f8aab0a46c088aedc"
+    },
+    {
+      "accession": "AJ306911.1",
+      "archetype": "single_cds",
+      "id": "rc-008",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "green fluorescent protein"
+        }
+      ],
+      "sha256": "28eea4c14680c436f33dde4222e3baeea7377aa13e5183450f09d1b4e8da61df"
+    },
+    {
+      "accession": "AJ851277.1",
+      "archetype": "single_cds",
+      "id": "rc-009",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "green fluorescent protein plus"
+        }
+      ],
+      "sha256": "964653da56535dd928ebad59ca194505b9be0c55bd688eca964184b31f3bb003"
+    },
+    {
+      "accession": "AJ851278.1",
+      "archetype": "single_cds",
+      "id": "rc-010",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "green fluorescent protein mut3.1"
+        }
+      ],
+      "sha256": "79c2ef3a6833f7445c765b71abcc827a9ab2c5edea598be324fe552caf32b929"
+    },
+    {
+      "accession": "AJ851279.1",
+      "archetype": "single_cds",
+      "id": "rc-011",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "green fluorescent protein mut3.1 (unstable derivative LAA)"
+        }
+      ],
+      "sha256": "78ad90f0a1119da2459a8e5e4edf01f2f6ab7ed5cb5323d8b2f31937c3ca096b"
+    },
+    {
+      "accession": "AJ851280.1",
+      "archetype": "single_cds",
+      "id": "rc-012",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "green fluorescent protein mut3.1 (unstable derivative AAV)"
+        }
+      ],
+      "sha256": "3ea02fbeca8cbaba7b5447b32ddfbdc95a4bb951c3502ae27f5e0d4df48f1c9d"
+    },
+    {
+      "accession": "AJ851281.1",
+      "archetype": "single_cds",
+      "id": "rc-013",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "green fluorescent protein mut3.1 (unstable derivative LVA)"
+        }
+      ],
+      "sha256": "cb6d763b78ff614abb62fed62e82f6b60aadbdeb00a067943a88f3d958cbae9f"
+    },
+    {
+      "accession": "AJ851282.1",
+      "archetype": "single_cds",
+      "id": "rc-014",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "green fluorescent protein mut3.1 (unstable derivative ASV)"
+        }
+      ],
+      "sha256": "cdd8cad2adee2813911f5b03e7ba9a80dc31647e813851e6d8757525a28a8e3d"
+    },
+    {
+      "accession": "AJ851284.1",
+      "archetype": "single_cds",
+      "id": "rc-015",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "Ds Red fluorescent protein 2"
+        }
+      ],
+      "sha256": "e312ecef02e1433f73708d089d99ebe993b967324e27d8eaec54a8c1f392cd9a"
+    },
+    {
+      "accession": "AJ851285.1",
+      "archetype": "single_cds",
+      "id": "rc-016",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "Ds Red fluorescent protein T3"
+        }
+      ],
+      "sha256": "e670b718d739a520096ff3e9d6e273d6a29b319812b577ef9059eec3b12634d9"
+    },
+    {
+      "accession": "AJ851286.1",
+      "archetype": "single_cds",
+      "id": "rc-017",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "Ds Red fluorescent protein T4"
+        }
+      ],
+      "sha256": "8ad56f90691a4482370de684eb9218be82566f3ce467fbae9c4477835024af41"
+    },
+    {
+      "accession": "AJ851287.1",
+      "archetype": "single_cds",
+      "id": "rc-018",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "mono Red fluorescent protein"
+        }
+      ],
+      "sha256": "65a959ef5e0b13b39de72fe0c8fda7676a3a2f65dbac666d0196fd875bb80cdb"
+    },
+    {
+      "accession": "AY738222.1",
+      "archetype": "multi_cds",
+      "id": "rc-019",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 2,
+          "source_product": "luciferase luc2"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 7,
+          "source_product": "synthetic beta-lactamase"
+        }
+      ],
+      "sha256": "9807fa4db4d113fb2cb191cb0b6232bdc197f50a242cfb71cc8b5426364d9951"
+    },
+    {
+      "accession": "AY738225.1",
+      "archetype": "multi_cds",
+      "id": "rc-020",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 2,
+          "source_product": "luciferase luc2"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 7,
+          "source_product": "synthetic beta-lactamase"
+        }
+      ],
+      "sha256": "d192883b45ec8dae80402a27b24bd85a5e889c5aeebd60ab8d7abca70376dc36"
+    },
+    {
+      "accession": "AY864928.1",
+      "archetype": "multi_cds",
+      "id": "rc-021",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 2,
+          "source_product": "luciferase luc2"
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "feature_index": 5,
+          "source_product": "synthetic hygromycin resistance protein"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 9,
+          "source_product": "synthetic beta-lactamase"
+        }
+      ],
+      "sha256": "d63341f373b2e68a704f66d9b66db7cf196243c467481619b2531d764f84fe48"
+    },
+    {
+      "accession": "AY916793.1",
+      "archetype": "multi_cds",
+      "id": "rc-022",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "GFP-DsRed fusion protein"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 6,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "1207358f4f2db0ee93f5cea090e33619785e4dd32e3bd2ba661e4ba4e95b5175"
+    },
+    {
+      "accession": "DQ188837.1",
+      "archetype": "multi_cds",
+      "id": "rc-023",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 2,
+          "source_product": "luc2"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 5,
+          "source_product": "neomycin phosphotransferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 10,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "1d20033b965ac7fc8dd02b93c38aabc17b969f66222eefbd087fdd338578e535"
+    },
+    {
+      "accession": "DQ188840.1",
+      "archetype": "multi_cds",
+      "id": "rc-024",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 2,
+          "source_product": "luc2"
+        },
+        {
+          "family": "puromycin_n_acetyltransferase",
+          "feature_index": 5,
+          "source_product": "puromycin-N-acetyltransferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 10,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "cbb7cc83bd1c205513ee5afe47437bbed8a46b3867332da1b661e9e5a0119eed"
+    },
+    {
+      "accession": "DQ188843.1",
+      "archetype": "multi_cds",
+      "id": "rc-025",
+      "labels": [
+        {
+          "family": "renilla_luciferase",
+          "feature_index": 2,
+          "source_product": "synthetic Renilla luciferase"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 5,
+          "source_product": "neomycin phosphotransferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 10,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "9e9baade24ac2943b3dcf280343fa16629f6327be47d82c669b81fa2147c703c"
+    },
+    {
+      "accession": "DQ904455.1",
+      "archetype": "multi_cds",
+      "id": "rc-026",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 4,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 9,
+          "source_product": "synthetic beta-lactamase"
+        }
+      ],
+      "sha256": "68abd1899f4a2b80f84f25df9efa04d858a1327f5cd115c151ef6ef0bf3b9deb"
+    },
+    {
+      "accession": "DQ904456.1",
+      "archetype": "multi_cds",
+      "id": "rc-027",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 4,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 9,
+          "source_product": "synthetic beta-lactamase"
+        }
+      ],
+      "sha256": "b347c842798fb79257c77470e03c6686d140cfc1fa448a96c27eee407d7e274f"
+    },
+    {
+      "accession": "DQ904457.1",
+      "archetype": "tagged_fusion",
+      "id": "rc-028",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 4,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 9,
+          "source_product": "synthetic beta-lactamase"
+        }
+      ],
+      "sha256": "97458f308e869a27ac730e0036f1f3a3d877015fc2e32f785877ac3c5d0745f9"
+    },
+    {
+      "accession": "DQ904458.1",
+      "archetype": "multi_cds",
+      "id": "rc-029",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 4,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "feature_index": 6,
+          "source_product": "synthetic hygromycin"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 10,
+          "source_product": "synthetic beta-lactamase"
+        }
+      ],
+      "sha256": "7948e0f092b666576de041f1ed358301259938329504063f5207831e7b2e0089"
+    },
+    {
+      "accession": "DQ904459.1",
+      "archetype": "multi_cds",
+      "id": "rc-030",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 4,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "feature_index": 6,
+          "source_product": "synthetic hygromycin"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 10,
+          "source_product": "synthetic beta-lactamase"
+        }
+      ],
+      "sha256": "47fdc78c56375c1f4de96e4d5cf9ca88c309affb3a5ade963213bd729d25d1f0"
+    },
+    {
+      "accession": "DQ904460.1",
+      "archetype": "multi_cds",
+      "id": "rc-031",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 4,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "feature_index": 6,
+          "source_product": "synthetic hygromycin"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 10,
+          "source_product": "synthetic beta-lactamase"
+        }
+      ],
+      "sha256": "2f9621a979d4762dd1c7ae34997f09968d74ebd084aa94f6c67f04283b1c80d7"
+    },
+    {
+      "accession": "DQ904461.1",
+      "archetype": "multi_cds",
+      "id": "rc-032",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "feature_index": 5,
+          "source_product": "synthetic hygromycin"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 9,
+          "source_product": "synthetic beta-lactamase"
+        }
+      ],
+      "sha256": "1b067819ec72b47eb99968e5864487322b2d52c6603eeeead6d6e2c83c18f125"
+    },
+    {
+      "accession": "DQ904462.1",
+      "archetype": "multi_cds",
+      "id": "rc-033",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 4,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "feature_index": 7,
+          "source_product": "synthetic hygromycin"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 11,
+          "source_product": "synthetic beta-lactamase"
+        }
+      ],
+      "sha256": "9c913c3bfb37450b3a269c1abadd8b509d71d88cde51637117d93b36b51dea5b"
+    },
+    {
+      "accession": "EU056358.1",
+      "archetype": "single_cds",
+      "id": "rc-034",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 5,
+          "source_product": "enhanced green fluorescent protein (EGFP)"
+        }
+      ],
+      "sha256": "8be063249fae98d274d2f5f193cd9ecf8e8b4d9c1bdc20987d0c8725e01c3f4c"
+    },
+    {
+      "accession": "EU581860.1",
+      "archetype": "multi_cds",
+      "id": "rc-035",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 4,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "feature_index": 8,
+          "source_product": "hygromycin resistance protein"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 13,
+          "source_product": "synthetic beta-lactamase resistance protein"
+        }
+      ],
+      "sha256": "a89dc30717624d4294b8236e9dc11d80f3930a6b7936bff368756cf6ed55a892"
+    },
+    {
+      "accession": "EU921840.1",
+      "archetype": "multi_cds",
+      "id": "rc-036",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "hygromycin_phosphotransferase",
+          "feature_index": 7,
+          "source_product": "hygromycin resistant protein"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 11,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "eb70b14bfefe5b8149d610c377311180ee2234e08331d65ef6b0bab0f32ab2ea"
+    },
+    {
+      "accession": "EU921841.1",
+      "archetype": "multi_cds",
+      "id": "rc-037",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 7,
+          "source_product": "neomycin phosphotransferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 11,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "98db4ad07bed0bf56749e0bb862cad8ba959922e150e37db9552c6622f4d5817"
+    },
+    {
+      "accession": "JF796083.1",
+      "archetype": "tagged_fusion",
+      "id": "rc-038",
+      "labels": [
+        {
+          "family": "beta_galactosidase",
+          "feature_index": 3,
+          "source_product": "LacZ"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 6,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "a379419eccccd90be95d2876489e037876cd25cfab99d9f9629c7f096e4aeff0"
+    },
+    {
+      "accession": "JF796084.1",
+      "archetype": "multi_cds",
+      "id": "rc-039",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "Dsred2"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 5,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "86f695e40e747545d8ab4e99ae50b7a03da2228ebb624a6631de85c3bb54aec0"
+    },
+    {
+      "accession": "JF796085.1",
+      "archetype": "multi_cds",
+      "id": "rc-040",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "Dsred2"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 6,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "cb91c8fd3c46e632a1fe90f573a376714c713b6600b7ee3dbe1e437f137d8a53"
+    },
+    {
+      "accession": "KU341331.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-041",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 5,
+          "source_product": "neomycin-kanamycin phosphotransferase"
+        }
+      ],
+      "sha256": "cb76e21ffa4f1313d085ddba3e9665983a4bd3972c1dd6dacf0a35fd93a34e80"
+    },
+    {
+      "accession": "KY025563.1",
+      "archetype": "multi_cds",
+      "id": "rc-042",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 9,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 16,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "a8671203b64486c06556cd4bb5792a00b09efe2a4cb7bcdf7ae25d924a8178e1"
+    },
+    {
+      "accession": "KY025565.1",
+      "archetype": "multi_cds",
+      "id": "rc-043",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 5,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 9,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "553df032bd555131dc21e698d3d19b47b69afcc42164f4d3eeebbb189b91b1ff"
+    },
+    {
+      "accession": "KY025566.1",
+      "archetype": "multi_cds",
+      "id": "rc-044",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 9,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 13,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "9924d541121981fdc3456495c97a2f8789d24b6a4fed77206157a911f7a71a77"
+    },
+    {
+      "accession": "LC663823.1",
+      "archetype": "single_cds",
+      "id": "rc-045",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 5,
+          "source_product": "tdTomato"
+        }
+      ],
+      "sha256": "b7f50a12c5a5d6434c35b2ae1a81c925285e7fab73aca153a17cd863cf0da91b"
+    },
+    {
+      "accession": "MK484105.1",
+      "archetype": "multi_cds",
+      "id": "rc-046",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 7,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "78fe7877a339c549e5b93beec80d07477ec5b6b5e5092d1b6e961a574ae6cac0"
+    },
+    {
+      "accession": "MK484106.1",
+      "archetype": "multi_cds",
+      "id": "rc-047",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 7,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "533cfdf791c4dbac8e903bf04fc05e1b20636c2e5948d874f2dd6d587e04f532"
+    },
+    {
+      "accession": "MK484107.1",
+      "archetype": "multi_cds",
+      "id": "rc-048",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 7,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "ee32aa0e940e64c9eb715f4fa822dcf631ce7e6655b168612c327c70f9d93f9a"
+    },
+    {
+      "accession": "MK484108.1",
+      "archetype": "single_cds",
+      "id": "rc-049",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 2,
+          "source_product": "firefly luciferase"
+        }
+      ],
+      "sha256": "8ca91247e2527ec6df1338af21187d905362297f162683bdc39affaf0c67cd3b"
+    },
+    {
+      "accession": "MN232102.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-050",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "TatRRR-mCherry fluorescent protein"
+        },
+        {
+          "family": "gfp_like",
+          "feature_index": 7,
+          "source_product": "enhanced green fluorescent protein"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 12,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "8536288d9137a2fce3ea6a6be6a11aa26b6a81ef015f1242cfba291552b476ca"
+    },
+    {
+      "accession": "MN232103.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-051",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "TatRRR-mCherry fluorescent protein"
+        },
+        {
+          "family": "gfp_like",
+          "feature_index": 7,
+          "source_product": "enhanced green fluorescent protein"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 12,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "63b987ad32a29fc5f270c07f678592cc28c6f6a622da3467b6743e09df1ac7a2"
+    },
+    {
+      "accession": "MN232104.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-052",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "TatRRR-mCherry fluorescent protein"
+        },
+        {
+          "family": "gfp_like",
+          "feature_index": 7,
+          "source_product": "enhanced green fluorescent protein"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 12,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "0c84cdbd0652d68f7c06f895ba79c7a06bcd4936956706a3348a7542ac50ba50"
+    },
+    {
+      "accession": "MW581001.1",
+      "archetype": "multi_cds",
+      "id": "rc-053",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "renilla_luciferase",
+          "feature_index": 5,
+          "source_product": "renilla luciferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 8,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "e6fa007aeb837a77052df8ad2c892869705fcf638f9c90bc68dd5ceab4127d41"
+    },
+    {
+      "accession": "MW713147.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-054",
+      "labels": [
+        {
+          "family": "aminoglycoside_nucleotidyltransferase",
+          "feature_index": 2,
+          "source_product": "spectinomycin resistance protein"
+        },
+        {
+          "family": "gfp_like",
+          "feature_index": 4,
+          "source_product": "mCherry"
+        },
+        {
+          "family": "gfp_like",
+          "feature_index": 7,
+          "source_product": "EGFP"
+        }
+      ],
+      "sha256": "26f6f6fa3c66d49a7c0eec7e0401da092ae2efa016941c2ef570aa5a474a2c71"
+    },
+    {
+      "accession": "MW770352.1",
+      "archetype": "single_cds",
+      "id": "rc-055",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "mCherry"
+        }
+      ],
+      "sha256": "eea4d43bad60191faf7d015a96f121d4e33e4f8542e55f0089b1f1aa7061ce45"
+    },
+    {
+      "accession": "MW987523.1",
+      "archetype": "single_cds",
+      "id": "rc-056",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "EGFP"
+        }
+      ],
+      "sha256": "e72582759f43bfed0cdf34e4e6b57c5b569ab9532a832eb286136a597ed6423f"
+    },
+    {
+      "accession": "MW987524.1",
+      "archetype": "single_cds",
+      "id": "rc-057",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "EGFP"
+        }
+      ],
+      "sha256": "c6c9a3cd4b6ec92f7099a7fb87352f8b40ac7fda37e4ee76c70a87e8d0ac1ef0"
+    },
+    {
+      "accession": "MW987525.1",
+      "archetype": "single_cds",
+      "id": "rc-058",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "EGFP"
+        }
+      ],
+      "sha256": "f660bd3aebe99464b296b205b5bbc85164ef7e68fe1d3234a0bb5e0e796f36e3"
+    },
+    {
+      "accession": "MW987530.1",
+      "archetype": "single_cds",
+      "id": "rc-059",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "EGFP"
+        }
+      ],
+      "sha256": "48aaaf01eb48d3075f6ad39eba5ebd40977145a2f4d692efc66328c66888e252"
+    },
+    {
+      "accession": "MW987534.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-060",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "mCherry"
+        },
+        {
+          "family": "gfp_like",
+          "feature_index": 6,
+          "source_product": "EGFP"
+        }
+      ],
+      "sha256": "412643620ae9278fc0e1a850aee1727beb02dea84439e4ed9d39036f6dae9f9c"
+    },
+    {
+      "accession": "MZ090948.1",
+      "archetype": "multi_cds",
+      "id": "rc-061",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "firefly luciferase luc2.3"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 7,
+          "source_product": "ampicillin-resistance protein"
+        }
+      ],
+      "sha256": "c86f7a0f4c9b3b117195fd03cc5ac4bb5b2112efdfe7f82b956b0b5a7672c2d0"
+    },
+    {
+      "accession": "MZ090950.1",
+      "archetype": "multi_cds",
+      "id": "rc-062",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "firefly luciferase luc2"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 7,
+          "source_product": "ampicillin-resistance protein"
+        }
+      ],
+      "sha256": "1ad63de68979b58039936cc23e444eb1293ed6b5dd5f3dc35a64379cc710d329"
+    },
+    {
+      "accession": "MZ090951.1",
+      "archetype": "multi_cds",
+      "id": "rc-063",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "thermostable firefly luciferase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 7,
+          "source_product": "ampicillin-resistance protein"
+        }
+      ],
+      "sha256": "709ba400da31b9bcf0b132310e05c016c732ba631bb83725174e434bdc20be04"
+    },
+    {
+      "accession": "MZ090952.1",
+      "archetype": "multi_cds",
+      "id": "rc-064",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "engineered firefly luciferase Ppe2a"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 7,
+          "source_product": "ampicillin-resistance protein"
+        }
+      ],
+      "sha256": "c6322042071f9b502cf16dfe4818acb81c69bdab3026b1ef67960232bcac5e46"
+    },
+    {
+      "accession": "MZ090954.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-065",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "mVenus2 fluorescent protein 2"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 7,
+          "source_product": "ampicillin-resistance protein"
+        }
+      ],
+      "sha256": "cc66657df0f8c9d0c82cf81bc285e645559b507437843350fe6c4b65e187e103"
+    },
+    {
+      "accession": "MZ090955.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-066",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "mNeonGreen fluorescent protein"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 7,
+          "source_product": "ampicillin-resistance protein"
+        }
+      ],
+      "sha256": "fc97d3560f7a22259692eff87986d96d42f7f650df24117e3dad14c80ea650dc"
+    },
+    {
+      "accession": "MZ351723.1",
+      "archetype": "tagged_fusion",
+      "id": "rc-067",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "mVenus2/luc2.3/Nluc fusion protein"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 10,
+          "source_product": "ampicillin resistance protein"
+        }
+      ],
+      "sha256": "956906dbcfc6958591554ab28b29f379eb8c412ab8a2bd5f631c6d5e1227b901"
+    },
+    {
+      "accession": "PZ794251.1",
+      "archetype": "multi_cds",
+      "id": "rc-068",
+      "labels": [
+        {
+          "family": "hygromycin_phosphotransferase",
+          "feature_index": 1,
+          "source_product": "HygR"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 2,
+          "source_product": "AmpR"
+        },
+        {
+          "family": "gfp_like",
+          "feature_index": 3,
+          "source_product": "mScarlet"
+        }
+      ],
+      "sha256": "06fe5bba80ef536c2f84d9b23083f666c3a5388d4af187dbb00c6b46f44a5d0e"
+    },
+    {
+      "accession": "U19276.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-069",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 1,
+          "source_product": "green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 2,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "93f75150a42c8505198c625ad4d0a9b342ec30150b290c1642427d4ac51f9ff1"
+    },
+    {
+      "accession": "U19277.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-070",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 1,
+          "source_product": "green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 2,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "d09cc5db9e5c7180bdfb14f7e0d0bf919a7e6ef0da5e670616d08f28c5ca830d"
+    },
+    {
+      "accession": "U19278.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-071",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 1,
+          "source_product": "green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 2,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "75c8754db5a8dac27c182bb6bb4064a12cb4031aa4c1494e219c53fbd92d6fef"
+    },
+    {
+      "accession": "U19279.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-072",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 1,
+          "source_product": "green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 2,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "8d59fcb8e2541b96c7af68e1a6a48774578907bd3126b8b5ed236fdf33f6a963"
+    },
+    {
+      "accession": "U19280.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-073",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 1,
+          "source_product": "green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 2,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "0d40bea7d6a94ea888c8e843ecb5567461f6af1460d7e9bde1f2fd39f26bccca"
+    },
+    {
+      "accession": "U19281.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-074",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 1,
+          "source_product": "green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 2,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "1dcecd466632e5bdbfa0e8bfc0f6bf671638b45cc671fea140cbe161a33662d2"
+    },
+    {
+      "accession": "U19282.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-075",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 1,
+          "source_product": "green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 2,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "cb4c6997243bf123cb79ec3500807d594e56792232ed227cd94006c34dc389e8"
+    },
+    {
+      "accession": "U36202.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-076",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "green fluorescent protein, S65T variant"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 3,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "70c8e135ede4261ec17b059f7ce85bbe4cdb21647b23868b4e0c4a65f23350f5"
+    },
+    {
+      "accession": "U40374.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-077",
+      "labels": [
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 1,
+          "source_product": "aminoglycoside 3'-phosphotransferase"
+        },
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 2,
+          "source_product": "firefly luciferase"
+        }
+      ],
+      "sha256": "3ec7c0cbf39b4ffd1e4047465c63f110b2a910bc625d026ef667f7bea25870a8"
+    },
+    {
+      "accession": "U43284.1",
+      "archetype": "single_cds",
+      "id": "rc-078",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "green fluorescent protein, S65T variant"
+        }
+      ],
+      "sha256": "92887a4e7bddcb46dc4bdf5ef75f9bf7990aa741fc45424211d308a45986b9c1"
+    },
+    {
+      "accession": "U55761.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-079",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "enhanced green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 3,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "fefcf6c5d5698bd38b92fb2036a633770359edea24a4c8cb01cc599661865d2e"
+    },
+    {
+      "accession": "U55762.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-080",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "enhanced green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 3,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "bf6a633fce38b828ed369628f45bed5755db623fac938772bcf9efd3f5f2481d"
+    },
+    {
+      "accession": "U55763.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-081",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "enhanced green fluorescent protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 3,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "406e68e2d13ff1cce2e587bd1ba5f40e73065d3ff384452664a8040884324580"
+    },
+    {
+      "accession": "U57606.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-082",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "Enhanced Green Fluorescent Protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 4,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "454b2f92adcf0da674ab29b669ccd1860a5926cab8f2f4ad478621cec3887326"
+    },
+    {
+      "accession": "U57607.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-083",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "Enhanced Green Fluorescent Protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 3,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "e18023aec1a1c5a3e571f4e76c40dd066e8ed778e8bb686d717824f5bd7bb6f0"
+    },
+    {
+      "accession": "U57608.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-084",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "Enhanced Green Fluorescent Protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 3,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "fc1b318c0d69f0b6c6adfdebd7e88766c18884cfe92ab63156b7df9ae1eaba95"
+    },
+    {
+      "accession": "U57609.1",
+      "archetype": "backbone_heavy",
+      "id": "rc-085",
+      "labels": [
+        {
+          "family": "gfp_like",
+          "feature_index": 2,
+          "source_product": "Enhanced Green Fluorescent Protein"
+        },
+        {
+          "family": "aminoglycoside_phosphotransferase",
+          "feature_index": 3,
+          "source_product": "neomycin phosphotransferase"
+        }
+      ],
+      "sha256": "7a8d66b40081fbdeea6cf2ae58bd6b38e61412b736b3bf213fab48729ef441ae"
+    },
+    {
+      "accession": "U84006.1",
+      "archetype": "multi_cds",
+      "id": "rc-086",
+      "labels": [
+        {
+          "family": "firefly_luciferase",
+          "feature_index": 3,
+          "source_product": "firefly luciferase"
+        },
+        {
+          "family": "beta_galactosidase",
+          "feature_index": 8,
+          "source_product": "beta-galactosidase"
+        },
+        {
+          "family": "beta_lactamase",
+          "feature_index": 10,
+          "source_product": "beta-lactamase"
+        }
+      ],
+      "sha256": "7f1117455e9d101f04033cc2f6279e86c157fb765cafa54940ca353996820c84"
+    }
+  ],
+  "excluded_admitted_for_missing_reference": [
+    {
+      "accession": "JQ437370.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "JQ437371.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "JQ437372.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "JQ437373.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "JQ513370.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "JQ513371.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "JQ513372.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "JQ513373.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "JQ513377.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "JQ513378.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "JQ513379.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "JQ513380.1",
+      "reason": "family without independent reference: nanoluc"
+    },
+    {
+      "accession": "MZ090949.1",
+      "reason": "family without independent reference: nanoluc"
+    }
+  ],
+  "reference_manifest": "references.manifest.json",
+  "referenced_families": [
+    "aminoglycoside_nucleotidyltransferase",
+    "aminoglycoside_phosphotransferase",
+    "beta_galactosidase",
+    "beta_lactamase",
+    "firefly_luciferase",
+    "gfp_like",
+    "hygromycin_phosphotransferase",
+    "puromycin_n_acetyltransferase",
+    "renilla_luciferase"
+  ],
+  "study": "q2-reporter-replication"
+}
