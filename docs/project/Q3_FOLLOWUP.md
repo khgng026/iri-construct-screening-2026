@@ -95,9 +95,12 @@ combined reference library. Two qualify in the copepod-only sensitivity
 analysis, both reached by Pyrodigal and one by minimal preprocessing.
 This source provides a useful additional construct background for
 preprocessing and calibration. It cannot supply the primary Q3 test panel.
-The published natural source also predates many of the cloned-vector
-records, so the vector release does not establish protein novelty.
-[Open Reporters Collection](https://github.com/Reclone-org/Open-DNA-Collections/tree/55d4b762194055c8027fd6c780068d8a78a03282/Open%20Reporters%20Collection) · [Natural protein source](https://doi.org/10.7554/eLife.75842)
+Eighteen of the exact-match donor accessions appear in Alieva et al. (2008)
+and the remaining accession is indexed with Matz et al. (1999). All 19 were
+publicly documented before the ESM-2 pretraining snapshot. This excludes
+them from a temporal holdout, regardless of the vectors' release date.
+Actual model exposure remains unknown.
+[Open Reporters Collection](https://github.com/Reclone-org/Open-DNA-Collections/tree/55d4b762194055c8027fd6c780068d8a78a03282/Open%20Reporters%20Collection) · [Natural protein source](https://doi.org/10.7554/eLife.75842) · [Alieva et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC2481297/#pone-0002680-t001) · [Matz et al.](https://pubmed.ncbi.nlm.nih.gov/10504696/)
 
 ## 4. Historical rank combination replay
 
