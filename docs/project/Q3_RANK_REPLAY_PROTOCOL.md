@@ -10,7 +10,9 @@ out-of-family targets.
 
 - Fix an equal-weight rank sum over the shared family ranking for each
   query. For an exact tie, keep the order of the conventional rank. Use one
-  returned label per query, preserving the candidate and prediction budgets.
+  returned label per query for both arms. The historical trace could return
+  up to five labels per construct. Rebuild the conventional arm at the same
+  one-label-per-query limit as the combined arm, using its stored ranks.
   Require identical selected inputs and a complete, shared family ranking
   from both scorers. Use the existing locus-aware one-to-one verifier.
 - Report paired gains and group-bootstrap intervals for the full holdout,
