@@ -98,6 +98,27 @@ def _peptide_at_expected_position(target: dict, query: dict) -> bool:
     return query["protein"][aa_offset:aa_offset + len(expected)] == expected
 
 
+def exact_window_coverage(target, candidates):
+    """Count known residues represented across selected in-frame windows."""
+    parts = sorted(target["spans"])
+    if any(left[1] != right[0] for left, right in zip(parts, parts[1:])):
+        return None
+    expected = target["protein"]
+    covered = set()
+    for query in candidates:
+        if target["strand"] != query["strand"] or len(query["spans"]) != 1:
+            continue
+        left, right = query["spans"][0]
+        delta = left - parts[0][0] if target["strand"] == 1 else parts[-1][1] - right
+        offset, remainder = divmod(delta - target["codon_offset"], 3)
+        if remainder:
+            continue
+        for index, residue in enumerate(query["protein"], offset):
+            if 0 <= index < len(expected) and residue == expected[index]:
+                covered.add(index)
+    return len(covered)
+
+
 def _measure(targets: list[dict], pool: list[dict], overlap: float) -> list[dict]:
     results = []
     for target in targets:
@@ -140,6 +161,10 @@ def _run_record(record, targets: list[dict], finder, overlap: float, caps: list[
             "pool_size": len(pool),
             "residues_selected": {cap: sum(len(row["protein"]) for row in pool[:cap]) for cap in caps},
             "targets": _measure(targets, pool, overlap),
+            **({"long_targets_exact_window_coverage": [
+                {cap: exact_window_coverage(target, pool[:cap]) for cap in caps}
+                for target in targets if len(target["protein"]) > MAX_RESIDUES
+            ]} if ranking_followup else {}),
         }
         for method, pool in pools.items()
     }
@@ -214,6 +239,10 @@ def run(panel: dict, repo_paths: dict[str, Path], ranking_followup=False) -> dic
         "sources": {source["id"]: _summary(
             [row for row in rows if row["source"] == source["id"]], caps,
         ) for source in panel["sources"]},
+        **({"long_target_windows": {
+            name: [covered for row in rows for covered in row["methods"][name]["long_targets_exact_window_coverage"]]
+            for name in ("gene_caller", "minimal")
+        }} if ranking_followup else {}),
         "records": rows,
     }
 

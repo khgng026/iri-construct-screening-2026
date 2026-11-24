@@ -48,6 +48,11 @@ with minimal translation. At cap 4 the original methods reached **10/11**.
 Favoring 250-residue candidates added no recoveries in the gene-caller arm
 and reduced the two-candidate minimal arm from **9/11 to 8/11**.
 The archive shares a cloning background and offers a bounded transfer check.
+The remaining target is **1,392 amino acids**, above the 1,022-residue
+input ceiling. Neither method can fit it in one ordinary candidate. An
+evaluator-side comparison found all **1,392/1,392** exact residues across
+the first two windows of either method. That distinguishes a windowing
+and scoring question from a failure to generate the protein region.
 
 **LAMPRA reporter.** Minimal translation, start-aware translation and gene
 calling all missed the documented reporter even in their full candidate

@@ -7,6 +7,26 @@
     16
   ],
   "locus_overlap": 0.8,
+  "long_target_windows": {
+    "gene_caller": [
+      {
+        "1": 1014,
+        "16": 1392,
+        "2": 1392,
+        "4": 1392,
+        "8": 1392
+      }
+    ],
+    "minimal": [
+      {
+        "1": 996,
+        "16": 1392,
+        "2": 1392,
+        "4": 1392,
+        "8": 1392
+      }
+    ]
+  },
   "records": 18,
   "schema": "archive_candidate_coverage_v1",
   "sources": {

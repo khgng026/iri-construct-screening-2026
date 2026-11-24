@@ -40,3 +40,19 @@ class TranslatedSearchTest(unittest.TestCase):
         candidates = resolved_translation_segments(dna)
         self.assertTrue(any(row["strand"] == 1 and row["spans"] == [[3, 93]]
                             and row["protein"] == "A" * 30 for row in candidates))
+
+    @unittest.skipUnless(
+        importlib.util.find_spec("Bio") and importlib.util.find_spec("pyrodigal"),
+        "archive coverage dependencies unavailable",
+    )
+    def test_exact_window_coverage_combines_only_in_frame_peptides(self):
+        from experiments.preprocessing_exploration.archive_coverage import exact_window_coverage
+
+        target = {"strand": 1, "spans": [(0, 12)], "codon_offset": 0, "protein": "MAGS"}
+        candidates = [
+            {"strand": 1, "spans": [(0, 6)], "protein": "MA"},
+            {"strand": 1, "spans": [(7, 13)], "protein": "GS"},
+        ]
+        self.assertEqual(exact_window_coverage(target, candidates), 2)
+        candidates[1]["spans"] = [(6, 12)]
+        self.assertEqual(exact_window_coverage(target, candidates), 4)
