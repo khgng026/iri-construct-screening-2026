@@ -60,6 +60,8 @@ The small joint-miss sets make the fraction of model recoveries uncertain. A uni
 
 Use the [CPU model environment](../../docs/project/HANDOFF.md) with `pyfamsa==0.7.0` and `pyhmmer==0.12.3`. The run used Python 3.12, Biopython 1.86, PyTorch 2.6.0 CPU, and Transformers 4.48.1. The runner verifies both model checkpoints and both the FASTA and sequence hashes for each published domain. The final JSON files contain the methods' decisions and summaries. Their timing fields may differ on replay. The source snapshots remain in ignored storage. [SCOPe 2.08](https://scop.berkeley.edu/astral/ver=2.08) · [SCOPe terms](https://scop.berkeley.edu/about)
 
+A fresh download matched all 132 source and sequence hashes. Replaying the three-way split reproduced both model sizes, both alignments, the superfamily profile, and the all-conventional-miss counts. One correct/incorrect decision changed in the fine-family profile, taking its below-25% total from 81 to 82. Eight further evaluations of that query block confirmed that the best two label scores can switch order. The tracked result retains the original run. The main comparison uses the stronger superfamily profile, whose decisions all matched.
+
 ```sh
 study=experiments.benign_protein_pilot.fold_study
 run=results/q3-folds-source-replay
