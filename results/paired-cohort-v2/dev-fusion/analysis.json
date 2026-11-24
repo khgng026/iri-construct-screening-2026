@@ -1,0 +1,273 @@
+{
+  "by_arm": {
+    "blosum62|annotation_reference|1": {
+      "family_recovered": 5,
+      "input_residues": 5391,
+      "mean_fraction_of_supporting_input_outside_region": 0.4364200647259123,
+      "queries": 15,
+      "region_supported": 5,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 5
+      }
+    },
+    "blosum62|annotation_reference|2": {
+      "family_recovered": 6,
+      "input_residues": 5970,
+      "mean_fraction_of_supporting_input_outside_region": 0.4048226277779227,
+      "queries": 17,
+      "region_supported": 6,
+      "statuses": {
+        "region_supported": 6
+      }
+    },
+    "blosum62|annotation_reference|4": {
+      "family_recovered": 6,
+      "input_residues": 6008,
+      "mean_fraction_of_supporting_input_outside_region": 0.4048226277779227,
+      "queries": 18,
+      "region_supported": 6,
+      "statuses": {
+        "region_supported": 6
+      }
+    },
+    "blosum62|annotation_reference|8": {
+      "family_recovered": 6,
+      "input_residues": 6008,
+      "mean_fraction_of_supporting_input_outside_region": 0.4048226277779227,
+      "queries": 18,
+      "region_supported": 6,
+      "statuses": {
+        "region_supported": 6
+      }
+    },
+    "blosum62|gene_caller_windows|1": {
+      "family_recovered": 4,
+      "input_residues": 4486,
+      "mean_fraction_of_supporting_input_outside_region": 0.2866666666666667,
+      "queries": 15,
+      "region_supported": 4,
+      "statuses": {
+        "region_not_reached": 2,
+        "region_supported": 4
+      }
+    },
+    "blosum62|gene_caller_windows|2": {
+      "family_recovered": 4,
+      "input_residues": 8824,
+      "mean_fraction_of_supporting_input_outside_region": 0.3495238095238095,
+      "queries": 30,
+      "region_supported": 4,
+      "statuses": {
+        "region_not_reached": 2,
+        "region_supported": 4
+      }
+    },
+    "blosum62|gene_caller_windows|4": {
+      "family_recovered": 5,
+      "input_residues": 16287,
+      "mean_fraction_of_supporting_input_outside_region": 0.32333333333333336,
+      "queries": 58,
+      "region_supported": 5,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 5
+      }
+    },
+    "blosum62|gene_caller_windows|8": {
+      "family_recovered": 5,
+      "input_residues": 25264,
+      "mean_fraction_of_supporting_input_outside_region": 0.32333333333333336,
+      "queries": 102,
+      "region_supported": 5,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 5
+      }
+    },
+    "blosum62|gene_caller|1": {
+      "family_recovered": 4,
+      "input_residues": 7196,
+      "mean_fraction_of_supporting_input_outside_region": 0.4828731933878858,
+      "queries": 15,
+      "region_supported": 4,
+      "statuses": {
+        "region_not_reached": 2,
+        "region_supported": 4
+      }
+    },
+    "blosum62|gene_caller|2": {
+      "family_recovered": 5,
+      "input_residues": 11698,
+      "mean_fraction_of_supporting_input_outside_region": 0.43518744359919753,
+      "queries": 30,
+      "region_supported": 5,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 5
+      }
+    },
+    "blosum62|gene_caller|4": {
+      "family_recovered": 5,
+      "input_residues": 17711,
+      "mean_fraction_of_supporting_input_outside_region": 0.43518744359919753,
+      "queries": 56,
+      "region_supported": 5,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 5
+      }
+    },
+    "blosum62|gene_caller|8": {
+      "family_recovered": 5,
+      "input_residues": 22309,
+      "mean_fraction_of_supporting_input_outside_region": 0.43518744359919753,
+      "queries": 92,
+      "region_supported": 5,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 5
+      }
+    },
+    "esm2|annotation_reference|1": {
+      "family_recovered": 4,
+      "input_residues": 5391,
+      "mean_fraction_of_supporting_input_outside_region": 0.35374425898958217,
+      "queries": 15,
+      "region_supported": 4,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 4,
+        "scorer_missed_with_covering_input": 1
+      }
+    },
+    "esm2|annotation_reference|2": {
+      "family_recovered": 5,
+      "input_residues": 5970,
+      "mean_fraction_of_supporting_input_outside_region": 0.3323624957992607,
+      "queries": 17,
+      "region_supported": 5,
+      "statuses": {
+        "region_supported": 5,
+        "scorer_missed_with_covering_input": 1
+      }
+    },
+    "esm2|annotation_reference|4": {
+      "family_recovered": 5,
+      "input_residues": 6008,
+      "mean_fraction_of_supporting_input_outside_region": 0.3323624957992607,
+      "queries": 18,
+      "region_supported": 5,
+      "statuses": {
+        "region_supported": 5,
+        "scorer_missed_with_covering_input": 1
+      }
+    },
+    "esm2|annotation_reference|8": {
+      "family_recovered": 5,
+      "input_residues": 6008,
+      "mean_fraction_of_supporting_input_outside_region": 0.3323624957992607,
+      "queries": 18,
+      "region_supported": 5,
+      "statuses": {
+        "region_supported": 5,
+        "scorer_missed_with_covering_input": 1
+      }
+    },
+    "esm2|gene_caller_windows|1": {
+      "family_recovered": 4,
+      "input_residues": 4486,
+      "mean_fraction_of_supporting_input_outside_region": 0.2866666666666667,
+      "queries": 15,
+      "region_supported": 4,
+      "statuses": {
+        "region_not_reached": 2,
+        "region_supported": 4
+      }
+    },
+    "esm2|gene_caller_windows|2": {
+      "family_recovered": 4,
+      "input_residues": 8824,
+      "mean_fraction_of_supporting_input_outside_region": 0.2866666666666667,
+      "queries": 30,
+      "region_supported": 4,
+      "statuses": {
+        "region_not_reached": 2,
+        "region_supported": 4
+      }
+    },
+    "esm2|gene_caller_windows|4": {
+      "family_recovered": 4,
+      "input_residues": 16287,
+      "mean_fraction_of_supporting_input_outside_region": 0.2866666666666667,
+      "queries": 58,
+      "region_supported": 4,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 4,
+        "scorer_missed_with_covering_input": 1
+      }
+    },
+    "esm2|gene_caller_windows|8": {
+      "family_recovered": 4,
+      "input_residues": 25264,
+      "mean_fraction_of_supporting_input_outside_region": 0.2866666666666667,
+      "queries": 102,
+      "region_supported": 4,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 4,
+        "scorer_missed_with_covering_input": 1
+      }
+    },
+    "esm2|gene_caller|1": {
+      "family_recovered": 3,
+      "input_residues": 7196,
+      "mean_fraction_of_supporting_input_outside_region": 0.3881231619601035,
+      "queries": 15,
+      "region_supported": 3,
+      "statuses": {
+        "region_not_reached": 2,
+        "region_supported": 3,
+        "scorer_missed_with_covering_input": 1
+      }
+    },
+    "esm2|gene_caller|2": {
+      "family_recovered": 4,
+      "input_residues": 11698,
+      "mean_fraction_of_supporting_input_outside_region": 0.3522034825811887,
+      "queries": 30,
+      "region_supported": 4,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 4,
+        "scorer_missed_with_covering_input": 1
+      }
+    },
+    "esm2|gene_caller|4": {
+      "family_recovered": 3,
+      "input_residues": 17711,
+      "mean_fraction_of_supporting_input_outside_region": 0.3881231619601035,
+      "queries": 56,
+      "region_supported": 3,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 3,
+        "scorer_missed_with_covering_input": 2
+      }
+    },
+    "esm2|gene_caller|8": {
+      "family_recovered": 3,
+      "input_residues": 22309,
+      "mean_fraction_of_supporting_input_outside_region": 0.3881231619601035,
+      "queries": 92,
+      "region_supported": 3,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 3,
+        "scorer_missed_with_covering_input": 2
+      }
+    }
+  },
+  "regions": 6
+}

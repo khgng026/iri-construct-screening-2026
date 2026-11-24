@@ -1,0 +1,6025 @@
+{
+  "audit_sha256": "e57a90156fd32675247925d02b0807e9255be033fde96772b736e26509b880df",
+  "by_archetype": {
+    "backbone_heavy": {
+      "largest_group": 50,
+      "records": 149,
+      "related_groups": 36,
+      "singleton_groups": 23
+    },
+    "multi_cds": {
+      "largest_group": 351,
+      "records": 355,
+      "related_groups": 5,
+      "singleton_groups": 4
+    },
+    "single_cds": {
+      "largest_group": 40,
+      "records": 102,
+      "related_groups": 39,
+      "singleton_groups": 24
+    },
+    "single_label_other": {
+      "largest_group": 56,
+      "records": 130,
+      "related_groups": 27,
+      "singleton_groups": 17
+    },
+    "tagged_fusion": {
+      "largest_group": 23,
+      "records": 56,
+      "related_groups": 27,
+      "singleton_groups": 23
+    }
+  },
+  "categories": {
+    "anchor_only_fusion": {
+      "largest_group": 20,
+      "records": 45,
+      "related_groups": 23,
+      "singleton_groups": 21
+    },
+    "documented_fusion_boundary": {
+      "largest_group": 4,
+      "records": 13,
+      "related_groups": 7,
+      "singleton_groups": 4
+    },
+    "independently_reviewed_records": {
+      "largest_group": 706,
+      "records": 792,
+      "related_groups": 63,
+      "singleton_groups": 55
+    }
+  },
+  "component_counts": {
+    "anchor_only_fusion": 53,
+    "documented_fusion_boundary": 14
+  },
+  "dependence_context": {
+    "note": "Records sharing any identical exported protein are connected; common markers link most vectors, so record counts overstate independent cases.",
+    "shortlist_pool": {
+      "largest_group": 706,
+      "records": 792,
+      "related_groups": 63,
+      "singleton_groups": 55
+    },
+    "whole_corpus": {
+      "largest_group": 773,
+      "records": 1000,
+      "related_groups": 193,
+      "singleton_groups": 182
+    }
+  },
+  "excluded_reporter_pilot_records": [
+    "AF287729.1",
+    "JX679608.1",
+    "LC756334.1",
+    "LC756335.1",
+    "PZ569447.1"
+  ],
+  "independent_label_source": "UniProtKB/Swiss-Prot reviewed family anchors (identity >= 0.90, anchor coverage >= 0.80); deposited CDS names recorded separately.",
+  "note": "Metadata-only shortlist. Benign public vectors as deposited; no sequence or qualifier text here.",
+  "records": [
+    {
+      "accession": "AB019607.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB095955.1",
+      "archetype": "multi_cds",
+      "eligible_components": 4,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AB105370.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB127603.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB161698.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB186388.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AB186390.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB248921.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB304852.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB304854.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB304870.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB363405.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB375112.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "aminoglycoside_phosphotransferase"
+        },
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "glycosyl_hydrolase_2"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "AB453181.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AB570080.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB602479.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB669567.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB684655.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB684657.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB694752.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB759085.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AB781743.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB838596.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AB909452.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AF005420.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF016889.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF025392.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF025747.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF027129.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AF028838.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF041802.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF058756.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF062080.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AF062083.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AF067196.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF072998.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF076778.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF083408.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF105229.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF118812.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AF149263.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF151087.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF174133.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF269235.2",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF272030.2",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AF316553.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF359244.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF396260.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AF434929.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AJ414112.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AM697712.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY061966.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY159023.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY159034.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY190304.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY219682.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY219684.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY219689.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY222815.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY225219.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY243506.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY299696.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AY327142.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY386205.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY497508.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY515147.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY523998.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY597273.1",
+      "archetype": "multi_cds",
+      "eligible_components": 4,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY599229.2",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY622810.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY720437.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY733067.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY737005.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY818374.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY860535.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AY860671.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY884833.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "AY902485.1",
+      "archetype": "multi_cds",
+      "eligible_components": 4,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AY968582.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "AY994192.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        },
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "reca"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "D29827.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "DQ023608.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "DQ119284.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "DQ137254.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "DQ191755.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "DQ232602.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "DQ269148.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "DQ344484.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "DQ407919.4",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "DQ412056.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "DQ493875.2",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "DQ520290.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "DQ642037.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "DQ666274.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "DQ898555.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "DQ903884.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF028663.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF028670.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF028672.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF106980.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF205335.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF212306.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF216317.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "EF216318.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF216320.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF216321.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF216323.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF372396.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "EF450830.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EF565885.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU022316.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU024548.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU044918.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU048696.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU082004.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU093094.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU093101.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU178815.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "EU285586.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU328349.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "EU329003.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "EU420016.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU499313.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "EU530625.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU530629.1",
+      "archetype": "multi_cds",
+      "eligible_components": 4,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "EU546822.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU663571.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU679367.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU680847.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU916835.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "EU918604.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ009256.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ010196.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ160465.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ402941.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "FJ456997.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ457000.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ475056.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ524331.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ524333.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ545754.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "FJ655902.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ664132.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ834450.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "FJ834451.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "FJ861702.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "FJ905205.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "GQ229578.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "aminoglycoside_phosphotransferase"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "GQ856364.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "GU253315.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "GU299215.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "GU459077.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "GU828015.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "GU952841.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HM017829.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HM162834.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HM162840.2",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HM162846.2",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HM204935.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HM585371.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HM771703.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HQ264098.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HQ380206.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HQ398619.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "HQ416703.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "HQ416902.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HQ624982.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HQ646606.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HQ681278.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HQ699535.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        },
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "glycosyl_hydrolase_2"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HQ699539.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HQ699544.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "HQ699549.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "HQ908071.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JF420886.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JF423902.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JF714900.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JF749203.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JF837312.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JF909460.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JF909470.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JF909471.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JF909479.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JF909485.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JN201959.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 4,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "aminoglycoside_phosphotransferase"
+        },
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "JN201962.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN201970.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gst_mu"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "JN204872.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN204875.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN204882.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN204906.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JN204909.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN381160.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN581377.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JN596069.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JN596076.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JN596078.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN596086.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN596088.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN596089.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN681270.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN689240.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN717244.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN717247.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN900238.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JN903574.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JQ073890.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JQ173098.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JQ280535.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JQ283944.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JQ301471.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JQ394802.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JQ519696.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JQ895027.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JX026664.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JX069764.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JX155246.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JX310866.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JX560338.2",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JX560340.2",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JX560354.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JX560360.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JX560362.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JX560383.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JX560406.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JX560407.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JX560408.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "JX966414.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "JX971626.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KC296705.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KC816623.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KC845568.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KC847292.2",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KC860515.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KC896841.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KC991095.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KF040375.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF040386.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF154123.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KF155402.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF293661.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF366480.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF444903.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF532957.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF718987.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF718988.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF718997.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF719006.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF719010.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF790910.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF813059.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF933412.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KF939594.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KJ081779.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 5,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KJ081787.1",
+      "archetype": "multi_cds",
+      "eligible_components": 5,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KJ395591.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KJ411911.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KJ411914.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KJ472831.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KJ541668.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KJ569568.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KJ667591.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "KJ755972.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KJ796503.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM099235.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 5,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "aminoglycoside_phosphotransferase"
+        },
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM229378.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM288849.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM359773.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "coleopteran_luciferase"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM407510.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM486823.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM486833.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM486846.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM486869.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM486877.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KM486878.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KM486879.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM486882.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM486926.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM486927.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM504961.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KM519788.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "tetr_repressor"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM521208.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KM604642.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KM887143.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KP064031.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KP123436.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KP159513.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KP234257.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KP234258.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KP234261.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KP293938.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KP408213.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KP682508.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KP869828.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KP897157.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KP899256.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KP899257.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KR232331.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KR781469.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KT203761.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KT339320.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KT343252.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KT351863.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KT371996.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KT600152.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KT749916.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "tetr_repressor"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KT826598.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KT878730.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KT897710.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "tetr_repressor"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KT970628.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KU215429.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KU315436.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KU315445.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KU645301.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "KU695468.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KU744688.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KU746975.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KU756582.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KU936036.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KU936052.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KU936423.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KU963526.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "KX011465.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX252727.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX252729.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX252739.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX259111.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX272603.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX273377.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX573876.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX602286.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX755248.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX757255.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KX925513.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX986158.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX986159.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KX986160.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX986171.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KX986298.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY132001.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY132008.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY132051.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KY132057.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY132058.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY132061.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY132071.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY132083.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY212117.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY296113.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KY776539.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KY776544.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY793908.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY820846.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "KY825137.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY825157.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY930497.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "KY995190.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC018343.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC018352.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC143901.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC311021.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC311026.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC317095.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC435444.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC498721.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC648923.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC760309.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC773708.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC890392.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LC897328.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724709.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT724727.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724729.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724733.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT724762.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724770.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724775.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724783.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724785.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724797.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT724823.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724826.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724839.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724840.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724859.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT724895.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT724898.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724899.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724926.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT724947.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724952.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724975.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT724993.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT724995.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT724996.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725000.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725002.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725011.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725014.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT725028.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725032.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725033.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725058.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725073.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725087.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725097.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725098.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725109.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725115.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725127.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725129.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725143.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725171.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725180.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725188.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725190.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725199.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725231.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725232.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725233.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725236.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725256.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725257.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725268.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725271.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT725294.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725307.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725314.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725320.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725352.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725358.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725368.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725370.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725383.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725384.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725400.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725415.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT725426.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725442.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT725457.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725506.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725513.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725531.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT725543.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725548.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725575.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725592.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725593.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725605.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT725607.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725620.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725636.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725639.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725641.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT725648.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT726820.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT726837.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT726848.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT726851.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT726856.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT726861.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT726862.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT726881.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT726883.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT726915.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT726927.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT726996.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727000.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727002.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT727022.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727026.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727029.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT727031.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727058.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT727064.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727065.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727085.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727093.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727108.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727120.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT727150.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727156.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727167.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727169.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727172.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727195.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT727206.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727214.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT727223.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727294.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727313.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727334.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727344.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727376.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727377.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT727385.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727445.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT727449.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727470.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727482.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727486.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT727491.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727506.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727569.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727578.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT727594.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "LT727630.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "LT727634.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MF058599.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MF498902.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MF509187.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MF540153.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MG030636.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MG188268.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MG188273.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG252993.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG599121.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG662538.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG662539.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG674456.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG674462.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG674466.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG674474.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG674476.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG674489.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG674491.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG674497.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG687275.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG702586.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG840310.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "MG883666.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "tetr_repressor"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MG948126.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MG952432.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MH026049.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH026050.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH029746.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MH029764.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH029776.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH029778.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH101722.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH101732.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MH143578.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH144608.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH203348.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MH245114.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH290751.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH328020.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MH394332.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        },
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "solute_binding_protein_1"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "MH413065.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH458077.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MH488918.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH488920.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH488928.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH488930.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH488940.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH488941.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH488945.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MH488953.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH492380.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH492391.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MH492395.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH492398.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH492415.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH492417.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH492441.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH541847.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH594278.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH644834.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH644835.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH651726.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH749464.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "gfp_like"
+        },
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "tetr_repressor"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH883344.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MH883357.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK161519.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "MK161520.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK234843.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK495754.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MK495777.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MK495793.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "ant3_adenylyltransferase"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK562404.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK562405.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK606507.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK606516.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK606525.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK652103.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK652105.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK652111.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK681508.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK756315.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK816963.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "gfp_like"
+        },
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "tetr_repressor"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "MK847904.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK908408.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MK910755.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK972842.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK972843.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MK972846.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MK972847.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN007116.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MN019123.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "chloramphenicol_acetyltransferase"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN043940.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN068046.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN207920.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN207925.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN207928.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN207937.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN207959.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN207960.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MN207970.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN207971.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN249409.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        },
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "tetr_repressor"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN294719.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN307371.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN436795.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN436808.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN436811.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN436823.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN450172.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "phage_rna_polymerase"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN623115.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN630870.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "tetr_repressor"
+        },
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN645909.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN811106.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN811109.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN811110.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN830806.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "v1"
+    },
+    {
+      "accession": "MN830809.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN843970.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN982377.1",
+      "archetype": "multi_cds",
+      "eligible_components": 4,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN991281.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MN991284.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MN996864.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "coleopteran_luciferase"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MN996874.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT081208.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT119956.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT127268.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MT127271.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT127281.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT127298.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT127302.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT127305.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MT127310.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT127349.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT241513.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "ant3_adenylyltransferase"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT267299.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "tetr_repressor"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT338522.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT370812.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT415065.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT470409.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT612430.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT702634.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT800777.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT815590.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT881545.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT889351.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT889352.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT889354.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT889356.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT891156.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT891327.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MT891348.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MT891360.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT891364.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT891366.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT966966.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MT966976.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MT966984.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MT966999.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MW221488.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MW246027.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MW367468.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MW464120.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MW476673.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MW476677.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MW512918.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MW879726.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MW879729.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MW879734.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "gst_mu"
+        },
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "solute_binding_protein_1"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MW925698.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MW987531.2",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MZ074316.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MZ198788.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MZ198792.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MZ198794.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MZ198803.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MZ198815.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MZ215986.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "MZ502419.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "MZ648044.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OK661028.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OL312704.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OL331254.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OL449269.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "OL604230.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OL982753.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "OM523374.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "ON605205.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OP254171.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "OP254173.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OP254175.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OP254179.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OP405361.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "OP405363.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "OP877179.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OP877181.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OQ243222.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OQ253287.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OQ828650.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR187790.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR187800.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "OR187812.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR187813.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR298114.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR519721.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR569798.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR569799.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR569800.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": true,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR725556.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR725557.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR763075.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR829913.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR829920.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "OR829921.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "OR829923.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "OR961091.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "OR992666.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "PP239279.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PP373654.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 4,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PP442618.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PP457280.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PP526039.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PP549137.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PP580093.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PP580104.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PP708881.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 1,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gfp_like"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PP764235.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 2,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "tetr_repressor"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PP986967.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PQ321887.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PQ321896.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PQ321920.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PQ407577.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PQ511365.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PQ736896.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PQ855389.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PV231316.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PV231317.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "PV290158.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PV764410.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PV786248.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PV882388.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PV932844.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PX095336.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "PX241540.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PX504763.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "PX516380.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PX927325.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PX927336.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PX927337.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PX970365.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PZ357618.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PZ357620.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PZ357641.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "PZ622315.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PZ791224.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PZ791236.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PZ791283.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "PZ791309.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PZ791325.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "PZ900356.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U00800.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U13851.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U13862.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U16857.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U25267.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U35125.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U35129.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U35130.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U35136.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "U35316.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "U36201.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U37458.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U40578.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U47298.2",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U47627.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U64449.2",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "v1"
+    },
+    {
+      "accession": "U65078.1",
+      "archetype": "single_cds",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U70019.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U75326.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U78873.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U78874.1",
+      "archetype": "multi_cds",
+      "eligible_components": 3,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U81999.1",
+      "archetype": "backbone_heavy",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U85206.1",
+      "archetype": "tagged_fusion",
+      "eligible_components": 3,
+      "fusion_components": [
+        {
+          "anchor_region_usable": true,
+          "documented_boundary": false,
+          "family": "gst_mu"
+        }
+      ],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U89934.1",
+      "archetype": "multi_cds",
+      "eligible_components": 2,
+      "fusion_components": [],
+      "sample": "ext1"
+    },
+    {
+      "accession": "U89940.1",
+      "archetype": "single_label_other",
+      "eligible_components": 1,
+      "fusion_components": [],
+      "sample": "ext1"
+    }
+  ],
+  "schema": "paired-corpus-shortlist-1",
+  "terms": {
+    "ncbi": "NCBI states that it places no restrictions on the use or distribution of GenBank data, while noting that submitters may hold rights and NCBI cannot transfer unrestricted rights (https://www.ncbi.nlm.nih.gov/home/about/policies/). Used here as a private research cache with attribution; no sequence or qualifier text is committed or published.",
+    "uniprot": "https://www.uniprot.org/help/license (CC BY 4.0)"
+  }
+}

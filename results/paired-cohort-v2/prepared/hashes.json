@@ -1,0 +1,16 @@
+{
+  "development_annotation_units": "e11d4060c98e64682cc8800fae910f905b23deb889b3221b69fc7d986a7deb48",
+  "development_answer_key_all": "c92572d62c5fd83eb0c74cb5770b2a9e50cf0bf1275549206ba0fae26883c8cd",
+  "development_answer_key_anchor_only": "ea324c30b7e73ff43cdee4cc9fcbe68c6ea99a612fe638702d1b431979f3f7c9",
+  "development_answer_key_corroborated": "cffe7fa1eade0abd5689b092fa6ab03fabb511649fd8b9a24df0800effa0761f",
+  "development_inputs": "aa1dab7938881de76863a5ad52d96c61576319bc3a9beba6ba0024c0cb4661dc",
+  "freeze": "1c10becdf859ed2ec0f3026b6fc6b381d58217a2c3c1738d67356cec649bd980",
+  "holdout_annotation_units": "8c69763f086d2c11273535883d6e09560a22e05d9a1425322c3f2a7815df9ea2",
+  "holdout_answer_key_all": "cd25c4c53390fb52c6306780563897b49f8897f6153157ad14d93e10b8ffdd94",
+  "holdout_answer_key_anchor_only": "30695aeaa17271455deeee952289613dce7d2f54b24cc938c56c1ca1467ed014",
+  "holdout_answer_key_corroborated": "398d681600b10b82c05df8056e0b39b56df308c9545930afc88814af7e75debb",
+  "holdout_fusion_inputs": "3d6a39d2e5c437e78eba299f2dd157f573b4d61502249317ea6acf0af89f7483",
+  "holdout_fusion_key": "daefdd0099a3e5afccace5c8505764e72d264e3e97f2efb8fe594fbca795c88e",
+  "holdout_inputs": "238684dc950677fb364dd84a8f5f2b4239dc667cfea406c3a708086aab73b9d1",
+  "references": "893a7db7ce8aa8d06f8441c55b260c2c16b36688e7bf9d4c22a17a85cb5a561b"
+}

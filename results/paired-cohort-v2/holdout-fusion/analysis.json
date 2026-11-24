@@ -1,0 +1,368 @@
+{
+  "by_arm": {
+    "blosum62|annotation_reference|1": {
+      "family_recovered": 13,
+      "input_residues": 8033,
+      "mean_fraction_of_supporting_input_outside_region": 0.48188509549785336,
+      "queries": 13,
+      "region_supported": 12,
+      "statuses": {
+        "family_from_partial_region": 1,
+        "region_not_reached": 1,
+        "region_supported": 12
+      }
+    },
+    "blosum62|annotation_reference|2": {
+      "family_recovered": 14,
+      "input_residues": 11664,
+      "mean_fraction_of_supporting_input_outside_region": 0.46661579614101717,
+      "queries": 25,
+      "region_supported": 14,
+      "statuses": {
+        "region_supported": 14
+      }
+    },
+    "blosum62|annotation_reference|4": {
+      "family_recovered": 14,
+      "input_residues": 13302,
+      "mean_fraction_of_supporting_input_outside_region": 0.46661579614101717,
+      "queries": 32,
+      "region_supported": 14,
+      "statuses": {
+        "region_supported": 14
+      }
+    },
+    "blosum62|annotation_reference|8": {
+      "family_recovered": 14,
+      "input_residues": 13521,
+      "mean_fraction_of_supporting_input_outside_region": 0.46661579614101717,
+      "queries": 33,
+      "region_supported": 14,
+      "statuses": {
+        "region_supported": 14
+      }
+    },
+    "blosum62|documented_regions|1": {
+      "family_recovered": 13,
+      "input_residues": 3834,
+      "mean_fraction_of_supporting_input_outside_region": 0.0,
+      "queries": 13,
+      "region_supported": 13,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 13
+      }
+    },
+    "blosum62|documented_regions|2": {
+      "family_recovered": 14,
+      "input_residues": 4052,
+      "mean_fraction_of_supporting_input_outside_region": 0.0,
+      "queries": 14,
+      "region_supported": 14,
+      "statuses": {
+        "region_supported": 14
+      }
+    },
+    "blosum62|documented_regions|4": {
+      "family_recovered": 14,
+      "input_residues": 4052,
+      "mean_fraction_of_supporting_input_outside_region": 0.0,
+      "queries": 14,
+      "region_supported": 14,
+      "statuses": {
+        "region_supported": 14
+      }
+    },
+    "blosum62|documented_regions|8": {
+      "family_recovered": 14,
+      "input_residues": 4052,
+      "mean_fraction_of_supporting_input_outside_region": 0.0,
+      "queries": 14,
+      "region_supported": 14,
+      "statuses": {
+        "region_supported": 14
+      }
+    },
+    "blosum62|gene_caller_windows|1": {
+      "family_recovered": 7,
+      "input_residues": 3900,
+      "mean_fraction_of_supporting_input_outside_region": 0.2733333333333333,
+      "queries": 13,
+      "region_supported": 1,
+      "statuses": {
+        "family_from_partial_region": 6,
+        "region_not_reached": 4,
+        "region_supported": 1,
+        "split_cut_across_region": 3
+      }
+    },
+    "blosum62|gene_caller_windows|2": {
+      "family_recovered": 8,
+      "input_residues": 7800,
+      "mean_fraction_of_supporting_input_outside_region": 0.2876190476190476,
+      "queries": 26,
+      "region_supported": 7,
+      "statuses": {
+        "family_from_partial_region": 1,
+        "region_not_reached": 4,
+        "region_supported": 7,
+        "split_cut_across_region": 2
+      }
+    },
+    "blosum62|gene_caller_windows|4": {
+      "family_recovered": 11,
+      "input_residues": 15479,
+      "mean_fraction_of_supporting_input_outside_region": 0.2507843137254902,
+      "queries": 52,
+      "region_supported": 10,
+      "statuses": {
+        "family_from_partial_region": 1,
+        "region_not_reached": 2,
+        "region_supported": 10,
+        "scorer_missed_with_covering_input": 1
+      }
+    },
+    "blosum62|gene_caller_windows|8": {
+      "family_recovered": 11,
+      "input_residues": 25123,
+      "mean_fraction_of_supporting_input_outside_region": 0.2507843137254902,
+      "queries": 92,
+      "region_supported": 10,
+      "statuses": {
+        "family_from_partial_region": 1,
+        "region_supported": 10,
+        "scorer_missed_with_covering_input": 1,
+        "split_cut_across_region": 2
+      }
+    },
+    "blosum62|gene_caller|1": {
+      "family_recovered": 11,
+      "input_residues": 7927,
+      "mean_fraction_of_supporting_input_outside_region": 0.5021698944720501,
+      "queries": 13,
+      "region_supported": 10,
+      "statuses": {
+        "family_from_partial_region": 1,
+        "region_not_reached": 3,
+        "region_supported": 10
+      }
+    },
+    "blosum62|gene_caller|2": {
+      "family_recovered": 14,
+      "input_residues": 12307,
+      "mean_fraction_of_supporting_input_outside_region": 0.47555192655620065,
+      "queries": 26,
+      "region_supported": 13,
+      "statuses": {
+        "family_from_partial_region": 1,
+        "region_supported": 13
+      }
+    },
+    "blosum62|gene_caller|4": {
+      "family_recovered": 14,
+      "input_residues": 17318,
+      "mean_fraction_of_supporting_input_outside_region": 0.44753631275456723,
+      "queries": 48,
+      "region_supported": 14,
+      "statuses": {
+        "region_supported": 14
+      }
+    },
+    "blosum62|gene_caller|8": {
+      "family_recovered": 13,
+      "input_residues": 19591,
+      "mean_fraction_of_supporting_input_outside_region": 0.43180473807217007,
+      "queries": 64,
+      "region_supported": 13,
+      "statuses": {
+        "region_supported": 13,
+        "scorer_missed_with_covering_input": 1
+      }
+    },
+    "esm2|annotation_reference|1": {
+      "family_recovered": 12,
+      "input_residues": 8033,
+      "mean_fraction_of_supporting_input_outside_region": 0.48188509549785336,
+      "queries": 13,
+      "region_supported": 12,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 12,
+        "split_cut_across_region": 1
+      }
+    },
+    "esm2|annotation_reference|2": {
+      "family_recovered": 10,
+      "input_residues": 11664,
+      "mean_fraction_of_supporting_input_outside_region": 0.41821283745632976,
+      "queries": 25,
+      "region_supported": 10,
+      "statuses": {
+        "region_supported": 10,
+        "scorer_missed_with_covering_input": 4
+      }
+    },
+    "esm2|annotation_reference|4": {
+      "family_recovered": 10,
+      "input_residues": 13302,
+      "mean_fraction_of_supporting_input_outside_region": 0.41821283745632976,
+      "queries": 32,
+      "region_supported": 10,
+      "statuses": {
+        "region_supported": 10,
+        "scorer_missed_with_covering_input": 4
+      }
+    },
+    "esm2|annotation_reference|8": {
+      "family_recovered": 10,
+      "input_residues": 13521,
+      "mean_fraction_of_supporting_input_outside_region": 0.41821283745632976,
+      "queries": 33,
+      "region_supported": 10,
+      "statuses": {
+        "region_supported": 10,
+        "scorer_missed_with_covering_input": 4
+      }
+    },
+    "esm2|documented_regions|1": {
+      "family_recovered": 13,
+      "input_residues": 3834,
+      "mean_fraction_of_supporting_input_outside_region": 0.0,
+      "queries": 13,
+      "region_supported": 13,
+      "statuses": {
+        "region_not_reached": 1,
+        "region_supported": 13
+      }
+    },
+    "esm2|documented_regions|2": {
+      "family_recovered": 14,
+      "input_residues": 4052,
+      "mean_fraction_of_supporting_input_outside_region": 0.0,
+      "queries": 14,
+      "region_supported": 14,
+      "statuses": {
+        "region_supported": 14
+      }
+    },
+    "esm2|documented_regions|4": {
+      "family_recovered": 14,
+      "input_residues": 4052,
+      "mean_fraction_of_supporting_input_outside_region": 0.0,
+      "queries": 14,
+      "region_supported": 14,
+      "statuses": {
+        "region_supported": 14
+      }
+    },
+    "esm2|documented_regions|8": {
+      "family_recovered": 14,
+      "input_residues": 4052,
+      "mean_fraction_of_supporting_input_outside_region": 0.0,
+      "queries": 14,
+      "region_supported": 14,
+      "statuses": {
+        "region_supported": 14
+      }
+    },
+    "esm2|gene_caller_windows|1": {
+      "family_recovered": 6,
+      "input_residues": 3900,
+      "mean_fraction_of_supporting_input_outside_region": 0.2733333333333333,
+      "queries": 13,
+      "region_supported": 1,
+      "statuses": {
+        "family_from_partial_region": 5,
+        "region_not_reached": 4,
+        "region_supported": 1,
+        "split_cut_across_region": 4
+      }
+    },
+    "esm2|gene_caller_windows|2": {
+      "family_recovered": 8,
+      "input_residues": 7800,
+      "mean_fraction_of_supporting_input_outside_region": 0.2876190476190476,
+      "queries": 26,
+      "region_supported": 7,
+      "statuses": {
+        "family_from_partial_region": 1,
+        "region_not_reached": 4,
+        "region_supported": 7,
+        "split_cut_across_region": 2
+      }
+    },
+    "esm2|gene_caller_windows|4": {
+      "family_recovered": 11,
+      "input_residues": 15479,
+      "mean_fraction_of_supporting_input_outside_region": 0.22137254901960787,
+      "queries": 52,
+      "region_supported": 10,
+      "statuses": {
+        "family_from_partial_region": 1,
+        "region_not_reached": 2,
+        "region_supported": 10,
+        "scorer_missed_with_covering_input": 1
+      }
+    },
+    "esm2|gene_caller_windows|8": {
+      "family_recovered": 11,
+      "input_residues": 25123,
+      "mean_fraction_of_supporting_input_outside_region": 0.22137254901960787,
+      "queries": 92,
+      "region_supported": 10,
+      "statuses": {
+        "family_from_partial_region": 1,
+        "region_supported": 10,
+        "scorer_missed_with_covering_input": 1,
+        "split_cut_across_region": 2
+      }
+    },
+    "esm2|gene_caller|1": {
+      "family_recovered": 10,
+      "input_residues": 7927,
+      "mean_fraction_of_supporting_input_outside_region": 0.5021698944720501,
+      "queries": 13,
+      "region_supported": 10,
+      "statuses": {
+        "region_not_reached": 3,
+        "region_supported": 10,
+        "split_cut_across_region": 1
+      }
+    },
+    "esm2|gene_caller|2": {
+      "family_recovered": 9,
+      "input_residues": 12307,
+      "mean_fraction_of_supporting_input_outside_region": 0.42505847478660264,
+      "queries": 26,
+      "region_supported": 9,
+      "statuses": {
+        "region_supported": 9,
+        "scorer_missed_with_covering_input": 4,
+        "split_cut_across_region": 1
+      }
+    },
+    "esm2|gene_caller|4": {
+      "family_recovered": 10,
+      "input_residues": 17318,
+      "mean_fraction_of_supporting_input_outside_region": 0.3908859606412757,
+      "queries": 48,
+      "region_supported": 10,
+      "statuses": {
+        "region_supported": 10,
+        "scorer_missed_with_covering_input": 4
+      }
+    },
+    "esm2|gene_caller|8": {
+      "family_recovered": 10,
+      "input_residues": 19591,
+      "mean_fraction_of_supporting_input_outside_region": 0.3908859606412757,
+      "queries": 64,
+      "region_supported": 10,
+      "statuses": {
+        "region_supported": 10,
+        "scorer_missed_with_covering_input": 4
+      }
+    }
+  },
+  "regions": 14
+}

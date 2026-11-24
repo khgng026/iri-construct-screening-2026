@@ -1,0 +1,409 @@
+[
+  {
+    "accession": "MH651726.1",
+    "archetype": "backbone_heavy",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "chloramphenicol_acetyltransferase",
+        "fusion_class": false,
+        "id": "11-chloramphenicol_acetyltransferase",
+        "over_model_limit": false,
+        "protein_sha256": "e9609e5dff4e8bfba6493a534542ceaf9947af0bb1aa2536f12146beb79373c8",
+        "similarity": {
+          "best_same_family_identity": 0.47761194029850745,
+          "closest_adequate_family": "chloramphenicol_acetyltransferase",
+          "max_identity_any_reference": 0.75,
+          "strong_competitor": false,
+          "tier": "intermediate"
+        }
+      }
+    ],
+    "conservative_group": "CMH651726.1",
+    "id": "d0001",
+    "lineage_group": "LMH651726.1"
+  },
+  {
+    "accession": "KT897710.1",
+    "archetype": "tagged_fusion",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "anchor_only",
+        "family": "tetr_repressor",
+        "fusion_class": true,
+        "id": "2-tetr_repressor",
+        "over_model_limit": false,
+        "protein_sha256": "e257df44519585c85a50df60b4fcae83682431d204071d6cf5accf658e502a22",
+        "similarity": {
+          "best_same_family_identity": 0.6485148514851485,
+          "closest_adequate_family": "tetr_repressor",
+          "max_identity_any_reference": 0.7222222222222222,
+          "strong_competitor": false,
+          "tier": "high"
+        }
+      }
+    ],
+    "conservative_group": "CKT749916.1",
+    "id": "d0002",
+    "lineage_group": "LKT897710.1"
+  },
+  {
+    "accession": "MN830806.1",
+    "archetype": "tagged_fusion",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "gfp_like",
+        "fusion_class": true,
+        "id": "2-gfp_like",
+        "over_model_limit": false,
+        "protein_sha256": "ccf43eef20f6d1067f3af31f8d9e89df190aeba834b2d8e5a7d1fcf9364f8b6f",
+        "similarity": {
+          "best_same_family_identity": 0.30113636363636365,
+          "closest_adequate_family": "gfp_like",
+          "max_identity_any_reference": 0.7142857142857143,
+          "strong_competitor": false,
+          "tier": "low"
+        }
+      }
+    ],
+    "conservative_group": "CKT749916.1",
+    "id": "d0003",
+    "lineage_group": "LMN830806.1"
+  },
+  {
+    "accession": "FJ475056.1",
+    "archetype": "single_label_other",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "class_a_beta_lactamase",
+        "fusion_class": false,
+        "id": "6-class_a_beta_lactamase",
+        "over_model_limit": false,
+        "protein_sha256": "b25417b86d99c2a935fd23a98d39ac11b1a4d3a043ac5f6d1865b875b8a41db7",
+        "similarity": {
+          "best_same_family_identity": 0.6443661971830986,
+          "closest_adequate_family": "class_a_beta_lactamase",
+          "max_identity_any_reference": 0.6443661971830986,
+          "strong_competitor": false,
+          "tier": "high"
+        }
+      }
+    ],
+    "conservative_group": "CFJ475056.1",
+    "id": "d0004",
+    "lineage_group": "LFJ475056.1"
+  },
+  {
+    "accession": "MT891156.1",
+    "archetype": "backbone_heavy",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "ant3_adenylyltransferase",
+        "fusion_class": false,
+        "id": "13-ant3_adenylyltransferase",
+        "over_model_limit": false,
+        "protein_sha256": "ff35faa1654469c45e274cc62a60f80bd09aca6ad4a0fdf017c12e5fed5882e1",
+        "similarity": {
+          "best_same_family_identity": 0.4538152610441767,
+          "closest_adequate_family": "ant3_adenylyltransferase",
+          "max_identity_any_reference": 0.5833333333333334,
+          "strong_competitor": false,
+          "tier": "intermediate"
+        }
+      }
+    ],
+    "conservative_group": "CMT891156.1",
+    "id": "d0005",
+    "lineage_group": "LMT891156.1"
+  },
+  {
+    "accession": "MN830809.1",
+    "archetype": "backbone_heavy",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "gfp_like",
+        "fusion_class": false,
+        "id": "12-gfp_like",
+        "over_model_limit": false,
+        "protein_sha256": "975bf3b43dffa4290f9f7783cec1087992868c86c4eb73e3c92594fa2dc88bc7",
+        "similarity": {
+          "best_same_family_identity": 0.6889952153110048,
+          "closest_adequate_family": "gfp_like",
+          "max_identity_any_reference": 0.7777777777777778,
+          "strong_competitor": false,
+          "tier": "high"
+        }
+      }
+    ],
+    "conservative_group": "CKT749916.1",
+    "id": "d0006",
+    "lineage_group": "LMN830806.1"
+  },
+  {
+    "accession": "KT749916.1",
+    "archetype": "tagged_fusion",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "anchor_only",
+        "family": "tetr_repressor",
+        "fusion_class": true,
+        "id": "12-tetr_repressor",
+        "over_model_limit": false,
+        "protein_sha256": "e257df44519585c85a50df60b4fcae83682431d204071d6cf5accf658e502a22",
+        "similarity": {
+          "best_same_family_identity": 0.6485148514851485,
+          "closest_adequate_family": "tetr_repressor",
+          "max_identity_any_reference": 0.7222222222222222,
+          "strong_competitor": false,
+          "tier": "high"
+        }
+      }
+    ],
+    "conservative_group": "CKT749916.1",
+    "id": "d0007",
+    "lineage_group": "LKT749916.1"
+  },
+  {
+    "accession": "MN068046.1",
+    "archetype": "tagged_fusion",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "aminoglycoside_phosphotransferase",
+        "fusion_class": false,
+        "id": "2-aminoglycoside_phosphotransferase",
+        "over_model_limit": false,
+        "protein_sha256": "a83a21daab65f4cdc5875ba32314db98d634cca6fff26f5027d1f3578f9e9d1d",
+        "similarity": {
+          "best_same_family_identity": 0.35864978902953587,
+          "closest_adequate_family": "aminoglycoside_phosphotransferase",
+          "max_identity_any_reference": 0.5483870967741935,
+          "strong_competitor": false,
+          "tier": "low"
+        }
+      },
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "gfp_like",
+        "fusion_class": true,
+        "id": "5-gfp_like",
+        "over_model_limit": true,
+        "protein_sha256": "a63d36686e4c6504e9c97d5b90fdf2063f31e83b0b1bb7d55089790b33e9f65e",
+        "similarity": {
+          "best_same_family_identity": 0.3181818181818182,
+          "closest_adequate_family": "gfp_like",
+          "max_identity_any_reference": 0.7142857142857143,
+          "strong_competitor": false,
+          "tier": "low"
+        }
+      }
+    ],
+    "conservative_group": "CMN068046.1",
+    "id": "d0008",
+    "lineage_group": "LMN068046.1"
+  },
+  {
+    "accession": "PV882388.1",
+    "archetype": "backbone_heavy",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "class_a_beta_lactamase",
+        "fusion_class": false,
+        "id": "10-class_a_beta_lactamase",
+        "over_model_limit": false,
+        "protein_sha256": "b25417b86d99c2a935fd23a98d39ac11b1a4d3a043ac5f6d1865b875b8a41db7",
+        "similarity": {
+          "best_same_family_identity": 0.6443661971830986,
+          "closest_adequate_family": "class_a_beta_lactamase",
+          "max_identity_any_reference": 0.6443661971830986,
+          "strong_competitor": false,
+          "tier": "high"
+        }
+      }
+    ],
+    "conservative_group": "CFJ475056.1",
+    "id": "d0009",
+    "lineage_group": "LPV882388.1"
+  },
+  {
+    "accession": "MH458077.1",
+    "archetype": "single_cds",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "gfp_like",
+        "fusion_class": false,
+        "id": "4-gfp_like",
+        "over_model_limit": false,
+        "protein_sha256": "09062f61e56628755d5109b7aaa537a91509180cb1a6c66f61cb0b2fddc1ea65",
+        "similarity": {
+          "best_same_family_identity": 0.30113636363636365,
+          "closest_adequate_family": "gfp_like",
+          "max_identity_any_reference": 0.7142857142857143,
+          "strong_competitor": false,
+          "tier": "low"
+        }
+      }
+    ],
+    "conservative_group": "CMH458077.1",
+    "id": "d0010",
+    "lineage_group": "LMH458077.1"
+  },
+  {
+    "accession": "MN630870.1",
+    "archetype": "tagged_fusion",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "anchor_only",
+        "family": "tetr_repressor",
+        "fusion_class": true,
+        "id": "4-tetr_repressor",
+        "over_model_limit": false,
+        "protein_sha256": "e257df44519585c85a50df60b4fcae83682431d204071d6cf5accf658e502a22",
+        "similarity": {
+          "best_same_family_identity": 0.6485148514851485,
+          "closest_adequate_family": "tetr_repressor",
+          "max_identity_any_reference": 0.7222222222222222,
+          "strong_competitor": false,
+          "tier": "high"
+        }
+      },
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "gfp_like",
+        "fusion_class": true,
+        "id": "8-gfp_like",
+        "over_model_limit": false,
+        "protein_sha256": "ccf43eef20f6d1067f3af31f8d9e89df190aeba834b2d8e5a7d1fcf9364f8b6f",
+        "similarity": {
+          "best_same_family_identity": 0.30113636363636365,
+          "closest_adequate_family": "gfp_like",
+          "max_identity_any_reference": 0.7142857142857143,
+          "strong_competitor": false,
+          "tier": "low"
+        }
+      }
+    ],
+    "conservative_group": "CKT749916.1",
+    "id": "d0011",
+    "lineage_group": "LMN630870.1"
+  },
+  {
+    "accession": "PV231316.1",
+    "archetype": "single_label_other",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "aminoglycoside_phosphotransferase",
+        "fusion_class": false,
+        "id": "13-aminoglycoside_phosphotransferase",
+        "over_model_limit": false,
+        "protein_sha256": "2f5c237c0011f5cfd649c4520ba56323222c3fe62afc42b966018b47fa17333f",
+        "similarity": {
+          "best_same_family_identity": 0.43162393162393164,
+          "closest_adequate_family": "aminoglycoside_phosphotransferase",
+          "max_identity_any_reference": 0.625,
+          "strong_competitor": false,
+          "tier": "intermediate"
+        }
+      }
+    ],
+    "conservative_group": "CPV231316.1",
+    "id": "d0012",
+    "lineage_group": "LPV231316.1"
+  },
+  {
+    "accession": "PV231317.1",
+    "archetype": "backbone_heavy",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "aminoglycoside_phosphotransferase",
+        "fusion_class": false,
+        "id": "21-aminoglycoside_phosphotransferase",
+        "over_model_limit": false,
+        "protein_sha256": "2f5c237c0011f5cfd649c4520ba56323222c3fe62afc42b966018b47fa17333f",
+        "similarity": {
+          "best_same_family_identity": 0.43162393162393164,
+          "closest_adequate_family": "aminoglycoside_phosphotransferase",
+          "max_identity_any_reference": 0.625,
+          "strong_competitor": false,
+          "tier": "intermediate"
+        }
+      }
+    ],
+    "conservative_group": "CPV231316.1",
+    "id": "d0013",
+    "lineage_group": "LPV231316.1"
+  },
+  {
+    "accession": "AF359244.1",
+    "archetype": "single_cds",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "isopropylmalate_dehydrogenase",
+        "fusion_class": false,
+        "id": "1-isopropylmalate_dehydrogenase",
+        "over_model_limit": false,
+        "protein_sha256": "ad4f79557ae148d6bae7efcce8e84847030708fca10fe10f539a09825d254744",
+        "similarity": {
+          "best_same_family_identity": 0.7574931880108992,
+          "closest_adequate_family": "isopropylmalate_dehydrogenase",
+          "max_identity_any_reference": 0.7574931880108992,
+          "strong_competitor": false,
+          "tier": "high"
+        }
+      }
+    ],
+    "conservative_group": "CAF359244.1",
+    "id": "d0014",
+    "lineage_group": "LAF359244.1"
+  },
+  {
+    "accession": "AJ414112.1",
+    "archetype": "single_cds",
+    "components": [
+      {
+        "documented_subregion": false,
+        "evidence_tier": "corroborated",
+        "family": "glycosyl_hydrolase_2",
+        "fusion_class": false,
+        "id": "4-glycosyl_hydrolase_2",
+        "over_model_limit": false,
+        "protein_sha256": "a9936b86d8a59be62d664cfeb611dab89d9ce67708793bc080c31e16a27f6c76",
+        "similarity": {
+          "best_same_family_identity": 0.4906621392190153,
+          "closest_adequate_family": "glycosyl_hydrolase_2",
+          "max_identity_any_reference": 0.4906621392190153,
+          "strong_competitor": false,
+          "tier": "intermediate"
+        }
+      }
+    ],
+    "conservative_group": "CAJ414112.1",
+    "id": "d0015",
+    "lineage_group": "LAJ414112.1"
+  }
+]
