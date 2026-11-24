@@ -1,5 +1,7 @@
 # Research design: when do foundation models beat sequence alignment, given a preprocessing toolkit?
 
+Historical proposal for the cohort follow-up. The [Q3 evidence and handoff](Q3_EVIDENCE.md) records the executed studies and the remaining research question.
+
 Draft 23 November 2026. A forward-looking design, not a completed study. It defines the
 experiment that would give a more definitive answer than the [cohort v2 result](../../experiments/paired_preprocessing/COHORT_RESULTS.md),
 which found mean-pooled ESM-2 8M no better than normalized BLOSUM62 at family identification.
