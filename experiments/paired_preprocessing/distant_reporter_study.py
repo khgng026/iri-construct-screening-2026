@@ -37,6 +37,45 @@ def _domain_locus(spans, strand, start, end):
     return [[left + 3 * start, left + 3 * end]] if strand == 1 else [[right - 3 * end, right - 3 * start]]
 
 
+def _structure_domain(folder, source):
+    from Bio.PDB.MMCIF2Dict import MMCIF2Dict
+    from Bio.SeqUtils import seq1
+
+    path = folder / f"{source['structure'].lower()}.cif"
+    if digest(path) != source['mmcif_sha256']:
+        raise ValueError('The solved structure differs from the frozen source')
+    doc = MMCIF2Dict(str(path))
+    ref = '_struct_ref_seq.'
+    mappings = zip(*(doc[ref + field] for field in ('pdbx_strand_id', 'pdbx_db_accession', 'db_align_beg',
+                                                    'db_align_end', 'pdbx_auth_seq_align_beg',
+                                                    'pdbx_auth_seq_align_end')), strict=True)
+    mapped = [(int(first), int(last)) for chain, accession, first, last, auth_first, auth_last in mappings
+              if chain == source['chain'] and accession == source['canonical_uniprot']
+              and (first, last) == (auth_first, auth_last)]
+    if len(mapped) != 1:
+        raise ValueError('The selected structure chain must map directly to the reviewed reporter')
+    first, last = mapped[0]
+    scheme = '_pdbx_poly_seq_scheme.'
+    positions = {int(number): seq1(monomer) for number, monomer, chain in zip(
+        doc[scheme + 'pdb_seq_num'], doc[scheme + 'mon_id'], doc[scheme + 'pdb_strand_id'], strict=True)
+        if chain == source['chain'] and number not in ('.', '?')}
+    canonical = ''.join(positions[position] for position in range(first, last + 1))
+    if _signature(canonical) != source['canonical_sequence_sha256']:
+        raise ValueError('The structure chain does not reproduce the reviewed reporter')
+    return canonical[source['first_residue'] - first:source['last_residue'] - first + 1]
+
+
+def _check_structure_mapping(region, canonical, target):
+    from Bio.Align import PairwiseAligner
+
+    aligner = PairwiseAligner(mode='global', match_score=2, mismatch_score=-1, open_gap_score=-8,
+                              extend_gap_score=-1)
+    hit = aligner.align(canonical, region)[0]
+    if (hit.length != len(canonical) or len(canonical) - len(region) != target['missing_structure_reference_residues']
+            or hit.counts().mismatches != target['substitutions_to_structure_reference']):
+        raise ValueError('The deposited domain differs from its mapping to the solved structure')
+
+
 def load(folder, panel):
     from Bio import SeqIO
 
@@ -46,6 +85,7 @@ def load(folder, panel):
     if digest(ref_path) != panel['reference_source']['prepared_sha256']:
         raise ValueError('The reference snapshot differs from the frozen reporter panel')
     refs = read(ref_path)
+    canonical = _structure_domain(folder, panel['domain_source']) if 'domain_source' in panel else None
     records = {}
     for row in panel['constructs']:
         accession = row['accession']
@@ -78,7 +118,7 @@ def load(folder, panel):
                 complete = context_unit.sequence
                 offset = (location.start - enclosing.start if location.strand == 1
                           else enclosing.end - location.end)
-                if (context_unit.extraction_state != 'exported' or sequence not in complete
+                if (context_unit.extraction_state != 'exported'
                         or qualifiers.get('translation') != [sequence] or qualifiers.get('codon_start', ['1']) != ['1']
                         or context.names['product'] != target['context_product']
                         or _signature(complete) != target['context_sha256'] or location.strand != enclosing.strand
@@ -99,8 +139,10 @@ def load(folder, panel):
             if 'domain_residue_start0' in target:
                 start, end = target['domain_residue_start0'], target['domain_residue_end0']
                 region = sequence[start:end]
-                if qualifiers.get('codon_start', ['1']) != ['1'] or _signature(region) != target['domain_sha256']:
+                if (canonical is None or qualifiers.get('codon_start', ['1']) != ['1']
+                        or _signature(region) != target['domain_sha256']):
                     raise ValueError(f'{accession}: the documented domain no longer matches its record')
+                _check_structure_mapping(region, canonical, target)
                 domain_spans = _domain_locus(spans, strand, start, end)
                 (left, right), = domain_spans
                 domain_dna = record.seq[left:right]

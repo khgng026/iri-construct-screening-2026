@@ -37,12 +37,12 @@ def digest(path):
 
 def acquire(panel, output, *, canonical_record_end=False):
     """Reacquire frozen deposited records and protein references."""
-    def fetch(url, expected, canonical_end=False):
+    def fetch(url, expected, canonical_end=False, max_bytes=200_000):
         with urlopen(Request(url, headers={'User-Agent': 'iri-constructs/reporter-pilot'}), timeout=20) as response:
-            data = response.read(200_001)
-        if canonical_end and len(data) <= 200_000:
+            data = response.read(max_bytes + 1)
+        if canonical_end and len(data) <= max_bytes:
             data = data.rstrip(b'\n') + b'\n'
-        if len(data) > 200_000 or hashlib.sha256(data).hexdigest() != expected:
+        if len(data) > max_bytes or hashlib.sha256(data).hexdigest() != expected:
             raise ValueError('Source snapshot differs from the frozen panel')
         return data
 
@@ -74,11 +74,18 @@ def acquire(panel, output, *, canonical_record_end=False):
     out_bytes = (json.dumps(references, indent=2, sort_keys=True, allow_nan=False) + '\n').encode()
     if hashlib.sha256(out_bytes).hexdigest() != reference_source['prepared_sha256']:
         raise ValueError('Reference panel differs from the frozen input')
+    structure = None
+    if 'domain_source' in panel:
+        source = panel['domain_source']
+        structure = fetch(f"https://files.rcsb.org/download/{source['structure']}.cif",
+                          source['mmcif_sha256'], max_bytes=3_000_000)
     (output / 'sources').mkdir(parents=True)
     for accession, data in records.items():
         (output / 'sources' / f'{accession}.gb').write_bytes(data)
     for filename, data in snapshots.items():
         (output / 'sources' / filename).write_bytes(data)
+    if structure is not None:
+        (output / f"{source['structure'].lower()}.cif").write_bytes(structure)
     (output / 'references.private.json').write_bytes(out_bytes)
 
 

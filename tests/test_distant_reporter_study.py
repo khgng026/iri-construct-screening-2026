@@ -1,9 +1,18 @@
+import importlib.util
 import unittest
 
-from experiments.paired_preprocessing.distant_reporter_study import _domain_locus, _score_targets, _signature
+from experiments.paired_preprocessing.distant_reporter_study import (_check_structure_mapping, _domain_locus,
+                                                                   _score_targets, _signature)
 
 
 class DistantReporterStudyTest(unittest.TestCase):
+    @unittest.skipUnless(importlib.util.find_spec('Bio'), 'Optional Biopython structure mapping dependency')
+    def test_structure_mapping_checks_the_documented_in_frame_variant(self):
+        target = {'missing_structure_reference_residues': 1, 'substitutions_to_structure_reference': 1}
+        _check_structure_mapping('ACEFGAHIK', 'ACDEFGPHIK', target)
+        with self.assertRaises(ValueError):
+            _check_structure_mapping('ACEFGAAIK', 'ACDEFGPHIK', target)
+
     def test_archived_domain_offsets_project_from_the_coding_start(self):
         self.assertEqual(_domain_locus([[100, 130]], 1, 1, 4), [[103, 112]])
         self.assertEqual(_domain_locus([[100, 130]], -1, 1, 4), [[118, 127]])

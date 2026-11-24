@@ -1,0 +1,1709 @@
+{
+  "construct_results": {
+    "gene_caller": {
+      "1": {
+        "actual_queries": 7,
+        "all": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "cases": {
+          "AB538275.2:7": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "compact single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.1705607476635514,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "moss-tn83"
+          },
+          "AF485783.1:11": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pbi121"
+          },
+          "AJ851288.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851290.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851291.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851292.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AM181661.1:6": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "fused reporters",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "arabidopsis-fusion"
+          }
+        },
+        "low": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "query_residues": 4475,
+        "selected_inputs_sha256": "dc1795f90d841d9a861729ae77ae6917d46e734f003e89dd4a0f8317d949d1e7",
+        "under_25": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        }
+      },
+      "2": {
+        "actual_queries": 13,
+        "all": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "cases": {
+          "AB538275.2:7": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "compact single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.1705607476635514,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "moss-tn83"
+          },
+          "AF485783.1:11": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pbi121"
+          },
+          "AJ851288.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851290.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851291.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851292.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AM181661.1:6": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "fused reporters",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "arabidopsis-fusion"
+          }
+        },
+        "low": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "query_residues": 6717,
+        "selected_inputs_sha256": "3b0550bb3e0303ad0f43161711883c5625c7794a25390391ac78899e590e1432",
+        "under_25": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        }
+      },
+      "4": {
+        "actual_queries": 24,
+        "all": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "cases": {
+          "AB538275.2:7": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "compact single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.1705607476635514,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "moss-tn83"
+          },
+          "AF485783.1:11": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pbi121"
+          },
+          "AJ851288.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851290.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851291.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851292.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AM181661.1:6": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "fused reporters",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "arabidopsis-fusion"
+          }
+        },
+        "low": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "query_residues": 10070,
+        "selected_inputs_sha256": "582206cb17d60b772472f8a4ffce3d567f9e82314c8a4abb2cc8098cffe41274",
+        "under_25": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        }
+      }
+    },
+    "minimal": {
+      "1": {
+        "actual_queries": 7,
+        "all": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "cases": {
+          "AB538275.2:7": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "compact single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.1705607476635514,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "moss-tn83"
+          },
+          "AF485783.1:11": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pbi121"
+          },
+          "AJ851288.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851290.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851291.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851292.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AM181661.1:6": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "fused reporters",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "arabidopsis-fusion"
+          }
+        },
+        "low": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "query_residues": 4535,
+        "selected_inputs_sha256": "d0932263432323a4f4e7ebf11453ddf5a2fbab333c79ebda9705fd0fbe200830",
+        "under_25": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        }
+      },
+      "2": {
+        "actual_queries": 14,
+        "all": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "cases": {
+          "AB538275.2:7": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "compact single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.1705607476635514,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "moss-tn83"
+          },
+          "AF485783.1:11": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pbi121"
+          },
+          "AJ851288.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851290.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851291.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851292.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AM181661.1:6": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "fused reporters",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "arabidopsis-fusion"
+          }
+        },
+        "low": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "query_residues": 7216,
+        "selected_inputs_sha256": "e0a6e93b337a1bb9af968902dd487757146c0b7306eb21ba07cad2c8183cf803",
+        "under_25": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        }
+      },
+      "4": {
+        "actual_queries": 28,
+        "all": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "cases": {
+          "AB538275.2:7": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "compact single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.1705607476635514,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "moss-tn83"
+          },
+          "AF485783.1:11": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long single reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pbi121"
+          },
+          "AJ851288.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851290.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851291.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AJ851292.1:4": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "long dual reporter",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "pru-series"
+          },
+          "AM181661.1:6": {
+            "ancestry": "ecoli_gus",
+            "correct": {
+              "alignment": true,
+              "alignment_ref_normalized": false,
+              "esm2_150m_local": false,
+              "esm2_150m_mean": false,
+              "esm2_8m_local": true,
+              "esm2_8m_mean": true,
+              "profile": false
+            },
+            "family": "c.1.8",
+            "joined_cds": false,
+            "layout": "fused reporters",
+            "low_identity": true,
+            "max_covered_same_family_local_identity": null,
+            "max_same_family_global_identity": 0.16990291262135923,
+            "pool_covering": true,
+            "selected_covering": true,
+            "selected_exact_protein": false,
+            "source_product": "beta-glucuronidase",
+            "submission_group": "arabidopsis-fusion"
+          }
+        },
+        "low": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        },
+        "query_residues": 11549,
+        "selected_inputs_sha256": "81bcaaf5ef9f3682ff3a68f6eafed65ffaddf482db97399795b29d65b4366653",
+        "under_25": {
+          "ancestries": 1,
+          "correct": {
+            "alignment": 7,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 7,
+            "esm2_8m_mean": 7,
+            "profile": 0
+          },
+          "equal_ancestry": {
+            "alignment": 1,
+            "alignment_ref_normalized": 0,
+            "esm2_150m_local": 0,
+            "esm2_150m_mean": 0,
+            "esm2_8m_local": 1,
+            "esm2_8m_mean": 1,
+            "profile": 0
+          },
+          "pool_covering": 7,
+          "selected_covering": 7,
+          "selected_exact_protein": 0,
+          "targets": 7
+        }
+      }
+    }
+  },
+  "environment": {
+    "biopython": "1.86",
+    "numpy": "1.26.4",
+    "pyfamsa": "0.7.0",
+    "pyhmmer": "0.12.3",
+    "pyrodigal": "3.6.3",
+    "torch": "2.6.0+cpu",
+    "transformers": "4.48.1"
+  },
+  "known_boundaries_correct": {
+    "AB538275.2:7": {
+      "alignment": true,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AF485783.1:11": {
+      "alignment": false,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AJ851288.1:4": {
+      "alignment": false,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AJ851290.1:4": {
+      "alignment": false,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AJ851291.1:4": {
+      "alignment": false,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AJ851292.1:4": {
+      "alignment": false,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AM181661.1:6": {
+      "alignment": false,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    }
+  },
+  "known_full_products_correct": {
+    "AB538275.2:7": {
+      "alignment": true,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AF485783.1:11": {
+      "alignment": true,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AJ851288.1:4": {
+      "alignment": true,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AJ851290.1:4": {
+      "alignment": true,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AJ851291.1:4": {
+      "alignment": true,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AJ851292.1:4": {
+      "alignment": true,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    },
+    "AM181661.1:6": {
+      "alignment": true,
+      "alignment_ref_normalized": false,
+      "esm2_150m_local": false,
+      "esm2_150m_mean": false,
+      "esm2_8m_local": true,
+      "esm2_8m_mean": true,
+      "profile": false
+    }
+  },
+  "locus_overlap_at_least": 0.8,
+  "low_identity_below": 0.3,
+  "models": {
+    "esm2_150m": {
+      "model": "esm2_150m",
+      "repository": "facebook/esm2_t30_150M_UR50D",
+      "representation": "final layer; BOS/EOS excluded; float32",
+      "revision": "a695f6045e2e32885fa60af20c13cb35398ce30c",
+      "torch_threads": 2,
+      "weight_sha256": "c3f1da8aea53bddd32c246c86168c23b9fd72341fb9db9a94436f855f5053566"
+    },
+    "esm2_8m": {
+      "model": "esm2_8m",
+      "repository": "facebook/esm2_t6_8M_UR50D",
+      "representation": "final layer; BOS/EOS excluded; float32",
+      "revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+      "torch_threads": 2,
+      "weight_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+    }
+  },
+  "panel_sha256": "0fc5801d5eb535c054c99907e107f8df91115de71e325b7b78467e088b29ff5c",
+  "primary_cap": 2,
+  "reference_proteins": 6,
+  "schema": "distant-public-reporter-results-1",
+  "targets": {
+    "AB538275.2:7": {
+      "ancestry": "ecoli_gus",
+      "family": "c.1.8",
+      "joined_cds": false,
+      "layout": "compact single reporter",
+      "low_identity": true,
+      "max_covered_same_family_local_identity": null,
+      "max_same_family_global_identity": 0.1705607476635514,
+      "source_product": "beta-glucuronidase",
+      "submission_group": "moss-tn83"
+    },
+    "AF485783.1:11": {
+      "ancestry": "ecoli_gus",
+      "family": "c.1.8",
+      "joined_cds": false,
+      "layout": "long single reporter",
+      "low_identity": true,
+      "max_covered_same_family_local_identity": null,
+      "max_same_family_global_identity": 0.16990291262135923,
+      "source_product": "beta-glucuronidase",
+      "submission_group": "pbi121"
+    },
+    "AJ851288.1:4": {
+      "ancestry": "ecoli_gus",
+      "family": "c.1.8",
+      "joined_cds": false,
+      "layout": "long dual reporter",
+      "low_identity": true,
+      "max_covered_same_family_local_identity": null,
+      "max_same_family_global_identity": 0.16990291262135923,
+      "source_product": "beta-glucuronidase",
+      "submission_group": "pru-series"
+    },
+    "AJ851290.1:4": {
+      "ancestry": "ecoli_gus",
+      "family": "c.1.8",
+      "joined_cds": false,
+      "layout": "long dual reporter",
+      "low_identity": true,
+      "max_covered_same_family_local_identity": null,
+      "max_same_family_global_identity": 0.16990291262135923,
+      "source_product": "beta-glucuronidase",
+      "submission_group": "pru-series"
+    },
+    "AJ851291.1:4": {
+      "ancestry": "ecoli_gus",
+      "family": "c.1.8",
+      "joined_cds": false,
+      "layout": "long dual reporter",
+      "low_identity": true,
+      "max_covered_same_family_local_identity": null,
+      "max_same_family_global_identity": 0.16990291262135923,
+      "source_product": "beta-glucuronidase",
+      "submission_group": "pru-series"
+    },
+    "AJ851292.1:4": {
+      "ancestry": "ecoli_gus",
+      "family": "c.1.8",
+      "joined_cds": false,
+      "layout": "long dual reporter",
+      "low_identity": true,
+      "max_covered_same_family_local_identity": null,
+      "max_same_family_global_identity": 0.16990291262135923,
+      "source_product": "beta-glucuronidase",
+      "submission_group": "pru-series"
+    },
+    "AM181661.1:6": {
+      "ancestry": "ecoli_gus",
+      "family": "c.1.8",
+      "joined_cds": false,
+      "layout": "fused reporters",
+      "low_identity": true,
+      "max_covered_same_family_local_identity": null,
+      "max_same_family_global_identity": 0.16990291262135923,
+      "source_product": "beta-glucuronidase",
+      "submission_group": "arabidopsis-fusion"
+    }
+  },
+  "unique_candidate_and_diagnostic_proteins": 25
+}

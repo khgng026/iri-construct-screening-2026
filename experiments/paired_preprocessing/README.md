@@ -48,4 +48,4 @@ python -m experiments.paired_preprocessing.verify --protocol "$protocol" \
 
 The [grouped cohort v2](COHORT_STUDY.md) evaluates the minimal, start-ranking, Pyrodigal and annotation-derived arms with ESM-2 and BLOSUM62 on 777 held-out constructs. The protocol was locked before scoring. [Results](COHORT_RESULTS.md)
 
-The [distant reporter pilot](DISTANT_REPORTERS.md) compares alignment, profiles and ESM-2 starting from whole public DNA records. It separates the effect of reaching a documented locus from the effect of the method that scores it.
+The [distant reporter pilot](DISTANT_REPORTERS.md) compares alignment, profiles and ESM-2 starting from whole public DNA records. The [plant-reporter comparison](Q3_GUS_CONTEXT.md) follows the same verified domain across four construct layouts. Both track whether the methods reach a documented locus and whether they identify the protein group.
