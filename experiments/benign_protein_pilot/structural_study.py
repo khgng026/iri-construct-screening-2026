@@ -86,13 +86,13 @@ def domain_source(node):
     return f'https://scop.berkeley.edu/astral/seq/ver={RELEASE}&id={node}&seqOption=0&output=text'
 
 
-def _domain_sequence(row):
+def _domain_sequence(row, *, minimum_length=100):
     payload = _source_file(domain_source(row['node']))
     header, *lines = payload.decode('ascii').splitlines()
     if header.split()[:2] != [f">{row['id']}", row['family']]:
         raise ValueError(f"ASTRAL response did not identify {row['id']}")
     sequence = ''.join(lines).upper()
-    if not 100 <= len(sequence) <= 620 or set(sequence) - ALPHABET:
+    if not minimum_length <= len(sequence) <= 620 or set(sequence) - ALPHABET:
         return None
     return dict(row, length=len(sequence), sha256=sha(sequence.encode('ascii')), source_sha256=sha(payload)), sequence
 
