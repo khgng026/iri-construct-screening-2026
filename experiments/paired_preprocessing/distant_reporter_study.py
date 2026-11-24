@@ -18,6 +18,7 @@ from .verify import _covered, _match
 PANEL = Path(__file__).with_name('distant_reporter_panel.json')
 ALTERNATE = PANEL.with_name('distant_reporter_alternate_references.json')
 RENILLA = PANEL.with_name('distant_renilla_panel.json')
+GUS_CONTEXT = PANEL.with_name('gus_context_panel.json')
 CAPS = (1, 2, 4)
 PRIMARY_CAP = 2
 MIN_OVERLAP = 0.80
@@ -27,6 +28,13 @@ MODELS = ('esm2_8m', 'esm2_150m')
 
 def _signature(sequence):
     return hashlib.sha256(sequence.encode('ascii')).hexdigest()
+
+
+def _domain_locus(spans, strand, start, end):
+    if len(spans) != 1 or not 0 <= start < end or 3 * end > spans[0][1] - spans[0][0]:
+        raise ValueError('The archived domain needs a contiguous in-frame source interval')
+    left, right = spans[0]
+    return [[left + 3 * start, left + 3 * end]] if strand == 1 else [[right - 3 * end, right - 3 * start]]
 
 
 def load(folder, panel):
@@ -55,13 +63,54 @@ def load(folder, panel):
         for target in row['components']:
             feature = features[target['feature_index']]
             unit = units[feature.feature_id]
-            if (feature.source_feature_type != 'CDS' or unit.extraction_state != 'exported'
-                    or feature.names['product'] != target['source_product']
-                    or _signature(unit.sequence) != target['translation_sha256']):
+            sequence = unit.sequence if unit.extraction_state == 'exported' else None
+            complete = sequence
+            source_feature = record.features[target['feature_index']]
+            qualifiers = source_feature.qualifiers
+            translation_table = int(qualifiers.get('transl_table', ['1'])[0])
+            if 'context_feature_index' in target:
+                # The documented reporter segment is internal to a validated fusion CDS.
+                context = features[target['context_feature_index']]
+                context_unit = units[context.feature_id]
+                enclosing = record.features[target['context_feature_index']].location
+                location = source_feature.location
+                sequence = str(source_feature.extract(record.seq).translate(table=translation_table)).removesuffix('*')
+                complete = context_unit.sequence
+                offset = (location.start - enclosing.start if location.strand == 1
+                          else enclosing.end - location.end)
+                if (context_unit.extraction_state != 'exported' or sequence not in complete
+                        or qualifiers.get('translation') != [sequence] or qualifiers.get('codon_start', ['1']) != ['1']
+                        or context.names['product'] != target['context_product']
+                        or _signature(complete) != target['context_sha256'] or location.strand != enclosing.strand
+                        or location.strand not in (-1, 1) or len(location.parts) != 1 or len(enclosing.parts) != 1
+                        or offset % 3 or complete[offset // 3:offset // 3 + len(sequence)] != sequence
+                        or not enclosing.start <= location.start < location.end <= enclosing.end):
+                    raise ValueError(f'{accession}: the documented embedded reporter did not validate')
+                strand = location.strand
+                spans = [[int(location.start), int(location.end)]]
+            else:
+                strand = {'+': 1, '-': -1}[feature.strand]
+                spans = [[s['start0'], s['end0']] for s in feature.segments]
+            if (feature.source_feature_type != 'CDS' or not sequence or feature.names['product'] != target['source_product']
+                    or _signature(sequence) != target['translation_sha256']):
                 raise ValueError(f'{accession}: documented target protein could not be validated')
-            targets.append({**target, 'id': f"{accession}:{target['feature_index']}",
-                            'strand': {'+': 1, '-': -1}[feature.strand],
-                            'spans': [[s['start0'], s['end0']] for s in feature.segments], 'protein': unit.sequence})
+            case = {**target, 'id': f"{accession}:{target['feature_index']}", 'strand': strand,
+                    'spans': spans, 'protein': sequence}
+            if 'domain_residue_start0' in target:
+                start, end = target['domain_residue_start0'], target['domain_residue_end0']
+                region = sequence[start:end]
+                if qualifiers.get('codon_start', ['1']) != ['1'] or _signature(region) != target['domain_sha256']:
+                    raise ValueError(f'{accession}: the documented domain no longer matches its record')
+                domain_spans = _domain_locus(spans, strand, start, end)
+                (left, right), = domain_spans
+                domain_dna = record.seq[left:right]
+                if strand == -1:
+                    domain_dna = domain_dna.reverse_complement()
+                if str(domain_dna.translate(table=translation_table)) != region:
+                    raise ValueError(f'{accession}: the domain locus does not reproduce its protein')
+                case.update(protein=region, spans=domain_spans, complete_product=complete,
+                            layout=row['layout'], submission_group=row['submission_group'])
+            targets.append(case)
         records[accession] = {'dna': str(record.seq).upper(), 'targets': targets}
     return records, refs
 
@@ -213,8 +262,11 @@ def score(records, refs, panel_hash):
     distances = _identities(targets, refs)
     scored = [q['protein'] for arm in pools.values() for pool in arm.values() for q in pool[:max(CAPS)]]
     scored.extend(target['protein'] for target in targets)
+    complete = {target['id']: target['complete_product'] for target in targets if 'complete_product' in target}
+    scored.extend(complete.values())
     ranked, models = _predictions({_signature(sequence): sequence for sequence in scored}, refs)
-    metadata = {t['id']: {**{key: t[key] for key in ('source_product', 'family', 'ancestry')},
+    metadata_fields = ('source_product', 'family', 'ancestry', 'layout', 'submission_group')
+    metadata = {t['id']: {**{key: t[key] for key in metadata_fields if key in t},
                            **distances[t['id']], 'joined_cds': len(t['spans']) > 1} for t in targets}
     diagnostics = {t['id']: {method: hits[_signature(t['protein'])] == t['family']
                               for method, hits in ranked.items()} for t in targets}
@@ -236,18 +288,24 @@ def score(records, refs, panel_hash):
                 'query_residues': sum(len(q['protein']) for pool in by_record.values() for q in pool[:cap]),
                 'cases': cases,
             }
-    return {'schema': 'distant-public-reporter-results-1', 'panel_sha256': panel_hash, 'primary_cap': PRIMARY_CAP,
+    report = {'schema': 'distant-public-reporter-results-1', 'panel_sha256': panel_hash, 'primary_cap': PRIMARY_CAP,
             'low_identity_below': REMOTE_IDENTITY, 'locus_overlap_at_least': MIN_OVERLAP,
             'unique_candidate_and_diagnostic_proteins': len({_signature(sequence) for sequence in scored}),
             'reference_proteins': len(refs), 'models': models, 'targets': metadata,
             'environment': {name: version(name) for name in ('biopython', 'numpy', 'pyfamsa', 'pyhmmer', 'pyrodigal',
                                                                'torch', 'transformers')},
             'known_boundaries_correct': diagnostics, 'construct_results': results}
+    if complete:
+        report['known_full_products_correct'] = {
+            key: {method: hits[_signature(protein)] == metadata[key]['family'] for method, hits in ranked.items()}
+            for key, protein in complete.items()
+        }
+    return report
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--panel', choices=('initial', 'alternate', 'renilla'), default='initial')
+    parser.add_argument('--panel', choices=('initial', 'alternate', 'renilla', 'gus-context'), default='initial')
     stages = parser.add_subparsers(dest='stage', required=True)
     stages.add_parser('acquire').add_argument('folder', type=Path)
     stages.add_parser('audit').add_argument('folder', type=Path)
@@ -255,7 +313,7 @@ def main():
     runner.add_argument('folder', type=Path)
     runner.add_argument('--out', required=True, type=Path)
     args = parser.parse_args()
-    panel_path = RENILLA if args.panel == 'renilla' else PANEL
+    panel_path = {'renilla': RENILLA, 'gus-context': GUS_CONTEXT}.get(args.panel, PANEL)
     panel = read(panel_path)
     panel_hash = digest(panel_path)
     if args.panel == 'alternate':

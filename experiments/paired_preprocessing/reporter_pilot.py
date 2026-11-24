@@ -53,8 +53,23 @@ def acquire(panel, output, *, canonical_record_end=False):
         records[row['accession']] = fetch(root + query, row['sha256'], canonical_record_end)
         time.sleep(0.4)
     reference_source = panel['reference_source']
-    raw = fetch(reference_source['url'], reference_source['response_sha256'])
-    sequences = {r['Entry']: r['Sequence'] for r in csv.DictReader(io.StringIO(raw.decode()), delimiter='\t')}
+    if reference_source.get('provider') == 'SCOPe ASTRAL':
+        snapshots, sequences = {}, {}
+        for row in panel['references']:
+            accession = row['accession']
+            raw = fetch(row['url'], row['source_sha256'])
+            description, *lines = raw.decode('ascii').splitlines()
+            sequence = ''.join(lines).upper()
+            if (description.split()[:1] != [f'>{accession}']
+                    or hashlib.sha256(sequence.encode('ascii')).hexdigest() != row['sequence_sha256']):
+                raise ValueError(f'{accession}: ASTRAL record differs from the frozen panel')
+            snapshots[f'{accession}.fasta'] = raw
+            sequences[accession] = sequence
+            time.sleep(0.85)
+    else:
+        raw = fetch(reference_source['url'], reference_source['response_sha256'])
+        snapshots = {'reference-snapshot.tsv': raw}
+        sequences = {r['Entry']: r['Sequence'] for r in csv.DictReader(io.StringIO(raw.decode()), delimiter='\t')}
     references = [{**row, 'sequence': sequences[row['accession']]} for row in panel['references']]
     out_bytes = (json.dumps(references, indent=2, sort_keys=True, allow_nan=False) + '\n').encode()
     if hashlib.sha256(out_bytes).hexdigest() != reference_source['prepared_sha256']:
@@ -62,7 +77,8 @@ def acquire(panel, output, *, canonical_record_end=False):
     (output / 'sources').mkdir(parents=True)
     for accession, data in records.items():
         (output / 'sources' / f'{accession}.gb').write_bytes(data)
-    (output / 'sources' / 'reference-snapshot.tsv').write_bytes(raw)
+    for filename, data in snapshots.items():
+        (output / 'sources' / filename).write_bytes(data)
     (output / 'references.private.json').write_bytes(out_bytes)
 
 

@@ -1,0 +1,15 @@
+# A distant plant reporter across construct layouts
+
+This is a fixed end-to-end comparison for [Q3](../../docs/project/SCOPE.md). It asks whether the same reporter domain reaches the scorer and gets identified correctly across different archived construct layouts. Holding the reporter nearly constant helps distinguish candidate selection from scoring.
+
+## Protocol fixed before scoring
+
+- Use the seven dated NCBI records in `gus_context_panel.json`. They cover a compact moss reporter, an archived GFP–GUS fusion, a series of four long dual-reporter vectors, and one long single-reporter vector. Treat the four vectors from the same submission as one series. All cases represent one enzyme ancestry. Six have the same catalytic domain sequence. The compact case has one deletion and seven substitutions relative to the known structure.
+- The answer key is the beta-glucuronidase catalytic domain. The archived coding sequence must independently reproduce the deposited translation and the domain interval must retranslate to the frozen protein. Map the experimental structure 3K46 chain A residues 274–601 to reviewed UniProt P05804 and then to each translated reporter. The structural label is SCOPe c.1.8. The embedded reporter in the fusion is validated as an in-frame segment of its complete deposited translation.
+- Compare against the same six curated SCOPe 2.08 domains for every method. Two represent c.1.8 and four represent two competing superfamilies in the same TIM barrel fold. The structure used to establish the answer is outside the reference set. The primary tier has less than 25% global identity to every same-label reference. Also report whether any same-label local alignment covers at least 70% of both domains.
+- Pass only DNA sequence to the existing minimal and Pyrodigal candidate generators. Rank by their existing rules and compare at a primary cap of two protein queries, with one and four as sensitivity checks. Count one correct component if a selected candidate covers at least 80% of its domain on the correct strand and its top-ranked label is correct. Report whether a covering candidate existed before the query cap, actual queries, and input residues.
+- Apply raw and reference-normalized BLOSUM62, an HMMER profile per superfamily, and mean and residue-local ESM-2 at 8M and 150M to the same candidates. Run two diagnostics separately using the documented full reporter or fusion product and the independently mapped catalytic domain. Those diagnostics use the answer key and are not end-to-end conditions.
+
+Report the seven records and four submission groups descriptively. Layout and submission differ together, and the enzyme ancestry is shared. This comparison measures recognition of a structural superfamily within a small fixed reference set.
+
+[NCBI records and source hashes](gus_context_panel.json) · [Experimental structure](https://www.rcsb.org/structure/3K46) · [Reviewed protein](https://www.uniprot.org/uniprotkb/P05804/entry) · [SCOPe superfamily](https://scop.berkeley.edu/sunid=51445)
