@@ -1,0 +1,1227 @@
+{
+  "bands": {
+    "under_25_and_no_covered_same_label_hit_both": {
+      "original": {
+        "best_conventional_equal_fold": [
+          "superfamily_profiles"
+        ],
+        "by_fold": {
+          "a.118": {
+            "correct": {
+              "conventional_oracle": 32,
+              "esm2_150m_local": 26,
+              "fine_profiles": 13,
+              "normalized_alignment": 16,
+              "raw_alignment": 23,
+              "superfamily_profiles": 18
+            },
+            "domains": 36,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 24,
+                "neither_correct": 2,
+                "only_comparator": 8,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 10,
+                "neither_correct": 7,
+                "only_comparator": 3,
+                "only_model": 16
+              },
+              "normalized_alignment": {
+                "both_correct": 16,
+                "neither_correct": 10,
+                "only_comparator": 0,
+                "only_model": 10
+              },
+              "raw_alignment": {
+                "both_correct": 15,
+                "neither_correct": 2,
+                "only_comparator": 8,
+                "only_model": 11
+              },
+              "superfamily_profiles": {
+                "both_correct": 16,
+                "neither_correct": 8,
+                "only_comparator": 2,
+                "only_model": 10
+              }
+            }
+          },
+          "b.34": {
+            "correct": {
+              "conventional_oracle": 27,
+              "esm2_150m_local": 20,
+              "fine_profiles": 24,
+              "normalized_alignment": 12,
+              "raw_alignment": 18,
+              "superfamily_profiles": 24
+            },
+            "domains": 31,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 18,
+                "neither_correct": 2,
+                "only_comparator": 9,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 15,
+                "neither_correct": 2,
+                "only_comparator": 9,
+                "only_model": 5
+              },
+              "normalized_alignment": {
+                "both_correct": 8,
+                "neither_correct": 7,
+                "only_comparator": 4,
+                "only_model": 12
+              },
+              "raw_alignment": {
+                "both_correct": 13,
+                "neither_correct": 6,
+                "only_comparator": 5,
+                "only_model": 7
+              },
+              "superfamily_profiles": {
+                "both_correct": 16,
+                "neither_correct": 3,
+                "only_comparator": 8,
+                "only_model": 4
+              }
+            }
+          },
+          "b.43": {
+            "correct": {
+              "conventional_oracle": 11,
+              "esm2_150m_local": 10,
+              "fine_profiles": 7,
+              "normalized_alignment": 6,
+              "raw_alignment": 11,
+              "superfamily_profiles": 7
+            },
+            "domains": 17,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 8,
+                "neither_correct": 4,
+                "only_comparator": 3,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 5,
+                "neither_correct": 5,
+                "only_comparator": 2,
+                "only_model": 5
+              },
+              "normalized_alignment": {
+                "both_correct": 5,
+                "neither_correct": 6,
+                "only_comparator": 1,
+                "only_model": 5
+              },
+              "raw_alignment": {
+                "both_correct": 8,
+                "neither_correct": 4,
+                "only_comparator": 3,
+                "only_model": 2
+              },
+              "superfamily_profiles": {
+                "both_correct": 5,
+                "neither_correct": 5,
+                "only_comparator": 2,
+                "only_model": 5
+              }
+            }
+          },
+          "d.58": {
+            "correct": {
+              "conventional_oracle": 15,
+              "esm2_150m_local": 15,
+              "fine_profiles": 12,
+              "normalized_alignment": 12,
+              "raw_alignment": 13,
+              "superfamily_profiles": 14
+            },
+            "domains": 16,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 15,
+                "neither_correct": 1,
+                "only_comparator": 0,
+                "only_model": 0
+              },
+              "fine_profiles": {
+                "both_correct": 12,
+                "neither_correct": 1,
+                "only_comparator": 0,
+                "only_model": 3
+              },
+              "normalized_alignment": {
+                "both_correct": 12,
+                "neither_correct": 1,
+                "only_comparator": 0,
+                "only_model": 3
+              },
+              "raw_alignment": {
+                "both_correct": 13,
+                "neither_correct": 1,
+                "only_comparator": 0,
+                "only_model": 2
+              },
+              "superfamily_profiles": {
+                "both_correct": 14,
+                "neither_correct": 1,
+                "only_comparator": 0,
+                "only_model": 1
+              }
+            }
+          },
+          "d.79": {
+            "correct": {
+              "conventional_oracle": 11,
+              "esm2_150m_local": 13,
+              "fine_profiles": 11,
+              "normalized_alignment": 8,
+              "raw_alignment": 8,
+              "superfamily_profiles": 11
+            },
+            "domains": 13,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 11,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 11,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 2
+              },
+              "normalized_alignment": {
+                "both_correct": 8,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 5
+              },
+              "raw_alignment": {
+                "both_correct": 8,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 5
+              },
+              "superfamily_profiles": {
+                "both_correct": 11,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 2
+              }
+            }
+          }
+        },
+        "correct": {
+          "conventional_oracle": 96,
+          "esm2_150m_local": 84,
+          "fine_profiles": 67,
+          "normalized_alignment": 54,
+          "raw_alignment": 73,
+          "superfamily_profiles": 74
+        },
+        "domains": 113,
+        "equal_fold_accuracy": {
+          "conventional_oracle": 0.8841666666666667,
+          "esm2_150m_local": 0.8225,
+          "fine_profiles": 0.6414814814814814,
+          "normalized_alignment": 0.5962037037037037,
+          "raw_alignment": 0.6927777777777777,
+          "superfamily_profiles": 0.695
+        },
+        "leave_one_fold_out_gain": {
+          "conventional_oracle": [
+            -0.11354166666666665,
+            -0.004976851851851816
+          ],
+          "fine_profiles": [
+            0.12615740740740744,
+            0.26192129629629635
+          ],
+          "normalized_alignment": [
+            0.15578703703703706,
+            0.26203703703703707
+          ],
+          "raw_alignment": [
+            0.03194444444444447,
+            0.18020833333333336
+          ],
+          "superfamily_profiles": [
+            0.07881944444444448,
+            0.2061342592592593
+          ]
+        },
+        "paired_150m_local": {
+          "conventional_oracle": {
+            "both_correct": 76,
+            "neither_correct": 9,
+            "only_comparator": 20,
+            "only_model": 8
+          },
+          "fine_profiles": {
+            "both_correct": 53,
+            "neither_correct": 15,
+            "only_comparator": 14,
+            "only_model": 31
+          },
+          "normalized_alignment": {
+            "both_correct": 49,
+            "neither_correct": 24,
+            "only_comparator": 5,
+            "only_model": 35
+          },
+          "raw_alignment": {
+            "both_correct": 57,
+            "neither_correct": 13,
+            "only_comparator": 16,
+            "only_model": 27
+          },
+          "superfamily_profiles": {
+            "both_correct": 62,
+            "neither_correct": 17,
+            "only_comparator": 12,
+            "only_model": 22
+          }
+        }
+      },
+      "original_to_wider_vs_conventional_union": {
+        "both_correct": {
+          "both_correct": 69,
+          "conventional_only": 3,
+          "model_only": 4
+        },
+        "both_missed": {
+          "both_correct": 2,
+          "both_missed": 7
+        },
+        "conventional_only": {
+          "both_correct": 1,
+          "both_missed": 1,
+          "conventional_only": 18
+        },
+        "model_only": {
+          "both_correct": 1,
+          "both_missed": 1,
+          "model_only": 6
+        }
+      },
+      "wider": {
+        "best_conventional_equal_fold": [
+          "superfamily_profiles"
+        ],
+        "by_fold": {
+          "a.118": {
+            "correct": {
+              "conventional_oracle": 32,
+              "esm2_150m_local": 27,
+              "fine_profiles": 11,
+              "normalized_alignment": 13,
+              "raw_alignment": 22,
+              "superfamily_profiles": 20
+            },
+            "domains": 36,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 26,
+                "neither_correct": 3,
+                "only_comparator": 6,
+                "only_model": 1
+              },
+              "fine_profiles": {
+                "both_correct": 9,
+                "neither_correct": 7,
+                "only_comparator": 2,
+                "only_model": 18
+              },
+              "normalized_alignment": {
+                "both_correct": 13,
+                "neither_correct": 9,
+                "only_comparator": 0,
+                "only_model": 14
+              },
+              "raw_alignment": {
+                "both_correct": 16,
+                "neither_correct": 3,
+                "only_comparator": 6,
+                "only_model": 11
+              },
+              "superfamily_profiles": {
+                "both_correct": 18,
+                "neither_correct": 7,
+                "only_comparator": 2,
+                "only_model": 9
+              }
+            }
+          },
+          "b.34": {
+            "correct": {
+              "conventional_oracle": 27,
+              "esm2_150m_local": 18,
+              "fine_profiles": 22,
+              "normalized_alignment": 12,
+              "raw_alignment": 11,
+              "superfamily_profiles": 21
+            },
+            "domains": 31,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 16,
+                "neither_correct": 2,
+                "only_comparator": 11,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 13,
+                "neither_correct": 4,
+                "only_comparator": 9,
+                "only_model": 5
+              },
+              "normalized_alignment": {
+                "both_correct": 7,
+                "neither_correct": 8,
+                "only_comparator": 5,
+                "only_model": 11
+              },
+              "raw_alignment": {
+                "both_correct": 6,
+                "neither_correct": 8,
+                "only_comparator": 5,
+                "only_model": 12
+              },
+              "superfamily_profiles": {
+                "both_correct": 13,
+                "neither_correct": 5,
+                "only_comparator": 8,
+                "only_model": 5
+              }
+            }
+          },
+          "b.43": {
+            "correct": {
+              "conventional_oracle": 11,
+              "esm2_150m_local": 9,
+              "fine_profiles": 6,
+              "normalized_alignment": 5,
+              "raw_alignment": 11,
+              "superfamily_profiles": 8
+            },
+            "domains": 17,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 7,
+                "neither_correct": 4,
+                "only_comparator": 4,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 5,
+                "neither_correct": 7,
+                "only_comparator": 1,
+                "only_model": 4
+              },
+              "normalized_alignment": {
+                "both_correct": 3,
+                "neither_correct": 6,
+                "only_comparator": 2,
+                "only_model": 6
+              },
+              "raw_alignment": {
+                "both_correct": 7,
+                "neither_correct": 4,
+                "only_comparator": 4,
+                "only_model": 2
+              },
+              "superfamily_profiles": {
+                "both_correct": 5,
+                "neither_correct": 5,
+                "only_comparator": 3,
+                "only_model": 4
+              }
+            }
+          },
+          "d.58": {
+            "correct": {
+              "conventional_oracle": 14,
+              "esm2_150m_local": 16,
+              "fine_profiles": 12,
+              "normalized_alignment": 13,
+              "raw_alignment": 13,
+              "superfamily_profiles": 13
+            },
+            "domains": 16,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 14,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 12,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 4
+              },
+              "normalized_alignment": {
+                "both_correct": 13,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 3
+              },
+              "raw_alignment": {
+                "both_correct": 13,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 3
+              },
+              "superfamily_profiles": {
+                "both_correct": 13,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 3
+              }
+            }
+          },
+          "d.79": {
+            "correct": {
+              "conventional_oracle": 10,
+              "esm2_150m_local": 13,
+              "fine_profiles": 10,
+              "normalized_alignment": 7,
+              "raw_alignment": 8,
+              "superfamily_profiles": 10
+            },
+            "domains": 13,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 10,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 3
+              },
+              "fine_profiles": {
+                "both_correct": 10,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 3
+              },
+              "normalized_alignment": {
+                "both_correct": 7,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 6
+              },
+              "raw_alignment": {
+                "both_correct": 8,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 5
+              },
+              "superfamily_profiles": {
+                "both_correct": 10,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 3
+              }
+            }
+          }
+        },
+        "correct": {
+          "conventional_oracle": 94,
+          "esm2_150m_local": 83,
+          "fine_profiles": 61,
+          "normalized_alignment": 50,
+          "raw_alignment": 65,
+          "superfamily_profiles": 72
+        },
+        "domains": 113,
+        "equal_fold_accuracy": {
+          "conventional_oracle": 0.8410185185185185,
+          "esm2_150m_local": 0.7825,
+          "fine_profiles": 0.6173148148148148,
+          "normalized_alignment": 0.5462037037037037,
+          "raw_alignment": 0.6601851851851852,
+          "superfamily_profiles": 0.6912962962962963
+        },
+        "leave_one_fold_out_gain": {
+          "conventional_oracle": [
+            -0.12523148148148144,
+            0.013888888888888923
+          ],
+          "fine_profiles": [
+            0.09039351851851853,
+            0.2744212962962963
+          ],
+          "normalized_alignment": [
+            0.15266203703703707,
+            0.2953703703703704
+          ],
+          "raw_alignment": [
+            0.022685185185185225,
+            0.21261574074074077
+          ],
+          "superfamily_profiles": [
+            0.05671296296296298,
+            0.15868055555555557
+          ]
+        },
+        "paired_150m_local": {
+          "conventional_oracle": {
+            "both_correct": 73,
+            "neither_correct": 9,
+            "only_comparator": 21,
+            "only_model": 10
+          },
+          "fine_profiles": {
+            "both_correct": 49,
+            "neither_correct": 18,
+            "only_comparator": 12,
+            "only_model": 34
+          },
+          "normalized_alignment": {
+            "both_correct": 43,
+            "neither_correct": 23,
+            "only_comparator": 7,
+            "only_model": 40
+          },
+          "raw_alignment": {
+            "both_correct": 50,
+            "neither_correct": 15,
+            "only_comparator": 15,
+            "only_model": 33
+          },
+          "superfamily_profiles": {
+            "both_correct": 59,
+            "neither_correct": 17,
+            "only_comparator": 13,
+            "only_model": 24
+          }
+        }
+      }
+    },
+    "under_25_both": {
+      "original": {
+        "best_conventional_equal_fold": [
+          "superfamily_profiles"
+        ],
+        "by_fold": {
+          "a.118": {
+            "correct": {
+              "conventional_oracle": 45,
+              "esm2_150m_local": 39,
+              "fine_profiles": 25,
+              "normalized_alignment": 21,
+              "raw_alignment": 34,
+              "superfamily_profiles": 29
+            },
+            "domains": 49,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 37,
+                "neither_correct": 2,
+                "only_comparator": 8,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 22,
+                "neither_correct": 7,
+                "only_comparator": 3,
+                "only_model": 17
+              },
+              "normalized_alignment": {
+                "both_correct": 21,
+                "neither_correct": 10,
+                "only_comparator": 0,
+                "only_model": 18
+              },
+              "raw_alignment": {
+                "both_correct": 26,
+                "neither_correct": 2,
+                "only_comparator": 8,
+                "only_model": 13
+              },
+              "superfamily_profiles": {
+                "both_correct": 27,
+                "neither_correct": 8,
+                "only_comparator": 2,
+                "only_model": 12
+              }
+            }
+          },
+          "b.34": {
+            "correct": {
+              "conventional_oracle": 27,
+              "esm2_150m_local": 20,
+              "fine_profiles": 24,
+              "normalized_alignment": 12,
+              "raw_alignment": 18,
+              "superfamily_profiles": 24
+            },
+            "domains": 31,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 18,
+                "neither_correct": 2,
+                "only_comparator": 9,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 15,
+                "neither_correct": 2,
+                "only_comparator": 9,
+                "only_model": 5
+              },
+              "normalized_alignment": {
+                "both_correct": 8,
+                "neither_correct": 7,
+                "only_comparator": 4,
+                "only_model": 12
+              },
+              "raw_alignment": {
+                "both_correct": 13,
+                "neither_correct": 6,
+                "only_comparator": 5,
+                "only_model": 7
+              },
+              "superfamily_profiles": {
+                "both_correct": 16,
+                "neither_correct": 3,
+                "only_comparator": 8,
+                "only_model": 4
+              }
+            }
+          },
+          "b.43": {
+            "correct": {
+              "conventional_oracle": 11,
+              "esm2_150m_local": 10,
+              "fine_profiles": 7,
+              "normalized_alignment": 6,
+              "raw_alignment": 11,
+              "superfamily_profiles": 7
+            },
+            "domains": 17,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 8,
+                "neither_correct": 4,
+                "only_comparator": 3,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 5,
+                "neither_correct": 5,
+                "only_comparator": 2,
+                "only_model": 5
+              },
+              "normalized_alignment": {
+                "both_correct": 5,
+                "neither_correct": 6,
+                "only_comparator": 1,
+                "only_model": 5
+              },
+              "raw_alignment": {
+                "both_correct": 8,
+                "neither_correct": 4,
+                "only_comparator": 3,
+                "only_model": 2
+              },
+              "superfamily_profiles": {
+                "both_correct": 5,
+                "neither_correct": 5,
+                "only_comparator": 2,
+                "only_model": 5
+              }
+            }
+          },
+          "d.58": {
+            "correct": {
+              "conventional_oracle": 17,
+              "esm2_150m_local": 17,
+              "fine_profiles": 14,
+              "normalized_alignment": 13,
+              "raw_alignment": 15,
+              "superfamily_profiles": 15
+            },
+            "domains": 18,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 17,
+                "neither_correct": 1,
+                "only_comparator": 0,
+                "only_model": 0
+              },
+              "fine_profiles": {
+                "both_correct": 14,
+                "neither_correct": 1,
+                "only_comparator": 0,
+                "only_model": 3
+              },
+              "normalized_alignment": {
+                "both_correct": 13,
+                "neither_correct": 1,
+                "only_comparator": 0,
+                "only_model": 4
+              },
+              "raw_alignment": {
+                "both_correct": 15,
+                "neither_correct": 1,
+                "only_comparator": 0,
+                "only_model": 2
+              },
+              "superfamily_profiles": {
+                "both_correct": 15,
+                "neither_correct": 1,
+                "only_comparator": 0,
+                "only_model": 2
+              }
+            }
+          },
+          "d.79": {
+            "correct": {
+              "conventional_oracle": 11,
+              "esm2_150m_local": 13,
+              "fine_profiles": 11,
+              "normalized_alignment": 8,
+              "raw_alignment": 8,
+              "superfamily_profiles": 11
+            },
+            "domains": 13,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 11,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 11,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 2
+              },
+              "normalized_alignment": {
+                "both_correct": 8,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 5
+              },
+              "raw_alignment": {
+                "both_correct": 8,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 5
+              },
+              "superfamily_profiles": {
+                "both_correct": 11,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 2
+              }
+            }
+          }
+        },
+        "correct": {
+          "conventional_oracle": 111,
+          "esm2_150m_local": 99,
+          "fine_profiles": 81,
+          "normalized_alignment": 60,
+          "raw_alignment": 86,
+          "superfamily_profiles": 86
+        },
+        "domains": 128,
+        "equal_fold_accuracy": {
+          "conventional_oracle": 0.8882912457912457,
+          "esm2_150m_local": 0.8346717171717172,
+          "fine_profiles": 0.6644528619528619,
+          "normalized_alignment": 0.5996464646464646,
+          "raw_alignment": 0.7007491582491583,
+          "superfamily_profiles": 0.7032154882154882
+        },
+        "leave_one_fold_out_gain": {
+          "conventional_oracle": [
+            -0.1034827441077441,
+            0.005082070707070729
+          ],
+          "fine_profiles": [
+            0.11574074074074074,
+            0.24842171717171718
+          ],
+          "normalized_alignment": [
+            0.16669823232323233,
+            0.2729482323232323
+          ],
+          "raw_alignment": [
+            0.03719486531986532,
+            0.1854587542087542
+          ],
+          "superfamily_profiles": [
+            0.08376473063973065,
+            0.21107954545454546
+          ]
+        },
+        "paired_150m_local": {
+          "conventional_oracle": {
+            "both_correct": 91,
+            "neither_correct": 9,
+            "only_comparator": 20,
+            "only_model": 8
+          },
+          "fine_profiles": {
+            "both_correct": 67,
+            "neither_correct": 15,
+            "only_comparator": 14,
+            "only_model": 32
+          },
+          "normalized_alignment": {
+            "both_correct": 55,
+            "neither_correct": 24,
+            "only_comparator": 5,
+            "only_model": 44
+          },
+          "raw_alignment": {
+            "both_correct": 70,
+            "neither_correct": 13,
+            "only_comparator": 16,
+            "only_model": 29
+          },
+          "superfamily_profiles": {
+            "both_correct": 74,
+            "neither_correct": 17,
+            "only_comparator": 12,
+            "only_model": 25
+          }
+        }
+      },
+      "original_to_wider_vs_conventional_union": {
+        "both_correct": {
+          "both_correct": 84,
+          "conventional_only": 3,
+          "model_only": 4
+        },
+        "both_missed": {
+          "both_correct": 2,
+          "both_missed": 7
+        },
+        "conventional_only": {
+          "both_correct": 1,
+          "both_missed": 1,
+          "conventional_only": 18
+        },
+        "model_only": {
+          "both_correct": 1,
+          "both_missed": 1,
+          "model_only": 6
+        }
+      },
+      "wider": {
+        "best_conventional_equal_fold": [
+          "superfamily_profiles"
+        ],
+        "by_fold": {
+          "a.118": {
+            "correct": {
+              "conventional_oracle": 45,
+              "esm2_150m_local": 40,
+              "fine_profiles": 21,
+              "normalized_alignment": 18,
+              "raw_alignment": 33,
+              "superfamily_profiles": 31
+            },
+            "domains": 49,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 39,
+                "neither_correct": 3,
+                "only_comparator": 6,
+                "only_model": 1
+              },
+              "fine_profiles": {
+                "both_correct": 19,
+                "neither_correct": 7,
+                "only_comparator": 2,
+                "only_model": 21
+              },
+              "normalized_alignment": {
+                "both_correct": 18,
+                "neither_correct": 9,
+                "only_comparator": 0,
+                "only_model": 22
+              },
+              "raw_alignment": {
+                "both_correct": 27,
+                "neither_correct": 3,
+                "only_comparator": 6,
+                "only_model": 13
+              },
+              "superfamily_profiles": {
+                "both_correct": 29,
+                "neither_correct": 7,
+                "only_comparator": 2,
+                "only_model": 11
+              }
+            }
+          },
+          "b.34": {
+            "correct": {
+              "conventional_oracle": 27,
+              "esm2_150m_local": 18,
+              "fine_profiles": 22,
+              "normalized_alignment": 12,
+              "raw_alignment": 11,
+              "superfamily_profiles": 21
+            },
+            "domains": 31,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 16,
+                "neither_correct": 2,
+                "only_comparator": 11,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 13,
+                "neither_correct": 4,
+                "only_comparator": 9,
+                "only_model": 5
+              },
+              "normalized_alignment": {
+                "both_correct": 7,
+                "neither_correct": 8,
+                "only_comparator": 5,
+                "only_model": 11
+              },
+              "raw_alignment": {
+                "both_correct": 6,
+                "neither_correct": 8,
+                "only_comparator": 5,
+                "only_model": 12
+              },
+              "superfamily_profiles": {
+                "both_correct": 13,
+                "neither_correct": 5,
+                "only_comparator": 8,
+                "only_model": 5
+              }
+            }
+          },
+          "b.43": {
+            "correct": {
+              "conventional_oracle": 11,
+              "esm2_150m_local": 9,
+              "fine_profiles": 6,
+              "normalized_alignment": 5,
+              "raw_alignment": 11,
+              "superfamily_profiles": 8
+            },
+            "domains": 17,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 7,
+                "neither_correct": 4,
+                "only_comparator": 4,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 5,
+                "neither_correct": 7,
+                "only_comparator": 1,
+                "only_model": 4
+              },
+              "normalized_alignment": {
+                "both_correct": 3,
+                "neither_correct": 6,
+                "only_comparator": 2,
+                "only_model": 6
+              },
+              "raw_alignment": {
+                "both_correct": 7,
+                "neither_correct": 4,
+                "only_comparator": 4,
+                "only_model": 2
+              },
+              "superfamily_profiles": {
+                "both_correct": 5,
+                "neither_correct": 5,
+                "only_comparator": 3,
+                "only_model": 4
+              }
+            }
+          },
+          "d.58": {
+            "correct": {
+              "conventional_oracle": 16,
+              "esm2_150m_local": 18,
+              "fine_profiles": 14,
+              "normalized_alignment": 14,
+              "raw_alignment": 15,
+              "superfamily_profiles": 15
+            },
+            "domains": 18,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 16,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 2
+              },
+              "fine_profiles": {
+                "both_correct": 14,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 4
+              },
+              "normalized_alignment": {
+                "both_correct": 14,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 4
+              },
+              "raw_alignment": {
+                "both_correct": 15,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 3
+              },
+              "superfamily_profiles": {
+                "both_correct": 15,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 3
+              }
+            }
+          },
+          "d.79": {
+            "correct": {
+              "conventional_oracle": 10,
+              "esm2_150m_local": 13,
+              "fine_profiles": 10,
+              "normalized_alignment": 7,
+              "raw_alignment": 8,
+              "superfamily_profiles": 10
+            },
+            "domains": 13,
+            "paired_150m_local": {
+              "conventional_oracle": {
+                "both_correct": 10,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 3
+              },
+              "fine_profiles": {
+                "both_correct": 10,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 3
+              },
+              "normalized_alignment": {
+                "both_correct": 7,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 6
+              },
+              "raw_alignment": {
+                "both_correct": 8,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 5
+              },
+              "superfamily_profiles": {
+                "both_correct": 10,
+                "neither_correct": 0,
+                "only_comparator": 0,
+                "only_model": 3
+              }
+            }
+          }
+        },
+        "correct": {
+          "conventional_oracle": 109,
+          "esm2_150m_local": 98,
+          "fine_profiles": 73,
+          "normalized_alignment": 56,
+          "raw_alignment": 78,
+          "superfamily_profiles": 85
+        },
+        "domains": 128,
+        "equal_fold_accuracy": {
+          "conventional_oracle": 0.8520791245791246,
+          "esm2_150m_local": 0.7923989898989899,
+          "fine_profiles": 0.6316498316498317,
+          "normalized_alignment": 0.5658080808080808,
+          "raw_alignment": 0.6705050505050505,
+          "superfamily_profiles": 0.7032154882154882
+        },
+        "leave_one_fold_out_gain": {
+          "conventional_oracle": [
+            -0.12668350168350168,
+            0.012436868686868718
+          ],
+          "fine_profiles": [
+            0.07997685185185185,
+            0.26887626262626263
+          ],
+          "normalized_alignment": [
+            0.140530303030303,
+            0.28323863636363633
+          ],
+          "raw_alignment": [
+            0.022159090909090934,
+            0.21208964646464648
+          ],
+          "superfamily_profiles": [
+            0.051504629629629636,
+            0.15615530303030306
+          ]
+        },
+        "paired_150m_local": {
+          "conventional_oracle": {
+            "both_correct": 88,
+            "neither_correct": 9,
+            "only_comparator": 21,
+            "only_model": 10
+          },
+          "fine_profiles": {
+            "both_correct": 61,
+            "neither_correct": 18,
+            "only_comparator": 12,
+            "only_model": 37
+          },
+          "normalized_alignment": {
+            "both_correct": 49,
+            "neither_correct": 23,
+            "only_comparator": 7,
+            "only_model": 49
+          },
+          "raw_alignment": {
+            "both_correct": 63,
+            "neither_correct": 15,
+            "only_comparator": 15,
+            "only_model": 35
+          },
+          "superfamily_profiles": {
+            "both_correct": 72,
+            "neither_correct": 17,
+            "only_comparator": 13,
+            "only_model": 26
+          }
+        }
+      }
+    }
+  },
+  "schema": "iri-q3-domain-robustness-v1",
+  "source_sha256": {
+    "original": "0e3eb61d8ffe807352f5cce7274e19c6ec8a9202075f7ac172aa7331c650dc94",
+    "wider": "faed556e042d25b4bc8ffe175c41d76fd74db47f5da734f5595f993ff8188c89"
+  }
+}

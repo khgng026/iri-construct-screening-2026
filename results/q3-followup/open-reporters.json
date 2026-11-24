@@ -1,0 +1,2242 @@
+{
+  "natural_panel_sha256": "9de8b0d7e3defc3ff704bff7da51786f311ece8f7bc807c6391eb24e18c92240",
+  "panel_sha256": "990d89d210b3c67310ba86f4db99f4fb3ed43cdfd7a29510f572a48cd384a1a3",
+  "records": {
+    "ODC_0088": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [],
+      "label": "cjBlue/ BioBrick K592011",
+      "source_sha256": "2bf72553cb46cc618efcb798c449dd0d3902ae3e4654d8254892a18d058aca40"
+    },
+    "ODC_0089": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [],
+      "label": "gfasPurple/gfasCP Biobrick K1033918",
+      "source_sha256": "9a67efca7cfa1d82fe896928c0ed47bbc31fb51cbe9c1625b6a03470622d1c7b"
+    },
+    "ODC_0090": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 2,
+              "reached": false
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206381",
+          "genus": "Montipora",
+          "name": "meffCFP"
+        }
+      ],
+      "label": "meffCFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.35106382978723405,
+          "max_same_family_global_identity": 0.29554655870445345
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.27385892116182575
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3202247191011236,
+          "max_same_family_global_identity": 0.24696356275303644
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.35106382978723405,
+          "max_same_family_global_identity": 0.29554655870445345
+        }
+      },
+      "source_sha256": "35b8398482155920d45abd6441505916405e652a56918ab07103408e5276b2ee"
+    },
+    "ODC_0091": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206392",
+          "genus": "Montipora",
+          "name": "mmilCFP"
+        }
+      ],
+      "label": "mmilCFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3617021276595745,
+          "max_same_family_global_identity": 0.2987551867219917
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.2768595041322314
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.30113636363636365,
+          "max_same_family_global_identity": 0.23715415019762845
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3617021276595745,
+          "max_same_family_global_identity": 0.2987551867219917
+        }
+      },
+      "source_sha256": "69d0d384ac1c040f3b79af2ec4921aca9cccef795386472ae49d331b2413907a"
+    },
+    "ODC_0092": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 2,
+              "reached": false
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206382",
+          "genus": "Mycedium",
+          "name": "meleCFP"
+        }
+      ],
+      "label": "meleCFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3333333333333333,
+          "max_same_family_global_identity": 0.2804878048780488
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.30198019801980197,
+          "max_same_family_global_identity": 0.2711864406779661
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3333333333333333,
+          "max_same_family_global_identity": 0.2804878048780488
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.2914572864321608,
+          "max_same_family_global_identity": 0.2606837606837607
+        }
+      },
+      "source_sha256": "f79f6684921d61da12f09a3619eb19803a40867359e02c6c5db901ce7a5abe5b"
+    },
+    "ODC_0093": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206397",
+          "genus": "Eusmilia",
+          "name": "efasCFP"
+        }
+      ],
+      "label": "efasCFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3422459893048128,
+          "max_same_family_global_identity": 0.2892561983471074
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.30851063829787234,
+          "max_same_family_global_identity": 0.26582278481012656
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3114754098360656,
+          "max_same_family_global_identity": 0.24696356275303644
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3422459893048128,
+          "max_same_family_global_identity": 0.2892561983471074
+        }
+      },
+      "source_sha256": "e30ad7b7252c5e8a49c1ed27396ca89231f2f6d271a5de1c2a5aceb07e0185d8"
+    },
+    "ODC_0094": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 2,
+              "reached": false
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "AY646069",
+          "genus": "Acropora",
+          "name": "aacuGFP1"
+        }
+      ],
+      "label": "aacuGFP1",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3372093023255814,
+          "max_same_family_global_identity": 0.2975206611570248
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3235294117647059,
+          "max_same_family_global_identity": 0.2757201646090535
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3314285714285714,
+          "max_same_family_global_identity": 0.268
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3372093023255814,
+          "max_same_family_global_identity": 0.2975206611570248
+        }
+      },
+      "source_sha256": "2a3bd03c13e0d90278c521f299fcfe0705fa3e8f07cc4110f12cc3c4bbf2165c"
+    },
+    "ODC_0095": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "AY646066",
+          "genus": "Acropora",
+          "name": "aacuGFP2"
+        }
+      ],
+      "label": "aacuGFP2",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.36666666666666664,
+          "max_same_family_global_identity": 0.27450980392156865
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.2551440329218107
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.31313131313131315,
+          "max_same_family_global_identity": 0.2620967741935484
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.36666666666666664,
+          "max_same_family_global_identity": 0.27450980392156865
+        }
+      },
+      "source_sha256": "6082c2377026db1424ecad9692f32aae87854081e2215698ab31794d69fdcb02"
+    },
+    "ODC_0096": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "AY647156",
+          "genus": "Agaricia",
+          "name": "afraGFP"
+        }
+      ],
+      "label": "afraGFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3473684210526316,
+          "max_same_family_global_identity": 0.27896995708154504
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.29901960784313725,
+          "max_same_family_global_identity": 0.27896995708154504
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.324468085106383,
+          "max_same_family_global_identity": 0.26294820717131473
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3473684210526316,
+          "max_same_family_global_identity": 0.27800829875518673
+        }
+      },
+      "source_sha256": "978ca5986a26054e9309b9d9faf038d72f6815d687eb74dfc8f2c26d56ff0eea"
+    },
+    "ODC_0097": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 2,
+              "reached": false
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [],
+      "label": "amilGFP Biobrick K592010",
+      "source_sha256": "ab5579cc2906d7ccf36e64972aadcaebf0fe95c58ded2d2f4dcd992c51ff39d3"
+    },
+    "ODC_0098": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206383",
+          "genus": "Echinoplyllia",
+          "name": "eechGFP1"
+        }
+      ],
+      "label": "eechGFP1",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.33689839572192515,
+          "max_same_family_global_identity": 0.26848249027237353
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3005181347150259,
+          "max_same_family_global_identity": 0.24390243902439024
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.33689839572192515,
+          "max_same_family_global_identity": 0.26848249027237353
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.33146067415730335,
+          "max_same_family_global_identity": 0.2550607287449393
+        }
+      },
+      "source_sha256": "77d6f8ca8c8796d0a067e92e5657b4ebb61d4c1c2f172abf6849415e2be95394"
+    },
+    "ODC_0099": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206395",
+          "genus": "Echinoplyllia",
+          "name": "eechGFP2"
+        }
+      ],
+      "label": "eechGFP2",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3425414364640884,
+          "max_same_family_global_identity": 0.26877470355731226
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.2815533980582524,
+          "max_same_family_global_identity": 0.26180257510729615
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3425414364640884,
+          "max_same_family_global_identity": 0.26877470355731226
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.29015544041450775,
+          "max_same_family_global_identity": 0.2532188841201717
+        }
+      },
+      "source_sha256": "5a5e6ade76d370fdf1dbc35750d1acda14f5bd8c594baca8ff7f5cec4b68d8ae"
+    },
+    "ODC_0100": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 2,
+              "reached": false
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206396",
+          "genus": "Echinoplyllia",
+          "name": "eechGFP3"
+        }
+      ],
+      "label": "eechGFP3",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3407821229050279,
+          "max_same_family_global_identity": 0.26294820717131473
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.2261904761904762
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3407821229050279,
+          "max_same_family_global_identity": 0.26294820717131473
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.2839506172839506,
+          "max_same_family_global_identity": 0.23293172690763053
+        }
+      },
+      "source_sha256": "cc2df6ffd786e6b418773ac1ac62c6ff0e00a86d3918da589a22200c18131eb9"
+    },
+    "ODC_0101": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 2,
+              "reached": false
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206385",
+          "genus": "Eusmilia",
+          "name": "efasGFP"
+        }
+      ],
+      "label": "efasGFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.32926829268292684,
+          "max_same_family_global_identity": 0.25523012552301255
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.2830188679245283,
+          "max_same_family_global_identity": 0.24180327868852458
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3089887640449438,
+          "max_same_family_global_identity": 0.25311203319502074
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.32926829268292684,
+          "max_same_family_global_identity": 0.25523012552301255
+        }
+      },
+      "source_sha256": "c38c96621040e9813ef801f1cc0345016b96a586c157daccdb4941445f40ed87"
+    },
+    "ODC_0102": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206389",
+          "genus": "Galaxea",
+          "name": "gfasGFP"
+        }
+      ],
+      "label": "gfasGFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3425414364640884,
+          "max_same_family_global_identity": 0.2629310344827586
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.2964824120603015,
+          "max_same_family_global_identity": 0.2606837606837607
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3425414364640884,
+          "max_same_family_global_identity": 0.24344569288389514
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3005464480874317,
+          "max_same_family_global_identity": 0.2629310344827586
+        }
+      },
+      "source_sha256": "473bb0616ff0b2d0a0f00e0be94b851bf0dec1e357b5947cf3de979cacc84042"
+    },
+    "ODC_0103": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "EU498724",
+          "genus": "Platygira",
+          "name": "plamGFP"
+        }
+      ],
+      "label": "palmGFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.33513513513513515,
+          "max_same_family_global_identity": 0.2637795275590551
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": null,
+          "max_same_family_global_identity": 0.2265625
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.33513513513513515,
+          "max_same_family_global_identity": 0.2637795275590551
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.29508196721311475,
+          "max_same_family_global_identity": 0.23140495867768596
+        }
+      },
+      "source_sha256": "cf809133c3c820bc7c500f2b42a096977765cb558ee05656de9bd3068dff28ef"
+    },
+    "ODC_0104": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "AY646073",
+          "genus": "Acropora",
+          "name": "amilRFP"
+        }
+      ],
+      "label": "amilRFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3403141361256545,
+          "max_same_family_global_identity": 0.27419354838709675
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.29310344827586204,
+          "max_same_family_global_identity": 0.24583333333333332
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.2864321608040201,
+          "max_same_family_global_identity": 0.24489795918367346
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3403141361256545,
+          "max_same_family_global_identity": 0.27419354838709675
+        }
+      },
+      "source_sha256": "18e365cd1423325f71a1b9142199423f33a5a8b347752159cfdc12de8d9bf306"
+    },
+    "ODC_0105": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206379",
+          "genus": "Montipora",
+          "name": "meffRFP"
+        }
+      ],
+      "label": "meffRed/meffRFP Biobricks K592012",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.36363636363636365,
+          "max_same_family_global_identity": 0.2677165354330709
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.29310344827586204,
+          "max_same_family_global_identity": 0.24691358024691357
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.27979274611398963,
+          "max_same_family_global_identity": 0.244
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.36363636363636365,
+          "max_same_family_global_identity": 0.2677165354330709
+        }
+      },
+      "source_sha256": "db1f472fc72cba29f0af49eac43d3149479e1b1a86d9666a8943b3d5021cfee5"
+    },
+    "ODC_0106": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206380",
+          "genus": "Porites",
+          "name": "pporRFP"
+        }
+      ],
+      "label": "pporRFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3385416666666667,
+          "max_same_family_global_identity": 0.27755102040816326
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.30097087378640774,
+          "max_same_family_global_identity": 0.26666666666666666
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.29239766081871343,
+          "max_same_family_global_identity": 0.22641509433962265
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3385416666666667,
+          "max_same_family_global_identity": 0.27755102040816326
+        }
+      },
+      "source_sha256": "ec7937dbf915af5a0ffd395ff51b669a5628b4db667c414a997a6b62ebaef50b"
+    },
+    "ODC_0107": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 2,
+              "reached": false
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "DQ206386",
+          "genus": "Mycedium",
+          "name": "meleRFP"
+        }
+      ],
+      "label": "meleRFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3333333333333333,
+          "max_same_family_global_identity": 0.2606837606837607
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.28217821782178215,
+          "max_same_family_global_identity": 0.24481327800829875
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3333333333333333,
+          "max_same_family_global_identity": 0.256198347107438
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.2883435582822086,
+          "max_same_family_global_identity": 0.2606837606837607
+        }
+      },
+      "source_sha256": "6bd1956e601911acce9c1ecee44a38a4c5f1208b6fde984be41d3d6d1b84f44d"
+    },
+    "ODC_0108": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "AY646064",
+          "genus": "Scolymia",
+          "name": "scubRFP"
+        }
+      ],
+      "label": "scubRFP",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3316062176165803,
+          "max_same_family_global_identity": 0.26778242677824265
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.295,
+          "max_same_family_global_identity": 0.2572614107883817
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3316062176165803,
+          "max_same_family_global_identity": 0.26506024096385544
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3128834355828221,
+          "max_same_family_global_identity": 0.26778242677824265
+        }
+      },
+      "source_sha256": "bc36b3dc80180b4e6d8f62354749a4d65c8ca5400cd95f4aac6a1306e1dfc776"
+    },
+    "ODC_0109": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 2,
+              "reached": false
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [],
+      "label": "eforRed/eforCP Biobrick K592012",
+      "source_sha256": "0cd640bb832bbda89741241e55f400a813fab1f63dab503582c42cd3c360bbcf"
+    },
+    "ODC_0110": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 2,
+              "reached": false
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "gfp_like",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [
+        {
+          "accession": "AF168421",
+          "genus": "Anemonia",
+          "name": "amajGFP"
+        }
+      ],
+      "label": "amajLime/amajCFP/amFP486 BioBrick K1033916",
+      "similarity": {
+        "all_groups": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3373493975903614,
+          "max_same_family_global_identity": 0.2719665271966527
+        },
+        "copepod": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.30409356725146197,
+          "max_same_family_global_identity": 0.24892703862660945
+        },
+        "hydrozoan": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3282051282051282,
+          "max_same_family_global_identity": 0.26639344262295084
+        },
+        "lancelet": {
+          "low_identity": true,
+          "max_covered_same_family_local_identity": 0.3373493975903614,
+          "max_same_family_global_identity": 0.2719665271966527
+        }
+      },
+      "source_sha256": "d3f1911f6e06d7ebc9a2d4e62b6ae5270c0cdccb6815c3ef6ab4e3fa8f6684de"
+    },
+    "ODC_0112": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 1,
+              "reached": true
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 1,
+              "reached": true
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "other_reporter",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [],
+      "label": "horseradish peroxidase (HRP)",
+      "source_sha256": "07ffd561a3b6613f9d5849a1db4c4c06ebedd0436581298f9997b8fdae3ae901"
+    },
+    "ODC_0113": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 1,
+              "reached": true
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 1,
+              "reached": true
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "other_reporter",
+      "cohort_v2_exact_match": true,
+      "independent_matches": [],
+      "label": "Firefly Luciferase [Photinus pyralis] (Fluc)",
+      "source_sha256": "6f89636a99a005a9cb19f216d8780962a1b5e13794c8dc49c55cf8ed64214e44"
+    },
+    "ODC_0114": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 1,
+              "reached": true
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 1,
+              "reached": true
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "other_reporter",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [],
+      "label": "Luciferase [Luciola cruciata] (Japanese firefly)",
+      "source_sha256": "af942627f97e640155dd547e15496b8d116a68cd30daceeed1321033793dd74a"
+    },
+    "ODC_0115": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 1,
+              "reached": true
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": false,
+              "exact": false,
+              "inputs": 1,
+              "reached": false
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "other_reporter",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [],
+      "label": "Renilla luciferase",
+      "source_sha256": "6b2db12629d4ced5ab09d375d71ae96c2fb90f3c9d200b8a383cb075c72cc380"
+    },
+    "ODC_0117": {
+      "candidate_reach": {
+        "gene_caller": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 1,
+              "reached": true
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        },
+        "minimal": {
+          "caps": {
+            "1": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 1,
+              "reached": true
+            },
+            "2": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 2,
+              "reached": true
+            },
+            "4": {
+              "contains_documented_peptide": true,
+              "exact": false,
+              "inputs": 4,
+              "reached": true
+            }
+          },
+          "pool_reached": true
+        }
+      },
+      "catalogue_group": "other_reporter",
+      "cohort_v2_exact_match": false,
+      "independent_matches": [],
+      "label": "Calf Intestine Alkaline phosphatase  (CIAP)",
+      "source_sha256": "55033c4e5fa62fa6676d9dd63cc7dea309ca48262d8a1f8a223063f07cf3fe65"
+    }
+  },
+  "rejected": {},
+  "schema": "iri-q3-open-reporters-feasibility-v1",
+  "summary": {
+    "all_translatable": {
+      "ambiguous_genus": 0,
+      "cohort_v2_exact_matches": 1,
+      "genus_counts": {
+        "Acropora": 3,
+        "Agaricia": 1,
+        "Anemonia": 1,
+        "Echinoplyllia": 3,
+        "Eusmilia": 2,
+        "Galaxea": 1,
+        "Montipora": 3,
+        "Mycedium": 2,
+        "Platygira": 1,
+        "Porites": 1,
+        "Scolymia": 1
+      },
+      "independent_exact_reference_matches": 19,
+      "primary_cap": {
+        "gene_caller": {
+          "contains_documented_peptide": 28,
+          "exact": 0,
+          "inputs": 56,
+          "reached": 28
+        },
+        "minimal": {
+          "contains_documented_peptide": 19,
+          "exact": 0,
+          "inputs": 56,
+          "reached": 19
+        }
+      },
+      "reporters": 28
+    },
+    "environment": {
+      "biopython": "1.86",
+      "pyrodigal": "3.6.3"
+    },
+    "gfp_like_without_natural_exact_match": 4,
+    "independently_corroborated": {
+      "ambiguous_genus": 0,
+      "cohort_v2_exact_matches": 0,
+      "genus_counts": {
+        "Acropora": 3,
+        "Agaricia": 1,
+        "Anemonia": 1,
+        "Echinoplyllia": 3,
+        "Eusmilia": 2,
+        "Galaxea": 1,
+        "Montipora": 3,
+        "Mycedium": 2,
+        "Platygira": 1,
+        "Porites": 1,
+        "Scolymia": 1
+      },
+      "independent_exact_reference_matches": 19,
+      "primary_cap": {
+        "gene_caller": {
+          "contains_documented_peptide": 19,
+          "exact": 0,
+          "inputs": 38,
+          "reached": 19
+        },
+        "minimal": {
+          "contains_documented_peptide": 12,
+          "exact": 0,
+          "inputs": 38,
+          "reached": 12
+        }
+      },
+      "reporters": 19
+    },
+    "remote_by_reference_set": {
+      "all_groups": {
+        "ambiguous_genus": 0,
+        "cohort_v2_exact_matches": 0,
+        "genus_counts": {},
+        "independent_exact_reference_matches": 0,
+        "primary_cap": {
+          "gene_caller": {
+            "contains_documented_peptide": 0,
+            "exact": 0,
+            "inputs": 0,
+            "reached": 0
+          },
+          "minimal": {
+            "contains_documented_peptide": 0,
+            "exact": 0,
+            "inputs": 0,
+            "reached": 0
+          }
+        },
+        "reporters": 0
+      },
+      "copepod": {
+        "ambiguous_genus": 0,
+        "cohort_v2_exact_matches": 0,
+        "genus_counts": {
+          "Echinoplyllia": 1,
+          "Platygira": 1
+        },
+        "independent_exact_reference_matches": 2,
+        "primary_cap": {
+          "gene_caller": {
+            "contains_documented_peptide": 2,
+            "exact": 0,
+            "inputs": 4,
+            "reached": 2
+          },
+          "minimal": {
+            "contains_documented_peptide": 1,
+            "exact": 0,
+            "inputs": 4,
+            "reached": 1
+          }
+        },
+        "reporters": 2
+      },
+      "hydrozoan": {
+        "ambiguous_genus": 0,
+        "cohort_v2_exact_matches": 0,
+        "genus_counts": {},
+        "independent_exact_reference_matches": 0,
+        "primary_cap": {
+          "gene_caller": {
+            "contains_documented_peptide": 0,
+            "exact": 0,
+            "inputs": 0,
+            "reached": 0
+          },
+          "minimal": {
+            "contains_documented_peptide": 0,
+            "exact": 0,
+            "inputs": 0,
+            "reached": 0
+          }
+        },
+        "reporters": 0
+      },
+      "lancelet": {
+        "ambiguous_genus": 0,
+        "cohort_v2_exact_matches": 0,
+        "genus_counts": {},
+        "independent_exact_reference_matches": 0,
+        "primary_cap": {
+          "gene_caller": {
+            "contains_documented_peptide": 0,
+            "exact": 0,
+            "inputs": 0,
+            "reached": 0
+          },
+          "minimal": {
+            "contains_documented_peptide": 0,
+            "exact": 0,
+            "inputs": 0,
+            "reached": 0
+          }
+        },
+        "reporters": 0
+      }
+    }
+  }
+}

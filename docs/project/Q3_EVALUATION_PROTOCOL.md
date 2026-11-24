@@ -20,4 +20,34 @@ Use the public, sequence-free exports on the project branches. This is retrospec
 - Fix candidate generation and budget, and give the same selected proteins to raw local alignment, profiles, and the model-assisted comparison. Pick one conventional policy and one model-assisted policy on development data, both with an option to abstain. Freeze all decisions and the analysis before final inference. Score a documented component as recovered only when both its family and the matching locus are correct. Count assignments to deliberately verified out-of-family examples separately from assignments to unannotated loci. Measure scoring cost and report which misses occurred before scoring.
 - Use the paired change in lineage-weighted end-to-end recall as the primary estimate. Compare it at an agreed false-assignment budget and with a prespecified minimum practically relevant gain, supported by a precision calculation using planning data. Report the full paired interval and case denominators, both candidate-reaching and known-boundary diagnostics, and sensitivity to the weighting of lineages. On an underpowered panel report feasibility and descriptive evidence.
 
+### Information needed to freeze the primary test
+
+Record positive target counts, distinct protein and background group counts,
+the number of plausible competing families, and the number of independently
+verified negative records in each split. Include a column for the provenance
+and earliest verified availability of each distinct protein. Keep accession
+identity, sequence identity, and submission relatedness separate. Report
+both availability of references and number of unrelated positives receiving
+a usable candidate before selecting a decision policy.
+
+For planning, let the paired outcome for an independent unit be +1 if only
+the model-assisted method is right, −1 if only the conventional method is
+right, and 0 otherwise. If the true mean difference is d and the chance of
+a disagreement is q, its variance is q − d². For example, a 10-point true
+gain and discordance of 10%, 20%, or 30% give approximate independent-unit
+requirements of 139, 292, or 446 for a two-sided 95% interval with half-width
+of five points. A 5-point practical margin is a planning example. These
+numbers do not incorporate dependence and are not enrollment targets.
+Estimate the variance of the planned per-lineage differences using
+development results, account for related layouts and families, and lock a
+capacity-supported objective before analyzing the held-out results.
+
+Freeze the per-record definition of a false assignment before calibration.
+Choose each method's abstention rule on the development split using the same
+budget. Report false assignments and uncertainty on verified holdout negatives
+alongside recall. If test false-assignment burden differs materially, report
+the trade-off and withhold a claim of improved recall at matched burden.
+Benchmark decisions and thresholds apply to the declared benign annotation
+reference collection.
+
 This protocol studies annotation on benign public data. The endpoint does not assess activity, risk, or operational screening performance.
