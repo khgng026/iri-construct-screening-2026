@@ -48,3 +48,5 @@ pretraining overlap). The [research design](ALIGNMENT_VS_MODELS_PLAN.md) and
 confirmatory version: independent labels, a profile-HMM comparator, and fresh held-out groups.
 
 **Next work, all exploratory or new.** Test a selection rule for the 412 documented genes Pyrodigal leaves below the cap. Evaluate local or residue-level scoring of intact fusion candidates. Build a cohort with more eukaryotic and reporter cassettes and more distinct distant components. The [pilot handoff](HANDOFF.md) records the earlier runs.
+
+[Whole-plasmid inventory recovery and answer-key coverage](../results/whole-plasmid-inventory/README.md)
