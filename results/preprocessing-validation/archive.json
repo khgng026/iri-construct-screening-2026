@@ -1,0 +1,4323 @@
+{
+  "archive_panel_sha256": "a37f52072f2bb684cdb846552ef049deec7d5b7ad70f2c77f07f59ba87652603",
+  "audit": {
+    "lampra": {
+      "accepted_targets": 1,
+      "excluded_targets": [],
+      "records": 1,
+      "records_with_uncertainty": 1,
+      "reference_groups": {
+        "lampra": 1
+      },
+      "unique_translations": 1
+    },
+    "open_enzyme": {
+      "accepted_targets": 17,
+      "excluded_incomplete_cds": 1,
+      "excluded_missing_translation": 9,
+      "excluded_targets": [
+        {
+          "label": "RNAse A",
+          "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0037.gb",
+          "reason": "incomplete_cds"
+        },
+        {
+          "label": "dNK from drosophila",
+          "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0072.gb",
+          "reason": "missing_translation"
+        },
+        {
+          "label": "TEV protease",
+          "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0073.gb",
+          "reason": "missing_translation"
+        },
+        {
+          "label": "T4 PNK",
+          "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0074.gb",
+          "reason": "missing_translation"
+        },
+        {
+          "label": "Bovine DNTT",
+          "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0080.gb",
+          "reason": "missing_translation"
+        },
+        {
+          "label": "UDG",
+          "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0083.gb",
+          "reason": "missing_translation"
+        },
+        {
+          "label": "Fpg",
+          "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0084.gb",
+          "reason": "missing_translation"
+        },
+        {
+          "label": "Endonuclease IV E. coli",
+          "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0085.gb",
+          "reason": "missing_translation"
+        },
+        {
+          "label": "Endonuclease VIII E. coli",
+          "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0086.gb",
+          "reason": "missing_translation"
+        },
+        {
+          "label": "Exonuclease III E. coli",
+          "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0087.gb",
+          "reason": "missing_translation"
+        }
+      ],
+      "records": 27,
+      "records_with_uncertainty": 0,
+      "reference_groups": {
+        "ligase": 5,
+        "phosphatase": 1,
+        "polymerase": 10,
+        "rna_enzyme": 1
+      },
+      "unique_translations": 17
+    },
+    "open_yeast": {
+      "accepted_targets": 11,
+      "excluded_incomplete_cds": 1,
+      "excluded_noncanonical_translation_residues": 1,
+      "excluded_targets": [
+        {
+          "label": "4S-limonene synthase",
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0267.gb",
+          "reason": "translation_mismatch"
+        },
+        {
+          "label": "S-linalool synthase",
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0269.gb",
+          "reason": "translation_mismatch"
+        },
+        {
+          "label": "isopiperitenol carveol dehydrogenase",
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0270.gb",
+          "reason": "translation_mismatch"
+        },
+        {
+          "label": "Gal4 DNA Activation Domain",
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0271.gb",
+          "reason": "noncanonical_translation_residues"
+        },
+        {
+          "label": "Gal4 DNA Binding Domain",
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0272.gb",
+          "reason": "incomplete_cds"
+        },
+        {
+          "label": "ADE2 selection marker",
+          "path": "Open Yeast Collection/Plasmids_Genbank/ODC_0315.gb",
+          "reason": "translation_mismatch"
+        }
+      ],
+      "excluded_translation_mismatch": 4,
+      "records": 17,
+      "records_with_uncertainty": 0,
+      "reference_groups": {
+        "open_yeast": 11
+      },
+      "unique_translations": 11
+    }
+  },
+  "cap2_catalogue_group_outcomes": {
+    "lampra": {
+      "lampra": {
+        "balanced_gene_windows": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        },
+        "gene_caller": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        },
+        "gene_then_fallback": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        },
+        "guarded_mixed_ranking": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        },
+        "linked_gene_windows": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        },
+        "minimal": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        },
+        "mixed_ranking": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        },
+        "mixed_then_fallback": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        },
+        "resolved_translation": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        },
+        "uncertainty_fallback": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        }
+      }
+    },
+    "open_enzyme": {
+      "ligase": {
+        "balanced_gene_windows": {
+          "eligible": 5,
+          "locus_reached": 5,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 5,
+          "peptide_in_one_candidate": 5
+        },
+        "gene_caller": {
+          "eligible": 5,
+          "locus_reached": 5,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 5,
+          "peptide_in_one_candidate": 5
+        },
+        "gene_then_fallback": {
+          "eligible": 5,
+          "locus_reached": 5,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 5,
+          "peptide_in_one_candidate": 5
+        },
+        "guarded_mixed_ranking": {
+          "eligible": 5,
+          "locus_reached": 5,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 5,
+          "peptide_in_one_candidate": 5
+        },
+        "linked_gene_windows": {
+          "eligible": 5,
+          "locus_reached": 5,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 5,
+          "peptide_in_one_candidate": 5
+        },
+        "minimal": {
+          "eligible": 5,
+          "locus_reached": 5,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 5,
+          "peptide_in_one_candidate": 5
+        },
+        "mixed_ranking": {
+          "eligible": 5,
+          "locus_reached": 5,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 5,
+          "peptide_in_one_candidate": 5
+        },
+        "mixed_then_fallback": {
+          "eligible": 5,
+          "locus_reached": 5,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 5,
+          "peptide_in_one_candidate": 5
+        },
+        "resolved_translation": {
+          "eligible": 5,
+          "locus_reached": 5,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 5,
+          "peptide_in_one_candidate": 5
+        },
+        "uncertainty_fallback": {
+          "eligible": 5,
+          "locus_reached": 5,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 5,
+          "peptide_in_one_candidate": 5
+        }
+      },
+      "phosphatase": {
+        "balanced_gene_windows": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "gene_caller": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "gene_then_fallback": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "guarded_mixed_ranking": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "linked_gene_windows": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "minimal": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "mixed_ranking": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "mixed_then_fallback": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "resolved_translation": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "uncertainty_fallback": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        }
+      },
+      "polymerase": {
+        "balanced_gene_windows": {
+          "eligible": 10,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        },
+        "gene_caller": {
+          "eligible": 10,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        },
+        "gene_then_fallback": {
+          "eligible": 10,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        },
+        "guarded_mixed_ranking": {
+          "eligible": 10,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        },
+        "linked_gene_windows": {
+          "eligible": 10,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        },
+        "minimal": {
+          "eligible": 10,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        },
+        "mixed_ranking": {
+          "eligible": 10,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        },
+        "mixed_then_fallback": {
+          "eligible": 10,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        },
+        "resolved_translation": {
+          "eligible": 10,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        },
+        "uncertainty_fallback": {
+          "eligible": 10,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 0,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        }
+      },
+      "rna_enzyme": {
+        "balanced_gene_windows": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "gene_caller": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "gene_then_fallback": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "guarded_mixed_ranking": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "linked_gene_windows": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "minimal": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        },
+        "mixed_ranking": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "mixed_then_fallback": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        },
+        "resolved_translation": {
+          "eligible": 1,
+          "locus_reached": false,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": false,
+          "peptide_in_one_candidate": false
+        },
+        "uncertainty_fallback": {
+          "eligible": 1,
+          "locus_reached": true,
+          "long_complete_across_windows": false,
+          "long_eligible": false,
+          "peptide_available": true,
+          "peptide_in_one_candidate": true
+        }
+      }
+    },
+    "open_yeast": {
+      "open_yeast": {
+        "balanced_gene_windows": {
+          "eligible": 11,
+          "locus_reached": 10,
+          "long_complete_across_windows": 1,
+          "long_eligible": 1,
+          "peptide_available": 11,
+          "peptide_in_one_candidate": 10
+        },
+        "gene_caller": {
+          "eligible": 11,
+          "locus_reached": 10,
+          "long_complete_across_windows": 1,
+          "long_eligible": 1,
+          "peptide_available": 11,
+          "peptide_in_one_candidate": 10
+        },
+        "gene_then_fallback": {
+          "eligible": 11,
+          "locus_reached": 10,
+          "long_complete_across_windows": 1,
+          "long_eligible": 1,
+          "peptide_available": 11,
+          "peptide_in_one_candidate": 10
+        },
+        "guarded_mixed_ranking": {
+          "eligible": 11,
+          "locus_reached": 10,
+          "long_complete_across_windows": 1,
+          "long_eligible": 1,
+          "peptide_available": 11,
+          "peptide_in_one_candidate": 10
+        },
+        "linked_gene_windows": {
+          "eligible": 11,
+          "locus_reached": 10,
+          "long_complete_across_windows": 1,
+          "long_eligible": 1,
+          "peptide_available": 11,
+          "peptide_in_one_candidate": 10
+        },
+        "minimal": {
+          "eligible": 11,
+          "locus_reached": 9,
+          "long_complete_across_windows": 1,
+          "long_eligible": 1,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 9
+        },
+        "mixed_ranking": {
+          "eligible": 11,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 1,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        },
+        "mixed_then_fallback": {
+          "eligible": 11,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 1,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        },
+        "resolved_translation": {
+          "eligible": 11,
+          "locus_reached": 9,
+          "long_complete_across_windows": 1,
+          "long_eligible": 1,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 9
+        },
+        "uncertainty_fallback": {
+          "eligible": 11,
+          "locus_reached": 10,
+          "long_complete_across_windows": 0,
+          "long_eligible": 1,
+          "peptide_available": 10,
+          "peptide_in_one_candidate": 10
+        }
+      }
+    }
+  },
+  "environment": {
+    "biopython": "1.86",
+    "pyrodigal": "3.6.3"
+  },
+  "new_panel_sha256": "b8593d75befe6cd1ac149213eecc239807d17a8aa62b7e4731c5079cb900b5cc",
+  "runs": {
+    "lampra": {
+      "candidate_cap": {
+        "1": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 290,
+            "scorer_inputs": 1
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 290,
+            "scorer_inputs": 1
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          }
+        },
+        "16": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 2454,
+            "scorer_inputs": 16
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 2120,
+            "scorer_inputs": 16
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 2454,
+            "scorer_inputs": 16
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 2567,
+            "scorer_inputs": 16
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 2454,
+            "scorer_inputs": 16
+          }
+        },
+        "2": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 473,
+            "scorer_inputs": 2
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 547,
+            "scorer_inputs": 2
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          }
+        },
+        "4": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 766,
+            "scorer_inputs": 4
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 1039,
+            "scorer_inputs": 4
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 796,
+            "scorer_inputs": 4
+          }
+        },
+        "8": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 1465,
+            "scorer_inputs": 8
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 1284,
+            "scorer_inputs": 8
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 1465,
+            "scorer_inputs": 8
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 1656,
+            "scorer_inputs": 8
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 1465,
+            "scorer_inputs": 8
+          }
+        },
+        "pool": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 12328,
+            "scorer_inputs": 220
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 11540,
+            "scorer_inputs": 214
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 12328,
+            "scorer_inputs": 220
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 12428,
+            "scorer_inputs": 220
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 1,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 1,
+            "peptide_in_one_candidate": 1,
+            "residues": 12328,
+            "scorer_inputs": 220
+          }
+        }
+      },
+      "gene_residue_ceiling": {
+        "1": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 183,
+            "scorer_inputs": 1
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 257,
+            "scorer_inputs": 1
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 286,
+            "scorer_inputs": 1
+          }
+        },
+        "16": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 714,
+            "scorer_inputs": 4
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 699,
+            "scorer_inputs": 3
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 4
+          }
+        },
+        "2": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 414,
+            "scorer_inputs": 2
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 414,
+            "scorer_inputs": 2
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 416,
+            "scorer_inputs": 2
+          }
+        },
+        "4": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 625,
+            "scorer_inputs": 3
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 3
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 634,
+            "scorer_inputs": 4
+          }
+        },
+        "8": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 714,
+            "scorer_inputs": 4
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 699,
+            "scorer_inputs": 3
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 4
+          }
+        },
+        "pool": {
+          "balanced_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_caller": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "gene_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "linked_gene_windows": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "minimal": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 714,
+            "scorer_inputs": 4
+          },
+          "mixed_ranking": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "mixed_then_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 5
+          },
+          "resolved_translation": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 699,
+            "scorer_inputs": 3
+          },
+          "uncertainty_fallback": {
+            "eligible": 1,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 716,
+            "scorer_inputs": 4
+          }
+        }
+      }
+    },
+    "open_enzyme": {
+      "candidate_cap": {
+        "1": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 12187,
+            "scorer_inputs": 17
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 12187,
+            "scorer_inputs": 17
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          }
+        },
+        "16": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 46768,
+            "scorer_inputs": 272
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 46989,
+            "scorer_inputs": 272
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 46768,
+            "scorer_inputs": 272
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 46989,
+            "scorer_inputs": 272
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 46768,
+            "scorer_inputs": 272
+          }
+        },
+        "2": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 18552,
+            "scorer_inputs": 34
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 18552,
+            "scorer_inputs": 34
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          }
+        },
+        "4": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 26458,
+            "scorer_inputs": 68
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 26679,
+            "scorer_inputs": 68
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 26458,
+            "scorer_inputs": 68
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 26679,
+            "scorer_inputs": 68
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 26458,
+            "scorer_inputs": 68
+          }
+        },
+        "8": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 34768,
+            "scorer_inputs": 136
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 34989,
+            "scorer_inputs": 136
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 34768,
+            "scorer_inputs": 136
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 34989,
+            "scorer_inputs": 136
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 34768,
+            "scorer_inputs": 136
+          }
+        },
+        "pool": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 90864,
+            "scorer_inputs": 1248
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 91085,
+            "scorer_inputs": 1248
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 90864,
+            "scorer_inputs": 1248
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 91085,
+            "scorer_inputs": 1248
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 90864,
+            "scorer_inputs": 1248
+          }
+        }
+      },
+      "gene_residue_ceiling": {
+        "1": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 6113,
+            "scorer_inputs": 17
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 0,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 0,
+            "peptide_in_one_candidate": 0,
+            "residues": 6113,
+            "scorer_inputs": 17
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 16,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 16,
+            "peptide_in_one_candidate": 16,
+            "residues": 12030,
+            "scorer_inputs": 17
+          }
+        },
+        "16": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 16686,
+            "scorer_inputs": 48
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 16686,
+            "scorer_inputs": 48
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          }
+        },
+        "2": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 15642,
+            "scorer_inputs": 34
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 15642,
+            "scorer_inputs": 34
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          }
+        },
+        "4": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 16686,
+            "scorer_inputs": 48
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 16686,
+            "scorer_inputs": 48
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          }
+        },
+        "8": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 16686,
+            "scorer_inputs": 48
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 16686,
+            "scorer_inputs": 48
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          }
+        },
+        "pool": {
+          "balanced_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_caller": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "gene_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "linked_gene_windows": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "minimal": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 16686,
+            "scorer_inputs": 48
+          },
+          "mixed_ranking": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "mixed_then_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          },
+          "resolved_translation": {
+            "eligible": 17,
+            "locus_reached": 15,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 15,
+            "peptide_in_one_candidate": 15,
+            "residues": 16686,
+            "scorer_inputs": 48
+          },
+          "uncertainty_fallback": {
+            "eligible": 17,
+            "locus_reached": 17,
+            "long_complete_across_windows": 0,
+            "long_eligible": 0,
+            "peptide_available": 17,
+            "peptide_in_one_candidate": 17,
+            "residues": 16761,
+            "scorer_inputs": 34
+          }
+        }
+      }
+    },
+    "open_yeast": {
+      "candidate_cap": {
+        "1": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4143,
+            "scorer_inputs": 11
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4599,
+            "scorer_inputs": 11
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4599,
+            "scorer_inputs": 11
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          }
+        },
+        "16": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 21676,
+            "scorer_inputs": 176
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 21921,
+            "scorer_inputs": 176
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 21676,
+            "scorer_inputs": 176
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 21921,
+            "scorer_inputs": 176
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 21676,
+            "scorer_inputs": 176
+          }
+        },
+        "2": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7497,
+            "scorer_inputs": 22
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7497,
+            "scorer_inputs": 22
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7497,
+            "scorer_inputs": 22
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7497,
+            "scorer_inputs": 22
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7497,
+            "scorer_inputs": 22
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 9,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 10,
+            "peptide_in_one_candidate": 9,
+            "residues": 7752,
+            "scorer_inputs": 22
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 10,
+            "peptide_in_one_candidate": 10,
+            "residues": 7405,
+            "scorer_inputs": 22
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 10,
+            "peptide_in_one_candidate": 10,
+            "residues": 7405,
+            "scorer_inputs": 22
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 9,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 10,
+            "peptide_in_one_candidate": 9,
+            "residues": 7752,
+            "scorer_inputs": 22
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 10,
+            "peptide_in_one_candidate": 10,
+            "residues": 7405,
+            "scorer_inputs": 22
+          }
+        },
+        "4": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 10671,
+            "scorer_inputs": 44
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 11008,
+            "scorer_inputs": 44
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 10671,
+            "scorer_inputs": 44
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 11008,
+            "scorer_inputs": 44
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 10671,
+            "scorer_inputs": 44
+          }
+        },
+        "8": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 15006,
+            "scorer_inputs": 88
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 15296,
+            "scorer_inputs": 88
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 15006,
+            "scorer_inputs": 88
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 15296,
+            "scorer_inputs": 88
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 15006,
+            "scorer_inputs": 88
+          }
+        },
+        "pool": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 44369,
+            "scorer_inputs": 720
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 44570,
+            "scorer_inputs": 720
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 44369,
+            "scorer_inputs": 720
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 44570,
+            "scorer_inputs": 720
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 44369,
+            "scorer_inputs": 720
+          }
+        }
+      },
+      "gene_residue_ceiling": {
+        "1": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4143,
+            "scorer_inputs": 11
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 3,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 3,
+            "peptide_in_one_candidate": 3,
+            "residues": 3779,
+            "scorer_inputs": 11
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 3,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 3,
+            "peptide_in_one_candidate": 3,
+            "residues": 3779,
+            "scorer_inputs": 11
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 4465,
+            "scorer_inputs": 11
+          }
+        },
+        "16": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 7,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 8,
+            "peptide_in_one_candidate": 7,
+            "residues": 7827,
+            "scorer_inputs": 35
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 7,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 8,
+            "peptide_in_one_candidate": 7,
+            "residues": 7827,
+            "scorer_inputs": 35
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          }
+        },
+        "2": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7497,
+            "scorer_inputs": 22
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7497,
+            "scorer_inputs": 22
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7497,
+            "scorer_inputs": 22
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7497,
+            "scorer_inputs": 22
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7497,
+            "scorer_inputs": 22
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 6261,
+            "scorer_inputs": 22
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 10,
+            "peptide_in_one_candidate": 10,
+            "residues": 7405,
+            "scorer_inputs": 22
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 10,
+            "peptide_in_one_candidate": 10,
+            "residues": 7405,
+            "scorer_inputs": 22
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 6,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 6,
+            "peptide_in_one_candidate": 6,
+            "residues": 6261,
+            "scorer_inputs": 22
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 0,
+            "long_eligible": 1,
+            "peptide_available": 10,
+            "peptide_in_one_candidate": 10,
+            "residues": 7405,
+            "scorer_inputs": 22
+          }
+        },
+        "4": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 7,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 8,
+            "peptide_in_one_candidate": 7,
+            "residues": 7827,
+            "scorer_inputs": 35
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 7,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 8,
+            "peptide_in_one_candidate": 7,
+            "residues": 7827,
+            "scorer_inputs": 35
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          }
+        },
+        "8": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 7,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 8,
+            "peptide_in_one_candidate": 7,
+            "residues": 7827,
+            "scorer_inputs": 35
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 7,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 8,
+            "peptide_in_one_candidate": 7,
+            "residues": 7827,
+            "scorer_inputs": 35
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          }
+        },
+        "pool": {
+          "balanced_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_caller": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "gene_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "guarded_mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "linked_gene_windows": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "minimal": {
+            "eligible": 11,
+            "locus_reached": 7,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 8,
+            "peptide_in_one_candidate": 7,
+            "residues": 7827,
+            "scorer_inputs": 35
+          },
+          "mixed_ranking": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "mixed_then_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          },
+          "resolved_translation": {
+            "eligible": 11,
+            "locus_reached": 7,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 8,
+            "peptide_in_one_candidate": 7,
+            "residues": 7827,
+            "scorer_inputs": 35
+          },
+          "uncertainty_fallback": {
+            "eligible": 11,
+            "locus_reached": 10,
+            "long_complete_across_windows": 1,
+            "long_eligible": 1,
+            "peptide_available": 11,
+            "peptide_in_one_candidate": 10,
+            "residues": 7874,
+            "scorer_inputs": 25
+          }
+        }
+      }
+    }
+  },
+  "schema": "iri-preprocessing-validation-v1"
+}

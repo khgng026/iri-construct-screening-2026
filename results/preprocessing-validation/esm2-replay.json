@@ -1,0 +1,1222 @@
+{
+  "full_mixed_would_select_unscored_records": {
+    "candidate_cap": {
+      "1": 0,
+      "2": 35,
+      "4": 82
+    },
+    "gene_residue_ceiling": {
+      "1": 0,
+      "2": 35,
+      "4": 82
+    }
+  },
+  "input_sha256": {
+    "holdout/esm2/gene_caller.json": "76ebe5059bcf5599f8d395d3f2a35fb4e1d82728046cef9ea0c9d4bab65ffd13",
+    "holdout/esm2/minimal.json": "97aa574f9548554dd663f746e5d2811e975cfb382bdedcf1e805dd44225d7b80",
+    "holdout/esm2/protocol.json": "449095b9faf8e134f1c751bdc555bfd60da690ac75c3d338c14a5526490a2ad4",
+    "holdout/esm2/start_ranked.json": "beaed96ee9e48e582ab78df476f80007873de50a981d4b56956fcc7249a460c3",
+    "prepared/holdout/evaluator/answer-key.corroborated.json": "398d681600b10b82c05df8056e0b39b56df308c9545930afc88814af7e75debb",
+    "prepared/holdout/evaluator/construct-map.private.json": "4a3acbac69c6bda9f2836a35d5cb298c583371181ef4e9c2b145215121ea6a3c",
+    "prepared/holdout/evaluator/groups.lineage.json": "d2f105139809d3df16d200a46e7de1fc50b622ec3eb2ba8488ed1b101aea1ab9"
+  },
+  "output_limit": 5,
+  "primary_budget_mixed_changes_by_family": {
+    "aminoglycoside_phosphotransferase": {
+      "gained": 97,
+      "lost": 31
+    },
+    "ant3_adenylyltransferase": {
+      "gained": 14,
+      "lost": 2
+    },
+    "arac_regulator": {
+      "gained": 1,
+      "lost": 9
+    },
+    "chloramphenicol_acetyltransferase": {
+      "gained": 10,
+      "lost": 0
+    },
+    "class_a_beta_lactamase": {
+      "gained": 49,
+      "lost": 75
+    },
+    "erm_rrna_methyltransferase": {
+      "gained": 8,
+      "lost": 0
+    },
+    "gfp_like": {
+      "gained": 37,
+      "lost": 8
+    },
+    "gst_mu": {
+      "gained": 3,
+      "lost": 0
+    },
+    "initiator_repb": {
+      "gained": 1,
+      "lost": 2
+    },
+    "laci_galr_repressor": {
+      "gained": 2,
+      "lost": 18
+    },
+    "omp_decarboxylase": {
+      "gained": 7,
+      "lost": 4
+    },
+    "phage_integrase": {
+      "gained": 0,
+      "lost": 4
+    },
+    "tcr_tet_efflux": {
+      "gained": 0,
+      "lost": 2
+    },
+    "trpf": {
+      "gained": 5,
+      "lost": 0
+    }
+  },
+  "primary_budget_mixed_with_full_selection_scored": {
+    "gene_caller": {
+      "components": 1162,
+      "constructs": 742,
+      "covered": 740,
+      "equal_lineage_recall": 0.6935719849059058,
+      "groups": 399,
+      "input_residues": 513883,
+      "pooled_recall": 0.6135972461273667,
+      "recovered": 713,
+      "scorer_inputs": 1467
+    },
+    "mixed_ranking": {
+      "components": 1162,
+      "constructs": 742,
+      "covered": 808,
+      "equal_lineage_recall": 0.752648313604891,
+      "groups": 399,
+      "input_residues": 493122,
+      "pooled_recall": 0.6738382099827883,
+      "recovered": 783,
+      "scorer_inputs": 1467
+    }
+  },
+  "runs": {
+    "candidate_cap": {
+      "1": {
+        "gene_caller": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 336,
+          "equal_lineage_recall": 0.35391250403098745,
+          "groups": 426,
+          "input_residues": 334550,
+          "pooled_recall": 0.26453726453726456,
+          "recovered": 323,
+          "recovered_by_similarity_tier": {
+            "high": 166,
+            "insufficient_coverage": 26,
+            "intermediate": 49,
+            "low": 82
+          },
+          "scorer_inputs": 777,
+          "versus_gene_caller": {
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "gained": 56,
+            "groups_declined": 7,
+            "groups_improved": 35,
+            "lineage_gain": 0.039801749724735505,
+            "lost": 12
+          }
+        },
+        "gene_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 336,
+          "equal_lineage_recall": 0.35391250403098745,
+          "groups": 426,
+          "input_residues": 334550,
+          "pooled_recall": 0.26453726453726456,
+          "recovered": 323,
+          "recovered_by_similarity_tier": {
+            "high": 166,
+            "insufficient_coverage": 26,
+            "intermediate": 49,
+            "low": 82
+          },
+          "scorer_inputs": 777,
+          "versus_gene_caller": {
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "gained": 56,
+            "groups_declined": 7,
+            "groups_improved": 35,
+            "lineage_gain": 0.039801749724735505,
+            "lost": 12
+          }
+        },
+        "minimal": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 296,
+          "equal_lineage_recall": 0.31411075430625196,
+          "groups": 426,
+          "input_residues": 345865,
+          "pooled_recall": 0.2285012285012285,
+          "recovered": 279,
+          "recovered_by_similarity_tier": {
+            "high": 131,
+            "insufficient_coverage": 23,
+            "intermediate": 42,
+            "low": 83
+          },
+          "scorer_inputs": 777,
+          "versus_gene_caller": {
+            "gained": 12,
+            "groups_declined": 35,
+            "groups_improved": 7,
+            "lineage_gain": -0.039801749724735505,
+            "lost": 56
+          },
+          "versus_minimal": {
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          }
+        },
+        "mixed_ranking": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 336,
+          "equal_lineage_recall": 0.35391250403098745,
+          "groups": 426,
+          "input_residues": 334550,
+          "pooled_recall": 0.26453726453726456,
+          "recovered": 323,
+          "recovered_by_similarity_tier": {
+            "high": 166,
+            "insufficient_coverage": 26,
+            "intermediate": 49,
+            "low": 82
+          },
+          "scorer_inputs": 777,
+          "versus_gene_caller": {
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "gained": 56,
+            "groups_declined": 7,
+            "groups_improved": 35,
+            "lineage_gain": 0.039801749724735505,
+            "lost": 12
+          }
+        },
+        "mixed_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 336,
+          "equal_lineage_recall": 0.35391250403098745,
+          "groups": 426,
+          "input_residues": 334550,
+          "pooled_recall": 0.26453726453726456,
+          "recovered": 323,
+          "recovered_by_similarity_tier": {
+            "high": 166,
+            "insufficient_coverage": 26,
+            "intermediate": 49,
+            "low": 82
+          },
+          "scorer_inputs": 777,
+          "versus_gene_caller": {
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "gained": 56,
+            "groups_declined": 7,
+            "groups_improved": 35,
+            "lineage_gain": 0.039801749724735505,
+            "lost": 12
+          }
+        }
+      },
+      "2": {
+        "gene_caller": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 753,
+          "equal_lineage_recall": 0.6569844715579313,
+          "groups": 426,
+          "input_residues": 551358,
+          "pooled_recall": 0.5937755937755937,
+          "recovered": 725,
+          "recovered_by_similarity_tier": {
+            "high": 311,
+            "insufficient_coverage": 34,
+            "intermediate": 243,
+            "low": 137
+          },
+          "scorer_inputs": 1537,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.06703092194798356,
+              0.11858137912640282
+            ],
+            "gained": 163,
+            "groups_declined": 7,
+            "groups_improved": 74,
+            "lineage_gain": 0.09191423373887829,
+            "lost": 11
+          }
+        },
+        "gene_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 753,
+          "equal_lineage_recall": 0.6569844715579313,
+          "groups": 426,
+          "input_residues": 553897,
+          "pooled_recall": 0.5937755937755937,
+          "recovered": 725,
+          "recovered_by_similarity_tier": {
+            "high": 311,
+            "insufficient_coverage": 34,
+            "intermediate": 243,
+            "low": 137
+          },
+          "scorer_inputs": 1554,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.06703092194798356,
+              0.11858137912640282
+            ],
+            "gained": 163,
+            "groups_declined": 7,
+            "groups_improved": 74,
+            "lineage_gain": 0.09191423373887829,
+            "lost": 11
+          }
+        },
+        "minimal": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 610,
+          "equal_lineage_recall": 0.565070237819053,
+          "groups": 426,
+          "input_residues": 596911,
+          "pooled_recall": 0.4692874692874693,
+          "recovered": 573,
+          "recovered_by_similarity_tier": {
+            "high": 262,
+            "insufficient_coverage": 31,
+            "intermediate": 159,
+            "low": 121
+          },
+          "scorer_inputs": 1554,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              -0.11870644495052078,
+              -0.06709751543874766
+            ],
+            "gained": 11,
+            "groups_declined": 74,
+            "groups_improved": 7,
+            "lineage_gain": -0.09191423373887829,
+            "lost": 163
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          }
+        },
+        "mixed_ranking": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 829,
+          "equal_lineage_recall": 0.7247326133582058,
+          "groups": 426,
+          "input_residues": 525567,
+          "pooled_recall": 0.6584766584766585,
+          "recovered": 804,
+          "recovered_by_similarity_tier": {
+            "high": 290,
+            "insufficient_coverage": 27,
+            "intermediate": 335,
+            "low": 152
+          },
+          "scorer_inputs": 1537,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.030685974110144724,
+              0.10193798434319762
+            ],
+            "gained": 234,
+            "groups_declined": 46,
+            "groups_improved": 90,
+            "lineage_gain": 0.0677481418002745,
+            "lost": 155
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.1195211186917348,
+              0.19892236515459263
+            ],
+            "gained": 339,
+            "groups_declined": 30,
+            "groups_improved": 136,
+            "lineage_gain": 0.1596623755391528,
+            "lost": 108
+          }
+        },
+        "mixed_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 829,
+          "equal_lineage_recall": 0.7247326133582058,
+          "groups": 426,
+          "input_residues": 528106,
+          "pooled_recall": 0.6584766584766585,
+          "recovered": 804,
+          "recovered_by_similarity_tier": {
+            "high": 290,
+            "insufficient_coverage": 27,
+            "intermediate": 335,
+            "low": 152
+          },
+          "scorer_inputs": 1554,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.030685974110144724,
+              0.10193798434319762
+            ],
+            "gained": 234,
+            "groups_declined": 46,
+            "groups_improved": 90,
+            "lineage_gain": 0.0677481418002745,
+            "lost": 155
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.1195211186917348,
+              0.19892236515459263
+            ],
+            "gained": 339,
+            "groups_declined": 30,
+            "groups_improved": 136,
+            "lineage_gain": 0.1596623755391528,
+            "lost": 108
+          }
+        }
+      },
+      "4": {
+        "gene_caller": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 1132,
+          "equal_lineage_recall": 0.8909233243060257,
+          "groups": 426,
+          "input_residues": 789199,
+          "pooled_recall": 0.9000819000819,
+          "recovered": 1099,
+          "recovered_by_similarity_tier": {
+            "high": 461,
+            "insufficient_coverage": 35,
+            "intermediate": 400,
+            "low": 203
+          },
+          "scorer_inputs": 2772,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.06664691943127962,
+              0.11636340555179418
+            ],
+            "gained": 118,
+            "groups_declined": 9,
+            "groups_improved": 73,
+            "lineage_gain": 0.09051299214213906,
+            "lost": 33
+          }
+        },
+        "gene_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 1133,
+          "equal_lineage_recall": 0.8905283795982848,
+          "groups": 426,
+          "input_residues": 851608,
+          "pooled_recall": 0.9000819000819,
+          "recovered": 1099,
+          "recovered_by_similarity_tier": {
+            "high": 461,
+            "insufficient_coverage": 35,
+            "intermediate": 400,
+            "low": 203
+          },
+          "scorer_inputs": 3108,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              -0.0035545023696682463,
+              0.0023696682464454974
+            ],
+            "gained": 1,
+            "groups_declined": 1,
+            "groups_improved": 1,
+            "lineage_gain": -0.0003949447077409163,
+            "lost": 1
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.06675847848833631,
+              0.11549465542356538
+            ],
+            "gained": 117,
+            "groups_declined": 9,
+            "groups_improved": 72,
+            "lineage_gain": 0.09011804743439815,
+            "lost": 32
+          }
+        },
+        "minimal": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 1081,
+          "equal_lineage_recall": 0.8004103321638867,
+          "groups": 426,
+          "input_residues": 971259,
+          "pooled_recall": 0.8304668304668305,
+          "recovered": 1014,
+          "recovered_by_similarity_tier": {
+            "high": 449,
+            "insufficient_coverage": 35,
+            "intermediate": 343,
+            "low": 187
+          },
+          "scorer_inputs": 3108,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              -0.11655536406721241,
+              -0.06678540653659137
+            ],
+            "gained": 33,
+            "groups_declined": 73,
+            "groups_improved": 9,
+            "lineage_gain": -0.09051299214213906,
+            "lost": 118
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          }
+        },
+        "mixed_ranking": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 1132,
+          "equal_lineage_recall": 0.8909233243060257,
+          "groups": 426,
+          "input_residues": 789199,
+          "pooled_recall": 0.9000819000819,
+          "recovered": 1099,
+          "recovered_by_similarity_tier": {
+            "high": 461,
+            "insufficient_coverage": 35,
+            "intermediate": 400,
+            "low": 203
+          },
+          "scorer_inputs": 2772,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.06664691943127962,
+              0.11636340555179418
+            ],
+            "gained": 118,
+            "groups_declined": 9,
+            "groups_improved": 73,
+            "lineage_gain": 0.09051299214213906,
+            "lost": 33
+          }
+        },
+        "mixed_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 1133,
+          "equal_lineage_recall": 0.8905283795982848,
+          "groups": 426,
+          "input_residues": 851608,
+          "pooled_recall": 0.9000819000819,
+          "recovered": 1099,
+          "recovered_by_similarity_tier": {
+            "high": 461,
+            "insufficient_coverage": 35,
+            "intermediate": 400,
+            "low": 203
+          },
+          "scorer_inputs": 3108,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              -0.0035545023696682463,
+              0.0023696682464454974
+            ],
+            "gained": 1,
+            "groups_declined": 1,
+            "groups_improved": 1,
+            "lineage_gain": -0.0003949447077409163,
+            "lost": 1
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.06675847848833631,
+              0.11549465542356538
+            ],
+            "gained": 117,
+            "groups_declined": 9,
+            "groups_improved": 72,
+            "lineage_gain": 0.09011804743439815,
+            "lost": 32
+          }
+        }
+      }
+    },
+    "gene_residue_ceiling": {
+      "1": {
+        "gene_caller": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 336,
+          "equal_lineage_recall": 0.35391250403098745,
+          "groups": 426,
+          "input_residues": 334550,
+          "pooled_recall": 0.26453726453726456,
+          "recovered": 323,
+          "recovered_by_similarity_tier": {
+            "high": 166,
+            "insufficient_coverage": 26,
+            "intermediate": 49,
+            "low": 82
+          },
+          "scorer_inputs": 777,
+          "versus_gene_caller": {
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "gained": 311,
+            "groups_declined": 75,
+            "groups_improved": 138,
+            "lineage_gain": 0.12729270795029088,
+            "lost": 250
+          }
+        },
+        "gene_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 336,
+          "equal_lineage_recall": 0.35391250403098745,
+          "groups": 426,
+          "input_residues": 334550,
+          "pooled_recall": 0.26453726453726456,
+          "recovered": 323,
+          "recovered_by_similarity_tier": {
+            "high": 166,
+            "insufficient_coverage": 26,
+            "intermediate": 49,
+            "low": 82
+          },
+          "scorer_inputs": 777,
+          "versus_gene_caller": {
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "gained": 311,
+            "groups_declined": 75,
+            "groups_improved": 138,
+            "lineage_gain": 0.12729270795029088,
+            "lost": 250
+          }
+        },
+        "minimal": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 275,
+          "equal_lineage_recall": 0.22661979608069655,
+          "groups": 426,
+          "input_residues": 264711,
+          "pooled_recall": 0.21457821457821458,
+          "recovered": 262,
+          "recovered_by_similarity_tier": {
+            "high": 102,
+            "insufficient_coverage": 12,
+            "intermediate": 104,
+            "low": 44
+          },
+          "scorer_inputs": 769,
+          "versus_gene_caller": {
+            "gained": 250,
+            "groups_declined": 138,
+            "groups_improved": 75,
+            "lineage_gain": -0.12729270795029088,
+            "lost": 311
+          },
+          "versus_minimal": {
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          }
+        },
+        "mixed_ranking": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 336,
+          "equal_lineage_recall": 0.35391250403098745,
+          "groups": 426,
+          "input_residues": 334550,
+          "pooled_recall": 0.26453726453726456,
+          "recovered": 323,
+          "recovered_by_similarity_tier": {
+            "high": 166,
+            "insufficient_coverage": 26,
+            "intermediate": 49,
+            "low": 82
+          },
+          "scorer_inputs": 777,
+          "versus_gene_caller": {
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "gained": 311,
+            "groups_declined": 75,
+            "groups_improved": 138,
+            "lineage_gain": 0.12729270795029088,
+            "lost": 250
+          }
+        },
+        "mixed_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 336,
+          "equal_lineage_recall": 0.35391250403098745,
+          "groups": 426,
+          "input_residues": 334550,
+          "pooled_recall": 0.26453726453726456,
+          "recovered": 323,
+          "recovered_by_similarity_tier": {
+            "high": 166,
+            "insufficient_coverage": 26,
+            "intermediate": 49,
+            "low": 82
+          },
+          "scorer_inputs": 777,
+          "versus_gene_caller": {
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "gained": 311,
+            "groups_declined": 75,
+            "groups_improved": 138,
+            "lineage_gain": 0.12729270795029088,
+            "lost": 250
+          }
+        }
+      },
+      "2": {
+        "gene_caller": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 753,
+          "equal_lineage_recall": 0.6569844715579313,
+          "groups": 426,
+          "input_residues": 551358,
+          "pooled_recall": 0.5937755937755937,
+          "recovered": 725,
+          "recovered_by_similarity_tier": {
+            "high": 311,
+            "insufficient_coverage": 34,
+            "intermediate": 243,
+            "low": 137
+          },
+          "scorer_inputs": 1537,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.23145060245178728,
+              0.32742023313705776
+            ],
+            "gained": 477,
+            "groups_declined": 45,
+            "groups_improved": 216,
+            "lineage_gain": 0.28003341774076373,
+            "lost": 208
+          }
+        },
+        "gene_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 753,
+          "equal_lineage_recall": 0.6569844715579313,
+          "groups": 426,
+          "input_residues": 551358,
+          "pooled_recall": 0.5937755937755937,
+          "recovered": 725,
+          "recovered_by_similarity_tier": {
+            "high": 311,
+            "insufficient_coverage": 34,
+            "intermediate": 243,
+            "low": 137
+          },
+          "scorer_inputs": 1537,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.23145060245178728,
+              0.32742023313705776
+            ],
+            "gained": 477,
+            "groups_declined": 45,
+            "groups_improved": 216,
+            "lineage_gain": 0.28003341774076373,
+            "lost": 208
+          }
+        },
+        "minimal": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 479,
+          "equal_lineage_recall": 0.37695105381716754,
+          "groups": 426,
+          "input_residues": 478873,
+          "pooled_recall": 0.37346437346437344,
+          "recovered": 456,
+          "recovered_by_similarity_tier": {
+            "high": 217,
+            "insufficient_coverage": 24,
+            "intermediate": 104,
+            "low": 111
+          },
+          "scorer_inputs": 1364,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              -0.32751011166295524,
+              -0.23151230680851534
+            ],
+            "gained": 208,
+            "groups_declined": 216,
+            "groups_improved": 45,
+            "lineage_gain": -0.28003341774076373,
+            "lost": 477
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          }
+        },
+        "mixed_ranking": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 829,
+          "equal_lineage_recall": 0.7247326133582058,
+          "groups": 426,
+          "input_residues": 525567,
+          "pooled_recall": 0.6584766584766585,
+          "recovered": 804,
+          "recovered_by_similarity_tier": {
+            "high": 290,
+            "insufficient_coverage": 27,
+            "intermediate": 335,
+            "low": 152
+          },
+          "scorer_inputs": 1537,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.030685974110144724,
+              0.10193798434319762
+            ],
+            "gained": 234,
+            "groups_declined": 46,
+            "groups_improved": 90,
+            "lineage_gain": 0.0677481418002745,
+            "lost": 155
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.3047356606005895,
+              0.3905605716032256
+            ],
+            "gained": 452,
+            "groups_declined": 16,
+            "groups_improved": 229,
+            "lineage_gain": 0.34778155954103823,
+            "lost": 104
+          }
+        },
+        "mixed_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 829,
+          "equal_lineage_recall": 0.7247326133582058,
+          "groups": 426,
+          "input_residues": 525567,
+          "pooled_recall": 0.6584766584766585,
+          "recovered": 804,
+          "recovered_by_similarity_tier": {
+            "high": 290,
+            "insufficient_coverage": 27,
+            "intermediate": 335,
+            "low": 152
+          },
+          "scorer_inputs": 1537,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.030685974110144724,
+              0.10193798434319762
+            ],
+            "gained": 234,
+            "groups_declined": 46,
+            "groups_improved": 90,
+            "lineage_gain": 0.0677481418002745,
+            "lost": 155
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.3047356606005895,
+              0.3905605716032256
+            ],
+            "gained": 452,
+            "groups_declined": 16,
+            "groups_improved": 229,
+            "lineage_gain": 0.34778155954103823,
+            "lost": 104
+          }
+        }
+      },
+      "4": {
+        "gene_caller": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 1132,
+          "equal_lineage_recall": 0.8909233243060257,
+          "groups": 426,
+          "input_residues": 789199,
+          "pooled_recall": 0.9000819000819,
+          "recovered": 1099,
+          "recovered_by_similarity_tier": {
+            "high": 461,
+            "insufficient_coverage": 35,
+            "intermediate": 400,
+            "low": 203
+          },
+          "scorer_inputs": 2772,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.22963226544387683,
+              0.2996523717199073
+            ],
+            "gained": 356,
+            "groups_declined": 3,
+            "groups_improved": 170,
+            "lineage_gain": 0.2645586279176327,
+            "lost": 7
+          }
+        },
+        "gene_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 1132,
+          "equal_lineage_recall": 0.8909233243060257,
+          "groups": 426,
+          "input_residues": 789199,
+          "pooled_recall": 0.9000819000819,
+          "recovered": 1099,
+          "recovered_by_similarity_tier": {
+            "high": 461,
+            "insufficient_coverage": 35,
+            "intermediate": 400,
+            "low": 203
+          },
+          "scorer_inputs": 2772,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.22963226544387683,
+              0.2996523717199073
+            ],
+            "gained": 356,
+            "groups_declined": 3,
+            "groups_improved": 170,
+            "lineage_gain": 0.2645586279176327,
+            "lost": 7
+          }
+        },
+        "minimal": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 796,
+          "equal_lineage_recall": 0.6263646963883931,
+          "groups": 426,
+          "input_residues": 704420,
+          "pooled_recall": 0.6142506142506142,
+          "recovered": 750,
+          "recovered_by_similarity_tier": {
+            "high": 343,
+            "insufficient_coverage": 34,
+            "intermediate": 216,
+            "low": 157
+          },
+          "scorer_inputs": 2027,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              -0.29966446797015517,
+              -0.22972027314444377
+            ],
+            "gained": 7,
+            "groups_declined": 170,
+            "groups_improved": 3,
+            "lineage_gain": -0.2645586279176327,
+            "lost": 356
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          }
+        },
+        "mixed_ranking": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 1132,
+          "equal_lineage_recall": 0.8909233243060257,
+          "groups": 426,
+          "input_residues": 789199,
+          "pooled_recall": 0.9000819000819,
+          "recovered": 1099,
+          "recovered_by_similarity_tier": {
+            "high": 461,
+            "insufficient_coverage": 35,
+            "intermediate": 400,
+            "low": 203
+          },
+          "scorer_inputs": 2772,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.22963226544387683,
+              0.2996523717199073
+            ],
+            "gained": 356,
+            "groups_declined": 3,
+            "groups_improved": 170,
+            "lineage_gain": 0.2645586279176327,
+            "lost": 7
+          }
+        },
+        "mixed_then_fallback": {
+          "components": 1221,
+          "constructs": 777,
+          "covered": 1132,
+          "equal_lineage_recall": 0.8909233243060257,
+          "groups": 426,
+          "input_residues": 789199,
+          "pooled_recall": 0.9000819000819,
+          "recovered": 1099,
+          "recovered_by_similarity_tier": {
+            "high": 461,
+            "insufficient_coverage": 35,
+            "intermediate": 400,
+            "low": 203
+          },
+          "scorer_inputs": 2772,
+          "versus_gene_caller": {
+            "bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "gained": 0,
+            "groups_declined": 0,
+            "groups_improved": 0,
+            "lineage_gain": 0.0,
+            "lost": 0
+          },
+          "versus_minimal": {
+            "bootstrap_95": [
+              0.22963226544387683,
+              0.2996523717199073
+            ],
+            "gained": 356,
+            "groups_declined": 3,
+            "groups_improved": 170,
+            "lineage_gain": 0.2645586279176327,
+            "lost": 7
+          }
+        }
+      }
+    }
+  },
+  "schema": "iri-preprocessing-validation-esm2-replay-v1",
+  "scorer": "esm2",
+  "similarity_tier_components": {
+    "high": 508,
+    "insufficient_coverage": 37,
+    "intermediate": 426,
+    "low": 250
+  }
+}
