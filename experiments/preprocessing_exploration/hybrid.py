@@ -87,6 +87,15 @@ def same_frame_overlap(a, b):
     return bases / min(a.end - a.start, b.end - b.start)
 
 
+def distinct_supplements(primary, fallback, overlap):
+    """Yield additions that differ from the primary pool and previous additions."""
+    seen = list(primary)
+    for candidate in fallback:
+        if all(same_frame_overlap(candidate, other) < overlap for other in seen):
+            seen.append(candidate)
+            yield candidate
+
+
 def interleave(a, b):
     return (candidate for pair in zip_longest(a, b) for candidate in pair if candidate is not None)
 
@@ -209,17 +218,17 @@ def read(path):
     return json.loads(path.read_bytes())
 
 
-def prepare(cohort, partition):
+def prepare(cohort, partition, *, scorers=SCORERS):
     fold = "dev-run3" if partition == "development" else "holdout"
     trace_paths = {scorer: {method: cohort / fold / scorer / f"{method}.json" for method in POOLS}
-                   for scorer in SCORERS}
+                   for scorer in scorers}
     traces = {scorer: {method: read(path) for method, path in paths.items()}
               for scorer, paths in trace_paths.items()}
-    protocol_paths = [cohort / fold / scorer / "protocol.json" for scorer in SCORERS]
+    protocol_paths = [cohort / fold / scorer / "protocol.json" for scorer in scorers]
     protocols = [read(path) for path in protocol_paths]
     echovalues = ("query_caps", "prediction_limit", "minimum_component_overlap",
                   "sequence_input_sha256", "reference_panel_sha256")
-    if any(protocols[0][name] != protocols[1][name] for name in echovalues):
+    if any(protocols[0][name] != other[name] for other in protocols[1:] for name in echovalues):
         raise ValueError("Historical scorers used different protocols")
     protocol = protocols[0]
     evaluator = cohort / "prepared" / partition / "evaluator"
@@ -229,7 +238,7 @@ def prepare(cohort, partition):
     lineage = {row["id"]: row["group"] for row in read(group_path)["constructs"]}
     ids = {row["id"] for row in truth}
     replay_tiers = {}
-    for scorer in SCORERS:
+    for scorer in scorers:
         for method in POOLS:
             trace = traces[scorer][method]
             if trace["input_sha256"] != protocol["sequence_input_sha256"]:
@@ -245,14 +254,14 @@ def prepare(cohort, partition):
     for construct in truth:
         cid, size = construct["id"], construct["length"]
         pools = {}
-        ranks = {scorer: {} for scorer in SCORERS}
-        historical = {scorer: {} for scorer in SCORERS}
+        ranks = {scorer: {} for scorer in scorers}
+        historical = {scorer: {} for scorer in scorers}
         for method in POOLS:
-            first, second = (traces[scorer][method]["candidate_pools"][cid] for scorer in SCORERS)
-            if first != second:
+            first, *other_pools = (traces[scorer][method]["candidate_pools"][cid] for scorer in scorers)
+            if any(first != other for other in other_pools):
                 raise ValueError("Candidate pools differ across the saved scorers")
             pools[method] = parse_pool(first, method, size)
-            for scorer in SCORERS:
+            for scorer in scorers:
                 tier = replay_tiers[scorer, method][cid]
                 queries = tier["queries"]
                 if len(queries) != min(max(REPLAY_CAPS), len(pools[method])):
@@ -307,7 +316,7 @@ def family_recovery(record, candidates, scorer, cap, overlap, call_limit):
 
 def verify_family_replay(record, overlap, call_limit):
     """Verify that the unchanged top-four arms exactly reproduce their saved predictions."""
-    for scorer in SCORERS:
+    for scorer in record["historical"]:
         for method in POOLS:
             tier = record["historical"][scorer][method]
             candidates = record["pools"][method][:max(REPLAY_CAPS)]

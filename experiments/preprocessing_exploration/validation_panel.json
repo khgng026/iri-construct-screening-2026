@@ -1,0 +1,224 @@
+{
+  "revision": "55d4b762194055c8027fd6c780068d8a78a03282",
+  "source": "https://github.com/Reclone-org/Open-DNA-Collections",
+  "collection": "Open Enzyme Collection",
+  "catalogue_groups_are_not_independent_lineages": true,
+  "records": [
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0007.gb",
+      "sha256": "51deb96af4ebdbbbebc6d990747ba520331f1d5b06e8e62fcf1398b9b4b2786e",
+      "target_labels": [
+        "9\u00b0N-7 DNA polymerase"
+      ],
+      "group": "polymerase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0008.gb",
+      "sha256": "ce7994e8e6ca3a38669361923c6bcc94bdebddbe7b610e68d0fccf54b5e5ae56",
+      "target_labels": [
+        "DNA Polymerase I, Large (Klenow) Fragment"
+      ],
+      "group": "polymerase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0010.gb",
+      "sha256": "d71443fe53bfcb07693ab994a43746153cce4fe3adc97fec4ed24baf8b1eb8f2",
+      "target_labels": [
+        "E. coli DNA Polymerase I"
+      ],
+      "group": "polymerase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0011.gb",
+      "sha256": "2402418af03fdba7e763fcb5c4000e4c0a3bf9c3be412340497d76df2a56e552",
+      "target_labels": [
+        "KlenTaq1 polymerase "
+      ],
+      "group": "polymerase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0012.gb",
+      "sha256": "5540051ef782c847bc47540afaf30cd46d8883bfd0919fc8712de1daab94ab00",
+      "target_labels": [
+        "KOD DNA polymerase"
+      ],
+      "group": "polymerase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0016.gb",
+      "sha256": "438405532990be1a5ec3658e216f986d7eddb17e32cd6ddc8c2384c85b669cb3",
+      "target_labels": [
+        "Taq DNA Polymerase"
+      ],
+      "group": "polymerase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0018.gb",
+      "sha256": "9af44f9ead58f86fb679fa98b1494e03a6a3ff5253cad4b57e00057ebc178178",
+      "target_labels": [
+        "Tth DNA polymerase"
+      ],
+      "group": "polymerase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0019.gb",
+      "sha256": "0d18b035ba5ecf882e8c4f63c7530c15aa3bcbf1d013bc2099071a5bf7d85737",
+      "target_labels": [
+        "Bst DNA Polymerase, Full Length"
+      ],
+      "group": "polymerase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0020.gb",
+      "sha256": "7f47d81237561fc3c3e7458446cad1ac9a44e53a161d1b39a0ec8e50e4bf73c8",
+      "target_labels": [
+        "Bst DNA Polymerase, Large Fragment"
+      ],
+      "group": "polymerase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0021.gb",
+      "sha256": "fd549fe0a7ca3bfa0e34a1afd9a935b4d0a99c5f414b3809eeb650294a436198",
+      "target_labels": [
+        "Bsu DNA Polymerase I, Large Fragment "
+      ],
+      "group": "polymerase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0029.gb",
+      "sha256": "17042073a9b937d853a3ef7dd7182ba5b39c89c8eb5c981793974d10c418e9bc",
+      "target_labels": [
+        "E. coli DNA Ligase"
+      ],
+      "group": "ligase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0030.gb",
+      "sha256": "3cf07f00f01dad539215e7e929519d9dd675492928b33c87d845e7920181fc5f",
+      "target_labels": [
+        "DNA Lligase III"
+      ],
+      "group": "ligase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0031.gb",
+      "sha256": "5018720f8d315231f6ab260604c6a666796e25fe5b07977ce91f30a164b2351c",
+      "target_labels": [
+        "DNA Ligase IV"
+      ],
+      "group": "ligase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0032.gb",
+      "sha256": "c9dbb20e9db6d6982b93c735f89299fe77d5f11d78bfc8dda77d023d8d9a3e85",
+      "target_labels": [
+        "9 Degrees North DNA Ligase"
+      ],
+      "group": "ligase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0034.gb",
+      "sha256": "908abb2a1d938320ea89a6be1470eae4d819f43d54271d9a5563a93ebe52d8df",
+      "target_labels": [
+        "Taq DNA Ligase"
+      ],
+      "group": "ligase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0036.gb",
+      "sha256": "430913faf79b6845b26a828202eed37e5bae88db0630c44ae4c16be82e280cd2",
+      "target_labels": [
+        "CIP (calf intestinal phosphatase)"
+      ],
+      "group": "phosphatase"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0037.gb",
+      "sha256": "5326f4a29a6c3cfe81c7e52656e6f952aace31a7424af7bf47771d3448f458f8",
+      "target_labels": [
+        "RNAse A"
+      ],
+      "group": "rna_enzyme"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0038.gb",
+      "sha256": "8fd5e6116ca64c5904ce8ef75c73ad23000b29c2cef7433cca3ee67c01e633e2",
+      "target_labels": [
+        "RNAse H"
+      ],
+      "group": "rna_enzyme"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0072.gb",
+      "sha256": "581efdc9f3118ed10da4766c95468a9ba3105369004a8db375f618058abd376a",
+      "target_labels": [
+        "dNK from drosophila"
+      ],
+      "group": "nucleotide_enzyme"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0073.gb",
+      "sha256": "bb826d43fd5051647836f0e19af5e0fadf9c4dd076c1d49120973de0f958d1b7",
+      "target_labels": [
+        "TEV protease"
+      ],
+      "group": "protein_processing"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0074.gb",
+      "sha256": "18c38e4148331b5755dd46133af4d5aa2ef8861916eebb7ff03511900882b8c7",
+      "target_labels": [
+        "T4 PNK"
+      ],
+      "group": "nucleotide_enzyme"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0080.gb",
+      "sha256": "63de67648dccf3f10af66b2fe83929cb32a86385154f08e6b99241a93f0de2a7",
+      "target_labels": [
+        "Bovine DNTT"
+      ],
+      "group": "nucleotide_enzyme"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0083.gb",
+      "sha256": "04a49e59527b2fc44bc039b60ccc1f1f6395c76a3c4b7af50eba75f2a903bd4a",
+      "target_labels": [
+        "UDG"
+      ],
+      "group": "dna_repair"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0084.gb",
+      "sha256": "3587e10ebbf133c1ff5f3f229623cc2abff7c368d61cf66bd841d38fd22b5a1e",
+      "target_labels": [
+        "Fpg"
+      ],
+      "group": "dna_repair"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0085.gb",
+      "sha256": "3e311bbe680f417b7d62c7c1c1a92b2cc12208439eaaf99012f7d203404b682c",
+      "target_labels": [
+        "Endonuclease IV E. coli"
+      ],
+      "group": "dna_repair"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0086.gb",
+      "sha256": "033a81b74f6127253e56112c0aa9b73cd602c1153f64550f98c59abdf9e4e250",
+      "target_labels": [
+        "Endonuclease VIII E. coli"
+      ],
+      "group": "dna_repair"
+    },
+    {
+      "path": "Open Enzyme Collection/Plasmids_Genbank/ODC_0087.gb",
+      "sha256": "66f02c20cbb3257048a9efa133d1b80239c33e3b74480e4395b4052a432c96f6",
+      "target_labels": [
+        "Exonuclease III E. coli"
+      ],
+      "group": "dna_repair"
+    }
+  ]
+}

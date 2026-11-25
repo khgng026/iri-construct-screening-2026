@@ -1,6 +1,6 @@
 # Current project status
 
-Updated November 23, 2026. The [research scope](SCOPE.md) and [plan](PLAN.md) define the active direction. This is the current status ledger; historical reports preserve their original findings and conditions.
+Updated November 24, 2026. The [research scope](SCOPE.md) and [plan](PLAN.md) define the active direction. This is the current status ledger; historical reports preserve their original findings and conditions.
 
 ## Established work
 
@@ -52,3 +52,5 @@ confirmatory version: independent labels, a profile-HMM comparator, and fresh he
 ## Preprocessing exploration
 
 Retrospective length ranking recovered 926 versus 725 components with saved ESM-2 results at two gene-called candidates per construct, while using fewer input residues. The effect weakened at larger budgets and did not add recoveries in the small Open Yeast check. Alternative budget allocation and hybrid candidate pools showed room for improvement, with gains limited to particular operating points. On archived Open Reporters records, direct whole-DNA BLASTx matched or exceeded the explicit candidate approaches on localized GFP recovery. Retaining resolved translation segments recovered an exact reporter missed by the original candidate methods on an incomplete archived map. [Methods and results](PREPROCESSING_EXPLORATION.md)
+
+Follow-up on November 24, 2026, held ESM-2 fixed. At two candidates, recoveries were 573 with minimal translation, 725 with gene calling, and 804 with the mixed gene-call order. Mixed ranking lost 155 components previously found by gene calling and added no net recoveries at four candidates within the saved shortlist. A fresh Open Enzyme panel reached 16 of 17 verifiable cargo proteins with minimal translation and 17 with gene calling. Keeping the first gene's windows together restored candidate coverage for a long protein displaced by the mixed rule in Open Yeast. Translation fallback had no net benefit in the ESM-2 replay and exposed a previously unreachable exact peptide in one incomplete archive using extra residues. [Preprocessing validation](PREPROCESSING_VALIDATION.md)
