@@ -1,0 +1,34 @@
+{
+  "isolation": {
+    "access_policy": "A Python audit hook rejected file opens outside the copied package and standard library, all writes, third-party package reads, socket creation and process launches.",
+    "confirmed_probes": [
+      "opening an existing project file was denied",
+      "opening a socket was denied",
+      "starting another process was denied"
+    ],
+    "copy": "Only the five listed files were copied to a new temporary directory outside the project. The working directory was an empty sibling.",
+    "interpreter_flags": [
+      "-I",
+      "-S",
+      "-B"
+    ]
+  },
+  "python": "3.14.7",
+  "replay": {
+    "altered_evidence_byte_rejected": true,
+    "calibrations_recomputed": 45,
+    "default_output_rows": 9,
+    "default_output_sha256": "60354d5667aa01ddbb552840dd9c0db0d79108f538d2290b88ef95fc528c3aa3",
+    "external_marker_method_by_allowance_cells": 9,
+    "full_json_matches_every_recorded_aggregate": true,
+    "full_json_output_sha256": "f6f5912343c6be71b593b9c4ba0199c092042361b23be6c72083f599b9c647b6",
+    "package_inputs_sha256": {
+      "README.md": "386265f5da2101a4c357e51db62d9ecd93232e41fd69a45909754ca27a89e670",
+      "evidence.json.gz": "026b07c885d304ecbb86d2c626e6e62983f7acca01cbf877263d29fcefb4405a",
+      "expected.json": "f6f5912343c6be71b593b9c4ba0199c092042361b23be6c72083f599b9c647b6",
+      "provenance.json": "1247ffc46470d47db5d8d8c7ffcd7304a4cadba75351f19304bc1c027b6dfda3",
+      "replay.py": "62422e2baa2e975df7b8aecba92187a5a79f998175d1e3b756ad52e1dcffb59d"
+    }
+  },
+  "result": "all checks passed"
+}
