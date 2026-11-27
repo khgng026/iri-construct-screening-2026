@@ -1,0 +1,147 @@
+{
+  "candidate_preparation": {
+    "gene_caller": {
+      "by_scope": {
+        "all": {
+          "candidates": 48,
+          "constructs": 24,
+          "residues": 13713
+        },
+        "low": {
+          "documented": 19,
+          "exact_peptides_in_pool": 19
+        },
+        "verified": {
+          "documented": 19,
+          "exact_peptides_in_pool": 19
+        }
+      },
+      "wall_seconds": 0.09937770500027909
+    },
+    "minimal": {
+      "by_scope": {
+        "all": {
+          "candidates": 1299,
+          "constructs": 24,
+          "residues": 83325
+        },
+        "low": {
+          "documented": 19,
+          "exact_peptides_in_pool": 19
+        },
+        "verified": {
+          "documented": 19,
+          "exact_peptides_in_pool": 19
+        }
+      },
+      "wall_seconds": 0.044232611001916666
+    }
+  },
+  "evidence": {
+    "archive_audit_sha256": "03048feb337e1971fee0f098dff3cc92c6b987463bfc3740709b4b752ace481a",
+    "documented_by_similarity_tier": {
+      "low": 19
+    },
+    "other_catalogue_controls": 5,
+    "references_sha256": "c3e9623ab6659a40d02f6b4f2bfea544fa47ff8251bde3088afa6283726c4d2f",
+    "verified_target_occurrences": 19,
+    "verified_unique_translations": 19
+  },
+  "schema": "iri-whole-construct-open-reporters-pilot-v1",
+  "uncapped_raw_dna": {
+    "curve": {
+      "1e-05": {
+        "0.5": {
+          "constructs": 24,
+          "documented": 19,
+          "observed_supported_fraction": 0.5,
+          "recall": 1.0,
+          "recovered": 19,
+          "recovered_by_tier": {
+            "low": 19
+          },
+          "returned": 38,
+          "unmatched_complete": 0,
+          "unverified_partial": 19
+        },
+        "0.8": {
+          "constructs": 24,
+          "documented": 19,
+          "observed_supported_fraction": 0.39473684210526316,
+          "recall": 0.7894736842105263,
+          "recovered": 15,
+          "recovered_by_tier": {
+            "low": 15
+          },
+          "returned": 38,
+          "unmatched_complete": 0,
+          "unverified_partial": 23
+        }
+      },
+      "1e-10": {
+        "0.5": {
+          "constructs": 24,
+          "documented": 19,
+          "observed_supported_fraction": 0.5,
+          "recall": 1.0,
+          "recovered": 19,
+          "recovered_by_tier": {
+            "low": 19
+          },
+          "returned": 38,
+          "unmatched_complete": 0,
+          "unverified_partial": 19
+        },
+        "0.8": {
+          "constructs": 24,
+          "documented": 19,
+          "observed_supported_fraction": 0.39473684210526316,
+          "recall": 0.7894736842105263,
+          "recovered": 15,
+          "recovered_by_tier": {
+            "low": 15
+          },
+          "returned": 38,
+          "unmatched_complete": 0,
+          "unverified_partial": 23
+        }
+      },
+      "1e-20": {
+        "0.5": {
+          "constructs": 24,
+          "documented": 19,
+          "observed_supported_fraction": 1.0,
+          "recall": 0.42105263157894735,
+          "recovered": 8,
+          "recovered_by_tier": {
+            "low": 8
+          },
+          "returned": 8,
+          "unmatched_complete": 0,
+          "unverified_partial": 0
+        },
+        "0.8": {
+          "constructs": 24,
+          "documented": 19,
+          "observed_supported_fraction": 0.625,
+          "recall": 0.2631578947368421,
+          "recovered": 5,
+          "recovered_by_tier": {
+            "low": 5
+          },
+          "returned": 8,
+          "unmatched_complete": 0,
+          "unverified_partial": 3
+        }
+      }
+    },
+    "work": {
+      "constructs": 24,
+      "input_nt": 70923,
+      "reference_count": 7,
+      "reporting_evalue_ceiling": 1e-05,
+      "version": "blastx: 2.16.0+",
+      "wall_seconds": 0.499903305999851
+    }
+  }
+}

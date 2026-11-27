@@ -1,0 +1,293 @@
+{
+  "candidate_work_before_cross_construct_caching": {
+    "gene_caller": {
+      "cached_candidate_loci": 2772,
+      "cached_candidate_residues": 789199,
+      "candidate_loci": 4194,
+      "candidate_residues": 940383,
+      "constructs": 777,
+      "constructs_with_all_rankings": 336
+    },
+    "minimal": {
+      "cached_candidate_loci": 3270,
+      "cached_candidate_residues": 1000106,
+      "candidate_loci": 101407,
+      "candidate_residues": 6544089,
+      "constructs": 777,
+      "constructs_with_all_rankings": 0
+    }
+  },
+  "input_sha256": {
+    "holdout/esm2/gene_caller.json": "76ebe5059bcf5599f8d395d3f2a35fb4e1d82728046cef9ea0c9d4bab65ffd13",
+    "holdout/esm2/minimal.json": "97aa574f9548554dd663f746e5d2811e975cfb382bdedcf1e805dd44225d7b80",
+    "holdout/esm2/protocol.json": "449095b9faf8e134f1c751bdc555bfd60da690ac75c3d338c14a5526490a2ad4",
+    "holdout/esm2/start_ranked.json": "beaed96ee9e48e582ab78df476f80007873de50a981d4b56956fcc7249a460c3",
+    "prepared/holdout/evaluator/answer-key.corroborated.json": "398d681600b10b82c05df8056e0b39b56df308c9545930afc88814af7e75debb",
+    "prepared/holdout/evaluator/construct-map.private.json": "4a3acbac69c6bda9f2836a35d5cb298c583371181ef4e9c2b145215121ea6a3c",
+    "prepared/holdout/evaluator/groups.lineage.json": "d2f105139809d3df16d200a46e7de1fc50b622ec3eb2ba8488ed1b101aea1ab9"
+  },
+  "minimum_same_strand_overlap": 0.8,
+  "schema": "iri-whole-construct-availability-v1",
+  "strata": {
+    "all": {
+      "evidence": {
+        "conservative_groups": 37,
+        "constructs": 768,
+        "submitted_lineages": 422,
+        "unique_protein_hashes": 217
+      },
+      "families": 27,
+      "largest_conservative_group_occurrences": 1175,
+      "largest_family_occurrences": 357,
+      "methods": {
+        "gene_caller": {
+          "cached_covering_candidate": 1132,
+          "components": 1221,
+          "covering_candidate": 1176,
+          "covering_candidate_same_frame": 1173,
+          "has_unscored_covering_candidate": 44,
+          "possible_top_family_in_full_pool": 1138,
+          "single_span_component": 1213,
+          "top_family_in_cached_covering_candidate": 1094
+        },
+        "minimal": {
+          "cached_covering_candidate": 1101,
+          "components": 1221,
+          "covering_candidate": 1210,
+          "covering_candidate_same_frame": 1208,
+          "has_unscored_covering_candidate": 209,
+          "possible_top_family_in_full_pool": 1142,
+          "single_span_component": 1213,
+          "top_family_in_cached_covering_candidate": 1028
+        }
+      },
+      "paired_geometric_reach": {
+        "both": 1175,
+        "gene_only": 1,
+        "minimal_only": 35,
+        "neither": 10
+      },
+      "top_two_family_occurrences": 654,
+      "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
+        "lower": -48,
+        "upper": 110
+      }
+    },
+    "high": {
+      "evidence": {
+        "conservative_groups": 12,
+        "constructs": 480,
+        "submitted_lineages": 262,
+        "unique_protein_hashes": 59
+      },
+      "families": 8,
+      "largest_conservative_group_occurrences": 497,
+      "largest_family_occurrences": 357,
+      "methods": {
+        "gene_caller": {
+          "cached_covering_candidate": 471,
+          "components": 508,
+          "covering_candidate": 483,
+          "covering_candidate_same_frame": 483,
+          "has_unscored_covering_candidate": 12,
+          "possible_top_family_in_full_pool": 472,
+          "single_span_component": 506,
+          "top_family_in_cached_covering_candidate": 460
+        },
+        "minimal": {
+          "cached_covering_candidate": 470,
+          "components": 508,
+          "covering_candidate": 506,
+          "covering_candidate_same_frame": 506,
+          "has_unscored_covering_candidate": 124,
+          "possible_top_family_in_full_pool": 495,
+          "single_span_component": 506,
+          "top_family_in_cached_covering_candidate": 458
+        }
+      },
+      "paired_geometric_reach": {
+        "both": 483,
+        "minimal_only": 23,
+        "neither": 2
+      },
+      "top_two_family_occurrences": 450,
+      "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
+        "lower": -35,
+        "upper": 14
+      }
+    },
+    "insufficient_coverage": {
+      "evidence": {
+        "conservative_groups": 4,
+        "constructs": 36,
+        "submitted_lineages": 30,
+        "unique_protein_hashes": 21
+      },
+      "families": 4,
+      "largest_conservative_group_occurrences": 34,
+      "largest_family_occurrences": 14,
+      "methods": {
+        "gene_caller": {
+          "cached_covering_candidate": 35,
+          "components": 37,
+          "covering_candidate": 35,
+          "covering_candidate_same_frame": 33,
+          "has_unscored_covering_candidate": 0,
+          "possible_top_family_in_full_pool": 35,
+          "single_span_component": 34,
+          "top_family_in_cached_covering_candidate": 35
+        },
+        "minimal": {
+          "cached_covering_candidate": 35,
+          "components": 37,
+          "covering_candidate": 35,
+          "covering_candidate_same_frame": 33,
+          "has_unscored_covering_candidate": 0,
+          "possible_top_family_in_full_pool": 35,
+          "single_span_component": 34,
+          "top_family_in_cached_covering_candidate": 35
+        }
+      },
+      "paired_geometric_reach": {
+        "both": 35,
+        "neither": 2
+      },
+      "top_two_family_occurrences": 23,
+      "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
+        "lower": 0,
+        "upper": 0
+      }
+    },
+    "intermediate": {
+      "evidence": {
+        "conservative_groups": 11,
+        "constructs": 402,
+        "submitted_lineages": 199,
+        "unique_protein_hashes": 44
+      },
+      "families": 7,
+      "largest_conservative_group_occurrences": 412,
+      "largest_family_occurrences": 281,
+      "methods": {
+        "gene_caller": {
+          "cached_covering_candidate": 402,
+          "components": 426,
+          "covering_candidate": 421,
+          "covering_candidate_same_frame": 421,
+          "has_unscored_covering_candidate": 19,
+          "possible_top_family_in_full_pool": 420,
+          "single_span_component": 423,
+          "top_family_in_cached_covering_candidate": 401
+        },
+        "minimal": {
+          "cached_covering_candidate": 376,
+          "components": 426,
+          "covering_candidate": 421,
+          "covering_candidate_same_frame": 421,
+          "has_unscored_covering_candidate": 45,
+          "possible_top_family_in_full_pool": 391,
+          "single_span_component": 423,
+          "top_family_in_cached_covering_candidate": 346
+        }
+      },
+      "paired_geometric_reach": {
+        "both": 420,
+        "gene_only": 1,
+        "minimal_only": 1,
+        "neither": 4
+      },
+      "top_two_family_occurrences": 361,
+      "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
+        "lower": 10,
+        "upper": 74
+      }
+    },
+    "low": {
+      "evidence": {
+        "conservative_groups": 18,
+        "constructs": 223,
+        "submitted_lineages": 154,
+        "unique_protein_hashes": 101
+      },
+      "families": 13,
+      "largest_conservative_group_occurrences": 232,
+      "largest_family_occurrences": 117,
+      "methods": {
+        "gene_caller": {
+          "cached_covering_candidate": 224,
+          "components": 250,
+          "covering_candidate": 237,
+          "covering_candidate_same_frame": 236,
+          "has_unscored_covering_candidate": 13,
+          "possible_top_family_in_full_pool": 211,
+          "single_span_component": 250,
+          "top_family_in_cached_covering_candidate": 198
+        },
+        "minimal": {
+          "cached_covering_candidate": 220,
+          "components": 250,
+          "covering_candidate": 248,
+          "covering_candidate_same_frame": 248,
+          "has_unscored_covering_candidate": 40,
+          "possible_top_family_in_full_pool": 221,
+          "single_span_component": 250,
+          "top_family_in_cached_covering_candidate": 189
+        }
+      },
+      "paired_geometric_reach": {
+        "both": 237,
+        "minimal_only": 11,
+        "neither": 2
+      },
+      "top_two_family_occurrences": 164,
+      "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
+        "lower": -23,
+        "upper": 22
+      }
+    },
+    "mid_low": {
+      "evidence": {
+        "conservative_groups": 28,
+        "constructs": 536,
+        "submitted_lineages": 280,
+        "unique_protein_hashes": 143
+      },
+      "families": 18,
+      "largest_conservative_group_occurrences": 644,
+      "largest_family_occurrences": 290,
+      "methods": {
+        "gene_caller": {
+          "cached_covering_candidate": 626,
+          "components": 676,
+          "covering_candidate": 658,
+          "covering_candidate_same_frame": 657,
+          "has_unscored_covering_candidate": 32,
+          "possible_top_family_in_full_pool": 631,
+          "single_span_component": 673,
+          "top_family_in_cached_covering_candidate": 599
+        },
+        "minimal": {
+          "cached_covering_candidate": 596,
+          "components": 676,
+          "covering_candidate": 669,
+          "covering_candidate_same_frame": 669,
+          "has_unscored_covering_candidate": 85,
+          "possible_top_family_in_full_pool": 612,
+          "single_span_component": 673,
+          "top_family_in_cached_covering_candidate": 535
+        }
+      },
+      "paired_geometric_reach": {
+        "both": 657,
+        "gene_only": 1,
+        "minimal_only": 12,
+        "neither": 6
+      },
+      "top_two_family_occurrences": 407,
+      "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
+        "lower": -13,
+        "upper": 96
+      }
+    }
+  }
+}
