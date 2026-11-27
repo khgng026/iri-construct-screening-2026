@@ -15,6 +15,10 @@ The exact selection for the completed run is recorded without sequence payloads 
 
 The [related enzyme family comparison](RELATED_FAMILIES.md) adds a fresh panel with more low-identity queries and a residue alignment arm.
 
+The [structural family study](STRUCTURAL_FAMILIES.md) tests very distant domains against pairwise and profile sequence methods. The [experimentally documented reaction study](EXPERIMENTAL_REACTIONS.md) tests whether an advantage carries over to exact biochemical labels on known full proteins.
+
+The [five-fold low-identity study](Q3_FOLDS.md) compares two model sizes on independently classified domains and tracks model recoveries among cases missed by every conventional comparator.
+
 ```sh
 python experiments/benign_protein_pilot/study.py acquire results/benign-protein-pilot-v0
 # Use a Python environment with the project installed and the pinned ESM-2 model cached.

@@ -1,0 +1,69 @@
+# Recognizing distant relatives of known metabolic protein domains
+
+Can a protein language model recognize a distant relative when sequence comparison has few obvious matches? Wittmann and colleagues reported that divergence can challenge sequence-based screening and that updated methods can improve it. Their follow-up examined shorter inputs and found that performance depended on the method. Those studies motivate placing the lowest-identity examples first and including more than one conventional comparator. Here we test a narrower question with known domains of ordinary metabolic proteins and a fixed set of plausible alternatives. The labels come from the curated SCOPe structure classification. [Science, 2025](https://doi.org/10.1126/science.adu8578) · [Frontiers, 2026](https://doi.org/10.3389/fbioe.2026.1858951) · [SCOPe 2.08](https://scop.berkeley.edu/astral/ver=2.08)
+
+## Comparison fixed before scoring
+
+- Use curated SCOPe 2.08 TIM-barrel domains from selected carbohydrate, nucleotide, amino acid and cofactor pathways in model organisms. Use contiguous domains from the source's experimental structure records. Select at most one record per taxon and fine family, with at most four distinct sequences per fine family. Exclude exact sequence matches to the prior housekeeping panels.
+- Predict the broader structural superfamily. All alternative labels share the TIM-barrel fold, so recognizing the general shape alone is insufficient. Hold out complete fine families, never splitting the members of one family between query and reference within a comparison. Every scorer receives the same reference domains. The split uses classification identifiers and requires at least two distinct fine families for each evaluated superfamily.
+- Evaluate correct first-ranked superfamily primarily on queries with **less than 30% global identity to every available reference**, counting gaps in the alignment length. Divide that subset at 25% for descriptive reporting. Also record how many have a same-superfamily local alignment covering at least 70% of both domains. All cutoffs define this benchmark's comparison.
+- Compare raw and reference-normalized local BLOSUM62, HMMER 3 family profiles built from the same references with FAMSA, and mean-pooled and residue-local ESM-2 8M. Build one profile per reference fine family, using HMMER's single-sequence model for singleton families. Each method ranks superfamilies by the strongest member or fine-family profile score. A cross-label tie or a missing ranking counts as a missed identification.
+- Report raw hit counts, accuracy giving each held-out fine family equal weight, paired wins and losses, and the breakdown by superfamily. Interpret the results descriptively because the number of broad groups is small and some folds reuse references.
+
+The outcome is classification of known, experimentally resolved protein domains into a fixed set of structural groups. Members of a group can perform different reactions. The study compares characterization after boundaries are supplied. It supports no estimate of construct-level recovery or the performance of a screening system.
+
+## First experiment: TIM-barrel domains
+
+The [panel](structural_panel.freeze.json) and protocol were committed at `de79857` before scoring. It contains 42 domains from 20 fine families and six superfamilies. The nearest reference for each query had 15.7% to 21.2% global identity, so all 42 qualify for the primary comparison and its under-25% subset.
+
+| Scoring method | Correct first label | Accuracy weighting fine families equally |
+| --- | ---: | ---: |
+| Raw BLOSUM62 | 18/42 | 31.3% |
+| Reference-normalized BLOSUM62 | 13/42 | 28.3% |
+| HMMER fine-family profiles | 21/42 | 40.0% |
+| ESM-2 8M, one vector per domain | 29/42 | 61.7% |
+| ESM-2 8M, local comparison | 31/42 | 70.0% |
+
+Local ESM-2 identified 12 domains missed by the profile method, and the converse occurred twice. It led in three superfamilies, tied in two, and trailed in one. One superfamily accounted for five of the ten extra recoveries. Omitting any one superfamily leaves an equal-fine-family advantage of about 13 to 39 percentage points. The profile method ranked five of the six domains with broadly covering local alignments first, versus six for local ESM-2. Among the other 36 domains the counts were 16 and 25.
+
+This is evidence that a model can help classify structurally distant domains on a panel with little reference data. The profile method used only the reference domains available to the other scorers, and many fine-family profiles used one or two examples. Domain structures may also have been represented in ESM-2 pretraining. The difference between the two ESM-2 methods was much smaller than their difference from the profile result.
+
+## Follow-up fixed before scoring additional folds
+
+- Strengthen the profile comparison by also fitting a single HMMER model per superfamily from all available reference domains in that label. Keep the fine-family profile as a separate arm. This is a sensitivity analysis for the TIM-barrel panel.
+- Test the same scoring methods on independently selected Flavodoxin-like (`c.23`) and adenine nucleotide alpha hydrolase-like (`c.26`) domains. Use the same curation, holdout, identity, and scoring rules. Each panel has its own references and competitors. Report each fold separately because its number of possible labels differs from the first panel.
+- Report paired errors and the local alignment coverage check in all three panels. Treat the comparison as a bounded test of structural classification. The papers concern different materials and tasks, including shorter inputs in the 2026 study. Performance on those tasks requires separate evidence.
+
+## Results across the three folds
+
+The two new panels and the broader profile comparison were committed at `94fd232` before scoring. The original 42 decisions reproduced exactly for the original five scorers. All 72 queries had less than 25% global identity to every available reference. The table keeps each panel separate because the first is a six-way choice and the others are two-way choices.
+
+| Structure panel | Domains | Raw BLOSUM62 | Normalized BLOSUM62 | Fine-family HMM | Superfamily HMM | ESM-2 mean | ESM-2 local |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| [TIM barrel](structural_panel.freeze.json) | 42 | 18 | 13 | 21 | 21 | 29 | **31** |
+| [Flavodoxin-like](structural_panel.c.23.freeze.json) | 15 | 11 | 12 | 13 | 11 | 13 | **15** |
+| [Nucleotide alpha hydrolase-like](structural_panel.c.26.freeze.json) | 15 | **14** | 12 | 12 | 11 | 8 | 11 |
+
+The wider HMM did not improve the overall hit count on the TIM-barrel panel, though it recovered both members of one superfamily missed by all five original scorers. Equal-fine-family accuracy for that profile rose to 48.3%, compared with 70.0% for local ESM-2. Local ESM-2 found two additional correct labels over the fine-family HMM on the Flavodoxin-like panel. Raw BLOSUM62 led on the nucleotide alpha hydrolase-like panel. There it recognized both labels, while local ESM-2 identified only the majority label. Only 6, 3 and 2 queries, respectively, had a same-superfamily local alignment covering at least 70% of both sequences.
+
+Very low global identity alone did not determine which method worked best. This led to a separate test of [experimentally documented enzyme reactions](EXPERIMENTAL_REACTIONS.md). Recognizing a broad structural relationship can help narrow down possible functions, but members of a superfamily can perform different reactions.
+
+## Reproduce
+
+Use the [offline model environment](../../docs/project/HANDOFF.md) with `pyfamsa==0.7.0` and `pyhmmer==0.12.3`. The run used Biopython 1.86, NumPy 1.26.4, PyTorch 2.6.0 on CPU, and Transformers 4.48.1. The reports and their per-domain decisions are in [structural_results.json](structural_results.json). For a source replay, compare downloaded domain and sequence hashes against the tracked freezes. The run date and timings may differ. SCOPe makes ASTRAL data available to users. Source snapshots and sequences live in the ignored workspace. [SCOPe terms](https://scop.berkeley.edu/about)
+
+```sh
+run=results/natural-structural-families-replay
+source=https://scop.berkeley.edu/downloads/parse
+mkdir -p "$run"
+curl -fsSL "$source/dir.des.scope.2.08-stable.txt" -o "$run/descriptions.txt"
+curl -fsSL "$source/dir.cla.scope.2.08-stable.txt" -o "$run/classification.txt"
+for fold in c.1 c.23 c.26; do
+  python -m experiments.benign_protein_pilot.structural_study acquire "$run/$fold" \
+    --panel-fold "$fold" --descriptions "$run/descriptions.txt" \
+    --classification "$run/classification.txt"
+  OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 \
+    python -m experiments.benign_protein_pilot.structural_study score "$run/$fold" \
+    --extended-profiles --out "$run/$fold/report.json"
+done
+```
