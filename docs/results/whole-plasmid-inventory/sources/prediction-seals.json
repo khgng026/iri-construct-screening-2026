@@ -1,0 +1,38 @@
+{
+  "local_revision": "3f64fc6245a84cfa64fdcca39a0ce33be355c32f",
+  "source_directory": "docs/results/plasmid-comparison/seals",
+  "partitions": {
+    "development": {
+      "partition": "development",
+      "records": 15,
+      "arms": 4,
+      "methods": [
+        "blosum62",
+        "esm2",
+        "two_scorer_union",
+        "rank_sum",
+        "unique_families",
+        "reserve_then_rank"
+      ],
+      "largest_return_budget": 10,
+      "rank_input_sha256": "c06da920479609b97d56a43427827bfe96899c5b3e5ed23823dad1e07e85ddbb",
+      "prediction_sha256": "fdc28b9a852eef1c0921fdf483426c82aeda8206a372e7fe27d6465b0329b1ad"
+    },
+    "holdout": {
+      "partition": "holdout",
+      "records": 777,
+      "arms": 4,
+      "methods": [
+        "blosum62",
+        "esm2",
+        "two_scorer_union",
+        "rank_sum",
+        "unique_families",
+        "reserve_then_rank"
+      ],
+      "largest_return_budget": 10,
+      "rank_input_sha256": "1d4fef3c9c543d19bd000639041e4179841946c42dc4a8cf7d74de5ada9a033e",
+      "prediction_sha256": "7701f41a60d4cdb21cf782fc657855b373571457a9cb9da6ad9a5410c3aaca02"
+    }
+  }
+}

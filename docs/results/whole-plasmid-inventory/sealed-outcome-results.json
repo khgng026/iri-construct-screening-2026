@@ -1,0 +1,520 @@
+{
+  "development": {
+    "prediction_sha256": "fdc28b9a852eef1c0921fdf483426c82aeda8206a372e7fe27d6465b0329b1ad",
+    "records": 15,
+    "evaluable_records": 13,
+    "documented_occurrences": 14,
+    "ranked_lists_from_sealed_bytes": 360,
+    "historical_per_record_counts_matched": 120,
+    "outcomes": {
+      "annotation_reference": {
+        "blosum62": {
+          "5": {
+            "credits": 14,
+            "complete": 13
+          },
+          "10": {
+            "credits": 14,
+            "complete": 13
+          }
+        },
+        "esm2": {
+          "5": {
+            "credits": 13,
+            "complete": 12
+          },
+          "10": {
+            "credits": 13,
+            "complete": 12
+          }
+        },
+        "rank_sum": {
+          "5": {
+            "credits": 14,
+            "complete": 13
+          },
+          "10": {
+            "credits": 14,
+            "complete": 13
+          }
+        },
+        "reserve_then_rank": {
+          "5": {
+            "credits": 14,
+            "complete": 13
+          },
+          "10": {
+            "credits": 14,
+            "complete": 13
+          }
+        },
+        "two_scorer_union": {
+          "5": {
+            "credits": 14,
+            "complete": 13
+          },
+          "10": {
+            "credits": 14,
+            "complete": 13
+          }
+        },
+        "unique_families": {
+          "5": {
+            "credits": 14,
+            "complete": 13
+          },
+          "10": {
+            "credits": 14,
+            "complete": 13
+          }
+        }
+      },
+      "gene_caller": {
+        "blosum62": {
+          "5": {
+            "credits": 8,
+            "complete": 7
+          },
+          "10": {
+            "credits": 8,
+            "complete": 7
+          }
+        },
+        "esm2": {
+          "5": {
+            "credits": 7,
+            "complete": 7
+          },
+          "10": {
+            "credits": 7,
+            "complete": 7
+          }
+        },
+        "rank_sum": {
+          "5": {
+            "credits": 8,
+            "complete": 7
+          },
+          "10": {
+            "credits": 8,
+            "complete": 7
+          }
+        },
+        "reserve_then_rank": {
+          "5": {
+            "credits": 8,
+            "complete": 7
+          },
+          "10": {
+            "credits": 8,
+            "complete": 7
+          }
+        },
+        "two_scorer_union": {
+          "5": {
+            "credits": 8,
+            "complete": 7
+          },
+          "10": {
+            "credits": 8,
+            "complete": 7
+          }
+        },
+        "unique_families": {
+          "5": {
+            "credits": 8,
+            "complete": 7
+          },
+          "10": {
+            "credits": 8,
+            "complete": 7
+          }
+        }
+      },
+      "minimal": {
+        "blosum62": {
+          "5": {
+            "credits": 8,
+            "complete": 7
+          },
+          "10": {
+            "credits": 8,
+            "complete": 7
+          }
+        },
+        "esm2": {
+          "5": {
+            "credits": 6,
+            "complete": 6
+          },
+          "10": {
+            "credits": 7,
+            "complete": 7
+          }
+        },
+        "rank_sum": {
+          "5": {
+            "credits": 8,
+            "complete": 7
+          },
+          "10": {
+            "credits": 8,
+            "complete": 7
+          }
+        },
+        "reserve_then_rank": {
+          "5": {
+            "credits": 8,
+            "complete": 7
+          },
+          "10": {
+            "credits": 8,
+            "complete": 7
+          }
+        },
+        "two_scorer_union": {
+          "5": {
+            "credits": 8,
+            "complete": 7
+          },
+          "10": {
+            "credits": 8,
+            "complete": 7
+          }
+        },
+        "unique_families": {
+          "5": {
+            "credits": 8,
+            "complete": 7
+          },
+          "10": {
+            "credits": 8,
+            "complete": 7
+          }
+        }
+      },
+      "start_ranked": {
+        "blosum62": {
+          "5": {
+            "credits": 9,
+            "complete": 8
+          },
+          "10": {
+            "credits": 9,
+            "complete": 8
+          }
+        },
+        "esm2": {
+          "5": {
+            "credits": 7,
+            "complete": 7
+          },
+          "10": {
+            "credits": 8,
+            "complete": 8
+          }
+        },
+        "rank_sum": {
+          "5": {
+            "credits": 9,
+            "complete": 8
+          },
+          "10": {
+            "credits": 9,
+            "complete": 8
+          }
+        },
+        "reserve_then_rank": {
+          "5": {
+            "credits": 9,
+            "complete": 8
+          },
+          "10": {
+            "credits": 9,
+            "complete": 8
+          }
+        },
+        "two_scorer_union": {
+          "5": {
+            "credits": 9,
+            "complete": 8
+          },
+          "10": {
+            "credits": 9,
+            "complete": 8
+          }
+        },
+        "unique_families": {
+          "5": {
+            "credits": 9,
+            "complete": 8
+          },
+          "10": {
+            "credits": 9,
+            "complete": 8
+          }
+        }
+      }
+    },
+    "original_aggregate_rows_matched": 48
+  },
+  "holdout": {
+    "prediction_sha256": "7701f41a60d4cdb21cf782fc657855b373571457a9cb9da6ad9a5410c3aaca02",
+    "records": 777,
+    "evaluable_records": 768,
+    "documented_occurrences": 1221,
+    "ranked_lists_from_sealed_bytes": 18648,
+    "historical_per_record_counts_matched": 6216,
+    "outcomes": {
+      "annotation_reference": {
+        "blosum62": {
+          "5": {
+            "credits": 1134,
+            "complete": 696
+          },
+          "10": {
+            "credits": 1138,
+            "complete": 698
+          }
+        },
+        "esm2": {
+          "5": {
+            "credits": 1116,
+            "complete": 686
+          },
+          "10": {
+            "credits": 1124,
+            "complete": 689
+          }
+        },
+        "rank_sum": {
+          "5": {
+            "credits": 1135,
+            "complete": 696
+          },
+          "10": {
+            "credits": 1138,
+            "complete": 698
+          }
+        },
+        "reserve_then_rank": {
+          "5": {
+            "credits": 1133,
+            "complete": 695
+          },
+          "10": {
+            "credits": 1138,
+            "complete": 698
+          }
+        },
+        "two_scorer_union": {
+          "5": {
+            "credits": 1138,
+            "complete": 698
+          },
+          "10": {
+            "credits": 1138,
+            "complete": 698
+          }
+        },
+        "unique_families": {
+          "5": {
+            "credits": 1126,
+            "complete": 689
+          },
+          "10": {
+            "credits": 1127,
+            "complete": 689
+          }
+        }
+      },
+      "gene_caller": {
+        "blosum62": {
+          "5": {
+            "credits": 746,
+            "complete": 383
+          },
+          "10": {
+            "credits": 751,
+            "complete": 386
+          }
+        },
+        "esm2": {
+          "5": {
+            "credits": 725,
+            "complete": 377
+          },
+          "10": {
+            "credits": 734,
+            "complete": 382
+          }
+        },
+        "rank_sum": {
+          "5": {
+            "credits": 748,
+            "complete": 386
+          },
+          "10": {
+            "credits": 751,
+            "complete": 386
+          }
+        },
+        "reserve_then_rank": {
+          "5": {
+            "credits": 746,
+            "complete": 385
+          },
+          "10": {
+            "credits": 750,
+            "complete": 386
+          }
+        },
+        "two_scorer_union": {
+          "5": {
+            "credits": 751,
+            "complete": 386
+          },
+          "10": {
+            "credits": 751,
+            "complete": 386
+          }
+        },
+        "unique_families": {
+          "5": {
+            "credits": 745,
+            "complete": 384
+          },
+          "10": {
+            "credits": 747,
+            "complete": 384
+          }
+        }
+      },
+      "minimal": {
+        "blosum62": {
+          "5": {
+            "credits": 594,
+            "complete": 322
+          },
+          "10": {
+            "credits": 598,
+            "complete": 324
+          }
+        },
+        "esm2": {
+          "5": {
+            "credits": 573,
+            "complete": 315
+          },
+          "10": {
+            "credits": 582,
+            "complete": 320
+          }
+        },
+        "rank_sum": {
+          "5": {
+            "credits": 593,
+            "complete": 323
+          },
+          "10": {
+            "credits": 599,
+            "complete": 324
+          }
+        },
+        "reserve_then_rank": {
+          "5": {
+            "credits": 590,
+            "complete": 322
+          },
+          "10": {
+            "credits": 598,
+            "complete": 324
+          }
+        },
+        "two_scorer_union": {
+          "5": {
+            "credits": 597,
+            "complete": 323
+          },
+          "10": {
+            "credits": 597,
+            "complete": 323
+          }
+        },
+        "unique_families": {
+          "5": {
+            "credits": 592,
+            "complete": 322
+          },
+          "10": {
+            "credits": 595,
+            "complete": 322
+          }
+        }
+      },
+      "start_ranked": {
+        "blosum62": {
+          "5": {
+            "credits": 618,
+            "complete": 342
+          },
+          "10": {
+            "credits": 623,
+            "complete": 346
+          }
+        },
+        "esm2": {
+          "5": {
+            "credits": 598,
+            "complete": 337
+          },
+          "10": {
+            "credits": 608,
+            "complete": 342
+          }
+        },
+        "rank_sum": {
+          "5": {
+            "credits": 619,
+            "complete": 345
+          },
+          "10": {
+            "credits": 624,
+            "complete": 346
+          }
+        },
+        "reserve_then_rank": {
+          "5": {
+            "credits": 616,
+            "complete": 344
+          },
+          "10": {
+            "credits": 623,
+            "complete": 346
+          }
+        },
+        "two_scorer_union": {
+          "5": {
+            "credits": 622,
+            "complete": 345
+          },
+          "10": {
+            "credits": 622,
+            "complete": 345
+          }
+        },
+        "unique_families": {
+          "5": {
+            "credits": 617,
+            "complete": 343
+          },
+          "10": {
+            "credits": 620,
+            "complete": 343
+          }
+        }
+      }
+    },
+    "original_aggregate_rows_matched": 48
+  }
+}

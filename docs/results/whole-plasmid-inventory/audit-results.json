@@ -1,0 +1,15 @@
+{
+  "complete_inventories": {
+    "annotation_reference": 696,
+    "gene_caller": 383,
+    "minimal": 322,
+    "start_ranked": 342
+  },
+  "evaluated": 768,
+  "full_keys": 246,
+  "full_key_gene_complete": 161,
+  "full_key_start_complete": 145,
+  "gene_only": 45,
+  "start_only": 4,
+  "gene_only_both_two_and_gene_shorter": 45
+}
