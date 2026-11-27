@@ -1,0 +1,3396 @@
+{
+  "input_sha256": {
+    "experiments/paired_preprocessing/cohort_protocol.json": "b0743ab1ce45ba41aa0deaa44093e8360c1bebfcf00349f2ac441ac4deabcd4e",
+    "results/paired-cohort-v2/holdout/blosum62/gene_caller.json": "f39bee937baa51d1d273aa16cff27af31eb28902bc5a2fd1451d8efc8c675c57",
+    "results/paired-cohort-v2/holdout/blosum62/minimal.json": "2b616f4b33b1c4285991d734a7796f82a0c1f6a9a62458d06958425673b63c0a",
+    "results/paired-cohort-v2/holdout/blosum62/start_ranked.json": "f68ee88880dfa41a7bf9332799446d93c29eec852f32e8d694aedb1743f68c44",
+    "results/paired-cohort-v2/holdout/esm2/gene_caller.json": "76ebe5059bcf5599f8d395d3f2a35fb4e1d82728046cef9ea0c9d4bab65ffd13",
+    "results/paired-cohort-v2/holdout/esm2/minimal.json": "97aa574f9548554dd663f746e5d2811e975cfb382bdedcf1e805dd44225d7b80",
+    "results/paired-cohort-v2/holdout/esm2/start_ranked.json": "beaed96ee9e48e582ab78df476f80007873de50a981d4b56956fcc7249a460c3",
+    "results/paired-cohort-v2/prepared/holdout/evaluator/answer-key.corroborated.json": "398d681600b10b82c05df8056e0b39b56df308c9545930afc88814af7e75debb",
+    "results/paired-cohort-v2/prepared/holdout/evaluator/construct-map.private.json": "4a3acbac69c6bda9f2836a35d5cb298c583371181ef4e9c2b145215121ea6a3c"
+  },
+  "schema": "iri-preprocessing-ranking-exploration-1",
+  "splits": {
+    "holdout": {
+      "gene_caller": {
+        "identification_replay_limited_to_recorded_top_four": {
+          "keep_first_then_250": {
+            "blosum62": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.3661557899709558,
+                "identified": 336,
+                "input_residues": 334550,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 20
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 150
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 53
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 71
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 42
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 175
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 26
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 49
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 86
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7470667365809546,
+                "identified": 828,
+                "input_residues": 525567,
+                "lineage_groups": 422,
+                "selected_candidates": 1537,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 92
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 465
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 87
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 116
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 68
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 299
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 26
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 335
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 168
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8787040171518844,
+                "identified": 1062,
+                "input_residues": 680265,
+                "lineage_groups": 422,
+                "selected_candidates": 2206,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 119
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 640
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 91
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 87
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 443
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 24
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 389
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 206
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.9104082035657866,
+                "identified": 1117,
+                "input_residues": 789199,
+                "lineage_groups": 422,
+                "selected_candidates": 2772,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 128
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 681
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 91
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 92
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 471
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 26
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 401
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 219
+                  }
+                }
+              }
+            },
+            "esm2": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.35391250403098745,
+                "identified": 323,
+                "input_residues": 334550,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 20
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 150
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 53
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 71
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 29
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 166
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 26
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 49
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 82
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7247326133582058,
+                "identified": 804,
+                "input_residues": 525567,
+                "lineage_groups": 422,
+                "selected_candidates": 1537,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 92
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 462
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 87
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 116
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 47
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 290
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 27
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 335
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 152
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8529564432408034,
+                "identified": 1039,
+                "input_residues": 680265,
+                "lineage_groups": 422,
+                "selected_candidates": 2206,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 119
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 640
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 91
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 64
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 433
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 28
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 389
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 189
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8909233243060257,
+                "identified": 1099,
+                "input_residues": 789199,
+                "lineage_groups": 422,
+                "selected_candidates": 2772,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 129
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 684
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 92
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 69
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 461
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 400
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 203
+                  }
+                }
+              }
+            }
+          },
+          "length_center_250": {
+            "blosum62": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.5184013984961853,
+                "identified": 576,
+                "input_residues": 206072,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 76
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 316
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 74
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 82
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 28
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 174
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 1
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 312
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 89
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7678050819638498,
+                "identified": 933,
+                "input_residues": 415989,
+                "lineage_groups": 422,
+                "selected_candidates": 1537,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 112
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 565
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 88
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 119
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 49
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 397
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 6
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 380
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 150
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8637652335815843,
+                "identified": 1063,
+                "input_residues": 607825,
+                "lineage_groups": 422,
+                "selected_candidates": 2206,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 125
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 656
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 89
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 124
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 69
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 456
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 16
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 396
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 195
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8910657865041751,
+                "identified": 1098,
+                "input_residues": 789199,
+                "lineage_groups": 422,
+                "selected_candidates": 2772,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 127
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 673
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 89
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 124
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 85
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 471
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 21
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 401
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 205
+                  }
+                }
+              }
+            },
+            "esm2": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.5184013984961853,
+                "identified": 576,
+                "input_residues": 206072,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 76
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 316
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 74
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 82
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 28
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 174
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 1
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 312
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 89
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7616044500523174,
+                "identified": 926,
+                "input_residues": 415989,
+                "lineage_groups": 422,
+                "selected_candidates": 1537,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 112
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 560
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 89
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 119
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 46
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 396
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 8
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 380
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 142
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.857518054615211,
+                "identified": 1060,
+                "input_residues": 607825,
+                "lineage_groups": 422,
+                "selected_candidates": 2206,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 126
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 659
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 91
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 124
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 60
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 452
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 24
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 395
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 189
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8880797224102911,
+                "identified": 1095,
+                "input_residues": 789199,
+                "lineage_groups": 422,
+                "selected_candidates": 2772,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 129
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 684
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 92
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 65
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 460
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 400
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 200
+                  }
+                }
+              }
+            }
+          },
+          "recorded": {
+            "blosum62": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.3661557899709558,
+                "identified": 336,
+                "input_residues": 334550,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 20
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 150
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 53
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 71
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 42
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 175
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 26
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 49
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 86
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.6798884435732777,
+                "identified": 746,
+                "input_residues": 551358,
+                "lineage_groups": 422,
+                "selected_candidates": 1537,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 73
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 409
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 78
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 122
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 64
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 321
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 29
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 244
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 152
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8538337846987136,
+                "identified": 1037,
+                "input_residues": 698751,
+                "lineage_groups": 422,
+                "selected_candidates": 2206,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 111
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 628
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 91
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 124
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 83
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 434
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 28
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 372
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 203
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.9104082035657866,
+                "identified": 1117,
+                "input_residues": 789199,
+                "lineage_groups": 422,
+                "selected_candidates": 2772,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 128
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 681
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 91
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 92
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 471
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 26
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 401
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 219
+                  }
+                }
+              }
+            },
+            "esm2": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.35391250403098745,
+                "identified": 323,
+                "input_residues": 334550,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 20
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 150
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 53
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 71
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 29
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 166
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 26
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 49
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 82
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.6569844715579313,
+                "identified": 725,
+                "input_residues": 551358,
+                "lineage_groups": 422,
+                "selected_candidates": 1537,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 74
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 409
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 78
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 122
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 42
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 311
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 34
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 243
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 137
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8294120965921914,
+                "identified": 1016,
+                "input_residues": 698751,
+                "lineage_groups": 422,
+                "selected_candidates": 2206,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 112
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 629
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 91
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 124
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 60
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 424
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 371
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 186
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8909233243060257,
+                "identified": 1099,
+                "input_residues": 789199,
+                "lineage_groups": 422,
+                "selected_candidates": 2772,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 129
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 684
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 92
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 69
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 461
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 400
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 203
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "minimal": {
+        "identification_replay_limited_to_recorded_top_four": {
+          "keep_first_then_250": {
+            "blosum62": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.32635404024622033,
+                "identified": 291,
+                "input_residues": 345865,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 12
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 133
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 51
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 53
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 42
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 139
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 23
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 42
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 87
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.5873577646681912,
+                "identified": 673,
+                "input_residues": 555401,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 63
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 400
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 68
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 87
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 55
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 223
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 22
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 281
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 147
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7550828187084111,
+                "identified": 953,
+                "input_residues": 756492,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 98
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 592
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 77
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 113
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 73
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 409
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 20
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 348
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 176
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8422519029154101,
+                "identified": 1053,
+                "input_residues": 971259,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 115
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 648
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 82
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 124
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 84
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 459
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 22
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 368
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 204
+                  }
+                }
+              }
+            },
+            "esm2": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.31411075430625196,
+                "identified": 279,
+                "input_residues": 345865,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 12
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 133
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 50
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 53
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 31
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 131
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 23
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 42
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 83
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.5674722986334361,
+                "identified": 653,
+                "input_residues": 555401,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 63
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 399
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 68
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 87
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 36
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 216
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 23
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 280
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 134
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7278344549079147,
+                "identified": 929,
+                "input_residues": 756492,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 97
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 594
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 78
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 113
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 47
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 399
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 28
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 342
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 160
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8004103321638867,
+                "identified": 1014,
+                "input_residues": 971259,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 111
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 641
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 82
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 124
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 56
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 449
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 343
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 187
+                  }
+                }
+              }
+            }
+          },
+          "length_center_250": {
+            "blosum62": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.38117302984009144,
+                "identified": 454,
+                "input_residues": 218715,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 54
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 268
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 56
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 63
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 13
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 128
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 0
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 263
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 63
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.6160374906820404,
+                "identified": 802,
+                "input_residues": 433774,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 92
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 511
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 69
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 99
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 31
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 358
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 4
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 340
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 100
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7361829192397913,
+                "identified": 946,
+                "input_residues": 666322,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 112
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 593
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 77
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 121
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 43
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 428
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 14
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 364
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 140
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8283597228206233,
+                "identified": 1036,
+                "input_residues": 971259,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 115
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 641
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 81
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 123
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 76
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 459
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 21
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 368
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 188
+                  }
+                }
+              }
+            },
+            "esm2": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.37880336159364597,
+                "identified": 453,
+                "input_residues": 218715,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 54
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 268
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 55
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 63
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 13
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 127
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 0
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 263
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 63
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.6138652947894654,
+                "identified": 800,
+                "input_residues": 433774,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 93
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 510
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 70
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 99
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 28
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 355
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 8
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 338
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 99
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7381012221059614,
+                "identified": 948,
+                "input_residues": 666322,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 114
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 595
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 79
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 121
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 39
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 425
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 24
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 361
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 138
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8142757124392196,
+                "identified": 1027,
+                "input_residues": 971259,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 115
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 652
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 83
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 124
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 53
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 448
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 361
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 183
+                  }
+                }
+              }
+            }
+          },
+          "recorded": {
+            "blosum62": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.32635404024622033,
+                "identified": 291,
+                "input_residues": 345865,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 12
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 133
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 51
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 53
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 42
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 139
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 23
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 42
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 87
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.5897514610192335,
+                "identified": 594,
+                "input_residues": 596911,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 52
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 302
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 69
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 112
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 59
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 270
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 28
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 159
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 137
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7649283115515343,
+                "identified": 890,
+                "input_residues": 803300,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 100
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 512
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 79
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 122
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 77
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 348
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 26
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 333
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 183
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8422519029154101,
+                "identified": 1053,
+                "input_residues": 971259,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 115
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 648
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 82
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 124
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 84
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 459
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 22
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 368
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 204
+                  }
+                }
+              }
+            },
+            "esm2": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.31411075430625196,
+                "identified": 279,
+                "input_residues": 345865,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 12
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 133
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 50
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 53
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 31
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 131
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 23
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 42
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 83
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.565070237819053,
+                "identified": 573,
+                "input_residues": 596911,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 52
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 302
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 69
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 112
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 38
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 262
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 31
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 159
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 121
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7283423264465918,
+                "identified": 861,
+                "input_residues": 803300,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 98
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 511
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 80
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 122
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 50
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 338
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 324
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 164
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8004103321638867,
+                "identified": 1014,
+                "input_residues": 971259,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 111
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 641
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 82
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 124
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 56
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 449
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 343
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 187
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "start_ranked": {
+        "identification_replay_limited_to_recorded_top_four": {
+          "keep_first_then_250": {
+            "blosum62": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.3401029032841829,
+                "identified": 318,
+                "input_residues": 345256,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 16
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 144
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 51
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 64
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 43
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 162
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 24
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 43
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 89
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.6120522381778306,
+                "identified": 716,
+                "input_residues": 554521,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 68
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 423
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 68
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 99
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 58
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 252
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 23
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 288
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 153
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7841925945302722,
+                "identified": 991,
+                "input_residues": 755625,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 103
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 619
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 76
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 117
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 76
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 428
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 21
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 359
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 183
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8615110994850331,
+                "identified": 1076,
+                "input_residues": 969617,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 119
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 665
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 82
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 85
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 469
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 23
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 374
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 210
+                  }
+                }
+              }
+            },
+            "esm2": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.3278596173442145,
+                "identified": 306,
+                "input_residues": 345256,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 16
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 144
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 50
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 64
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 32
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 154
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 24
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 43
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 85
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.5916928384937864,
+                "identified": 695,
+                "input_residues": 554521,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 68
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 421
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 68
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 99
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 39
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 245
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 24
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 287
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 139
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7541006288340412,
+                "identified": 965,
+                "input_residues": 755625,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 101
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 620
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 77
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 117
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 50
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 418
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 29
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 352
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 166
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8180107609609979,
+                "identified": 1034,
+                "input_residues": 969617,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 115
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 655
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 82
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 57
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 459
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 349
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 191
+                  }
+                }
+              }
+            }
+          },
+          "length_center_250": {
+            "blosum62": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.3939057651142959,
+                "identified": 471,
+                "input_residues": 218389,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 56
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 280
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 56
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 64
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 15
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 137
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 0
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 266
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 68
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.6367876035233855,
+                "identified": 827,
+                "input_residues": 433780,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 96
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 529
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 69
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 100
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 33
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 369
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 4
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 347
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 107
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7542572816861917,
+                "identified": 967,
+                "input_residues": 665649,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 116
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 608
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 77
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 122
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 44
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 438
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 14
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 370
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 145
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8464340852670237,
+                "identified": 1057,
+                "input_residues": 969617,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 119
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 656
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 81
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 124
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 77
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 469
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 21
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 374
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 193
+                  }
+                }
+              }
+            },
+            "esm2": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.3915360968678504,
+                "identified": 470,
+                "input_residues": 218389,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 56
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 280
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 55
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 64
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 15
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 136
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 0
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 266
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 68
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.6341414739815213,
+                "identified": 824,
+                "input_residues": 433780,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 97
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 527
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 70
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 100
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 30
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 366
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 8
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 345
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 105
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7557016509030727,
+                "identified": 968,
+                "input_residues": 665649,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 118
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 609
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 79
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 122
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 40
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 435
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 24
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 367
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 142
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8295064729898853,
+                "identified": 1046,
+                "input_residues": 969617,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 118
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 666
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 83
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 54
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 458
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 366
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 187
+                  }
+                }
+              }
+            }
+          },
+          "recorded": {
+            "blosum62": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.3401029032841829,
+                "identified": 318,
+                "input_residues": 345256,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 16
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 144
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 51
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 64
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 43
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 162
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 24
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 43
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 89
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.611407125654756,
+                "identified": 618,
+                "input_residues": 596161,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 61
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 311
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 71
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 114
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 61
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 291
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 28
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 162
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 137
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7894642515199387,
+                "identified": 912,
+                "input_residues": 802213,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 103
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 526
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 81
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 122
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 80
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 355
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 26
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 336
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 195
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8615110994850331,
+                "identified": 1076,
+                "input_residues": 969617,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 119
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 665
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 82
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 85
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 469
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 23
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 374
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 210
+                  }
+                }
+              }
+            },
+            "esm2": {
+              "1": {
+                "components": 1221,
+                "equal_lineage_recall": 0.3278596173442145,
+                "identified": 306,
+                "input_residues": 345256,
+                "lineage_groups": 422,
+                "selected_candidates": 777,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 16
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 144
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 50
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 64
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 32
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 154
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 24
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 43
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 85
+                  }
+                }
+              },
+              "2": {
+                "components": 1221,
+                "equal_lineage_recall": 0.5888980983471505,
+                "identified": 598,
+                "input_residues": 596161,
+                "lineage_groups": 422,
+                "selected_candidates": 1554,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 62
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 311
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 71
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 114
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 40
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 283
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 32
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 162
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 121
+                  }
+                }
+              },
+              "3": {
+                "components": 1221,
+                "equal_lineage_recall": 0.7539841115966709,
+                "identified": 882,
+                "input_residues": 802213,
+                "lineage_groups": 422,
+                "selected_candidates": 2331,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 102
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 523
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 82
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 122
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 53
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 345
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 328
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 174
+                  }
+                }
+              },
+              "4": {
+                "components": 1221,
+                "equal_lineage_recall": 0.8180107609609979,
+                "identified": 1034,
+                "input_residues": 969617,
+                "lineage_groups": 422,
+                "selected_candidates": 3108,
+                "strata": {
+                  "layout:backbone_heavy": {
+                    "components": 142,
+                    "identified": 115
+                  },
+                  "layout:multi_cds": {
+                    "components": 750,
+                    "identified": 655
+                  },
+                  "layout:single_cds": {
+                    "components": 98,
+                    "identified": 82
+                  },
+                  "layout:single_label_other": {
+                    "components": 125,
+                    "identified": 125
+                  },
+                  "layout:tagged_fusion": {
+                    "components": 106,
+                    "identified": 57
+                  },
+                  "similarity:high": {
+                    "components": 508,
+                    "identified": 459
+                  },
+                  "similarity:insufficient_coverage": {
+                    "components": 37,
+                    "identified": 35
+                  },
+                  "similarity:intermediate": {
+                    "components": 426,
+                    "identified": 349
+                  },
+                  "similarity:low": {
+                    "components": 250,
+                    "identified": 191
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

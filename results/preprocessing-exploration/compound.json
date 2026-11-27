@@ -1,0 +1,22 @@
+{
+  "documented_intervals": 3,
+  "documented_residues": 239,
+  "exact_protein_models": 0,
+  "intervening_bases": [
+    0,
+    0
+  ],
+  "matches": 1,
+  "reference_sha256": "f87ad5545dc6a1bbf260525cfb04ea9ee207a82d5ff381142006dcc7dfa4155b",
+  "schema": "iri-compound-reporter-pilot-v1",
+  "source_sha256": "de592226f97ee57ce69699160aae789a8cafd4ded5c4bf95aa9a2713e2f061e7",
+  "top_model": {
+    "candidate_residues": 238,
+    "coding_region_overlap": 0.9958333333333333,
+    "exact_annotated_intervals": false,
+    "exact_protein": false,
+    "predicted_intervals": 1,
+    "same_strand": true
+  },
+  "version": "0.18-r281"
+}

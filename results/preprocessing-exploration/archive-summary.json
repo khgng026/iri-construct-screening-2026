@@ -1,0 +1,900 @@
+{
+  "candidate_caps": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "locus_overlap": 0.8,
+  "long_target_windows": {
+    "gene_caller": [
+      {
+        "1": 1014,
+        "16": 1392,
+        "2": 1392,
+        "4": 1392,
+        "8": 1392
+      }
+    ],
+    "minimal": [
+      {
+        "1": 996,
+        "16": 1392,
+        "2": 1392,
+        "4": 1392,
+        "8": 1392
+      }
+    ]
+  },
+  "records": 18,
+  "schema": "archive_candidate_coverage_v1",
+  "sources": {
+    "lampra": {
+      "gene_caller": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 286
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 716
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 416
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 634
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 716
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 5,
+        "targets": 1
+      },
+      "gene_caller_defer_ceiling": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 286
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 716
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 416
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 634
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 716
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 5,
+        "targets": 1
+      },
+      "gene_caller_length_center_250": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 286
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 716
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 416
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 634
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 716
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 5,
+        "targets": 1
+      },
+      "minimal": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 290
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 2120
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 473
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 766
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 1284
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 214,
+        "targets": 1
+      },
+      "minimal_defer_ceiling": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 290
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 2120
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 473
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 766
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 1284
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 214,
+        "targets": 1
+      },
+      "minimal_length_center_250": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 290
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 2120
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 473
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 766
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 1284
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 214,
+        "targets": 1
+      },
+      "resolved_translation_segments": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 290
+          },
+          "16": {
+            "loci": 1,
+            "peptides": 1,
+            "residues": 2567
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 547
+          },
+          "4": {
+            "loci": 1,
+            "peptides": 1,
+            "residues": 1039
+          },
+          "8": {
+            "loci": 1,
+            "peptides": 1,
+            "residues": 1656
+          }
+        },
+        "pool_locus_reach": 1,
+        "pool_peptide_reach": 1,
+        "pool_size": 220,
+        "targets": 1
+      },
+      "start_ranked": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 290
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 2092
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 473
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 755
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 1284
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 214,
+        "targets": 1
+      },
+      "start_ranked_defer_ceiling": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 290
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 2092
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 473
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 755
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 1284
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 214,
+        "targets": 1
+      },
+      "start_ranked_length_center_250": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 290
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 2120
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 473
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 766
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 1284
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 214,
+        "targets": 1
+      },
+      "start_trimmed": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 286
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 1452
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 416
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 634
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 950
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 57,
+        "targets": 1
+      },
+      "start_trimmed_defer_ceiling": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 286
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 1452
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 416
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 634
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 950
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 57,
+        "targets": 1
+      },
+      "start_trimmed_length_center_250": {
+        "curve": {
+          "1": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 286
+          },
+          "16": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 1452
+          },
+          "2": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 416
+          },
+          "4": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 634
+          },
+          "8": {
+            "loci": 0,
+            "peptides": 0,
+            "residues": 950
+          }
+        },
+        "pool_locus_reach": 0,
+        "pool_peptide_reach": 0,
+        "pool_size": 57,
+        "targets": 1
+      }
+    },
+    "open_yeast": {
+      "gene_caller": {
+        "curve": {
+          "1": {
+            "loci": 6,
+            "peptides": 6,
+            "residues": 7597
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 12355
+          },
+          "2": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 11978
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 12355
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 12355
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 37,
+        "targets": 11
+      },
+      "gene_caller_defer_ceiling": {
+        "curve": {
+          "1": {
+            "loci": 6,
+            "peptides": 6,
+            "residues": 6953
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 12355
+          },
+          "2": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 11242
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 12355
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 12355
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 37,
+        "targets": 11
+      },
+      "gene_caller_length_center_250": {
+        "curve": {
+          "1": {
+            "loci": 4,
+            "peptides": 4,
+            "residues": 4656
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 12355
+          },
+          "2": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 11242
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 12355
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 12355
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 37,
+        "targets": 11
+      },
+      "minimal": {
+        "curve": {
+          "1": {
+            "loci": 6,
+            "peptides": 6,
+            "residues": 7794
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 34101
+          },
+          "2": {
+            "loci": 9,
+            "peptides": 9,
+            "residues": 12461
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 17347
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 23989
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 1092,
+        "targets": 11
+      },
+      "minimal_defer_ceiling": {
+        "curve": {
+          "1": {
+            "loci": 6,
+            "peptides": 6,
+            "residues": 7168
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 33141
+          },
+          "2": {
+            "loci": 9,
+            "peptides": 9,
+            "residues": 11729
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 16428
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 23055
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 1092,
+        "targets": 11
+      },
+      "minimal_length_center_250": {
+        "curve": {
+          "1": {
+            "loci": 3,
+            "peptides": 3,
+            "residues": 4751
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 33141
+          },
+          "2": {
+            "loci": 8,
+            "peptides": 8,
+            "residues": 9326
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 15126
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 22245
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 1092,
+        "targets": 11
+      },
+      "resolved_translation_segments": {
+        "curve": {
+          "1": {
+            "loci": 6,
+            "peptides": 6,
+            "residues": 7794
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 34101
+          },
+          "2": {
+            "loci": 9,
+            "peptides": 9,
+            "residues": 12461
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 17347
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 23989
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 1092,
+        "targets": 11
+      },
+      "start_ranked": {
+        "curve": {
+          "1": {
+            "loci": 6,
+            "peptides": 6,
+            "residues": 7794
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 33593
+          },
+          "2": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 12434
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 17311
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 23835
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 1092,
+        "targets": 11
+      },
+      "start_ranked_defer_ceiling": {
+        "curve": {
+          "1": {
+            "loci": 6,
+            "peptides": 6,
+            "residues": 7168
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 32647
+          },
+          "2": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 11702
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 16392
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 22905
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 1092,
+        "targets": 11
+      },
+      "start_ranked_length_center_250": {
+        "curve": {
+          "1": {
+            "loci": 3,
+            "peptides": 3,
+            "residues": 4751
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 33141
+          },
+          "2": {
+            "loci": 8,
+            "peptides": 8,
+            "residues": 9326
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 15126
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 22245
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 1092,
+        "targets": 11
+      },
+      "start_trimmed": {
+        "curve": {
+          "1": {
+            "loci": 6,
+            "peptides": 6,
+            "residues": 7598
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 24377
+          },
+          "2": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 12040
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 16019
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 20251
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 246,
+        "targets": 11
+      },
+      "start_trimmed_defer_ceiling": {
+        "curve": {
+          "1": {
+            "loci": 6,
+            "peptides": 6,
+            "residues": 6954
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 23388
+          },
+          "2": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 11304
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 15085
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 19278
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 246,
+        "targets": 11
+      },
+      "start_trimmed_length_center_250": {
+        "curve": {
+          "1": {
+            "loci": 4,
+            "peptides": 4,
+            "residues": 4656
+          },
+          "16": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 24377
+          },
+          "2": {
+            "loci": 9,
+            "peptides": 9,
+            "residues": 8880
+          },
+          "4": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 14295
+          },
+          "8": {
+            "loci": 10,
+            "peptides": 10,
+            "residues": 20251
+          }
+        },
+        "pool_locus_reach": 10,
+        "pool_peptide_reach": 10,
+        "pool_size": 246,
+        "targets": 11
+      }
+    }
+  },
+  "versions": {
+    "biopython": "1.86",
+    "pyrodigal": "3.6.3"
+  }
+}

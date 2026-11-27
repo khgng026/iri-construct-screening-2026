@@ -1,0 +1,551 @@
+{
+  "arms": {
+    "gene_caller": {
+      "1": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 20,
+          "exact_coding_span": 20,
+          "in_frame_overlap": 20,
+          "overlap": 20
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 136,
+          "exact_coding_span": 116,
+          "in_frame_overlap": 149,
+          "overlap": 149
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 315,
+          "exact_coding_span": 287,
+          "in_frame_overlap": 335,
+          "overlap": 335
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 51,
+          "exact_coding_span": 45,
+          "in_frame_overlap": 53,
+          "overlap": 53
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 70,
+          "exact_coding_span": 70,
+          "in_frame_overlap": 71,
+          "overlap": 71
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 38,
+          "exact_coding_span": 36,
+          "in_frame_overlap": 42,
+          "overlap": 42
+        }
+      },
+      "2": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 73,
+          "exact_coding_span": 72,
+          "in_frame_overlap": 74,
+          "overlap": 74
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 385,
+          "exact_coding_span": 349,
+          "in_frame_overlap": 411,
+          "overlap": 411
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 712,
+          "exact_coding_span": 657,
+          "in_frame_overlap": 750,
+          "overlap": 751
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 75,
+          "exact_coding_span": 67,
+          "in_frame_overlap": 78,
+          "overlap": 79
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 121,
+          "exact_coding_span": 117,
+          "in_frame_overlap": 122,
+          "overlap": 122
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 58,
+          "exact_coding_span": 52,
+          "in_frame_overlap": 65,
+          "overlap": 65
+        }
+      },
+      "4": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 128,
+          "exact_coding_span": 126,
+          "in_frame_overlap": 129,
+          "overlap": 129
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 657,
+          "exact_coding_span": 612,
+          "in_frame_overlap": 689,
+          "overlap": 689
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 1081,
+          "exact_coding_span": 1014,
+          "in_frame_overlap": 1129,
+          "overlap": 1130
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 89,
+          "exact_coding_span": 81,
+          "in_frame_overlap": 92,
+          "overlap": 93
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 123,
+          "exact_coding_span": 119,
+          "in_frame_overlap": 125,
+          "overlap": 125
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 84,
+          "exact_coding_span": 76,
+          "in_frame_overlap": 94,
+          "overlap": 94
+        }
+      },
+      "pool": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 139,
+          "exact_coding_span": 136,
+          "in_frame_overlap": 141,
+          "overlap": 141
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 679,
+          "exact_coding_span": 632,
+          "in_frame_overlap": 712,
+          "overlap": 712
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 1123,
+          "exact_coding_span": 1053,
+          "in_frame_overlap": 1173,
+          "overlap": 1174
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 92,
+          "exact_coding_span": 84,
+          "in_frame_overlap": 95,
+          "overlap": 96
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 123,
+          "exact_coding_span": 119,
+          "in_frame_overlap": 125,
+          "overlap": 125
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 90,
+          "exact_coding_span": 82,
+          "in_frame_overlap": 100,
+          "overlap": 100
+        }
+      }
+    },
+    "minimal": {
+      "1": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 12,
+          "exact_coding_span": 0,
+          "in_frame_overlap": 12,
+          "overlap": 12
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 127,
+          "exact_coding_span": 2,
+          "in_frame_overlap": 132,
+          "overlap": 136
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 280,
+          "exact_coding_span": 2,
+          "in_frame_overlap": 289,
+          "overlap": 295
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 49,
+          "exact_coding_span": 0,
+          "in_frame_overlap": 50,
+          "overlap": 51
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 52,
+          "exact_coding_span": 0,
+          "in_frame_overlap": 53,
+          "overlap": 53
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 40,
+          "exact_coding_span": 0,
+          "in_frame_overlap": 42,
+          "overlap": 43
+        }
+      },
+      "2": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 52,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 52,
+          "overlap": 52
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 299,
+          "exact_coding_span": 10,
+          "in_frame_overlap": 304,
+          "overlap": 313
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 588,
+          "exact_coding_span": 12,
+          "in_frame_overlap": 597,
+          "overlap": 609
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 68,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 69,
+          "overlap": 70
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 111,
+          "exact_coding_span": 0,
+          "in_frame_overlap": 112,
+          "overlap": 112
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 58,
+          "exact_coding_span": 0,
+          "in_frame_overlap": 60,
+          "overlap": 62
+        }
+      },
+      "4": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 117,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 117,
+          "overlap": 117
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 654,
+          "exact_coding_span": 26,
+          "in_frame_overlap": 659,
+          "overlap": 667
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 1061,
+          "exact_coding_span": 30,
+          "in_frame_overlap": 1070,
+          "overlap": 1079
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 83,
+          "exact_coding_span": 2,
+          "in_frame_overlap": 84,
+          "overlap": 85
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 123,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 124,
+          "overlap": 124
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 84,
+          "exact_coding_span": 0,
+          "in_frame_overlap": 86,
+          "overlap": 86
+        }
+      },
+      "pool": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 141,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 141,
+          "overlap": 141
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 737,
+          "exact_coding_span": 40,
+          "in_frame_overlap": 742,
+          "overlap": 742
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 1199,
+          "exact_coding_span": 48,
+          "in_frame_overlap": 1208,
+          "overlap": 1208
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 97,
+          "exact_coding_span": 2,
+          "in_frame_overlap": 98,
+          "overlap": 98
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 124,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 125,
+          "overlap": 125
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 100,
+          "exact_coding_span": 4,
+          "in_frame_overlap": 102,
+          "overlap": 102
+        }
+      }
+    },
+    "start_ranked": {
+      "1": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 16,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 16,
+          "overlap": 16
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 138,
+          "exact_coding_span": 2,
+          "in_frame_overlap": 143,
+          "overlap": 146
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 307,
+          "exact_coding_span": 4,
+          "in_frame_overlap": 316,
+          "overlap": 321
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 49,
+          "exact_coding_span": 0,
+          "in_frame_overlap": 50,
+          "overlap": 51
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 63,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 64,
+          "overlap": 64
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 41,
+          "exact_coding_span": 0,
+          "in_frame_overlap": 43,
+          "overlap": 44
+        }
+      },
+      "2": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 62,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 62,
+          "overlap": 62
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 308,
+          "exact_coding_span": 10,
+          "in_frame_overlap": 313,
+          "overlap": 320
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 613,
+          "exact_coding_span": 13,
+          "in_frame_overlap": 622,
+          "overlap": 632
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 70,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 71,
+          "overlap": 72
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 113,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 114,
+          "overlap": 114
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 60,
+          "exact_coding_span": 0,
+          "in_frame_overlap": 62,
+          "overlap": 64
+        }
+      },
+      "4": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 121,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 121,
+          "overlap": 121
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 669,
+          "exact_coding_span": 31,
+          "in_frame_overlap": 674,
+          "overlap": 678
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 1082,
+          "exact_coding_span": 35,
+          "in_frame_overlap": 1091,
+          "overlap": 1096
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 83,
+          "exact_coding_span": 2,
+          "in_frame_overlap": 84,
+          "overlap": 85
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 124,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 125,
+          "overlap": 125
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 85,
+          "exact_coding_span": 0,
+          "in_frame_overlap": 87,
+          "overlap": 87
+        }
+      },
+      "pool": {
+        "backbone_heavy": {
+          "components": 142,
+          "contains_coding_span": 141,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 141,
+          "overlap": 141
+        },
+        "multi_cds": {
+          "components": 742,
+          "contains_coding_span": 737,
+          "exact_coding_span": 40,
+          "in_frame_overlap": 742,
+          "overlap": 742
+        },
+        "overall": {
+          "components": 1213,
+          "contains_coding_span": 1199,
+          "exact_coding_span": 48,
+          "in_frame_overlap": 1208,
+          "overlap": 1208
+        },
+        "single_cds": {
+          "components": 98,
+          "contains_coding_span": 97,
+          "exact_coding_span": 2,
+          "in_frame_overlap": 98,
+          "overlap": 98
+        },
+        "single_label_other": {
+          "components": 125,
+          "contains_coding_span": 124,
+          "exact_coding_span": 1,
+          "in_frame_overlap": 125,
+          "overlap": 125
+        },
+        "tagged_fusion": {
+          "components": 106,
+          "contains_coding_span": 100,
+          "exact_coding_span": 4,
+          "in_frame_overlap": 102,
+          "overlap": 102
+        }
+      }
+    }
+  },
+  "construct_count": 777,
+  "excluded_components": {
+    "joined": 8,
+    "unsupported_length": 0
+  },
+  "input_sha256": {
+    "results/paired-cohort-v2/holdout/esm2/gene_caller.json": "76ebe5059bcf5599f8d395d3f2a35fb4e1d82728046cef9ea0c9d4bab65ffd13",
+    "results/paired-cohort-v2/holdout/esm2/minimal.json": "97aa574f9548554dd663f746e5d2811e975cfb382bdedcf1e805dd44225d7b80",
+    "results/paired-cohort-v2/holdout/esm2/start_ranked.json": "beaed96ee9e48e582ab78df476f80007873de50a981d4b56956fcc7249a460c3",
+    "results/paired-cohort-v2/prepared/holdout/evaluator/answer-key.corroborated.json": "398d681600b10b82c05df8056e0b39b56df308c9545930afc88814af7e75debb"
+  },
+  "minimum_overlap": 0.8,
+  "schema": "preprocessing-frame-audit-1"
+}
