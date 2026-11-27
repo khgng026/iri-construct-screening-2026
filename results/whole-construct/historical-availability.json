@@ -47,6 +47,7 @@
           "covering_candidate_same_frame": 1173,
           "has_unscored_covering_candidate": 44,
           "possible_top_family_in_full_pool": 1138,
+          "reciprocal_covering_candidate_same_frame": 1162,
           "single_span_component": 1213,
           "top_family_in_cached_covering_candidate": 1094
         },
@@ -57,6 +58,7 @@
           "covering_candidate_same_frame": 1208,
           "has_unscored_covering_candidate": 209,
           "possible_top_family_in_full_pool": 1142,
+          "reciprocal_covering_candidate_same_frame": 1190,
           "single_span_component": 1213,
           "top_family_in_cached_covering_candidate": 1028
         }
@@ -71,6 +73,16 @@
       "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
         "lower": -48,
         "upper": 110
+      },
+      "unfiltered_top_family_reweighted_fraction_difference_bounds": {
+        "family": {
+          "lower": 0.01812406138311859,
+          "upper": 0.1008586939650853
+        },
+        "protein": {
+          "lower": -0.04862266948868114,
+          "upper": 0.08594700085245331
+        }
       }
     },
     "high": {
@@ -91,6 +103,7 @@
           "covering_candidate_same_frame": 483,
           "has_unscored_covering_candidate": 12,
           "possible_top_family_in_full_pool": 472,
+          "reciprocal_covering_candidate_same_frame": 482,
           "single_span_component": 506,
           "top_family_in_cached_covering_candidate": 460
         },
@@ -101,6 +114,7 @@
           "covering_candidate_same_frame": 506,
           "has_unscored_covering_candidate": 124,
           "possible_top_family_in_full_pool": 495,
+          "reciprocal_covering_candidate_same_frame": 503,
           "single_span_component": 506,
           "top_family_in_cached_covering_candidate": 458
         }
@@ -114,6 +128,16 @@
       "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
         "lower": -35,
         "upper": 14
+      },
+      "unfiltered_top_family_reweighted_fraction_difference_bounds": {
+        "family": {
+          "lower": -0.07180609291614984,
+          "upper": 0.03998829900158173
+        },
+        "protein": {
+          "lower": -0.038380908080300466,
+          "upper": 0.06530858383516161
+        }
       }
     },
     "insufficient_coverage": {
@@ -134,6 +158,7 @@
           "covering_candidate_same_frame": 33,
           "has_unscored_covering_candidate": 0,
           "possible_top_family_in_full_pool": 35,
+          "reciprocal_covering_candidate_same_frame": 33,
           "single_span_component": 34,
           "top_family_in_cached_covering_candidate": 35
         },
@@ -144,6 +169,7 @@
           "covering_candidate_same_frame": 33,
           "has_unscored_covering_candidate": 0,
           "possible_top_family_in_full_pool": 35,
+          "reciprocal_covering_candidate_same_frame": 33,
           "single_span_component": 34,
           "top_family_in_cached_covering_candidate": 35
         }
@@ -156,6 +182,16 @@
       "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
         "lower": 0,
         "upper": 0
+      },
+      "unfiltered_top_family_reweighted_fraction_difference_bounds": {
+        "family": {
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        "protein": {
+          "lower": 0.0,
+          "upper": 0.0
+        }
       }
     },
     "intermediate": {
@@ -176,6 +212,7 @@
           "covering_candidate_same_frame": 421,
           "has_unscored_covering_candidate": 19,
           "possible_top_family_in_full_pool": 420,
+          "reciprocal_covering_candidate_same_frame": 414,
           "single_span_component": 423,
           "top_family_in_cached_covering_candidate": 401
         },
@@ -186,6 +223,7 @@
           "covering_candidate_same_frame": 421,
           "has_unscored_covering_candidate": 45,
           "possible_top_family_in_full_pool": 391,
+          "reciprocal_covering_candidate_same_frame": 412,
           "single_span_component": 423,
           "top_family_in_cached_covering_candidate": 346
         }
@@ -200,6 +238,16 @@
       "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
         "lower": 10,
         "upper": 74
+      },
+      "unfiltered_top_family_reweighted_fraction_difference_bounds": {
+        "family": {
+          "lower": 0.18766395526182003,
+          "upper": 0.3289096609203371
+        },
+        "protein": {
+          "lower": 0.06905350676577092,
+          "upper": 0.1334784162378502
+        }
       }
     },
     "low": {
@@ -220,6 +268,7 @@
           "covering_candidate_same_frame": 236,
           "has_unscored_covering_candidate": 13,
           "possible_top_family_in_full_pool": 211,
+          "reciprocal_covering_candidate_same_frame": 233,
           "single_span_component": 250,
           "top_family_in_cached_covering_candidate": 198
         },
@@ -230,6 +279,7 @@
           "covering_candidate_same_frame": 248,
           "has_unscored_covering_candidate": 40,
           "possible_top_family_in_full_pool": 221,
+          "reciprocal_covering_candidate_same_frame": 242,
           "single_span_component": 250,
           "top_family_in_cached_covering_candidate": 189
         }
@@ -243,6 +293,16 @@
       "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
         "lower": -23,
         "upper": 22
+      },
+      "unfiltered_top_family_reweighted_fraction_difference_bounds": {
+        "family": {
+          "lower": -0.03517422748191979,
+          "upper": 0.0550449179211721
+        },
+        "protein": {
+          "lower": -0.11212871287128713,
+          "upper": 0.08835883588358835
+        }
       }
     },
     "mid_low": {
@@ -263,6 +323,7 @@
           "covering_candidate_same_frame": 657,
           "has_unscored_covering_candidate": 32,
           "possible_top_family_in_full_pool": 631,
+          "reciprocal_covering_candidate_same_frame": 647,
           "single_span_component": 673,
           "top_family_in_cached_covering_candidate": 599
         },
@@ -273,6 +334,7 @@
           "covering_candidate_same_frame": 669,
           "has_unscored_covering_candidate": 85,
           "possible_top_family_in_full_pool": 612,
+          "reciprocal_covering_candidate_same_frame": 654,
           "single_span_component": 673,
           "top_family_in_cached_covering_candidate": 535
         }
@@ -287,6 +349,16 @@
       "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": {
         "lower": -13,
         "upper": 96
+      },
+      "unfiltered_top_family_reweighted_fraction_difference_bounds": {
+        "family": {
+          "lower": 0.05359490126731506,
+          "upper": 0.14355482935817768
+        },
+        "protein": {
+          "lower": -0.05794857134479776,
+          "upper": 0.10347757159935547
+        }
       }
     }
   }

@@ -7,6 +7,7 @@ from collections import Counter, defaultdict
 from hashlib import sha256
 import json
 from pathlib import Path
+from statistics import mean
 
 from experiments.preprocessing_exploration.hybrid import prepare, read, verify_family_replay
 from experiments.paired_preprocessing.verify import _covered
@@ -19,6 +20,7 @@ SCORER = "esm2"
 def component_evidence(locus, family, pool, rankings, overlap):
     """Return geometric reach and the observed top family from the cached subset."""
     compatible = [unit for unit in pool if _covered(locus, unit.locus) >= overlap]
+    reciprocal = [unit for unit in compatible if _covered(unit.locus, locus) >= overlap]
     strand, spans = locus
     contiguous = len(spans) == 1
     frame = spans[0][0 if strand == 1 else 1] % 3 if contiguous else None
@@ -28,6 +30,7 @@ def component_evidence(locus, family, pool, rankings, overlap):
     return {
         "covering_candidate": bool(compatible),
         "covering_candidate_same_frame": contiguous and any(unit.frame == frame for unit in compatible),
+        "reciprocal_covering_candidate_same_frame": contiguous and any(unit.frame == frame for unit in reciprocal),
         "single_span_component": contiguous,
         "cached_covering_candidate": bool(scored),
         "top_family_in_cached_covering_candidate": supported,
@@ -66,6 +69,7 @@ def audit(cohort):
     reach_comparison = defaultdict(Counter)
     conservative_counts = defaultdict(Counter)
     bounds = defaultdict(Counter)
+    group_bounds = defaultdict(lambda: defaultdict(Counter))
     for record in records:
         verify_family_replay(record, overlap, protocol["prediction_limit"])
         saved = record["ranks"][SCORER]
@@ -107,12 +111,15 @@ def audit(cohort):
                 for method, evidence in evidence_by_method.items():
                     counts[group, method].update(components=1, **evidence)
                 minimal, genes = (evidence_by_method[method] for method in METHODS)
-                bounds[group].update({
+                limits = {
                     "lower": (int(genes["top_family_in_cached_covering_candidate"])
                               - int(minimal["possible_top_family_in_full_pool"])),
                     "upper": (int(genes["possible_top_family_in_full_pool"])
                               - int(minimal["top_family_in_cached_covering_candidate"])),
-                })
+                }
+                bounds[group].update(limits)
+                for key, item_id in (("protein", meta["protein_sha256"]), ("family", family)):
+                    group_bounds[group, key][item_id].update(components=1, **limits)
 
     return {
         "schema": "iri-whole-construct-availability-v1",
@@ -128,6 +135,11 @@ def audit(cohort):
                 "largest_conservative_group_occurrences": max(conservative_counts[group].values()),
                 "paired_geometric_reach": reach_comparison[group],
                 "unfiltered_per_component_top_family_count_difference_bounds_gene_minus_minimal": bounds[group],
+                "unfiltered_top_family_reweighted_fraction_difference_bounds": {
+                    key: {side: mean(item[side] / item["components"] for item in group_bounds[group, key].values())
+                          for side in ("lower", "upper")}
+                    for key in ("protein", "family")
+                },
                 "methods": {method: counts[group, method] for method in METHODS},
             }
             for group, populations in strata.items()
