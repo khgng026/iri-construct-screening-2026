@@ -1,5 +1,7 @@
 # Research pilot handoff
 
+For the current low-identity results, open review branches, and next decision, start with the [Q3 evidence and handoff](Q3_EVIDENCE.md). The notes below describe the November 22 pilot checkpoint.
+
 **22 November 2026.** Work on `paired-research-pilot`, based on the merged research scope in PR #16. Use the active [scope](SCOPE.md), [plan](PLAN.md), and [status](STATUS.md) for the project direction. The researcher approved a **five percentage point gain in documented-component recall at a matched budget** as the practical target for this pilot.
 
 ## What is ready

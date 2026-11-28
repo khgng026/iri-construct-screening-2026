@@ -35,12 +35,14 @@ def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def acquire(panel, output):
-    """Reacquire the exact deposited records and reviewed protein references."""
-    def fetch(url, expected):
+def acquire(panel, output, *, canonical_record_end=False):
+    """Reacquire frozen deposited records and protein references."""
+    def fetch(url, expected, canonical_end=False, max_bytes=200_000):
         with urlopen(Request(url, headers={'User-Agent': 'iri-constructs/reporter-pilot'}), timeout=20) as response:
-            data = response.read(200_001)
-        if len(data) > 200_000 or hashlib.sha256(data).hexdigest() != expected:
+            data = response.read(max_bytes + 1)
+        if canonical_end and len(data) <= max_bytes:
+            data = data.rstrip(b'\n') + b'\n'
+        if len(data) > max_bytes or hashlib.sha256(data).hexdigest() != expected:
             raise ValueError('Source snapshot differs from the frozen panel')
         return data
 
@@ -48,19 +50,42 @@ def acquire(panel, output):
     records = {}
     for row in panel['constructs']:
         query = urlencode(dict(db='nuccore', id=row['accession'], rettype='gb', retmode='text', tool='iri_constructs'))
-        records[row['accession']] = fetch(root + query, row['sha256'])
+        records[row['accession']] = fetch(root + query, row['sha256'], canonical_record_end)
         time.sleep(0.4)
     reference_source = panel['reference_source']
-    raw = fetch(reference_source['url'], reference_source['response_sha256'])
-    sequences = {r['Entry']: r['Sequence'] for r in csv.DictReader(io.StringIO(raw.decode()), delimiter='\t')}
+    if reference_source.get('provider') == 'SCOPe ASTRAL':
+        snapshots, sequences = {}, {}
+        for row in panel['references']:
+            accession = row['accession']
+            raw = fetch(row['url'], row['source_sha256'])
+            description, *lines = raw.decode('ascii').splitlines()
+            sequence = ''.join(lines).upper()
+            if (description.split()[:1] != [f'>{accession}']
+                    or hashlib.sha256(sequence.encode('ascii')).hexdigest() != row['sequence_sha256']):
+                raise ValueError(f'{accession}: ASTRAL record differs from the frozen panel')
+            snapshots[f'{accession}.fasta'] = raw
+            sequences[accession] = sequence
+            time.sleep(0.85)
+    else:
+        raw = fetch(reference_source['url'], reference_source['response_sha256'])
+        snapshots = {'reference-snapshot.tsv': raw}
+        sequences = {r['Entry']: r['Sequence'] for r in csv.DictReader(io.StringIO(raw.decode()), delimiter='\t')}
     references = [{**row, 'sequence': sequences[row['accession']]} for row in panel['references']]
     out_bytes = (json.dumps(references, indent=2, sort_keys=True, allow_nan=False) + '\n').encode()
     if hashlib.sha256(out_bytes).hexdigest() != reference_source['prepared_sha256']:
         raise ValueError('Reference panel differs from the frozen input')
+    structure = None
+    if 'domain_source' in panel:
+        source = panel['domain_source']
+        structure = fetch(f"https://files.rcsb.org/download/{source['structure']}.cif",
+                          source['mmcif_sha256'], max_bytes=3_000_000)
     (output / 'sources').mkdir(parents=True)
     for accession, data in records.items():
         (output / 'sources' / f'{accession}.gb').write_bytes(data)
-    (output / 'sources' / 'reference-snapshot.tsv').write_bytes(raw)
+    for filename, data in snapshots.items():
+        (output / 'sources' / filename).write_bytes(data)
+    if structure is not None:
+        (output / f"{source['structure'].lower()}.cif").write_bytes(structure)
     (output / 'references.private.json').write_bytes(out_bytes)
 
 

@@ -142,6 +142,7 @@ The earlier [component study](docs/results/component-study-v1/README.md) and [ex
 ## Project documents
 
 [Scope](docs/project/SCOPE.md) · [status](docs/project/STATUS.md) ·
+[low-identity evidence](docs/project/Q3_EVIDENCE.md) ·
 [contract](docs/project/TOOLKIT_CONTRACT.md) · [plan](docs/project/PLAN.md) ·
 [autonomy and data rules](docs/project/AUTONOMY.md) · [agent instructions](AGENTS.md)
 

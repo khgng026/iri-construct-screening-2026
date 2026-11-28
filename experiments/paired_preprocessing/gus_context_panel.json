@@ -1,0 +1,243 @@
+{
+  "constructs": [
+    {
+      "accession": "AB538275.2",
+      "components": [
+        {
+          "ancestry": "ecoli_gus",
+          "domain_residue_end0": 600,
+          "domain_residue_start0": 273,
+          "domain_sha256": "4117329464e0ec773fbacb4dec2bdad0c63921cfec5f66e27ed34bfe55916c95",
+          "domain_structure": "3K46:A:274-601",
+          "family": "c.1.8",
+          "feature_index": 7,
+          "missing_structure_reference_residues": 1,
+          "source_product": "beta-glucuronidase",
+          "substitutions_to_structure_reference": 7,
+          "translation_sha256": "f026cc9c9e1e211e5bbf3e6e3b19126a54a7e7fb78bc7f614a9014342a59d402"
+        }
+      ],
+      "description": "Moss transformation vector pTN83 uidA, nptII genes for beta-glucuronidase, neomycin phosphotransferase, complete cds",
+      "layout": "compact single reporter",
+      "length": 4363,
+      "sha256": "9270bf0fa9ce0292a57832317ea49a651dfd15bbe803fd64695c8f3da1e96011",
+      "submission_group": "moss-tn83"
+    },
+    {
+      "accession": "AM181661.1",
+      "components": [
+        {
+          "ancestry": "ecoli_gus",
+          "context_feature_index": 4,
+          "context_product": "beta-glucuronidase / GFP fusion protein",
+          "context_sha256": "e03cf3aa0000668cf97c0339f8f49f937a6c168478801d92268ebaf48b2264c7",
+          "domain_residue_end0": 601,
+          "domain_residue_start0": 273,
+          "domain_sha256": "d8c0396c2ced393cc953c2135075709059c6422548107a2f87fc97d3101a4704",
+          "domain_structure": "3K46:A:274-601",
+          "family": "c.1.8",
+          "feature_index": 6,
+          "missing_structure_reference_residues": 0,
+          "source_product": "beta-glucuronidase",
+          "substitutions_to_structure_reference": 0,
+          "translation_sha256": "7d328978424a0f014440424242e4ff8acb4e9482945b05ab7b3930ead7f01af9"
+        }
+      ],
+      "description": "Synthetic construct for chimaeric Escherichia coli and Aequorea victoria uidA-gfp gene for beta-glucuronidase / GFP fusion protein",
+      "layout": "fused reporters",
+      "length": 2577,
+      "sha256": "0a9646470c30432e23dc73ed20801bc1c17eb6ee5e7babc8867b05322b38a7d7",
+      "submission_group": "arabidopsis-fusion"
+    },
+    {
+      "accession": "AJ851292.1",
+      "components": [
+        {
+          "ancestry": "ecoli_gus",
+          "domain_residue_end0": 601,
+          "domain_residue_start0": 273,
+          "domain_sha256": "d8c0396c2ced393cc953c2135075709059c6422548107a2f87fc97d3101a4704",
+          "domain_structure": "3K46:A:274-601",
+          "family": "c.1.8",
+          "feature_index": 4,
+          "missing_structure_reference_residues": 0,
+          "source_product": "beta-glucuronidase",
+          "substitutions_to_structure_reference": 0,
+          "translation_sha256": "5cbe204386fc1fc18b31eb8600ed5428e2a62337a8660abb3e07f903affb5dce"
+        }
+      ],
+      "description": "Cloning vector pRU1156 gusA gene for beta-glucuronidase and gfpmut3.1 gene for green fluorescent protein mut3.1",
+      "layout": "long dual reporter",
+      "length": 13116,
+      "sha256": "afa87e48fd2340747c2dde5465edc659db07efa9b94c0a4bfeb05f5e6ce79235",
+      "submission_group": "pru-series"
+    },
+    {
+      "accession": "AJ851291.1",
+      "components": [
+        {
+          "ancestry": "ecoli_gus",
+          "domain_residue_end0": 601,
+          "domain_residue_start0": 273,
+          "domain_sha256": "d8c0396c2ced393cc953c2135075709059c6422548107a2f87fc97d3101a4704",
+          "domain_structure": "3K46:A:274-601",
+          "family": "c.1.8",
+          "feature_index": 4,
+          "missing_structure_reference_residues": 0,
+          "source_product": "beta-glucuronidase",
+          "substitutions_to_structure_reference": 0,
+          "translation_sha256": "5cbe204386fc1fc18b31eb8600ed5428e2a62337a8660abb3e07f903affb5dce"
+        }
+      ],
+      "description": "Cloning vector pRU1161 gusA gene for beta-glucuronidase and mRFP1 gene for mono Red fluorescent protein",
+      "layout": "long dual reporter",
+      "length": 13079,
+      "sha256": "e248be1741c8ef34e9499bfc421f48dcaf1ec50ca5758f13b88ae260841eb79b",
+      "submission_group": "pru-series"
+    },
+    {
+      "accession": "AJ851290.1",
+      "components": [
+        {
+          "ancestry": "ecoli_gus",
+          "domain_residue_end0": 601,
+          "domain_residue_start0": 273,
+          "domain_sha256": "d8c0396c2ced393cc953c2135075709059c6422548107a2f87fc97d3101a4704",
+          "domain_structure": "3K46:A:274-601",
+          "family": "c.1.8",
+          "feature_index": 4,
+          "missing_structure_reference_residues": 0,
+          "source_product": "beta-glucuronidase",
+          "substitutions_to_structure_reference": 0,
+          "translation_sha256": "5cbe204386fc1fc18b31eb8600ed5428e2a62337a8660abb3e07f903affb5dce"
+        }
+      ],
+      "description": "Cloning vector pRU1076 gusA gene for beta-glucuronidase and dsRedT4 gene for Ds Red fluorescent protein T4",
+      "layout": "long dual reporter",
+      "length": 13079,
+      "sha256": "a77a65592b52a26aed69790b2426ce8208f1a5c4dc35d54d1db8a055e1f67e7a",
+      "submission_group": "pru-series"
+    },
+    {
+      "accession": "AJ851288.1",
+      "components": [
+        {
+          "ancestry": "ecoli_gus",
+          "domain_residue_end0": 601,
+          "domain_residue_start0": 273,
+          "domain_sha256": "d8c0396c2ced393cc953c2135075709059c6422548107a2f87fc97d3101a4704",
+          "domain_structure": "3K46:A:274-601",
+          "family": "c.1.8",
+          "feature_index": 4,
+          "missing_structure_reference_residues": 0,
+          "source_product": "beta-glucuronidase",
+          "substitutions_to_structure_reference": 0,
+          "translation_sha256": "5cbe204386fc1fc18b31eb8600ed5428e2a62337a8660abb3e07f903affb5dce"
+        }
+      ],
+      "description": "Cloning vector pRU1064 gfpUV gene for green fluorescent protein UV and gusA gene for beta-glucuronidase",
+      "layout": "long dual reporter",
+      "length": 13103,
+      "sha256": "497828c1ae37010e1e39d4204ec64c51b79767e1fed2ddf11b0af3563aa13f96",
+      "submission_group": "pru-series"
+    },
+    {
+      "accession": "AF485783.1",
+      "components": [
+        {
+          "ancestry": "ecoli_gus",
+          "domain_residue_end0": 601,
+          "domain_residue_start0": 273,
+          "domain_sha256": "d8c0396c2ced393cc953c2135075709059c6422548107a2f87fc97d3101a4704",
+          "domain_structure": "3K46:A:274-601",
+          "family": "c.1.8",
+          "feature_index": 11,
+          "missing_structure_reference_residues": 0,
+          "source_product": "beta-glucuronidase",
+          "substitutions_to_structure_reference": 0,
+          "translation_sha256": "a9936b86d8a59be62d664cfeb611dab89d9ce67708793bc080c31e16a27f6c76"
+        }
+      ],
+      "description": "Binary vector pBI121, complete sequence",
+      "layout": "long single reporter",
+      "length": 14758,
+      "sha256": "919d9aeb36726bff53d82e698c8d677282f9e4d121f440d636387b04de5329dd",
+      "submission_group": "pbi121"
+    }
+  ],
+  "domain_source": {
+    "canonical_sequence_sha256": "a9936b86d8a59be62d664cfeb611dab89d9ce67708793bc080c31e16a27f6c76",
+    "canonical_uniprot": "P05804",
+    "chain": "A",
+    "first_residue": 274,
+    "last_residue": 601,
+    "mmcif_sha256": "327de350a3959957af2b6cb01c7ed56edbed76ba5c6c073426ff21665832bc24",
+    "structure": "3K46"
+  },
+  "reference_source": {
+    "prepared_sha256": "339eeb1aae62e2d6672be68f6aba60afb25cffa36f9ab3939b7c360ea981ed12",
+    "provider": "SCOPe ASTRAL",
+    "release": "2.08",
+    "terms": "https://scop.berkeley.edu/about"
+  },
+  "references": [
+    {
+      "accession": "d1baga2",
+      "family": "c.1.8",
+      "name": "Bacterial alpha-amylase",
+      "pdb": "1bag",
+      "sequence_sha256": "c69ba319a44bc17674dfd147a7864e14416eeb2b3bb23d3cc900ac2e5afc0e28",
+      "source_sha256": "ee6c07138ddc3167170cfd10945ab8fae61dd5036484aa5364f08cacd74456a4",
+      "url": "https://scop.berkeley.edu/astral/seq/ver=2.08&id=28707&seqOption=0&output=text"
+    },
+    {
+      "accession": "d2g3ma2",
+      "family": "c.1.8",
+      "name": "Maltase, catalytic domain",
+      "pdb": "2g3m",
+      "sequence_sha256": "ca25c37ecf70be4bc8079452aedbcbc917a6cb8167c01d372137d35d3c524159",
+      "source_sha256": "5ab1fb00cbe1030406e1939a2785d84c31ae13151b7c3ecec1251b931792e848",
+      "url": "https://scop.berkeley.edu/astral/seq/ver=2.08&id=412764&seqOption=0&output=text"
+    },
+    {
+      "accession": "d1h1ya_",
+      "family": "c.1.2",
+      "name": "D-ribulose-5-phosphate 3-epimerase",
+      "pdb": "1h1y",
+      "sequence_sha256": "11f912fc5ef5f39e16e55ab9f0965ce43c5f05b9d293f39a1fd12137fd0c5063",
+      "source_sha256": "97ec8d063ea6a5eec134088bce5557e4d26775508c0a6b281dfb3bd8629d780b",
+      "url": "https://scop.berkeley.edu/astral/seq/ver=2.08&id=76506&seqOption=0&output=text"
+    },
+    {
+      "accession": "d1dbta_",
+      "family": "c.1.2",
+      "name": "Orotidine 5'-monophosphate decarboxylase (OMP decarboxylase)",
+      "pdb": "1dbt",
+      "sequence_sha256": "59cda3df427721d6381fa249e7fe5fc13f91f6d544bf78d1d304d06e167104a6",
+      "source_sha256": "3ee5497187bbbc41db86df358e762fc96c3f29986aa40f1b3230e27f1cf9ac16",
+      "url": "https://scop.berkeley.edu/astral/seq/ver=2.08&id=28539&seqOption=0&output=text"
+    },
+    {
+      "accession": "d1alda_",
+      "family": "c.1.10",
+      "name": "Fructose-1,6-bisphosphate aldolase",
+      "pdb": "1ald",
+      "sequence_sha256": "899c8ec771000d35f1314d3c9db19b2a9154d8b549d1173408f11d02ae27bee3",
+      "source_sha256": "47bd34af98cb8e1fd6af6609e84480424376c431916b5ed3e3eb34162234d4fa",
+      "url": "https://scop.berkeley.edu/astral/seq/ver=2.08&id=29100&seqOption=0&output=text"
+    },
+    {
+      "accession": "d1aw5a_",
+      "family": "c.1.10",
+      "name": "5-aminolaevulinate dehydratase, ALAD (porphobilinogen synthase)",
+      "pdb": "1aw5",
+      "sequence_sha256": "c309b8cff7b97763bc7a7c98f3c5048897dd9b26cf2b1e4c9c08b9ec3cce6544",
+      "source_sha256": "93247fbf8ff4fdf2942b4aebda439515d88b19ab3dd10d6ed1914046338e2b57",
+      "url": "https://scop.berkeley.edu/astral/seq/ver=2.08&id=29181&seqOption=0&output=text"
+    }
+  ],
+  "schema": "distant-public-reporter-pilot-1",
+  "source": "NCBI GenBank nuccore EFetch",
+  "source_retrieved_on": "2026-11-23",
+  "source_terms": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+}
