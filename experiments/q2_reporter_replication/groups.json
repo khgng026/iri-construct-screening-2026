@@ -1,0 +1,1023 @@
+{
+  "assignments": {
+    "rc-001-5": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-002-4": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-002-9": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-003-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-003-4": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-004-2": {
+      "family": "renilla_luciferase",
+      "family_group": "renilla_luciferase",
+      "lineage_group": "renilla_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-004-4": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-004-5": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-005-14": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-006-11": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-007-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-007-3": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#2",
+      "role": "marker"
+    },
+    "rc-008-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-009-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-010-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-011-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-012-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-013-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-014-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-015-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#2",
+      "role": "reporter"
+    },
+    "rc-016-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#2",
+      "role": "reporter"
+    },
+    "rc-017-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#2",
+      "role": "reporter"
+    },
+    "rc-018-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#3",
+      "role": "reporter"
+    },
+    "rc-019-2": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-019-7": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-020-2": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-020-7": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-021-2": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-021-5": {
+      "family": "hygromycin_phosphotransferase",
+      "family_group": "hygromycin_phosphotransferase",
+      "lineage_group": "hygromycin_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-021-9": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-022-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#4",
+      "role": "reporter"
+    },
+    "rc-022-6": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-023-10": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-023-2": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-023-5": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-024-10": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-024-2": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-024-5": {
+      "family": "puromycin_n_acetyltransferase",
+      "family_group": "puromycin_n_acetyltransferase",
+      "lineage_group": "puromycin_n_acetyltransferase#1",
+      "role": "marker"
+    },
+    "rc-025-10": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-025-2": {
+      "family": "renilla_luciferase",
+      "family_group": "renilla_luciferase",
+      "lineage_group": "renilla_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-025-5": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-026-4": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-026-9": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-027-4": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-027-9": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-028-4": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-028-9": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-029-10": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-029-4": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-029-6": {
+      "family": "hygromycin_phosphotransferase",
+      "family_group": "hygromycin_phosphotransferase",
+      "lineage_group": "hygromycin_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-030-10": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-030-4": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-030-6": {
+      "family": "hygromycin_phosphotransferase",
+      "family_group": "hygromycin_phosphotransferase",
+      "lineage_group": "hygromycin_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-031-10": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-031-4": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-031-6": {
+      "family": "hygromycin_phosphotransferase",
+      "family_group": "hygromycin_phosphotransferase",
+      "lineage_group": "hygromycin_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-032-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-032-5": {
+      "family": "hygromycin_phosphotransferase",
+      "family_group": "hygromycin_phosphotransferase",
+      "lineage_group": "hygromycin_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-032-9": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-033-11": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-033-4": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-033-7": {
+      "family": "hygromycin_phosphotransferase",
+      "family_group": "hygromycin_phosphotransferase",
+      "lineage_group": "hygromycin_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-034-5": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-035-13": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-035-4": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-035-8": {
+      "family": "hygromycin_phosphotransferase",
+      "family_group": "hygromycin_phosphotransferase",
+      "lineage_group": "hygromycin_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-036-11": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-036-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-036-7": {
+      "family": "hygromycin_phosphotransferase",
+      "family_group": "hygromycin_phosphotransferase",
+      "lineage_group": "hygromycin_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-037-11": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-037-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-037-7": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-038-3": {
+      "family": "beta_galactosidase",
+      "family_group": "beta_galactosidase",
+      "lineage_group": "beta_galactosidase#1",
+      "role": "reporter"
+    },
+    "rc-038-6": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-039-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#2",
+      "role": "reporter"
+    },
+    "rc-039-5": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-040-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#2",
+      "role": "reporter"
+    },
+    "rc-040-6": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-041-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-041-5": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-042-16": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-042-9": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-043-5": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#2",
+      "role": "reporter"
+    },
+    "rc-043-9": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-044-13": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-044-9": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#2",
+      "role": "reporter"
+    },
+    "rc-045-5": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#5",
+      "role": "reporter"
+    },
+    "rc-046-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-046-7": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-047-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-047-7": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-048-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-048-7": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#2",
+      "role": "marker"
+    },
+    "rc-049-2": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-050-12": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-050-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#3",
+      "role": "reporter"
+    },
+    "rc-050-7": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-051-12": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-051-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#3",
+      "role": "reporter"
+    },
+    "rc-051-7": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-052-12": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-052-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#3",
+      "role": "reporter"
+    },
+    "rc-052-7": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-053-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-053-5": {
+      "family": "renilla_luciferase",
+      "family_group": "renilla_luciferase",
+      "lineage_group": "renilla_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-053-8": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-054-2": {
+      "family": "aminoglycoside_nucleotidyltransferase",
+      "family_group": "aminoglycoside_nucleotidyltransferase",
+      "lineage_group": "aminoglycoside_nucleotidyltransferase#1",
+      "role": "marker"
+    },
+    "rc-054-4": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#3",
+      "role": "reporter"
+    },
+    "rc-054-7": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-055-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#3",
+      "role": "reporter"
+    },
+    "rc-056-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-057-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-058-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-059-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-060-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#3",
+      "role": "reporter"
+    },
+    "rc-060-6": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-061-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-061-7": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-062-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-062-7": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-063-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#2",
+      "role": "reporter"
+    },
+    "rc-063-7": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-064-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#3",
+      "role": "reporter"
+    },
+    "rc-064-7": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-065-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-065-7": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-066-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#6",
+      "role": "reporter"
+    },
+    "rc-066-7": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-067-10": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-067-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#4",
+      "role": "reporter"
+    },
+    "rc-068-1": {
+      "family": "hygromycin_phosphotransferase",
+      "family_group": "hygromycin_phosphotransferase",
+      "lineage_group": "hygromycin_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-068-2": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-068-3": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#7",
+      "role": "reporter"
+    },
+    "rc-069-1": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-069-2": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-070-1": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-070-2": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-071-1": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-071-2": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-072-1": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-072-2": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-073-1": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-073-2": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-074-1": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-074-2": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-075-1": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-075-2": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-076-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-076-3": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-077-1": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#2",
+      "role": "marker"
+    },
+    "rc-077-2": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-078-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-079-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-079-3": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-080-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-080-3": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-081-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-081-3": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-082-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-082-4": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-083-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-083-3": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-084-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-084-3": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-085-2": {
+      "family": "gfp_like",
+      "family_group": "gfp_like",
+      "lineage_group": "gfp_like#1",
+      "role": "reporter"
+    },
+    "rc-085-3": {
+      "family": "aminoglycoside_phosphotransferase",
+      "family_group": "aminoglycoside_phosphotransferase",
+      "lineage_group": "aminoglycoside_phosphotransferase#1",
+      "role": "marker"
+    },
+    "rc-086-10": {
+      "family": "beta_lactamase",
+      "family_group": "beta_lactamase",
+      "lineage_group": "beta_lactamase#1",
+      "role": "marker"
+    },
+    "rc-086-3": {
+      "family": "firefly_luciferase",
+      "family_group": "firefly_luciferase",
+      "lineage_group": "firefly_luciferase#1",
+      "role": "reporter"
+    },
+    "rc-086-8": {
+      "family": "beta_galactosidase",
+      "family_group": "beta_galactosidase",
+      "lineage_group": "beta_galactosidase#2",
+      "role": "reporter"
+    }
+  },
+  "components": 169,
+  "family_groups": 9,
+  "identity_threshold": 0.9,
+  "lineage_groups": 21,
+  "study": "q2-reporter-replication"
+}

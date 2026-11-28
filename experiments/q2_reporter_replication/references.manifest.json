@@ -1,0 +1,104 @@
+{
+  "families": [
+    "aminoglycoside_nucleotidyltransferase",
+    "aminoglycoside_phosphotransferase",
+    "beta_galactosidase",
+    "beta_lactamase",
+    "firefly_luciferase",
+    "gfp_like",
+    "hygromycin_phosphotransferase",
+    "puromycin_n_acetyltransferase",
+    "renilla_luciferase"
+  ],
+  "prepared_sha256": "6a8df86585545f265952f55770323ccc7b0871876683ac3d210e8befd2f77ab2",
+  "provider": "UniProtKB/Swiss-Prot",
+  "query": "reviewed:true AND (accession:P00551 OR accession:P00552 OR accession:P00557 OR accession:P00722 OR accession:P08659 OR accession:P0AG05 OR accession:P13249 OR accession:P27652 OR accession:P42212 OR accession:P62593 OR accession:Q8ISF8 OR accession:Q9U6Y8)",
+  "references": [
+    {
+      "accession": "P00551",
+      "family": "aminoglycoside_phosphotransferase",
+      "length": 271,
+      "sequence_sha256": "4c9d2f83a2f44bab5bb5f5f52ccf4ac8e149bd9347eae1e1a9413219f07e1067",
+      "sequence_version": 2
+    },
+    {
+      "accession": "P00552",
+      "family": "aminoglycoside_phosphotransferase",
+      "length": 264,
+      "sequence_sha256": "acbf1fe51a97a2e90c2bcd13adabec985a63c501fae0f2a2cfcb46258abda56e",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P00557",
+      "family": "hygromycin_phosphotransferase",
+      "length": 341,
+      "sequence_sha256": "eac8227e88a870211484bad2c215e0a6c2002ca65c8d72e79ddbe7e572585510",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P00722",
+      "family": "beta_galactosidase",
+      "length": 1024,
+      "sequence_sha256": "d192d45958b03c26f677259276df226f5442462bf8c0a20fea4a10f0f426ad39",
+      "sequence_version": 2
+    },
+    {
+      "accession": "P08659",
+      "family": "firefly_luciferase",
+      "length": 550,
+      "sequence_sha256": "abda0b3a5aa96aaa72c6b8e345ebbb67db0936532456cd861c94257224f9babc",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P0AG05",
+      "family": "aminoglycoside_nucleotidyltransferase",
+      "length": 263,
+      "sequence_sha256": "7e2fe03f613cd8419ce2fd94427ac6736ade16cd967d939afb7cd9adbd2794f4",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P13249",
+      "family": "puromycin_n_acetyltransferase",
+      "length": 199,
+      "sequence_sha256": "4dd50e0b06d67b15b0b2255a37926a8d6b4857287d02325d3671a444f9d549ef",
+      "sequence_version": 2
+    },
+    {
+      "accession": "P27652",
+      "family": "renilla_luciferase",
+      "length": 311,
+      "sequence_sha256": "625219b0991e13f0c0179a03a5de369949f26291677872011dbc0643a431ecc4",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P42212",
+      "family": "gfp_like",
+      "length": 238,
+      "sequence_sha256": "44f2688342a00e4b01e82be5e655b26499f981515d5da9a6076315627355b403",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P62593",
+      "family": "beta_lactamase",
+      "length": 286,
+      "sequence_sha256": "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468",
+      "sequence_version": 1
+    },
+    {
+      "accession": "Q8ISF8",
+      "family": "gfp_like",
+      "length": 231,
+      "sequence_sha256": "7e513be6ea94496befe621b65095a927fac92d321fe21f46fdb3c6332da0257d",
+      "sequence_version": 1
+    },
+    {
+      "accession": "Q9U6Y8",
+      "family": "gfp_like",
+      "length": 225,
+      "sequence_sha256": "016abb252860c3952220cc3698048f23bc7983664b322b933a62df0b328e0301",
+      "sequence_version": 1
+    }
+  ],
+  "response_sha256": "1c614f92f9a0fcb95f6c9fff455195f1dc9f1c9e5a00e608d0d717ca59b05c20",
+  "tool": "iri_constructs_q2_reporter"
+}
